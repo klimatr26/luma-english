@@ -1,0 +1,21 @@
+{
+  "scope": "results_40_current_16",
+  "input_completion_sha256": "ca22396622a044d9e2990b62d05dda9a08fc59070b71b29656a6612219b16f04",
+  "report_code_sha256": "0756e35fa985ef08d9c648c4cf519c97917ac7c67a09b78d1303f76bf01fef49",
+  "human_confirmed": 0,
+  "new_slm_inferences": 0,
+  "artifacts": [
+    {
+      "path": "SLM_A1A2/analysis_v2/results_40_current_16/reports/errant_categories.csv",
+      "sha256": "9652b0594833e33cce87a1153713492fc876c4bb245315d5727e665d8c9381a6"
+    },
+    {
+      "path": "SLM_A1A2/analysis_v2/results_40_current_16/reports/scope_report.md",
+      "sha256": "422efa589a793999732e33114d894279a94ef5a20ad1e0d9f9393fe614008b98"
+    },
+    {
+      "path": "SLM_A1A2/analysis_v2/results_40_current_16/reports/subgroup_summary.csv",
+      "sha256": "6fd5fd03fa0be4e9367e73c37782ccda1c6c28f15ca769a6ff50a8350435641c"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "config_id": "05-minicpm5-2b-q8-0",
+  "family": "minicpm",
+  "quant": "Q8_0",
+  "summary": {
+    "cases": 40,
+    "incorrect_cases_expected": 30,
+    "incorrect_text_observable": 25,
+    "incorrect_text_unobservable": 5,
+    "expected_primary_errant_edits": 64,
+    "unobservable_primary_errant_edits": 11,
+    "gec_conditional_on_observable_text": {
+      "primary": {
+        "tp": 42,
+        "fp": 7,
+        "fn": 11,
+        "precision": 0.8571428571428571,
+        "recall": 0.7924528301886793,
+        "f0_5": 0.8433734939759037
+      },
+      "best_full_reference": {
+        "tp": 45,
+        "fp": 4,
+        "fn": 10,
+        "precision": 0.9183673469387755,
+        "recall": 0.8181818181818182,
+        "f0_5": 0.8964143426294822
+      }
+    },
+    "recall_all_primary_gold_unobservable_as_missed": 0.65625,
+    "controls_expected": 10,
+    "ctmr_modified_observed": 0,
+    "ctmr_unobservable": 0,
+    "cfar_false_alarm_observed": 1,
+    "cfar_unobservable": 0,
+    "fully_preserved_observed": 9,
+    "fully_preserved_unobservable": 0,
+    "parse_status": {
+      "direct": 33,
+      "invalid": 5,
+      "recoverable": 2
+    },
+    "schema_valid": 34,
+    "strict_json_compliant": 32,
+    "declarations": {
+      "verified_matches_output": 27,
+      "verified_differs_output": 7,
+      "unverified_ambiguous_or_absent_fragment": 1,
+      "unverified_shape": 5
+    },
+    "declarations_coherent_non_noop": 24,
+    "incorrect_text_equal_primary": 16,
+    "incorrect_text_equal_licensed_complete_reference": 17,
+    "flag_correct_observed": 34,
+    "flag_unobservable": 5,
+    "incorrect_flag_correct_observed": 25,
+    "incorrect_flag_unobservable": 5,
+    "human_confirmed": 0,
+    "latency_median_seconds_descriptive": 1.1409062500024447,
+    "schema_version": "evaluation-v2.0"
+  },
+  "selection": {
+    "rows_in": 40,
+    "rows_selected": 40,
+    "duplicate_cases_resolved": [],
+    "selection_policy": "highest verified final attempt number"
+  },
+  "primary_frozen_tp": 9,
+  "primary_frozen_fp": 38,
+  "primary_frozen_fn": 50
+}

@@ -1,0 +1,32 @@
+{
+  "status": "VALIDATED_PENDING_USER_APPROVAL",
+  "scope_id": "phase1_40_current_16",
+  "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+  "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "phase1_baseline_sha256": "f2d2d4b081d7afac723178aabc805f618b48ed1289b9f131ce7f5bc08b93989f",
+  "case_count": 40,
+  "planned_rows": 640,
+  "config_ids": [
+    "01-qwen35-2b-f16",
+    "02-qwen35-2b-q8-0",
+    "03-qwen35-2b-q4-k-m",
+    "04-minicpm5-2b-f16",
+    "05-minicpm5-2b-q8-0",
+    "06-minicpm5-2b-q4-k-m",
+    "07-lfm25-12b-bf16",
+    "08-lfm25-12b-q8-0",
+    "09-lfm25-12b-q4-k-m",
+    "10-qwen35-4b-q8-0",
+    "11-qwen35-4b-q4-k-m",
+    "12-gemma4-e2b-qat-q4-0",
+    "13-gemma4-e2b-ud-q4-k-xl",
+    "14-gemma4-e2b-ud-q2-k-xl",
+    "15-lfm25-26b-q8-0",
+    "16-lfm25-26b-q4-k-m"
+  ],
+  "expansion_authorization_sha256": "fbf12e175fc14208f4514af126e5755bb58b514490e271b8dcb080137c4e7bbc",
+  "blocker_count": 0,
+  "review_count": 0,
+  "execution_approved": false,
+  "validation_scope": "Technical scope binding for the separately authorized 16-configuration, 40-case extension. This record does not approve or alter benchmark gold, historical results, manifest settings, or the final test. The original 24 Phase 1 artifacts remain read-only."
+}

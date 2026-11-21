@@ -1,0 +1,87 @@
+{
+  "source_sha256": "aab637a75c37805e405246d62676ace242a730fc78e528336ad90d4819417634",
+  "input_rows_sha256": "7a9d1d231299f48136e47efc17b6ff02d7d61e35ed2002564f37621715c2687a",
+  "output_rows_sha256": "b4f14d3d35eafadcd90dd7b43ca409d064860ea60c5a842eca22d35b4660bdae",
+  "configurations": [
+    {
+      "config_id": "05-minicpm5-2b-q8-0",
+      "cases": 40,
+      "usable": 32,
+      "statuses": {
+        "INCONSISTENT": 2,
+        "INVALID_JSON": 5,
+        "INVALID_SCHEMA": 1,
+        "RECOVERED": 1,
+        "STRICT": 31
+      }
+    },
+    {
+      "config_id": "06-minicpm5-2b-q4-k-m",
+      "cases": 40,
+      "usable": 39,
+      "statuses": {
+        "INCONSISTENT": 1,
+        "STRICT": 39
+      }
+    },
+    {
+      "config_id": "08-lfm25-12b-q8-0",
+      "cases": 40,
+      "usable": 11,
+      "statuses": {
+        "INCONSISTENT": 29,
+        "STRICT": 11
+      }
+    },
+    {
+      "config_id": "09-lfm25-12b-q4-k-m",
+      "cases": 40,
+      "usable": 11,
+      "statuses": {
+        "INCONSISTENT": 29,
+        "STRICT": 11
+      }
+    },
+    {
+      "config_id": "15-lfm25-26b-q8-0",
+      "cases": 40,
+      "usable": 33,
+      "statuses": {
+        "INCONSISTENT": 5,
+        "INVALID_JSON": 2,
+        "RECOVERED": 33
+      }
+    },
+    {
+      "config_id": "16-lfm25-26b-q4-k-m",
+      "cases": 40,
+      "usable": 29,
+      "statuses": {
+        "INCONSISTENT": 9,
+        "INVALID_JSON": 2,
+        "RECOVERED": 29
+      }
+    },
+    {
+      "config_id": "17-lfm3-17b-q8-0",
+      "cases": 40,
+      "usable": 20,
+      "statuses": {
+        "INCONSISTENT": 3,
+        "INVALID_JSON": 17,
+        "RECOVERED": 20
+      }
+    },
+    {
+      "config_id": "18-lfm3-17b-q4-k-m",
+      "cases": 40,
+      "usable": 13,
+      "statuses": {
+        "INCONSISTENT": 5,
+        "INVALID_JSON": 19,
+        "INVALID_SCHEMA": 3,
+        "RECOVERED": 13
+      }
+    }
+  ]
+}

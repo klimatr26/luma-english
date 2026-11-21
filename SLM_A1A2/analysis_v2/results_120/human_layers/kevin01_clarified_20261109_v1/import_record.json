@@ -1,0 +1,12 @@
+{
+  "scope": "results_120",
+  "review_file_sha256": "d4057ec2836083bf02730255b5481dbe9a6d2dee9890e7dd33b47435d6c4c0d9",
+  "crosswalk_sha256": "889352bb417ba0886b8f89eadace8d595d980d34715d69ae66e27cceb8bbb9ac",
+  "review_records": 180,
+  "distinct_response_pairs": 180,
+  "invalid_case_proposals": 0,
+  "invalidations_applied": false,
+  "assessable_human_review_records": 179,
+  "primary_and_v2_automatic_scores_modified": false,
+  "note": "Human claims are retained per reviewer. No automatic adjudication or dataset exclusion."
+}

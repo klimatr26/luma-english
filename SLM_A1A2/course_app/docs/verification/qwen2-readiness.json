@@ -1,0 +1,59 @@
+{
+  "Purpose": "COURSE_APPLICATION_INTEGRATION_NOT_BENCHMARK",
+  "DateUtc": "2026-11-20T00:31:52.5522446+00:00",
+  "Host": "DESKTOP-V750TES",
+  "Device": {
+    "Platform": "Windows",
+    "Architecture": "X64",
+    "TotalMemoryBytes": 17087791104,
+    "AvailableMemoryBytes": 7520837632,
+    "FreeStorageBytes": 58989924352,
+    "IsEmulator": false,
+    "GpuDescription": null
+  },
+  "CourseVersion": "1.0.0",
+  "ProposalSha256": "b5d84d938efc07c93b75f5668d122e8c96ad64b007b464f2ad7278e442b8cae6",
+  "RuntimeHashes": {
+    "writing_worker.exe": "edb4703a0e7aac03d470dfccadd966690f717f50343ff3ccb77b98c97aff1589",
+    "writing_llama_bridge.dll": "f006ccde902bb0a98573dcd17b5694bf6d9bd8e427c51f0e8908389248e3ba19",
+    "ggml-vulkan.dll": "9cc0d9416bf032caa58af66fc7fe700e35a476b74cab94fcb45e08f4eca8213c",
+    "llama.dll": "cffdf8f5399c30c1a24a2c192ed2675945ada6032c4463027e457052d647bffe",
+    "Course.Core.dll": "bf58373e940f01779c93c5a4156b2e7c7f8f8766a8cf57fbcb21033064795a77",
+    "WritingApp.Native.dll": "fe08f60b68a2032e51dc369cb350ea64820eb43ef56e926811e3b49e64e32a41",
+    "WritingApp.Shared.dll": "d1276b7cb7b7c629be2d8e96585c413ea81d87b6ca7efd6532bf86fee876068a"
+  },
+  "MeasurementLimits": "Worker RSS sampled every 100 ms; lifetime peak includes load. NVIDIA VRAM is device-wide, maximum reported adapter use, sampled every second; not attributed to this process. Null when unavailable.",
+  "Cases": [
+    {
+      "Id": "portable-unsloth-qwen35-2b-q4-k-m/Cpu/u01-writing-01/incorrect",
+      "ModelId": "portable-unsloth-qwen35-2b-q4-k-m",
+      "ModelSha256": "aaf42c8b7c3cab2bf3d69c355048d4a0ee9973d48f16c731c0520ee914699223",
+      "PromptSha256": "a56bbaf4dbfd39e83f343b3f5b7a7ad49fabbe1b5da97d742746d1a0e92e39b0",
+      "RequestedBackend": "Cpu",
+      "ActualBackend": "CPU",
+      "GpuLayers": 0,
+      "TotalLayers": 25,
+      "ExampleCorrect": false,
+      "Usable": true,
+      "ModelSaysCorrect": false,
+      "ParserStatus": "STRICT",
+      "FinishReason": "stop",
+      "GenerationSeconds": 11.4116657,
+      "WallSeconds": 11.642309,
+      "WorkerPeakRssBytes": 1985646592,
+      "WorkerLifetimePeakRssBytes": 1985646592,
+      "DeviceWidePeakVramMiB": 740,
+      "Attempts": 1,
+      "Metrics": {
+        "PromptTokens": 753,
+        "OutputTokens": 156,
+        "DecodedTokens": 156,
+        "PromptSeconds": 4.534888,
+        "DecodeSeconds": 6.730021,
+        "ClosedThinkingPrefill": false,
+        "DecodeTokensPerSecond": 23.179719647234386
+      },
+      "Error": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "scope": "results_120",
+  "human_notes_prefilled": false,
+  "review_outputs": 180,
+  "case_count": 60,
+  "configuration_count": 3,
+  "human_confirmed": 0,
+  "files": [
+    {
+      "path": "SLM_A1A2/analysis_v2/human_review_development60/coordinator_only/identity_crosswalk.json",
+      "sha256": "889352bb417ba0886b8f89eadace8d595d980d34715d69ae66e27cceb8bbb9ac"
+    },
+    {
+      "path": "SLM_A1A2/analysis_v2/human_review_development60/coordinator_only/sample_plan.json",
+      "sha256": "2db085436347797c1f6c1967d9adf6d74b4ba1cfef2182c51648dcd9cff991a3"
+    },
+    {
+      "path": "SLM_A1A2/analysis_v2/human_review_development60/reviewer_materials/blank_reviews.jsonl",
+      "sha256": "0c3ec95b86ec54f7ae3bd2eeabc84bab48a2a61446f7629a7ba92f0f803cbf51"
+    },
+    {
+      "path": "SLM_A1A2/analysis_v2/human_review_development60/reviewer_materials/blind_packet.json",
+      "sha256": "abee26b77d9afe0b7d44cb25729b72aa1b0c5bab54f97635e7a6908b58d5a486"
+    },
+    {
+      "path": "SLM_A1A2/analysis_v2/human_review_development60/reviewer_materials/human_review_rubric_v2.md",
+      "sha256": "89f141c263a4e3c7f20d398e2404f8901182b2c21cefc740ef7cdac20910ef16"
+    },
+    {
+      "path": "SLM_A1A2/analysis_v2/human_review_development60/reviewer_materials/review_cards.md",
+      "sha256": "5128f892c02de08ab714737d82fe05bdb118a0215b119c7a67f5ba272f33df30"
+    }
+  ]
+}

@@ -1,0 +1,1058 @@
+{
+  "model_name": "Qwen3.5-0.8B",
+  "benchmark_id": "writing_a1_a2_smoke_v2",
+  "benchmark_version": "2.0",
+  "evaluation_scope": "Solo gold v2 congelado y outputs de este modelo; sin usar resultados de otros modelos.",
+  "summary": {
+    "cases": 40,
+    "labels": {
+      "CORRECT": 17,
+      "PARTIAL": 13,
+      "INCORRECT": 10
+    },
+    "case_accuracy": {
+      "correct": 17,
+      "partial": 13,
+      "incorrect": 10,
+      "correct_rate": 0.425
+    },
+    "real_errors": 59,
+    "detected_errors": 34,
+    "missed_errors": 25,
+    "false_positive_errors": 2,
+    "error_detection_recall": 0.576271186440678,
+    "error_precision": 0.9444444444444444,
+    "corrections_valid_cases": 29,
+    "corrections_valid_rate": 0.725,
+    "explanation_valid_cases": 23,
+    "explanation_valid_rate": 0.575,
+    "meaning_preserved_cases": 38,
+    "meaning_preserved_rate": 0.95,
+    "json_valid_cases": 40,
+    "json_valid_rate": 1.0,
+    "truncated_cases": 0,
+    "repetition_or_loop_cases": 0,
+    "text_outside_json_cases": 0,
+    "execution_completed_cases": 40,
+    "needs_human_review_cases": 0,
+    "latency_seconds": {
+      "mean": 11.187401445001887,
+      "median": 8.434216700028628,
+      "min": 6.344707100011874,
+      "max": 30.47024809999857
+    },
+    "tokens_generated": {
+      "total": 5502,
+      "mean": 137.55,
+      "median": 105.5
+    },
+    "peak_RAM_bytes": {
+      "mean": 2753347584,
+      "max": 2753347584
+    },
+    "peak_RAM_GiB": {
+      "mean": 2.5642547607421875,
+      "max": 2.5642547607421875
+    },
+    "peak_VRAM_bytes": {
+      "mean": 1811415040,
+      "max": 1811939328
+    },
+    "peak_VRAM_GiB": {
+      "mean": 1.68701171875,
+      "max": 1.6875
+    }
+  },
+  "cases": [
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E01",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "subject-verb agreement / present simple: live",
+        "subject-verb agreement / present simple: get up",
+        "subject-verb agreement / present simple: go"
+      ],
+      "detected_errors": [
+        "subject-verb agreement / present simple: get up"
+      ],
+      "missed_errors": [
+        "subject-verb agreement / present simple: live",
+        "subject-verb agreement / present simple: go"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Corrected all three forms in corrected_text; feedback identifies get up, but errors is empty and is_correct incorrectly true, so detection/correction is not represented in the required schema."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E02",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "form of be / subject-verb agreement: My sister are",
+        "form of be / subject-verb agreement: We is"
+      ],
+      "detected_errors": [
+        "form of be / subject-verb agreement: My sister are"
+      ],
+      "missed_errors": [
+        "form of be / subject-verb agreement: We is"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E03",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "present simple / verb form after do: don't likes",
+        "subject-verb agreement / present simple: father like",
+        "subject-verb agreement / present simple: mother make"
+      ],
+      "detected_errors": [
+        "present simple / verb form after do: don't likes"
+      ],
+      "missed_errors": [
+        "subject-verb agreement / present simple: father like",
+        "subject-verb agreement / present simple: mother make"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "All three fixed in text, but only first detected; explanation of don’t like is confused."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E04",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "present continuous / form of be: Two boys is playing",
+        "present continuous / form of be: a woman are sitting",
+        "present continuous: Her dog run"
+      ],
+      "detected_errors": [
+        "present continuous / form of be: Two boys is playing",
+        "present continuous: Her dog run"
+      ],
+      "missed_errors": [
+        "present continuous / form of be: a woman are sitting"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Corrects two boys and dog, misses woman are; dog runs is grammatical but fails explicit happening-now context."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E05",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "article: an dog",
+        "article: a orange"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "article: an dog",
+        "article: a orange"
+      ],
+      "false_positive_errors": [
+        "changes called Max to named Max, an unnecessary lexical alteration"
+      ],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Articles are corrected, but the errors array is empty and is_correct wrongly true; also changes called to named unnecessarily."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E06",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "singular/plural: three book",
+        "singular/plural: two pencil",
+        "form of be / subject-verb agreement: The books is",
+        "subject-verb agreement / present simple: one pencil have"
+      ],
+      "detected_errors": [
+        "singular/plural: three book",
+        "singular/plural: two pencil",
+        "form of be / subject-verb agreement: The books is",
+        "subject-verb agreement / present simple: one pencil have"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E07",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "subject pronoun: My friend and me",
+        "subject-verb agreement / present simple: goes",
+        "object pronoun: helps I",
+        "subject-verb agreement / present simple: we plays"
+      ],
+      "detected_errors": [
+        "subject-verb agreement / present simple: goes",
+        "object pronoun: helps I",
+        "subject-verb agreement / present simple: we plays"
+      ],
+      "missed_errors": [
+        "subject pronoun: My friend and me"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Corrected text fixes all four, but first error bundles pronoun with agreement and explanation for object pronoun is faulty."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E08",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "possessive apostrophe: sisters bag",
+        "subject-verb agreement / present simple: She take"
+      ],
+      "detected_errors": [
+        "possessive apostrophe: sisters bag",
+        "subject-verb agreement / present simple: She take"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Both corrections right, but explanations misclassify apostrophe and pronoun/verb agreement."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E09",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "preposition of time: at Monday",
+        "preposition of time: in 10 o'clock"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "preposition of time: at Monday",
+        "preposition of time: in 10 o'clock"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Drops most original, leaves in 10 o’clock uncorrected, falsely claims correctness."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E10",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "word order / time expression: I every day walk to school with my cousin",
+        "word order: We at the bus stop meet our friends"
+      ],
+      "detected_errors": [
+        "word order / time expression: I every day walk to school with my cousin",
+        "word order: We at the bus stop meet our friends"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Text fixes both word-order errors, but only one listed and explanation mislabels word order as agreement."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E11",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "present simple question word order: Where you live",
+        "question word order / form of be: How old your brother is"
+      ],
+      "detected_errors": [
+        "present simple question word order: Where you live",
+        "question word order / form of be: How old your brother is"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E12",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "present simple negation: I no like"
+      ],
+      "detected_errors": [
+        "present simple negation: I no like"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E13",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "some/any: aren't some apples"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "some/any: aren't some apples"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Leaves aren’t some unchanged and falsely says correct."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E14",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "basic lexical choice / coordination: eat a glass of water and a sandwich"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "basic lexical choice / coordination: eat a glass of water and a sandwich"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Leaves eat a glass of water unchanged and falsely says correct."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-E15",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "spelling: freind",
+        "punctuation: Saturday"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "spelling: freind",
+        "punctuation: Saturday"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Adds terminal full stop but does not identify punctuation error; is_correct wrongly true."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-C01",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-C02",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-C03",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-C04",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A1-C05",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E01",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "past simple / irregular verb: goed",
+        "past simple: come home"
+      ],
+      "detected_errors": [
+        "past simple / irregular verb: goed",
+        "past simple: come home"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Text corrected, but is_correct true and neither error structurally identified."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E02",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "comparative adjective: more cheaper"
+      ],
+      "detected_errors": [
+        "comparative adjective: more cheaper"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Uses more cheap, still an invalid double comparative, and is_correct wrongly true."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E03",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "much/many: much suitcases",
+        "much/many / quantifier choice: many time"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "much/many: much suitcases",
+        "much/many / quantifier choice: many time"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Leaves both quantifier errors and falsely claims correctness."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E04",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "article: to restaurant",
+        "article: and meal"
+      ],
+      "detected_errors": [
+        "article: and meal"
+      ],
+      "missed_errors": [
+        "article: to restaurant"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Fixes and meal to the meal, misses to restaurant; explanation inaccurate."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E05",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "present continuous / subject-verb agreement: My friends makes"
+      ],
+      "detected_errors": [
+        "present continuous / subject-verb agreement: My friends makes"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E06",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "object pronoun: showed I",
+        "object pronoun: sent they"
+      ],
+      "detected_errors": [
+        "object pronoun: showed I",
+        "object pronoun: sent they"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E07",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "possessive apostrophe: parents room",
+        "possessive determiner / contraction: they're books"
+      ],
+      "detected_errors": [
+        "possessive apostrophe: parents room"
+      ],
+      "missed_errors": [
+        "possessive determiner / contraction: they're books"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Text repairs both; omits parents’ room in errors and says they’re becomes the, not their."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E08",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "preposition of place: in the bus stop",
+        "preposition after arrive: arrives to school"
+      ],
+      "detected_errors": [
+        "preposition after arrive: arrives to school"
+      ],
+      "missed_errors": [
+        "preposition of place: in the bus stop"
+      ],
+      "false_positive_errors": [
+        "claims in the bus stop correct"
+      ],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Fixes arrives to but misses at the bus stop and validates it."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E09",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "past simple question word order: Where you went",
+        "past simple question / verb form after did: Did you stayed"
+      ],
+      "detected_errors": [
+        "past simple question word order: Where you went",
+        "past simple question / verb form after did: Did you stayed"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E10",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "form of be / singular-plural: There was two",
+        "form of be / subject-verb agreement: windows was"
+      ],
+      "detected_errors": [
+        "form of be / singular-plural: There was two",
+        "form of be / subject-verb agreement: windows was"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Both corrected but only windows was listed; its explanation wrongly describes plural windows as requiring singular was."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E11",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "preposition after verb: listen music"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "preposition after verb: listen music"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Leaves listen music unchanged and falsely claims correctness."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E12",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "spelling / past simple: studyed",
+        "past simple negation: didn't went"
+      ],
+      "detected_errors": [
+        "spelling / past simple: studyed",
+        "past simple negation: didn't went"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Text fixes both, but detects neither structurally and incorrectly marks original correct."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E13",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "some/any: doesn't have some",
+        "some/any: buy any milk"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "some/any: doesn't have some",
+        "some/any: buy any milk"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Leaves both some/any errors and falsely claims correctness."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E14",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "superlative adjective / double comparison: the most noisier"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "superlative adjective / double comparison: the most noisier"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Leaves most noisier unchanged and falsely claims correctness."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-E15",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "past simple: eat"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "past simple: eat"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Changes eat to had, but does not identify original error and marks correct."
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-C01",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-C02",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-C03",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-C04",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "case_id": "A2-C05",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    }
+  ]
+}

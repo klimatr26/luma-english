@@ -1,0 +1,68 @@
+{
+  "config_id": "07-lfm25-12b-bf16",
+  "family": "lfm",
+  "quant": "BF16",
+  "summary": {
+    "cases": 40,
+    "incorrect_cases_expected": 30,
+    "incorrect_text_observable": 30,
+    "incorrect_text_unobservable": 0,
+    "expected_primary_errant_edits": 64,
+    "unobservable_primary_errant_edits": 0,
+    "gec_conditional_on_observable_text": {
+      "primary": {
+        "tp": 50,
+        "fp": 23,
+        "fn": 14,
+        "precision": 0.684931506849315,
+        "recall": 0.78125,
+        "f0_5": 0.7022471910112359
+      },
+      "best_full_reference": {
+        "tp": 52,
+        "fp": 21,
+        "fn": 14,
+        "precision": 0.7123287671232876,
+        "recall": 0.7878787878787878,
+        "f0_5": 0.7262569832402235
+      }
+    },
+    "recall_all_primary_gold_unobservable_as_missed": 0.78125,
+    "controls_expected": 10,
+    "ctmr_modified_observed": 2,
+    "ctmr_unobservable": 0,
+    "cfar_false_alarm_observed": 1,
+    "cfar_unobservable": 0,
+    "fully_preserved_observed": 8,
+    "fully_preserved_unobservable": 0,
+    "parse_status": {
+      "direct": 40
+    },
+    "schema_valid": 40,
+    "strict_json_compliant": 40,
+    "declarations": {
+      "verified_differs_output": 24,
+      "verified_matches_output": 14,
+      "unverified_ambiguous_or_absent_fragment": 2
+    },
+    "declarations_coherent_non_noop": 10,
+    "incorrect_text_equal_primary": 16,
+    "incorrect_text_equal_licensed_complete_reference": 16,
+    "flag_correct_observed": 13,
+    "flag_unobservable": 0,
+    "incorrect_flag_correct_observed": 3,
+    "incorrect_flag_unobservable": 0,
+    "human_confirmed": 0,
+    "latency_median_seconds_descriptive": 0.5557730000036827,
+    "schema_version": "evaluation-v2.0"
+  },
+  "selection": {
+    "rows_in": 40,
+    "rows_selected": 40,
+    "duplicate_cases_resolved": [],
+    "selection_policy": "highest verified final attempt number"
+  },
+  "primary_frozen_tp": 2,
+  "primary_frozen_fp": 32,
+  "primary_frozen_fn": 57
+}

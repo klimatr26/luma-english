@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><AllowUnsafeBlocks>true</AllowUnsafeBlocks><RuntimeIdentifiers>win-x64</RuntimeIdentifiers></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Course.Core/Course.Core.csproj" />
+    <ProjectReference Include="../../cross_demo/WritingApp.Native/WritingApp.Native.csproj" />
+    <Compile Include="../Course.Desktop/WindowsHost.cs" Link="WindowsHost.cs" />
+    <Compile Include="../../cross_demo/WritingApp.Desktop/PlatformBootstrap.cs" Link="PrototypeBootstrap.cs" />
+    <Content Include="$(WritingNativeRoot)/win-x64/*.dll" Link="%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="$(WritingNativeRoot)/win-x64/writing_worker.exe" Link="writing_worker.exe" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

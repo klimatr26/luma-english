@@ -1,0 +1,9 @@
+{
+  "package": "org.kevinlima.writinglab",
+  "version": "1.1.2",
+  "apk": "LumaEnglish-Android-android-arm64-1.1.2.apk",
+  "sha256": "87bfd8321243ade59e65583e4e2a7a2775a11c15e26bbf4e089b581078c7fb11",
+  "exit_code": 0,
+  "stdout": "Performing Streamed Install\r\nSuccess\r\n",
+  "stderr": ""
+}

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "human_review_v2_schema.json",
+  "title": "Human review v2 record",
+  "description": "A traceable human judgment for one exact response. Condition-dependent NA rules are enforced by human_review_v2.py using the separate crosswalk. This schema does not create a human-confirmed result.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "scope",
+    "benchmark_sha256",
+    "manifest_sha256",
+    "config_id",
+    "case_id",
+    "response_sha256",
+    "reviewer_id",
+    "review_date",
+    "response_assessable",
+    "rationale",
+    "detection",
+    "correction",
+    "meaning_preservation",
+    "level_appropriateness",
+    "grammatical_explanation",
+    "pedagogical_clarity",
+    "clean_text_handling",
+    "meaning_preserved",
+    "explanations_ok",
+    "verdict"
+  ],
+  "properties": {
+    "schema_version": { "const": "human_review_v2/1.0" },
+    "scope": { "type": "string", "minLength": 1 },
+    "benchmark_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "manifest_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "config_id": { "type": "string", "minLength": 1 },
+    "case_id": { "type": "string", "minLength": 1 },
+    "response_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "reviewer_id": { "type": "string", "minLength": 1 },
+    "review_date": { "type": "string", "format": "date" },
+    "response_assessable": {
+      "type": "boolean",
+      "description": "Explicit reviewer decision based on the exact raw response. Do not infer false from invalid JSON or parser failure."
+    },
+    "rationale": { "type": "string", "minLength": 1 },
+    "detection": { "$ref": "#/$defs/rating" },
+    "correction": { "$ref": "#/$defs/rating" },
+    "meaning_preservation": { "$ref": "#/$defs/rating" },
+    "level_appropriateness": { "$ref": "#/$defs/rating" },
+    "grammatical_explanation": { "$ref": "#/$defs/rating" },
+    "pedagogical_clarity": { "$ref": "#/$defs/rating" },
+    "clean_text_handling": { "$ref": "#/$defs/rating" },
+    "meaning_preserved": { "$ref": "#/$defs/explicit_judgment" },
+    "explanations_ok": { "$ref": "#/$defs/explicit_judgment" },
+    "verdict": { "enum": ["CORRECT", "PARTIAL", "INCORRECT", "INVALID_CASE"] }
+  },
+  "$defs": {
+    "rating": {
+      "oneOf": [
+        { "type": "integer", "minimum": 0, "maximum": 2 },
+        { "const": "NA" }
+      ],
+      "description": "Use 0, 1, or 2; use NA only when the rubric explains that the criterion does not apply or cannot be assessed. Booleans are not scores."
+    },
+    "explicit_judgment": {
+      "oneOf": [
+        { "type": "boolean" },
+        { "const": "NA" }
+      ],
+      "description": "Use a JSON boolean when the exact response supports a judgment; use NA only where the rubric permits it."
+    }
+  }
+}

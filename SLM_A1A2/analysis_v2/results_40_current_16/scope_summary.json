@@ -1,0 +1,1154 @@
+{
+  "version": "evaluation-v2.0",
+  "scope": "results_40_current_16",
+  "analysis_kind": "POST_HOC_VERSIONED_REEVALUATION",
+  "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+  "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "human_confirmed": 0,
+  "original_sources_unchanged": true,
+  "configurations": [
+    {
+      "config_id": "01-qwen35-2b-f16",
+      "family": "qwen",
+      "quant": "F16",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 29,
+        "incorrect_text_unobservable": 1,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 4,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 43,
+            "fp": 16,
+            "fn": 17,
+            "precision": 0.7288135593220338,
+            "recall": 0.7166666666666667,
+            "f0_5": 0.7263513513513513
+          },
+          "best_full_reference": {
+            "tp": 44,
+            "fp": 15,
+            "fn": 16,
+            "precision": 0.7457627118644068,
+            "recall": 0.7333333333333333,
+            "f0_5": 0.7432432432432432
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.671875,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 3,
+        "ctmr_unobservable": 0,
+        "cfar_false_alarm_observed": 1,
+        "cfar_unobservable": 0,
+        "fully_preserved_observed": 7,
+        "fully_preserved_unobservable": 0,
+        "parse_status": {
+          "direct": 39,
+          "recoverable": 1
+        },
+        "schema_valid": 35,
+        "strict_json_compliant": 35,
+        "declarations": {
+          "verified_differs_output": 17,
+          "verified_matches_output": 22,
+          "unverified_shape": 1
+        },
+        "declarations_coherent_non_noop": 21,
+        "incorrect_text_equal_primary": 13,
+        "incorrect_text_equal_licensed_complete_reference": 13,
+        "flag_correct_observed": 34,
+        "flag_unobservable": 1,
+        "incorrect_flag_correct_observed": 25,
+        "incorrect_flag_unobservable": 1,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 2.313759950000531,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 8,
+      "primary_frozen_fp": 41,
+      "primary_frozen_fn": 51
+    },
+    {
+      "config_id": "02-qwen35-2b-q8-0",
+      "family": "qwen",
+      "quant": "Q8_0",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 25,
+        "incorrect_text_unobservable": 5,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 11,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 37,
+            "fp": 17,
+            "fn": 16,
+            "precision": 0.6851851851851852,
+            "recall": 0.6981132075471698,
+            "f0_5": 0.687732342007435
+          },
+          "best_full_reference": {
+            "tp": 38,
+            "fp": 16,
+            "fn": 15,
+            "precision": 0.7037037037037037,
+            "recall": 0.7169811320754716,
+            "f0_5": 0.7063197026022305
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.578125,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 3,
+        "ctmr_unobservable": 0,
+        "cfar_false_alarm_observed": 1,
+        "cfar_unobservable": 0,
+        "fully_preserved_observed": 7,
+        "fully_preserved_unobservable": 0,
+        "parse_status": {
+          "direct": 35,
+          "recoverable": 2,
+          "invalid": 3
+        },
+        "schema_valid": 31,
+        "strict_json_compliant": 31,
+        "declarations": {
+          "verified_differs_output": 13,
+          "verified_matches_output": 21,
+          "unverified_shape": 5,
+          "unverified_ambiguous_or_absent_fragment": 1
+        },
+        "declarations_coherent_non_noop": 20,
+        "incorrect_text_equal_primary": 9,
+        "incorrect_text_equal_licensed_complete_reference": 9,
+        "flag_correct_observed": 30,
+        "flag_unobservable": 5,
+        "incorrect_flag_correct_observed": 21,
+        "incorrect_flag_unobservable": 5,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 1.6836120000007213,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 9,
+      "primary_frozen_fp": 32,
+      "primary_frozen_fn": 50
+    },
+    {
+      "config_id": "03-qwen35-2b-q4-k-m",
+      "family": "qwen",
+      "quant": "Q4_K_M",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 28,
+        "incorrect_text_unobservable": 2,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 7,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 37,
+            "fp": 29,
+            "fn": 20,
+            "precision": 0.5606060606060606,
+            "recall": 0.6491228070175439,
+            "f0_5": 0.5763239875389408
+          },
+          "best_full_reference": {
+            "tp": 37,
+            "fp": 29,
+            "fn": 20,
+            "precision": 0.5606060606060606,
+            "recall": 0.6491228070175439,
+            "f0_5": 0.5763239875389408
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.578125,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 1,
+        "ctmr_unobservable": 0,
+        "cfar_false_alarm_observed": 1,
+        "cfar_unobservable": 0,
+        "fully_preserved_observed": 9,
+        "fully_preserved_unobservable": 0,
+        "parse_status": {
+          "direct": 38,
+          "recoverable": 2
+        },
+        "schema_valid": 37,
+        "strict_json_compliant": 37,
+        "declarations": {
+          "verified_differs_output": 14,
+          "verified_matches_output": 23,
+          "unverified_shape": 2,
+          "unverified_overlapping_fragments": 1
+        },
+        "declarations_coherent_non_noop": 21,
+        "incorrect_text_equal_primary": 10,
+        "incorrect_text_equal_licensed_complete_reference": 10,
+        "flag_correct_observed": 33,
+        "flag_unobservable": 2,
+        "incorrect_flag_correct_observed": 24,
+        "incorrect_flag_unobservable": 2,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 1.3454754500016861,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 8,
+      "primary_frozen_fp": 44,
+      "primary_frozen_fn": 51
+    },
+    {
+      "config_id": "04-minicpm5-2b-f16",
+      "family": "minicpm",
+      "quant": "F16",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 23,
+        "incorrect_text_unobservable": 7,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 15,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 40,
+            "fp": 8,
+            "fn": 9,
+            "precision": 0.8333333333333334,
+            "recall": 0.8163265306122449,
+            "f0_5": 0.8298755186721992
+          },
+          "best_full_reference": {
+            "tp": 41,
+            "fp": 7,
+            "fn": 7,
+            "precision": 0.8541666666666666,
+            "recall": 0.8541666666666666,
+            "f0_5": 0.8541666666666666
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.625,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 0,
+        "ctmr_unobservable": 1,
+        "cfar_false_alarm_observed": 0,
+        "cfar_unobservable": 1,
+        "fully_preserved_observed": 9,
+        "fully_preserved_unobservable": 1,
+        "parse_status": {
+          "direct": 29,
+          "invalid": 8,
+          "recoverable": 3
+        },
+        "schema_valid": 31,
+        "strict_json_compliant": 28,
+        "declarations": {
+          "verified_matches_output": 25,
+          "verified_differs_output": 6,
+          "unverified_ambiguous_or_absent_fragment": 1,
+          "unverified_shape": 8
+        },
+        "declarations_coherent_non_noop": 24,
+        "incorrect_text_equal_primary": 15,
+        "incorrect_text_equal_licensed_complete_reference": 16,
+        "flag_correct_observed": 31,
+        "flag_unobservable": 8,
+        "incorrect_flag_correct_observed": 22,
+        "incorrect_flag_unobservable": 7,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 1.979407300001185,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 7,
+      "primary_frozen_fp": 34,
+      "primary_frozen_fn": 52
+    },
+    {
+      "config_id": "05-minicpm5-2b-q8-0",
+      "family": "minicpm",
+      "quant": "Q8_0",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 25,
+        "incorrect_text_unobservable": 5,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 11,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 42,
+            "fp": 7,
+            "fn": 11,
+            "precision": 0.8571428571428571,
+            "recall": 0.7924528301886793,
+            "f0_5": 0.8433734939759037
+          },
+          "best_full_reference": {
+            "tp": 45,
+            "fp": 4,
+            "fn": 10,
+            "precision": 0.9183673469387755,
+            "recall": 0.8181818181818182,
+            "f0_5": 0.8964143426294822
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.65625,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 0,
+        "ctmr_unobservable": 0,
+        "cfar_false_alarm_observed": 1,
+        "cfar_unobservable": 0,
+        "fully_preserved_observed": 9,
+        "fully_preserved_unobservable": 0,
+        "parse_status": {
+          "direct": 33,
+          "invalid": 5,
+          "recoverable": 2
+        },
+        "schema_valid": 34,
+        "strict_json_compliant": 32,
+        "declarations": {
+          "verified_matches_output": 27,
+          "verified_differs_output": 7,
+          "unverified_ambiguous_or_absent_fragment": 1,
+          "unverified_shape": 5
+        },
+        "declarations_coherent_non_noop": 24,
+        "incorrect_text_equal_primary": 16,
+        "incorrect_text_equal_licensed_complete_reference": 17,
+        "flag_correct_observed": 34,
+        "flag_unobservable": 5,
+        "incorrect_flag_correct_observed": 25,
+        "incorrect_flag_unobservable": 5,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 1.1409062500024447,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 9,
+      "primary_frozen_fp": 38,
+      "primary_frozen_fn": 50
+    },
+    {
+      "config_id": "06-minicpm5-2b-q4-k-m",
+      "family": "minicpm",
+      "quant": "Q4_K_M",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 30,
+        "incorrect_text_unobservable": 0,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 0,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 47,
+            "fp": 7,
+            "fn": 17,
+            "precision": 0.8703703703703703,
+            "recall": 0.734375,
+            "f0_5": 0.8392857142857143
+          },
+          "best_full_reference": {
+            "tp": 47,
+            "fp": 7,
+            "fn": 17,
+            "precision": 0.8703703703703703,
+            "recall": 0.734375,
+            "f0_5": 0.8392857142857143
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.734375,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 0,
+        "ctmr_unobservable": 0,
+        "cfar_false_alarm_observed": 0,
+        "cfar_unobservable": 0,
+        "fully_preserved_observed": 10,
+        "fully_preserved_unobservable": 0,
+        "parse_status": {
+          "direct": 40
+        },
+        "schema_valid": 39,
+        "strict_json_compliant": 39,
+        "declarations": {
+          "verified_matches_output": 32,
+          "verified_differs_output": 7,
+          "unverified_ambiguous_or_absent_fragment": 1
+        },
+        "declarations_coherent_non_noop": 31,
+        "incorrect_text_equal_primary": 19,
+        "incorrect_text_equal_licensed_complete_reference": 19,
+        "flag_correct_observed": 36,
+        "flag_unobservable": 0,
+        "incorrect_flag_correct_observed": 26,
+        "incorrect_flag_unobservable": 0,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 0.928234250000969,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 7,
+      "primary_frozen_fp": 38,
+      "primary_frozen_fn": 52
+    },
+    {
+      "config_id": "07-lfm25-12b-bf16",
+      "family": "lfm",
+      "quant": "BF16",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 30,
+        "incorrect_text_unobservable": 0,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 0,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 50,
+            "fp": 23,
+            "fn": 14,
+            "precision": 0.684931506849315,
+            "recall": 0.78125,
+            "f0_5": 0.7022471910112359
+          },
+          "best_full_reference": {
+            "tp": 52,
+            "fp": 21,
+            "fn": 14,
+            "precision": 0.7123287671232876,
+            "recall": 0.7878787878787878,
+            "f0_5": 0.7262569832402235
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.78125,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 2,
+        "ctmr_unobservable": 0,
+        "cfar_false_alarm_observed": 1,
+        "cfar_unobservable": 0,
+        "fully_preserved_observed": 8,
+        "fully_preserved_unobservable": 0,
+        "parse_status": {
+          "direct": 40
+        },
+        "schema_valid": 40,
+        "strict_json_compliant": 40,
+        "declarations": {
+          "verified_differs_output": 24,
+          "verified_matches_output": 14,
+          "unverified_ambiguous_or_absent_fragment": 2
+        },
+        "declarations_coherent_non_noop": 10,
+        "incorrect_text_equal_primary": 16,
+        "incorrect_text_equal_licensed_complete_reference": 16,
+        "flag_correct_observed": 13,
+        "flag_unobservable": 0,
+        "incorrect_flag_correct_observed": 3,
+        "incorrect_flag_unobservable": 0,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 0.5557730000036827,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 2,
+      "primary_frozen_fp": 32,
+      "primary_frozen_fn": 57
+    },
+    {
+      "config_id": "08-lfm25-12b-q8-0",
+      "family": "lfm",
+      "quant": "Q8_0",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 30,
+        "incorrect_text_unobservable": 0,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 0,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 50,
+            "fp": 23,
+            "fn": 14,
+            "precision": 0.684931506849315,
+            "recall": 0.78125,
+            "f0_5": 0.7022471910112359
+          },
+          "best_full_reference": {
+            "tp": 52,
+            "fp": 21,
+            "fn": 14,
+            "precision": 0.7123287671232876,
+            "recall": 0.7878787878787878,
+            "f0_5": 0.7262569832402235
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.78125,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 2,
+        "ctmr_unobservable": 0,
+        "cfar_false_alarm_observed": 1,
+        "cfar_unobservable": 0,
+        "fully_preserved_observed": 8,
+        "fully_preserved_unobservable": 0,
+        "parse_status": {
+          "direct": 40
+        },
+        "schema_valid": 40,
+        "strict_json_compliant": 40,
+        "declarations": {
+          "verified_differs_output": 22,
+          "verified_matches_output": 15,
+          "unverified_ambiguous_or_absent_fragment": 3
+        },
+        "declarations_coherent_non_noop": 12,
+        "incorrect_text_equal_primary": 16,
+        "incorrect_text_equal_licensed_complete_reference": 16,
+        "flag_correct_observed": 13,
+        "flag_unobservable": 0,
+        "incorrect_flag_correct_observed": 3,
+        "incorrect_flag_unobservable": 0,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 0.36239949999799137,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 2,
+      "primary_frozen_fp": 41,
+      "primary_frozen_fn": 57
+    },
+    {
+      "config_id": "09-lfm25-12b-q4-k-m",
+      "family": "lfm",
+      "quant": "Q4_K_M",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 30,
+        "incorrect_text_unobservable": 0,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 0,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 51,
+            "fp": 20,
+            "fn": 13,
+            "precision": 0.7183098591549296,
+            "recall": 0.796875,
+            "f0_5": 0.7327586206896551
+          },
+          "best_full_reference": {
+            "tp": 53,
+            "fp": 18,
+            "fn": 13,
+            "precision": 0.7464788732394366,
+            "recall": 0.803030303030303,
+            "f0_5": 0.7571428571428571
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.796875,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 1,
+        "ctmr_unobservable": 0,
+        "cfar_false_alarm_observed": 0,
+        "cfar_unobservable": 0,
+        "fully_preserved_observed": 9,
+        "fully_preserved_unobservable": 0,
+        "parse_status": {
+          "direct": 40
+        },
+        "schema_valid": 40,
+        "strict_json_compliant": 40,
+        "declarations": {
+          "verified_differs_output": 27,
+          "verified_matches_output": 13
+        },
+        "declarations_coherent_non_noop": 11,
+        "incorrect_text_equal_primary": 16,
+        "incorrect_text_equal_licensed_complete_reference": 16,
+        "flag_correct_observed": 11,
+        "flag_unobservable": 0,
+        "incorrect_flag_correct_observed": 1,
+        "incorrect_flag_unobservable": 0,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 0.2455498000017542,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 2,
+      "primary_frozen_fp": 10,
+      "primary_frozen_fn": 57
+    },
+    {
+      "config_id": "10-qwen35-4b-q8-0",
+      "family": "qwen",
+      "quant": "Q8_0",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 30,
+        "incorrect_text_unobservable": 0,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 0,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 53,
+            "fp": 9,
+            "fn": 11,
+            "precision": 0.8548387096774194,
+            "recall": 0.828125,
+            "f0_5": 0.8493589743589745
+          },
+          "best_full_reference": {
+            "tp": 53,
+            "fp": 9,
+            "fn": 11,
+            "precision": 0.8548387096774194,
+            "recall": 0.828125,
+            "f0_5": 0.8493589743589745
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.828125,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 0,
+        "ctmr_unobservable": 0,
+        "cfar_false_alarm_observed": 0,
+        "cfar_unobservable": 0,
+        "fully_preserved_observed": 10,
+        "fully_preserved_unobservable": 0,
+        "parse_status": {
+          "direct": 40
+        },
+        "schema_valid": 38,
+        "strict_json_compliant": 38,
+        "declarations": {
+          "verified_matches_output": 31,
+          "verified_differs_output": 5,
+          "unverified_ambiguous_or_absent_fragment": 4
+        },
+        "declarations_coherent_non_noop": 31,
+        "incorrect_text_equal_primary": 22,
+        "incorrect_text_equal_licensed_complete_reference": 22,
+        "flag_correct_observed": 40,
+        "flag_unobservable": 0,
+        "incorrect_flag_correct_observed": 30,
+        "incorrect_flag_unobservable": 0,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 3.088650500001677,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 25,
+      "primary_frozen_fp": 33,
+      "primary_frozen_fn": 34
+    },
+    {
+      "config_id": "11-qwen35-4b-q4-k-m",
+      "family": "qwen",
+      "quant": "Q4_K_M",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 28,
+        "incorrect_text_unobservable": 2,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 6,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 50,
+            "fp": 8,
+            "fn": 8,
+            "precision": 0.8620689655172413,
+            "recall": 0.8620689655172413,
+            "f0_5": 0.8620689655172413
+          },
+          "best_full_reference": {
+            "tp": 50,
+            "fp": 8,
+            "fn": 8,
+            "precision": 0.8620689655172413,
+            "recall": 0.8620689655172413,
+            "f0_5": 0.8620689655172413
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.78125,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 0,
+        "ctmr_unobservable": 0,
+        "cfar_false_alarm_observed": 0,
+        "cfar_unobservable": 0,
+        "fully_preserved_observed": 10,
+        "fully_preserved_unobservable": 0,
+        "parse_status": {
+          "direct": 38,
+          "invalid": 1,
+          "recoverable": 1
+        },
+        "schema_valid": 36,
+        "strict_json_compliant": 36,
+        "declarations": {
+          "verified_matches_output": 33,
+          "verified_differs_output": 3,
+          "unverified_shape": 2,
+          "unverified_overlapping_fragments": 1,
+          "unverified_ambiguous_or_absent_fragment": 1
+        },
+        "declarations_coherent_non_noop": 33,
+        "incorrect_text_equal_primary": 21,
+        "incorrect_text_equal_licensed_complete_reference": 21,
+        "flag_correct_observed": 38,
+        "flag_unobservable": 2,
+        "incorrect_flag_correct_observed": 28,
+        "incorrect_flag_unobservable": 2,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 2.4724253999957,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 24,
+      "primary_frozen_fp": 28,
+      "primary_frozen_fn": 35
+    },
+    {
+      "config_id": "12-gemma4-e2b-qat-q4-0",
+      "family": "gemma",
+      "quant": "Q4_0",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 28,
+        "incorrect_text_unobservable": 2,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 4,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 53,
+            "fp": 9,
+            "fn": 7,
+            "precision": 0.8548387096774194,
+            "recall": 0.8833333333333333,
+            "f0_5": 0.8603896103896105
+          },
+          "best_full_reference": {
+            "tp": 55,
+            "fp": 7,
+            "fn": 6,
+            "precision": 0.8870967741935484,
+            "recall": 0.9016393442622951,
+            "f0_5": 0.889967637540453
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.828125,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 0,
+        "ctmr_unobservable": 0,
+        "cfar_false_alarm_observed": 5,
+        "cfar_unobservable": 0,
+        "fully_preserved_observed": 5,
+        "fully_preserved_unobservable": 0,
+        "parse_status": {
+          "direct": 27,
+          "recoverable": 12,
+          "invalid": 1
+        },
+        "schema_valid": 37,
+        "strict_json_compliant": 26,
+        "declarations": {
+          "verified_matches_output": 31,
+          "verified_differs_output": 5,
+          "unverified_shape": 3,
+          "unverified_ambiguous_or_absent_fragment": 1
+        },
+        "declarations_coherent_non_noop": 29,
+        "incorrect_text_equal_primary": 21,
+        "incorrect_text_equal_licensed_complete_reference": 21,
+        "flag_correct_observed": 32,
+        "flag_unobservable": 2,
+        "incorrect_flag_correct_observed": 26,
+        "incorrect_flag_unobservable": 2,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 1.2726638000021921,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 13,
+      "primary_frozen_fp": 41,
+      "primary_frozen_fn": 46
+    },
+    {
+      "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+      "family": "gemma",
+      "quant": "UD-Q4_K_XL",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 30,
+        "incorrect_text_unobservable": 0,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 0,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 59,
+            "fp": 4,
+            "fn": 5,
+            "precision": 0.9365079365079365,
+            "recall": 0.921875,
+            "f0_5": 0.9335443037974683
+          },
+          "best_full_reference": {
+            "tp": 61,
+            "fp": 2,
+            "fn": 4,
+            "precision": 0.9682539682539683,
+            "recall": 0.9384615384615385,
+            "f0_5": 0.9621451104100945
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.921875,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 0,
+        "ctmr_unobservable": 0,
+        "cfar_false_alarm_observed": 4,
+        "cfar_unobservable": 0,
+        "fully_preserved_observed": 6,
+        "fully_preserved_unobservable": 0,
+        "parse_status": {
+          "recoverable": 33,
+          "direct": 7
+        },
+        "schema_valid": 37,
+        "strict_json_compliant": 6,
+        "declarations": {
+          "verified_matches_output": 33,
+          "verified_differs_output": 4,
+          "unverified_shape": 3
+        },
+        "declarations_coherent_non_noop": 32,
+        "incorrect_text_equal_primary": 26,
+        "incorrect_text_equal_licensed_complete_reference": 27,
+        "flag_correct_observed": 37,
+        "flag_unobservable": 0,
+        "incorrect_flag_correct_observed": 28,
+        "incorrect_flag_unobservable": 0,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 1.2575450500007719,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 18,
+      "primary_frozen_fp": 39,
+      "primary_frozen_fn": 41
+    },
+    {
+      "config_id": "14-gemma4-e2b-ud-q2-k-xl",
+      "family": "gemma",
+      "quant": "UD-Q2_K_XL",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 7,
+        "incorrect_text_unobservable": 23,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 50,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 13,
+            "fp": 7,
+            "fn": 1,
+            "precision": 0.65,
+            "recall": 0.9285714285714286,
+            "f0_5": 0.6914893617021276
+          },
+          "best_full_reference": {
+            "tp": 13,
+            "fp": 7,
+            "fn": 1,
+            "precision": 0.65,
+            "recall": 0.9285714285714286,
+            "f0_5": 0.6914893617021276
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.203125,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 1,
+        "ctmr_unobservable": 8,
+        "cfar_false_alarm_observed": 2,
+        "cfar_unobservable": 8,
+        "fully_preserved_observed": 0,
+        "fully_preserved_unobservable": 8,
+        "parse_status": {
+          "invalid": 19,
+          "recoverable": 21
+        },
+        "schema_valid": 4,
+        "strict_json_compliant": 0,
+        "declarations": {
+          "unverified_shape": 31,
+          "unverified_ambiguous_or_absent_fragment": 4,
+          "unverified_overlapping_fragments": 3,
+          "verified_differs_output": 1,
+          "verified_matches_output": 1
+        },
+        "declarations_coherent_non_noop": 0,
+        "incorrect_text_equal_primary": 3,
+        "incorrect_text_equal_licensed_complete_reference": 3,
+        "flag_correct_observed": 7,
+        "flag_unobservable": 31,
+        "incorrect_flag_correct_observed": 7,
+        "incorrect_flag_unobservable": 23,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 5.801611899998534,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 0,
+      "primary_frozen_fp": 11,
+      "primary_frozen_fn": 59
+    },
+    {
+      "config_id": "15-lfm25-26b-q8-0",
+      "family": "lfm26",
+      "quant": "Q8_0",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 28,
+        "incorrect_text_unobservable": 2,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 3,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 45,
+            "fp": 15,
+            "fn": 16,
+            "precision": 0.75,
+            "recall": 0.7377049180327869,
+            "f0_5": 0.7475083056478405
+          },
+          "best_full_reference": {
+            "tp": 47,
+            "fp": 13,
+            "fn": 14,
+            "precision": 0.7833333333333333,
+            "recall": 0.7704918032786885,
+            "f0_5": 0.7807308970099668
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.703125,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 0,
+        "ctmr_unobservable": 0,
+        "cfar_false_alarm_observed": 5,
+        "cfar_unobservable": 0,
+        "fully_preserved_observed": 5,
+        "fully_preserved_unobservable": 0,
+        "parse_status": {
+          "recoverable": 38,
+          "invalid": 2
+        },
+        "schema_valid": 38,
+        "strict_json_compliant": 0,
+        "declarations": {
+          "verified_matches_output": 25,
+          "verified_differs_output": 13,
+          "unverified_shape": 2
+        },
+        "declarations_coherent_non_noop": 22,
+        "incorrect_text_equal_primary": 17,
+        "incorrect_text_equal_licensed_complete_reference": 17,
+        "flag_correct_observed": 33,
+        "flag_unobservable": 2,
+        "incorrect_flag_correct_observed": 28,
+        "incorrect_flag_unobservable": 2,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 2.0711013000000094,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 9,
+      "primary_frozen_fp": 47,
+      "primary_frozen_fn": 50
+    },
+    {
+      "config_id": "16-lfm25-26b-q4-k-m",
+      "family": "lfm26",
+      "quant": "Q4_K_M",
+      "summary": {
+        "cases": 40,
+        "incorrect_cases_expected": 30,
+        "incorrect_text_observable": 28,
+        "incorrect_text_unobservable": 2,
+        "expected_primary_errant_edits": 64,
+        "unobservable_primary_errant_edits": 4,
+        "gec_conditional_on_observable_text": {
+          "primary": {
+            "tp": 46,
+            "fp": 14,
+            "fn": 14,
+            "precision": 0.7666666666666667,
+            "recall": 0.7666666666666667,
+            "f0_5": 0.7666666666666667
+          },
+          "best_full_reference": {
+            "tp": 46,
+            "fp": 14,
+            "fn": 14,
+            "precision": 0.7666666666666667,
+            "recall": 0.7666666666666667,
+            "f0_5": 0.7666666666666667
+          }
+        },
+        "recall_all_primary_gold_unobservable_as_missed": 0.71875,
+        "controls_expected": 10,
+        "ctmr_modified_observed": 0,
+        "ctmr_unobservable": 0,
+        "cfar_false_alarm_observed": 9,
+        "cfar_unobservable": 0,
+        "fully_preserved_observed": 1,
+        "fully_preserved_unobservable": 0,
+        "parse_status": {
+          "recoverable": 38,
+          "invalid": 2
+        },
+        "schema_valid": 38,
+        "strict_json_compliant": 0,
+        "declarations": {
+          "verified_matches_output": 24,
+          "verified_differs_output": 12,
+          "unverified_overlapping_fragments": 2,
+          "unverified_shape": 2
+        },
+        "declarations_coherent_non_noop": 14,
+        "incorrect_text_equal_primary": 17,
+        "incorrect_text_equal_licensed_complete_reference": 17,
+        "flag_correct_observed": 29,
+        "flag_unobservable": 2,
+        "incorrect_flag_correct_observed": 28,
+        "incorrect_flag_unobservable": 2,
+        "human_confirmed": 0,
+        "latency_median_seconds_descriptive": 1.6937212999982876,
+        "schema_version": "evaluation-v2.0"
+      },
+      "selection": {
+        "rows_in": 40,
+        "rows_selected": 40,
+        "duplicate_cases_resolved": [],
+        "selection_policy": "highest verified final attempt number"
+      },
+      "primary_frozen_tp": 5,
+      "primary_frozen_fp": 62,
+      "primary_frozen_fn": 54
+    }
+  ],
+  "engine": {
+    "engine": "ERRANT",
+    "language": "en",
+    "versions": {
+      "errant": "3.0.2",
+      "spacy": "3.8.7",
+      "en-core-web-sm": "3.8.0",
+      "rapidfuzz": "3.14.6",
+      "click": "8.2.1"
+    },
+    "python_version": "3.12.14",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "tokenizer_class": "spacy.tokenizer.Tokenizer",
+    "spacy_pipeline": [
+      "tok2vec",
+      "tagger",
+      "parser",
+      "attribute_ruler",
+      "lemmatizer"
+    ],
+    "parse_tokenise": true,
+    "alignment": "ERRANT Annotator.annotate (lev=False, merging='rules')",
+    "category_source": "ERRANT Edit.type, preserved verbatim",
+    "cache": {
+      "parse_maxsize": 8192,
+      "annotation_pair_maxsize": 8192,
+      "parse_hits": 160,
+      "annotation_pair_hits": 2462
+    }
+  }
+}

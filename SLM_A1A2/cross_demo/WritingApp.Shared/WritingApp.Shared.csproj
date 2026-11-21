@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net11.0</TargetFramework><IsAotCompatible>true</IsAotCompatible><JsonSerializerIsReflectionEnabledByDefault>false</JsonSerializerIsReflectionEnabledByDefault></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../demo/WritingDemo.Core/Contracts.cs" Link="Existing/Contracts.cs" />
+    <Compile Include="../../demo/WritingDemo.Core/FeedbackParser.cs" Link="Existing/FeedbackParser.cs" />
+    <Compile Include="../../demo/WritingDemo.Core/ExerciseCatalog.cs" Link="Existing/ExerciseCatalog.cs" />
+    <EmbeddedResource Include="Assets/*" />
+  </ItemGroup>
+</Project>

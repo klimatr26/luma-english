@@ -1,0 +1,26 @@
+{
+  "started_utc": "2026-10-11T17:16:28.349736+00:00",
+  "user_proceed_instruction": "Que la documentación también incluya esos resultados anteriores; la corrida inicial fue interrumpida porque el Thinking agotaba el presupuesto de salida. Procede con las inferencias.",
+  "authorization_sha256": "bc9d38cd6a24c058dfdafb3c64d422293e1c7e8381c2486358068ed88cb1d8c2",
+  "benchmark_sha256": "07308427c02adcc056a8964d3e4da41615db4b7fc0101870e277097de46d59f9",
+  "phase1_extension_benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+  "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "readiness_report_sha256": "921ed2df2512edf6ccfb1634657eb07d1ac559bfe11b7732bb9c958a9c76e26a",
+  "runners_sha256": {
+    "run_benchmark_120.py": "a0d3804f1f3e08f81b1518d4806a0e20295e417576fda8cb324e95eb4834a347",
+    "run_benchmark_40_lfm26.py": "8a0837ed8f4c0bf42d3762e32f9e96f094b1af8fdfb6eb6fcb77f22eaf0f57c4"
+  },
+  "order": [
+    "development_120",
+    "lfm26_phase1_40"
+  ],
+  "planned_rows": [
+    1920,
+    80
+  ],
+  "sampling_changed": false,
+  "gold_changed": false,
+  "final_test_access": false,
+  "technical_retries_max": 2,
+  "rate_limit_policy": "HTTP429 stops; Luna6max subagent rate limit requires precise handoff and stop without retry/substitution."
+}

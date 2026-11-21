@@ -1,0 +1,32 @@
+[
+  {
+    "model_name": "Qwen3.5-2B",
+    "case_id": "A1-E04",
+    "review_note": "El raw repite fragmentos de errores; se colapsan duplicados semánticos y se anotan las tres detecciones únicas.",
+    "raw_response_preserved_in": "raw_outputs.jsonl"
+  },
+  {
+    "model_name": "Qwen3.5-2B",
+    "case_id": "A1-E08",
+    "review_note": "Generación truncada; no hay objeto completo utilizable; revisión humana para evaluación semántica imposible.",
+    "raw_response_preserved_in": "raw_outputs.jsonl"
+  },
+  {
+    "model_name": "MiniCPM5-1B",
+    "case_id": "A1-E11",
+    "review_note": "Corrige do, pero sustituye pregunta sobre el hermano por How old are you?, cambiando el significado.",
+    "raw_response_preserved_in": "raw_outputs.jsonl"
+  },
+  {
+    "model_name": "MiniCPM5-1B",
+    "case_id": "A1-C05",
+    "review_note": "Salida truncada en bucle; no deja un juicio JSON utilizable.",
+    "raw_response_preserved_in": "raw_outputs.jsonl"
+  },
+  {
+    "model_name": "MiniCPM5-2B",
+    "case_id": "A2-E14",
+    "review_note": "No se pudo analizar parsed_json y json_valid=false; no hay errores detectables en el objeto parseado; revisar raw manualmente. needs_human_review: salida no parseada; validar raw filtrado.",
+    "raw_response_preserved_in": "raw_outputs.jsonl"
+  }
+]

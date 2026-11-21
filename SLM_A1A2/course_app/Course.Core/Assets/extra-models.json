@@ -1,0 +1,71 @@
+[
+  {
+    "Id": "portable-unsloth-qwen35-2b-q4-k-m",
+    "Name": "Qwen 3.5 · 2B (Unsloth descarga)",
+    "Family": "qwen",
+    "Quantization": "Q4_K_M",
+    "RelativePath": "portable_unsloth_qwen35_2b/Qwen3.5-2B-Q4_K_M.gguf",
+    "SizeBytes": 1280835840,
+    "Sha256": "aaf42c8b7c3cab2bf3d69c355048d4a0ee9973d48f16c731c0520ee914699223",
+    "DownloadUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/f6d5376be1edb4d416d56da11e5397a961aca8ae/Qwen3.5-2B-Q4_K_M.gguf?download=true",
+    "SourceUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/tree/f6d5376be1edb4d416d56da11e5397a961aca8ae",
+    "License": "Apache-2.0",
+    "Sampling": {
+      "Temperature": 0.7,
+      "TopP": 0.8,
+      "TopK": 20,
+      "MinP": 0.0,
+      "RepeatPenalty": 1.0,
+      "PresencePenalty": 1.5,
+      "FrequencyPenalty": 0.0,
+      "MaxTokens": 512
+    },
+    "ThinkingToggle": true
+  },
+  {
+    "Id": "portable-unsloth-qwen35-2b-q8-0",
+    "Name": "Qwen 3.5 · 2B (Unsloth descarga)",
+    "Family": "qwen",
+    "Quantization": "Q8_0",
+    "RelativePath": "portable_unsloth_qwen35_2b/Qwen3.5-2B-Q8_0.gguf",
+    "SizeBytes": 2012012800,
+    "Sha256": "1b04acba824817554f4ce23639bc8495ff70453b8fcb047900c731521021f2c1",
+    "DownloadUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/f6d5376be1edb4d416d56da11e5397a961aca8ae/Qwen3.5-2B-Q8_0.gguf?download=true",
+    "SourceUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/tree/f6d5376be1edb4d416d56da11e5397a961aca8ae",
+    "License": "Apache-2.0",
+    "Sampling": {
+      "Temperature": 0.7,
+      "TopP": 0.8,
+      "TopK": 20,
+      "MinP": 0.0,
+      "RepeatPenalty": 1.0,
+      "PresencePenalty": 1.5,
+      "FrequencyPenalty": 0.0,
+      "MaxTokens": 512
+    },
+    "ThinkingToggle": true
+  },
+  {
+    "Id": "portable-unsloth-qwen35-2b-ud-q4-k-xl",
+    "Name": "Qwen 3.5 · 2B (Unsloth descarga)",
+    "Family": "qwen",
+    "Quantization": "UD-Q4_K_XL",
+    "RelativePath": "portable_unsloth_qwen35_2b/Qwen3.5-2B-UD-Q4_K_XL.gguf",
+    "SizeBytes": 1339752704,
+    "Sha256": "0af96165ea615bea39a04118d63f0b6d35908aea850ee4a51aa6151d851b8b35",
+    "DownloadUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/f6d5376be1edb4d416d56da11e5397a961aca8ae/Qwen3.5-2B-UD-Q4_K_XL.gguf?download=true",
+    "SourceUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/tree/f6d5376be1edb4d416d56da11e5397a961aca8ae",
+    "License": "Apache-2.0",
+    "Sampling": {
+      "Temperature": 0.7,
+      "TopP": 0.8,
+      "TopK": 20,
+      "MinP": 0.0,
+      "RepeatPenalty": 1.0,
+      "PresencePenalty": 1.5,
+      "FrequencyPenalty": 0.0,
+      "MaxTokens": 512
+    },
+    "ThinkingToggle": true
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "status": "HUMAN_AUTHORIZED_NOT_STARTED",
+  "scope": "1920 development inferences plus80 isolated LFM2.5-2.6B phase1 extension inferences",
+  "authorization_source": "Direct human user message in this chat, after preparation delivery",
+  "user_instruction": "Las autorizo, pero ya que esto eventualmente formará parte de un trabajo de titulación, necesito que también dejes todo bien documentado (qué se hizo, cómo y por qué, y resultados). Solo una cuestión antes de empezar: ¿tienes acceso a los resultados de la primera prueba de 40 preguntas que se realizó con los modelos que ahora pasarán por 120?",
+  "development": {
+    "benchmark_sha256": "07308427c02adcc056a8964d3e4da41615db4b7fc0101870e277097de46d59f9",
+    "case_count": 120,
+    "config_ids": [
+      "01-qwen35-2b-f16",
+      "02-qwen35-2b-q8-0",
+      "03-qwen35-2b-q4-k-m",
+      "04-minicpm5-2b-f16",
+      "05-minicpm5-2b-q8-0",
+      "06-minicpm5-2b-q4-k-m",
+      "07-lfm25-12b-bf16",
+      "08-lfm25-12b-q8-0",
+      "09-lfm25-12b-q4-k-m",
+      "10-qwen35-4b-q8-0",
+      "11-qwen35-4b-q4-k-m",
+      "12-gemma4-e2b-qat-q4-0",
+      "13-gemma4-e2b-ud-q4-k-xl",
+      "14-gemma4-e2b-ud-q2-k-xl",
+      "15-lfm25-26b-q8-0",
+      "16-lfm25-26b-q4-k-m"
+    ],
+    "planned_rows": 1920
+  },
+  "phase1_extension": {
+    "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+    "case_count": 40,
+    "config_ids": [
+      "15-lfm25-26b-q8-0",
+      "16-lfm25-26b-q4-k-m"
+    ],
+    "planned_rows": 80
+  },
+  "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "readiness_report_sha256": "921ed2df2512edf6ccfb1634657eb07d1ac559bfe11b7732bb9c958a9c76e26a",
+  "documentation_required": [
+    "what was done",
+    "how it was done",
+    "why each decision was made",
+    "results and limitations"
+  ],
+  "phase1_artifacts_read_only": true,
+  "final_test_access_authorized": false,
+  "additional_readiness_repetitions_authorized": false,
+  "main_inferences_executed_at_recording": 0
+}

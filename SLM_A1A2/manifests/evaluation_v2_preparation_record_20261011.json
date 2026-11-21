@@ -1,0 +1,60 @@
+{
+  "status": "PREPARATION_AND_REEVALUATION_COMPLETE_HUMAN_REVIEW_PENDING",
+  "written_utc": "2026-10-11T21:39:02.574869+00:00",
+  "authorization_quote": "Continúa haciendo eso.",
+  "scope": "Versioned evaluation, synthetic tests, human instrument and packets, existing-response reprocessing only",
+  "slm_generations_new": 0,
+  "reevaluated_existing_responses": 2560,
+  "final_test_access": false,
+  "gold_or_primary_scores_modified": false,
+  "human_confirmed_cases": 0,
+  "human_evaluator_availability": "User says Todavía debo coordinarlo",
+  "provisional_review_candidates": [
+    "06-minicpm5-2b-q4-k-m",
+    "11-qwen35-4b-q4-k-m",
+    "13-gemma4-e2b-ud-q4-k-xl"
+  ],
+  "blind_review_outputs": 180,
+  "base_case_count": 60,
+  "optional_double_review_outputs": 45,
+  "full_unittest_suite": {
+    "tests": 179,
+    "result": "OK",
+    "seconds": 18.916,
+    "fixture_only": true,
+    "errant_real_fixture_count": 10,
+    "note": "One of179 is the launcher asserting the10 isolated real-ERRANT fixtures pass."
+  },
+  "ai_delegation": {
+    "requested_model": "gpt-6-luna",
+    "reasoning_effort": "max",
+    "responsibilities": [
+      "ERRANT integration and runner review",
+      "human instrument and intake review"
+    ],
+    "model_substitutions": false,
+    "rate_limits_observed": 0
+  },
+  "independent_review_findings_resolved": [
+    "Primary metric baseline binds exact resume_key, modelsha, selectedattempt,derivedseq and trace rather than trace alone.",
+    "Packet shows level and hides model/config/case; sampleplan and crosswalk coordinator-only.",
+    "Crosswalk binds response and visible context.",
+    "Empty candidate set cannot expand to allconfigs.",
+    "Incomplete or contradictory human records rejected without new approvals."
+  ],
+  "next_dependency": "Coordinate real English evaluator; later prospective prompt study, no execution here.",
+  "code_and_protocol_hashes": {
+    "scripts/evaluate_responses_v2.py": "48f72332eedbdc6ea95b43c755962f7ab5a346f74ffbb9626184967797d9eb5a",
+    "scripts/gec_alignment_v2.py": "2e488e0369959211b4a361f51e63175d0590bb0f70898c86bdf071019f802cc6",
+    "scripts/human_review_v2.py": "991513efdaeb49c1b579d3e9a339e5e50ef43c4a633a9553bc754111a7d7fc37",
+    "scripts/prepare_human_review_v2.py": "71469597ab6678efdf68e4cb2409d360d524d166dadd33d45713fc3457adac9c",
+    "scripts/report_evaluation_v2.py": "0756e35fa985ef08d9c648c4cf519c97917ac7c67a09b78d1303f76bf01fef49",
+    "scripts/audit_evaluation_v2.py": "5c671f62b9d24696bbe672b0dbc257e1613ea89ee061d2d85bcb612eb0f14b15",
+    "documentation/evaluation_v2_protocol.md": "da31b01e1727c6886fc97f274db5292c0e2dc2e7c42a0218383fe755ab1906a9",
+    "documentation/evaluation_v2_results_and_candidates.md": "caef26e7a458df74c5965a8859cb144fa6a89f2d16616053a6ee13c8518bd7bd",
+    "documentation/human_review_rubric_v2.md": "89f141c263a4e3c7f20d398e2404f8901182b2c21cefc740ef7cdac20910ef16",
+    "benchmark_120/human_review_v2_schema.json": "622cde677fb274b2b6d2a4bff755711cbf72018b56d20439b0d4ff2a61c23519",
+    "requirements-evaluation-v2.txt": "52a0e8ae920d1470a37320831c54aa3659e4b8bfae8a1ab0ad5d0c73531e80c6"
+  },
+  "final_test_log_sha256": "2a6b4f1bea3fe2c982a211e76437fd9bbb4029c2dbc00fd9b6706782f8526ad6"
+}

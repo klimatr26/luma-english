@@ -1,0 +1,1071 @@
+{
+  "purpose": "Researcher review, not completed human scores",
+  "cases": [
+    {
+      "case": {
+        "id": "T200-A1-E055",
+        "level": "A1",
+        "condition": "incorrect",
+        "task": "Describe the sound that comes from your grandfather’s shop each evening.",
+        "student_text": "The bell ring at six every evening, and we can hear it from our kitchen. The bells near the shop arent very loud, but they remind my grandfather to close his shop.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "The bell rings at six every evening, and we can hear it from our kitchen. The bells near the shop aren't very loud, but they remind my grandfather to close his shop.",
+          "acceptable_alternatives": [
+            "The bell rings at six every evening, and we can hear it from our kitchen. The bells near the shop are not very loud, but they remind my grandfather to close his shop."
+          ],
+          "errors": [
+            {
+              "original": "bell ring",
+              "correction": "bell rings",
+              "type": "SUBJECT_VERB_AGREEMENT",
+              "subtype": "present_simple_third_person_singular",
+              "explanation": "Add -s to the verb with the singular subject bell.",
+              "acceptable_corrections": [
+                "bell rings"
+              ]
+            },
+            {
+              "original": "arent",
+              "correction": "aren't",
+              "type": "CONTRACTION",
+              "subtype": "missing_contraction_apostrophe",
+              "explanation": "Write are not as the contraction aren't.",
+              "acceptable_corrections": [
+                "aren't",
+                "are not"
+              ]
+            }
+          ]
+        },
+        "length_words": 32
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The bell rings at six every evening, and we can hear it from our kitchen. The bells near the shop aren't very loud, but they remind my grandfather to close his shop.\",\n  \"errors\": [\n    {\n      \"original\": \"The bell ring at six every evening\",\n      \"correction\": \"The bell rings at six every evening\",\n      \"type\": \"Subject-Verb Agreement\",\n      \"explanation\": \"The subject 'bell' is singular, so the verb must end in '-s' in the present simple tense.\"\n    },\n    {\n      \"original\": \"The bells near the shop arent very loud\",\n      \"correction\": \"The bells near the shop aren't very loud\",\n      \"type\": \"Spelling and Contraction\",\n      \"explanation\": \"The contraction 'aren't' is misspelled as 'arent'. Additionally, 'are not' is commonly written as the contraction 'aren't'.\"\n    }\n  ],\n  \"feedback\": \"Your description of the evening sound is clear! Focus on using '-s' for singular subjects in the present simple tense, and double-check your spelling for common contractions like 'aren't'.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The bell rings at six every evening, and we can hear it from our kitchen. The bells near the shop aren't very loud, but they remind my grandfather to close his shop.\",\n  \"errors\": [\n    {\n      \"original\": \"The bell ring\",\n      \"correction\": \"The bell rings\",\n      \"type\": \"Grammar\",\n      \"explanation\": \"In present simple tense for a third-person singular subject ('bell'), the verb must end in '-s'.\"\n    },\n    {\n      \"original\": \"aren't\",\n      \"correction\": \"aren't\",\n      \"type\": \"Punctuation\",\n      \"explanation\": \"A space is required between the contraction 'are' and the apostrophe when it appears mid-sentence or at the start of a clause (e.g., 'aren't', not 'aren't').\"\n    }\n  ],\n  \"feedback\": \"You made two small corrections. First, add an 's' to 'ring' because 'bell' is singular. Second, ensure there is a space after the apostrophe in 'aren't'. Everything else looks great!\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The bell rings at six every evening, and we can hear it from our kitchen. The bells near the shop aren't very loud, but they remind my grandfather to close his shop.\",\n  \"errors\": [\n    {\n      \"original\": \"The bell ring at six every evening\",\n      \"correction\": \"The bell rings at six every evening\",\n      \"type\": \"Subject-Verb Agreement\",\n      \"explanation\": \"The subject 'bell' is singular, so the verb must end in '-s' in the present simple tense.\"\n    },\n    {\n      \"original\": \"The bells near the shop arent very loud\",\n      \"correction\": \"The bells near the shop aren't very loud\",\n      \"type\": \"Spelling and Punctuation\",\n      \"explanation\": \"'aren't' is the correct contraction for 'are not'. Also, the word 'are' needs an apostrophe.\"\n    }\n  ],\n  \"feedback\": \"You have a good description of the sound. Remember that singular subjects need '-s' at the end of verbs in the present simple tense. Also, double-check the spelling and use apostrophes for contractions.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The bell rings at six every evening, and we can hear it from our kitchen. The bells near the shop aren't very loud, but they remind my grandfather to close his shop.\",\n  \"errors\": [\n    {\n      \"original\": \"The bell ring\",\n      \"correction\": \"The bell rings\",\n      \"type\": \"Grammar (Subject-Verb Agreement)\",\n      \"explanation\": \"In the present simple tense, the third-person singular subject 'bell' requires the verb to end in '-s'. It should be 'rings', not 'ring'.\"\n    },\n    {\n      \"original\": \"aren't\",\n      \"correction\": \"aren't\",\n      \"type\": \"Punctuation\",\n      \"explanation\": \"The contraction 'aren't' is correct, but in formal writing or to ensure clarity for A1 learners, adding the apostrophe explicitly within the flow is standard. However, since 'aren't' was already used correctly as a contraction of 'are not', this is actually correct. Re-evaluating: The original text says 'aren't'. This is correct. Let me re-check the input carefully.\\n\\nInput: 'The bells near the shop arent very loud'\\nCorrection needed: 'aren't' (missing apostrophe).\"\n    }\n  ],\n  \"feedback\": \"You made two small mistakes. First, for the subject 'bell', you need to add an 's' to make it 'rings'. Second, in the second sentence, you missed the apostrophe in 'arent'; it should be written as 'aren't'. Otherwise, your sentences are good!\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A1-E001",
+        "level": "A1",
+        "condition": "incorrect",
+        "task": "Tell a new barber how you choose a haircut.",
+        "student_text": "Marta trim my hair at the small salon near the park every month. She asks me to choose a picture from a book, then checks the length in the mirror. I like the blue chairs there.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "Marta trims my hair at the small salon near the park every month. She asks me to choose a picture from a book, then checks the length in the mirror. I like the blue chairs there.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "Marta trim",
+              "correction": "Marta trims",
+              "type": "SUBJECT_VERB_AGREEMENT",
+              "subtype": "present_simple_third_person_singular",
+              "explanation": "Add -s to the verb with the singular subject Marta.",
+              "acceptable_corrections": [
+                "Marta trims"
+              ]
+            }
+          ]
+        },
+        "length_words": 36
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"Marta trims my hair at the small salon near the park every month. She asks me to choose a picture from a book, then checks the length in the mirror. I like the blue chairs there.\",\n  \"errors\": [\n    {\n      \"original\": \"Marta trim\",\n      \"correction\": \"Marta trims\",\n      \"type\": \"Subject-Verb Agreement\",\n      \"explanation\": \"The subject 'Marta' is singular, so the verb needs an '-s' in the simple present tense.\"\n    }\n  ],\n  \"feedback\": \"You are doing a great job! The meaning of your text is very clear. Optional writing suggestion (not an error): Try to use more active verbs to describe what Marta does at the salon, instead of just saying she 'asks'.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"Marta trims my hair at the small salon near the park every month. She asks me to choose a picture from a book, then checks the length in the mirror. I like the blue chairs there.\",\n  \"errors\": [\n    {\n      \"original\": \"trim\",\n      \"correction\": \"trims\",\n      \"type\": \"verb conjugation\",\n      \"explanation\": \"The verb 'to trim' needs to agree with the third-person singular subject 'Marta', so it must end in -s.\"\n    }\n  ],\n  \"feedback\": \"You made one small grammatical error. The verb 'trim' should be 'trims' because the subject 'Marta' is singular. Everything else looks perfect for your level!\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"Marta trims my hair at the small salon near the park every month. She asks me to choose a picture from a book, then checks the length in the mirror. I like the blue chairs there.\",\n  \"errors\": [\n    {\n      \"original\": \"Marta trim\",\n      \"correction\": \"Marta trims\",\n      \"type\": \"Subject-Verb Agreement\",\n      \"explanation\": \"The subject 'Marta' is singular, so the verb needs an '-s' in the present simple tense.\"\n    }\n  ],\n  \"feedback\": \"You are doing a great job! The meaning of your text is very clear. Optional writing suggestion (not an error): Try to use more active verbs to describe what Marta does at the salon, instead of just saying she 'asks'.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"Marta trims my hair at the small salon near the park every month. She asks me to choose a picture from a book, then checks the length in the mirror. I like the blue chairs there.\",\n  \"errors\": [\n    {\n      \"original\": \"trim\",\n      \"correction\": \"trims\",\n      \"type\": \"verb conjugation\",\n      \"explanation\": \"The verb 'to trim' must agree with the third-person singular subject 'Marta', so it needs an 's' at the end.\"\n    }\n  ],\n  \"feedback\": \"You made one small error. The verb 'trim' should be 'trims' because Marta is a single person (third person). Everything else looks perfect for your level!\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A1-E011",
+        "level": "A1",
+        "condition": "incorrect",
+        "task": "Write about when your family puts up a calendar.",
+        "student_text": "We put a new calendar on the kitchen door at October. My brother marks his birthday with a green pen, and I circle the days when our cousins come to stay.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "We put a new calendar on the kitchen door in October. My brother marks his birthday with a green pen, and I circle the days when our cousins come to stay.",
+          "acceptable_alternatives": [
+            "We put a new calendar on the kitchen door during October. My brother marks his birthday with a green pen, and I circle the days when our cousins come to stay."
+          ],
+          "errors": [
+            {
+              "original": "at October",
+              "correction": "in October",
+              "type": "PREPOSITION_TIME",
+              "subtype": "month_preposition",
+              "explanation": "Use in with a month.",
+              "acceptable_corrections": [
+                "in October",
+                "during October"
+              ]
+            }
+          ]
+        },
+        "length_words": 31
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"We put a new calendar on the kitchen door at October. My brother marks his birthday with a green pen, and I circle the days when our cousins come to stay.\",\n  \"errors\": [\n    {\n      \"original\": \"at October\",\n      \"correction\": \"in October\",\n      \"type\": \"Lexical/Preposition usage\",\n      \"explanation\": \"When referring to a month, the correct preposition to use is 'in', not 'at'.\"\n    }\n  ],\n  \"feedback\": \"Your writing is clear and easy to follow. Optional writing suggestion (not an error): To make the sentence flow a bit better, you could combine the last two points, perhaps saying: 'My brother marks his birthday with a green pen, and I circle the days when our cousins come to stay.'\"\n}",
+          "app_parser_status": "INCONSISTENT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"We put a new calendar on the kitchen door in October. My brother marks his birthday with a green pen, and I circle the days when our cousins come to stay.\",\n  \"errors\": [\n    {\n      \"original\": \"at October\",\n      \"correction\": \"in October\",\n      \"type\": \"preposition\",\n      \"explanation\": \"The preposition 'in' is used for months, while 'at' is typically used for specific times like o'clock or days of the week.\"\n    }\n  ],\n  \"feedback\": \"You should use 'in' before the month October. The rest of your sentences are correct and clear!\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"We put a new calendar on the kitchen door at October. My brother marks his birthday with a green pen, and I circle the days when our cousins come to stay.\",\n  \"errors\": [\n    {\n      \"original\": \"at October\",\n      \"correction\": \"in October\",\n      \"type\": \"Lexical/Preposition error\",\n      \"explanation\": \"When referring to a month, the correct preposition to use is 'in', not 'at'.\"\n    }\n  ],\n  \"feedback\": \"Your writing is clear and easy to understand. Optional writing suggestion (not an error): To make the sentence flow a bit better, you could combine the last two points, perhaps: 'My brother marks his birthday with a green pen while I circle the days when our cousins come to stay.' Keep practicing these basic prepositions!\"\n}",
+          "app_parser_status": "INCONSISTENT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"We put a new calendar on the kitchen door in October. My brother marks his birthday with a green pen, and I circle the days when our cousins come to stay.\",\n  \"errors\": [\n    {\n      \"original\": \"at October\",\n      \"correction\": \"in October\",\n      \"type\": \"preposition\",\n      \"explanation\": \"The preposition 'in' is used for months of the year, not 'at'.\"\n    }\n  ],\n  \"feedback\": \"You should use 'in' before months like October. Everything else in your text is correct and sounds natural!\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A1-E023",
+        "level": "A1",
+        "condition": "incorrect",
+        "task": "Describe the furniture in a quiet corner.",
+        "student_text": "There are two furniture beside the reading lamp: a low table and a small chair. I sit there to draw after dinner, and my cat sleeps on the rug nearby.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "There are two pieces of furniture beside the reading lamp: a low table and a small chair. I sit there to draw after dinner, and my cat sleeps on the rug nearby.",
+          "acceptable_alternatives": [
+            "There are two items of furniture beside the reading lamp: a low table and a small chair. I sit there to draw after dinner, and my cat sleeps on the rug nearby."
+          ],
+          "errors": [
+            {
+              "original": "two furniture",
+              "correction": "two pieces of furniture",
+              "type": "COUNTABLE_UNCOUNTABLE",
+              "subtype": "uncountable_noun_with_number",
+              "explanation": "Furniture is uncountable; use pieces of furniture to count separate items.",
+              "acceptable_corrections": [
+                "two pieces of furniture",
+                "two items of furniture"
+              ]
+            }
+          ]
+        },
+        "length_words": 30
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"There are two pieces of furniture beside the reading lamp: a low table and a small chair. I sit there to draw after dinner, and my cat sleeps on the rug nearby.\",\n  \"errors\": [\n    {\n      \"original\": \"two furniture\",\n      \"correction\": \"two pieces of furniture\",\n      \"type\": \"Lexical Error\",\n      \"explanation\": \"Furniture is an uncountable noun, so it needs a determiner like 'pieces of' or 'items of' when referring to a count.\"\n    }\n  ],\n  \"feedback\": \"You did a great job describing the corner and the activities! Optional writing suggestion (not an error): Try using the word 'near' instead of 'nearby' to keep the flow slightly more formal, although 'nearby' is perfectly fine in casual writing. For example: 'my cat sleeps on the rug near.'\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"There are two pieces of furniture beside the reading lamp: a low table and a small chair. I sit there to draw after dinner, and my cat sleeps on the rug nearby.\",\n  \"errors\": [\n    {\n      \"original\": \"two furniture\",\n      \"correction\": \"two pieces of furniture\",\n      \"type\": \"grammar/lexicon\",\n      \"explanation\": \"The word 'furniture' is an uncountable noun and cannot be used with a number like 'two'. You must use a quantifier such as 'pieces of' to indicate quantity.\"\n    }\n  ],\n  \"feedback\": \"You correctly described the scene, but remember that 'furniture' is not counted with numbers. Instead, say 'two pieces of furniture.' The rest of your sentences are grammatically correct.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"There are two pieces of furniture beside the reading lamp: a low table and a small chair. I sit there to draw after dinner, and my cat sleeps on the rug nearby.\",\n  \"errors\": [\n    {\n      \"original\": \"two furniture\",\n      \"correction\": \"two pieces of furniture\",\n      \"type\": \"Lexical Error\",\n      \"explanation\": \"Furniture is an uncountable noun, so it needs a determiner like 'pieces of' or 'items of' when counting them.\"\n    }\n  ],\n  \"feedback\": \"You did a good job describing the scene. Using 'pieces of furniture' sounds more natural when you are counting them. Also, a common phrase is 'the reading lamp' instead of just 'reading lamp' if you are referring to a specific one.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"There are two pieces of furniture beside the reading lamp: a low table and a small chair. I sit there to draw after dinner, and my cat sleeps on the rug nearby.\",\n  \"errors\": [\n    {\n      \"original\": \"two furniture\",\n      \"correction\": \"two pieces of furniture\",\n      \"type\": \"grammar/lexicon\",\n      \"explanation\": \"The word 'furniture' is an uncountable noun and cannot be used with a number like 'two'. You must use a phrase like 'two pieces of furniture' or 'two items of furniture'.\"\n    }\n  ],\n  \"feedback\": \"You correctly described your quiet corner. Remember that 'furniture' is uncountable, so we say 'pieces of furniture' when talking about specific items.\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A1-E014",
+        "level": "A1",
+        "condition": "incorrect",
+        "task": "Compare two paths to a playground.",
+        "student_text": "The path beside the pond is longer that the path near the houses. I use the short path when I am late, but I walk beside the water when I have more time.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "The path beside the pond is longer than the path near the houses. I use the short path when I am late, but I walk beside the water when I have more time.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "longer that",
+              "correction": "longer than",
+              "type": "COMPARATIVE",
+              "subtype": "comparative_than_marker",
+              "explanation": "Use than after a comparative adjective.",
+              "acceptable_corrections": [
+                "longer than"
+              ]
+            }
+          ]
+        },
+        "length_words": 33
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The path beside the pond is longer than the path near the houses. I use the short path when I am late, but I walk beside the water when I have more time.\",\n  \"errors\": [\n    {\n      \"original\": \"longer that\",\n      \"correction\": \"longer than\",\n      \"type\": \"Grammar (Comparative)\",\n      \"explanation\": \"When comparing two things using the comparative form of an adjective (longer), the correct conjunction to use is 'than', not 'that'.\"\n    }\n  ],\n  \"feedback\": \"You did a good job comparing the two paths! Remember that when you use the comparative form of an adjective like 'longer' to show that one thing is more than another, you should use the word 'than'.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The path beside the pond is longer than the path near the houses. I use the short path when I am late, but I walk beside the water when I have more time.\",\n  \"errors\": [\n    {\n      \"original\": \"longer that\",\n      \"correction\": \"longer than\",\n      \"type\": \"grammar\",\n      \"explanation\": \"The correct comparison structure uses 'than' after adjectives like 'longer', not 'that'.\"\n    }\n  ],\n  \"feedback\": \"You made a small grammar mistake with the word 'than'. Remember: 'longer than' is the correct phrase for comparisons. Everything else in your sentences is perfect!\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The path beside the pond is longer than the path near the houses. I use the short path when I am late, but I walk beside the water when I have more time.\",\n  \"errors\": [\n    {\n      \"original\": \"is longer that\",\n      \"correction\": \"is longer than\",\n      \"type\": \"Lexical/Grammar Error\",\n      \"explanation\": \"The comparative structure requires the word 'than' instead of 'that' when comparing two things.\"\n    }\n  ],\n  \"feedback\": \"You did a good job comparing the paths. Remember that for comparisons between two nouns, you need to use 'than' instead of 'that' to show which one is longer.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The path beside the pond is longer than the path near the houses. I use the short path when I am late, but I walk beside the water when I have more time.\",\n  \"errors\": [\n    {\n      \"original\": \"longer that\",\n      \"correction\": \"longer than\",\n      \"type\": \"grammar\",\n      \"explanation\": \"The correct comparison structure uses 'than' after adjectives like 'longer', not 'that'.\"\n    }\n  ],\n  \"feedback\": \"You made a small grammar mistake with the word 'that'. It should be 'than' when comparing two things. Everything else is perfect!\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A1-E043",
+        "level": "A1",
+        "condition": "incorrect",
+        "task": "Describe a lighthouse that visitors can see at night.",
+        "student_text": "The lighthouse flash twice every night when the sea is dark. Its white beam moves across the rocks, and a small sign says the path is closed becaus the tide is high.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "The lighthouse flashes twice every night when the sea is dark. Its white beam moves across the rocks, and a small sign says the path is closed because the tide is high.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "lighthouse flash",
+              "correction": "lighthouse flashes",
+              "type": "SUBJECT_VERB_AGREEMENT",
+              "subtype": "present_simple_third_person_singular",
+              "explanation": "Add -es to flash with the singular subject lighthouse.",
+              "acceptable_corrections": [
+                "lighthouse flashes"
+              ]
+            },
+            {
+              "original": "becaus",
+              "correction": "because",
+              "type": "SPELLING",
+              "subtype": "misspelled_word",
+              "explanation": "The correct spelling is because.",
+              "acceptable_corrections": [
+                "because"
+              ]
+            }
+          ]
+        },
+        "length_words": 32
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The lighthouse flashes twice every night when the sea is dark. Its white beam moves across the rocks, and a small sign says the path is closed because the tide is high.\",\n  \"errors\": [\n    {\n      \"original\": \"The lighthouse flash twice every night when the sea is dark.\",\n      \"correction\": \"The lighthouse flashes twice every night when the sea is dark.\",\n      \"type\": \"Subject-Verb Agreement (Plural Noun)\",\n      \"explanation\": \"The subject 'lighthouse' is singular, so the verb needs an 's' to agree in the present simple tense.\"\n    },\n    {\n      \"original\": \"becaus\",\n      \"correction\": \"because\",\n      \"type\": \"Spelling Error\",\n      \"explanation\": \"The word 'because' is spelled with an 'e' after the 'c' in the present simple tense.\"\n    }\n  ],\n  \"feedback\": \"You described the scene well. Remember that in the present simple tense, a singular subject like 'lighthouse' takes an 's' on the verb ('flash' becomes 'flashes'). Also, pay attention to spelling, like 'because' instead of 'becaus'.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The lighthouse flashes twice every night when the sea is dark. Its white beam moves across the rocks, and a small sign says the path is closed because the tide is high.\",\n  \"errors\": [\n    {\n      \"original\": \"flash\",\n      \"correction\": \"flashes\",\n      \"type\": \"grammar\",\n      \"explanation\": \"The subject 'The lighthouse' is singular, so the verb must also be singular. Add an 's' to make it 'flashes'. This applies to present simple tense for third-person singular subjects.\"\n    },\n    {\n      \"original\": \"becaus\",\n      \"correction\": \"because\",\n      \"type\": \"spelling\",\n      \"explanation\": \"The word 'because' is misspelled. It requires a 'e' after the 's'. This word means 'for the reason that'.\"\n    }\n  ],\n  \"feedback\": \"You made two small mistakes. First, change 'flash' to 'flashes' because the lighthouse (one item) needs an -s in the present simple tense. Second, fix the spelling of 'becaus' to 'because'. Great job describing the scene!\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The lighthouse flashes twice every night when the sea is dark. Its white beam moves across the rocks, and a small sign says the path is closed because the tide is high.\",\n  \"errors\": [\n    {\n      \"original\": \"The lighthouse flash twice every night\",\n      \"correction\": \"The lighthouse flashes twice every night\",\n      \"type\": \"Subject-Verb Agreement\",\n      \"explanation\": \"The subject 'lighthouse' is singular, so the verb must be singular 'flashes'.\"\n    },\n    {\n      \"original\": \"becaus\",\n      \"correction\": \"because\",\n      \"type\": \"Spelling\",\n      \"explanation\": \"This is a spelling error; the correct word is 'because'.\"\n    }\n  ],\n  \"feedback\": \"Good description of the location and actions. Remember that when describing a single item, you need to make sure your verbs match the item! Also, double-check your spelling for words like 'because'.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The lighthouse flashes twice every night when the sea is dark. Its white beam moves across the rocks, and a small sign says the path is closed because the tide is high.\",\n  \"errors\": [\n    {\n      \"original\": \"flash\",\n      \"correction\": \"flashes\",\n      \"type\": \"grammar\",\n      \"explanation\": \"The subject 'The lighthouse' is singular, so the verb must also be singular. Add an 's' to make it 'flashes'. This applies to present simple tense for third-person singular subjects.\"\n    },\n    {\n      \"original\": \"becaus\",\n      \"correction\": \"because\",\n      \"type\": \"spelling\",\n      \"explanation\": \"The word 'because' is misspelled. It requires a 'k' after the 'e'. This means 'on account of'.\"\n    }\n  ],\n  \"feedback\": \"You made two small mistakes: the verb needs an 's' for the singular subject, and there was a spelling error in 'becaus'. These corrections make your sentences grammatically correct.\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A1-E035",
+        "level": "A1",
+        "condition": "incorrect",
+        "task": "Write two sentences comparing an old doorway with a new one.",
+        "student_text": "The new door is as wider as the old one, but its colour is much lighter. My uncle painted both doors last week and left the brushes outside to dry.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "The new door is as wide as the old one, but its colour is much lighter. My uncle painted both doors last week and left the brushes outside to dry.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "as wider as",
+              "correction": "as wide as",
+              "type": "COMPARATIVE",
+              "subtype": "as_as_base_adjective",
+              "explanation": "Use the base adjective between as and as.",
+              "acceptable_corrections": [
+                "as wide as"
+              ]
+            }
+          ]
+        },
+        "length_words": 30
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The new door is as wide as the old one, but its color is much lighter. My uncle painted both doors last week and left the brushes outside to dry.\",\n  \"errors\": [\n    {\n      \"original\": \"as wider\",\n      \"correction\": \"as wide\",\n      \"type\": \"Lexical error (Comparison)\",\n      \"explanation\": \"When comparing two things using 'as' or 'so', we use the basic form of the adjective. 'As wide' is correct for comparison, not 'as wider'.\"\n    },\n    {\n      \"original\": \"colour is much lighter\",\n      \"correction\": \"color is much lighter\",\n      \"type\": \"Lexical error (Spelling)\",\n      \"explanation\": \"While 'colour' is correct in British English, 'color' is the standard spelling in American English. Assuming a more universal standard for CEFR feedback, 'color' is often preferred.\"\n    },\n    {\n      \"original\": \"its colour is much lighter\",\n      \"correction\": \"its color is much lighter\",\n      \"type\": \"Punctuation/Lexical error (Possessive)\",\n      \"explanation\": \"The word 'its' is a possessive pronoun. While grammatically acceptable, in this direct comparison structure, using 'the' or simply ensuring the comparison flows naturally is key. Here, the main issue is the spelling of 'color' consistent with the previous point.\"\n    }\n  ],\n  \"feedback\": \"You are doing a good job comparing the two doors. To make your English sound more natural, try to use the basic form of the adjective when comparing, like 'as wide' instead of 'as wider'. Also, remember the spelling 'color' when writing.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The new door is as wide as the old one, but its colour is much lighter. My uncle painted both doors last week and left the brushes outside to dry.\",\n  \"errors\": [\n    {\n      \"original\": \"as wider\",\n      \"correction\": \"as wide\",\n      \"type\": \"grammar\",\n      \"explanation\": \"In this structure, 'wide' must remain in its base form after 'as'. The correct pattern is 'as + adjective (base form) + as'.\"\n    }\n  ],\n  \"feedback\": \"You correctly compared the colours and mentioned your uncle's actions. Remember that when using 'as...as', you use the base form of the adjective, so 'wide' is correct here, not 'wider'. Great job on the rest of the sentences!\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The new door is as wide as the old one, but its color is much lighter. My uncle painted both doors last week and left the brushes outside to dry.\",\n  \"errors\": [\n    {\n      \"original\": \"as wider\",\n      \"correction\": \"as wide\",\n      \"type\": \"Lexical error (Comparison)\",\n      \"explanation\": \"When comparing two things using 'as' or 'so', we use the base adjective, not the comparative form 'wider'.\"\n    },\n    {\n      \"original\": \"colour\",\n      \"correction\": \"color\",\n      \"type\": \"Lexical error (Spelling)\",\n      \"explanation\": \"The word 'colour' is British English; 'color' is standard American English, and the correction uses the standard spelling for this context.\"\n    },\n    {\n      \"original\": \"as wider as\",\n      \"correction\": \"as wide as\",\n      \"type\": \"Lexical error (Lexical form)\",\n      \"explanation\": \"The correct idiomatic structure for comparison using 'as' is 'as [adjective] as'.\"\n    }\n  ],\n  \"feedback\": \"You did a good job comparing the doors. Remember that when using 'as' to compare two items, you should use the base adjective instead of the comparative form (like 'wider'). I also made a small change to the spelling of 'color' for standard usage.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The new door is as wide as the old one, but its colour is much lighter. My uncle painted both doors last week and left the brushes outside to dry.\",\n  \"errors\": [\n    {\n      \"original\": \"as wider\",\n      \"correction\": \"as wide\",\n      \"type\": \"grammar\",\n      \"explanation\": \"In this structure, 'wide' must remain in its base form after 'as'. The phrase should be 'as wide as', not 'as wider as'.\"\n    }\n  ],\n  \"feedback\": \"You made a small grammar mistake with the word 'wider'. In comparisons using 'as...as', you use the adjective in its base form, so it should be 'as wide as'. Everything else in your sentences is correct!\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A1-C005",
+        "level": "A1",
+        "condition": "correct",
+        "task": "Describe how you choose a new notebook.",
+        "student_text": "I like notebooks with plain covers because I can draw on them. My new one has a green cover and forty pages. I write my name inside and keep it beside my dictionary.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": true,
+          "corrected_text": "I like notebooks with plain covers because I can draw on them. My new one has a green cover and forty pages. I write my name inside and keep it beside my dictionary.",
+          "acceptable_alternatives": [],
+          "errors": []
+        },
+        "length_words": 33
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I like notebooks with plain covers because I can draw on them. My new one has a green cover and forty pages. I write my name inside and keep it beside my dictionary.\",\n  \"errors\": [\n    {\n      \"original\": \"My new one has a green cover and forty pages.\",\n      \"correction\": \"My new one has a green cover and forty pages.\",\n      \"type\": \"Lexical/Basic Grammar (Number)\",\n      \"explanation\": \"The number 'forty' is correctly used to describe the quantity of pages.\"\n    }\n  ],\n  \"feedback\": \"Your sentences are clear and easy to understand. You described your preferences and your new notebook well. Optional writing suggestion (not an error): To make your writing flow even better, you could combine the ideas slightly more, for example, by mentioning the green cover when talking about your new one.\"\n}",
+          "app_parser_status": "INCONSISTENT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"I like notebooks with plain covers because I can draw on them. My new one has a green cover and forty pages. I write my name inside and keep it beside my dictionary.\",\n  \"errors\": [],\n  \"feedback\": \"\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I like notebooks with plain covers because I can draw on them. My new one has a green cover and forty pages. I write my name inside and keep it beside my dictionary.\",\n  \"errors\": [\n    {\n      \"original\": \"forty pages\",\n      \"correction\": \"forty pages\",\n      \"type\": \"Lexical Error (Number usage)\",\n      \"explanation\": \"While 'forty' is spelled correctly, for a CEFR A1 level task describing a physical object, it is often clearer to use the word 'pages' or ensure the context implies a countable number. Here, it is grammatically fine, but for strict style, one might say 'containing forty pages'.\"\n    }\n  ],\n  \"feedback\": \"You chose a clear way to describe your notebook. To make it even more detailed, you could add a sentence describing how many times you use the dictionary, or what else you store beside it. Optional writing suggestion (not an error): Consider using different adjectives to describe the feel of the paper, like 'smooth' or 'thick'.\"\n}",
+          "app_parser_status": "INCONSISTENT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"I like notebooks with plain covers because I can draw on them. My new one has a green cover and forty pages. I write my name inside and keep it beside my dictionary.\",\n  \"errors\": [],\n  \"feedback\": \"\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A1-C024",
+        "level": "A1",
+        "condition": "correct",
+        "task": "Describe the maple tree across the street.",
+        "student_text": "A tall maple tree grows across the street from our home. Its leaves turn orange in autumn, and small birds sit on its branches. I can see the tree from my bedroom window.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": true,
+          "corrected_text": "A tall maple tree grows across the street from our home. Its leaves turn orange in autumn, and small birds sit on its branches. I can see the tree from my bedroom window.",
+          "acceptable_alternatives": [],
+          "errors": []
+        },
+        "length_words": 33
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"A tall maple tree grows across the street from our home. Its leaves turn orange in autumn, and small birds sit on its branches. I can see the tree from my bedroom window.\",\n  \"errors\": [],\n  \"feedback\": \"Your description is very clear and grammatically correct. An optional writing suggestion (not an error): You could add a sensory detail, like 'The tree has a rough bark,' to make the image even stronger!\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"A tall maple tree grows across the street from our home. Its leaves turn orange in autumn, and small birds sit on its branches. I can see the tree from my bedroom window.\",\n  \"errors\": [],\n  \"feedback\": \"Your text is grammatically correct and clearly describes the scene.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"A tall maple tree grows across the street from our home. Its leaves turn orange in autumn, and small birds sit on its branches. I can see the tree from my bedroom window.\",\n  \"errors\": [],\n  \"feedback\": \"Your description is very clear and grammatically correct. To make your writing even more engaging, you could optionally use a slightly stronger verb than 'grows' for the maple tree, but this is purely a suggestion for style and not a correction.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"A tall maple tree grows across the street from our home. Its leaves turn orange in autumn, and small birds sit on its branches. I can see the tree from my bedroom window.\",\n  \"errors\": [],\n  \"feedback\": \"Your text is grammatically correct and clearly describes the scene.\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A1-C021",
+        "level": "A1",
+        "condition": "correct",
+        "task": "Write about how you cross a busy street safely.",
+        "student_text": "I wait beside the crossing until the green person appears. Then I look left and right and walk across with my father. We stay on the pavement until we reach the other side.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": true,
+          "corrected_text": "I wait beside the crossing until the green person appears. Then I look left and right and walk across with my father. We stay on the pavement until we reach the other side.",
+          "acceptable_alternatives": [],
+          "errors": []
+        },
+        "length_words": 33
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I wait beside the crossing until the light turns green. Then I look left and right and walk across with my father. We stay on the pavement until we reach the other side.\",\n  \"errors\": [\n    {\n      \"original\": \"the green person appears\",\n      \"correction\": \"the light turns green\",\n      \"type\": \"lexical/idiomatic error\",\n      \"explanation\": \"In English, we describe the status of traffic lights using the idiom 'the light turns green' rather than referring to a 'green person'.\"\n    }\n  ],\n  \"feedback\": \"That is a very clear description of the steps you take. Optional writing suggestion (not an error): To make the text sound more natural for A1 level, you can replace 'green person appears' with 'light turns green' to describe traffic signals.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I wait beside the crossing until the green light appears. Then I look left and right and walk across with my father. We stay on the pavement until we reach the other side.\",\n  \"errors\": [\n    {\n      \"original\": \"green person\",\n      \"correction\": \"green light\",\n      \"type\": \"lexical error\",\n      \"explanation\": \"In this context, you cannot refer to a 'person' when talking about traffic signals. The correct term is 'light' or 'signal'.\"\n    }\n  ],\n  \"feedback\": \"You made a small mistake using the word 'person'. In English, we say the 'green light' appears, not the green person. Everything else in your text is perfect!\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I wait beside the crossing until the light turns green. Then I look left and right and walk across with my father. We stay on the pavement until we reach the other side.\",\n  \"errors\": [\n    {\n      \"original\": \"the green person appears\",\n      \"correction\": \"the light turns green\",\n      \"type\": \"Basic lexical error\",\n      \"explanation\": \"In the context of crossing a street safely, the most natural and correct phrase is to wait for the traffic light to turn green, rather than waiting for a 'green person'.\"\n    }\n  ],\n  \"feedback\": \"You have a very clear description of the steps you take to cross a busy street. Optional writing suggestion (not an error): You could combine the first two sentences slightly to make the flow even better, for example: 'I wait beside the crossing until the light turns green; then I look left and right and walk across with my father.'\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I wait beside the crossing until the green light appears. Then I look left and right and walk across with my father. We stay on the pavement until we reach the other side.\",\n  \"errors\": [\n    {\n      \"original\": \"green person\",\n      \"correction\": \"green light\",\n      \"type\": \"lexical error\",\n      \"explanation\": \"In this context, you do not wait for a 'person' to appear. You wait for the traffic signal to turn green. The correct term is 'light'.\"\n    }\n  ],\n  \"feedback\": \"You almost got it! Remember that we wait for the 'green light', not a person.\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A2-E018",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Tell a friend about a hobby you enjoy.",
+        "student_text": "I enjoy to draw small pictures when I have free time. I usually sit by the kitchen window and sketch flowers or cups. My cousin likes painting, so sometimes we work at the table together.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "I enjoy drawing small pictures when I have free time. I usually sit by the kitchen window and sketch flowers or cups. My cousin likes painting, so sometimes we work at the table together.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "enjoy to draw",
+              "correction": "enjoy drawing",
+              "type": "VERB_PATTERN",
+              "subtype": "enjoy_plus_gerund",
+              "explanation": "Enjoy is followed by an -ing form, so use enjoy drawing.",
+              "acceptable_corrections": [
+                "enjoy drawing"
+              ]
+            }
+          ]
+        },
+        "length_words": 35
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I enjoy drawing small pictures when I have free time. I usually sit by the kitchen window and sketch flowers or cups. My cousin likes painting, so sometimes we work at the table together.\",\n  \"errors\": [\n    {\n      \"original\": \"I enjoy to draw\",\n      \"correction\": \"I enjoy drawing\",\n      \"type\": \"Grammar (Infinitive usage)\",\n      \"explanation\": \"The verb 'enjoy' is followed by a gerund (verb + -ing form), not an infinitive (to + verb).\"\n    }\n  ],\n  \"feedback\": \"You told a clear story about your hobby. Remember that after the verb 'enjoy,' we use the -ing form of the next verb (a gerund). For example, we say 'I enjoy reading,' not 'I enjoy to read.'\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I enjoy drawing small pictures when I have free time. I usually sit by the kitchen window and sketch flowers or cups. My cousin likes painting, so sometimes we work at the table together.\",\n  \"errors\": [\n    {\n      \"original\": \"enjoy to draw\",\n      \"correction\": \"enjoy drawing\",\n      \"type\": \"Grammar\",\n      \"explanation\": \"The verb 'enjoy' is always followed by a gerund (verb + -ing), not the infinitive form.\"\n    }\n  ],\n  \"feedback\": \"You should change 'enjoy to draw' to 'enjoy drawing'. The verb 'enjoy' requires the '-ing' form of the verb. Everything else in your text is correct and sounds natural!\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I enjoy drawing small pictures when I have free time. I usually sit by the kitchen window and sketch flowers or cups. My cousin likes painting, so sometimes we work at the table together.\",\n  \"errors\": [\n    {\n      \"original\": \"I enjoy to draw\",\n      \"correction\": \"I enjoy drawing\",\n      \"type\": \"Grammar (Infinitive usage)\",\n      \"explanation\": \"The verb 'enjoy' must be followed by a gerund (-ing form), not an infinitive (to + verb).\"\n    }\n  ],\n  \"feedback\": \"You told a great story about your hobby. Optional writing suggestion (not an error): Consider adding a bit more detail about *why* you like drawing small pictures or what kind of feelings it gives you. For example: 'I love the way I can focus on drawing these small details.' \"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I enjoy drawing small pictures when I have free time. I usually sit by the kitchen window and sketch flowers or cups. My cousin likes painting, so sometimes we work at the table together.\",\n  \"errors\": [\n    {\n      \"original\": \"enjoy to draw\",\n      \"correction\": \"enjoy drawing\",\n      \"type\": \"Grammar\",\n      \"explanation\": \"The verb 'enjoy' is always followed by a gerund (verb + -ing), not the base form or infinitive with 'to'.\"\n    }\n  ],\n  \"feedback\": \"Remember that after 'enjoy', you must use the -ing form of the verb (gerund). So 'enjoy to draw' becomes 'enjoy drawing'. The rest of your sentences are correct!\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A2-E052",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Ask a friend when they leave and describe the journey.",
+        "student_text": "What time you leave for the airport tomorrow? I can drive you there if you need a ride. The trip dont take long early in the morning, and we can stop for coffee before your flight.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "What time do you leave for the airport tomorrow? I can drive you there if you need a ride. The trip doesn't take long early in the morning, and we can stop for coffee before your flight.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "What time you leave",
+              "correction": "What time do you leave",
+              "type": "QUESTION_FORM",
+              "subtype": "present_simple_wh_question",
+              "explanation": "Use do before the subject in a present simple question.",
+              "acceptable_corrections": [
+                "What time do you leave"
+              ]
+            },
+            {
+              "original": "trip dont",
+              "correction": "trip doesn't",
+              "type": "NEGATION",
+              "subtype": "does_not_with_singular_subject",
+              "explanation": "Use doesn't with the singular subject trip.",
+              "acceptable_corrections": [
+                "trip doesn't"
+              ]
+            }
+          ]
+        },
+        "length_words": 36
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"What time are you leaving for the airport tomorrow? I can drive you there if you need a ride. The trip doesn't take long, early in the morning, and we can stop for coffee before your flight.\",\n  \"errors\": [\n    {\n      \"original\": \"What time you leave for the airport tomorrow?\",\n      \"correction\": \"What time are you leaving for the airport tomorrow?\",\n      \"type\": \"Syntax/Verb Tense\",\n      \"explanation\": \"When asking a question about a future event, the correct structure is 'What time are you leaving?' (Present Continuous for a fixed arrangement) rather than 'What time you leave?'\"\n    },\n    {\n      \"original\": \"The trip dont take long\",\n      \"correction\": \"The trip doesn't take long\",\n      \"type\": \"Spelling/Contraction\",\n      \"explanation\": \"The correct spelling for the third-person singular negative is 'doesn't' (does not take), and the apostrophe is necessary for the contraction.\"\n    },\n    {\n      \"original\": \"early in the morning\",\n      \"correction\": \"early in the morning\",\n      \"type\": \"Punctuation/Flow\",\n      \"explanation\": \"This phrase is descriptive but was awkwardly placed. In the correction, I kept the meaning but ensured the sentence flowed better after the main clause.\"\n    }\n  ],\n  \"feedback\": \"You did a good job describing the plan! Remember that when forming questions about the future, using 'are you leaving' sounds much more natural. Also, always double-check your spelling for 'doesn't' when talking about the trip!\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"What time do you leave for the airport tomorrow? I can drive you there if you need a ride. The trip doesn't take long early in the morning, and we can stop for coffee before your flight.\",\n  \"errors\": [\n    {\n      \"original\": \"What time you leave\",\n      \"correction\": \"What time do you leave\",\n      \"type\": \"grammar\",\n      \"explanation\": \"In present simple questions involving the verb 'to be' or modal verbs, auxiliary verbs are required. Here, 'do' is needed before the subject 'you'.\"\n    },\n    {\n      \"original\": \"The trip dont take long\",\n      \"correction\": \"The trip doesn't take long\",\n      \"type\": \"grammar\",\n      \"explanation\": \"The verb phrase must agree with the singular subject 'trip'. It requires the third-person singular auxiliary 'does', and the contraction 'doesn't' is used for negative statements.\"\n    }\n  ],\n  \"feedback\": \"You correctly asked about your friend's travel plans and offered a ride. Remember to use the auxiliary verb 'do' in questions (e.g., 'What time do you leave?') and 'does' for negative sentences with third-person singular subjects (e.g., 'The trip doesn't take long').\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"What time are you leaving for the airport tomorrow? I can drive you there if you need a ride. The trip doesn't take long, early in the morning, and we can stop for coffee before your flight.\",\n  \"errors\": [\n    {\n      \"original\": \"What time you leave for the airport tomorrow?\",\n      \"correction\": \"What time are you leaving for the airport tomorrow?\",\n      \"type\": \"Subject-Verb Agreement / Question Structure\",\n      \"explanation\": \"When asking a question about a future action, you need the correct auxiliary verb structure. 'Are you leaving' is the standard way to form this question.\"\n    },\n    {\n      \"original\": \"The trip dont take long\",\n      \"correction\": \"The trip doesn't take long\",\n      \"type\": \"Spelling / Contraction\",\n      \"explanation\": \"The word 'do' needs to be in its negative form, 'doesn't' (does not), when paired with the singular subject 'trip'. Also, 'dont' should be written with an apostrophe.\"\n    },\n    {\n      \"original\": \"early in the morning\",\n      \"correction\": \"early in the morning\",\n      \"type\": \"Punctuation / Sentence Flow\",\n      \"explanation\": \"This fragment was attached to the previous sentence incorrectly. It has been moved to create a clearer description of the journey.\"\n    }\n  ],\n  \"feedback\": \"You have a good start to describing your plans. To improve your English, focus on the correct structure when asking questions about the future using 'are you leaving'. Also, pay attention to subject-verb agreement in the negative form (e.g., 'doesn't' instead of 'dont'). Optional writing suggestion (not an error): You could add a phrase describing what you will do on the journey, such as 'We will see the city!'\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"What time do you leave for the airport tomorrow? I can drive you there if you need a ride. The trip doesn't take long early in the morning, and we can stop for coffee before your flight.\",\n  \"errors\": [\n    {\n      \"original\": \"What time you leave\",\n      \"correction\": \"What time do you leave\",\n      \"type\": \"grammar\",\n      \"explanation\": \"In present simple questions involving the verb 'to be' or modal verbs, and for other subjects in this context, we need the auxiliary verb 'do' before the subject 'you'. Without it, the sentence is grammatically incomplete.\"\n    },\n    {\n      \"original\": \"The trip dont take\",\n      \"correction\": \"The trip doesn't take\",\n      \"type\": \"grammar\",\n      \"explanation\": \"The subject 'the trip' is singular, so the third-person singular form of the verb 'to be' requires 'does'. Since it is used with a negative meaning here, it becomes 'doesn't' (does not). The contraction replaces two words.\"\n    }\n  ],\n  \"feedback\": \"You made two small grammatical errors. First, in questions like this, you need to add the auxiliary verb 'do' before the subject: 'What time do you leave...'. Second, because 'the trip' is singular, the negative form of the verb must be 'doesn't take' instead of 'dont take'. Great job on the rest of your text!\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A2-E008",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Describe where you keep your clothes.",
+        "student_text": "I keep my coats and scarves on the bedroom, beside the door. A small basket holds my gloves, and my shoes stay under the bed. This makes it easy to get ready when I leave home early.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "I keep my coats and scarves in the bedroom, beside the door. A small basket holds my gloves, and my shoes stay under the bed. This makes it easy to get ready when I leave home early.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "on the bedroom",
+              "correction": "in the bedroom",
+              "type": "PREPOSITION_PLACE",
+              "subtype": "inside_a_room",
+              "explanation": "Use in for something located inside a room.",
+              "acceptable_corrections": [
+                "in the bedroom"
+              ]
+            }
+          ]
+        },
+        "length_words": 37
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I keep my coats and scarves in the bedroom beside the door. A small basket holds my gloves, and my shoes are under the bed. This makes it easy to get ready when I leave home early.\",\n  \"errors\": [\n    {\n      \"original\": \"I keep my coats and scarves on the bedroom, beside the door.\",\n      \"correction\": \"I keep my coats and scarves in the bedroom beside the door.\",\n      \"type\": \"Preposition/Article Usage and Punctuation\",\n      \"explanation\": \"We use 'in' to describe location inside a room, not 'on' for a general area. Also, the comma before 'beside' was unnecessary. 'Beside' is correct for next to the door.\"\n    },\n    {\n      \"original\": \"and my shoes stay under the bed.\",\n      \"correction\": \"and my shoes are under the bed.\",\n      \"type\": \"Verb Tense/Voice\",\n      \"explanation\": \"We use the simple present 'are' to describe a current state of location, which is more natural than 'stay' in this context.\"\n    }\n  ],\n  \"feedback\": \"Your description is very clear! Using 'in' for the bedroom location is perfect. Optional writing suggestion (not an error): You could use 'next to the door' instead of 'beside' if you want a slightly more common phrasing, though 'beside' is grammatically correct.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I keep my coats and scarves in the bedroom, beside the door. A small basket holds my gloves, and my shoes stay under the bed. This makes it easy to get ready when I leave home early.\",\n  \"errors\": [\n    {\n      \"original\": \"on the bedroom\",\n      \"correction\": \"in the bedroom\",\n      \"type\": \"preposition error\",\n      \"explanation\": \"The preposition 'in' is used for being inside a room, whereas 'on' is used for surfaces.\"\n    }\n  ],\n  \"feedback\": \"You should use 'in' instead of 'on' when talking about something located inside a room.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I keep my coats and scarves in the bedroom beside the door. A small basket holds my gloves, and my shoes stay under the bed. This makes it easy to get ready when I leave home early.\",\n  \"errors\": [\n    {\n      \"original\": \"on the bedroom, beside the door\",\n      \"correction\": \"in the bedroom beside the door\",\n      \"type\": \"Preposition choice and punctuation\",\n      \"explanation\": \"When describing where items are stored within a room, 'in' is the correct preposition, not 'on'. Also, the comma before 'beside' should be omitted for better flow.\"\n    }\n  ],\n  \"feedback\": \"You did a good job describing where you keep your clothes. Remember to use 'in' when talking about storage inside a room. For instance, use 'in the bedroom' instead of 'on the bedroom'.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I keep my coats and scarves in the bedroom, beside the door. A small basket holds my gloves, and my shoes stay under the bed. This makes it easy to get ready when I leave home early.\",\n  \"errors\": [\n    {\n      \"original\": \"on the bedroom\",\n      \"correction\": \"in the bedroom\",\n      \"type\": \"preposition misuse\",\n      \"explanation\": \"The preposition 'in' is used for rooms, whereas 'on' is used for surfaces.\"\n    }\n  ],\n  \"feedback\": \"You should use 'in the bedroom' instead of 'on the bedroom' because you are inside a room. Great job describing where your items are stored!\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A2-E055",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Tell a friend about information you found for a class project.",
+        "student_text": "I found many information about the town library for my project. The website also showed a useful map and two opening times for the weekend. I copied a details into my notebook so I can share it with my group.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "I found a lot of information about the town library for my project. The website also showed a useful map and two opening times for the weekend. I copied a detail into my notebook so I can share it with my group.",
+          "acceptable_alternatives": [
+            "I found much information about the town library for my project. The website also showed a useful map and two opening times for the weekend. I copied a detail into my notebook so I can share it with my group."
+          ],
+          "errors": [
+            {
+              "original": "many information",
+              "correction": "a lot of information",
+              "type": "COUNTABLE_UNCOUNTABLE",
+              "subtype": "information_uncountable",
+              "explanation": "Information is uncountable; use a lot of information rather than many information.",
+              "acceptable_corrections": [
+                "a lot of information",
+                "much information"
+              ]
+            },
+            {
+              "original": "a details",
+              "correction": "a detail",
+              "type": "SINGULAR_PLURAL",
+              "subtype": "singular_after_a",
+              "explanation": "Use a singular noun after a.",
+              "acceptable_corrections": [
+                "a detail"
+              ]
+            }
+          ]
+        },
+        "length_words": 40
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I found a lot of information about the town library for my project. The website also showed a useful map and two opening times for the weekend. I copied the details into my notebook so I can share it with my group.\",\n  \"errors\": [\n    {\n      \"original\": \"I found many information\",\n      \"correction\": \"I found a lot of information\",\n      \"type\": \"Lexical/Countable Noun\",\n      \"explanation\": \"Information is an uncountable noun, so 'many' cannot be used. 'A lot of' or 'much' is the correct quantifier.\"\n    },\n    {\n      \"original\": \"I copied a details\",\n      \"correction\": \"I copied the details\",\n      \"type\": \"Lexical/Countable Noun\",\n      \"explanation\": \"When referring to specific details already mentioned or copied, the definite article 'the' is required instead of 'a'.\"\n    }\n  ],\n  \"feedback\": \"You communicated your ideas clearly! Just remember that 'information' is uncountable, so you cannot use 'many.' Also, use 'the' when talking about specific details you have copied.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I found much information about the town library for my project. The website also showed a useful map and two opening times for the weekend. I copied some details into my notebook so I can share it with my group.\",\n  \"errors\": [\n    {\n      \"original\": \"many information\",\n      \"correction\": \"much information\",\n      \"type\": \"grammar\",\n      \"explanation\": \"The noun 'information' is uncountable in English, so it cannot be used with the quantifier 'many'. Use 'much' instead.\"\n    },\n    {\n      \"original\": \"a details\",\n      \"correction\": \"some details\",\n      \"type\": \"grammar\",\n      \"explanation\": \"The word 'details' is plural, so it cannot follow the singular article 'a'. Use 'some' or another appropriate quantifier for countable plurals.\"\n    }\n  ],\n  \"feedback\": \"You correctly used 'much' instead of 'many' with uncountable nouns like 'information'. Also, remember that countable plural nouns like 'details' need a quantifier like 'some' rather than the singular article 'a'. Great job on the rest of your sentences!\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I found a lot of information about the town library for my project. The website also showed a useful map and two opening times for the weekend. I copied the details into my notebook so I can share it with my group.\",\n  \"errors\": [\n    {\n      \"original\": \"many information\",\n      \"correction\": \"a lot of information\",\n      \"type\": \"Lexical error (Countable/Uncountable)\",\n      \"explanation\": \"Information is an uncountable noun, so 'many' cannot be used. 'A lot of' or 'much' should be used instead.\"\n    },\n    {\n      \"original\": \"copied a details\",\n      \"correction\": \"copied the details\",\n      \"type\": \"Article error (Definite/Indefinite)\",\n      \"explanation\": \"'Details' in this context refers to specific information that has already been mentioned, so the definite article 'the' must be used.\"\n    }\n  ],\n  \"feedback\": \"Your message is clear! You successfully shared the key findings with your group. Remember to use 'a lot of' when talking about information, as it is an uncountable noun. Also, using 'the' before 'details' makes the sentence sound more natural when referring to specific items.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"I found much information about the town library for my project. The website also showed a useful map and two opening times for the weekend. I copied details into my notebook so I can share it with my group.\",\n  \"errors\": [\n    {\n      \"original\": \"many information\",\n      \"correction\": \"much information\",\n      \"type\": \"grammar\",\n      \"explanation\": \"The noun 'information' is uncountable, so it cannot be used with 'many'. The correct quantifier for uncountable nouns is 'much'.\"\n    },\n    {\n      \"original\": \"a details\",\n      \"correction\": \"details\",\n      \"type\": \"grammar\",\n      \"explanation\": \"The word 'details' is a plural noun and does not take the article 'a'. The phrase should be simply 'copied details'.\"\n    }\n  ],\n  \"feedback\": \"You made two small grammar mistakes. First, use 'much information' instead of 'many information' because 'information' is uncountable. Second, remove 'a' before 'details' because it is a plural noun and does not need an article here.\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A2-E009",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Describe a regular family visit.",
+        "student_text": "We visit my aunt at Sunday afternoons, usually after lunch. She lives above a small bakery, so we can walk there in ten minutes. She has a collection of postcards from different towns, and she shows us one each time we visit.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "We visit my aunt on Sunday afternoons, usually after lunch. She lives above a small bakery, so we can walk there in ten minutes. She has a collection of postcards from different towns, and she shows us one each time we visit.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "at Sunday afternoons",
+              "correction": "on Sunday afternoons",
+              "type": "PREPOSITION_TIME",
+              "subtype": "day_with_on",
+              "explanation": "Use on with a day of the week.",
+              "acceptable_corrections": [
+                "on Sunday afternoons"
+              ]
+            }
+          ]
+        },
+        "length_words": 42
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"We visit my aunt on Sunday afternoons, usually after lunch. She lives above a small bakery, so we can walk there in ten minutes. She has a collection of postcards from different towns, and she shows us one each time we visit.\",\n  \"errors\": [\n    {\n      \"original\": \"at Sunday afternoons\",\n      \"correction\": \"on Sunday afternoons\",\n      \"type\": \"Preposition error\",\n      \"explanation\": \"The correct preposition to use when referring to specific days of the week is 'on'.\"\n    }\n  ],\n  \"feedback\": \"Your description is very clear! Optional writing suggestion (not an error): You could add a sentence describing what your aunt usually eats during lunch.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"We visit my aunt on Sunday afternoons, usually after lunch. She lives above a small bakery, so we can walk there in ten minutes. She has a collection of postcards from different towns, and she shows us one each time we visit.\",\n  \"errors\": [\n    {\n      \"original\": \"at Sunday afternoons\",\n      \"correction\": \"on Sunday afternoons\",\n      \"type\": \"preposition misuse\",\n      \"explanation\": \"The preposition 'on' is used with specific days of the week (e.g., on Monday, on Sundays), whereas 'at' is used for times (e.g., at noon).\"\n    }\n  ],\n  \"feedback\": \"You correctly described your aunt's location and her hobby. Just remember to use 'on' before specific days like Sunday.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"We visit my aunt on Sunday afternoons, usually after lunch. She lives above a small bakery, so we can walk there in ten minutes. She has a collection of postcards from different towns, and she shows us one each time we visit.\",\n  \"errors\": [\n    {\n      \"original\": \"at Sunday afternoons\",\n      \"correction\": \"on Sunday afternoons\",\n      \"type\": \"Preposition error\",\n      \"explanation\": \"The correct preposition to use when referring to specific days of the week is 'on'.\"\n    }\n  ],\n  \"feedback\": \"Your description is very clear! Optional writing suggestion (not an error): You could add a sentence describing what your aunt usually eats during lunch.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"We visit my aunt on Sunday afternoons, usually after lunch. She lives above a small bakery, so we can walk there in ten minutes. She has a collection of postcards from different towns, and she shows us one each time we visit.\",\n  \"errors\": [\n    {\n      \"original\": \"at Sunday afternoons\",\n      \"correction\": \"on Sunday afternoons\",\n      \"type\": \"preposition misuse\",\n      \"explanation\": \"The preposition 'on' is used with days of the week (e.g., on Monday, on Sundays), whereas 'at' is used for specific times (e.g., at noon).\"\n    }\n  ],\n  \"feedback\": \"You correctly described your aunt's location and her postcard collection. Just remember to use 'on' instead of 'at' when referring to days or days plus parts of the day, like 'on Sunday afternoons'. That was the only small error in your text.\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A2-E048",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Describe what people are doing before a game.",
+        "student_text": "The team members are wait in the school gym for their captain. One student is filling a bottle, and two friends talking about the score. Their coach is checking a list on the wall before practice.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "The team members are waiting in the school gym for their captain. One student is filling a bottle, and two friends are talking about the score. Their coach is checking a list on the wall before practice.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "are wait",
+              "correction": "are waiting",
+              "type": "PRESENT_CONTINUOUS",
+              "subtype": "be_plus_ing",
+              "explanation": "Use waiting after are to form the present continuous.",
+              "acceptable_corrections": [
+                "are waiting"
+              ]
+            },
+            {
+              "original": "two friends talking",
+              "correction": "two friends are talking",
+              "type": "PRESENT_CONTINUOUS",
+              "subtype": "missing_be_present_continuous",
+              "explanation": "Add are before talking to form the present continuous for the action happening now.",
+              "acceptable_corrections": [
+                "two friends are talking"
+              ]
+            }
+          ]
+        },
+        "length_words": 36
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The team members are waiting in the school gym for their captain. One student is filling a bottle, and two friends are talking about the score. Their coach is checking a list on the wall before practice.\",\n  \"errors\": [\n    {\n      \"original\": \"The team members are wait\",\n      \"correction\": \"The team members are waiting\",\n      \"type\": \"Grammar (Tense/Form)\",\n      \"explanation\": \"The original text used the base verb 'wait' after 'are', which is incorrect for the present continuous tense. It should be 'waiting' to describe an ongoing action.\"\n    },\n    {\n      \"original\": \"two friends talking\",\n      \"correction\": \"two friends are talking\",\n      \"type\": \"Grammar (Missing Auxiliary Verb)\",\n      \"explanation\": \"To form the present continuous tense with a verb, an auxiliary verb (like 'are') must be included. It should be 'are talking'.\"\n    }\n  ],\n  \"feedback\": \"You did a good job describing the scene! To make your sentences grammatically correct in the present continuous tense, remember to use the form 'are' before the main verb (e.g., 'are waiting', 'are talking'). Optional writing suggestion (not an error): Consider using 'are' before 'talking about the score' to keep the parallel structure with 'is filling a bottle'.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The team members are waiting in the school gym for their captain. One student is filling a bottle, and two friends are talking about the score. Their coach is checking a list on the wall before practice.\",\n  \"errors\": [\n    {\n      \"original\": \"are wait\",\n      \"correction\": \"are waiting\",\n      \"type\": \"grammar\",\n      \"explanation\": \"The present continuous tense requires the verb 'to be' followed by the present participle (verb + -ing). 'Wait' must become 'waiting'.\"\n    },\n    {\n      \"original\": \"two friends talking\",\n      \"correction\": \"two friends are talking\",\n      \"type\": \"grammar\",\n      \"explanation\": \"To maintain parallel structure with the previous clause ('One student is filling...'), the subject 'two friends' also needs the verb 'are' to form the present continuous tense.\"\n    }\n  ],\n  \"feedback\": \"You correctly used the present continuous tense for most of your sentences. Remember that after the auxiliary verb 'is', you must use the -ing form of the verb (e.g., 'waiting', 'talking'). Also, don't forget to add 'are' before 'talking' in the second clause to match the structure of the first.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The team members are waiting in the school gym for their captain. One student is filling a bottle, and two friends are talking about the score. Their coach is checking a list on the wall before practice.\",\n  \"errors\": [\n    {\n      \"original\": \"The team members are wait\",\n      \"correction\": \"The team members are waiting\",\n      \"type\": \"Grammar (Tense/Form)\",\n      \"explanation\": \"The present continuous tense requires the structure 'to be' + the present participle. 'Wait' should be 'waiting' to describe an action happening now.\"\n    },\n    {\n      \"original\": \"two friends talking about the score\",\n      \"correction\": \"two friends are talking about the score\",\n      \"type\": \"Grammar (Tense/Form)\",\n      \"explanation\": \"Similar to the previous error, the present continuous tense is required. 'Talking' must be 'are talking' to describe an ongoing action.\"\n    }\n  ],\n  \"feedback\": \"You are doing well describing the scene! To make your sentences more accurate, remember that when describing actions happening now, you need the present continuous tense (is/are + verb-ing). For example, instead of 'members are wait', use 'members are waiting'.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"The team members are waiting in the school gym for their captain. One student is filling a bottle, and two friends are talking about the score. Their coach is checking a list on the wall before practice.\",\n  \"errors\": [\n    {\n      \"original\": \"are wait\",\n      \"correction\": \"are waiting\",\n      \"type\": \"grammar\",\n      \"explanation\": \"The present continuous tense requires the verb 'to be' followed by the present participle (verb + -ing). 'Wait' must become 'waiting'.\"\n    },\n    {\n      \"original\": \"two friends talking\",\n      \"correction\": \"two friends are talking\",\n      \"type\": \"grammar\",\n      \"explanation\": \"To match the tense used in the other clauses ('is filling', 'is checking'), the phrase 'talking' needs to be part of the present continuous structure. Adding 'are' makes it grammatically consistent.\"\n    }\n  ],\n  \"feedback\": \"You need to add '-ing' to make the verbs fit with the verb 'to be'. Also, remember that when you have a subject like 'two friends' doing an action in the present continuous, you usually need to include the helper verb 'are'.\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A2-E054",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Write about two people in a family photograph.",
+        "student_text": "In this old photograph, her is my grandmother beside the fireplace. She is holding a cat, and my grandfather is sitting next to her. Them are my great-aunts, who came to visit us one summer.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "In this old photograph, she is my grandmother beside the fireplace. She is holding a cat, and my grandfather is sitting next to her. They are my great-aunts, who came to visit us one summer.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "photograph, her is",
+              "correction": "photograph, she is",
+              "type": "SUBJECT_PRONOUN",
+              "subtype": "subject_pronoun_before_be",
+              "explanation": "Use the subject pronoun she before is; the longer fragment identifies this occurrence.",
+              "acceptable_corrections": [
+                "photograph, she is"
+              ]
+            },
+            {
+              "original": "Them are",
+              "correction": "They are",
+              "type": "SUBJECT_PRONOUN",
+              "subtype": "subject_pronoun_before_be",
+              "explanation": "Use the subject pronoun they as the subject of are.",
+              "acceptable_corrections": [
+                "They are"
+              ]
+            }
+          ]
+        },
+        "length_words": 36
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"In this old photograph, my grandmother is beside the fireplace. She is holding a cat, and my grandfather is sitting next to her. My great-aunts came to visit us one summer.\",\n  \"errors\": [\n    {\n      \"original\": \"her is my grandmother\",\n      \"correction\": \"my grandmother is\",\n      \"type\": \"Pronoun/Possessive Error\",\n      \"explanation\": \"The word 'her' was incorrectly used as a subject pronoun; it should be the possessive pronoun 'my' before the noun 'grandmother'.\"\n    },\n    {\n      \"original\": \"Them are my great-aunts\",\n      \"correction\": \"My great-aunts\",\n      \"type\": \"Subject/Object Pronoun Error\",\n      \"explanation\": \"'Them' was used as the subject of the sentence; it should be the possessive pronoun 'my' before the noun 'great-aunts'.\"\n    },\n    {\n      \"original\": \"who came to visit us one summer\",\n      \"correction\": \"came to visit us one summer\",\n      \"type\": \"Relative Clause Structure Error\",\n      \"explanation\": \"The relative pronoun 'who' was unnecessary here as the clause was reduced to a participial phrase.\"\n    }\n  ],\n  \"feedback\": \"You did a good job describing the scene. Remember to use the correct possessive pronouns (like 'my') before nouns and to use simple sentence structures when describing actions.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"In this old photograph, her is my grandmother beside the fireplace. She is holding a cat, and my grandfather is sitting next to her. They are my great-aunts, who came to visit us one summer.\",\n  \"errors\": [\n    {\n      \"original\": \"her\",\n      \"correction\": \"here\",\n      \"type\": \"Spelling\",\n      \"explanation\": \"The word 'here' (meaning in this place) is spelled with an 'e', not 'h'. The student likely confused the two similar-sounding words.\"\n    },\n    {\n      \"original\": \"Them\",\n      \"correction\": \"They\",\n      \"type\": \"Grammar\",\n      \"explanation\": \"The subject pronoun for 'my great-aunts' (plural people) is 'They'. 'Them' is an object pronoun used when receiving the action of a verb.\"\n    }\n  ],\n  \"feedback\": \"You correctly described the grandmother, grandfather, and the cats. Just remember to spell 'here' with an 'e', and use 'they' instead of 'them' when talking about the great-aunts as the subject of the sentence.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"In this old photograph, my grandmother is beside the fireplace. She is holding a cat, and my grandfather is sitting next to her. My great-aunts are visiting us this summer.\",\n  \"errors\": [\n    {\n      \"original\": \"her is my grandmother\",\n      \"correction\": \"my grandmother is\",\n      \"type\": \"Word Order/Pronoun Usage\",\n      \"explanation\": \"The pronoun 'her' is used incorrectly as the subject. The correct possessive pronoun or subject form is 'my grandmother'.\"\n    },\n    {\n      \"original\": \"Them are my great-aunts\",\n      \"correction\": \"My great-aunts are\",\n      \"type\": \"Subject Pronoun Usage\",\n      \"explanation\": \"The subject pronoun 'Them' is incorrect in this context. The correct subject pronoun is 'My', as it refers to the 'great-aunts' who are the subject of the sentence.\"\n    },\n    {\n      \"original\": \"who came to visit us one summer\",\n      \"correction\": \"are visiting us this summer\",\n      \"type\": \"Tense/Aspect\",\n      \"explanation\": \"The original text used the past tense ('came') which is inconsistent with the context of 'this summer'. The present continuous tense ('are visiting') is more appropriate for describing a current or planned event.\"\n    }\n  ],\n  \"feedback\": \"Your description of the photograph is clear. Focus on using the correct subject and object pronouns to make your sentences flow better, especially when referring to family members. Try practicing different verb tenses to match the timing of your events.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": false,\n  \"corrected_text\": \"In this old photograph, her is my grandmother beside the fireplace. She is holding a cat, and my grandfather is sitting next to her. They are my great-aunts, who came to visit us one summer.\",\n  \"errors\": [\n    {\n      \"original\": \"her\",\n      \"correction\": \"here\",\n      \"type\": \"spelling\",\n      \"explanation\": \"The word 'here' (meaning in this place) is spelled with an 'e', not 'h'. The student likely confused the two similar-sounding words.\"\n    },\n    {\n      \"original\": \"Them\",\n      \"correction\": \"They\",\n      \"type\": \"grammar\",\n      \"explanation\": \"The subject pronoun for 'my great-aunts' (plural people) is 'They'. 'Them' is an object pronoun used as the object of a verb or preposition.\"\n    }\n  ],\n  \"feedback\": \"You made two errors. First, 'her' should be spelled 'here' when referring to location in this sentence. Second, you used 'Them' instead of 'They' because 'great-aunts' are the subject of the sentence (who do the action), not the object. Remember: They start sentences.\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A2-C020",
+        "level": "A2",
+        "condition": "correct",
+        "task": "Write about a place you visited with a friend.",
+        "student_text": "Last month, my friend and I went to a small museum near the river. We looked at old sports uniforms and watched a short video about the town. Afterward, we sat outside and shared a cold drink.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": true,
+          "corrected_text": "Last month, my friend and I went to a small museum near the river. We looked at old sports uniforms and watched a short video about the town. Afterward, we sat outside and shared a cold drink.",
+          "acceptable_alternatives": [],
+          "errors": []
+        },
+        "length_words": 37
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"Last month, my friend and I went to a small museum near the river. We looked at old sports uniforms and watched a short video about the town. Afterward, we sat outside and shared a cold drink.\",\n  \"errors\": [],\n  \"feedback\": \"Your text is clear and well-written. It effectively describes the visit and the activities. Optional writing suggestion (not an error): You could add a sentence describing how the museum or uniforms made you feel, but this is entirely optional!\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"Last month, my friend and I went to a small museum near the river. We looked at old sports uniforms and watched a short video about the town. Afterward, we sat outside and shared a cold drink.\",\n  \"errors\": [],\n  \"feedback\": \"Your text is grammatically correct and clear. It effectively describes your visit with proper tense usage.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"Last month, my friend and I went to a small museum near the river. We looked at old sports uniforms and watched a short video about the town. Afterward, we sat outside and shared a cold drink.\",\n  \"errors\": [],\n  \"feedback\": \"Your text is clear and well-written. It effectively describes the visit and the activities. Optional writing suggestion (not an error): You could add a sentence about what you felt or learned during the trip to make it more personal.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"Last month, my friend and I went to a small museum near the river. We looked at old sports uniforms and watched a short video about the town. Afterward, we sat outside and shared a cold drink.\",\n  \"errors\": [],\n  \"feedback\": \"\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A2-C006",
+        "level": "A2",
+        "condition": "correct",
+        "task": "Describe a family member's morning routine.",
+        "student_text": "My father gets up at six every morning and makes coffee in the kitchen. He reads the news while he eats breakfast, then walks to the bus stop. He usually arrives at work before his first meeting.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": true,
+          "corrected_text": "My father gets up at six every morning and makes coffee in the kitchen. He reads the news while he eats breakfast, then walks to the bus stop. He usually arrives at work before his first meeting.",
+          "acceptable_alternatives": [],
+          "errors": []
+        },
+        "length_words": 37
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"My father gets up at six every morning and makes coffee in the kitchen. He reads the news while he eats breakfast, then walks to the bus stop. He usually arrives at work before his first meeting.\",\n  \"errors\": [],\n  \"feedback\": \"Your description is very clear and accurate. To make it even more descriptive, you could optionally add how your father feels or what his favorite part of the routine is. Optional writing suggestion (not an error): Consider adding a sentence about how much he enjoys the quiet time he has before his first meeting.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"My father gets up at six every morning and makes coffee in the kitchen. He reads the news while he eats breakfast, then walks to the bus stop. He usually arrives at work before his first meeting.\",\n  \"errors\": [],\n  \"feedback\": \"\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"My father gets up at six every morning and makes coffee in the kitchen. He reads the news while he eats breakfast, then walks to the bus stop. He usually arrives at work before his first meeting.\",\n  \"errors\": [],\n  \"feedback\": \"Your description is very clear and accurate. To make it even more descriptive, you could optionally add how your father feels or what music he listens to during his routine. Optional writing suggestion (not an error): Consider adding a sentence about his feeling or the music he listens to.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"My father gets up at six every morning and makes coffee in the kitchen. He reads the news while he eats breakfast, then walks to the bus stop. He usually arrives at work before his first meeting.\",\n  \"errors\": [],\n  \"feedback\": \"\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    },
+    {
+      "case": {
+        "id": "T200-A2-C024",
+        "level": "A2",
+        "condition": "correct",
+        "task": "Describe a place where you can buy fresh food.",
+        "student_text": "There is a farmers' market near the bus station every Saturday. I go there with my mother to buy tomatoes, eggs, and fresh bread. The sellers are friendly, and we often see people from our neighborhood.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": true,
+          "corrected_text": "There is a farmers' market near the bus station every Saturday. I go there with my mother to buy tomatoes, eggs, and fresh bread. The sellers are friendly, and we often see people from our neighborhood.",
+          "acceptable_alternatives": [],
+          "errors": []
+        },
+        "length_words": 36
+      },
+      "responses": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"There is a farmers' market near the bus station every Saturday. I go there with my mother to buy tomatoes, eggs, and fresh bread. The sellers are friendly, and we often see people from our neighborhood.\",\n  \"errors\": [],\n  \"feedback\": \"Your description is clear and grammatically correct. Optional writing suggestion (not an error): To make the sentence about the market slightly more engaging, you could mention what you like most about the variety there, for example: 'The variety of fresh produce at the market is amazing.'\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"There is a farmers' market near the bus station every Saturday. I go there with my mother to buy tomatoes, eggs, and fresh bread. The sellers are friendly, and we often see people from our neighborhood.\",\n  \"errors\": [],\n  \"feedback\": \"Your text is grammatically correct and clearly conveys your message about the farmers' market.\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"There is a farmers' market near the bus station every Saturday. I go there with my mother to buy tomatoes, eggs, and fresh bread. The sellers are friendly, and we often see people from our neighborhood.\",\n  \"errors\": [],\n  \"feedback\": \"Your description is clear and well-written. You successfully included details about the location, who you went with, and what you bought. Optional writing suggestion (not an error): To make it slightly more engaging, you could add one sentence describing the atmosphere or what you enjoy most about the market, such as 'The market always has a wonderful, lively atmosphere.' Keep up the good work!\"\n}",
+          "app_parser_status": "STRICT"
+        },
+        {
+          "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+          "raw_response": "{\n  \"is_correct\": true,\n  \"corrected_text\": \"There is a farmers' market near the bus station every Saturday. I go there with my mother to buy tomatoes, eggs, and fresh bread. The sellers are friendly, and we often see people from our neighborhood.\",\n  \"errors\": [],\n  \"feedback\": \"Your text is grammatically correct and clearly describes the place. It flows well for an A2 level.\"\n}",
+          "app_parser_status": "STRICT"
+        }
+      ],
+      "human_verdict": null,
+      "explanation_correct": null,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>LumaEnglish</AssemblyName>
+    <Product>Luma English</Product>
+    <Title>Luma English</Title>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <IsAotCompatible>true</IsAotCompatible>
+    <Version>1.1.2</Version>
+    <Description>Curso A1 con evaluación local de Writing</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia.Desktop" Version="12.1.5" />
+    <ProjectReference Include="../Course.UI/Course.UI.csproj" />
+    <ProjectReference Include="../../cross_demo/WritingApp.Native/WritingApp.Native.csproj" />
+    <Compile Include="../../cross_demo/WritingApp.Desktop/PlatformBootstrap.cs" Link="Platform/PrototypeBootstrap.cs" />
+    <Content Include="$(WritingNativeRoot)/win-x64/*.dll" Link="%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="$(WritingNativeRoot)/win-x64/writing_worker.exe" Link="writing_worker.exe" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

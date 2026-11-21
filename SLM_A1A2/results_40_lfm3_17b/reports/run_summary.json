@@ -1,0 +1,35 @@
+{
+  "scope": "phase1_40_lfm3_17b",
+  "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+  "manifest_sha256": "f673d5bc216cc894e586d9efb5701bc6b81f61167a188a6a63608b6718cfa4db",
+  "started_utc": "2026-11-17T13:34:49.609298+00:00",
+  "completed_utc": "2026-11-17T13:37:36.395475+00:00",
+  "planned_rows": 80,
+  "recorded_cases": 80,
+  "transport_ok": 80,
+  "per_config": [
+    {
+      "config_id": "17-lfm3-17b-q8-0",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "18-lfm3-17b-q4-k-m",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    }
+  ],
+  "readiness_sha256": "0051244294ae11d8d719f30a7ebd0928e3374267ffc48ab008583d01a6e40fef"
+}

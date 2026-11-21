@@ -1,0 +1,224 @@
+{
+  "purpose": "PHONE_INTEGRATION_NOT_BENCHMARK",
+  "firmware": "POCO/annibale_global/annibale:17/CP2A.260605.016/OS4.0.6.0.XPKMIXM:user/release-keys",
+  "api": 37,
+  "device": {
+    "Platform": "Android",
+    "Architecture": "arm64-v8a",
+    "TotalMemoryBytes": 11661799424,
+    "AvailableMemoryBytes": 4602482688,
+    "FreeStorageBytes": 208292163584,
+    "IsEmulator": false,
+    "GpuDescription": null
+  },
+  "models": [
+    {
+      "model": "Gemma E2B UD-Q4",
+      "model_id": "13-gemma4-e2b-ud-q4-k-xl",
+      "model_sha256": "e531007218dfab990486a5de7676a6932d6ea8dea233d1f698d7c21cf8a16889",
+      "context": 2048,
+      "seed": 42,
+      "max_tokens": 512,
+      "cpu_median_s": 10.961355308,
+      "vulkan_median_s": 11.3349426,
+      "cpu_over_vulkan_speedup": 0.9670410953823445,
+      "latency_reduction_percent": -3.4082217162264783,
+      "cpu_tokens": [
+        237,
+        237,
+        237
+      ],
+      "vulkan_tokens": [
+        230,
+        230,
+        230
+      ],
+      "cpu_parsers": [
+        "STRICT",
+        "STRICT",
+        "STRICT"
+      ],
+      "vulkan_parsers": [
+        "STRICT",
+        "STRICT",
+        "STRICT"
+      ],
+      "selected": "CPU",
+      "gpu_layers_tested": 36,
+      "prepare_with_calibration_s": 102.922231,
+      "course_sessions": [
+        {
+          "usable": true,
+          "is_correct": true,
+          "parser": "STRICT",
+          "seconds": 8.404453955,
+          "decode_tokens_s": 21.17855950953189
+        },
+        {
+          "usable": true,
+          "is_correct": false,
+          "parser": "STRICT",
+          "seconds": 10.588960049,
+          "decode_tokens_s": 21.057940666940933
+        }
+      ],
+      "memory": {
+        "CPU": {
+          "samples": 20,
+          "peak_pss_mib": 4076.9658203125,
+          "peak_rss_mib": 4194.4921875,
+          "peak_swap_pss_mib": 157.9306640625
+        },
+        "Vulkan": {
+          "samples": 20,
+          "peak_pss_mib": 1755.392578125,
+          "peak_rss_mib": 1870.01171875,
+          "peak_swap_pss_mib": 227.0205078125
+        }
+      }
+    },
+    {
+      "model": "Qwen 3.5 4B Q4",
+      "model_id": "portable-unsloth-qwen35-4b-q4-k-m",
+      "model_sha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4",
+      "context": 2048,
+      "seed": 42,
+      "max_tokens": 512,
+      "cpu_median_s": 35.978553424,
+      "vulkan_median_s": 25.680098011,
+      "cpu_over_vulkan_speedup": 1.40102866463316,
+      "latency_reduction_percent": 28.623872926837212,
+      "cpu_tokens": [
+        167,
+        167,
+        167
+      ],
+      "vulkan_tokens": [
+        155,
+        155,
+        155
+      ],
+      "cpu_parsers": [
+        "STRICT",
+        "STRICT",
+        "STRICT"
+      ],
+      "vulkan_parsers": [
+        "STRICT",
+        "STRICT",
+        "STRICT"
+      ],
+      "selected": "Vulkan",
+      "gpu_layers_tested": 33,
+      "prepare_with_calibration_s": 251.9369347,
+      "course_sessions": [
+        {
+          "usable": true,
+          "is_correct": true,
+          "parser": "STRICT",
+          "seconds": 17.772507806,
+          "decode_tokens_s": 11.529195143496093
+        },
+        {
+          "usable": true,
+          "is_correct": false,
+          "parser": "STRICT",
+          "seconds": 27.231857073,
+          "decode_tokens_s": 11.548476465573424
+        }
+      ],
+      "memory": {
+        "CPU": {
+          "samples": 39,
+          "peak_pss_mib": 4761.7265625,
+          "peak_rss_mib": 4885.796875,
+          "peak_swap_pss_mib": 693.2763671875
+        },
+        "Vulkan": {
+          "samples": 42,
+          "peak_pss_mib": 816.48046875,
+          "peak_rss_mib": 920.046875,
+          "peak_swap_pss_mib": 220.8974609375
+        }
+      }
+    }
+  ],
+  "ui_checks": 43,
+  "ui_success": true,
+  "physical_keyboard_opened": true,
+  "cache_reused_same_key_and_date": true,
+  "cache_prepare_s": 9.8704753,
+  "legacy_data_backup_byte_identical": true,
+  "downloads": [
+    {
+      "purpose": "PHONE_INTEGRATION_NOT_BENCHMARK",
+      "run": "f8-20261120-download",
+      "mode": "download-resume",
+      "utc": "2026-11-20T23:24:25.3796721+00:00",
+      "firmware": "POCO/annibale_global/annibale:17/CP2A.260605.016/OS4.0.6.0.XPKMIXM:user/release-keys",
+      "api": 37,
+      "checks": [
+        {
+          "id": "sandbox-database",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "id": "same-system-job-after-process-restart",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "id": "transfer-progress",
+          "passed": true,
+          "detail": "Descarga del sistema completa."
+        }
+      ],
+      "stopwatch_frequency": 1000000000,
+      "id": 602,
+      "reattached_id": 602,
+      "bytes": 730895168,
+      "state": "Complete",
+      "temporary_job_removed": true,
+      "success": true
+    },
+    {
+      "purpose": "PHONE_INTEGRATION_NOT_BENCHMARK",
+      "run": "f8-20261120-background",
+      "mode": "download-resume",
+      "utc": "2026-11-20T23:25:29.5960548+00:00",
+      "firmware": "POCO/annibale_global/annibale:17/CP2A.260605.016/OS4.0.6.0.XPKMIXM:user/release-keys",
+      "api": 37,
+      "checks": [
+        {
+          "id": "sandbox-database",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "id": "same-system-job-after-process-restart",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "id": "transfer-progress",
+          "passed": true,
+          "detail": "Descargando en el sistema de Android…"
+        }
+      ],
+      "stopwatch_frequency": 1000000000,
+      "id": 603,
+      "reattached_id": 603,
+      "bytes": 117392328,
+      "state": "Running",
+      "temporary_job_removed": true,
+      "success": true
+    }
+  ],
+  "memory_notes": [
+    "PSS/RSS are sampled sums of the app and native worker, not total unified CPU+GPU memory.",
+    "KGSL GPU allocation counters were inaccessible. No dedicated VRAM peak is claimed.",
+    "Earlier rows use Windows file birth time plus elapsed time; backend transitions have sampling uncertainty.",
+    "Gemma memory was measured in a later technical phase, separate from foreground latency medians."
+  ]
+}

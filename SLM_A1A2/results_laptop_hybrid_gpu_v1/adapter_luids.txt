@@ -1,0 +1,8 @@
+deviceName        = Intel(R) UHD Graphics 630
+deviceUUID                        = 86809b3e-0000-0000-0000-000000000000
+deviceLUID                        = 14170100-00000000
+deviceLUIDValid                   = true
+deviceName        = Quadro P1000
+deviceUUID                        = 5cdc728c-e00e-b190-607b-b7947dc93773
+deviceLUID                        = 00240100-00000000
+deviceLUIDValid                   = true

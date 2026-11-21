@@ -1,0 +1,447 @@
+[
+  {
+    "id": "A2-E001",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about a day out with your family last month.",
+    "student_text": "Last month, we taked a bus to the lake. My sister brought a ball, and we played near the water. After lunch, my father didn't remembered the way back, so we asked a man at the cafe.",
+    "length_words": 37,
+    "gold": {
+      "errors": [
+        {
+          "original": "taked",
+          "correction": "took",
+          "type": "PAST_SIMPLE",
+          "type_label": "past simple / irregular verb",
+          "explanation": "The past simple of take is took.",
+          "acceptable_corrections": [
+            "took"
+          ]
+        },
+        {
+          "original": "didn't remembered",
+          "correction": "didn't remember",
+          "type": "VERB_FORM_AFTER_DO",
+          "type_label": "past simple negation",
+          "explanation": "After didn't, use the base form remember.",
+          "acceptable_corrections": [
+            "didn't remember"
+          ]
+        }
+      ],
+      "corrected_text": "Last month, we took a bus to the lake. My sister brought a ball, and we played near the water. After lunch, my father didn't remember the way back, so we asked a man at the cafe.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E002",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Compare two ways to travel to your sports club.",
+    "student_text": "My brother rides his bike to the sports club, but I walk there with a friend. His way is more faster, although my route is safer because there are traffic lights near the main road. We both arrive before six.",
+    "length_words": 40,
+    "gold": {
+      "errors": [
+        {
+          "original": "more faster",
+          "correction": "faster",
+          "type": "COMPARATIVE",
+          "type_label": "comparative adjective / double comparison",
+          "explanation": "Use faster by itself; do not add more to an -er comparative.",
+          "acceptable_corrections": [
+            "faster"
+          ]
+        }
+      ],
+      "corrected_text": "My brother rides his bike to the sports club, but I walk there with a friend. His way is faster, although my route is safer because there are traffic lights near the main road. We both arrive before six.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E003",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe what you bought at a market.",
+    "student_text": "On Sunday, I went to the market with my neighbor. I bought a few tomatoes and much oranges for a fruit salad. The seller gave us a paper bag, and we walked home together because the weather was warm.",
+    "length_words": 39,
+    "gold": {
+      "errors": [
+        {
+          "original": "much oranges",
+          "correction": "many oranges",
+          "type": "MUCH_MANY",
+          "type_label": "much/many",
+          "explanation": "Use many with plural countable nouns such as oranges.",
+          "acceptable_corrections": [
+            "many oranges"
+          ]
+        }
+      ],
+      "corrected_text": "On Sunday, I went to the market with my neighbor. I bought a few tomatoes and many oranges for a fruit salad. The seller gave us a paper bag, and we walked home together because the weather was warm.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E004",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about how you spend your evenings during the week.",
+    "student_text": "I finish my homework before dinner on most days. My sister every evening practises the piano in the living room, and I sometimes listen to her. On Fridays, we watch a quiz show together and try to answer the questions.",
+    "length_words": 40,
+    "gold": {
+      "errors": [
+        {
+          "original": "My sister every evening practises the piano",
+          "correction": "My sister practises the piano every evening",
+          "type": "WORD_ORDER",
+          "type_label": "word order / adverb of frequency",
+          "explanation": "Put a time expression such as every evening after the main clause, not between the subject and verb.",
+          "acceptable_corrections": [
+            "My sister practises the piano every evening"
+          ]
+        }
+      ],
+      "corrected_text": "I finish my homework before dinner on most days. My sister practises the piano every evening in the living room, and I sometimes listen to her. On Fridays, we watch a quiz show together and try to answer the questions.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E005",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Ask a classmate about a school club they joined.",
+    "student_text": "I heard that you joined the drama club this term. What activities you do there after lessons? Did you met the other students at the first meeting, or did you already know some of them from class?",
+    "length_words": 37,
+    "gold": {
+      "errors": [
+        {
+          "original": "What activities you do",
+          "correction": "What activities do you do",
+          "type": "QUESTION_FORMATION",
+          "type_label": "present simple question word order",
+          "explanation": "In a present simple question, put do before the subject you.",
+          "acceptable_corrections": [
+            "What activities do you do"
+          ]
+        },
+        {
+          "original": "Did you met",
+          "correction": "Did you meet",
+          "type": "VERB_FORM_AFTER_DO",
+          "type_label": "past simple question / verb form after did",
+          "explanation": "After did, use the base form meet.",
+          "acceptable_corrections": [
+            "Did you meet"
+          ]
+        }
+      ],
+      "corrected_text": "I heard that you joined the drama club this term. What activities do you do there after lessons? Did you meet the other students at the first meeting, or did you already know some of them from class?",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E006",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe what people are doing at a birthday party.",
+    "student_text": "At the party, my cousins are making a cake in the kitchen. My aunt are putting candles on the table, while two children is drawing pictures for the birthday girl. I am helping my uncle find some clean plates.",
+    "length_words": 39,
+    "gold": {
+      "errors": [
+        {
+          "original": "My aunt are",
+          "correction": "My aunt is",
+          "type": "BE_AGREEMENT",
+          "type_label": "present continuous / form of be",
+          "explanation": "Use is with one person in the present continuous.",
+          "acceptable_corrections": [
+            "My aunt is"
+          ]
+        },
+        {
+          "original": "two children is drawing",
+          "correction": "two children are drawing",
+          "type": "BE_AGREEMENT",
+          "type_label": "present continuous / form of be",
+          "explanation": "Use are with the plural subject two children.",
+          "acceptable_corrections": [
+            "two children are drawing"
+          ]
+        }
+      ],
+      "corrected_text": "At the party, my cousins are making a cake in the kitchen. My aunt is putting candles on the table, while two children are drawing pictures for the birthday girl. I am helping my uncle find some clean plates.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E007",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Explain how you get help when you have a problem with your phone.",
+    "student_text": "When my phone stopped working, I asked my older cousin for help. She looked the screen carefully and found a loose cable. We waited the shop to open, then the worker changed the cable and showed me how to use the settings.",
+    "length_words": 42,
+    "gold": {
+      "errors": [
+        {
+          "original": "looked the screen",
+          "correction": "looked at the screen",
+          "type": "VERB_PREPOSITION",
+          "type_label": "preposition after verb",
+          "explanation": "Use at after look when you say what someone directs their eyes toward.",
+          "acceptable_corrections": [
+            "looked at the screen"
+          ]
+        },
+        {
+          "original": "waited the shop",
+          "correction": "waited for the shop",
+          "type": "VERB_PREPOSITION",
+          "type_label": "preposition after verb",
+          "explanation": "Use for after wait before the person or thing you are waiting for.",
+          "acceptable_corrections": [
+            "waited for the shop"
+          ]
+        }
+      ],
+      "corrected_text": "When my phone stopped working, I asked my older cousin for help. She looked at the screen carefully and found a loose cable. We waited for the shop to open, then the worker changed the cable and showed me how to use the settings.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E008",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about borrowing some things from a neighbor.",
+    "student_text": "Our neighbors were away for the weekend, so they asked my parents to feed the cat. Mum gave it some food, and then I sent she a picture of the happy animal. Later, Dad returned their keys to they when they came home.",
+    "length_words": 43,
+    "gold": {
+      "errors": [
+        {
+          "original": "sent she",
+          "correction": "sent her",
+          "type": "OBJECT_PRONOUN",
+          "type_label": "object pronoun",
+          "explanation": "Use her as the object of the verb sent.",
+          "acceptable_corrections": [
+            "sent her"
+          ]
+        },
+        {
+          "original": "to they",
+          "correction": "to them",
+          "type": "OBJECT_PRONOUN",
+          "type_label": "object pronoun",
+          "explanation": "Use them after the preposition to.",
+          "acceptable_corrections": [
+            "to them"
+          ]
+        }
+      ],
+      "corrected_text": "Our neighbors were away for the weekend, so they asked my parents to feed the cat. Mum gave it some food, and then I sent her a picture of the happy animal. Later, Dad returned their keys to them when they came home.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E009",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe the things you and your friend packed for a picnic.",
+    "student_text": "My friend and I packed lunch for a picnic in the park. I brought my brother's camera, and she brought a blanket from her house. Its a small blue blanket, but it was big enough for all of us to sit on and share our food.",
+    "length_words": 46,
+    "gold": {
+      "errors": [
+        {
+          "original": "Its a small blue blanket",
+          "correction": "It's a small blue blanket",
+          "type": "CONTRACTION",
+          "type_label": "its/it's",
+          "explanation": "Use it's, short for it is, in this sentence; its shows possession.",
+          "acceptable_corrections": [
+            "It's a small blue blanket"
+          ]
+        }
+      ],
+      "corrected_text": "My friend and I packed lunch for a picnic in the park. I brought my brother's camera, and she brought a blanket from her house. It's a small blue blanket, but it was big enough for all of us to sit on and share our food.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E010",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Give a friend advice about preparing for a long walk.",
+    "student_text": "We are going for a long walk on Saturday, so wear comfortable shoes. You should to bring a bottle of water and a light jacket. We can stop near the river for lunch, but we shouldn't to leave any rubbish there.",
+    "length_words": 41,
+    "gold": {
+      "errors": [
+        {
+          "original": "should to bring",
+          "correction": "should bring",
+          "type": "MODAL_VERB_FORM",
+          "type_label": "verb form after modal",
+          "explanation": "After should, use the base verb without to.",
+          "acceptable_corrections": [
+            "should bring"
+          ]
+        },
+        {
+          "original": "shouldn't to leave",
+          "correction": "shouldn't leave",
+          "type": "MODAL_VERB_FORM",
+          "type_label": "verb form after modal",
+          "explanation": "After shouldn't, use the base verb without to.",
+          "acceptable_corrections": [
+            "shouldn't leave"
+          ]
+        }
+      ],
+      "corrected_text": "We are going for a long walk on Saturday, so wear comfortable shoes. You should bring a bottle of water and a light jacket. We can stop near the river for lunch, but we shouldn't leave any rubbish there.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E011",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Compare the seasons in the place where you live.",
+    "student_text": "Spring is a lovely season here because the gardens become colourful. July is usually the most hottest month, and the streets are busy with visitors. In winter, the days are shorter, so my family often stays inside and plays board games.",
+    "length_words": 41,
+    "gold": {
+      "errors": [
+        {
+          "original": "the most hottest",
+          "correction": "the hottest",
+          "type": "SUPERLATIVE",
+          "type_label": "superlative adjective / double comparison",
+          "explanation": "Use hottest by itself; do not add most to an -est superlative.",
+          "acceptable_corrections": [
+            "the hottest"
+          ]
+        }
+      ],
+      "corrected_text": "Spring is a lovely season here because the gardens become colourful. July is usually the hottest month, and the streets are busy with visitors. In winter, the days are shorter, so my family often stays inside and plays board games.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E012",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about something you have done for a school project.",
+    "student_text": "Our class is making a poster about local animals. I have draw a picture of a fox, and my friend has written some facts beside it. We haven't finished the title yet, but the teacher says our work looks clear and interesting.",
+    "length_words": 42,
+    "gold": {
+      "errors": [
+        {
+          "original": "have draw",
+          "correction": "have drawn",
+          "type": "PRESENT_PERFECT",
+          "type_label": "present perfect / past participle",
+          "explanation": "Use the past participle drawn after have in the present perfect.",
+          "acceptable_corrections": [
+            "have drawn"
+          ]
+        }
+      ],
+      "corrected_text": "Our class is making a poster about local animals. I have drawn a picture of a fox, and my friend has written some facts beside it. We haven't finished the title yet, but the teacher says our work looks clear and interesting.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E013",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about food you need to buy for a family dinner.",
+    "student_text": "My cousins are coming for dinner tonight. We have some rice and vegetables, but there isn't some cheese in the fridge. I also need to buy any lemons for the salad, so I will stop at the small shop on my way home.",
+    "length_words": 43,
+    "gold": {
+      "errors": [
+        {
+          "original": "isn't some cheese",
+          "correction": "isn't any cheese",
+          "type": "SOME_ANY",
+          "type_label": "some/any",
+          "explanation": "Use any in a negative sentence about an uncertain amount.",
+          "acceptable_corrections": [
+            "isn't any cheese"
+          ]
+        },
+        {
+          "original": "buy any lemons",
+          "correction": "buy some lemons",
+          "type": "SOME_ANY",
+          "type_label": "some/any",
+          "explanation": "Use some in this positive statement about an unspecified number of lemons.",
+          "acceptable_corrections": [
+            "buy some lemons"
+          ]
+        }
+      ],
+      "corrected_text": "My cousins are coming for dinner tonight. We have some rice and vegetables, but there isn't any cheese in the fridge. I also need to buy some lemons for the salad, so I will stop at the small shop on my way home.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E014",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe a hobby you enjoy doing with a friend.",
+    "student_text": "My friend and I enjoy to cook simple meals at the weekend. We look for easy recipes online and choose one together. Last Saturday, we made vegetable soup for our families, and everyone liked it. Next time, we want to try a new kind of bread.",
+    "length_words": 46,
+    "gold": {
+      "errors": [
+        {
+          "original": "enjoy to cook",
+          "correction": "enjoy cooking",
+          "type": "VERB_PATTERN",
+          "type_label": "verb pattern / gerund",
+          "explanation": "After enjoy, use the -ing form of the next verb.",
+          "acceptable_corrections": [
+            "enjoy cooking"
+          ]
+        }
+      ],
+      "corrected_text": "My friend and I enjoy cooking simple meals at the weekend. We look for easy recipes online and choose one together. Last Saturday, we made vegetable soup for our families, and everyone liked it. Next time, we want to try a new kind of bread.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E015",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about a school activity that happened yesterday.",
+    "student_text": "Yesterday our class visited a small farm outside town. We fed the chickens and watched a farmer milk a cow. After the visit, our teacher asked us to write three sentences about the animals We finished the work on the bus and showed it to our parents at home.",
+    "length_words": 49,
+    "gold": {
+      "errors": [
+        {
+          "original": "animals We",
+          "correction": "animals. We",
+          "type": "PUNCTUATION",
+          "type_label": "punctuation / sentence boundary",
+          "explanation": "Use a full stop to separate these two complete sentences.",
+          "acceptable_corrections": [
+            "animals. We"
+          ]
+        }
+      ],
+      "corrected_text": "Yesterday our class visited a small farm outside town. We fed the chickens and watched a farmer milk a cow. After the visit, our teacher asked us to write three sentences about the animals. We finished the work on the bus and showed it to our parents at home.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  }
+]

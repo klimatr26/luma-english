@@ -1,0 +1,7 @@
+Starting: Intent { cmp=org.kevinlima.writinglab/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: org.kevinlima.writinglab/.MainActivity
+TotalTime: 2085
+WaitTime: 2087
+Complete

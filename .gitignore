@@ -1,0 +1,65 @@
+# Model assets, external junction, Python environment and downloaded runtimes.
+SLM_A1A2/models/
+SLM_A1A2/models
+SLM_A1A2/hf_cache/
+SLM_A1A2/.venv/
+SLM_A1A2/.venv_eval_v2/
+SLM_A1A2/tools/
+**/__pycache__/
+*.py[cod]
+
+# Large binary artifacts (provenance belongs in manifests).
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.exe
+*.dll
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Credentials and local-only settings.
+.env
+.env.*
+!.env.example
+**/token
+**/tokens.json
+**/credentials.json
+**/auth.json
+
+# New generated inference outputs and technical logs; keep Phase 1 as baseline.
+SLM_A1A2/results_120/raw/
+SLM_A1A2/results_120/parsed/
+SLM_A1A2/results_40_lfm26/raw/
+SLM_A1A2/results_40_lfm26/parsed/
+SLM_A1A2/results_120/logs/
+SLM_A1A2/results_40_lfm26/logs/
+SLM_A1A2/results_40_current_16/raw/
+SLM_A1A2/results_40_current_16/parsed/
+SLM_A1A2/results_40_current_16/logs/
+SLM_A1A2/results_40_lfm3_17b/raw/
+SLM_A1A2/results_40_lfm3_17b/parsed/
+SLM_A1A2/results_40_lfm3_17b/logs/
+SLM_A1A2/results_finalists_200_v1/raw/
+SLM_A1A2/results_finalists_200_v1/attempts/
+SLM_A1A2/results_finalists_200_v1/telemetry/
+SLM_A1A2/results_finalists_200_v1/readiness/
+SLM_A1A2/results_finalists_200_v1/analysis/
+SLM_A1A2/results_finalists_200_v1/logs/
+SLM_A1A2/results_finalists_200_v1/runner.lock
+SLM_A1A2/results_finalists_200_v1_interrupted_encoding_20261117/
+# Imported laptop evidence remains on disk with SHA inventories and a local ZIP.
+SLM_A1A2/results_laptop_*/**/raw/
+SLM_A1A2/results_laptop_*/**/attempts/
+SLM_A1A2/results_laptop_*/**/telemetry/
+SLM_A1A2/results_laptop_*/**/readiness/
+SLM_A1A2/results_laptop_*/**/*.log
+SLM_A1A2/results_laptop_*/battery_wmi.jsonl
+SLM_A1A2/results_laptop_*/cpu_thermal_acpi.jsonl
+SLM_A1A2/results_laptop_*/intel_wddm.jsonl
+SLM_A1A2/logs/
+*.tmp

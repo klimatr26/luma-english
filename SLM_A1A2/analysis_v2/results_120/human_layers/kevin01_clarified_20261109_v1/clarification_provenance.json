@@ -1,0 +1,20 @@
+{
+  "schema_version": "human_review_layer.clarification_provenance/1.0",
+  "original_backup_sha256": "91a638c9725894144a0b1307af9441c9eca2e40b6423263ab71a454e2b4dd24e",
+  "ledger_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\analysis_v2\\human_review_20261109\\clarifications_v1.json",
+  "ledger_sha256": "823278824271d909eb325eb221018f9c797b191bbb5258c4ecf605e035d4d396",
+  "clarification_date": "2026-11-09",
+  "reviewer_id": "kevin-01",
+  "clarified_blind_output_ids": [
+    "br-a7ebb5a7d231d1f96b2c4acf",
+    "br-37fe38ffb4a2d3a592c3072c",
+    "br-67ebb6cf58f204c9d1b2b81b",
+    "br-3ea9d9bb642cc426c073a910",
+    "br-930f5c918cb6fb7df4cc9585",
+    "br-f1a74afb9b236138b2f3284c",
+    "br-275d5b7e5d4e674060fc17ca",
+    "br-6c387cee83684e65184d3746"
+  ],
+  "original_comments_and_declared_review_dates_preserved": true,
+  "read_original_comments_with_confirmed_clarifications": true
+}

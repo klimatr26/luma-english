@@ -1,0 +1,107 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="using:WritingApp.UI"
+        x:Class="WritingApp.UI.MainView"
+        x:DataType="local:MainWindowViewModel">
+  <Grid RowDefinitions="Auto,*">
+    <Border Grid.Row="0" Background="#183A37" Padding="24,18">
+      <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto">
+        <TextBlock Grid.Row="0" Text="Writing local" FontSize="26" FontWeight="Bold" Foreground="White" />
+        <TextBlock Grid.Row="1" Text="Práctica de inglés A1/A2 · evaluación en el dispositivo" Margin="1,4,0,0" Foreground="#D9E9E3" />
+        <Border x:Name="HeaderBadge" Grid.Column="1" Grid.RowSpan="2" Background="#2B6E63" CornerRadius="16" Padding="13,7" VerticalAlignment="Center">
+          <TextBlock Text="SIN CONEXIÓN TRAS PREPARAR EL MODELO" FontSize="10" FontWeight="SemiBold" Foreground="White" />
+        </Border>
+      </Grid>
+    </Border>
+
+    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+      <Grid x:Name="ContentGrid" ColumnDefinitions="1.05*,0.95*" RowDefinitions="Auto" Margin="20" ColumnSpacing="18" SizeChanged="OnContentSizeChanged">
+        <StackPanel x:Name="InputPanel" Grid.Column="0" Spacing="14">
+          <Border Background="White" BorderBrush="#DCE5DF" BorderThickness="1" CornerRadius="12" Padding="18">
+            <StackPanel Spacing="10">
+              <TextBlock Text="1 · Modelo en este dispositivo" FontSize="17" FontWeight="Bold" />
+              <TextBlock Text="{Binding RecommendationText}" TextWrapping="Wrap" FontWeight="SemiBold" Foreground="#245B53" />
+              <ComboBox x:Name="ModelSelector" ItemsSource="{Binding Models}" SelectedItem="{Binding SelectedModel, Mode=TwoWay}" SelectionChanged="OnModelChanged" IsEnabled="{Binding CanEditEvaluationInputs}" />
+              <TextBlock Text="{Binding ModelDetails}" TextWrapping="Wrap" Foreground="#53645F" />
+              <Expander Header="Detalles del modelo y dispositivo">
+                <TextBlock Text="{Binding ModelDiagnosticDetails}" Margin="0,8,0,0" TextWrapping="Wrap" Foreground="#53645F" />
+              </Expander>
+              <Grid ColumnDefinitions="Auto,*" ColumnSpacing="10" VerticalAlignment="Center">
+                <TextBlock Grid.Column="0" Text="Backend" FontWeight="SemiBold" VerticalAlignment="Center" />
+                <ComboBox Grid.Column="1" ItemsSource="{Binding BackendChoices}" SelectedItem="{Binding SelectedBackend, Mode=TwoWay}" SelectionChanged="OnBackendChanged" IsEnabled="{Binding CanEditEvaluationInputs}" />
+              </Grid>
+              <TextBlock Text="Auto compara CPU y Vulkan en la primera carga; puede tardar varios minutos. CPU omite la calibración. Puedes cancelar la carga." FontSize="12" TextWrapping="Wrap" Foreground="#687873" />
+              <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto,Auto" ColumnSpacing="8" RowSpacing="8" Margin="0,4,0,0">
+                <Button Grid.Row="0" Grid.Column="0" Content="{Binding ModelActionText}" Click="OnDownloadClicked" Background="#2B6E63" Foreground="White" IsEnabled="{Binding CanDownloadModel}" />
+                <Button Grid.Row="0" Grid.Column="1" Content="Importar GGUF…" Click="OnImportClicked" IsEnabled="{Binding CanImportModel}" />
+                <Button Grid.Row="1" Grid.Column="0" Content="Cancelar transferencia" Click="OnCancelDownloadClicked" />
+                <Button Grid.Row="1" Grid.Column="1" Content="Cargar modelo" Click="OnLoadClicked" Background="#2B6E63" Foreground="White" IsEnabled="{Binding CanLoadModel}" />
+                <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Content="Liberar memoria" Click="OnUnloadClicked" IsEnabled="{Binding CanUnloadModel}" HorizontalAlignment="Left" />
+              </Grid>
+              <ProgressBar Minimum="0" Maximum="100" Value="{Binding DownloadProgressValue}" IsIndeterminate="{Binding DownloadIsIndeterminate}" Height="8" />
+              <TextBlock Text="{Binding DownloadHelp}" FontSize="12" TextWrapping="Wrap" Foreground="#687873" />
+              <TextBlock Text="{Binding ModelOperationStatus}" TextWrapping="Wrap" Foreground="#42615B" AutomationProperties.LiveSetting="Polite" />
+              <TextBlock Text="{Binding LoadedModelStatus}" TextWrapping="Wrap" FontWeight="SemiBold" Foreground="#2B6E63" />
+            </StackPanel>
+          </Border>
+
+          <Border Background="White" BorderBrush="#DCE5DF" BorderThickness="1" CornerRadius="12" Padding="18">
+            <StackPanel Spacing="10">
+              <TextBlock Text="2 · Ejercicio y respuesta" FontSize="17" FontWeight="Bold" />
+              <Grid ColumnDefinitions="*,*" ColumnSpacing="10">
+                <StackPanel Grid.Column="0" Spacing="5">
+                  <TextBlock Text="Nivel" FontWeight="SemiBold" />
+                  <ComboBox ItemsSource="{Binding Levels}" SelectedItem="{Binding SelectedLevel, Mode=TwoWay}" SelectionChanged="OnLevelChanged" IsEnabled="{Binding CanEditEvaluationInputs}" />
+                </StackPanel>
+                <StackPanel Grid.Column="1" Spacing="5">
+                  <TextBlock Text="Ejercicio" FontWeight="SemiBold" />
+                  <ComboBox ItemsSource="{Binding Exercises}" SelectedItem="{Binding SelectedExercise, Mode=TwoWay}" SelectionChanged="OnExerciseChanged" IsEnabled="{Binding CanEditEvaluationInputs}" />
+                </StackPanel>
+              </Grid>
+              <TextBlock Text="Consigna (puedes adaptarla)" FontWeight="SemiBold" />
+              <TextBox Text="{Binding TaskText, Mode=TwoWay}" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="74" IsEnabled="{Binding CanEditEvaluationInputs}" />
+              <TextBlock Text="Tu respuesta en inglés" FontWeight="SemiBold" />
+              <TextBox Text="{Binding StudentText, Mode=TwoWay}" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="125" IsEnabled="{Binding CanEditEvaluationInputs}" />
+              <TextBlock Text="{Binding ExampleStatus}" FontSize="12" TextWrapping="Wrap" Foreground="#687873" />
+              <Grid ColumnDefinitions="*,*" ColumnSpacing="8">
+                <Button Grid.Column="0" Content="Usar ejemplo correcto" Click="OnCorrectExampleClicked" IsEnabled="{Binding CanEditEvaluationInputs}" />
+                <Button Grid.Column="1" Content="Usar ejemplo incorrecto" Click="OnIncorrectExampleClicked" IsEnabled="{Binding CanEditEvaluationInputs}" />
+              </Grid>
+              <TextBlock Text="Intentos de formato" FontWeight="SemiBold" Margin="0,5,0,0" />
+              <ComboBox ItemsSource="{Binding AttemptChoices}" SelectedItem="{Binding MaximumAttempts, Mode=TwoWay}" IsEnabled="{Binding CanEditEvaluationInputs}" />
+              <TextBlock Text="Por defecto se hace un intento. Puedes pedir hasta tres si la salida no se puede interpretar; se conserva cada salida RAW y sus errores. No se reintenta ante errores técnicos." FontSize="12" TextWrapping="Wrap" Foreground="#687873" />
+              <Button Content="Evaluar respuesta" Click="OnEvaluateClicked" Background="#2B6E63" Foreground="White" FontWeight="Bold" IsEnabled="{Binding CanEvaluate}" />
+              <Button Content="Cancelar carga/evaluación" Click="OnCancelEvaluationClicked" IsEnabled="{Binding CanCancelInferenceOperation}" />
+            </StackPanel>
+          </Border>
+        </StackPanel>
+
+        <StackPanel x:Name="ResultPanel" Grid.Column="1" Spacing="14">
+          <Border Background="White" BorderBrush="#DCE5DF" BorderThickness="1" CornerRadius="12" Padding="18">
+            <StackPanel Spacing="10">
+              <TextBlock Text="3 · Resultado de la evaluación" FontSize="17" FontWeight="Bold" />
+              <TextBlock Text="{Binding VerdictText}" FontSize="21" FontWeight="Bold" TextWrapping="Wrap" Foreground="{Binding VerdictBrush}" AutomationProperties.LiveSetting="Polite" />
+              <TextBlock Text="{Binding ParseStatusText}" TextWrapping="Wrap" Foreground="#53645F" />
+              <TextBlock Text="{Binding EvaluationStatus}" TextWrapping="Wrap" Foreground="#42615B" />
+              <TextBlock Text="Texto corregido" FontWeight="SemiBold" Margin="0,5,0,0" />
+              <TextBox Text="{Binding CorrectedText}" IsReadOnly="True" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="78" />
+              <TextBlock Text="Retroalimentación" FontWeight="SemiBold" />
+              <TextBox Text="{Binding FeedbackText}" IsReadOnly="True" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="80" />
+              <TextBlock Text="Ediciones sugeridas por el modelo" FontWeight="SemiBold" />
+              <TextBox Text="{Binding EditsText}" IsReadOnly="True" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="90" />
+              <Button Content="Exportar sesión JSON…" Click="OnExportClicked" HorizontalAlignment="Left" IsEnabled="{Binding CanExport}" />
+            </StackPanel>
+          </Border>
+
+          <Border Background="#F0F1EC" BorderBrush="#DCE5DF" BorderThickness="1" CornerRadius="12" Padding="18">
+            <StackPanel Spacing="8">
+              <TextBlock Text="Salida técnica sin ocultar intentos" FontSize="16" FontWeight="Bold" />
+              <TextBlock Text="Los errores de formato aparecen junto a la salida original de cada intento." FontSize="12" TextWrapping="Wrap" Foreground="#53645F" />
+              <TextBox Text="{Binding RawAttempts}" IsReadOnly="True" AcceptsReturn="True" TextWrapping="NoWrap" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" MinHeight="260" FontFamily="Consolas, monospace" />
+            </StackPanel>
+          </Border>
+        </StackPanel>
+      </Grid>
+    </ScrollViewer>
+  </Grid>
+</UserControl>

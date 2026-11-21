@@ -1,0 +1,731 @@
+{
+  "schema_version": "human_review_web.export/1.0",
+  "packet_sha256": "abee26b77d9afe0b7d44cb25729b72aa1b0c5bab54f97635e7a6908b58d5a486",
+  "reviews_sha256": "d4057ec2836083bf02730255b5481dbe9a6d2dee9890e7dd33b47435d6c4c0d9",
+  "reviews_filename": "reviews.jsonl",
+  "reviews_byte_count": 95634,
+  "record_count": 180,
+  "exported_at": "2026-11-09T07:29:22.819656+00:00",
+  "original_judgments": [
+    {
+      "blind_output_id": "br-8c1f501381c66f36d0aa333e",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-862fa0879201868fa502a145",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-899d0fb6ce222de28aa4a73f",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-37f6f6c8947c04946d6be0d3",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-793f4410905c9085cd7fc168",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-76d5cceee9fd750e3fcdee03",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-8539121aa0d3b0f1e3b02256",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-0f745ec8d44b6afbb9f58ffa",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-bd3ecbe3f60b9ad3ead50631",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-8a22a959e166a7bacb9d96d0",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-a7ebb5a7d231d1f96b2c4acf",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-4e64de18957eb2d1855c7f60",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-9de8ea9839ca6e5d5e0fb4bd",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-53e0e2e20498b65ccbd40b9f",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-60ad0602c4e59c78906aef76",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-4c1345491bd69f89e35dba10",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-890bdb3acb7fd831bb7a06dd",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-37fe38ffb4a2d3a592c3072c",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-67ebb6cf58f204c9d1b2b81b",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-10160f0d61db761e0fdcec3c",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-4116437a32300d719a0f9e73",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-c41d7b3cee5f5bf57a4636f9",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-6c387cee83684e65184d3746",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-8d0986568abc6f918f93ba3d",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-70efd7c7f175d9c76e228002",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-275d5b7e5d4e674060fc17ca",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-f0b95cd817ca2a90651eea22",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-79a27569dc4bdb33744513f3",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-e3a3aab81b0e114c44ecc240",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-7ddd6f305eb6966ca3bf8bc0",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-b721c40a1df75ff51a3b4b54",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-b881c6e3f0510dacf1152f4f",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-fdb1e330c76e64a032be3522",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-0cc46fe728f35cc0f37e829f",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-e70bfa89e0140b48201e327d",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-a6b3267a2079b8125095e0c8",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-59483657784e125f6de8bf15",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-83743fa79ccc1bafc47d7829",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-ed88fd07401e73995c3fdf64",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-a7388b84239244f07cc633d6",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-875d6d8a415ab083a55c3456",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-035f5e25941ccd03d591be63",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-e515e88c99e01ca6a44fb5c2",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-7641d171185b6030c061932b",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-3ea9d9bb642cc426c073a910",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-930f5c918cb6fb7df4cc9585",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-0c04f9b15f703c14822d1c26",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-f5572617cc6d8c76f5ffa59c",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-cd2e682be2aac16323f1beea",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-b7bee5fb98a8fe2fd8177554",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-63a022bcd1d597f199403970",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-4230abfb75abf647869fd48f",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-6b3900dc17cc1647c7ed95e3",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-730f3b3f6389a8050f21f662",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-fce1142c0488ffd9905d3fc6",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-866a12ef776d62d5eb2789ee",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-6d22ff6763c84249c1ebc11b",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-0be4acb1e00a34be6dd7a450",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-557d38dcb4b53b50c3b3aacb",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-b62e297e752e1e12ec13d57a",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-7dfb2d1253bbb18a629e5bfd",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-5235eb45818d51c31cfe9f8f",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-d9f0424af387bb0a934a9860",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-0e320deb1e7f453111e01bdc",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-d2cb36910c63206e363e1911",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-bad6fea3924d5a9c0db04b91",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-4104791ec4244b7dc584e7e3",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-84fc7456e924946a1bb8cec4",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-79594a40eb0f86174714e3c6",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-a7efd606cc2780963939bd66",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-5d29302eb011c112e3e673a3",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-4ad148b318d71c135668473e",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-ad0606ea71018c740fc23f43",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-98641819d0fda15087cabbb8",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-5a3b22f45332f7fba36f29cb",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-bd630f74a601e8d8aff78eda",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-34241302265b506fd128ce38",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-5a01663818d16bd7e6468d8f",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-19d30cc5431c97c8a56a45ac",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-352fd71a4090125e5f9541e2",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-fe305cefc9839c78462cfeae",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-3fc7f5c9627e913f02ea6ccc",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-437c42975d5e0e27e72b869b",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-2de71ccf9e71b6b7703aa06e",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-67f3250e9ebecef30bdda3f8",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-7f7ba303e6464f9533289abe",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-2ffd1fad7b753d60d0703404",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-1c08c7c4b4169a9e5d7d9aa4",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-3239f47a9431926d17b71e7e",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-435befd2f22ccca169773186",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-ccd95ac3ec2c45eab57b2c84",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-a44f1c7bf8408914bb43a7be",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-0e8b354915d45837570f77bb",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-dbd01af97103fc87adf19e6f",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-091ea45d2056993fa01d4639",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-1dba51400e6ae6551a200708",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-543114a5bce27453cbd388f8",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-165e90e0cf1c721272cf6b79",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-7ffb5566c5bac81a45486851",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-8528b26c3f5c183246bb88cb",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-58bf035a4cb0021a1625394a",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-8a63efaf0e941f137c7851ea",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-bf85ff3b73f8274c72c840bb",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-1fa9e62c65b25de296cc1665",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-48975de3cf4f35407935dd4d",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-512205b878566669244ffca3",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-fc04602927f25225e81024ad",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-ecff7ccc9bd50c4b37a27e92",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-c2bb8ed9dd1ef13e37ea0a72",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-7d8586d713bb6eed91955a07",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-df1d48b6d548945f5f2e5af5",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-63d3f1190d4d279392c0d2aa",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-f1a74afb9b236138b2f3284c",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-3b96e57042688508c8c4889d",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-e026ce52a5b7ea38e19a7a22",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-82b3af380b087c134082ec1e",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-be7aaf740ef5bfb0e1af1856",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-3cf987fac9c5fe380e4aa6e5",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-65dfbd1f66ade02246b6675b",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-5312c60ffe4015967ed766db",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-9d242eb667bbd5cbe7832f5a",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-35baa2c7f4d149e0144af24a",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-e889aa52390fb1d5c4e95fe7",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-13a8f1ce2a11dc35f44f46be",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-c2aa5ae32d91a967464035b2",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-0f6ecaed8d67c5470ddca4f4",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-63141ff032a166932a29f207",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-be456055211906d718a189c5",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-47d0b54ce2e5b1ec86210793",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-264f98add7e5ba5e82efa82e",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-bcc37cb525b9b88340e7fe34",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-cf80911e53208c3932adeb4c",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-d4154d173590b724ea319a09",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-4e7050c52157c3b2ee6dd8c0",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-ae25563dcdb15a740fa6c362",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-ab7321bbb5be7e60a991dd96",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-afe041e0fec2e72709907da9",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-6c881d6a168b41d18660e029",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-478e6beb3d0b5c6dfdc68ceb",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-740dcc1eef331864c8dd554d",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-1511dd2c9a8c764fb2858aa0",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-318299860d01be2673ded891",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-36c4e8ec06dddb34f86bb98a",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-a8b1f2af711bdcc450ad118d",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-b09595efa9cab04479921d78",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-3170bb0088390e0d14b473d4",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-22779e3041abac15c3e4dd0f",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-dbe4be529046ac49bc47b59c",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-d8ecfbb1ff346e1552f4af9c",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-4f1015566d8f0968716875ec",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-63e207885d19afb59bac9b74",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-21024992a26b39a8ffccd465",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-e871d319df71eb0a75301689",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-dd07b88f82845ab59c84d6e8",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-1fd803b68dbec73ebdc06b83",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-c4a2fde7fa839dcff27663d5",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-589f19d3655b1f379cb7eed9",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-8cb93a20204b588693a791ba",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-2d0338215f3ff388ef4d00b6",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-64e2d5804e5b72caeb4f8c3f",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-f804dc772736d1464281bf8f",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-6962fc503a7136229b577a56",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-0ff6c3687d46fc93431cf2fb",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-e6f668d8953c48efb4a8ee78",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-28b914bea31983b9e4d6fcb5",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-5f120530b2d859b8ec3f109f",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-df6f662bf143b033ae6e63a6",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-383c52d334d1455a8d57c474",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-eac697bb6e22c4cc03c037d1",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-ae1de3e1c6e355588eca49a5",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-81a8bd7f3f457107cf8e0447",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-f9df15807dca77574e8743f8",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-d6e36acac9026e08d7dadb8d",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-dea47d052a2cfcb1b07383fa",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-f729f33dc1efc6cd9cac9fcd",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-a071ac9103d90ae71884cefe",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-f2e50089e82c5e554d98e4e8",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-369f64c6b2583a05ad59f3ff",
+      "original_has_errors": false
+    },
+    {
+      "blind_output_id": "br-7f281fcecd67be4709419990",
+      "original_has_errors": true
+    },
+    {
+      "blind_output_id": "br-0b5ed9de7abc330c699cd9f8",
+      "original_has_errors": false
+    }
+  ]
+}

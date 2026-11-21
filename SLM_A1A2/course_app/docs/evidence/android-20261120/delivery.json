@@ -1,0 +1,52 @@
+{
+  "date_utc": "2026-11-20T16:04:19.145004+00:00",
+  "application_source_commit": "3a15092afbefe72efec5088cf690e8fee0bb57e7",
+  "branch": "codex/luma-android",
+  "no_git_remote": true,
+  "artifacts": [
+    {
+      "path": "artifacts/LumaEnglish-Android-android-arm64-1.1.0.apk",
+      "bytes": 104994554,
+      "sha256": "2d2cf85862763fd6e1d1ddbb5c07b11e1e03d9b9b837ef72d55d35658a24b325"
+    },
+    {
+      "path": "artifacts/LumaEnglish-Android-android-x64-1.1.0.apk",
+      "bytes": 84483235,
+      "sha256": "bc7ea267c078b11f433651ca793127d4a2403a18379d1226ebe21553162ae4b1"
+    },
+    {
+      "path": "artifacts/LumaEnglish-Android-android-x64-automation-1.1.0.apk",
+      "bytes": 84495523,
+      "sha256": "51e3555bba9d1acd34c390fc6224d9cdd55c2de175a079d0faabec924221519e"
+    },
+    {
+      "path": "artifacts/LumaEnglish-Windows-x64-1.1.0.zip",
+      "bytes": 97131248,
+      "sha256": "434ebe0ce95dca5411ab0f48da6f4accd5a2677f4366ac820fda5f7f20c48985"
+    },
+    {
+      "path": "artifacts/windows-1.1.0/LumaEnglish.exe",
+      "bytes": 74240,
+      "sha256": "62538084312560eb6fd9e9042d0c986e2cdbfee95fb0e239540f72d66ff53fec"
+    }
+  ],
+  "emulator": {
+    "name": "Luma_English_API_36_1",
+    "serial": "emulator-5580",
+    "android": "16",
+    "api": "36.1",
+    "architecture": "x86_64",
+    "ram_mib": 4096,
+    "data_gib": 16
+  },
+  "normal_package_update": {
+    "installed_without_uninstall": true,
+    "cold_start_status": "ok",
+    "model_draft_progress_raw_preserved": true,
+    "checked_in": "resume-after-release.json",
+    "final_package": "normal x64, diagnostics excluded"
+  },
+  "native_generations": 2,
+  "benchmark_generations": 0,
+  "physical_phone_used": false
+}

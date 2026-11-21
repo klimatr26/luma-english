@@ -1,0 +1,84 @@
+{
+  "source_sha256": {
+    "A1_cases.json": "ba23982e51b7d761b2f69882d1380650fc3792688c41d6995a16379e396d6a7a",
+    "A2_cases.json": "99ba73fb462db72e94c6a29db32ea9a95840c170c154a63b42accc10286f7f0d"
+  },
+  "independent_review_sha256": {
+    "A1_review_findings.json": "3c603f1e63cf836c76559a4e1277afc2871b0280256c7a0be9de16121af87593",
+    "A2_review_findings.json": "c6caedb1aa3c09b479b4ef261a5770de93072189b148ff1fe44c33af5869ce9a"
+  },
+  "complete_independent_ai_review": true,
+  "human_gold_approval": false,
+  "review_scope": "Two Luna 6 max authors, crossed review of all 200 cases by the other author; code review by Sol 6.1 high.",
+  "pending_issues": [],
+  "editorial_decisions": [
+    {
+      "level": "A1",
+      "case_id": "T200-A1-E001",
+      "issue": "Possible grammatical habitual past cut",
+      "resolution": "Changed to unequivocally malformed trim with singular subject."
+    },
+    {
+      "level": "A1",
+      "case_id": "T200-A1-E010",
+      "issue": "Physical-position ambiguity",
+      "resolution": "Explicit surface attachment; primary on and licensed onto."
+    },
+    {
+      "level": "A1",
+      "case_id": "T200-A1-E059",
+      "issue": "Unintended correct source verb during editing",
+      "resolution": "Final source guide speak, target guide speaks; independent recheck and reconstruction passed."
+    },
+    {
+      "level": "A1",
+      "case_id": "T200-A1-E062",
+      "issue": "Task did not match morning text",
+      "resolution": "Aligned task to morning tea."
+    },
+    {
+      "level": "A1",
+      "case_id": "T200-A1-E065",
+      "issue": "Past time anchor with present-tense gold",
+      "resolution": "Explicit right now/yesterday clauses; final gold grammatical."
+    },
+    {
+      "level": "A1",
+      "case_id": "T200-A1-E075",
+      "issue": "Punctuation of a polite request may be conventional",
+      "resolution": "Retained request period, replaced error with erly -> early."
+    },
+    {
+      "level": "A2",
+      "case_id": "T200-A2-E014",
+      "issue": "More warm can be grammatical",
+      "resolution": "Double comparative more warmer now erroneous; both warmer and more warm licensed."
+    },
+    {
+      "level": "A2",
+      "case_id": "T200-A2-E025",
+      "issue": "Missing licensed countable repair",
+      "resolution": "Added full reference with items of furniture."
+    },
+    {
+      "level": "A2",
+      "case_id": "T200-A2-E040",
+      "issue": "Borrow me can be regional",
+      "resolution": "Replaced with could lends -> could lend, unambiguous modal base-form error."
+    },
+    {
+      "level": "A2",
+      "case_id": "T200-A2-E041",
+      "issue": "Task about completed trip mismatched planned cafe visit",
+      "resolution": "Task now asks about the planned cafe visit."
+    },
+    {
+      "level": "A2",
+      "case_id": "T200-A2-E067",
+      "issue": "Learned/learnt and tense ambiguity",
+      "resolution": "Both participles licensed; changed past errors to teached/maked with explicit past anchors."
+    }
+  ],
+  "similarity_resolutions": [],
+  "post_output_policy": "No gold edits after inference. Any later invalidation applies to all four configurations."
+}

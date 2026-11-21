@@ -1,0 +1,71 @@
+{
+  "config_id": "06-minicpm5-2b-q4-k-m",
+  "family": "minicpm",
+  "quant": "Q4_K_M",
+  "summary": {
+    "cases": 120,
+    "incorrect_cases_expected": 90,
+    "incorrect_text_observable": 88,
+    "incorrect_text_unobservable": 2,
+    "expected_primary_errant_edits": 163,
+    "unobservable_primary_errant_edits": 2,
+    "gec_conditional_on_observable_text": {
+      "primary": {
+        "tp": 112,
+        "fp": 30,
+        "fn": 49,
+        "precision": 0.7887323943661971,
+        "recall": 0.6956521739130435,
+        "f0_5": 0.7681755829903977
+      },
+      "best_full_reference": {
+        "tp": 115,
+        "fp": 27,
+        "fn": 48,
+        "precision": 0.8098591549295775,
+        "recall": 0.7055214723926381,
+        "f0_5": 0.7865937072503422
+      }
+    },
+    "recall_all_primary_gold_unobservable_as_missed": 0.6871165644171779,
+    "controls_expected": 30,
+    "ctmr_modified_observed": 2,
+    "ctmr_unobservable": 0,
+    "cfar_false_alarm_observed": 3,
+    "cfar_unobservable": 0,
+    "fully_preserved_observed": 27,
+    "fully_preserved_unobservable": 0,
+    "parse_status": {
+      "direct": 118,
+      "invalid": 2
+    },
+    "schema_valid": 116,
+    "strict_json_compliant": 116,
+    "declarations": {
+      "verified_matches_output": 95,
+      "verified_differs_output": 21,
+      "unverified_overlapping_fragments": 1,
+      "unverified_shape": 2,
+      "unverified_ambiguous_or_absent_fragment": 1
+    },
+    "declarations_coherent_non_noop": 91,
+    "incorrect_text_equal_primary": 44,
+    "incorrect_text_equal_licensed_complete_reference": 45,
+    "flag_correct_observed": 99,
+    "flag_unobservable": 2,
+    "incorrect_flag_correct_observed": 72,
+    "incorrect_flag_unobservable": 2,
+    "human_confirmed": 0,
+    "latency_median_seconds_descriptive": 0.8423578500005533,
+    "schema_version": "evaluation-v2.0"
+  },
+  "selection": {
+    "rows_in": 120,
+    "rows_selected": 120,
+    "duplicate_cases_resolved": [],
+    "selection_policy": "highest verified final attempt number"
+  },
+  "primary_frozen_tp": 24,
+  "primary_frozen_fp": 95,
+  "primary_frozen_fn": 126
+}

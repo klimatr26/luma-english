@@ -1,0 +1,1 @@
+{"config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan", "case_id": null, "stage": "load", "error": "RuntimeError('Worker closed stdout on load (exit None).')", "utc": "2026-11-18T23:16:22.449234+00:00"}

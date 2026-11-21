@@ -1,0 +1,38 @@
+{
+  "personal_course_rows": {
+    "closed_attempts": 0,
+    "writing_sessions": 0,
+    "writing_attempts": 0,
+    "drafts": 0
+  },
+  "legacy_sessions": 3,
+  "legacy_archive_sha256": "04084fc292a4ed35a37b153b9e6062e62aedeb457725dce032a093a747f8ad65",
+  "legacy_archive_after_sha256": "04084fc292a4ed35a37b153b9e6062e62aedeb457725dce032a093a747f8ad65",
+  "byte_identical": true,
+  "initial_gguf_count": 6,
+  "calibration_generations": 32,
+  "course_and_manual_generations": 10,
+  "total_technical_generations": 42,
+  "normal_apk_sha256": "2d2cf85862763fd6e1d1ddbb5c07b11e1e03d9b9b837ef72d55d35658a24b325",
+  "restored_version": "1.1.0",
+  "restored_version_code": 100100,
+  "normal_debuggable": false,
+  "normal_visible_confirmed": true,
+  "system_page_bytes": 4096,
+  "system_memory_limiter": "disabled; not changed by the test",
+  "power_saver": false,
+  "usb_powered": true,
+  "battery_temperature_observed_c": [
+    26.6,
+    38.3,
+    41.5,
+    38.8
+  ],
+  "temporary_download_jobs_removed": [
+    602,
+    603
+  ],
+  "permanent_model_files_deleted": 0,
+  "benchmark_inferences": 0,
+  "llama_cpp_modified": false
+}

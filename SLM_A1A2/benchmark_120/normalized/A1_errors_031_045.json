@@ -1,0 +1,408 @@
+[
+  {
+    "id": "A1-E031",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe a shop you visit near your home.",
+    "student_text": "There is a small bakery across from my flat. I buy a bread there on Saturdays, and the woman who works there knows my name.",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "a bread",
+          "correction": "some bread",
+          "type": "ARTICLE",
+          "subtype": "UNCOUNTABLE_NOUN",
+          "type_label": "article",
+          "explanation": "Bread is normally uncountable when talking about food in general, so do not use a before it.",
+          "acceptable_corrections": [
+            "some bread",
+            "bread"
+          ]
+        }
+      ],
+      "corrected_text": "There is a small bakery across from my flat. I buy some bread there on Saturdays, and the woman who works there knows my name.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 25,
+    "english_variant": "unspecified; British and American variants accepted"
+  },
+  {
+    "id": "A1-E032",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Say where you keep your shoes at home.",
+    "student_text": "My shoes are in the chair beside the desk. I put them there after school, and my bag is under the desk near the door.",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "in the chair",
+          "correction": "on the chair",
+          "type": "PREPOSITION_PLACE",
+          "subtype": "SURFACE_POSITION",
+          "type_label": "preposition of place",
+          "explanation": "Use on for something resting on a chair's surface.",
+          "acceptable_corrections": [
+            "on the chair"
+          ]
+        }
+      ],
+      "corrected_text": "My shoes are on the chair beside the desk. I put them there after school, and my bag is under the desk near the door.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 25,
+    "english_variant": "unspecified; British and American variants accepted"
+  },
+  {
+    "id": "A1-E033",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a bicycle you use to travel.",
+    "student_text": "My cousin has a blue bycicle, and I ride it with her to the park. We stop at a shop for juice before we go home.",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "bycicle",
+          "correction": "bicycle",
+          "type": "SPELLING",
+          "subtype": "LETTER_ORDER",
+          "type_label": "spelling",
+          "explanation": "The correct spelling is bicycle.",
+          "acceptable_corrections": [
+            "bicycle"
+          ]
+        }
+      ],
+      "corrected_text": "My cousin has a blue bicycle, and I ride it with her to the park. We stop at a shop for juice before we go home.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 26,
+    "english_variant": "unspecified; British and American variants accepted"
+  },
+  {
+    "id": "A1-E034",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe the vegetables you need for dinner.",
+    "student_text": "I need three tomato for the salad and one cucumber. My mother washes the vegetables, and I put them in a large bowl for dinner.",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "three tomato",
+          "correction": "three tomatoes",
+          "type": "SINGULAR_PLURAL",
+          "subtype": "PLURAL_NOUN_AFTER_NUMBER",
+          "type_label": "singular/plural",
+          "explanation": "Use the plural noun tomatoes after the number three.",
+          "acceptable_corrections": [
+            "three tomatoes"
+          ]
+        }
+      ],
+      "corrected_text": "I need three tomatoes for the salad and one cucumber. My mother washes the vegetables, and I put them in a large bowl for dinner.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 25,
+    "english_variant": "unspecified; British and American variants accepted"
+  },
+  {
+    "id": "A1-E035",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a family member's daily routine.",
+    "student_text": "My aunt work at a small hotel near the station. She starts at eight, eats lunch with her friends, and comes home before six every day.",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "My aunt work",
+          "correction": "My aunt works",
+          "type": "SUBJECT_VERB_AGREEMENT",
+          "subtype": "PRESENT_SIMPLE_THIRD_PERSON_SINGULAR",
+          "type_label": "subject-verb agreement / present simple",
+          "explanation": "With a singular subject such as my aunt in the present simple, add -s to the verb.",
+          "acceptable_corrections": [
+            "My aunt works"
+          ]
+        }
+      ],
+      "corrected_text": "My aunt works at a small hotel near the station. She starts at eight, eats lunch with her friends, and comes home before six every day.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 26,
+    "english_variant": "unspecified; British and American variants accepted"
+  },
+  {
+    "id": "A1-E036",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Tell a friend about a classmate who helps you.",
+    "student_text": "My classmate sits next to I in English class. He shares his book with me, and we check our answers together before the lesson ends.",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "next to I",
+          "correction": "next to me",
+          "type": "OBJECT_PRONOUN",
+          "subtype": "OBJECT_AFTER_PREPOSITION",
+          "type_label": "object pronoun",
+          "explanation": "Use the object pronoun me after the preposition to.",
+          "acceptable_corrections": [
+            "next to me"
+          ]
+        }
+      ],
+      "corrected_text": "My classmate sits next to me in English class. He shares his book with me, and we check our answers together before the lesson ends.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 25,
+    "english_variant": "unspecified; British and American variants accepted"
+  },
+  {
+    "id": "A1-E037",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe something that belongs to your brother.",
+    "student_text": "My brothers coat is on the hook by the front door. He wears it to school when it is cold, and I use the blue scarf.",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "brothers coat",
+          "correction": "brother's coat",
+          "type": "POSSESSIVE",
+          "subtype": "SINGULAR_POSSESSION",
+          "type_label": "possessive apostrophe",
+          "explanation": "Use apostrophe + s to show that one brother owns the coat.",
+          "acceptable_corrections": [
+            "brother's coat"
+          ]
+        }
+      ],
+      "corrected_text": "My brother's coat is on the hook by the front door. He wears it to school when it is cold, and I use the blue scarf.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 26,
+    "english_variant": "unspecified; British and American variants accepted"
+  },
+  {
+    "id": "A1-E038",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Ask a classmate about their lunch break.",
+    "student_text": "When you have lunch at school? I eat in the classroom with two friends, but they sometimes go outside when the weather is sunny.",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "When you have lunch",
+          "correction": "When do you have lunch",
+          "type": "PRESENT_SIMPLE",
+          "subtype": "PRESENT_SIMPLE_WH_QUESTION",
+          "type_label": "present simple question word order",
+          "explanation": "For a present simple question with you, put do before the subject.",
+          "acceptable_corrections": [
+            "When do you have lunch"
+          ]
+        }
+      ],
+      "corrected_text": "When do you have lunch at school? I eat in the classroom with two friends, but they sometimes go outside when the weather is sunny.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 24,
+    "english_variant": "unspecified; British and American variants accepted"
+  },
+  {
+    "id": "A1-E039",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe what someone is doing in a picture.",
+    "student_text": "Look at the photo! A little girl is sleep on the sofa, and her father is reading a book beside her. Their dog is under the table.",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "is sleep",
+          "correction": "is sleeping",
+          "type": "PRESENT_CONTINUOUS",
+          "subtype": "BE_PLUS_ING",
+          "type_label": "present continuous",
+          "explanation": "For an action happening now, use is followed by the -ing form of the verb.",
+          "acceptable_corrections": [
+            "is sleeping"
+          ]
+        }
+      ],
+      "corrected_text": "Look at the photo! A little girl is sleeping on the sofa, and her father is reading a book beside her. Their dog is under the table.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 27,
+    "english_variant": "unspecified; British and American variants accepted"
+  },
+  {
+    "id": "A1-E040",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a drink you do not like.",
+    "student_text": "I no like tomato juice because it tastes strange to me. My sister drinks it with lunch, but I choose water or orange juice instead.",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "I no like",
+          "correction": "I don't like",
+          "type": "NEGATION",
+          "subtype": "PRESENT_SIMPLE_NEGATIVE",
+          "type_label": "present simple negation",
+          "explanation": "Use don't before the base verb to make a present simple negative with I.",
+          "acceptable_corrections": [
+            "I don't like"
+          ]
+        }
+      ],
+      "corrected_text": "I don't like tomato juice because it tastes strange to me. My sister drinks it with lunch, but I choose water or orange juice instead.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 25,
+    "english_variant": "unspecified; British and American variants accepted"
+  },
+  {
+    "id": "A1-E041",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about music you enjoy at home.",
+    "student_text": "I listen music in my room after I finish my homework. My brother likes quiet songs, but I play loud music when I clean my desk.",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "listen music",
+          "correction": "listen to music",
+          "type": "VERB_PREPOSITION",
+          "subtype": "PREPOSITION_AFTER_LISTEN",
+          "type_label": "preposition after verb",
+          "explanation": "Use to after listen before the thing you hear.",
+          "acceptable_corrections": [
+            "listen to music"
+          ]
+        }
+      ],
+      "corrected_text": "I listen to music in my room after I finish my homework. My brother likes quiet songs, but I play loud music when I clean my desk.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 26,
+    "english_variant": "unspecified; British and American variants accepted"
+  },
+  {
+    "id": "A1-E042",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Explain how you visit your grandmother on Sundays.",
+    "student_text": "On Sundays, I by bus visit my grandmother with my sister. We bring some fruit, talk about school, and help her water the flowers in the garden.",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "I by bus visit my grandmother",
+          "correction": "I visit my grandmother by bus",
+          "type": "WORD_ORDER",
+          "subtype": "VERB_AND_MANNER_PHRASE",
+          "type_label": "word order",
+          "explanation": "In a basic statement, put the verb after the subject and the way of travelling after the verb phrase.",
+          "acceptable_corrections": [
+            "I visit my grandmother by bus"
+          ]
+        }
+      ],
+      "corrected_text": "On Sundays, I visit my grandmother by bus with my sister. We bring some fruit, talk about school, and help her water the flowers in the garden.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 27,
+    "english_variant": "unspecified; British and American variants accepted"
+  },
+  {
+    "id": "A1-E043",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Tell a friend about your schoolwork at home.",
+    "student_text": "After dinner, I make my homework at the kitchen table. My father sits with me and helps me with difficult words. Then I pack my bag for school.",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "make my homework",
+          "correction": "do my homework",
+          "type": "BASIC_LEXICAL_CHOICE",
+          "subtype": "VERB_NOUN_COLLOCATION",
+          "type_label": "basic lexical choice / collocation",
+          "explanation": "The usual verb with homework is do, not make.",
+          "acceptable_corrections": [
+            "do my homework"
+          ]
+        }
+      ],
+      "corrected_text": "After dinner, I do my homework at the kitchen table. My father sits with me and helps me with difficult words. Then I pack my bag for school.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 28,
+    "english_variant": "unspecified; British and American variants accepted"
+  },
+  {
+    "id": "A1-E044",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about what you did at the beach yesterday.",
+    "student_text": "Yesterday, my family went to the beach by train. We swim in the sea and ate sandwiches on the sand. Then my little brother collected shells.",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "swim",
+          "correction": "swam",
+          "type": "PAST_SIMPLE",
+          "subtype": "IRREGULAR_VERB_PAST",
+          "type_label": "past simple / irregular verb",
+          "explanation": "Use the past form swam for an action completed yesterday.",
+          "acceptable_corrections": [
+            "swam"
+          ]
+        }
+      ],
+      "corrected_text": "Yesterday, my family went to the beach by train. We swam in the sea and ate sandwiches on the sand. Then my little brother collected shells.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 26,
+    "english_variant": "unspecified; British and American variants accepted"
+  },
+  {
+    "id": "A1-E045",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write a short message about your plans for tomorrow.",
+    "student_text": "Hi Ben, I can meet you at the sports hall tomorrow. My swimming lesson finishes at six, so I will be there at seven",
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "at seven",
+          "correction": "at seven.",
+          "type": "PUNCTUATION",
+          "subtype": "MISSING_SENTENCE_FINAL_PERIOD",
+          "type_label": "punctuation",
+          "explanation": "Put a full stop at the end of a statement.",
+          "acceptable_corrections": [
+            "at seven."
+          ]
+        }
+      ],
+      "corrected_text": "Hi Ben, I can meet you at the sports hall tomorrow. My swimming lesson finishes at six, so I will be there at seven.",
+      "acceptable_alternatives": []
+    },
+    "length_words": 24,
+    "english_variant": "unspecified; British and American variants accepted"
+  }
+]

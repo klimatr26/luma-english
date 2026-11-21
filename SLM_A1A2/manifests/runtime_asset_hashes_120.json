@@ -1,0 +1,63 @@
+{
+  "tag": "b11457",
+  "commit": "5ad1c5da0ad7f6176256b823925aad19134f0263",
+  "source_url": "https://codeload.github.com/ggml-org/llama.cpp/tar.gz/5ad1c5da0ad7f6176256b823925aad19134f0263",
+  "cuda_staging": "Extracted only three runtime DLLs from retained CUDA 13.4 archive; no change to b11433",
+  "files": [
+    {
+      "path": "SLM_A1A2/tools/llama.cpp/llama-5ad1c5da0ad7f6176256b823925aad19134f0263-source.tar.gz",
+      "size_bytes": 37925778,
+      "sha256": "716ad5d9c20d3a3a0af64bfac5d7c6a64c5c47287e9be5e917de51a1a3722768"
+    },
+    {
+      "path": "SLM_A1A2/tools/cudart-llama-bin-win-cuda-13.4-x64.zip",
+      "size_bytes": 423535356,
+      "sha256": "738f8c251ac22b70c3ae6f83a10cf222725df0395246a2cf58f32bdb85fbe668"
+    },
+    {
+      "path": "SLM_A1A2/tools/llama.cpp/llama-b11457-bin-win-cuda-13.4-x64.zip",
+      "size_bytes": 153137838,
+      "sha256": "0a640310af7490dd31c34e50fe8cebfaa3fc354cf55f683796f220bc21906892"
+    },
+    {
+      "path": "SLM_A1A2/tools/llama.cpp/b11457/llama-server.exe",
+      "size_bytes": 9216,
+      "sha256": "c10548343e140c28ce63191a79f888e9d49640e3d19e7e4222344f29ea1ddae1"
+    },
+    {
+      "path": "SLM_A1A2/tools/llama.cpp/b11457/llama-cli.exe",
+      "size_bytes": 9216,
+      "sha256": "9aec4dbe09edd3ce8b67e5f773d5d447e88fe8a23533732821884d82b1188f45"
+    },
+    {
+      "path": "SLM_A1A2/tools/llama.cpp/b11457/llama-bench.exe",
+      "size_bytes": 9216,
+      "sha256": "d1fcd78312219fc76cdb8d87d930d8cec9e8a9354c7bfbe9a50fb264ceb88523"
+    },
+    {
+      "path": "SLM_A1A2/tools/llama.cpp/b11457/llama-quantize.exe",
+      "size_bytes": 9216,
+      "sha256": "418db616e24da971da88bab6012bdc10cec92602d592feac821fed50d3344939"
+    },
+    {
+      "path": "SLM_A1A2/tools/llama.cpp/b11457/cublas64_13.dll",
+      "size_bytes": 54942320,
+      "sha256": "1119dbca0a808e0c8850bb4221e330daf0b5ddb348d62d37b6ac533854723df9"
+    },
+    {
+      "path": "SLM_A1A2/tools/llama.cpp/b11457/cublasLt64_13.dll",
+      "size_bytes": 492752496,
+      "sha256": "0f5bc315fef706b5626248ebd74e8a48a9e82fa2f0cad38330f5f70984913107"
+    },
+    {
+      "path": "SLM_A1A2/tools/llama.cpp/b11457/cudart64_13.dll",
+      "size_bytes": 551024,
+      "sha256": "05bfafcb97bd53b0089568a96e1e5bd6921637bd0853ff7f5342bd31a6a16890"
+    },
+    {
+      "path": "SLM_A1A2/tools/llama.cpp/llama.cpp-5ad1c5da0ad7f6176256b823925aad19134f0263/convert_hf_to_gguf.py",
+      "size_bytes": 13012,
+      "sha256": "e9a1da876330bbce9687541ab31736542a01b4ac43c6686126514a50f122fb7f"
+    }
+  ]
+}

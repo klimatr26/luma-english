@@ -1,0 +1,114 @@
+{
+  "scope": "synthetic text-only; enable_thinking=false; no tools; no benchmark content",
+  "engine": "Python Jinja2 sandbox; native llama.cpp /apply-template remains a separate readiness gate",
+  "synthetic_probes": [
+    [
+      {
+        "role": "user",
+        "content": "Synthetic technical input."
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "Return plain text."
+      },
+      {
+        "role": "user",
+        "content": "Synthetic technical input."
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": " Keep content. "
+      },
+      {
+        "role": "user",
+        "content": " Line one.\nLine two: \"x\", 2 < 3. "
+      }
+    ],
+    [
+      {
+        "role": "system",
+        "content": "Return JSON."
+      },
+      {
+        "role": "user",
+        "content": "{\"value\": \"á\", \"flag\": true}"
+      }
+    ],
+    [
+      {
+        "role": "user",
+        "content": "First synthetic turn."
+      },
+      {
+        "role": "assistant",
+        "content": "Synthetic reply."
+      },
+      {
+        "role": "user",
+        "content": "Second synthetic turn."
+      }
+    ]
+  ],
+  "configs": [
+    {
+      "id": "gemma4_e2b_qat_q4_0",
+      "template_sha256": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5",
+      "renders": [
+        "<bos><|turn>user\nSynthetic technical input.<turn|>\n<|turn>model\n",
+        "<bos><|turn>system\nReturn plain text.<turn|>\n<|turn>user\nSynthetic technical input.<turn|>\n<|turn>model\n",
+        "<bos><|turn>system\nKeep content.<turn|>\n<|turn>user\nLine one.\nLine two: \"x\", 2 < 3.<turn|>\n<|turn>model\n",
+        "<bos><|turn>system\nReturn JSON.<turn|>\n<|turn>user\n{\"value\": \"á\", \"flag\": true}<turn|>\n<|turn>model\n",
+        "<bos><|turn>user\nFirst synthetic turn.<turn|>\n<|turn>model\nSynthetic reply.<turn|>\n<|turn>user\nSecond synthetic turn.<turn|>\n<|turn>model\n"
+      ],
+      "render_sha256": [
+        "f34cf3cda3411a4d4c826bcd8a287b748a5d8509b85854d2f74c0b7cbaf2fa37",
+        "80bbd1285c6caa32252dc04c7533dacfbb759d00d0d4b340cbbc2f10aa4b0079",
+        "66b835e34d59af884c11c456e2f0d25cada67c5669b110ece4d9eda6beffe04e",
+        "9e6d2d838fb86aa229827471d89dcd3f791df4249c7559c039f85ce97e0429ed",
+        "bf494a94abc6a07a7b99d076404ea90246a4d39981f27317a423a202e026cc29"
+      ]
+    },
+    {
+      "id": "gemma4_e2b_ud_q4_k_xl",
+      "template_sha256": "241c50d86bdfe5e43307da87f559cd2416aacd67a8de46c15acc0105ef2200b7",
+      "renders": [
+        "<bos><|turn>user\nSynthetic technical input.<turn|>\n<|turn>model\n",
+        "<bos><|turn>system\nReturn plain text.<turn|>\n<|turn>user\nSynthetic technical input.<turn|>\n<|turn>model\n",
+        "<bos><|turn>system\nKeep content.<turn|>\n<|turn>user\nLine one.\nLine two: \"x\", 2 < 3.<turn|>\n<|turn>model\n",
+        "<bos><|turn>system\nReturn JSON.<turn|>\n<|turn>user\n{\"value\": \"á\", \"flag\": true}<turn|>\n<|turn>model\n",
+        "<bos><|turn>user\nFirst synthetic turn.<turn|>\n<|turn>model\nSynthetic reply.<turn|>\n<|turn>user\nSecond synthetic turn.<turn|>\n<|turn>model\n"
+      ],
+      "render_sha256": [
+        "f34cf3cda3411a4d4c826bcd8a287b748a5d8509b85854d2f74c0b7cbaf2fa37",
+        "80bbd1285c6caa32252dc04c7533dacfbb759d00d0d4b340cbbc2f10aa4b0079",
+        "66b835e34d59af884c11c456e2f0d25cada67c5669b110ece4d9eda6beffe04e",
+        "9e6d2d838fb86aa229827471d89dcd3f791df4249c7559c039f85ce97e0429ed",
+        "bf494a94abc6a07a7b99d076404ea90246a4d39981f27317a423a202e026cc29"
+      ]
+    },
+    {
+      "id": "gemma4_e2b_ud_q2_k_xl",
+      "template_sha256": "241c50d86bdfe5e43307da87f559cd2416aacd67a8de46c15acc0105ef2200b7",
+      "renders": [
+        "<bos><|turn>user\nSynthetic technical input.<turn|>\n<|turn>model\n",
+        "<bos><|turn>system\nReturn plain text.<turn|>\n<|turn>user\nSynthetic technical input.<turn|>\n<|turn>model\n",
+        "<bos><|turn>system\nKeep content.<turn|>\n<|turn>user\nLine one.\nLine two: \"x\", 2 < 3.<turn|>\n<|turn>model\n",
+        "<bos><|turn>system\nReturn JSON.<turn|>\n<|turn>user\n{\"value\": \"á\", \"flag\": true}<turn|>\n<|turn>model\n",
+        "<bos><|turn>user\nFirst synthetic turn.<turn|>\n<|turn>model\nSynthetic reply.<turn|>\n<|turn>user\nSecond synthetic turn.<turn|>\n<|turn>model\n"
+      ],
+      "render_sha256": [
+        "f34cf3cda3411a4d4c826bcd8a287b748a5d8509b85854d2f74c0b7cbaf2fa37",
+        "80bbd1285c6caa32252dc04c7533dacfbb759d00d0d4b340cbbc2f10aa4b0079",
+        "66b835e34d59af884c11c456e2f0d25cada67c5669b110ece4d9eda6beffe04e",
+        "9e6d2d838fb86aa229827471d89dcd3f791df4249c7559c039f85ce97e0429ed",
+        "bf494a94abc6a07a7b99d076404ea90246a4d39981f27317a423a202e026cc29"
+      ]
+    }
+  ],
+  "all_tested_renders_equal": true,
+  "limitation": "Finite synthetic renders support equivalence in the tested path, not general logical equivalence. Tool-call differences remain; no template substitution."
+}

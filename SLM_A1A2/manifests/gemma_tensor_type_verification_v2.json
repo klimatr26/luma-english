@@ -1,0 +1,190 @@
+{
+  "schema_version": "gemma_tensor_type_verification_v2",
+  "generated_utc": "2026-10-11T21:23:59Z",
+  "purpose": "Header-only revalidation of the three Gemma GGUF tensor_type histograms recorded in experiment_manifest_120.json.",
+  "scope": {
+    "read_method": "prepare_experiment_120.gguf_meta_ggufreader",
+    "read_count_per_file": 2,
+    "tensor_payloads_loaded": false,
+    "inference_run": false,
+    "download_performed": false,
+    "test_final_accessed": false,
+    "fresh_full_weight_hash_computed": false,
+    "recorded_model_hashes_are_freshly_verified": false
+  },
+  "reader_provenance": {
+    "reader_class": "gguf.gguf_reader.GGUFReader",
+    "distribution": "gguf",
+    "distribution_version": "0.19.0",
+    "module_file": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\.venv\\Lib\\site-packages\\gguf\\__init__.py",
+    "reader_source_file": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\.venv\\Lib\\site-packages\\gguf\\gguf_reader.py",
+    "helper_file": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\scripts\\prepare_experiment_120.py",
+    "python_version": "3.14.7"
+  },
+  "results": [
+    {
+      "config_id": "12-gemma4-e2b-qat-q4-0",
+      "variant_label": "Q4_0",
+      "source": {
+        "repo": "google/gemma-4-E2B-it-qat-q4_0-gguf",
+        "revision": "675cff42a74c774d6cb76f76d8eacb49b48c9b93"
+      },
+      "manifest_path": "models/gemma4_e2b/google_qat_q4_0/gemma-4-E2B_q4_0-it.gguf",
+      "resolved_file_path": "D:\\SLM_A1A2_models\\gemma4_e2b\\google_qat_q4_0\\gemma-4-E2B_q4_0-it.gguf",
+      "file_snapshot": {
+        "size_bytes_before": 3349516256,
+        "size_bytes_after": 3349516256,
+        "mtime_ns_before": 1791334997373313100,
+        "mtime_ns_after": 1791334997373313100,
+        "size_and_mtime_stable_across_reads": true
+      },
+      "recorded_model_identity": {
+        "sha256": "fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634",
+        "sha256_source": "model_inventory_120.json",
+        "manifest_inventory_sha256": "fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634",
+        "recorded_hash_values_agree": true,
+        "prior_inventory_sha256_match": true,
+        "prior_inventory_stable_during_hash": true,
+        "fresh_full_weight_hash_computed": false
+      },
+      "observed_header": {
+        "metadata_equal_across_two_reader_passes": true,
+        "architecture": "gemma4",
+        "context_length": 131072,
+        "embedding_length": 1536,
+        "block_count": 35,
+        "tensor_count": 541,
+        "tensor_type_histogram": {
+          "F32": 263,
+          "F16": 1,
+          "Q6_K": 2,
+          "Q4_0": 275
+        },
+        "tensor_type_count_sum": 541,
+        "chat_template_present": true,
+        "chat_template_chars": 18567
+      },
+      "manifest_comparison": {
+        "file_size_matches": true,
+        "architecture_matches": true,
+        "context_length_matches": true,
+        "embedding_length_matches": true,
+        "block_count_matches": true,
+        "tensor_count_matches": true,
+        "tensor_type_histogram_matches": true,
+        "histogram_sum_matches_tensor_count": true
+      }
+    },
+    {
+      "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+      "variant_label": "UD-Q4_K_XL",
+      "source": {
+        "repo": "unsloth/gemma-4-E2B-it-qat-GGUF",
+        "revision": "66a399f68ddd113b06dff02fca9523e55465d11d"
+      },
+      "manifest_path": "models/gemma4_e2b/unsloth_dynamic/gemma-4-E2B-it-qat-UD-Q4_K_XL.gguf",
+      "resolved_file_path": "D:\\SLM_A1A2_models\\gemma4_e2b\\unsloth_dynamic\\gemma-4-E2B-it-qat-UD-Q4_K_XL.gguf",
+      "file_snapshot": {
+        "size_bytes_before": 2620370976,
+        "size_bytes_after": 2620370976,
+        "mtime_ns_before": 1791335157240295300,
+        "mtime_ns_after": 1791335157240295300,
+        "size_and_mtime_stable_across_reads": true
+      },
+      "recorded_model_identity": {
+        "sha256": "e531007218dfab990486a5de7676a6932d6ea8dea233d1f698d7c21cf8a16889",
+        "sha256_source": "model_inventory_120.json",
+        "manifest_inventory_sha256": "e531007218dfab990486a5de7676a6932d6ea8dea233d1f698d7c21cf8a16889",
+        "recorded_hash_values_agree": true,
+        "prior_inventory_sha256_match": true,
+        "prior_inventory_stable_during_hash": true,
+        "fresh_full_weight_hash_computed": false
+      },
+      "observed_header": {
+        "metadata_equal_across_two_reader_passes": true,
+        "architecture": "gemma4",
+        "context_length": 131072,
+        "embedding_length": 1536,
+        "block_count": 35,
+        "tensor_count": 541,
+        "tensor_type_histogram": {
+          "F32": 263,
+          "Q4_0": 278
+        },
+        "tensor_type_count_sum": 541,
+        "chat_template_present": true,
+        "chat_template_chars": 18808
+      },
+      "manifest_comparison": {
+        "file_size_matches": true,
+        "architecture_matches": true,
+        "context_length_matches": true,
+        "embedding_length_matches": true,
+        "block_count_matches": true,
+        "tensor_count_matches": true,
+        "tensor_type_histogram_matches": true,
+        "histogram_sum_matches_tensor_count": true
+      }
+    },
+    {
+      "config_id": "14-gemma4-e2b-ud-q2-k-xl",
+      "variant_label": "UD-Q2_K_XL",
+      "source": {
+        "repo": "unsloth/gemma-4-E2B-it-qat-GGUF",
+        "revision": "66a399f68ddd113b06dff02fca9523e55465d11d"
+      },
+      "manifest_path": "models/gemma4_e2b/unsloth_dynamic/gemma-4-E2B-it-qat-UD-Q2_K_XL.gguf",
+      "resolved_file_path": "D:\\SLM_A1A2_models\\gemma4_e2b\\unsloth_dynamic\\gemma-4-E2B-it-qat-UD-Q2_K_XL.gguf",
+      "file_snapshot": {
+        "size_bytes_before": 2186186784,
+        "size_bytes_after": 2186186784,
+        "mtime_ns_before": 1791335151420943100,
+        "mtime_ns_after": 1791335151420943100,
+        "size_and_mtime_stable_across_reads": true
+      },
+      "recorded_model_identity": {
+        "sha256": "0a5bbc20f91f92da96ab4870fa71b356c45b8500a7b8b9c3e0eb48359b72da28",
+        "sha256_source": "model_inventory_120.json",
+        "manifest_inventory_sha256": "0a5bbc20f91f92da96ab4870fa71b356c45b8500a7b8b9c3e0eb48359b72da28",
+        "recorded_hash_values_agree": true,
+        "prior_inventory_sha256_match": true,
+        "prior_inventory_stable_during_hash": true,
+        "fresh_full_weight_hash_computed": false
+      },
+      "observed_header": {
+        "metadata_equal_across_two_reader_passes": true,
+        "architecture": "gemma4",
+        "context_length": 131072,
+        "embedding_length": 1536,
+        "block_count": 35,
+        "tensor_count": 541,
+        "tensor_type_histogram": {
+          "F32": 263,
+          "F16": 1,
+          "Q4_0": 146,
+          "TQ2_0": 61,
+          "Q8_0": 70
+        },
+        "tensor_type_count_sum": 541,
+        "chat_template_present": true,
+        "chat_template_chars": 18808
+      },
+      "manifest_comparison": {
+        "file_size_matches": true,
+        "architecture_matches": true,
+        "context_length_matches": true,
+        "embedding_length_matches": true,
+        "block_count_matches": true,
+        "tensor_count_matches": true,
+        "tensor_type_histogram_matches": true,
+        "histogram_sum_matches_tensor_count": true
+      }
+    }
+  ],
+  "interpretation": [
+    "All three live GGUFReader tensor_type histograms, tensor counts, file sizes, and selected architecture metadata match experiment_manifest_120.json; the tensor-type counts sum to 541 in every file.",
+    "The manifest labels UD-Q4_K_XL and UD-Q2_K_XL identify the vendor's dynamic quantization variants; they are not claims that every tensor uses a uniform Q4_K or Q2_K GGUF type. The observed UD-Q4_K_XL header contains F32 and Q4_0 tensors; the observed UD-Q2_K_XL header contains F32, F16, Q4_0, TQ2_0, and Q8_0 tensors.",
+    "The official Q4_0-labeled file also contains F32, F16, and Q6_K tensors. These histograms count tensor records by GGUF tensor_type; they do not provide a per-parameter precision estimate, byte share, quantization recipe, or quality comparison.",
+    "The SHA-256 values above are copied from existing manifests/inventory records. This header check did not recompute any full GGUF weight-file SHA-256."
+  ]
+}

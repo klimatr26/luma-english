@@ -1,0 +1,68 @@
+{
+  "config_id": "09-lfm25-12b-q4-k-m",
+  "family": "lfm",
+  "quant": "Q4_K_M",
+  "summary": {
+    "cases": 120,
+    "incorrect_cases_expected": 90,
+    "incorrect_text_observable": 90,
+    "incorrect_text_unobservable": 0,
+    "expected_primary_errant_edits": 163,
+    "unobservable_primary_errant_edits": 0,
+    "gec_conditional_on_observable_text": {
+      "primary": {
+        "tp": 137,
+        "fp": 47,
+        "fn": 26,
+        "precision": 0.7445652173913043,
+        "recall": 0.8404907975460123,
+        "f0_5": 0.7619577308120132
+      },
+      "best_full_reference": {
+        "tp": 139,
+        "fp": 45,
+        "fn": 27,
+        "precision": 0.7554347826086957,
+        "recall": 0.8373493975903614,
+        "f0_5": 0.7705099778270511
+      }
+    },
+    "recall_all_primary_gold_unobservable_as_missed": 0.8404907975460123,
+    "controls_expected": 30,
+    "ctmr_modified_observed": 8,
+    "ctmr_unobservable": 0,
+    "cfar_false_alarm_observed": 1,
+    "cfar_unobservable": 0,
+    "fully_preserved_observed": 21,
+    "fully_preserved_unobservable": 0,
+    "parse_status": {
+      "direct": 120
+    },
+    "schema_valid": 120,
+    "strict_json_compliant": 120,
+    "declarations": {
+      "verified_matches_output": 24,
+      "verified_differs_output": 93,
+      "unverified_ambiguous_or_absent_fragment": 3
+    },
+    "declarations_coherent_non_noop": 24,
+    "incorrect_text_equal_primary": 55,
+    "incorrect_text_equal_licensed_complete_reference": 56,
+    "flag_correct_observed": 31,
+    "flag_unobservable": 0,
+    "incorrect_flag_correct_observed": 1,
+    "incorrect_flag_unobservable": 0,
+    "human_confirmed": 0,
+    "latency_median_seconds_descriptive": 0.2911066499982553,
+    "schema_version": "evaluation-v2.0"
+  },
+  "selection": {
+    "rows_in": 120,
+    "rows_selected": 120,
+    "duplicate_cases_resolved": [],
+    "selection_policy": "highest verified final attempt number"
+  },
+  "primary_frozen_tp": 2,
+  "primary_frozen_fp": 23,
+  "primary_frozen_fn": 148
+}

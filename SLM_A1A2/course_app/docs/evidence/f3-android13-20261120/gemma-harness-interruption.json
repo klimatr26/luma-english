@@ -1,0 +1,9 @@
+{
+  "kind": "HARNESS_POST_MODEL_CACHE_WAIT_INTERRUPTED",
+  "source": "gemma/gemma-checkpoint.json",
+  "reason": "Diagnostic helper waited for UnloadCommand.CanExecute after unload; unload intentionally disables that command.",
+  "native_calibration_and_two_course_examples_retained": true,
+  "production_app_failure": false,
+  "no_model_outputs_discarded": true,
+  "cache_reuse_not_claimed_by_this_attempt": true
+}

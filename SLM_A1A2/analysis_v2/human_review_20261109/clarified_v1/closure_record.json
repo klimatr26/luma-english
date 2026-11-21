@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE_WITH_INVESTIGATOR_CLARIFICATIONS",
+  "clarified_records": 8,
+  "review_records_imported": 180,
+  "original_backup_sha256": "91a638c9725894144a0b1307af9441c9eca2e40b6423263ab71a454e2b4dd24e",
+  "ledger_sha256": "823278824271d909eb325eb221018f9c797b191bbb5258c4ecf605e035d4d396",
+  "derived_backup_sha256": "142ba1b9118774fa13cf3f8b16afa50a40fe6362f7e32b7c7668454eaefb3a97",
+  "reviews_sha256": "d4057ec2836083bf02730255b5481dbe9a6d2dee9890e7dd33b47435d6c4c0d9",
+  "metadata_sha256": "5c5cf509f1d4fc1498f8e6c448f8d4400b006ee5db15e3f9230a845f46560628",
+  "scores_sha256": "a11d4369723b3ca3e2c4bc381f3040a25b2c7210dc29678a4df5157d51dd3584",
+  "report_sha256": "7a51351cb9d70181fe07e456c0e5847c132d04c200ea4c9523b24ff15253314d",
+  "human_layer": "kevin01_clarified_20261109_v1",
+  "invalidations_applied": false,
+  "old_gold_and_automatic_scores_modified": false,
+  "new_inferences": 0,
+  "final_test_access": false
+}

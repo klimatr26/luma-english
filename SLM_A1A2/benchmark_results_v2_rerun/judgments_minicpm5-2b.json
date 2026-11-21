@@ -1,0 +1,1064 @@
+{
+  "model_name": "MiniCPM5-2B",
+  "benchmark_id": "writing_a1_a2_smoke_v2",
+  "benchmark_version": "2.0",
+  "evaluation_scope": "Solo gold v2 y salidas de este modelo; sin usar resultados de otros modelos.",
+  "summary": {
+    "cases": 40,
+    "labels": {
+      "CORRECT": 22,
+      "PARTIAL": 14,
+      "INCORRECT": 4
+    },
+    "case_accuracy": {
+      "correct": 22,
+      "partial": 14,
+      "incorrect": 4,
+      "correct_rate": 0.55
+    },
+    "real_errors": 59,
+    "detected_errors": 48,
+    "missed_errors": 11,
+    "false_positive_errors": 6,
+    "error_detection_recall": 0.8135593220338984,
+    "error_precision": 0.8888888888888888,
+    "corrections_valid_cases": 32,
+    "corrections_valid_rate": 0.8,
+    "explanation_valid_cases": 27,
+    "explanation_valid_rate": 0.675,
+    "meaning_preserved_cases": 37,
+    "meaning_preserved_rate": 0.925,
+    "json_valid_cases": 39,
+    "json_valid_rate": 0.975,
+    "truncated_cases": 0,
+    "repetition_or_loop_cases": 0,
+    "text_outside_json_cases": 0,
+    "execution_completed_cases": 40,
+    "needs_human_review_cases": 1,
+    "latency_seconds": {
+      "mean": 13.464470417494885,
+      "median": 12.503692749975016,
+      "min": 4.396929600043222,
+      "max": 29.66465649998281
+    },
+    "tokens_generated": {
+      "total": 6724,
+      "mean": 168.1,
+      "median": 158.0
+    },
+    "peak_RAM_bytes": {
+      "mean": 3380072448,
+      "max": 3380072448
+    },
+    "peak_RAM_GiB": {
+      "mean": 3.147937774658203,
+      "max": 3.147937774658203
+    },
+    "peak_VRAM_bytes": {
+      "mean": 5170370969.6,
+      "max": 5171576832
+    },
+    "peak_VRAM_GiB": {
+      "mean": 4.815283203125,
+      "max": 4.81640625
+    }
+  },
+  "cases": [
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E01",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "subject-verb agreement / present simple: live",
+        "subject-verb agreement / present simple: get up",
+        "subject-verb agreement / present simple: go"
+      ],
+      "detected_errors": [
+        "1: subject-verb agreement / present simple",
+        "2: subject-verb agreement / present simple",
+        "3: subject-verb agreement / present simple"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E02",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "form of be / subject-verb agreement: My sister are",
+        "form of be / subject-verb agreement: We is"
+      ],
+      "detected_errors": [
+        "1: form of be / subject-verb agreement",
+        "2: form of be / subject-verb agreement"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E03",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "present simple / verb form after do: don't likes",
+        "subject-verb agreement / present simple: father like",
+        "subject-verb agreement / present simple: mother make"
+      ],
+      "detected_errors": [
+        "1: present simple / verb form after do",
+        "3: subject-verb agreement / present simple"
+      ],
+      "missed_errors": [
+        "2: subject-verb agreement / present simple"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "La versión corregida repara también father likes, pero ese error real no se incluye en errors."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E04",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "present continuous / form of be: Two boys is playing",
+        "present continuous / form of be: a woman are sitting",
+        "present continuous: Her dog run"
+      ],
+      "detected_errors": [
+        "1: present continuous / form of be",
+        "2: present continuous / form of be",
+        "3: present continuous"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Dog runs es gramatical aislado, pero incumple el contexto explícito de acción que ocurre ahora; correspondía is running."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E05",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "article: an dog",
+        "article: a orange"
+      ],
+      "detected_errors": [
+        "1: article"
+      ],
+      "missed_errors": [
+        "2: article"
+      ],
+      "false_positive_errors": [
+        "False-positive 1"
+      ],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Omite an dog y cambia sin motivo animals por animal, alterando la referencia a dos mascotas."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E06",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "singular/plural: three book",
+        "singular/plural: two pencil",
+        "form of be / subject-verb agreement: The books is",
+        "subject-verb agreement / present simple: one pencil have"
+      ],
+      "detected_errors": [
+        "1: singular/plural",
+        "2: singular/plural",
+        "3: form of be / subject-verb agreement",
+        "4: subject-verb agreement / present simple"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [
+        "False-positive 1"
+      ],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Todas las correcciones gold aparecen; inventa un supuesto error estilístico red color y lo declara aceptable."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E07",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "subject pronoun: My friend and me",
+        "subject-verb agreement / present simple: goes",
+        "object pronoun: helps I",
+        "subject-verb agreement / present simple: we plays"
+      ],
+      "detected_errors": [
+        "1: subject pronoun",
+        "2: subject-verb agreement / present simple",
+        "3: object pronoun",
+        "4: subject-verb agreement / present simple"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E08",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "possessive apostrophe: sisters bag",
+        "subject-verb agreement / present simple: She take"
+      ],
+      "detected_errors": [
+        "1: possessive apostrophe",
+        "2: subject-verb agreement / present simple"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E09",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "preposition of time: at Monday",
+        "preposition of time: in 10 o'clock"
+      ],
+      "detected_errors": [
+        "1: preposition of time"
+      ],
+      "missed_errors": [
+        "2: preposition of time"
+      ],
+      "false_positive_errors": [
+        "False-positive 1"
+      ],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Corrige a 10 o’clock en el texto pero no identifica ni explica el error de preposición."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E10",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "word order / time expression: I every day walk to school with my cousin",
+        "word order: We at the bus stop meet our friends"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "1: word order / time expression",
+        "2: word order"
+      ],
+      "false_positive_errors": [
+        "False-positive 1",
+        "False-positive 2"
+      ],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Introduce “go every day walk” y no reordena correctamente la primera frase; explicaciones falsas."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E11",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "present simple question word order: Where you live",
+        "question word order / form of be: How old your brother is"
+      ],
+      "detected_errors": [
+        "1: present simple question word order",
+        "2: question word order / form of be"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E12",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "present simple negation: I no like"
+      ],
+      "detected_errors": [
+        "1: present simple negation"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E13",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "some/any: aren't some apples"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "1: some/any"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "No aplica any; señala la misma frase y no la corrige."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E14",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "basic lexical choice / coordination: eat a glass of water and a sandwich"
+      ],
+      "detected_errors": [
+        "1: basic lexical choice / coordination"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Corrige eat a glass of water pero deja “and a sandwich” sin eat; no conserva una oración plenamente corregida."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-E15",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "spelling: freind",
+        "punctuation: Saturday"
+      ],
+      "detected_errors": [
+        "1: spelling"
+      ],
+      "missed_errors": [
+        "2: punctuation"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Corrige friend, pero omite identificar la falta del punto final."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-C01",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-C02",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-C03",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-C04",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A1-C05",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E01",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "past simple / irregular verb: goed",
+        "past simple: come home"
+      ],
+      "detected_errors": [
+        "1: past simple / irregular verb",
+        "2: past simple"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Identifica come, pero el campo correction y el texto corregido lo dejan sin corregir; la explicación de went ofrece una forma base incorrecta."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E02",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "comparative adjective: more cheaper"
+      ],
+      "detected_errors": [
+        "1: comparative adjective"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E03",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "much/many: much suitcases",
+        "much/many / quantifier choice: many time"
+      ],
+      "detected_errors": [
+        "2: much/many / quantifier choice"
+      ],
+      "missed_errors": [
+        "1: much/many"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Much luggage/much time son alternativas gramaticales y válidas; explicación sobre much time es errónea y luggage es un cambio léxico innecesario."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E04",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "article: to restaurant",
+        "article: and meal"
+      ],
+      "detected_errors": [
+        "1: article",
+        "2: article"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E05",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "present continuous / subject-verb agreement: My friends makes"
+      ],
+      "detected_errors": [
+        "1: present continuous / subject-verb agreement"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Usa make en presente simple, pero el contexto right now exige are making; la explicación trata solo el acuerdo."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E06",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "object pronoun: showed I",
+        "object pronoun: sent they"
+      ],
+      "detected_errors": [
+        "2: object pronoun"
+      ],
+      "missed_errors": [
+        "1: object pronoun"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Corrige sent they, pero omite showed I; confunde pronombre objeto con acuerdo sujeto-verbo."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E07",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "possessive apostrophe: parents room",
+        "possessive determiner / contraction: they're books"
+      ],
+      "detected_errors": [
+        "1: possessive apostrophe",
+        "2: possessive determiner / contraction"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [
+        "False-positive 1"
+      ],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Corrige ambos errores gold, pero inventa un error en “looks over the garden”, que es válido."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E08",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "preposition of place: in the bus stop",
+        "preposition after arrive: arrives to school"
+      ],
+      "detected_errors": [
+        "1: preposition of place",
+        "2: preposition after arrive"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "La expansión de it a The bus es aclaratoria y conserva significado."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E09",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "past simple question word order: Where you went",
+        "past simple question / verb form after did: Did you stayed"
+      ],
+      "detected_errors": [
+        "1: past simple question word order",
+        "2: past simple question / verb form after did"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Las formas corregidas son correctas; explicación sobre Did you stay afirma erróneamente que se requiere stayed."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E10",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "form of be / singular-plural: There was two",
+        "form of be / subject-verb agreement: windows was"
+      ],
+      "detected_errors": [
+        "1: form of be / singular-plural",
+        "2: form of be / subject-verb agreement"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "El texto repara ambos errores, pero solo detecta/explica el de windows was."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E11",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "preposition after verb: listen music"
+      ],
+      "detected_errors": [
+        "1: preposition after verb"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E12",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "spelling / past simple: studyed",
+        "past simple negation: didn't went"
+      ],
+      "detected_errors": [
+        "1: spelling / past simple",
+        "2: past simple negation"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E13",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "some/any: doesn't have some",
+        "some/any: buy any milk"
+      ],
+      "detected_errors": [
+        "2: some/any"
+      ],
+      "missed_errors": [
+        "1: some/any"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Corrige ambas frases con alternativas válidas; explicación incorrecta: oranges sí es contable plural."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E14",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "superlative adjective / double comparison: the most noisier"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "1: superlative adjective / double comparison"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": true,
+      "review_note": "No se pudo analizar parsed_json y json_valid=false; no hay errores detectables en el objeto parseado; revisar raw manualmente. needs_human_review: salida no parseada; validar raw filtrado."
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-E15",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "past simple: eat"
+      ],
+      "detected_errors": [
+        "1: past simple"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-C01",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-C02",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-C03",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-C04",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "case_id": "A2-C05",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    }
+  ]
+}

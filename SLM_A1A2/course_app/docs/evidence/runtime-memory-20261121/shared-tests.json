@@ -1,0 +1,211 @@
+{
+  "kind": "SYNTHETIC_TESTS_NO_MODEL_INFERENCE",
+  "dateUtc": "2026-11-21T08:17:55.346680+00:00",
+  "command": [
+    "dotnet",
+    "run",
+    "--project",
+    "SLM_A1A2/cross_demo/WritingApp.Tests/WritingApp.Tests.csproj",
+    "-c",
+    "Release",
+    "--no-build",
+    "--no-restore"
+  ],
+  "exitCode": 0,
+  "passed": 48,
+  "total": 48,
+  "checks": [
+    {
+      "name": "portable catalog preserves separate local and downloadable identities",
+      "passed": true
+    },
+    {
+      "name": "measured backend requires usable output and a material speedup",
+      "passed": true
+    },
+    {
+      "name": "memory recommendation is conservative and permits an explicit override",
+      "passed": true
+    },
+    {
+      "name": "model cache rejects traversal and absolute Windows paths",
+      "passed": true
+    },
+    {
+      "name": "download verifies SHA and reuses the cache without a second request",
+      "passed": true
+    },
+    {
+      "name": "hash mismatch removes only the partial and never publishes it",
+      "passed": true
+    },
+    {
+      "name": "existing wrong file is preserved and never replaced",
+      "passed": true
+    },
+    {
+      "name": "valid external copy is usable despite corrupt private cache",
+      "passed": true
+    },
+    {
+      "name": "verified explicit import archives corrupt cache without deleting it",
+      "passed": true
+    },
+    {
+      "name": "cancelled import removes its own partial",
+      "passed": true
+    },
+    {
+      "name": "HTTP 429 does not retry",
+      "passed": true
+    },
+    {
+      "name": "first usable JSON stops without quality-driven retries",
+      "passed": true
+    },
+    {
+      "name": "unusable format retries with traced seeds and preserved attempts",
+      "passed": true
+    },
+    {
+      "name": "all unusable attempts finish visibly at the fixed limit",
+      "passed": true
+    },
+    {
+      "name": "technical generation failure never retries",
+      "passed": true
+    },
+    {
+      "name": "source-generated session serialization works with reflection disabled",
+      "passed": true
+    },
+    {
+      "name": "HTTP transfer and stream reads leave the calling synchronization context",
+      "passed": true
+    },
+    {
+      "name": "interrupted HTTP download resumes exact bytes with a validated 206 range",
+      "passed": true
+    },
+    {
+      "name": "server ignoring Range restarts safely without appending a full response",
+      "passed": true
+    },
+    {
+      "name": "mismatched Content-Range is rejected without destroying the resumable prefix",
+      "passed": true
+    },
+    {
+      "name": "UI monitor cancellation leaves the system job and reattaches without a duplicate",
+      "passed": true
+    },
+    {
+      "name": "explicit cancel removes only the recorded system job",
+      "passed": true
+    },
+    {
+      "name": "system completion still requires full pinned SHA verification",
+      "passed": true
+    },
+    {
+      "name": "a failed system job is not retried in the monitoring loop",
+      "passed": true
+    },
+    {
+      "name": "verified private cache cleans a system ticket left by death after publication",
+      "passed": true
+    },
+    {
+      "name": "completed system job is made durable without a local ticket or a new download",
+      "passed": true
+    },
+    {
+      "name": "interrupted publication keeps the completed system job available",
+      "passed": true
+    },
+    {
+      "name": "extended application catalogue recovers only exact matching pending tickets",
+      "passed": true
+    },
+    {
+      "name": "partial GPU candidate remains eligible below 4 GiB",
+      "passed": true
+    },
+    {
+      "name": "CPU wins when integrated GPU is slower; usable partial GPU can win",
+      "passed": true
+    },
+    {
+      "name": "device-lost load recovers in a fresh worker with fewer layers",
+      "passed": true
+    },
+    {
+      "name": "cached placement avoids generating calibration answers again",
+      "passed": true
+    },
+    {
+      "name": "lower memory invalidates an oversized cached placement",
+      "passed": true
+    },
+    {
+      "name": "more memory recalibrates a substantially restricted placement",
+      "passed": true
+    },
+    {
+      "name": "bounded recovery still considers a second GPU",
+      "passed": true
+    },
+    {
+      "name": "corrupt local profile is replaced by a traced new calibration",
+      "passed": true
+    },
+    {
+      "name": "changing power mode during calibration does not persist a mixed profile",
+      "passed": true
+    },
+    {
+      "name": "technical CPU fallback expires instead of permanently excluding GPU",
+      "passed": true
+    },
+    {
+      "name": "failed GPU result is reused beyond five minutes",
+      "passed": true
+    },
+    {
+      "name": "GPU deadline follows CPU median with finite bounds",
+      "passed": true
+    },
+    {
+      "name": "GPU generation timeout does not retry a nearly identical placement",
+      "passed": true
+    },
+    {
+      "name": "device loss during generation does not retry the same adapter",
+      "passed": true
+    },
+    {
+      "name": "allocation failure during generation can recover with fewer layers",
+      "passed": true
+    },
+    {
+      "name": "two slow GPU samples cannot meet a three-sample median",
+      "passed": true
+    },
+    {
+      "name": "invalid GPU sample stops qualification and preserves its trace",
+      "passed": true
+    },
+    {
+      "name": "background calibration retains RAW but cannot persist a decision",
+      "passed": true
+    },
+    {
+      "name": "cancellation frees a candidate and saves no completed profile",
+      "passed": true
+    },
+    {
+      "name": "Vulkan generation failure invalidates profile without retrying the answer",
+      "passed": true
+    }
+  ]
+}

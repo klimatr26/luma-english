@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType></PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia.Headless" Version="12.1.5" />
+    <PackageReference Include="Avalonia.Skia" Version="12.1.5" />
+    <ProjectReference Include="../Course.UI/Course.UI.csproj" />
+    <Compile Include="../Course.Tests/Fakes.cs" Link="Fakes.cs" />
+  </ItemGroup>
+</Project>

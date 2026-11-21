@@ -1,0 +1,61 @@
+{
+  "purpose": "Owned launcher/runner process tree for precise stop/handoff; Windows venv uses a launcher and interpreter",
+  "root": {
+    "cmdline": [
+      "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\.venv\\Scripts\\python.exe",
+      "-u",
+      "run_benchmark_120.py",
+      "--authorize-execution",
+      "--approved-benchmark-sha256",
+      "07308427c02adcc056a8964d3e4da41615db4b7fc0101870e277097de46d59f9"
+    ],
+    "ppid": 2472,
+    "pid": 12160,
+    "create_time": 1791739000.7983098,
+    "name": "python.exe"
+  },
+  "runner_candidates": [
+    {
+      "cmdline": [
+        "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\.venv\\Scripts\\python.exe",
+        "-u",
+        "run_benchmark_120.py",
+        "--authorize-execution",
+        "--approved-benchmark-sha256",
+        "07308427c02adcc056a8964d3e4da41615db4b7fc0101870e277097de46d59f9"
+      ],
+      "ppid": 2472,
+      "pid": 12160,
+      "create_time": 1791739000.7983098,
+      "name": "python.exe"
+    },
+    {
+      "cmdline": [
+        "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\.venv\\Scripts\\python.exe",
+        "-u",
+        "run_benchmark_120.py",
+        "--authorize-execution",
+        "--approved-benchmark-sha256",
+        "07308427c02adcc056a8964d3e4da41615db4b7fc0101870e277097de46d59f9"
+      ],
+      "ppid": 12160,
+      "pid": 15076,
+      "create_time": 1791739000.8078845,
+      "name": "python.exe"
+    }
+  ],
+  "children_at_recording": [
+    {
+      "pid": 15076,
+      "ppid": 12160,
+      "name": "python.exe",
+      "create_time": 1791739000.8078845
+    },
+    {
+      "pid": 7508,
+      "ppid": 15076,
+      "name": "llama-server.exe",
+      "create_time": 1791739025.532254
+    }
+  ]
+}

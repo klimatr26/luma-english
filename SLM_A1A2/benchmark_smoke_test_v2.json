@@ -1,0 +1,1186 @@
+{
+  "benchmark_id": "writing_a1_a2_smoke_v2",
+  "status": "awaiting_human_approval",
+  "freeze_rule": "After approval and before any model run, this file becomes the immutable gold standard. If a case is later found invalid, mark it invalid for every model; do not revise its gold after seeing model outputs.",
+  "system_prompt": "You are an assistant that provides corrective feedback for short English writing exercises at CEFR A1 and A2.\n\nCorrect only real grammatical, spelling, punctuation, or basic lexical errors.\n\nMake the minimum change necessary.\n\nDo not rewrite correct sentences simply to improve style.\n\nPreserve the student's intended meaning.\n\nIf the text is already correct, do not change it and do not invent errors.\n\nFor every real error:\n- identify the original fragment;\n- provide the correction;\n- identify the error type;\n- give a short and correct explanation.\n\nReturn only one valid JSON object. The field \"is_correct\" must be a JSON boolean: true if the original student text contains no errors, otherwise false.\n\nUse exactly this structure:\n\n{\n  \"is_correct\": false,\n  \"corrected_text\": \"...\",\n  \"errors\": [\n    {\n      \"original\": \"...\",\n      \"correction\": \"...\",\n      \"type\": \"...\",\n      \"explanation\": \"...\"\n    }\n  ],\n  \"feedback\": \"...\"\n}\n\nIf the original text is correct, return \"is_correct\": true, keep \"corrected_text\" identical to the student text, and return an empty \"errors\" array.",
+  "user_prompt_template": "Level: {level}\nTask: {task}\nStudent text: {student_text}",
+  "cases": [
+    {
+      "id": "A1-E01",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Write about a family member and their daily routine.",
+      "student_text": "My brother live with us. He get up at seven and go to school by bus. In the evening, he watches TV with me and helps my mother in the kitchen.",
+      "gold": {
+        "errors": [
+          {
+            "original": "live",
+            "correction": "lives",
+            "type": "SUBJECT_VERB_AGREEMENT",
+            "explanation": "With he, she, or it in the present simple, add -s to the verb.",
+            "type_label": "subject-verb agreement / present simple",
+            "acceptable_corrections": [
+              "lives"
+            ]
+          },
+          {
+            "original": "get up",
+            "correction": "gets up",
+            "type": "SUBJECT_VERB_AGREEMENT",
+            "explanation": "With he, she, or it in the present simple, add -s to the verb.",
+            "type_label": "subject-verb agreement / present simple",
+            "acceptable_corrections": [
+              "gets up"
+            ]
+          },
+          {
+            "original": "go",
+            "correction": "goes",
+            "type": "SUBJECT_VERB_AGREEMENT",
+            "explanation": "With he, she, or it in the present simple, add -es to go.",
+            "type_label": "subject-verb agreement / present simple",
+            "acceptable_corrections": [
+              "goes"
+            ]
+          }
+        ],
+        "corrected_text": "My brother lives with us. He gets up at seven and goes to school by bus. In the evening, he watches TV with me and helps my mother in the kitchen.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A1-E02",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Introduce yourself and your family.",
+      "student_text": "Hello, I am Lucas and I am twelve years old. My sister are nine. We is from Chile, but our parents are from Peru.",
+      "gold": {
+        "errors": [
+          {
+            "original": "My sister are",
+            "correction": "My sister is",
+            "type": "SUBJECT_VERB_AGREEMENT",
+            "explanation": "Use is with one person, such as my sister.",
+            "type_label": "form of be / subject-verb agreement",
+            "acceptable_corrections": [
+              "My sister is"
+            ]
+          },
+          {
+            "original": "We is",
+            "correction": "We are",
+            "type": "SUBJECT_VERB_AGREEMENT",
+            "explanation": "Use are with we.",
+            "type_label": "form of be / subject-verb agreement",
+            "acceptable_corrections": [
+              "We are"
+            ]
+          }
+        ],
+        "corrected_text": "Hello, I am Lucas and I am twelve years old. My sister is nine. We are from Chile, but our parents are from Peru.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A1-E03",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Write about food you like and do not like.",
+      "student_text": "I don't likes fish, but my father like it very much. We usually eat chicken on Fridays, and my mother make a salad for dinner.",
+      "gold": {
+        "errors": [
+          {
+            "original": "don't likes",
+            "correction": "don't like",
+            "type": "VERB_FORM_AFTER_DO",
+            "explanation": "After don't, use the base form of the verb: like.",
+            "type_label": "present simple / verb form after do",
+            "acceptable_corrections": [
+              "don't like"
+            ]
+          },
+          {
+            "original": "father like",
+            "correction": "father likes",
+            "type": "SUBJECT_VERB_AGREEMENT",
+            "explanation": "With he, she, or it in the present simple, add -s to the verb.",
+            "type_label": "subject-verb agreement / present simple",
+            "acceptable_corrections": [
+              "father likes"
+            ]
+          },
+          {
+            "original": "mother make",
+            "correction": "mother makes",
+            "type": "SUBJECT_VERB_AGREEMENT",
+            "explanation": "With he, she, or it in the present simple, add -s to the verb.",
+            "type_label": "subject-verb agreement / present simple",
+            "acceptable_corrections": [
+              "mother makes"
+            ]
+          }
+        ],
+        "corrected_text": "I don't like fish, but my father likes it very much. We usually eat chicken on Fridays, and my mother makes a salad for dinner.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A1-E04",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Describe what people are doing now.",
+      "student_text": "Look at the park! Two boys is playing football and a woman are sitting under a tree. Her dog run after a ball.",
+      "gold": {
+        "errors": [
+          {
+            "original": "Two boys is playing",
+            "correction": "Two boys are playing",
+            "type": "BE_AGREEMENT",
+            "explanation": "Use are with plural subjects in the present continuous.",
+            "type_label": "present continuous / form of be",
+            "acceptable_corrections": [
+              "Two boys are playing"
+            ]
+          },
+          {
+            "original": "a woman are sitting",
+            "correction": "a woman is sitting",
+            "type": "BE_AGREEMENT",
+            "explanation": "Use is with one person in the present continuous.",
+            "type_label": "present continuous / form of be",
+            "acceptable_corrections": [
+              "a woman is sitting"
+            ]
+          },
+          {
+            "original": "Her dog run",
+            "correction": "Her dog is running",
+            "type": "PRESENT_CONTINUOUS",
+            "explanation": "For an action happening now, use is/are plus the -ing form.",
+            "type_label": "present continuous",
+            "acceptable_corrections": [
+              "Her dog is running"
+            ]
+          }
+        ],
+        "corrected_text": "Look at the park! Two boys are playing football and a woman is sitting under a tree. Her dog is running after a ball.",
+        "acceptable_alternatives": [],
+        "is_correct": false,
+        "evaluation_note": "The task explicitly asks what people are doing now. 'Her dog runs after a ball' is grammatical in isolation but does not fully satisfy the intended present-continuous context; score it as partial rather than fully correct if used as the only correction."
+      }
+    },
+    {
+      "id": "A1-E05",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Describe two pets you have at home.",
+      "student_text": "I have an dog called Max and a orange cat. In the morning, I give the animals food and water before I go to school.",
+      "gold": {
+        "errors": [
+          {
+            "original": "an dog",
+            "correction": "a dog",
+            "type": "ARTICLE",
+            "explanation": "Use a before a consonant sound, as in dog.",
+            "type_label": "article",
+            "acceptable_corrections": [
+              "a dog"
+            ]
+          },
+          {
+            "original": "a orange",
+            "correction": "an orange",
+            "type": "ARTICLE",
+            "explanation": "Use an before a vowel sound, as in orange.",
+            "type_label": "article",
+            "acceptable_corrections": [
+              "an orange"
+            ]
+          }
+        ],
+        "corrected_text": "I have a dog called Max and an orange cat. In the morning, I give the animals food and water before I go to school.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A1-E06",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Write about things in your classroom.",
+      "student_text": "There are three book on my desk and two pencil in my bag. The books is new, but one pencil have a red color.",
+      "gold": {
+        "errors": [
+          {
+            "original": "three book",
+            "correction": "three books",
+            "type": "NUMBER_AGREEMENT",
+            "explanation": "Use a plural noun after a number greater than one.",
+            "type_label": "singular/plural",
+            "acceptable_corrections": [
+              "three books"
+            ]
+          },
+          {
+            "original": "two pencil",
+            "correction": "two pencils",
+            "type": "NUMBER_AGREEMENT",
+            "explanation": "Use a plural noun after a number greater than one.",
+            "type_label": "singular/plural",
+            "acceptable_corrections": [
+              "two pencils"
+            ]
+          },
+          {
+            "original": "The books is",
+            "correction": "The books are",
+            "type": "SUBJECT_VERB_AGREEMENT",
+            "explanation": "Use are with a plural subject.",
+            "type_label": "form of be / subject-verb agreement",
+            "acceptable_corrections": [
+              "The books are"
+            ]
+          },
+          {
+            "original": "one pencil have",
+            "correction": "one pencil has",
+            "type": "SUBJECT_VERB_AGREEMENT",
+            "explanation": "With one thing (it), use has in the present simple.",
+            "type_label": "subject-verb agreement / present simple",
+            "acceptable_corrections": [
+              "one pencil has"
+            ]
+          }
+        ],
+        "corrected_text": "There are three books on my desk and two pencils in my bag. The books are new, but one pencil has a red color.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A1-E07",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Write about what you and a friend do after school.",
+      "student_text": "My friend and me goes home together after school. She helps I with my homework, and then we plays a computer game.",
+      "gold": {
+        "errors": [
+          {
+            "original": "My friend and me",
+            "correction": "My friend and I",
+            "type": "SUBJECT_PRONOUN",
+            "explanation": "Use I, not me, as part of the subject of a sentence.",
+            "type_label": "subject pronoun",
+            "acceptable_corrections": [
+              "My friend and I"
+            ]
+          },
+          {
+            "original": "goes",
+            "correction": "go",
+            "type": "SUBJECT_VERB_AGREEMENT",
+            "explanation": "Use the base verb with a subject made of two people.",
+            "type_label": "subject-verb agreement / present simple",
+            "acceptable_corrections": [
+              "go"
+            ]
+          },
+          {
+            "original": "helps I",
+            "correction": "helps me",
+            "type": "OBJECT_PRONOUN",
+            "explanation": "Use me after the verb helps because it is the object.",
+            "type_label": "object pronoun",
+            "acceptable_corrections": [
+              "helps me"
+            ]
+          },
+          {
+            "original": "we plays",
+            "correction": "we play",
+            "type": "SUBJECT_VERB_AGREEMENT",
+            "explanation": "Use the base verb with we.",
+            "type_label": "subject-verb agreement / present simple",
+            "acceptable_corrections": [
+              "we play"
+            ]
+          }
+        ],
+        "corrected_text": "My friend and I go home together after school. She helps me with my homework, and then we play a computer game.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A1-E08",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Describe something that belongs to a family member.",
+      "student_text": "This is my sisters bag. She take it to school every day because her books and lunch are inside it.",
+      "gold": {
+        "errors": [
+          {
+            "original": "sisters bag",
+            "correction": "sister's bag",
+            "type": "POSSESSIVE_APOSTROPHE",
+            "explanation": "Use apostrophe + s to show that one sister owns the bag.",
+            "type_label": "possessive apostrophe",
+            "acceptable_corrections": [
+              "sister's bag"
+            ]
+          },
+          {
+            "original": "She take",
+            "correction": "She takes",
+            "type": "SUBJECT_VERB_AGREEMENT",
+            "explanation": "With she in the present simple, add -s to the verb.",
+            "type_label": "subject-verb agreement / present simple",
+            "acceptable_corrections": [
+              "She takes"
+            ]
+          }
+        ],
+        "corrected_text": "This is my sister's bag. She takes it to school every day because her books and lunch are inside it.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A1-E09",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Write about your school timetable.",
+      "student_text": "I have English at Monday and music in 10 o'clock. My English class is in the morning, and music is after lunch.",
+      "gold": {
+        "errors": [
+          {
+            "original": "at Monday",
+            "correction": "on Monday",
+            "type": "PREPOSITION_TIME",
+            "explanation": "Use on with days of the week.",
+            "type_label": "preposition of time",
+            "acceptable_corrections": [
+              "on Monday"
+            ]
+          },
+          {
+            "original": "in 10 o'clock",
+            "correction": "at 10 o'clock",
+            "type": "PREPOSITION_TIME",
+            "explanation": "Use at with a specific clock time.",
+            "type_label": "preposition of time",
+            "acceptable_corrections": [
+              "at 10 o'clock"
+            ]
+          }
+        ],
+        "corrected_text": "I have English on Monday and music at 10 o'clock. My English class is in the morning, and music is after lunch.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A1-E10",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Describe your morning routine.",
+      "student_text": "I every day walk to school with my cousin. We at the bus stop meet our friends and talk about the lessons.",
+      "gold": {
+        "errors": [
+          {
+            "original": "I every day walk to school with my cousin",
+            "correction": "I walk to school with my cousin every day",
+            "type": "WORD_ORDER",
+            "type_label": "word order / time expression",
+            "explanation": "A time expression such as every day normally comes after the main clause or in another natural time position, not between the subject and main verb.",
+            "acceptable_corrections": [
+              "I walk to school with my cousin every day",
+              "Every day, I walk to school with my cousin"
+            ]
+          },
+          {
+            "original": "We at the bus stop meet our friends",
+            "correction": "We meet our friends at the bus stop",
+            "type": "WORD_ORDER",
+            "type_label": "word order",
+            "explanation": "In a basic statement, place the verb and its object before the place phrase.",
+            "acceptable_corrections": [
+              "We meet our friends at the bus stop"
+            ]
+          }
+        ],
+        "corrected_text": "I walk to school with my cousin every day. We meet our friends at the bus stop and talk about the lessons.",
+        "acceptable_alternatives": [
+          "Every day, I walk to school with my cousin. We meet our friends at the bus stop and talk about the lessons.",
+          "I walk every day to school with my cousin. We meet our friends at the bus stop and talk about the lessons."
+        ],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A1-E11",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Ask a new classmate about their home and age.",
+      "student_text": "Where you live now? How old your brother is? I want to know because my family lives near the school.",
+      "gold": {
+        "errors": [
+          {
+            "original": "Where you live",
+            "correction": "Where do you live",
+            "type": "QUESTION_FORMATION",
+            "explanation": "For a present simple question with you, put do before the subject.",
+            "type_label": "present simple question word order",
+            "acceptable_corrections": [
+              "Where do you live"
+            ]
+          },
+          {
+            "original": "How old your brother is",
+            "correction": "How old is your brother",
+            "type": "BE_AGREEMENT",
+            "explanation": "In a question with be, put is before the subject.",
+            "type_label": "question word order / form of be",
+            "acceptable_corrections": [
+              "How old is your brother"
+            ]
+          }
+        ],
+        "corrected_text": "Where do you live now? How old is your brother? I want to know because my family lives near the school.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A1-E12",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Write about a sport you do not enjoy.",
+      "student_text": "I no like basketball because the ball is very big. My friends play it after school, but I prefer to ride my bike in the park.",
+      "gold": {
+        "errors": [
+          {
+            "original": "I no like",
+            "correction": "I don't like",
+            "type": "NEGATION",
+            "explanation": "Use don't before the base verb to make a present simple negative with I.",
+            "type_label": "present simple negation",
+            "acceptable_corrections": [
+              "I don't like"
+            ]
+          }
+        ],
+        "corrected_text": "I don't like basketball because the ball is very big. My friends play it after school, but I prefer to ride my bike in the park.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A1-E13",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Describe the food in your kitchen.",
+      "student_text": "There aren't some apples in the kitchen, but there is some bread on the table. My father buys fruit at the market every Saturday.",
+      "gold": {
+        "errors": [
+          {
+            "original": "aren't some apples",
+            "correction": "aren't any apples",
+            "type": "SOME_ANY",
+            "explanation": "Use any in a negative sentence about an uncertain quantity.",
+            "type_label": "some/any",
+            "acceptable_corrections": [
+              "aren't any apples"
+            ]
+          }
+        ],
+        "corrected_text": "There aren't any apples in the kitchen, but there is some bread on the table. My father buys fruit at the market every Saturday.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A1-E14",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Write what you drink after playing a game.",
+      "student_text": "After football, I eat a glass of water and a sandwich. Then I sit with my friends and talk about the game before going home.",
+      "gold": {
+        "errors": [
+          {
+            "original": "eat a glass of water and a sandwich",
+            "correction": "drink a glass of water and eat a sandwich",
+            "type": "LEXICAL_CHOICE",
+            "type_label": "basic lexical choice / coordination",
+            "explanation": "We drink water and eat a sandwich, so the two objects need different verbs.",
+            "acceptable_corrections": [
+              "drink a glass of water and eat a sandwich",
+              "drink water and eat a sandwich"
+            ]
+          }
+        ],
+        "corrected_text": "After football, I drink a glass of water and eat a sandwich. Then I sit with my friends and talk about the game before going home.",
+        "acceptable_alternatives": [
+          "After football, I drink water and eat a sandwich. Then I sit with my friends and talk about the game before going home."
+        ],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A1-E15",
+      "level": "A1",
+      "condition": "incorrect",
+      "task": "Write a short message about your friend.",
+      "student_text": "My freind Ana is from Mexico. She is nice and we play tennis on Saturday",
+      "gold": {
+        "errors": [
+          {
+            "original": "freind",
+            "correction": "friend",
+            "type": "SPELLING",
+            "explanation": "The correct spelling is friend.",
+            "type_label": "spelling",
+            "acceptable_corrections": [
+              "friend"
+            ]
+          },
+          {
+            "original": "Saturday",
+            "correction": "Saturday.",
+            "type": "PUNCTUATION",
+            "explanation": "Put a full stop at the end of a statement.",
+            "type_label": "punctuation",
+            "acceptable_corrections": [
+              "Saturday."
+            ]
+          }
+        ],
+        "corrected_text": "My friend Ana is from Mexico. She is nice and we play tennis on Saturday.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A1-C01",
+      "level": "A1",
+      "condition": "correct",
+      "task": "Describe your home and what you like doing there.",
+      "student_text": "I live in a small apartment with my mother and my brother. My room is next to the kitchen. I like reading there after school because it is quiet.",
+      "gold": {
+        "errors": [],
+        "corrected_text": "I live in a small apartment with my mother and my brother. My room is next to the kitchen. I like reading there after school because it is quiet.",
+        "acceptable_alternatives": [],
+        "is_correct": true
+      }
+    },
+    {
+      "id": "A1-C02",
+      "level": "A1",
+      "condition": "correct",
+      "task": "Write about your favorite day of the week.",
+      "student_text": "My favorite day is Sunday. I get up late and have breakfast with my family. In the afternoon, we sometimes visit my grandparents or watch a film at home.",
+      "gold": {
+        "errors": [],
+        "corrected_text": "My favorite day is Sunday. I get up late and have breakfast with my family. In the afternoon, we sometimes visit my grandparents or watch a film at home.",
+        "acceptable_alternatives": [],
+        "is_correct": true
+      }
+    },
+    {
+      "id": "A1-C03",
+      "level": "A1",
+      "condition": "correct",
+      "task": "Describe what you have in your school bag.",
+      "student_text": "There are two notebooks, a pencil, and a ruler in my school bag. I also have a blue lunch box. I take it to school every morning.",
+      "gold": {
+        "errors": [],
+        "corrected_text": "There are two notebooks, a pencil, and a ruler in my school bag. I also have a blue lunch box. I take it to school every morning.",
+        "acceptable_alternatives": [],
+        "is_correct": true
+      }
+    },
+    {
+      "id": "A1-C04",
+      "level": "A1",
+      "condition": "correct",
+      "task": "Write about a friend and a shared activity.",
+      "student_text": "My friend Leo is very funny. We play football after class on Tuesdays. His sister sometimes comes with us, but she prefers to watch.",
+      "gold": {
+        "errors": [],
+        "corrected_text": "My friend Leo is very funny. We play football after class on Tuesdays. His sister sometimes comes with us, but she prefers to watch.",
+        "acceptable_alternatives": [],
+        "is_correct": true
+      }
+    },
+    {
+      "id": "A1-C05",
+      "level": "A1",
+      "condition": "correct",
+      "task": "Describe your breakfast and morning.",
+      "student_text": "I usually eat bread and an egg for breakfast. I drink tea with my father. Then I brush my teeth and walk to school with my neighbor.",
+      "gold": {
+        "errors": [],
+        "corrected_text": "I usually eat bread and an egg for breakfast. I drink tea with my father. Then I brush my teeth and walk to school with my neighbor.",
+        "acceptable_alternatives": [],
+        "is_correct": true
+      }
+    },
+    {
+      "id": "A2-E01",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Write about a visit you made last weekend.",
+      "student_text": "Last Saturday, I goed to my aunt's house with my parents. We ate lunch in her garden and talked for a long time. I come home at six and was very tired.",
+      "gold": {
+        "errors": [
+          {
+            "original": "goed",
+            "correction": "went",
+            "type": "PAST_SIMPLE",
+            "explanation": "The past simple of go is went.",
+            "type_label": "past simple / irregular verb",
+            "acceptable_corrections": [
+              "went"
+            ]
+          },
+          {
+            "original": "come home",
+            "correction": "came home",
+            "type": "PAST_SIMPLE",
+            "explanation": "Use the past form came for an action completed last Saturday.",
+            "type_label": "past simple",
+            "acceptable_corrections": [
+              "came home"
+            ]
+          }
+        ],
+        "corrected_text": "Last Saturday, I went to my aunt's house with my parents. We ate lunch in her garden and talked for a long time. I came home at six and was very tired.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A2-E02",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Compare two places where you can eat.",
+      "student_text": "The cafe near my house is more cheaper than the restaurant in town. It is also quieter, and the sandwiches are good. I go there with my sister after shopping.",
+      "gold": {
+        "errors": [
+          {
+            "original": "more cheaper",
+            "correction": "cheaper",
+            "type": "COMPARATIVE",
+            "explanation": "Use cheaper by itself; do not add more to this -er comparative.",
+            "type_label": "comparative adjective",
+            "acceptable_corrections": [
+              "cheaper"
+            ]
+          }
+        ],
+        "corrected_text": "The cafe near my house is cheaper than the restaurant in town. It is also quieter, and the sandwiches are good. I go there with my sister after shopping.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A2-E03",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Describe how much time and how many things you need for a trip.",
+      "student_text": "We don't have much suitcases, so we can take the train. We have many time before it leaves, and I want to buy a sandwich at the station.",
+      "gold": {
+        "errors": [
+          {
+            "original": "much suitcases",
+            "correction": "many suitcases",
+            "type": "MUCH_MANY",
+            "type_label": "much/many",
+            "explanation": "Use many with plural countable nouns such as suitcases.",
+            "acceptable_corrections": [
+              "many suitcases"
+            ]
+          },
+          {
+            "original": "many time",
+            "correction": "a lot of time",
+            "type": "MUCH_MANY",
+            "type_label": "much/many / quantifier choice",
+            "explanation": "Time is uncountable. In an affirmative sentence, a lot of time is the most natural basic choice; much time is also grammatically possible.",
+            "acceptable_corrections": [
+              "a lot of time",
+              "much time"
+            ]
+          }
+        ],
+        "corrected_text": "We don't have many suitcases, so we can take the train. We have a lot of time before it leaves, and I want to buy a sandwich at the station.",
+        "acceptable_alternatives": [
+          "We don't have many suitcases, so we can take the train. We have much time before it leaves, and I want to buy a sandwich at the station."
+        ],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A2-E04",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Write about a meal you had at a restaurant.",
+      "student_text": "On Friday, my family went to restaurant beside the cinema. We ordered a pizza and two salads. The waiter was friendly, and meal was very good.",
+      "gold": {
+        "errors": [
+          {
+            "original": "to restaurant",
+            "correction": "to a restaurant",
+            "type": "ARTICLE",
+            "explanation": "Use a before a singular countable noun when it is mentioned for the first time.",
+            "type_label": "article",
+            "acceptable_corrections": [
+              "to a restaurant",
+              "to the restaurant"
+            ]
+          },
+          {
+            "original": "and meal",
+            "correction": "and the meal",
+            "type": "ARTICLE",
+            "explanation": "Use the when referring to the specific meal just described.",
+            "type_label": "article",
+            "acceptable_corrections": [
+              "and the meal"
+            ]
+          }
+        ],
+        "corrected_text": "On Friday, my family went to a restaurant beside the cinema. We ordered a pizza and two salads. The waiter was friendly, and the meal was very good.",
+        "acceptable_alternatives": [
+          "On Friday, my family went to the restaurant beside the cinema. We ordered a pizza and two salads. The waiter was friendly, and the meal was very good."
+        ],
+        "is_correct": false,
+        "evaluation_note": "Both 'a restaurant beside the cinema' and 'the restaurant beside the cinema' are acceptable depending on whether the location is treated as introducing or identifying the restaurant."
+      }
+    },
+    {
+      "id": "A2-E05",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Describe what you and your friends are doing right now to prepare for a school event.",
+      "student_text": "Right now, I am helping with the school fair. My friends makes posters while I am putting tables in the hall. The teachers are preparing games for the children.",
+      "gold": {
+        "errors": [
+          {
+            "original": "My friends makes",
+            "correction": "My friends are making",
+            "type": "PRESENT_CONTINUOUS",
+            "type_label": "present continuous / subject-verb agreement",
+            "explanation": "For an action happening right now, use are plus the -ing form with the plural subject friends.",
+            "acceptable_corrections": [
+              "My friends are making"
+            ]
+          }
+        ],
+        "corrected_text": "Right now, I am helping with the school fair. My friends are making posters while I am putting tables in the hall. The teachers are preparing games for the children.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A2-E06",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Write about visiting a town with a friend.",
+      "student_text": "I visited York with my cousin last month. She showed I the old castle, and we took lots of photos. I sent they to my parents when we got home.",
+      "gold": {
+        "errors": [
+          {
+            "original": "showed I",
+            "correction": "showed me",
+            "type": "OBJECT_PRONOUN",
+            "explanation": "Use me as the object of showed.",
+            "type_label": "object pronoun",
+            "acceptable_corrections": [
+              "showed me"
+            ]
+          },
+          {
+            "original": "sent they",
+            "correction": "sent them",
+            "type": "OBJECT_PRONOUN",
+            "explanation": "Use them as the object of sent.",
+            "type_label": "object pronoun",
+            "acceptable_corrections": [
+              "sent them"
+            ]
+          }
+        ],
+        "corrected_text": "I visited York with my cousin last month. She showed me the old castle, and we took lots of photos. I sent them to my parents when we got home.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A2-E07",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Write a message about a family member's belongings.",
+      "student_text": "My parents room is next to mine. Their window looks over the garden, and they keep they're books on a shelf beside the bed. They often read there after dinner.",
+      "gold": {
+        "errors": [
+          {
+            "original": "parents room",
+            "correction": "parents' room",
+            "type": "POSSESSIVE_APOSTROPHE",
+            "explanation": "Use an apostrophe after the s to show that the plural parents own the room.",
+            "type_label": "possessive apostrophe",
+            "acceptable_corrections": [
+              "parents' room"
+            ]
+          },
+          {
+            "original": "they're books",
+            "correction": "their books",
+            "type": "POSSESSIVE_DETERMINER",
+            "explanation": "Their shows ownership; they're means they are.",
+            "type_label": "possessive determiner / contraction",
+            "acceptable_corrections": [
+              "their books"
+            ]
+          }
+        ],
+        "corrected_text": "My parents' room is next to mine. Their window looks over the garden, and they keep their books on a shelf beside the bed. They often read there after dinner.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A2-E08",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Explain how you travel to school and when you arrive.",
+      "student_text": "I usually travel to school with my neighbor. We wait in the bus stop and get on the bus at 8:10. It arrives to school ten minutes later.",
+      "gold": {
+        "errors": [
+          {
+            "original": "in the bus stop",
+            "correction": "at the bus stop",
+            "type": "PREPOSITION_PLACE",
+            "explanation": "Use at for a meeting or waiting point such as a bus stop.",
+            "type_label": "preposition of place",
+            "acceptable_corrections": [
+              "at the bus stop"
+            ]
+          },
+          {
+            "original": "arrives to school",
+            "correction": "arrives at school",
+            "type": "VERB_PREPOSITION",
+            "explanation": "Use arrive at with a specific place such as school.",
+            "type_label": "preposition after arrive",
+            "acceptable_corrections": [
+              "arrives at school"
+            ]
+          }
+        ],
+        "corrected_text": "I usually travel to school with my neighbor. We wait at the bus stop and get on the bus at 8:10. It arrives at school ten minutes later.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A2-E09",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Ask a friend about a recent holiday.",
+      "student_text": "Where you went on holiday last year? Did you stayed near the sea or in the city? I want to visit the same place one day.",
+      "gold": {
+        "errors": [
+          {
+            "original": "Where you went",
+            "correction": "Where did you go",
+            "type": "QUESTION_FORMATION",
+            "explanation": "In a past simple question, use did before the subject and the base verb go.",
+            "type_label": "past simple question word order",
+            "acceptable_corrections": [
+              "Where did you go"
+            ]
+          },
+          {
+            "original": "Did you stayed",
+            "correction": "Did you stay",
+            "type": "QUESTION_FORMATION",
+            "explanation": "After did, use the base form of the verb.",
+            "type_label": "past simple question / verb form after did",
+            "acceptable_corrections": [
+              "Did you stay"
+            ]
+          }
+        ],
+        "corrected_text": "Where did you go on holiday last year? Did you stay near the sea or in the city? I want to visit the same place one day.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A2-E10",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Describe the people and rooms in a house you visited.",
+      "student_text": "There was two small rooms upstairs, and the windows was open. My uncle and aunt were in the garden, where they were cooking lunch for everyone.",
+      "gold": {
+        "errors": [
+          {
+            "original": "There was two",
+            "correction": "There were two",
+            "type": "BE_AGREEMENT",
+            "explanation": "Use were with the plural noun phrase two rooms.",
+            "type_label": "form of be / singular-plural",
+            "acceptable_corrections": [
+              "There were two"
+            ]
+          },
+          {
+            "original": "windows was",
+            "correction": "windows were",
+            "type": "SUBJECT_VERB_AGREEMENT",
+            "explanation": "Use were with the plural subject windows.",
+            "type_label": "form of be / subject-verb agreement",
+            "acceptable_corrections": [
+              "windows were"
+            ]
+          }
+        ],
+        "corrected_text": "There were two small rooms upstairs, and the windows were open. My uncle and aunt were in the garden, where they were cooking lunch for everyone.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A2-E11",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Write about a hobby you do in your free time.",
+      "student_text": "In my free time, I listen music and read short stories. Sometimes I go to the library with my friend, and we choose books about animals.",
+      "gold": {
+        "errors": [
+          {
+            "original": "listen music",
+            "correction": "listen to music",
+            "type": "VERB_PREPOSITION",
+            "explanation": "Use to after listen before the thing you hear.",
+            "type_label": "preposition after verb",
+            "acceptable_corrections": [
+              "listen to music"
+            ]
+          }
+        ],
+        "corrected_text": "In my free time, I listen to music and read short stories. Sometimes I go to the library with my friend, and we choose books about animals.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A2-E12",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Describe a busy day last week.",
+      "student_text": "Last Wednesday I was very tired because I studyed for a test and cleaned my room. I didn't went to football practice, but I finished my homework before dinner.",
+      "gold": {
+        "errors": [
+          {
+            "original": "studyed",
+            "correction": "studied",
+            "type": "PAST_SIMPLE",
+            "explanation": "For a verb ending in consonant + y, change y to i and add -ed: studied.",
+            "type_label": "spelling / past simple",
+            "acceptable_corrections": [
+              "studied"
+            ]
+          },
+          {
+            "original": "didn't went",
+            "correction": "didn't go",
+            "type": "NEGATION",
+            "explanation": "After didn't, use the base form go.",
+            "type_label": "past simple negation",
+            "acceptable_corrections": [
+              "didn't go"
+            ]
+          }
+        ],
+        "corrected_text": "Last Wednesday I was very tired because I studied for a test and cleaned my room. I didn't go to football practice, but I finished my homework before dinner.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A2-E13",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Write about what you can and cannot find in a shop.",
+      "student_text": "The small shop has some bread, but it doesn't have some fresh oranges today. I need to buy any milk too, so I will go to the supermarket after class.",
+      "gold": {
+        "errors": [
+          {
+            "original": "doesn't have some",
+            "correction": "doesn't have any",
+            "type": "SOME_ANY",
+            "explanation": "Use any in a negative sentence about an uncertain quantity.",
+            "type_label": "some/any",
+            "acceptable_corrections": [
+              "doesn't have any"
+            ]
+          },
+          {
+            "original": "buy any milk",
+            "correction": "buy some milk",
+            "type": "SOME_ANY",
+            "explanation": "Use some in a positive statement about an unspecified quantity.",
+            "type_label": "some/any",
+            "acceptable_corrections": [
+              "buy some milk"
+            ]
+          }
+        ],
+        "corrected_text": "The small shop has some bread, but it doesn't have any fresh oranges today. I need to buy some milk too, so I will go to the supermarket after class.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A2-E14",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Compare two places in your town.",
+      "student_text": "The library is the most quiet place in my street, and the sports center is the most noisier. I like the library because I can read there after school.",
+      "gold": {
+        "errors": [
+          {
+            "original": "the most noisier",
+            "correction": "the noisiest",
+            "type": "SUPERLATIVE",
+            "explanation": "Do not use most with an adjective that already has the comparative ending -er; use the superlative noisiest here.",
+            "type_label": "superlative adjective / double comparison",
+            "acceptable_corrections": [
+              "the noisiest"
+            ]
+          }
+        ],
+        "corrected_text": "The library is the most quiet place in my street, and the sports center is the noisiest. I like the library because I can read there after school.",
+        "acceptable_alternatives": [
+          "The library is the quietest place in my street, and the sports center is the noisiest. I like the library because I can read there after school."
+        ],
+        "is_correct": false,
+        "evaluation_note": "'The most quiet' is acceptable though 'the quietest' is more common. Changing it to 'the quietest' is an acceptable but unnecessary stylistic/variant edit and must not be counted as an additional error detected."
+      }
+    },
+    {
+      "id": "A2-E15",
+      "level": "A2",
+      "condition": "incorrect",
+      "task": "Write a short note about a class trip.",
+      "student_text": "Last Friday our class visited the science museum. We saw a robot and some old machines. Then we eat lunch outside. It was a great day.",
+      "gold": {
+        "errors": [
+          {
+            "original": "eat",
+            "correction": "ate",
+            "type": "PAST_SIMPLE",
+            "explanation": "Use ate for an action completed last Friday.",
+            "type_label": "past simple",
+            "acceptable_corrections": [
+              "ate"
+            ]
+          }
+        ],
+        "corrected_text": "Last Friday our class visited the science museum. We saw a robot and some old machines. Then we ate lunch outside. It was a great day.",
+        "acceptable_alternatives": [],
+        "is_correct": false
+      }
+    },
+    {
+      "id": "A2-C01",
+      "level": "A2",
+      "condition": "correct",
+      "task": "Write about a small problem during a trip.",
+      "student_text": "Last month, my family took a train to Brighton. It was raining when we arrived, so we had lunch in a small cafe. After that, the weather got better and we walked along the beach.",
+      "gold": {
+        "errors": [],
+        "corrected_text": "Last month, my family took a train to Brighton. It was raining when we arrived, so we had lunch in a small cafe. After that, the weather got better and we walked along the beach.",
+        "acceptable_alternatives": [],
+        "is_correct": true
+      }
+    },
+    {
+      "id": "A2-C02",
+      "level": "A2",
+      "condition": "correct",
+      "task": "Describe how you use your phone to keep in touch.",
+      "student_text": "I use my phone to send messages to my cousins. They live in another town, but we talk every weekend. Last Sunday, we shared photos of our pets and planned a visit.",
+      "gold": {
+        "errors": [],
+        "corrected_text": "I use my phone to send messages to my cousins. They live in another town, but we talk every weekend. Last Sunday, we shared photos of our pets and planned a visit.",
+        "acceptable_alternatives": [],
+        "is_correct": true
+      }
+    },
+    {
+      "id": "A2-C03",
+      "level": "A2",
+      "condition": "correct",
+      "task": "Write about a healthy habit.",
+      "student_text": "My sister drinks a lot of water during the day. She walks to work when the weather is good, and she takes the stairs instead of the lift. She says these small habits help her feel better.",
+      "gold": {
+        "errors": [],
+        "corrected_text": "My sister drinks a lot of water during the day. She walks to work when the weather is good, and she takes the stairs instead of the lift. She says these small habits help her feel better.",
+        "acceptable_alternatives": [],
+        "is_correct": true
+      }
+    },
+    {
+      "id": "A2-C04",
+      "level": "A2",
+      "condition": "correct",
+      "task": "Describe a local place you like visiting.",
+      "student_text": "There is a market near the river that opens every Saturday. My friends and I sometimes buy fruit there, then sit on a bench and watch the boats. It is busier in summer than in winter.",
+      "gold": {
+        "errors": [],
+        "corrected_text": "There is a market near the river that opens every Saturday. My friends and I sometimes buy fruit there, then sit on a bench and watch the boats. It is busier in summer than in winter.",
+        "acceptable_alternatives": [],
+        "is_correct": true
+      }
+    },
+    {
+      "id": "A2-C05",
+      "level": "A2",
+      "condition": "correct",
+      "task": "Write about a school activity you enjoy.",
+      "student_text": "Our class is preparing a short play for the end of term. I am making the invitations, and two classmates are painting the scenery. We have some time to practise before our families come to watch.",
+      "gold": {
+        "errors": [],
+        "corrected_text": "Our class is preparing a short play for the end of term. I am making the invitations, and two classmates are painting the scenery. We have some time to practise before our families come to watch.",
+        "acceptable_alternatives": [],
+        "is_correct": true
+      }
+    }
+  ],
+  "version": "2.0",
+  "revision_notes": [
+    "Corrected the response schema example so it is valid JSON.",
+    "Added gold.is_correct to every case and normalized error type identifiers.",
+    "Added acceptable_corrections at error level where useful.",
+    "Clarified British/American English handling.",
+    "Corrected or disambiguated A1-E05, A1-E10, A1-E14, A2-E03, A2-E04, A2-E05, and A2-E07.",
+    "Added evaluation metadata for acceptable but unnecessary variants."
+  ],
+  "english_variant_policy": {
+    "british_english": "accepted",
+    "american_english": "accepted",
+    "variant_conversion": "A valid British↔American variant change is linguistically acceptable but unnecessary; do not count it as a detected error or as a correctness gain."
+  },
+  "scoring_policy": {
+    "strict_case_correct": "A case is fully correct only if all real errors are handled acceptably, no false error is invented, no new error is introduced, meaning is preserved, explanations are essentially correct, and a correct control text is left substantively unchanged.",
+    "partial_case": "Use partial when some but not all required corrections are handled correctly, or when the correction is linguistically valid but misses task/context requirements.",
+    "invalid_case_rule": "If a case is later judged invalid or genuinely ambiguous, mark it invalid for every model and exclude it from all aggregate comparisons; never rewrite its gold after seeing outputs."
+  }
+}

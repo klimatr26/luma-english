@@ -1,0 +1,79 @@
+{
+  "checked_utc": "2026-11-19T00:06:30.2448018+00:00",
+  "event_queries": [
+    {
+      "window": "original_failure_windows",
+      "from_utc": "2026-11-18T23:15:30.0000000+00:00",
+      "until_utc": "2026-11-18T23:20:00.0000000+00:00",
+      "log": "System",
+      "available": true,
+      "enabled": true,
+      "matching_events": [],
+      "query_status": []
+    },
+    {
+      "window": "original_failure_windows",
+      "from_utc": "2026-11-18T23:15:30.0000000+00:00",
+      "until_utc": "2026-11-18T23:20:00.0000000+00:00",
+      "log": "Application",
+      "available": true,
+      "enabled": true,
+      "matching_events": [],
+      "query_status": [
+        "NoMatchingEventsFound,Microsoft.PowerShell.Commands.GetWinEventCommand"
+      ]
+    },
+    {
+      "window": "original_failure_windows",
+      "from_utc": "2026-11-18T23:15:30.0000000+00:00",
+      "until_utc": "2026-11-18T23:20:00.0000000+00:00",
+      "log": "Microsoft-Windows-DxgKrnl/Operational",
+      "available": false,
+      "enabled": false,
+      "matching_events": [],
+      "query_status": []
+    },
+    {
+      "window": "diagnostic_windows",
+      "from_utc": "2026-11-19T00:00:15.6142330+00:00",
+      "until_utc": "2026-11-19T00:06:03.8275130+00:00",
+      "log": "System",
+      "available": true,
+      "enabled": true,
+      "matching_events": [],
+      "query_status": []
+    },
+    {
+      "window": "diagnostic_windows",
+      "from_utc": "2026-11-19T00:00:15.6142330+00:00",
+      "until_utc": "2026-11-19T00:06:03.8275130+00:00",
+      "log": "Application",
+      "available": true,
+      "enabled": true,
+      "matching_events": [],
+      "query_status": []
+    },
+    {
+      "window": "diagnostic_windows",
+      "from_utc": "2026-11-19T00:00:15.6142330+00:00",
+      "until_utc": "2026-11-19T00:06:03.8275130+00:00",
+      "log": "Microsoft-Windows-DxgKrnl/Operational",
+      "available": false,
+      "enabled": false,
+      "matching_events": [],
+      "query_status": []
+    }
+  ],
+  "tdr_registry": {
+    "TdrLevel": null,
+    "TdrDelay": null,
+    "TdrDdiDelay": null,
+    "TdrLimitCount": null,
+    "TdrLimitTime": null,
+    "HwSchMode": null
+  },
+  "nvidia_smi_after": [
+    "name, driver_version, pci.bus_id, temperature.gpu, memory.used [MiB], memory.total [MiB], utilization.gpu [%]",
+    "Quadro P1000, 582.53, 00000000:01:00.0, 51, 0 MiB, 4096 MiB, 1 %"
+  ]
+}

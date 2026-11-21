@@ -1,0 +1,53 @@
+{
+  "benchmark_sha256": "ecfe10cf6942788bfa059379e0461ab9e6291a00b5ef330bc806d94cb21dc125",
+  "unchanged_manifest_sha256": "9ec595218c105e6a2b48d515dcffd01bbfd762b94646b2958f5f972b987e9878",
+  "reason": "Windows child stdout locale was not UTF-8; UnicodeDecodeError after 31 complete answers.",
+  "archived_directory": "results_finalists_200_v1_interrupted_encoding_20261117",
+  "archived_complete_answers": 31,
+  "archived_technical_failures": 1,
+  "archive_files": [
+    {
+      "relative_path": "attempts/13-gemma4-e2b-ud-q4-k-xl--vulkan.jsonl",
+      "sha256": "81fafe182571bca79927c054660aa47954d122ee9c0028027846e7e309b436eb",
+      "bytes": 10144
+    },
+    {
+      "relative_path": "logs/13-gemma4-e2b-ud-q4-k-xl--vulkan-20261117T194527.log",
+      "sha256": "324154cc6cabc58c4a0b4e8ca56f58f455f563b22801b10ecd2ec1b1a1ad5a2c",
+      "bytes": 205429
+    },
+    {
+      "relative_path": "progress.json",
+      "sha256": "8d78edabc203a02b08134f56e5bd178400de72784ce223898ce6f3b10f837434",
+      "bytes": 155
+    },
+    {
+      "relative_path": "raw/13-gemma4-e2b-ud-q4-k-xl--vulkan.jsonl",
+      "sha256": "35aa1367b2d3eb335d37acaa7acd93842da878f420ebbe6608b67ce9a7aa1913",
+      "bytes": 61860
+    },
+    {
+      "relative_path": "readiness/13-gemma4-e2b-ud-q4-k-xl--vulkan-20261117T194527.json",
+      "sha256": "bdbf0063421000d373a3cd5eb57597d83f5720cc999aaa06868995229217483b",
+      "bytes": 3507
+    },
+    {
+      "relative_path": "runner.lock",
+      "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "bytes": 1
+    },
+    {
+      "relative_path": "telemetry/13-gemma4-e2b-ud-q4-k-xl--vulkan.jsonl",
+      "sha256": "0709edc4b4a5dd7abe57087403fd748570adec427b929effe180a1c3c8dcb607",
+      "bytes": 39676
+    }
+  ],
+  "correction": {
+    "PYTHONIOENCODING": "utf-8",
+    "launcher": "scripts/run_finalists_200_utf8.ps1",
+    "launcher_sha256": "f8b5cf6262df70750d7bf4971dd700ab0323ecc664f4182dcbbd03f2ea490ab2"
+  },
+  "selection_rule": "Exclude entire incomplete matrix; restart all 800; no quality selection.",
+  "model_generation_or_gold_changes": false,
+  "created_utc": "2026-11-17T19:51:26.663341+00:00"
+}

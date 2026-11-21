@@ -1,0 +1,2780 @@
+[
+  {
+    "id": "T200-A1-E001",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Tell a new barber how you choose a haircut.",
+    "student_text": "Marta trim my hair at the small salon near the park every month. She asks me to choose a picture from a book, then checks the length in the mirror. I like the blue chairs there.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Marta trims my hair at the small salon near the park every month. She asks me to choose a picture from a book, then checks the length in the mirror. I like the blue chairs there.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "Marta trim",
+          "correction": "Marta trims",
+          "type": "SUBJECT_VERB_AGREEMENT",
+          "subtype": "present_simple_third_person_singular",
+          "explanation": "Add -s to the verb with the singular subject Marta.",
+          "acceptable_corrections": [
+            "Marta trims"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E002",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe the lights above a ticket desk.",
+    "student_text": "The two clocks is above the ticket desk. Their faces are white, and the black hands are easy to see. People check the time before they enter the small theatre.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The two clocks are above the ticket desk. Their faces are white, and the black hands are easy to see. People check the time before they enter the small theatre.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "clocks is",
+          "correction": "clocks are",
+          "type": "BE_FORM",
+          "subtype": "be_plural_subject",
+          "explanation": "Use are with the plural subject clocks.",
+          "acceptable_corrections": [
+            "clocks are"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E003",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe the moonlit view above the rooftops.",
+    "student_text": "On Friday evening, Dad and I sat on the roof of our building. We watched moon rise above the trees, then counted the bright stars until the street became quiet.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "On Friday evening, Dad and I sat on the roof of our building. We watched the moon rise above the trees, then counted the bright stars until the street became quiet.",
+      "acceptable_alternatives": [
+        "On Friday evening, Dad and I sat on the roof of our building. We watched the moon rising above the trees, then counted the bright stars until the street became quiet."
+      ],
+      "errors": [
+        {
+          "original": "watched moon rise",
+          "correction": "watched the moon rise",
+          "type": "ARTICLE",
+          "subtype": "definite_article",
+          "explanation": "Add the before moon; rise is a bare infinitive after watched.",
+          "acceptable_corrections": [
+            "watched the moon rise",
+            "watched the moon rising"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E004",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Tell a pen pal where your friend lives.",
+    "student_text": "My friend moved to manchester last year. She likes the red buses and the old stone library. We send each other short messages, and she visits my town in summer.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "My friend moved to Manchester last year. She likes the red buses and the old stone library. We send each other short messages, and she visits my town in summer.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "manchester",
+          "correction": "Manchester",
+          "type": "CAPITALIZATION",
+          "subtype": "proper_place_name",
+          "explanation": "Capitalize the name of a city.",
+          "acceptable_corrections": [
+            "Manchester"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E005",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Explain why you need a new jacket zipper.",
+    "student_text": "The zipper on my jacket is brocken, so I cannot close it. My sister has a blue coat with two pockets. She lets me borrow it when the air is cold.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The zipper on my jacket is broken, so I cannot close it. My sister has a blue coat with two pockets. She lets me borrow it when the air is cold.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "brocken",
+          "correction": "broken",
+          "type": "SPELLING",
+          "subtype": "misspelled_word",
+          "explanation": "The correct spelling is broken.",
+          "acceptable_corrections": [
+            "broken"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E006",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe decorations above a café door.",
+    "student_text": "Two paper lantern hang above the café door. They are yellow and red, and they move a little when the wind blows. The owner puts them away before the rain starts.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Two paper lanterns hang above the café door. They are yellow and red, and they move a little when the wind blows. The owner puts them away before the rain starts.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "lantern",
+          "correction": "lanterns",
+          "type": "SINGULAR_PLURAL",
+          "subtype": "plural_after_number",
+          "explanation": "Use the plural form after the number two.",
+          "acceptable_corrections": [
+            "lanterns"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E007",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about what your cousins do at a family gathering.",
+    "student_text": "My cousins are kind and funny. Them bring a small drum to our family gathering, and we sing together after lunch. My grandmother claps when they play the fastest song.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "My cousins are kind and funny. They bring a small drum to our family gathering, and we sing together after lunch. My grandmother claps when they play the fastest song.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "Them",
+          "correction": "They",
+          "type": "SUBJECT_PRONOUN",
+          "subtype": "subject_pronoun_form",
+          "explanation": "Use a subject pronoun before the verb bring.",
+          "acceptable_corrections": [
+            "They"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E008",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe a postcard you sent to a relative.",
+    "student_text": "I sent she a postcard from the seaside. It had a picture of a yellow boat and a bright red lighthouse. She put it beside her mirror in the hall.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "I sent her a postcard from the seaside. It had a picture of a yellow boat and a bright red lighthouse. She put it beside her mirror in the hall.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "sent she",
+          "correction": "sent her",
+          "type": "OBJECT_PRONOUN",
+          "subtype": "object_pronoun_after_verb",
+          "explanation": "Use her as the object of sent.",
+          "acceptable_corrections": [
+            "sent her"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E009",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Tell someone how you keep a helmet easy to find.",
+    "student_text": "Noah helmet is bright yellow, so I can see it beside the front steps. He wears it when he rides his scooter to the small shop on our street.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Noah's helmet is bright yellow, so I can see it beside the front steps. He wears it when he rides his scooter to the small shop on our street.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "Noah helmet",
+          "correction": "Noah's helmet",
+          "type": "POSSESSIVE",
+          "subtype": "singular_possessive_apostrophe",
+          "explanation": "Add apostrophe-s to show that the helmet belongs to Noah.",
+          "acceptable_corrections": [
+            "Noah's helmet"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E010",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Explain where a paper map hangs for visitors.",
+    "student_text": "I taped a paper map in the flat surface of the wall beside the doorway. It shows the route in red pencil, and it helps visitors find the little reading room.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "I taped a paper map on the flat surface of the wall beside the doorway. It shows the route in red pencil, and it helps visitors find the little reading room.",
+      "acceptable_alternatives": [
+        "I taped a paper map onto the flat surface of the wall beside the doorway. It shows the route in red pencil, and it helps visitors find the little reading room."
+      ],
+      "errors": [
+        {
+          "original": "in the flat surface",
+          "correction": "on the flat surface",
+          "type": "PREPOSITION_PLACE",
+          "subtype": "surface_location",
+          "explanation": "Use on with a map attached to a flat wall surface.",
+          "acceptable_corrections": [
+            "on the flat surface",
+            "onto the flat surface"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E011",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about when your family puts up a calendar.",
+    "student_text": "We put a new calendar on the kitchen door at October. My brother marks his birthday with a green pen, and I circle the days when our cousins come to stay.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "We put a new calendar on the kitchen door in October. My brother marks his birthday with a green pen, and I circle the days when our cousins come to stay.",
+      "acceptable_alternatives": [
+        "We put a new calendar on the kitchen door during October. My brother marks his birthday with a green pen, and I circle the days when our cousins come to stay."
+      ],
+      "errors": [
+        {
+          "original": "at October",
+          "correction": "in October",
+          "type": "PREPOSITION_TIME",
+          "subtype": "month_preposition",
+          "explanation": "Use in with a month.",
+          "acceptable_corrections": [
+            "in October",
+            "during October"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E012",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe a worker fixing the sign outside a shop right now.",
+    "student_text": "A worker checking the loose sign outside the shoe shop now. He has a ladder and a small box of tools. The shop owner is holding the door open for him.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "A worker is checking the loose sign outside the shoe shop now. He has a ladder and a small box of tools. The shop owner is holding the door open for him.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "worker checking",
+          "correction": "worker is checking",
+          "type": "PRESENT_CONTINUOUS",
+          "subtype": "present_continuous_missing_be",
+          "explanation": "Use is plus the -ing form for an action happening now.",
+          "acceptable_corrections": [
+            "worker is checking"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E013",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a person who repairs clocks.",
+    "student_text": "The clockmaker repair small clocks in a room above the bakery every day. He uses a bright lamp and keeps tiny screws in glass jars. My mother takes her old clock there each spring.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The clockmaker repairs small clocks in a room above the bakery every day. He uses a bright lamp and keeps tiny screws in glass jars. My mother takes her old clock there each spring.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "clockmaker repair",
+          "correction": "clockmaker repairs",
+          "type": "PRESENT_SIMPLE",
+          "subtype": "third_person_singular_verb",
+          "explanation": "Add -s to the present simple verb with the singular subject clockmaker.",
+          "acceptable_corrections": [
+            "clockmaker repairs"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E014",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Compare two paths to a playground.",
+    "student_text": "The path beside the pond is longer that the path near the houses. I use the short path when I am late, but I walk beside the water when I have more time.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The path beside the pond is longer than the path near the houses. I use the short path when I am late, but I walk beside the water when I have more time.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "longer that",
+          "correction": "longer than",
+          "type": "COMPARATIVE",
+          "subtype": "comparative_than_marker",
+          "explanation": "Use than after a comparative adjective.",
+          "acceptable_corrections": [
+            "longer than"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E015",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe the coldest day you remember this year.",
+    "student_text": "Monday was the most coldest day of the month. I wore two sweaters and kept my hands in my pockets. By the afternoon, the sun came out and the street was warmer.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Monday was the coldest day of the month. I wore two sweaters and kept my hands in my pockets. By the afternoon, the sun came out and the street was warmer.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "most coldest",
+          "correction": "coldest",
+          "type": "SUPERLATIVE",
+          "subtype": "double_superlative",
+          "explanation": "Use the superlative ending without most for this short adjective.",
+          "acceptable_corrections": [
+            "coldest"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E016",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Give a visitor a simple rule for the reading room.",
+    "student_text": "Visitors must to keep their voices low in the reading room. There are two soft chairs by the window, and a woman at the desk can help you find a book.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Visitors must keep their voices low in the reading room. There are two soft chairs by the window, and a woman at the desk can help you find a book.",
+      "acceptable_alternatives": [
+        "Visitors have to keep their voices low in the reading room. There are two soft chairs by the window, and a woman at the desk can help you find a book."
+      ],
+      "errors": [
+        {
+          "original": "must to keep",
+          "correction": "must keep",
+          "type": "BASIC_MODAL",
+          "subtype": "modal_followed_by_base_verb",
+          "explanation": "Use the base form of a verb after must.",
+          "acceptable_corrections": [
+            "must keep",
+            "have to keep"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E017",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a phone call you plan to make tomorrow.",
+    "student_text": "I will to call my cousin after breakfast tomorrow. She wants to know about the new room, and I can tell her where we put the desk and the blue lamp.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "I will call my cousin after breakfast tomorrow. She wants to know about the new room, and I can tell her where we put the desk and the blue lamp.",
+      "acceptable_alternatives": [
+        "I am going to call my cousin after breakfast tomorrow. She wants to know about the new room, and I can tell her where we put the desk and the blue lamp."
+      ],
+      "errors": [
+        {
+          "original": "will to call",
+          "correction": "will call",
+          "type": "BASIC_FUTURE",
+          "subtype": "will_followed_by_base_verb",
+          "explanation": "Use the base form of the verb after will.",
+          "acceptable_corrections": [
+            "will call",
+            "am going to call"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E018",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Tell a friend what you bought at a craft table.",
+    "student_text": "At the craft table, I buyed a small paper kite with a long green tail. I carried it home carefully and hung it beside my bed. It looks lovely in the morning light.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "At the craft table, I bought a small paper kite with a long green tail. I carried it home carefully and hung it beside my bed. It looks lovely in the morning light.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "buyed",
+          "correction": "bought",
+          "type": "PAST_SIMPLE",
+          "subtype": "irregular_past_verb",
+          "explanation": "The past form of buy is bought.",
+          "acceptable_corrections": [
+            "bought"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E019",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Explain why you did not take a photograph yesterday.",
+    "student_text": "I didn't took a photo of the old fountain because my phone was in my bag. My friend drew a picture instead, and she gave it to me on the way home.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "I didn't take a photo of the old fountain because my phone was in my bag. My friend drew a picture instead, and she gave it to me on the way home.",
+      "acceptable_alternatives": [
+        "I did not take a photo of the old fountain because my phone was in my bag. My friend drew a picture instead, and she gave it to me on the way home."
+      ],
+      "errors": [
+        {
+          "original": "didn't took",
+          "correction": "didn't take",
+          "type": "NEGATION",
+          "subtype": "past_simple_after_did_not",
+          "explanation": "Use the base verb after didn't.",
+          "acceptable_corrections": [
+            "didn't take",
+            "did not take"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E020",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Ask a cousin where a key was left.",
+    "student_text": "Where your cousin put the silver key? I need it to open the cupboard with the board games. Please ask him to look beside the blue bowl near the door.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Where did your cousin put the silver key? I need it to open the cupboard with the board games. Please ask him to look beside the blue bowl near the door.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "Where your cousin put",
+          "correction": "Where did your cousin put",
+          "type": "QUESTION_FORM",
+          "subtype": "past_question_auxiliary",
+          "explanation": "Use did before the subject and the base verb in a past simple question.",
+          "acceptable_corrections": [
+            "Where did your cousin put"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E021",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write a polite question to someone in your home.",
+    "student_text": "Would you close the curtains now? The sun is shining straight onto the televison, and I cannot see the picture well. We can open them again after the programme ends.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Would you close the curtains now? The sun is shining straight onto the television, and I cannot see the picture well. We can open them again after the programme ends.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "televison",
+          "correction": "television",
+          "type": "SPELLING",
+          "subtype": "misspelled_word",
+          "explanation": "The correct spelling is television.",
+          "acceptable_corrections": [
+            "television"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E022",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Send a short message about a missing glove.",
+    "student_text": "I dont know where my other glove is. I had both of them when I left the garden, but now I can only find the striped one in my pocket.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "I don't know where my other glove is. I had both of them when I left the garden, but now I can only find the striped one in my pocket.",
+      "acceptable_alternatives": [
+        "I do not know where my other glove is. I had both of them when I left the garden, but now I can only find the striped one in my pocket."
+      ],
+      "errors": [
+        {
+          "original": "dont",
+          "correction": "don't",
+          "type": "CONTRACTION",
+          "subtype": "missing_contraction_apostrophe",
+          "explanation": "Write the contraction do not with an apostrophe: don't.",
+          "acceptable_corrections": [
+            "don't",
+            "do not"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E023",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe the furniture in a quiet corner.",
+    "student_text": "There are two furniture beside the reading lamp: a low table and a small chair. I sit there to draw after dinner, and my cat sleeps on the rug nearby.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "There are two pieces of furniture beside the reading lamp: a low table and a small chair. I sit there to draw after dinner, and my cat sleeps on the rug nearby.",
+      "acceptable_alternatives": [
+        "There are two items of furniture beside the reading lamp: a low table and a small chair. I sit there to draw after dinner, and my cat sleeps on the rug nearby."
+      ],
+      "errors": [
+        {
+          "original": "two furniture",
+          "correction": "two pieces of furniture",
+          "type": "COUNTABLE_UNCOUNTABLE",
+          "subtype": "uncountable_noun_with_number",
+          "explanation": "Furniture is uncountable; use pieces of furniture to count separate items.",
+          "acceptable_corrections": [
+            "two pieces of furniture",
+            "two items of furniture"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E024",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Ask how many people watched a puppet show.",
+    "student_text": "How much guests came to see the puppet show at the hall? My little brother stood near the front, and he laughed when the rabbit puppet lost its hat.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "How many guests came to see the puppet show at the hall? My little brother stood near the front, and he laughed when the rabbit puppet lost its hat.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "How much guests",
+          "correction": "How many guests",
+          "type": "MUCH_MANY",
+          "subtype": "many_with_countable_plural",
+          "explanation": "Use many with the countable plural noun guests.",
+          "acceptable_corrections": [
+            "How many guests"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E025",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Tell a classmate what you hope to do after class.",
+    "student_text": "I hope meeting you outside the art room after class. We can walk past the fountain and look at the new signs together before the building closes for the evening.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "I hope to meet you outside the art room after class. We can walk past the fountain and look at the new signs together before the building closes for the evening.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "hope meeting",
+          "correction": "hope to meet",
+          "type": "VERB_PATTERN",
+          "subtype": "hope_takes_to_infinitive",
+          "explanation": "Use the infinitive with to after hope.",
+          "acceptable_corrections": [
+            "hope to meet"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E026",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Explain how the bell tells you that a lesson is over.",
+    "student_text": "We listened the bell from the garden and knew that the lesson was over. My friend packed her notebook, and we walked slowly to the front gate together.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "We listened to the bell from the garden and knew that the lesson was over. My friend packed her notebook, and we walked slowly to the front gate together.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "listened the bell",
+          "correction": "listened to the bell",
+          "type": "VERB_PREPOSITION",
+          "subtype": "listen_requires_to",
+          "explanation": "Use to after listen before the thing you hear.",
+          "acceptable_corrections": [
+            "listened to the bell"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E027",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Explain why you waited outside a crowded room.",
+    "student_text": "Because the hall was full, so we waited by the entrance. A woman gave us a number on a card, and we sat on a low wall until there was space inside.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Because the hall was full, we waited by the entrance. A woman gave us a number on a card, and we sat on a low wall until there was space inside.",
+      "acceptable_alternatives": [
+        "The hall was full, so we waited by the entrance. A woman gave us a number on a card, and we sat on a low wall until there was space inside."
+      ],
+      "errors": [
+        {
+          "original": "Because the hall was full, so",
+          "correction": "Because the hall was full,",
+          "type": "BASIC_CONNECTOR",
+          "subtype": "double_cause_conjunction",
+          "explanation": "Do not use both because and so to connect the same cause and result.",
+          "acceptable_corrections": [
+            "Because the hall was full,",
+            "The hall was full, so"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E028",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about what you carry in your coat pocket.",
+    "student_text": "I wear a small notebook in my coat pocket so I can write down new words. The cover is yellow, and I use it when I visit the language room after lunch.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "I carry a small notebook in my coat pocket so I can write down new words. The cover is yellow, and I use it when I visit the language room after lunch.",
+      "acceptable_alternatives": [
+        "I keep a small notebook in my coat pocket so I can write down new words. The cover is yellow, and I use it when I visit the language room after lunch."
+      ],
+      "errors": [
+        {
+          "original": "wear a small notebook",
+          "correction": "carry a small notebook",
+          "type": "BASIC_LEXICAL_CHOICE",
+          "subtype": "incorrect_verb_for_object",
+          "explanation": "Use carry for taking a notebook in a pocket.",
+          "acceptable_corrections": [
+            "carry a small notebook",
+            "keep a small notebook"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E029",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe a shirt you wore to a play.",
+    "student_text": "The actor wore green a shirt with silver buttons. He bowed to the audience at the end, and the children near me clapped for a long time.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The actor wore a green shirt with silver buttons. He bowed to the audience at the end, and the children near me clapped for a long time.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "green a shirt",
+          "correction": "a green shirt",
+          "type": "WORD_ORDER",
+          "subtype": "determiner_before_adjective",
+          "explanation": "Put the article before the adjective and noun.",
+          "acceptable_corrections": [
+            "a green shirt"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E030",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Tell someone about a kite you saw in the park.",
+    "student_text": "We saw an blue kite above the park. A boy held the string tightly while his mother watched from a bench. The kite had a long tail with three small bows.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "We saw a blue kite above the park. A boy held the string tightly while his mother watched from a bench. The kite had a long tail with three small bows.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "an blue",
+          "correction": "a blue",
+          "type": "ARTICLE",
+          "subtype": "a_before_consonant_sound",
+          "explanation": "Use a before a word that begins with a consonant sound.",
+          "acceptable_corrections": [
+            "a blue"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E031",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe a flag on the gate of a community hall.",
+    "student_text": "There are a red flag on the gate of the community hall. It has a white circle in the middle, and the caretaker takes it down when the building closes.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "There is a red flag on the gate of the community hall. It has a white circle in the middle, and the caretaker takes it down when the building closes.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "are a red flag",
+          "correction": "is a red flag",
+          "type": "BE_FORM",
+          "subtype": "there_be_singular_noun",
+          "explanation": "Use is with the singular noun phrase a red flag.",
+          "acceptable_corrections": [
+            "is a red flag"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E032",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write a note about when you will arrive.",
+    "student_text": "The doors open at nine, and I will arrive tomorow with my aunt. We can wait under the large clock until my cousin finishes his music lesson in the next room.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The doors open at nine, and I will arrive tomorrow with my aunt. We can wait under the large clock until my cousin finishes his music lesson in the next room.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "tomorow",
+          "correction": "tomorrow",
+          "type": "SPELLING",
+          "subtype": "misspelled_word",
+          "explanation": "The correct spelling is tomorrow.",
+          "acceptable_corrections": [
+            "tomorrow"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E033",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Explain what you packed for a paper craft activity.",
+    "student_text": "I packed four empty bottle for our paper craft activity. We will cover them with coloured paper and use them to hold pencils on the table in the classroom.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "I packed four empty bottles for our paper craft activity. We will cover them with coloured paper and use them to hold pencils on the table in the classroom.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "four empty bottle",
+          "correction": "four empty bottles",
+          "type": "SINGULAR_PLURAL",
+          "subtype": "plural_after_number",
+          "explanation": "Use the plural form bottles after four.",
+          "acceptable_corrections": [
+            "four empty bottles"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E034",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Tell someone what language your sister uses for short notes.",
+    "student_text": "My sister writes short notes in french. She uses a blue pen and leaves each note beside the tea tin, so my father can see the message before breakfast.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "My sister writes short notes in French. She uses a blue pen and leaves each note beside the tea tin, so my father can see the message before breakfast.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "in french",
+          "correction": "in French",
+          "type": "CAPITALIZATION",
+          "subtype": "language_name_capitalization",
+          "explanation": "Capitalize the name of a language.",
+          "acceptable_corrections": [
+            "in French"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E035",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write two sentences comparing an old doorway with a new one.",
+    "student_text": "The new door is as wider as the old one, but its colour is much lighter. My uncle painted both doors last week and left the brushes outside to dry.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The new door is as wide as the old one, but its colour is much lighter. My uncle painted both doors last week and left the brushes outside to dry.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "as wider as",
+          "correction": "as wide as",
+          "type": "COMPARATIVE",
+          "subtype": "as_as_base_adjective",
+          "explanation": "Use the base adjective between as and as.",
+          "acceptable_corrections": [
+            "as wide as"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E036",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Ask what your neighbours make for a street display.",
+    "student_text": "Do your neighbours makes paper stars for the winter display? I want to help them after school, and I have some blue string in my bag.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Do your neighbours make paper stars for the winter display? I want to help them after school, and I have some blue string in my bag.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "neighbours makes",
+          "correction": "neighbours make",
+          "type": "QUESTION_FORM",
+          "subtype": "do_question_base_verb",
+          "explanation": "Use the base verb after do with a plural subject.",
+          "acceptable_corrections": [
+            "neighbours make"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E037",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe the paint on a toy robot.",
+    "student_text": "My toy robot is small. It's paint is silver, and the eyes are two green buttons. I keep it on a shelf near the window and show it to my friends.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "My toy robot is small. Its paint is silver, and the eyes are two green buttons. I keep it on a shelf near the window and show it to my friends.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "It's paint",
+          "correction": "Its paint",
+          "type": "POSSESSIVE",
+          "subtype": "possessive_determiner_its",
+          "explanation": "Use its without an apostrophe to show that the paint belongs to the robot.",
+          "acceptable_corrections": [
+            "Its paint"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E038",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a crowd singing at a match.",
+    "student_text": "The fans sings loudly when their team comes onto the field. They wave white flags and clap above their heads. My little sister knows all the words to their song.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The fans sing loudly when their team comes onto the field. They wave white flags and clap above their heads. My little sister knows all the words to their song.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "fans sings",
+          "correction": "fans sing",
+          "type": "SUBJECT_VERB_AGREEMENT",
+          "subtype": "plural_subject_present_simple",
+          "explanation": "Use the base present simple verb with the plural subject fans.",
+          "acceptable_corrections": [
+            "fans sing"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E039",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Tell someone where to deliver two envelopes.",
+    "student_text": "Please take the envelopes to they before the office closes. The two people are waiting near the blue door, and one of them has a large brown bag.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Please take the envelopes to them before the office closes. The two people are waiting near the blue door, and one of them has a large brown bag.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "to they",
+          "correction": "to them",
+          "type": "OBJECT_PRONOUN",
+          "subtype": "object_pronoun_after_preposition",
+          "explanation": "Use them as the object of the preposition to.",
+          "acceptable_corrections": [
+            "to them"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E040",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Say when a small concert begins.",
+    "student_text": "The concert starts at the afternoon in the school hall. My parents will meet me by the front door, and we can sit together near the back of the room.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The concert starts in the afternoon in the school hall. My parents will meet me by the front door, and we can sit together near the back of the room.",
+      "acceptable_alternatives": [
+        "The concert starts during the afternoon in the school hall. My parents will meet me by the front door, and we can sit together near the back of the room."
+      ],
+      "errors": [
+        {
+          "original": "at the afternoon",
+          "correction": "in the afternoon",
+          "type": "PREPOSITION_TIME",
+          "subtype": "part_of_day_preposition",
+          "explanation": "Use in with the afternoon.",
+          "acceptable_corrections": [
+            "in the afternoon",
+            "during the afternoon"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E041",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe how your aunt cares for her dog.",
+    "student_text": "My aunt brush her small dog every morning after each walk. The dog sits on a blue mat and waits for a treat, then follows her into the kitchen for a bowl of water.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "My aunt brushes her small dog every morning after each walk. The dog sits on a blue mat and waits for a treat, then follows her into the kitchen for a bowl of water.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "aunt brush",
+          "correction": "aunt brushes",
+          "type": "PRESENT_SIMPLE",
+          "subtype": "third_person_singular_verb",
+          "explanation": "Add -es to brush with the singular subject aunt.",
+          "acceptable_corrections": [
+            "aunt brushes"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E042",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Tell what happened to the paper boats after lunch.",
+    "student_text": "We leaved our paper boats on the pond after lunch. One boat moved under the little bridge, and my brother used a long stick to bring it back to the edge.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "We left our paper boats on the pond after lunch. One boat moved under the little bridge, and my brother used a long stick to bring it back to the edge.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "leaved",
+          "correction": "left",
+          "type": "PAST_SIMPLE",
+          "subtype": "irregular_past_verb",
+          "explanation": "The past form of leave is left.",
+          "acceptable_corrections": [
+            "left"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E043",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe a lighthouse that visitors can see at night.",
+    "student_text": "The lighthouse flash twice every night when the sea is dark. Its white beam moves across the rocks, and a small sign says the path is closed becaus the tide is high.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The lighthouse flashes twice every night when the sea is dark. Its white beam moves across the rocks, and a small sign says the path is closed because the tide is high.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "lighthouse flash",
+          "correction": "lighthouse flashes",
+          "type": "SUBJECT_VERB_AGREEMENT",
+          "subtype": "present_simple_third_person_singular",
+          "explanation": "Add -es to flash with the singular subject lighthouse.",
+          "acceptable_corrections": [
+            "lighthouse flashes"
+          ]
+        },
+        {
+          "original": "becaus",
+          "correction": "because",
+          "type": "SPELLING",
+          "subtype": "misspelled_word",
+          "explanation": "The correct spelling is because.",
+          "acceptable_corrections": [
+            "because"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E044",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about an invitation you found on your desk.",
+    "student_text": "The invitation were on my desk beside a old envelope. I put both papers in a blue folder so my father could read them after work.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The invitation was on my desk beside an old envelope. I put both papers in a blue folder so my father could read them after work.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "invitation were",
+          "correction": "invitation was",
+          "type": "BE_FORM",
+          "subtype": "be_singular_subject",
+          "explanation": "Use was with the singular subject invitation.",
+          "acceptable_corrections": [
+            "invitation was"
+          ]
+        },
+        {
+          "original": "a old envelope",
+          "correction": "an old envelope",
+          "type": "ARTICLE",
+          "subtype": "an_before_vowel_sound",
+          "explanation": "Use an before a word that begins with a vowel sound.",
+          "acceptable_corrections": [
+            "an old envelope"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E045",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe children drawing on a notice board.",
+    "student_text": "The board is new. on Saturday, children drawing chalk fish across the lower part. Our teacher takes a picture before anyone wipes the bright colours away.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The board is new. On Saturday, children are drawing chalk fish across the lower part. Our teacher takes a picture before anyone wipes the bright colours away.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "on Saturday",
+          "correction": "On Saturday",
+          "type": "CAPITALIZATION",
+          "subtype": "sentence_initial_capitalization",
+          "explanation": "Capitalize the first word of a sentence.",
+          "acceptable_corrections": [
+            "On Saturday"
+          ]
+        },
+        {
+          "original": "children drawing",
+          "correction": "children are drawing",
+          "type": "PRESENT_CONTINUOUS",
+          "subtype": "present_continuous_missing_be",
+          "explanation": "Use are plus the -ing form with the plural subject children.",
+          "acceptable_corrections": [
+            "children are drawing"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E046",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Give visitors simple advice about a shared kitchen.",
+    "student_text": "Visitors should to leave the cups beside the sink. Please put each clean cup on the shelf and close the cuppboard before you go back to your room.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Visitors should leave the cups beside the sink. Please put each clean cup on the shelf and close the cupboard before you go back to your room.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "should to leave",
+          "correction": "should leave",
+          "type": "BASIC_MODAL",
+          "subtype": "modal_followed_by_base_verb",
+          "explanation": "Use the base form of a verb after should.",
+          "acceptable_corrections": [
+            "should leave"
+          ]
+        },
+        {
+          "original": "cuppboard",
+          "correction": "cupboard",
+          "type": "SPELLING",
+          "subtype": "misspelled_word",
+          "explanation": "The correct spelling is cupboard.",
+          "acceptable_corrections": [
+            "cupboard"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E047",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Tell a friend how you got home after a walk.",
+    "student_text": "Yesterday, Jo bringed a small map for our walk. We didn't took the short path because it was muddy, so we stayed near the houses and reached home before dark.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Yesterday, Jo brought a small map for our walk. We didn't take the short path because it was muddy, so we stayed near the houses and reached home before dark.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "bringed",
+          "correction": "brought",
+          "type": "PAST_SIMPLE",
+          "subtype": "irregular_past_verb",
+          "explanation": "The past form of bring is brought.",
+          "acceptable_corrections": [
+            "brought"
+          ]
+        },
+        {
+          "original": "didn't took",
+          "correction": "didn't take",
+          "type": "NEGATION",
+          "subtype": "past_simple_after_did_not",
+          "explanation": "Use the base verb after didn't.",
+          "acceptable_corrections": [
+            "didn't take"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E048",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Ask how many tickets a lantern show sells each night.",
+    "student_text": "How many ticket the lantern show sells each night? My sisters want to visit, and they need to know if there are seats for three people.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "How many tickets does the lantern show sell each night? My sisters want to visit, and they need to know if there are seats for three people.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "many ticket",
+          "correction": "many tickets",
+          "type": "SINGULAR_PLURAL",
+          "subtype": "plural_after_many",
+          "explanation": "Use a plural noun after many.",
+          "acceptable_corrections": [
+            "many tickets"
+          ]
+        },
+        {
+          "original": "the lantern show sells",
+          "correction": "does the lantern show sell",
+          "type": "QUESTION_FORM",
+          "subtype": "present_question_auxiliary",
+          "explanation": "Use does before the subject and the base verb in a present simple question.",
+          "acceptable_corrections": [
+            "does the lantern show sell"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E049",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Compare the width of two paths to a lookout.",
+    "student_text": "The new path is more narrower than the old path. A guide held a orange flag near the steps, and we followed it to the top of the hill.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The new path is narrower than the old path. A guide held an orange flag near the steps, and we followed it to the top of the hill.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "more narrower",
+          "correction": "narrower",
+          "type": "COMPARATIVE",
+          "subtype": "double_comparative",
+          "explanation": "Do not use more with the comparative ending -er.",
+          "acceptable_corrections": [
+            "narrower"
+          ]
+        },
+        {
+          "original": "a orange flag",
+          "correction": "an orange flag",
+          "type": "ARTICLE",
+          "subtype": "an_before_vowel_sound",
+          "explanation": "Use an before a word that begins with a vowel sound.",
+          "acceptable_corrections": [
+            "an orange flag"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E050",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a friend who draws pictures for a display.",
+    "student_text": "Lena map is beside her sketchbook, and she enjoys to draw houses with tall windows. Her pictures are simple, but everyone can tell which street she has chosen.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Lena's map is beside her sketchbook, and she enjoys drawing houses with tall windows. Her pictures are simple, but everyone can tell which street she has chosen.",
+      "acceptable_alternatives": [
+        "Lena's map is beside her sketchbook, and she likes to draw houses with tall windows. Her pictures are simple, but everyone can tell which street she has chosen."
+      ],
+      "errors": [
+        {
+          "original": "Lena map",
+          "correction": "Lena's map",
+          "type": "POSSESSIVE",
+          "subtype": "singular_possessive_apostrophe",
+          "explanation": "Add apostrophe-s to show that the map belongs to Lena.",
+          "acceptable_corrections": [
+            "Lena's map"
+          ]
+        },
+        {
+          "original": "enjoys to draw",
+          "correction": "enjoys drawing",
+          "type": "VERB_PATTERN",
+          "subtype": "enjoy_takes_gerund",
+          "explanation": "Use the -ing form after enjoy.",
+          "acceptable_corrections": [
+            "enjoys drawing",
+            "likes to draw"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E051",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe where a notice was placed and who saw it.",
+    "student_text": "The notice is stuck in the outside of the cupboard door. My frend saw it before lunch and wrote down the room number in her notebook.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The notice is stuck on the outside of the cupboard door. My friend saw it before lunch and wrote down the room number in her notebook.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "in the outside",
+          "correction": "on the outside",
+          "type": "PREPOSITION_PLACE",
+          "subtype": "surface_location",
+          "explanation": "Use on for a notice attached to an outer surface.",
+          "acceptable_corrections": [
+            "on the outside"
+          ]
+        },
+        {
+          "original": "frend",
+          "correction": "friend",
+          "type": "SPELLING",
+          "subtype": "misspelled_word",
+          "explanation": "The correct spelling is friend.",
+          "acceptable_corrections": [
+            "friend"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E052",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Tell someone how long you waited for a driver.",
+    "student_text": "We waited the driver beside the sports centre for a hour. He carried two large bags, and we helped him put them in the back of the car.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "We waited for the driver beside the sports centre for an hour. He carried two large bags, and we helped him put them in the back of the car.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "waited the driver",
+          "correction": "waited for the driver",
+          "type": "VERB_PREPOSITION",
+          "subtype": "wait_requires_for",
+          "explanation": "Use for after wait before the person or thing awaited.",
+          "acceptable_corrections": [
+            "waited for the driver"
+          ]
+        },
+        {
+          "original": "a hour",
+          "correction": "an hour",
+          "type": "ARTICLE",
+          "subtype": "an_before_vowel_sound",
+          "explanation": "Use an before a word that begins with a vowel sound.",
+          "acceptable_corrections": [
+            "an hour"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E053",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a fox you watched near a field.",
+    "student_text": "A fox red stood beside the fence and looked toward the field. Him watched the animal quietly from a window until it ran behind a group of trees.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "A red fox stood beside the fence and looked toward the field. He watched the animal quietly from a window until it ran behind a group of trees.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "fox red",
+          "correction": "red fox",
+          "type": "WORD_ORDER",
+          "subtype": "adjective_before_noun",
+          "explanation": "Put the adjective before the noun in this phrase.",
+          "acceptable_corrections": [
+            "red fox"
+          ]
+        },
+        {
+          "original": "Him",
+          "correction": "He",
+          "type": "SUBJECT_PRONOUN",
+          "subtype": "subject_pronoun_form",
+          "explanation": "Use a subject pronoun before the verb watched.",
+          "acceptable_corrections": [
+            "He"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E054",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a walk through town and the people who stopped.",
+    "student_text": "We saw three mural on the walls near the square. A guide counted how much visitors stopped to look at them. She gave each person a small paper card with a map.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "We saw three murals on the walls near the square. A guide counted how many visitors stopped to look at them. She gave each person a small paper card with a map.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "three mural",
+          "correction": "three murals",
+          "type": "SINGULAR_PLURAL",
+          "subtype": "plural_after_number",
+          "explanation": "Use the plural form after the number three.",
+          "acceptable_corrections": [
+            "three murals"
+          ]
+        },
+        {
+          "original": "how much visitors",
+          "correction": "how many visitors",
+          "type": "MUCH_MANY",
+          "subtype": "many_with_countable_plural",
+          "explanation": "Use many with the countable plural noun visitors.",
+          "acceptable_corrections": [
+            "how many visitors"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E055",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe the sound that comes from your grandfather’s shop each evening.",
+    "student_text": "The bell ring at six every evening, and we can hear it from our kitchen. The bells near the shop arent very loud, but they remind my grandfather to close his shop.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The bell rings at six every evening, and we can hear it from our kitchen. The bells near the shop aren't very loud, but they remind my grandfather to close his shop.",
+      "acceptable_alternatives": [
+        "The bell rings at six every evening, and we can hear it from our kitchen. The bells near the shop are not very loud, but they remind my grandfather to close his shop."
+      ],
+      "errors": [
+        {
+          "original": "bell ring",
+          "correction": "bell rings",
+          "type": "SUBJECT_VERB_AGREEMENT",
+          "subtype": "present_simple_third_person_singular",
+          "explanation": "Add -s to the verb with the singular subject bell.",
+          "acceptable_corrections": [
+            "bell rings"
+          ]
+        },
+        {
+          "original": "arent",
+          "correction": "aren't",
+          "type": "CONTRACTION",
+          "subtype": "missing_contraction_apostrophe",
+          "explanation": "Write are not as the contraction aren't.",
+          "acceptable_corrections": [
+            "aren't",
+            "are not"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E056",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Ask someone to save seats for a puppet show.",
+    "student_text": "I have one question about the puppet show. It begins in a hour, and my sister wants to sit in the fornt row. Could you save two places for us?",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "I have one question about the puppet show. It begins in an hour, and my sister wants to sit in the front row. Could you save two places for us?",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "a hour",
+          "correction": "an hour",
+          "type": "ARTICLE",
+          "subtype": "an_before_vowel_sound",
+          "explanation": "Use an before a word that begins with a vowel sound.",
+          "acceptable_corrections": [
+            "an hour"
+          ]
+        },
+        {
+          "original": "fornt",
+          "correction": "front",
+          "type": "SPELLING",
+          "subtype": "misspelled_word",
+          "explanation": "The correct spelling is front.",
+          "acceptable_corrections": [
+            "front"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E057",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe what workers are doing to prepare for a street display.",
+    "student_text": "The workers painting the wooden boards outside the town hall. They are making bright pictures for a display at Tuesday, and the shop owners have moved their chairs inside.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The workers are painting the wooden boards outside the town hall. They are making bright pictures for a display on Tuesday, and the shop owners have moved their chairs inside.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "workers painting",
+          "correction": "workers are painting",
+          "type": "PRESENT_CONTINUOUS",
+          "subtype": "present_continuous_missing_be",
+          "explanation": "Use are plus the -ing form with the plural subject workers.",
+          "acceptable_corrections": [
+            "workers are painting"
+          ]
+        },
+        {
+          "original": "at Tuesday",
+          "correction": "on Tuesday",
+          "type": "PREPOSITION_TIME",
+          "subtype": "day_preposition",
+          "explanation": "Use on with a day of the week.",
+          "acceptable_corrections": [
+            "on Tuesday"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E058",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Tell a friend what you plan to show two visitors.",
+    "student_text": "I will show they the new notice board after lunch. We will to meet near the front steps, then walk across the square together before the small shops close.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "I will show them the new notice board after lunch. We will meet near the front steps, then walk across the square together before the small shops close.",
+      "acceptable_alternatives": [
+        "I will show them the new notice board after lunch. We are going to meet near the front steps, then walk across the square together before the small shops close."
+      ],
+      "errors": [
+        {
+          "original": "show they",
+          "correction": "show them",
+          "type": "OBJECT_PRONOUN",
+          "subtype": "object_pronoun_after_verb",
+          "explanation": "Use them as the object of show.",
+          "acceptable_corrections": [
+            "show them"
+          ]
+        },
+        {
+          "original": "will to meet",
+          "correction": "will meet",
+          "type": "BASIC_FUTURE",
+          "subtype": "will_followed_by_base_verb",
+          "explanation": "Use the base form of the verb after will.",
+          "acceptable_corrections": [
+            "will meet",
+            "are going to meet"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E059",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Explain why you moved to a quieter table.",
+    "student_text": "Because the room was noisy, so we moved to a quieter table. The guide speak softly there, and everyone can hear the story about the old town clock.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Because the room was noisy, we moved to a quieter table. The guide speaks softly there, and everyone can hear the story about the old town clock.",
+      "acceptable_alternatives": [
+        "The room was noisy, so we moved to a quieter table. The guide speaks softly there, and everyone can hear the story about the old town clock."
+      ],
+      "errors": [
+        {
+          "original": "Because the room was noisy, so",
+          "correction": "Because the room was noisy,",
+          "type": "BASIC_CONNECTOR",
+          "subtype": "double_cause_conjunction",
+          "explanation": "Do not use both because and so to connect the same cause and result.",
+          "acceptable_corrections": [
+            "Because the room was noisy,",
+            "The room was noisy, so"
+          ]
+        },
+        {
+          "original": "guide speak",
+          "correction": "guide speaks",
+          "type": "SUBJECT_VERB_AGREEMENT",
+          "subtype": "present_simple_third_person_singular",
+          "explanation": "Add -s to the present simple verb with the singular subject guide.",
+          "acceptable_corrections": [
+            "guide speaks"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E060",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a film you watched and what is happening at home now.",
+    "student_text": "A short film about birds is on TV now, and my sister is sleep on the sofa before it ends. Yesterday, I watch a film about fish with my cousin.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "A short film about birds is on TV now, and my sister is sleeping on the sofa before it ends. Yesterday, I watched a film about fish with my cousin.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "is sleep",
+          "correction": "is sleeping",
+          "type": "PRESENT_CONTINUOUS",
+          "subtype": "be_plus_ing_form",
+          "explanation": "Use the -ing form after is in the present continuous.",
+          "acceptable_corrections": [
+            "is sleeping"
+          ]
+        },
+        {
+          "original": "Yesterday, I watch",
+          "correction": "Yesterday, I watched",
+          "type": "PAST_SIMPLE",
+          "subtype": "regular_past_verb",
+          "explanation": "Use the past form watched for an action completed yesterday.",
+          "acceptable_corrections": [
+            "Yesterday, I watched"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E061",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe a few suggestions you wrote for a new club member.",
+    "student_text": "I wrote two advice for a new chess player and put the note by the board. My friend Omar notebook is there too, with a list of easy games inside.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "I wrote two pieces of advice for a new chess player and put the note by the board. My friend Omar's notebook is there too, with a list of easy games inside.",
+      "acceptable_alternatives": [
+        "I wrote two bits of advice for a new chess player and put the note by the board. My friend Omar's notebook is there too, with a list of easy games inside."
+      ],
+      "errors": [
+        {
+          "original": "two advice",
+          "correction": "two pieces of advice",
+          "type": "COUNTABLE_UNCOUNTABLE",
+          "subtype": "uncountable_noun_with_number",
+          "explanation": "Advice is uncountable; use pieces of advice to count separate suggestions.",
+          "acceptable_corrections": [
+            "two pieces of advice",
+            "two bits of advice"
+          ]
+        },
+        {
+          "original": "Omar notebook",
+          "correction": "Omar's notebook",
+          "type": "POSSESSIVE",
+          "subtype": "singular_possessive_apostrophe",
+          "explanation": "Add apostrophe-s to show that the notebook belongs to Omar.",
+          "acceptable_corrections": [
+            "Omar's notebook"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E062",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Explain what you do with a hot drink in the morning.",
+    "student_text": "I write my tea slowly before school because the cup is hot. My cuppboard is next to the door, with clean plates on the top shelf.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "I drink my tea slowly before school because the cup is hot. My cupboard is next to the door, with clean plates on the top shelf.",
+      "acceptable_alternatives": [
+        "I sip my tea slowly before school because the cup is hot. My cupboard is next to the door, with clean plates on the top shelf."
+      ],
+      "errors": [
+        {
+          "original": "write my tea",
+          "correction": "drink my tea",
+          "type": "BASIC_LEXICAL_CHOICE",
+          "subtype": "incorrect_verb_for_drink",
+          "explanation": "Use drink for taking tea from a cup.",
+          "acceptable_corrections": [
+            "drink my tea",
+            "sip my tea"
+          ]
+        },
+        {
+          "original": "cuppboard",
+          "correction": "cupboard",
+          "type": "SPELLING",
+          "subtype": "misspelled_word",
+          "explanation": "The correct spelling is cupboard.",
+          "acceptable_corrections": [
+            "cupboard"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E063",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about where you leave an umbrella after the rain.",
+    "student_text": "An umbrella hang beside the door. I leave a umbrella there when the rain stops, and the handle is easly cleaned with a cloth before I put it away.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "An umbrella hangs beside the door. I leave an umbrella there when the rain stops, and the handle is easily cleaned with a cloth before I put it away.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "umbrella hang",
+          "correction": "umbrella hangs",
+          "type": "SUBJECT_VERB_AGREEMENT",
+          "subtype": "present_simple_third_person_singular",
+          "explanation": "Add -s to the present simple verb with the singular subject umbrella.",
+          "acceptable_corrections": [
+            "umbrella hangs"
+          ]
+        },
+        {
+          "original": "a umbrella",
+          "correction": "an umbrella",
+          "type": "ARTICLE",
+          "subtype": "an_before_vowel_sound",
+          "explanation": "Use an before a word that begins with a vowel sound.",
+          "acceptable_corrections": [
+            "an umbrella"
+          ]
+        },
+        {
+          "original": "easly",
+          "correction": "easily",
+          "type": "SPELLING",
+          "subtype": "misspelled_word",
+          "explanation": "The correct spelling is easily.",
+          "acceptable_corrections": [
+            "easily"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E064",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write a note about the old railway station you saw last winter.",
+    "student_text": "Him visit the old train station with my father last winter. We saw two red train and bought a small map. I gave it to my brother when we got home.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "He visited the old train station with my father last winter. We saw two red trains and bought a small map. I gave it to my brother when we got home.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "Him",
+          "correction": "He",
+          "type": "SUBJECT_PRONOUN",
+          "subtype": "subject_pronoun_form",
+          "explanation": "Use a subject pronoun as the subject of the sentence.",
+          "acceptable_corrections": [
+            "He"
+          ]
+        },
+        {
+          "original": "visit",
+          "correction": "visited",
+          "type": "PAST_SIMPLE",
+          "subtype": "regular_past_verb",
+          "explanation": "Use the past form visited for a completed action last winter.",
+          "acceptable_corrections": [
+            "visited"
+          ]
+        },
+        {
+          "original": "two red train",
+          "correction": "two red trains",
+          "type": "SINGULAR_PLURAL",
+          "subtype": "plural_after_number",
+          "explanation": "Use the plural form after the number two.",
+          "acceptable_corrections": [
+            "two red trains"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E065",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe how people are moving flowers from a hall.",
+    "student_text": "Right now, the children is arranging flower pots in the hall. Because the doors are open, so we are carrying them outside. Yesterday, I bought a blak mat for the plants.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Right now, the children are arranging flower pots in the hall. Because the doors are open, we are carrying them outside. Yesterday, I bought a black mat for the plants.",
+      "acceptable_alternatives": [
+        "Right now, the children are arranging flower pots in the hall. The doors are open, so we are carrying them outside. Yesterday, I bought a black mat for the plants."
+      ],
+      "errors": [
+        {
+          "original": "children is",
+          "correction": "children are",
+          "type": "BE_FORM",
+          "subtype": "be_plural_subject",
+          "explanation": "Use are with the plural subject children.",
+          "acceptable_corrections": [
+            "children are"
+          ]
+        },
+        {
+          "original": "Because the doors are open, so",
+          "correction": "Because the doors are open,",
+          "type": "BASIC_CONNECTOR",
+          "subtype": "double_cause_conjunction",
+          "explanation": "Do not use both because and so to connect the same cause and result.",
+          "acceptable_corrections": [
+            "Because the doors are open,",
+            "The doors are open, so"
+          ]
+        },
+        {
+          "original": "blak",
+          "correction": "black",
+          "type": "SPELLING",
+          "subtype": "misspelled_word",
+          "explanation": "The correct spelling is black.",
+          "acceptable_corrections": [
+            "black"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E066",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Compare two ladders used to paint a fence.",
+    "student_text": "The yellow ladder is more shorter than the green one. Both ladders have four step. last week, I painted the rungs with my dad and left the brushes outside to dry.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The yellow ladder is shorter than the green one. Both ladders have four steps. Last week, I painted the rungs with my dad and left the brushes outside to dry.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "more shorter",
+          "correction": "shorter",
+          "type": "COMPARATIVE",
+          "subtype": "double_comparative",
+          "explanation": "Do not use more with the comparative ending -er.",
+          "acceptable_corrections": [
+            "shorter"
+          ]
+        },
+        {
+          "original": "four step",
+          "correction": "four steps",
+          "type": "SINGULAR_PLURAL",
+          "subtype": "plural_after_number",
+          "explanation": "Use the plural form steps after four.",
+          "acceptable_corrections": [
+            "four steps"
+          ]
+        },
+        {
+          "original": "last week",
+          "correction": "Last week",
+          "type": "CAPITALIZATION",
+          "subtype": "sentence_initial_capitalization",
+          "explanation": "Capitalize the first word of a sentence.",
+          "acceptable_corrections": [
+            "Last week"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E067",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Ask why someone left an umbrella in a play room.",
+    "student_text": "Why the guest left an umbrella here? I found a orange note under it, and I want to give it to she after the play. The room closes at five.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Why did the guest leave an umbrella here? I found an orange note under it, and I want to give it to her after the play. The room closes at five.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "Why the guest left",
+          "correction": "Why did the guest leave",
+          "type": "QUESTION_FORM",
+          "subtype": "past_question_auxiliary",
+          "explanation": "Use did before the subject and the base verb in a past simple question.",
+          "acceptable_corrections": [
+            "Why did the guest leave"
+          ]
+        },
+        {
+          "original": "a orange",
+          "correction": "an orange",
+          "type": "ARTICLE",
+          "subtype": "an_before_vowel_sound",
+          "explanation": "Use an before a word that begins with a vowel sound.",
+          "acceptable_corrections": [
+            "an orange"
+          ]
+        },
+        {
+          "original": "to she",
+          "correction": "to her",
+          "type": "OBJECT_PRONOUN",
+          "subtype": "object_pronoun_after_preposition",
+          "explanation": "Use her as the object of the preposition to.",
+          "acceptable_corrections": [
+            "to her"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E068",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a relative teaching you a sewing skill.",
+    "student_text": "My aunt doesn't likes to sew small bags for her friends. She hopes making one for me today. Would you like to try it? The cloth has little white starrs.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "My aunt doesn't like to sew small bags for her friends. She hopes to make one for me today. Would you like to try it? The cloth has little white stars.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "doesn't likes",
+          "correction": "doesn't like",
+          "type": "NEGATION",
+          "subtype": "base_verb_after_does_not",
+          "explanation": "Use the base form of the verb after doesn't.",
+          "acceptable_corrections": [
+            "doesn't like"
+          ]
+        },
+        {
+          "original": "hopes making",
+          "correction": "hopes to make",
+          "type": "VERB_PATTERN",
+          "subtype": "hope_takes_to_infinitive",
+          "explanation": "Use the infinitive with to after hope.",
+          "acceptable_corrections": [
+            "hopes to make"
+          ]
+        },
+        {
+          "original": "starrs",
+          "correction": "stars",
+          "type": "SPELLING",
+          "subtype": "misspelled_word",
+          "explanation": "The correct spelling is stars.",
+          "acceptable_corrections": [
+            "stars"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E069",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe how boxes were labelled for a move.",
+    "student_text": "The boxes was on a shelf beside the front door. The movers arrived in Tuesday to collect them. The word on the last label is spelled fragil.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The boxes were on a shelf beside the front door. The movers arrived on Tuesday to collect them. The word on the last label is spelled fragile.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "boxes was",
+          "correction": "boxes were",
+          "type": "BE_FORM",
+          "subtype": "be_plural_subject",
+          "explanation": "Use were with the plural subject boxes.",
+          "acceptable_corrections": [
+            "boxes were"
+          ]
+        },
+        {
+          "original": "in Tuesday",
+          "correction": "on Tuesday",
+          "type": "PREPOSITION_TIME",
+          "subtype": "day_preposition",
+          "explanation": "Use on with a day of the week.",
+          "acceptable_corrections": [
+            "on Tuesday"
+          ]
+        },
+        {
+          "original": "fragil",
+          "correction": "fragile",
+          "type": "SPELLING",
+          "subtype": "misspelled_word",
+          "explanation": "The correct spelling is fragile.",
+          "acceptable_corrections": [
+            "fragile"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E070",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Explain what a group is painting at an art table now.",
+    "student_text": "Sam mixing blue paint while two artists work at the art table. They are sharing three paper, and their teacher writes each artist name on the back of every picture.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Sam is mixing blue paint while two artists work at the art table. They are sharing three sheets of paper, and their teacher writes each artist's name on the back of every picture.",
+      "acceptable_alternatives": [
+        "Sam is mixing blue paint while two artists work at the art table. They are sharing three pieces of paper, and their teacher writes each artist's name on the back of every picture."
+      ],
+      "errors": [
+        {
+          "original": "Sam mixing",
+          "correction": "Sam is mixing",
+          "type": "PRESENT_CONTINUOUS",
+          "subtype": "present_continuous_missing_be",
+          "explanation": "Use is plus the -ing form for an action happening now.",
+          "acceptable_corrections": [
+            "Sam is mixing"
+          ]
+        },
+        {
+          "original": "three paper",
+          "correction": "three sheets of paper",
+          "type": "COUNTABLE_UNCOUNTABLE",
+          "subtype": "uncountable_noun_with_number",
+          "explanation": "Paper is uncountable here; use sheets of paper to count separate pieces.",
+          "acceptable_corrections": [
+            "three sheets of paper",
+            "three pieces of paper"
+          ]
+        },
+        {
+          "original": "each artist name",
+          "correction": "each artist's name",
+          "type": "POSSESSIVE",
+          "subtype": "singular_possessive_apostrophe",
+          "explanation": "Add apostrophe-s to show that the name belongs to each artist.",
+          "acceptable_corrections": [
+            "each artist's name"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E071",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Plan what the chess players need in their club room.",
+    "student_text": "Tomorrow, we will to set up chairs for the chess club meeting. How much cups should we bring for the players? I dont think the younger children need any.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Tomorrow, we will set up chairs for the chess club meeting. How many cups should we bring for the players? I don't think the younger children need any.",
+      "acceptable_alternatives": [
+        "Tomorrow, we will set up chairs for the chess club meeting. How many cups should we bring for the players? I do not think the younger children need any."
+      ],
+      "errors": [
+        {
+          "original": "will to set up",
+          "correction": "will set up",
+          "type": "BASIC_FUTURE",
+          "subtype": "will_followed_by_base_verb",
+          "explanation": "Use the base form of the verb after will.",
+          "acceptable_corrections": [
+            "will set up"
+          ]
+        },
+        {
+          "original": "much cups",
+          "correction": "many cups",
+          "type": "MUCH_MANY",
+          "subtype": "many_with_countable_plural",
+          "explanation": "Use many with the countable plural noun cups.",
+          "acceptable_corrections": [
+            "many cups"
+          ]
+        },
+        {
+          "original": "dont",
+          "correction": "don't",
+          "type": "CONTRACTION",
+          "subtype": "missing_contraction_apostrophe",
+          "explanation": "Write the contraction do not with an apostrophe: don't.",
+          "acceptable_corrections": [
+            "don't",
+            "do not"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E072",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe a narrow path that closes after dark.",
+    "student_text": "The most narrowest path to the old tower is closed in midnight. Visitors can to use the wider road after the gate opens, and a lamp stays on by the entrance.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "The narrowest path to the old tower is closed at midnight. Visitors can use the wider road after the gate opens, and a lamp stays on by the entrance.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "most narrowest",
+          "correction": "narrowest",
+          "type": "SUPERLATIVE",
+          "subtype": "double_superlative",
+          "explanation": "Do not use most with the superlative ending -est.",
+          "acceptable_corrections": [
+            "narrowest"
+          ]
+        },
+        {
+          "original": "in midnight",
+          "correction": "at midnight",
+          "type": "PREPOSITION_TIME",
+          "subtype": "midnight_preposition",
+          "explanation": "Use at with midnight.",
+          "acceptable_corrections": [
+            "at midnight"
+          ]
+        },
+        {
+          "original": "can to use",
+          "correction": "can use",
+          "type": "BASIC_MODAL",
+          "subtype": "modal_followed_by_base_verb",
+          "explanation": "Use the base form of a verb after can.",
+          "acceptable_corrections": [
+            "can use"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E073",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe a sign your neighbour made for a window.",
+    "student_text": "My neighbour make a sign for her window. She paints a old wooden board and puts it outside. on Fridays, the message says “Fresh flowers,” and the colur is bright.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "My neighbour makes a sign for her window. She paints an old wooden board and puts it outside. On Fridays, the message says “Fresh flowers,” and the colour is bright.",
+      "acceptable_alternatives": [
+        "My neighbour makes a sign for her window. She paints an old wooden board and puts it outside. On Fridays, the message says “Fresh flowers,” and the color is bright."
+      ],
+      "errors": [
+        {
+          "original": "neighbour make",
+          "correction": "neighbour makes",
+          "type": "PRESENT_SIMPLE",
+          "subtype": "third_person_singular_verb",
+          "explanation": "Add -s to the present simple verb with the singular subject neighbour.",
+          "acceptable_corrections": [
+            "neighbour makes"
+          ]
+        },
+        {
+          "original": "a old wooden board",
+          "correction": "an old wooden board",
+          "type": "ARTICLE",
+          "subtype": "an_before_vowel_sound",
+          "explanation": "Use an before a word that begins with a vowel sound.",
+          "acceptable_corrections": [
+            "an old wooden board"
+          ]
+        },
+        {
+          "original": "on Fridays",
+          "correction": "On Fridays",
+          "type": "CAPITALIZATION",
+          "subtype": "sentence_initial_capitalization",
+          "explanation": "Capitalize the first word of a sentence.",
+          "acceptable_corrections": [
+            "On Fridays"
+          ]
+        },
+        {
+          "original": "colur",
+          "correction": "colour",
+          "type": "SPELLING",
+          "subtype": "misspelled_word",
+          "explanation": "The correct spelling is colour.",
+          "acceptable_corrections": [
+            "colour",
+            "color"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E074",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe the suitcase left beside the station wall.",
+    "student_text": "At the station, a suitcase brown sits beside the wall. The two workers looks for its owner. Yesterday, they carry it to the help desk, but they didn't found a name inside.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "At the station, a brown suitcase sits beside the wall. The two workers look for its owner. Yesterday, they carried it to the help desk, but they didn't find a name inside.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "suitcase brown",
+          "correction": "brown suitcase",
+          "type": "WORD_ORDER",
+          "subtype": "adjective_before_noun",
+          "explanation": "Put the adjective before the noun in this phrase.",
+          "acceptable_corrections": [
+            "brown suitcase"
+          ]
+        },
+        {
+          "original": "workers looks",
+          "correction": "workers look",
+          "type": "SUBJECT_VERB_AGREEMENT",
+          "subtype": "plural_subject_present_simple",
+          "explanation": "Use the base present simple verb with the plural subject workers.",
+          "acceptable_corrections": [
+            "workers look"
+          ]
+        },
+        {
+          "original": "Yesterday, they carry",
+          "correction": "Yesterday, they carried",
+          "type": "PAST_SIMPLE",
+          "subtype": "regular_past_verb",
+          "explanation": "Use the past form carried for an action completed yesterday.",
+          "acceptable_corrections": [
+            "Yesterday, they carried"
+          ]
+        },
+        {
+          "original": "didn't found",
+          "correction": "didn't find",
+          "type": "NEGATION",
+          "subtype": "past_simple_after_did_not",
+          "explanation": "Use the base verb after didn't.",
+          "acceptable_corrections": [
+            "didn't find"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-E075",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Ask why the caretaker closed a gate and request help.",
+    "student_text": "Why the caretaker closed the side gate erly? She gave they a small key, and I do not know how much visitors are waiting outside. Could you open the door for us.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": false,
+      "corrected_text": "Why did the caretaker close the side gate early? She gave them a small key, and I do not know how many visitors are waiting outside. Could you open the door for us.",
+      "acceptable_alternatives": [],
+      "errors": [
+        {
+          "original": "Why the caretaker closed",
+          "correction": "Why did the caretaker close",
+          "type": "QUESTION_FORM",
+          "subtype": "past_question_auxiliary",
+          "explanation": "Use did before the subject and the base verb in a past simple question.",
+          "acceptable_corrections": [
+            "Why did the caretaker close"
+          ]
+        },
+        {
+          "original": "erly",
+          "correction": "early",
+          "type": "SPELLING",
+          "subtype": "misspelled_word",
+          "explanation": "The correct spelling is early.",
+          "acceptable_corrections": [
+            "early"
+          ]
+        },
+        {
+          "original": "gave they",
+          "correction": "gave them",
+          "type": "OBJECT_PRONOUN",
+          "subtype": "object_pronoun_after_verb",
+          "explanation": "Use them as the object of gave.",
+          "acceptable_corrections": [
+            "gave them"
+          ]
+        },
+        {
+          "original": "how much visitors",
+          "correction": "how many visitors",
+          "type": "MUCH_MANY",
+          "subtype": "many_with_countable_plural",
+          "explanation": "Use many with the countable plural noun visitors.",
+          "acceptable_corrections": [
+            "how many visitors"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "T200-A1-C001",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe how you make a paper airplane.",
+    "student_text": "I fold a clean sheet of paper in half and press the line with my thumb. Then I fold the corners toward the middle. My little airplane flies across the room when I throw it gently.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "I fold a clean sheet of paper in half and press the line with my thumb. Then I fold the corners toward the middle. My little airplane flies across the room when I throw it gently.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C002",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Explain what you do at a ticket machine.",
+    "student_text": "I choose the small button for one ticket and put my coins in the slot. The machine gives me a paper ticket and some change. I keep the ticket in my pocket until I arrive.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "I choose the small button for one ticket and put my coins in the slot. The machine gives me a paper ticket and some change. I keep the ticket in my pocket until I arrive.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C003",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Write about a costume you wore for a play.",
+    "student_text": "For the play, I wore a long purple cape and a silver hat. My friend wore a red jacket and carried a paper crown. We stood together at the end and waved to our families.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "For the play, I wore a long purple cape and a silver hat. My friend wore a red jacket and carried a paper crown. We stood together at the end and waved to our families.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C004",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Tell someone what happens before you get a haircut.",
+    "student_text": "I sit in a chair near the window while the barber puts a cloth around my shoulders. She asks how short I want my hair. I point to a picture and wait for her to begin.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "I sit in a chair near the window while the barber puts a cloth around my shoulders. She asks how short I want my hair. I point to a picture and wait for her to begin.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C005",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe how you choose a new notebook.",
+    "student_text": "I like notebooks with plain covers because I can draw on them. My new one has a green cover and forty pages. I write my name inside and keep it beside my dictionary.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "I like notebooks with plain covers because I can draw on them. My new one has a green cover and forty pages. I write my name inside and keep it beside my dictionary.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C006",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Write about a fountain in your town square.",
+    "student_text": "A stone fountain stands in the middle of our town square. Water comes from three small pipes and falls into a round pool. We sit on a bench nearby when we meet our cousins.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "A stone fountain stands in the middle of our town square. Water comes from three small pipes and falls into a round pool. We sit on a bench nearby when we meet our cousins.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C007",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe what you unpacked after moving house.",
+    "student_text": "My family moved to a new flat last month. I unpacked my books first and put them on the shelf by the bed. My brother found the kettle, so we had tea before dinner.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "My family moved to a new flat last month. I unpacked my books first and put them on the shelf by the bed. My brother found the kettle, so we had tea before dinner.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C008",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Help a guest identify the green entrance of the house next door.",
+    "student_text": "Our neighbour's front door is bright green, and there is a small brass number above it. A blue mat lies on the step. The door is next to a white fence with two flower pots.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "Our neighbour's front door is bright green, and there is a small brass number above it. A blue mat lies on the step. The door is next to a white fence with two flower pots.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C009",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Write about a toy boat you made.",
+    "student_text": "I made a little boat from a piece of wood and painted it yellow. It floats in the bath, but I do not leave it in the water all night. I dry it with a towel.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "I made a little boat from a piece of wood and painted it yellow. It floats in the bath, but I do not leave it in the water all night. I dry it with a towel.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C010",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe the street signs near a crossing.",
+    "student_text": "There is a red sign near the crossing and a white line on the road. Cars stop when people are waiting. I look both ways before I cross with my younger cousin.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "There is a red sign near the crossing and a white line on the road. Cars stop when people are waiting. I look both ways before I cross with my younger cousin.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C011",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Explain how you know when the kitchen timer is finished.",
+    "student_text": "The kitchen timer makes a loud sound when the minutes are over. My father turns it off and takes the bread out of the oven. We wait for the bread to cool before we eat it.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "The kitchen timer makes a loud sound when the minutes are over. My father turns it off and takes the bread out of the oven. We wait for the bread to cool before we eat it.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C012",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Write about collecting a parcel from a shop.",
+    "student_text": "A small shop near my home keeps parcels behind the counter. I show the worker my message, and he finds a box with my name on it. I carry it home carefully with both hands.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "A small shop near my home keeps parcels behind the counter. I show the worker my message, and he finds a box with my name on it. I carry it home carefully with both hands.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C013",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe decorations for a neighbourhood festival.",
+    "student_text": "People put paper flags across the street for the summer festival. My aunt makes blue and orange ones with her neighbours. We hang them above the tables before the music starts in the evening.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "People put paper flags across the street for the summer festival. My aunt makes blue and orange ones with her neighbours. We hang them above the tables before the music starts in the evening.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C014",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Write a note about a paper bag with a small tear.",
+    "student_text": "The paper bag had a small tear near the handle. I put a piece of clear tape over the hole and filled the bag with clean socks. It held everything while I walked upstairs.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "The paper bag had a small tear near the handle. I put a piece of clear tape over the hole and filled the bag with clean socks. It held everything while I walked upstairs.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C015",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe a picture you drew of your family.",
+    "student_text": "I drew my family in front of our blue house. My mother has a red hat, and my brother is holding a ball. I coloured the sky orange because the sun was setting.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "I drew my family in front of our blue house. My mother has a red hat, and my brother is holding a ball. I coloured the sky orange because the sun was setting.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C016",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Write about opening a window on a warm morning.",
+    "student_text": "The window in my room faces the garden wall. I open it in the morning when the air is warm, and I hear people talking on the street. I close it before I leave.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "The window in my room faces the garden wall. I open it in the morning when the air is warm, and I hear people talking on the street. I close it before I leave.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C017",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe a hat that belongs to a character in a story.",
+    "student_text": "The sailor in my story wears a brown hat with a wide edge. He keeps a small feather in the band. My cousin likes the hat, so she drew it on the cover of her notebook.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "The sailor in my story wears a brown hat with a wide edge. He keeps a small feather in the band. My cousin likes the hat, so she drew it on the cover of her notebook.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C018",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Tell a friend what you did during a snowy afternoon.",
+    "student_text": "Snow covered the steps outside our building, so my brother and I made a small snowman. We used two stones for its eyes and a short carrot for its nose. It stood beside the gate.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "Snow covered the steps outside our building, so my brother and I made a small snowman. We used two stones for its eyes and a short carrot for its nose. It stood beside the gate.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C019",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Tell a friend about the cactus on your desk shelf.",
+    "student_text": "I have a small cactus on the shelf beside my desk. I give it a little water every week and turn the pot toward the window. My sister says its flower is a lovely colour.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "I have a small cactus on the shelf beside my desk. I give it a little water every week and turn the pot toward the window. My sister says its flower is a lovely colour.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C020",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Explain when you use a map of your neighbourhood.",
+    "student_text": "I keep a map of my neighbourhood in the drawer by the telephone. When my aunt visits, I show her the bakery and the post box. She can find them easily on the page.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "I keep a map of my neighbourhood in the drawer by the telephone. When my aunt visits, I show her the bakery and the post box. She can find them easily on the page.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C021",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Write about how you cross a busy street safely.",
+    "student_text": "I wait beside the crossing until the green person appears. Then I look left and right and walk across with my father. We stay on the pavement until we reach the other side.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "I wait beside the crossing until the green person appears. Then I look left and right and walk across with my father. We stay on the pavement until we reach the other side.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C022",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Explain how to move the wooden boats around the game board.",
+    "student_text": "My cousin and I play a board game with small wooden boats. We move them around the blue squares and collect cards. The first player to reach the island wins, but we often play again.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "My cousin and I play a board game with small wooden boats. We move them around the blue squares and collect cards. The first player to reach the island wins, but we often play again.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C023",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Tell someone what happens at a morning assembly.",
+    "student_text": "Our school has a short assembly on Monday morning. The head teacher reads a message, and two students share news. We listen quietly and return to our classrooms when the bell rings.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "Our school has a short assembly on Monday morning. The head teacher reads a message, and two students share news. We listen quietly and return to our classrooms when the bell rings.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C024",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe the maple tree across the street.",
+    "student_text": "A tall maple tree grows across the street from our home. Its leaves turn orange in autumn, and small birds sit on its branches. I can see the tree from my bedroom window.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "A tall maple tree grows across the street from our home. Its leaves turn orange in autumn, and small birds sit on its branches. I can see the tree from my bedroom window.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  },
+  {
+    "id": "T200-A1-C025",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe a visit to a bakery before it closes.",
+    "student_text": "The bakery closes at six, so I went there at five with my uncle. We bought two rolls and a small cake. The baker put them in a paper bag and wished us a good evening.",
+    "english_variant": "British and American standard variants accepted",
+    "gold": {
+      "is_correct": true,
+      "corrected_text": "The bakery closes at six, so I went there at five with my uncle. We bought two rolls and a small cake. The baker put them in a paper bag and wished us a good evening.",
+      "acceptable_alternatives": [],
+      "errors": []
+    }
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "scope": "phase1_40_lfm3_17b",
+  "benchmark": "benchmark_smoke_test_v2.json",
+  "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+  "case_count": 40,
+  "authorization": {
+    "date_local": "2026-11-17",
+    "source": "Direct request from the investigator in the project chat",
+    "planned_rows": 80,
+    "phone_tests": "deferred",
+    "development_120_authorized": false
+  },
+  "runtime": {
+    "build": "b12359",
+    "commit": "b1b770d90d94cad9e9ea5b993bdbc383a522fb28",
+    "cuda_toolkit": "12.4",
+    "server": "tools/llama.cpp/b12359-cuda-12.4/llama-server.exe",
+    "server_sha256": "38c5affb81c9a8f88f5538c7d11bc445e13bc46a2c6eda05694b8b31a8d45995",
+    "binary_archive_sha256": "e9c0abf442e8339c06728366c1ad2c711332f9939c0c00603fb75d85fd44c914",
+    "cuda_archive_sha256": "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6",
+    "server_impl_sha256": "c81c23738405831cacda737e64ce8f08870d4f44beb63e3aa9515b3ad2e4286e",
+    "cuda_plugin_sha256": "2b33ff95778de0cd4d1d8e0c3a07df13d3893abccd57bf57a7eace92de2aba71",
+    "parallel_sequences": 1,
+    "arguments": ["--host", "127.0.0.1", "-c", "4096", "--parallel", "1", "-lv", "4",
+                  "--device", "CUDA0", "-ngl", "999", "-s", "42", "--reasoning", "off",
+                  "--reasoning-budget", "0"]
+  },
+  "source": {
+    "repo": "LiquidAI/LFM3-1.7B-GGUF",
+    "revision": "cd0c74c575b5c416f3011b5b4c298077f26ca8c2",
+    "license": "lfm1.0",
+    "architecture": "lfm3",
+    "native_chat_template_sha256": "f45005c50cd2a97329722bf3a2dee9f16c04cdf825a589b280fb7e99e6827818",
+    "template_assistant_suffix_with_thinking_off": "<think></think>"
+  },
+  "generation": {
+    "max_tokens": 512,
+    "seed": 42,
+    "reasoning_budget_tokens": 0,
+    "temperature": 0.1,
+    "top_p": 0.95,
+    "top_k": 50,
+    "min_p": 0.05,
+    "repeat_penalty": 1.1,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0
+  },
+  "configurations": [
+    {
+      "config_id": "17-lfm3-17b-q8-0",
+      "id": "lfm3_17b_q8_0",
+      "family": "lfm3",
+      "quant": "Q8_0",
+      "port": 8117,
+      "model_path": "models/lfm3_17b/LFM3-1.7B-Q8_0.gguf",
+      "model_sha256": "8f6b24182258205e9e01e21f1f24a1f208c1e8115578825d202ce39976af20b6",
+      "gguf": {"status": "verified", "bytes": 1846238496}
+    },
+    {
+      "config_id": "18-lfm3-17b-q4-k-m",
+      "id": "lfm3_17b_q4_k_m",
+      "family": "lfm3",
+      "quant": "Q4_K_M",
+      "port": 8118,
+      "model_path": "models/lfm3_17b/LFM3-1.7B-Q4_K_M.gguf",
+      "model_sha256": "3793e1e6e2266919d6e015287221b41100175a98eddaba92e111aed3b05c93c4",
+      "gguf": {"status": "verified", "bytes": 1099627808}
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "four_nonthinking_readiness_repetitions",
+  "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "human_authorized": true,
+  "user_instruction": "Autorizo esas cuatro repeticiones técnicas de readiness con thinking desactivado",
+  "instruction_date": "2026-10-11",
+  "main_benchmark_authorized": false,
+  "configurations": [
+    {
+      "id": "qwen35_2b_f16",
+      "model_sha256": "234d79103853d0cc3cb5b2e2d031d2132319f6dfc96067325955d4a2a433e8e0",
+      "prior_request_count": 1,
+      "additional_requests": 1,
+      "prior_request_path": "logs/readiness_after_logging_fix/qwen35_2b_f16.request.json",
+      "prior_request_sha256": "b660fabc400a03378f614d9d937103421f4d4aa8d91fca303047dc4c16f0e810"
+    },
+    {
+      "id": "qwen35_2b_q8_0",
+      "model_sha256": "8e427498466b5c62a4b2e92f766870b0fb4139aad11a4e95c11f640ac73a6a3c",
+      "prior_request_count": 1,
+      "additional_requests": 1,
+      "prior_request_path": "logs/readiness_after_logging_fix/qwen35_2b_q8_0.request.json",
+      "prior_request_sha256": "b660fabc400a03378f614d9d937103421f4d4aa8d91fca303047dc4c16f0e810"
+    },
+    {
+      "id": "qwen35_2b_q4_k_m",
+      "model_sha256": "d35f2ca8bac2a3d9a553ff60da887983d1e4f5ed0d998e223bb3b01fa2020f0e",
+      "prior_request_count": 1,
+      "additional_requests": 1,
+      "prior_request_path": "logs/readiness_after_logging_fix/qwen35_2b_q4_k_m.request.json",
+      "prior_request_sha256": "b660fabc400a03378f614d9d937103421f4d4aa8d91fca303047dc4c16f0e810"
+    },
+    {
+      "id": "minicpm5_2b_f16",
+      "model_sha256": "0ffba3682a853295566b98bc38c0ab755d6b2d91b994bc031ed727a08cfcdf25",
+      "prior_request_count": 1,
+      "additional_requests": 1,
+      "prior_request_path": "logs/readiness_after_logging_fix/minicpm5_2b_f16.request.json",
+      "prior_request_sha256": "67c0314628c966fc457c4f445bae729c599e081344bad0e1ba94c37cc6afb1fb"
+    }
+  ],
+  "notes": "Exactly one additional synthetic request per listed configuration. Other twelve configurations retain their first-generation budget. Claims are permanent and fail closed after uncertain outcomes."
+}

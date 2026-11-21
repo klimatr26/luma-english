@@ -1,0 +1,17 @@
+{
+  "start": {
+    "utc": "2026-11-19T00:54:38.695691+00:00",
+    "ac_power": false,
+    "percent": 96,
+    "saver": false,
+    "estimated_seconds": null
+  },
+  "end": {
+    "utc": "2026-11-19T01:35:48.365451+00:00",
+    "ac_power": false,
+    "percent": 37,
+    "saver": false,
+    "estimated_seconds": null
+  },
+  "stopped_on_power_boundary": false
+}

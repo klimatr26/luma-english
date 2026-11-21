@@ -1,0 +1,121 @@
+{"utc":"2026-11-20T23:05:12.4549651\u002B00:00","ticks":28597220794819,"frequency":1000000000,"mode":"ui","message":"Starting ui"}
+{"utc":"2026-11-20T23:05:12.7842087\u002B00:00","ticks":28597550036486,"frequency":1000000000,"mode":"ui","message":"Main activity resumed"}
+{"utc":"2026-11-20T23:05:14.0955896\u002B00:00","ticks":28598861411694,"frequency":1000000000,"mode":"ui","message":"sandbox-database: True"}
+{"utc":"2026-11-20T23:05:14.1045563\u002B00:00","ticks":28598870377631,"frequency":1000000000,"mode":"ui","message":"three-units: True"}
+{"utc":"2026-11-20T23:05:14.1090718\u002B00:00","ticks":28598874895079,"frequency":1000000000,"mode":"ui","message":"lesson-u01: True"}
+{"utc":"2026-11-20T23:05:14.3839060\u002B00:00","ticks":28599149731798,"frequency":1000000000,"mode":"ui","message":"u01-opcion-01: True"}
+{"utc":"2026-11-20T23:05:14.5593527\u002B00:00","ticks":28599325177475,"frequency":1000000000,"mode":"ui","message":"u01-opcion-02: True"}
+{"utc":"2026-11-20T23:05:14.7363989\u002B00:00","ticks":28599502222944,"frequency":1000000000,"mode":"ui","message":"u01-opcion-03: True"}
+{"utc":"2026-11-20T23:05:14.9074294\u002B00:00","ticks":28599673254662,"frequency":1000000000,"mode":"ui","message":"u01-opcion-04: True"}
+{"utc":"2026-11-20T23:05:15.0777254\u002B00:00","ticks":28599843555704,"frequency":1000000000,"mode":"ui","message":"u01-opcion-05: True"}
+{"utc":"2026-11-20T23:05:15.2759221\u002B00:00","ticks":28600041744298,"frequency":1000000000,"mode":"ui","message":"u01-palabra-01: True"}
+{"utc":"2026-11-20T23:05:15.4357497\u002B00:00","ticks":28600201580600,"frequency":1000000000,"mode":"ui","message":"u01-palabra-02: True"}
+{"utc":"2026-11-20T23:05:15.6104008\u002B00:00","ticks":28600376261797,"frequency":1000000000,"mode":"ui","message":"u01-palabra-03: True"}
+{"utc":"2026-11-20T23:05:15.7891724\u002B00:00","ticks":28600555000860,"frequency":1000000000,"mode":"ui","message":"u01-palabra-04: True"}
+{"utc":"2026-11-20T23:05:15.9646081\u002B00:00","ticks":28600730427631,"frequency":1000000000,"mode":"ui","message":"u01-palabra-05: True"}
+{"utc":"2026-11-20T23:05:15.9735530\u002B00:00","ticks":28600739378672,"frequency":1000000000,"mode":"ui","message":"lesson-u02: True"}
+{"utc":"2026-11-20T23:05:16.2161579\u002B00:00","ticks":28600981979922,"frequency":1000000000,"mode":"ui","message":"u02-opcion-01: True"}
+{"utc":"2026-11-20T23:05:16.3922108\u002B00:00","ticks":28601158034297,"frequency":1000000000,"mode":"ui","message":"u02-opcion-02: True"}
+{"utc":"2026-11-20T23:05:16.5711266\u002B00:00","ticks":28601336951537,"frequency":1000000000,"mode":"ui","message":"u02-opcion-03: True"}
+{"utc":"2026-11-20T23:05:16.7482798\u002B00:00","ticks":28601514107891,"frequency":1000000000,"mode":"ui","message":"u02-opcion-04: True"}
+{"utc":"2026-11-20T23:05:16.9275460\u002B00:00","ticks":28601693367734,"frequency":1000000000,"mode":"ui","message":"u02-opcion-05: True"}
+{"utc":"2026-11-20T23:05:17.0925169\u002B00:00","ticks":28601858336224,"frequency":1000000000,"mode":"ui","message":"u02-palabra-01: True"}
+{"utc":"2026-11-20T23:05:17.2476805\u002B00:00","ticks":28602013502578,"frequency":1000000000,"mode":"ui","message":"u02-palabra-02: True"}
+{"utc":"2026-11-20T23:05:17.4028285\u002B00:00","ticks":28602168650443,"frequency":1000000000,"mode":"ui","message":"u02-palabra-03: True"}
+{"utc":"2026-11-20T23:05:17.5589469\u002B00:00","ticks":28602324768515,"frequency":1000000000,"mode":"ui","message":"u02-palabra-04: True"}
+{"utc":"2026-11-20T23:05:17.7151015\u002B00:00","ticks":28602480925442,"frequency":1000000000,"mode":"ui","message":"u02-palabra-05: True"}
+{"utc":"2026-11-20T23:05:17.7172016\u002B00:00","ticks":28602483019140,"frequency":1000000000,"mode":"ui","message":"lesson-u03: True"}
+{"utc":"2026-11-20T23:05:17.9320636\u002B00:00","ticks":28602697890703,"frequency":1000000000,"mode":"ui","message":"u03-opcion-01: True"}
+{"utc":"2026-11-20T23:05:18.1005674\u002B00:00","ticks":28602866388203,"frequency":1000000000,"mode":"ui","message":"u03-opcion-02: True"}
+{"utc":"2026-11-20T23:05:18.2605794\u002B00:00","ticks":28603026399817,"frequency":1000000000,"mode":"ui","message":"u03-opcion-03: True"}
+{"utc":"2026-11-20T23:05:18.4204511\u002B00:00","ticks":28603186278567,"frequency":1000000000,"mode":"ui","message":"u03-opcion-04: True"}
+{"utc":"2026-11-20T23:05:18.5749043\u002B00:00","ticks":28603340725442,"frequency":1000000000,"mode":"ui","message":"u03-opcion-05: True"}
+{"utc":"2026-11-20T23:05:18.7306989\u002B00:00","ticks":28603496518203,"frequency":1000000000,"mode":"ui","message":"u03-palabra-01: True"}
+{"utc":"2026-11-20T23:05:18.8873713\u002B00:00","ticks":28603653190598,"frequency":1000000000,"mode":"ui","message":"u03-palabra-02: True"}
+{"utc":"2026-11-20T23:05:19.0435892\u002B00:00","ticks":28603809409296,"frequency":1000000000,"mode":"ui","message":"u03-palabra-03: True"}
+{"utc":"2026-11-20T23:05:19.2027135\u002B00:00","ticks":28603968533567,"frequency":1000000000,"mode":"ui","message":"u03-palabra-04: True"}
+{"utc":"2026-11-20T23:05:19.3592010\u002B00:00","ticks":28604125021640,"frequency":1000000000,"mode":"ui","message":"u03-palabra-05: True"}
+{"utc":"2026-11-20T23:05:19.3752665\u002B00:00","ticks":28604141085546,"frequency":1000000000,"mode":"ui","message":"draft-saved: True"}
+{"utc":"2026-11-20T23:05:20.3286177\u002B00:00","ticks":28605094466379,"frequency":1000000000,"mode":"ui","message":"keyboard-content-visible: True"}
+{"utc":"2026-11-20T23:05:20.3561252\u002B00:00","ticks":28605121943514,"frequency":1000000000,"mode":"ui","message":"control-input-roundtrip: True"}
+{"utc":"2026-11-20T23:05:20.7150953\u002B00:00","ticks":28605480914504,"frequency":1000000000,"mode":"ui","message":"rotation-landscape: True"}
+{"utc":"2026-11-20T23:05:21.1784431\u002B00:00","ticks":28605944263097,"frequency":1000000000,"mode":"ui","message":"invalid-json-warning: True"}
+{"utc":"2026-11-20T23:05:21.3862903\u002B00:00","ticks":28606152112472,"frequency":1000000000,"mode":"ui","message":"wrong-answer: True"}
+{"utc":"2026-11-20T23:05:21.5031710\u002B00:00","ticks":28606268996847,"frequency":1000000000,"mode":"ui","message":"backup-restore: True"}
+{"utc":"2026-11-20T23:05:21.5277688\u002B00:00","ticks":28606293589347,"frequency":1000000000,"mode":"ui","message":"advanced-model-selection: True"}
+{"utc":"2026-11-20T23:05:23.1988251\u002B00:00","ticks":28607964648670,"frequency":1000000000,"mode":"gemma","message":"Starting gemma"}
+{"utc":"2026-11-20T23:05:23.4704704\u002B00:00","ticks":28608236297263,"frequency":1000000000,"mode":"gemma","message":"Main activity resumed"}
+{"utc":"2026-11-20T23:05:24.4582614\u002B00:00","ticks":28609224092002,"frequency":1000000000,"mode":"gemma","message":"sandbox-database: True"}
+{"utc":"2026-11-20T23:05:24.4659829\u002B00:00","ticks":28609231803877,"frequency":1000000000,"mode":"gemma","message":"Verifying cached model: 13-gemma4-e2b-ud-q4-k-xl"}
+{"utc":"2026-11-20T23:05:28.4746420\u002B00:00","ticks":28613240464761,"frequency":1000000000,"mode":"gemma","message":"pinned-local-gguf: True"}
+{"utc":"2026-11-20T23:05:28.4750467\u002B00:00","ticks":28613240867730,"frequency":1000000000,"mode":"gemma","message":"Archiving prior calibration for a fresh foreground comparison"}
+{"utc":"2026-11-20T23:05:32.4206113\u002B00:00","ticks":28617186446583,"frequency":1000000000,"mode":"gemma","message":"Consultando GPU y estimando memoria para el contexto elegido\u2026"}
+{"utc":"2026-11-20T23:05:34.0071635\u002B00:00","ticks":28618772994343,"frequency":1000000000,"mode":"gemma","message":"Calibrando CPU: carga y calentamiento. Puedes cancelar."}
+{"utc":"2026-11-20T23:05:35.3760094\u002B00:00","ticks":28620141847415,"frequency":1000000000,"mode":"gemma","message":"Calibrando CPU: calentamiento"}
+{"utc":"2026-11-20T23:05:46.4333378\u002B00:00","ticks":28631199162619,"frequency":1000000000,"mode":"gemma","message":"Calibrando CPU: muestra 1/3"}
+{"utc":"2026-11-20T23:05:57.3378712\u002B00:00","ticks":28642103701521,"frequency":1000000000,"mode":"gemma","message":"Calibrando CPU: muestra 2/3"}
+{"utc":"2026-11-20T23:06:08.3677370\u002B00:00","ticks":28653133566621,"frequency":1000000000,"mode":"gemma","message":"Calibrando CPU: muestra 3/3"}
+{"utc":"2026-11-20T23:06:19.5112783\u002B00:00","ticks":28664277109481,"frequency":1000000000,"mode":"gemma","message":"Calibrando Vulkan/Adreno (TM) 830/36: carga y calentamiento. Puedes cancelar."}
+{"utc":"2026-11-20T23:06:23.0356365\u002B00:00","ticks":28667801703386,"frequency":1000000000,"mode":"gemma","message":"Calibrando Vulkan/Adreno (TM) 830/36: calentamiento"}
+{"utc":"2026-11-20T23:06:34.3796025\u002B00:00","ticks":28679145665413,"frequency":1000000000,"mode":"gemma","message":"Calibrando Vulkan/Adreno (TM) 830/36: muestra 1/3"}
+{"utc":"2026-11-20T23:06:45.8172021\u002B00:00","ticks":28690583036138,"frequency":1000000000,"mode":"gemma","message":"Calibrando Vulkan/Adreno (TM) 830/36: muestra 2/3"}
+{"utc":"2026-11-20T23:06:57.1619264\u002B00:00","ticks":28701927757957,"frequency":1000000000,"mode":"gemma","message":"Calibrando Vulkan/Adreno (TM) 830/36: muestra 3/3"}
+{"utc":"2026-11-20T23:07:09.0129576\u002B00:00","ticks":28713778782067,"frequency":1000000000,"mode":"gemma","message":"Cargando CPU\u2026"}
+{"utc":"2026-11-20T23:07:11.4240038\u002B00:00","ticks":28716189826389,"frequency":1000000000,"mode":"gemma","message":"model-prepared: True"}
+{"utc":"2026-11-20T23:07:11.4320303\u002B00:00","ticks":28716197849722,"frequency":1000000000,"mode":"gemma","message":"Course generation: correct example"}
+{"utc":"2026-11-20T23:07:20.0795746\u002B00:00","ticks":28724845399094,"frequency":1000000000,"mode":"gemma","message":"native-generation-True: True"}
+{"utc":"2026-11-20T23:07:20.0826134\u002B00:00","ticks":28724848435031,"frequency":1000000000,"mode":"gemma","message":"Course generation: incorrect example"}
+{"utc":"2026-11-20T23:07:30.7330220\u002B00:00","ticks":28735498843152,"frequency":1000000000,"mode":"gemma","message":"native-generation-False: True"}
+{"utc":"2026-11-20T23:07:30.7340560\u002B00:00","ticks":28735499874246,"frequency":1000000000,"mode":"gemma","message":"profile-present: True"}
+{"utc":"2026-11-20T23:08:15.2353822\u002B00:00","ticks":28780001214229,"frequency":1000000000,"mode":"qwen","message":"Starting qwen"}
+{"utc":"2026-11-20T23:08:15.5144175\u002B00:00","ticks":28780280244177,"frequency":1000000000,"mode":"qwen","message":"Main activity resumed"}
+{"utc":"2026-11-20T23:08:16.5808432\u002B00:00","ticks":28781346670218,"frequency":1000000000,"mode":"qwen","message":"sandbox-database: True"}
+{"utc":"2026-11-20T23:08:16.5910203\u002B00:00","ticks":28781356851885,"frequency":1000000000,"mode":"qwen","message":"Verifying cached model: portable-unsloth-qwen35-4b-q4-k-m"}
+{"utc":"2026-11-20T23:08:21.8231212\u002B00:00","ticks":28786588943758,"frequency":1000000000,"mode":"qwen","message":"pinned-local-gguf: True"}
+{"utc":"2026-11-20T23:08:26.2363176\u002B00:00","ticks":28791002151568,"frequency":1000000000,"mode":"qwen","message":"Consultando GPU y estimando memoria para el contexto elegido\u2026"}
+{"utc":"2026-11-20T23:08:27.6403201\u002B00:00","ticks":28792406148964,"frequency":1000000000,"mode":"qwen","message":"Calibrando CPU: carga y calentamiento. Puedes cancelar."}
+{"utc":"2026-11-20T23:08:30.5894576\u002B00:00","ticks":28795355491411,"frequency":1000000000,"mode":"qwen","message":"Calibrando CPU: calentamiento"}
+{"utc":"2026-11-20T23:08:57.8343691\u002B00:00","ticks":28822600209265,"frequency":1000000000,"mode":"qwen","message":"Calibrando CPU: muestra 1/3"}
+{"utc":"2026-11-20T23:09:34.3986590\u002B00:00","ticks":28859164489667,"frequency":1000000000,"mode":"qwen","message":"Calibrando CPU: muestra 2/3"}
+{"utc":"2026-11-20T23:10:10.3267935\u002B00:00","ticks":28895092619185,"frequency":1000000000,"mode":"qwen","message":"Calibrando CPU: muestra 3/3"}
+{"utc":"2026-11-20T23:10:46.6984597\u002B00:00","ticks":28931464299015,"frequency":1000000000,"mode":"qwen","message":"Calibrando Vulkan/Adreno (TM) 830/33: carga y calentamiento. Puedes cancelar."}
+{"utc":"2026-11-20T23:10:50.8720297\u002B00:00","ticks":28935638088388,"frequency":1000000000,"mode":"qwen","message":"Calibrando Vulkan/Adreno (TM) 830/33: calentamiento"}
+{"utc":"2026-11-20T23:11:13.3629225\u002B00:00","ticks":28958128762026,"frequency":1000000000,"mode":"qwen","message":"Calibrando Vulkan/Adreno (TM) 830/33: muestra 1/3"}
+{"utc":"2026-11-20T23:11:38.5844752\u002B00:00","ticks":28983350301495,"frequency":1000000000,"mode":"qwen","message":"Calibrando Vulkan/Adreno (TM) 830/33: muestra 2/3"}
+{"utc":"2026-11-20T23:12:04.2764067\u002B00:00","ticks":29009042233881,"frequency":1000000000,"mode":"qwen","message":"Calibrando Vulkan/Adreno (TM) 830/33: muestra 3/3"}
+{"utc":"2026-11-20T23:12:30.3072142\u002B00:00","ticks":29035073040434,"frequency":1000000000,"mode":"qwen","message":"Cargando Vulkan/Adreno (TM) 830/33\u2026"}
+{"utc":"2026-11-20T23:12:33.7733738\u002B00:00","ticks":29038539193818,"frequency":1000000000,"mode":"qwen","message":"model-prepared: True"}
+{"utc":"2026-11-20T23:12:33.7777044\u002B00:00","ticks":29038543523818,"frequency":1000000000,"mode":"qwen","message":"Course generation: correct example"}
+{"utc":"2026-11-20T23:12:51.9237303\u002B00:00","ticks":29056689551103,"frequency":1000000000,"mode":"qwen","message":"native-generation-True: True"}
+{"utc":"2026-11-20T23:12:51.9254351\u002B00:00","ticks":29056691252873,"frequency":1000000000,"mode":"qwen","message":"Course generation: incorrect example"}
+{"utc":"2026-11-20T23:13:19.2906510\u002B00:00","ticks":29084056473071,"frequency":1000000000,"mode":"qwen","message":"native-generation-False: True"}
+{"utc":"2026-11-20T23:13:19.2923759\u002B00:00","ticks":29084058194894,"frequency":1000000000,"mode":"qwen","message":"profile-present: True"}
+{"utc":"2026-11-20T23:14:44.9806444\u002B00:00","ticks":29169746471268,"frequency":1000000000,"mode":"gemma-memory","message":"Starting gemma-memory"}
+{"utc":"2026-11-20T23:14:45.2692844\u002B00:00","ticks":29170035109705,"frequency":1000000000,"mode":"gemma-memory","message":"Main activity resumed"}
+{"utc":"2026-11-20T23:14:45.4462735\u002B00:00","ticks":29170212100799,"frequency":1000000000,"mode":"gemma-memory","message":"Main activity paused"}
+{"utc":"2026-11-20T23:14:46.5957948\u002B00:00","ticks":29171361618507,"frequency":1000000000,"mode":"gemma-memory","message":"sandbox-database: True"}
+{"utc":"2026-11-20T23:14:46.6132917\u002B00:00","ticks":29171379115955,"frequency":1000000000,"mode":"gemma-memory","message":"MEMORY_ROUTE Cpu"}
+{"utc":"2026-11-20T23:14:53.4719979\u002B00:00","ticks":29178237839442,"frequency":1000000000,"mode":"gemma-memory","message":"Cargando CPU\u2026"}
+{"utc":"2026-11-20T23:14:55.9725121\u002B00:00","ticks":29180738339128,"frequency":1000000000,"mode":"gemma-memory","message":"manual-prepare-Cpu: True"}
+{"utc":"2026-11-20T23:15:07.6824166\u002B00:00","ticks":29192448236936,"frequency":1000000000,"mode":"gemma-memory","message":"manual-generation-Cpu: True"}
+{"utc":"2026-11-20T23:15:07.6837443\u002B00:00","ticks":29192449563811,"frequency":1000000000,"mode":"gemma-memory","message":"MEMORY_ROUTE Vulkan"}
+{"utc":"2026-11-20T23:15:13.9870536\u002B00:00","ticks":29198752900528,"frequency":1000000000,"mode":"gemma-memory","message":"Consultando GPU y estimando memoria para el contexto elegido\u2026"}
+{"utc":"2026-11-20T23:15:16.7760646\u002B00:00","ticks":29201541908026,"frequency":1000000000,"mode":"gemma-memory","message":"Cargando Vulkan/Adreno (TM) 830/36\u2026"}
+{"utc":"2026-11-20T23:15:22.2318144\u002B00:00","ticks":29206997638024,"frequency":1000000000,"mode":"gemma-memory","message":"manual-prepare-Vulkan: True"}
+{"utc":"2026-11-20T23:15:34.4191245\u002B00:00","ticks":29219184945259,"frequency":1000000000,"mode":"gemma-memory","message":"manual-generation-Vulkan: True"}
+{"utc":"2026-11-20T23:15:34.4225698\u002B00:00","ticks":29219188393384,"frequency":1000000000,"mode":"gemma-memory","message":"CACHE_REUSE Auto"}
+{"utc":"2026-11-20T23:15:41.9254966\u002B00:00","ticks":29226691339163,"frequency":1000000000,"mode":"gemma-memory","message":"Consultando GPU y estimando memoria para el contexto elegido\u2026"}
+{"utc":"2026-11-20T23:15:44.7006100\u002B00:00","ticks":29229466435880,"frequency":1000000000,"mode":"gemma-memory","message":"Calibrando CPU: carga y calentamiento. Puedes cancelar."}
+{"utc":"2026-11-20T23:15:47.0286357\u002B00:00","ticks":29231794464421,"frequency":1000000000,"mode":"gemma-memory","message":"Calibrando CPU: calentamiento"}
+{"utc":"2026-11-20T23:16:04.7523339\u002B00:00","ticks":29249518157956,"frequency":1000000000,"mode":"gemma-memory","message":"Main activity resumed"}
+{"utc":"2026-11-20T23:16:05.6034681\u002B00:00","ticks":29250369292435,"frequency":1000000000,"mode":"gemma-memory","message":"Calibrando CPU: muestra 1/3"}
+{"utc":"2026-11-20T23:16:20.0294114\u002B00:00","ticks":29264795234565,"frequency":1000000000,"mode":"gemma-memory","message":"Calibrando CPU: muestra 2/3"}
+{"utc":"2026-11-20T23:16:34.3153718\u002B00:00","ticks":29279081195966,"frequency":1000000000,"mode":"gemma-memory","message":"Calibrando CPU: muestra 3/3"}
+{"utc":"2026-11-20T23:16:48.9223430\u002B00:00","ticks":29293688168616,"frequency":1000000000,"mode":"gemma-memory","message":"Calibrando Vulkan/Adreno (TM) 830/36: carga y calentamiento. Puedes cancelar."}
+{"utc":"2026-11-20T23:16:53.1806051\u002B00:00","ticks":29297946517677,"frequency":1000000000,"mode":"gemma-memory","message":"Calibrando Vulkan/Adreno (TM) 830/36: calentamiento"}
+{"utc":"2026-11-20T23:17:06.3340069\u002B00:00","ticks":29311099837308,"frequency":1000000000,"mode":"gemma-memory","message":"Calibrando Vulkan/Adreno (TM) 830/36: muestra 1/3"}
+{"utc":"2026-11-20T23:17:19.3311585\u002B00:00","ticks":29324096989386,"frequency":1000000000,"mode":"gemma-memory","message":"Calibrando Vulkan/Adreno (TM) 830/36: muestra 2/3"}
+{"utc":"2026-11-20T23:17:32.3280456\u002B00:00","ticks":29337093912246,"frequency":1000000000,"mode":"gemma-memory","message":"Calibrando Vulkan/Adreno (TM) 830/36: muestra 3/3"}
+{"utc":"2026-11-20T23:17:45.7903778\u002B00:00","ticks":29350556205938,"frequency":1000000000,"mode":"gemma-memory","message":"Cargando CPU\u2026"}
+{"utc":"2026-11-20T23:17:48.4778881\u002B00:00","ticks":29353243719583,"frequency":1000000000,"mode":"gemma-memory","message":"calibration-cache-reused: False"}
+{"utc":"2026-11-20T23:17:48.5254899\u002B00:00","ticks":29353291314114,"frequency":1000000000,"mode":"gemma-memory","message":"calibration-cache-reused: "}

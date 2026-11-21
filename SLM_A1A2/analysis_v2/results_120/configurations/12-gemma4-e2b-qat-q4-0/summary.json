@@ -1,0 +1,68 @@
+{
+  "config_id": "12-gemma4-e2b-qat-q4-0",
+  "family": "gemma",
+  "quant": "Q4_0",
+  "summary": {
+    "cases": 120,
+    "incorrect_cases_expected": 90,
+    "incorrect_text_observable": 90,
+    "incorrect_text_unobservable": 0,
+    "expected_primary_errant_edits": 163,
+    "unobservable_primary_errant_edits": 0,
+    "gec_conditional_on_observable_text": {
+      "primary": {
+        "tp": 143,
+        "fp": 20,
+        "fn": 20,
+        "precision": 0.8773006134969326,
+        "recall": 0.8773006134969326,
+        "f0_5": 0.8773006134969326
+      },
+      "best_full_reference": {
+        "tp": 146,
+        "fp": 17,
+        "fn": 19,
+        "precision": 0.8957055214723927,
+        "recall": 0.8848484848484849,
+        "f0_5": 0.8935128518971849
+      }
+    },
+    "recall_all_primary_gold_unobservable_as_missed": 0.8773006134969326,
+    "controls_expected": 30,
+    "ctmr_modified_observed": 0,
+    "ctmr_unobservable": 0,
+    "cfar_false_alarm_observed": 14,
+    "cfar_unobservable": 0,
+    "fully_preserved_observed": 16,
+    "fully_preserved_unobservable": 0,
+    "parse_status": {
+      "direct": 93,
+      "recoverable": 27
+    },
+    "schema_valid": 120,
+    "strict_json_compliant": 93,
+    "declarations": {
+      "verified_matches_output": 100,
+      "verified_differs_output": 20
+    },
+    "declarations_coherent_non_noop": 93,
+    "incorrect_text_equal_primary": 72,
+    "incorrect_text_equal_licensed_complete_reference": 73,
+    "flag_correct_observed": 106,
+    "flag_unobservable": 0,
+    "incorrect_flag_correct_observed": 90,
+    "incorrect_flag_unobservable": 0,
+    "human_confirmed": 0,
+    "latency_median_seconds_descriptive": 1.1419652000004135,
+    "schema_version": "evaluation-v2.0"
+  },
+  "selection": {
+    "rows_in": 120,
+    "rows_selected": 120,
+    "duplicate_cases_resolved": [],
+    "selection_policy": "highest verified final attempt number"
+  },
+  "primary_frozen_tp": 45,
+  "primary_frozen_fp": 98,
+  "primary_frozen_fn": 105
+}

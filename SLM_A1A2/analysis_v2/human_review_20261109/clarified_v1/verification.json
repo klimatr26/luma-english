@@ -1,0 +1,54 @@
+{
+  "schema_version": "human_review_closure.verification/1.0",
+  "date_local": "2026-11-09",
+  "verified_at_utc": "2026-11-09T07:31:42.206938+00:00",
+  "status": "COMPLETE_WITH_INVESTIGATOR_CLARIFICATIONS",
+  "investigator_confirmation_verbatim": "Sí, esas notas reflejan mi juicio",
+  "amended_records": 8,
+  "unchanged_other_records": 172,
+  "original_comments_and_dates_preserved": 180,
+  "original_backup_sha256": "91a638c9725894144a0b1307af9441c9eca2e40b6423263ab71a454e2b4dd24e",
+  "human_records_imported": 180,
+  "human_assessable_records": 179,
+  "remaining_contract_conflicts": 0,
+  "remaining_invalid_case_proposals": 0,
+  "case_invalidations_applied": false,
+  "python_tests_passed": 207,
+  "python_tests_failed": 0,
+  "new_inferences": 0,
+  "final_test_access": false,
+  "preserved_original_git_inputs": 93,
+  "preserved_v2_source_hashes": 164,
+  "preserved_v2_output_hashes": 76,
+  "preserved_phase1_artifacts": 24,
+  "artifact_hashes": [
+    {
+      "path": "SLM_A1A2/analysis_v2/human_review_20261109/clarified_v1/closure_record.json",
+      "sha256": "9be128bfe27ee3da1cef08632c0192ff1fe0a325ca6266b34bf73c24555fe899"
+    },
+    {
+      "path": "SLM_A1A2/analysis_v2/results_120/human_layers/kevin01_clarified_20261109_v1/accepted_reviews.jsonl",
+      "sha256": "419aa46d57a033914464fadb30fc0aa0a73a6a8b2bba37de84512c7776e4df5e"
+    },
+    {
+      "path": "SLM_A1A2/analysis_v2/results_120/human_layers/kevin01_clarified_20261109_v1/import_record.json",
+      "sha256": "4f128c4c590aaac185d2422816fcd11f150099d8df709d0ca6d23402d7b8ec67"
+    },
+    {
+      "path": "SLM_A1A2/analysis_v2/results_120/human_layers/kevin01_clarified_20261109_v1/clarification_provenance.json",
+      "sha256": "2ce405d02def67e5a825a7c745f068e62c81446432a74b6f79ff879520979042"
+    },
+    {
+      "path": "SLM_A1A2/analysis_v2/human_review_20261109/clarifications_v1.json",
+      "sha256": "823278824271d909eb325eb221018f9c797b191bbb5258c4ecf605e035d4d396"
+    },
+    {
+      "path": "SLM_A1A2/scripts/apply_human_review_clarifications.py",
+      "sha256": "fe3880b8ace26c63fe249a1ce90cc3d168b816b49ea19a97f6f54964cb8946e5"
+    },
+    {
+      "path": "SLM_A1A2/scripts/test_apply_human_review_clarifications.py",
+      "sha256": "80e793ec94bb5a09697d7e81ea1c69f9478de352857bdc3a770ac2643594d30b"
+    }
+  ]
+}

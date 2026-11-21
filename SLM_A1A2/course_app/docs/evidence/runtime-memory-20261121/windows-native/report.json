@@ -1,0 +1,90 @@
+{
+  "Purpose": "COURSE_APPLICATION_INTEGRATION_NOT_BENCHMARK",
+  "DateUtc": "2026-11-21T07:53:29.851039+00:00",
+  "Host": "DESKTOP-V750TES",
+  "Device": {
+    "Platform": "Windows",
+    "Architecture": "X64",
+    "TotalMemoryBytes": 17087791104,
+    "AvailableMemoryBytes": 2049871872,
+    "FreeStorageBytes": 28076433408,
+    "IsEmulator": false,
+    "GpuDescription": null
+  },
+  "CourseVersion": "1.0.0",
+  "ProposalSha256": "b5d84d938efc07c93b75f5668d122e8c96ad64b007b464f2ad7278e442b8cae6",
+  "RuntimeHashes": {
+    "writing_worker.exe": "edb4703a0e7aac03d470dfccadd966690f717f50343ff3ccb77b98c97aff1589",
+    "writing_llama_bridge.dll": "f006ccde902bb0a98573dcd17b5694bf6d9bd8e427c51f0e8908389248e3ba19",
+    "ggml-vulkan.dll": "9cc0d9416bf032caa58af66fc7fe700e35a476b74cab94fcb45e08f4eca8213c",
+    "llama.dll": "cffdf8f5399c30c1a24a2c192ed2675945ada6032c4463027e457052d647bffe",
+    "Course.Core.dll": "4473e98145ebb2ae3535ce9893b0279c96e8e99c5a16edf2ca68e7f839072181",
+    "WritingApp.Native.dll": "52e5deacab59501cc1ee891bbd467e1ac1829bd43eb5dd3fa691368b6fef79db",
+    "WritingApp.Shared.dll": "7427d78540cecbbc24c362cf7184cd81fcc9960d43d698270eaf9edc76d25ce7"
+  },
+  "MeasurementLimits": "Worker RSS sampled every 100 ms; lifetime peak includes load. NVIDIA VRAM is device-wide, maximum reported adapter use, sampled every second; not attributed to this process. Null when unavailable.",
+  "Cases": [
+    {
+      "Id": "13-gemma4-e2b-ud-q4-k-xl/AutoVulkanCpu/u01-writing-01/correct",
+      "ModelId": "13-gemma4-e2b-ud-q4-k-xl",
+      "ModelSha256": "e531007218dfab990486a5de7676a6932d6ea8dea233d1f698d7c21cf8a16889",
+      "PromptSha256": "42f1e781fdff0543a4370c7f6581a00795a78c5ffdd18db545d9408fa54259b1",
+      "RequestedBackend": "AutoVulkanCpu",
+      "ActualBackend": "Vulkan",
+      "GpuLayers": 36,
+      "TotalLayers": 36,
+      "ExampleCorrect": true,
+      "Usable": true,
+      "ModelSaysCorrect": true,
+      "ParserStatus": "STRICT",
+      "FinishReason": "stop",
+      "GenerationSeconds": 0.9061625,
+      "WallSeconds": 1.2552033,
+      "WorkerPeakRssBytes": 1932992512,
+      "WorkerLifetimePeakRssBytes": 2030313472,
+      "DeviceWidePeakVramMiB": 2970,
+      "Attempts": 1,
+      "Metrics": {
+        "PromptTokens": 770,
+        "OutputTokens": 116,
+        "DecodedTokens": 116,
+        "PromptSeconds": 0.136173,
+        "DecodeSeconds": 0.724606,
+        "ClosedThinkingPrefill": false,
+        "DecodeTokensPerSecond": 160.08699900359645
+      },
+      "Error": null
+    },
+    {
+      "Id": "13-gemma4-e2b-ud-q4-k-xl/AutoVulkanCpu/u01-writing-01/incorrect",
+      "ModelId": "13-gemma4-e2b-ud-q4-k-xl",
+      "ModelSha256": "e531007218dfab990486a5de7676a6932d6ea8dea233d1f698d7c21cf8a16889",
+      "PromptSha256": "42f1e781fdff0543a4370c7f6581a00795a78c5ffdd18db545d9408fa54259b1",
+      "RequestedBackend": "AutoVulkanCpu",
+      "ActualBackend": "Vulkan",
+      "GpuLayers": 36,
+      "TotalLayers": 36,
+      "ExampleCorrect": false,
+      "Usable": true,
+      "ModelSaysCorrect": false,
+      "ParserStatus": "STRICT",
+      "FinishReason": "stop",
+      "GenerationSeconds": 1.1330289,
+      "WallSeconds": 1.253285,
+      "WorkerPeakRssBytes": 1527685120,
+      "WorkerLifetimePeakRssBytes": 2030313472,
+      "DeviceWidePeakVramMiB": 3003,
+      "Attempts": 1,
+      "Metrics": {
+        "PromptTokens": 770,
+        "OutputTokens": 185,
+        "DecodedTokens": 185,
+        "PromptSeconds": 0.052652000000000004,
+        "DecodeSeconds": 1.021341,
+        "ClosedThinkingPrefill": false,
+        "DecodeTokensPerSecond": 181.13441054456837
+      },
+      "Error": null
+    }
+  ]
+}

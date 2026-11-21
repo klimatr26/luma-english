@@ -1,0 +1,31 @@
+{
+  "started_utc": "2026-11-19T00:04:00.045324+00:00",
+  "context": 2048,
+  "gpu_layers": -1,
+  "load_mode": "mmap",
+  "environment": {
+    "GGML_VK_VISIBLE_DEVICES": "1",
+    "GGML_VK_SUBALLOCATION_BLOCK_SIZE": "536870912"
+  },
+  "baseline_gpu": {
+    "used_mib": 0,
+    "total_mib": 4096,
+    "temperature_c": 51,
+    "utilization_percent": 1,
+    "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+    "timestamp_utc": "2026-11-19T00:04:00.040031+00:00"
+  },
+  "timeout_seconds": 85,
+  "gguf_sha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4",
+  "dll_sha256": {
+    "ggml-base.dll": "4ba96a2de8f9bf5dba77df9194c279dfd8270762e33cc720bc4d061c2bb5e53a",
+    "ggml-cpu.dll": "db7a99599aa038221e268c1a42a94ace748e5b337097325fef43e988ec597b4e",
+    "ggml-vulkan.dll": "9cc0d9416bf032caa58af66fc7fe700e35a476b74cab94fcb45e08f4eca8213c",
+    "ggml.dll": "eedc0f8d0bf7e2014383f1bb40cef326d40494ed08362ff24203abcb6e2a2e32",
+    "llama-common.dll": "24e19bb0b30fd8f45a24a2c00322f466587fa62abd659fea5d34f690f5710f74",
+    "llama.dll": "cffdf8f5399c30c1a24a2c192ed2675945ada6032c4463027e457052d647bffe",
+    "writing_llama_bridge.dll": "336c2a749bc40416fc2aec364a22d89a67ee0a46753639e930cb815c06c47b63"
+  },
+  "probe_source_sha256": "a4558fe70e3346d57a42a9ca35828a46fe303f3c895b8fff747fb79033c8112e",
+  "probe_executable_sha256": "8515de6a0c80e4ac74f29d24ffea917d3b73ab3143a0e88cc0ced86a7d20dc76"
+}

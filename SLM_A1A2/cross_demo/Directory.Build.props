@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <Deterministic>true</Deterministic>
+    <JsonSerializerIsReflectionEnabledByDefault>false</JsonSerializerIsReflectionEnabledByDefault>
+    <WritingNativeBuild>b12359-adaptive-v1</WritingNativeBuild>
+    <WritingNativeRoot>$(MSBuildThisFileDirectory)native/artifacts/$(WritingNativeBuild)</WritingNativeRoot>
+  </PropertyGroup>
+</Project>

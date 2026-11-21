@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0-android37.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ApplicationId>org.kevinlima.writinglab.downloadprobe</ApplicationId>
+    <ApplicationTitle>Writing download validation</ApplicationTitle>
+    <ApplicationVersion>1</ApplicationVersion>
+    <SupportedOSPlatformVersion>26.0</SupportedOSPlatformVersion>
+    <RuntimeIdentifiers>android-arm64</RuntimeIdentifiers>
+    <AndroidPackageFormats>apk</AndroidPackageFormats>
+    <PublishTrimmed>false</PublishTrimmed>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <AndroidUseAssemblyStore>true</AndroidUseAssemblyStore>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../WritingApp.Shared/WritingApp.Shared.csproj" />
+    <Compile Include="../WritingApp.Android/AndroidDownloadTransport.cs" Link="AndroidDownloadTransport.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,88 @@
+{
+  "base_commit": "1d8a2e9",
+  "purpose": "PHONE_INTEGRATION_NOT_BENCHMARK",
+  "sources": {
+    "Course.Android/PhoneVerificationActivity.cs": "1dbc09678721651622d2dd1d250b5e2bff1c4f8356a752afb81737047e0c2134",
+    "Course.UiTests/Program.cs": "91828e1e3fc56313978bff550a8289dceb52fab732c94f9644932c1c5cfbe610",
+    "scripts/verify_android_phone.py": "f062051dde617b20bc93a3c818063b0bcef5a505bf40c6f2f8f02c85fcd04809",
+    "scripts/summarize_phone_phases.py": "7a1761d6a480f10e7f298c34827dd24f7c715043ce6ff2562678591b9dd47737"
+  },
+  "evidence": {
+    "device-and-packages.json": {
+      "bytes": 2384,
+      "sha256": "8ed7dd4c777312b5af85f2851aa4a7483d53709a02547d04b6d90330e601fa2f"
+    },
+    "download-resume.json": {
+      "bytes": 631,
+      "sha256": "c2a6327fb9acce8695f60abfd573a7126d209ffbf2514a9ffddaeac3ee6f7b1b"
+    },
+    "download-screen-off.jsonl": {
+      "bytes": 1047,
+      "sha256": "d2d0b6b50a78e3dbf9def776f6b203848a665a243379926e5ce4e3fe510d34ae"
+    },
+    "download-start.json": {
+      "bytes": 487,
+      "sha256": "f6d5887f3642b734c80be840978b088a98460475e3bdedd3c20b5b5338b0cff9"
+    },
+    "environment-observations.jsonl": {
+      "bytes": 987,
+      "sha256": "8f6c1eeb76a1447f6b52caa884db3f87a5c2514d66b2ac7d5b7ec791f908c755"
+    },
+    "gemma-checkpoint.json": {
+      "bytes": 12693,
+      "sha256": "c9ade3e31f767bcd6b22a03542c6799845525742c2abe8e4f7b7d458c55f4040"
+    },
+    "gemma-harness-interruption.json": {
+      "bytes": 424,
+      "sha256": "fa279d30bee99016317208b9357f184227ad316021988118432ff9674c64f444"
+    },
+    "local-import.json": {
+      "bytes": 1271,
+      "sha256": "d3a51ebb3a1df7220eca62edc21485a930a2e3ca4abb09b89b2397f028e4818f"
+    },
+    "minicpm-environment-before.json": {
+      "bytes": 123,
+      "sha256": "9e2b878ddfa410ace04ce05cd58af746f9a03e30e6ccd4edb6dc600413ddcb82"
+    },
+    "minicpm-environment.jsonl": {
+      "bytes": 4104,
+      "sha256": "d7418978bf90aeac05023fe64cc5ebfe05c90990ad8aae02a1a08f3cfba3c95e"
+    },
+    "minicpm-excluded-background.json": {
+      "bytes": 204,
+      "sha256": "b859a7cada22b8624aafd1eef0a0e606e247dfcbaa264650696447fe13bb398e"
+    },
+    "minicpm.json": {
+      "bytes": 12038,
+      "sha256": "50e3216a256e1ebc630223105cc522a3d5117d10ea441161768041ace5e16b0b"
+    },
+    "minicpm.png": {
+      "bytes": 250138,
+      "sha256": "05c993f7e91b820f1112e3df481081f19eff3d351ca04a854928188b7c957917"
+    },
+    "normal-course.png": {
+      "bytes": 183959,
+      "sha256": "5544e973197cb1625dbb34ebab04516c1d175bc26967c14079f730a599a6c056"
+    },
+    "normal-restoration.json": {
+      "bytes": 151,
+      "sha256": "b53adfa5a3193088a9531ad4459e38bfb095bb258fad6cd6cc795a383eeebc47"
+    },
+    "summary.json": {
+      "bytes": 11453,
+      "sha256": "f8d2172c0e7178d7089ed4e9430f7ef74f13702f7bc6950c615f4d67f83b63b1"
+    },
+    "ui-regression.json": {
+      "bytes": 2371,
+      "sha256": "5d08138d2f5ea65fbefda9b3a013d4354f4dec35ae3aa49e12e882e36e9e1f79"
+    },
+    "ui-summary.png": {
+      "bytes": 238802,
+      "sha256": "766ea47e9d18c428183881166dec7618c5ab07f0b96ccee2ed7ac93fdf7a2716"
+    },
+    "ui.json": {
+      "bytes": 5139,
+      "sha256": "78605c251ee7c5cc8ac3128c016a99607becac754012dc252c98e3b6b0c30761"
+    }
+  }
+}

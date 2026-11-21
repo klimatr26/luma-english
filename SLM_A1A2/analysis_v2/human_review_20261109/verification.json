@@ -1,0 +1,136 @@
+{
+  "schema_version": "human_review_followup.verification/1.0",
+  "date_local": "2026-11-09",
+  "verified_at_utc": "2026-11-09T07:02:42.076466+00:00",
+  "backup_sha256": "91a638c9725894144a0b1307af9441c9eca2e40b6423263ab71a454e2b4dd24e",
+  "review_records": 180,
+  "reviewers": 1,
+  "declared_review_date": "2026-10-19",
+  "status": "PROVISIONAL_AWAITING_INVESTIGATOR_CLARIFICATIONS",
+  "human_record_contract_conflicts": 6,
+  "invalid_case_proposals": 3,
+  "pending_common_case_ids": [
+    "A1-C006",
+    "A2-C001",
+    "A2-C003",
+    "A2-C008",
+    "A2-C010",
+    "A2-C013",
+    "A2-C014"
+  ],
+  "original_ratings_modified": false,
+  "human_layer_imported": false,
+  "final_test_access": false,
+  "new_slm_inferences": 0,
+  "prompt_revision": {
+    "id": "human-review-20261109",
+    "status": "PROPOSED_NOT_EMPIRICALLY_VALIDATED",
+    "baseline_system_prompt_sha256": "6ee3fb6aa8428e11413ee372a80acc71f3e05ba93cd08bb8a5120d26faf9885f",
+    "proposed_prompt_sha256_by_family": {
+      "qwen": "a56bbaf4dbfd39e83f343b3f5b7a7ad49fabbe1b5da97d742746d1a0e92e39b0",
+      "minicpm": "b3b7c24a4b2ccf7298d2f8ef2e546d6bcab8a136d06893863ccaba30608a704b",
+      "gemma": "42f1e781fdff0543a4370c7f6581a00795a78c5ffdd18db545d9408fa54259b1"
+    },
+    "original_benchmark_prompt_unchanged": true,
+    "native_templates_and_sampling_unchanged": true,
+    "optional_writing_advice_only_in_feedback": true,
+    "lfm_has_no_revised_profile": true
+  },
+  "validation": {
+    "python_unittest_count": 203,
+    "python_passed": true,
+    "csharp_suites_passed": [
+      "WritingDemo.PromptTests",
+      "WritingDemo.RuntimeTests",
+      "WritingDemo.FeedbackTests",
+      "WritingDemo.AssetTests"
+    ],
+    "release_build_warnings": 0,
+    "release_build_errors": 0,
+    "sdk_from_demo_directory": "10.0.403",
+    "ui_selector_inspected": true,
+    "base_profile_available": true,
+    "loaded_model_for_ui_check": false,
+    "empirical_quality_test_of_new_prompt": false
+  },
+  "preservation": {
+    "phase1_artifacts_byte_identical": 24,
+    "old_git_inputs_byte_identical": 93,
+    "old_v2_source_hashes_preserved": 164,
+    "old_v2_derived_hashes_preserved": 76,
+    "remote_configured": false
+  },
+  "runtime_migration": {
+    "assessment_only": true,
+    "cuda_runtime_unchanged": true,
+    "vulkan_runtime_built_or_downloaded": false,
+    "android_device_tested": false,
+    "local_cuda_four_dlls_mib": 663.82,
+    "local_full_runtime_exe_dll_mib": 711.14,
+    "future_vulkan_package_size": "UNMEASURED"
+  },
+  "artifacts": [
+    {
+      "path": "SLM_A1A2/documentation/human_review_results_20261109.md",
+      "sha256": "71058e4d43aea14bb7067b944a2b80d3150052f06b2cad6b57e3584ad5c227c7"
+    },
+    {
+      "path": "SLM_A1A2/documentation/human_review_cases_pending_20261109.md",
+      "sha256": "86c228ccbf3cf40df49772fbe1e04fc5b02731df2a8d7b551c39732951aa1db2"
+    },
+    {
+      "path": "SLM_A1A2/documentation/human_review_prompt_followup_20261109.md",
+      "sha256": "4f5ac4e989ff0050d0353430dd1201dd65e2c35fd6ea73b82ad10ce9fcac0c3f"
+    },
+    {
+      "path": "SLM_A1A2/documentation/vulkan_android_feasibility_20261109.md",
+      "sha256": "810c2e5503c25a01a6b382370d90f0b36c4be7b573158c6c3617f744a8bf422f"
+    },
+    {
+      "path": "SLM_A1A2/analysis_v2/human_review_20261109/intake_and_scores.json",
+      "sha256": "7468a95f8d1b0bb32b8c79481157293d2fc6a3e46a8ababdac958c62cfcd0d60"
+    },
+    {
+      "path": "SLM_A1A2/demo/prompts/human_review_20261109.json",
+      "sha256": "a590ab5bb03b3f2846032ccfe7743ed5bc1ac7f1694c02942c4784c0d273dd1e"
+    },
+    {
+      "path": "SLM_A1A2/demo/prompts/preview_20261109.jpg",
+      "sha256": "71cdd824188428de6afeba88102fed20e81926f0d0852f096745158b20adc4cd"
+    },
+    {
+      "path": "SLM_A1A2/scripts/analyze_human_review_backup.py",
+      "sha256": "df9f8066c2c3ccacf8ac7e177df755394385e1f9fff5d7db2ae51c0449765e40"
+    },
+    {
+      "path": "SLM_A1A2/scripts/test_analyze_human_review_backup.py",
+      "sha256": "778911edeb42b17749dce8ff048592416b9b499057c05facc30ecca2ac7f07a6"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.Core/PromptCatalog.cs",
+      "sha256": "9af766eb54520426e7be1fe983971c7cd8680c257566524485d1a5360bddeba4"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.Core/LlamaRuntime.cs",
+      "sha256": "6266cbf3b9318ef503c0bbceadbb2dbda759a93d8dd6dbc9a871f4ab8eebc91d"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.Core/Contracts.cs",
+      "sha256": "c557ad164b45990d364f2d741385ad34ba0f5604056ae95e59a6c45b7282fc06"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.WinForms/MainForm.cs",
+      "sha256": "a7160d24221e878f296f1950616166d68ad985b375a8b269d86e910d9e132568"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.PromptTests/Program.cs",
+      "sha256": "c2e9040fd6f6a3df03bff54759bf64a9c2f2e649f38208230a9ee7e1237412ba"
+    }
+  ],
+  "new_build": {
+    "path": "SLM_A1A2/demo/publish/review_20261109/WritingDemo.WinForms.exe",
+    "exe_sha256": "2c81211dda5a6e8ec06fa77127ee8f60be02b318b13ec04dd7d08c041ac5049f",
+    "app_dll_sha256": "46d4b4f4197577475aacff77fd33403f7eea31d8c685b818f8c1a51b5f412d68",
+    "core_dll_sha256": "43038d07c7172be7f47a8b900b00d02344a9aea99eb2aa0791aca0eb94d50c5c"
+  }
+}

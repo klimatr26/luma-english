@@ -1,0 +1,242 @@
+<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ui="using:Course.UI" xmlns:core="using:Course.Core" xmlns:shared="using:WritingApp.Shared"
+             x:Class="Course.UI.MainView" x:DataType="ui:CourseViewModel" x:Name="Root">
+  <Grid x:Name="Shell" ColumnDefinitions="220,*" RowDefinitions="*,Auto" Background="#F5F6F3">
+    <Border x:Name="Sidebar" Grid.RowSpan="2" Background="#15363C" Padding="20,34,20,24">
+      <Grid RowDefinitions="Auto,Auto,*,Auto">
+        <StackPanel Spacing="16">
+          <Border Width="46" Height="46" CornerRadius="14" Background="#CCE6CC" HorizontalAlignment="Left">
+            <TextBlock Text="lu" Foreground="#173D37" FontSize="28" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-4,0,0" />
+          </Border>
+          <TextBlock Text="Luma English" Foreground="White" FontSize="23" FontWeight="SemiBold" />
+          <TextBlock Text="UN POCO CADA DÍA" FontSize="10" LetterSpacing="1.8" Foreground="#A7C1B9" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" Margin="-6,40,-6,0" Spacing="6">
+          <Button Classes="nav" Content="▤   Mi curso" Command="{Binding NavigateCommand}" CommandParameter="course" AutomationProperties.AutomationId="NavCourse" />
+          <Button Classes="nav" Content="◷   Mi historial" Command="{Binding NavigateCommand}" CommandParameter="history" AutomationProperties.AutomationId="NavHistory" />
+          <Button Classes="nav" Content="◇   Modelos y ajustes" Command="{Binding NavigateCommand}" CommandParameter="models" AutomationProperties.AutomationId="NavModels" />
+        </StackPanel>
+        <Border Grid.Row="3" Background="#23474A" CornerRadius="13" Padding="15">
+          <StackPanel Spacing="7">
+            <TextBlock Text="Tu práctica se queda aquí." Foreground="#EBF0DD" FontSize="13" FontWeight="SemiBold" />
+            <TextBlock Text="Curso e inferencia locales. Sin cuenta y a tu ritmo." Foreground="#B6CAC1" FontSize="12" />
+          </StackPanel>
+        </Border>
+      </Grid>
+    </Border>
+    <Grid x:Name="MainArea" Grid.Column="1" RowDefinitions="Auto,*,Auto">
+      <Border x:Name="BrandHeader" Background="#F5F6F3" BorderBrush="#E2E7E0" BorderThickness="0,0,0,1" Padding="28,18">
+        <Grid ColumnDefinitions="*,Auto">
+          <StackPanel Orientation="Horizontal" Spacing="10" VerticalAlignment="Center">
+            <TextBlock Text="LUMA ENGLISH" Classes="eyebrow" VerticalAlignment="Center" />
+          </StackPanel>
+          <Border Grid.Column="1" Background="#E5ECDF" CornerRadius="20" Padding="11,5">
+            <TextBlock Text="A1  /  LOCAL" FontSize="10" Foreground="#3C6657" FontWeight="SemiBold" LetterSpacing="1" />
+          </Border>
+        </Grid>
+      </Border>
+      <ScrollViewer x:Name="PageScroll" Grid.Row="1" HorizontalScrollBarVisibility="Disabled">
+        <StackPanel x:Name="PageBody" Margin="28,26,28,32" Spacing="24" MaxWidth="1440" HorizontalAlignment="Stretch">
+          <StackPanel Spacing="7" IsVisible="{Binding !HomePage}">
+            <Button Classes="quiet" Content="← Todas las unidades" HorizontalAlignment="Left" IsVisible="{Binding UnitPage}" Command="{Binding NavigateCommand}" CommandParameter="course" />
+            <TextBlock Text="{Binding PageTitle}" FontSize="29" FontWeight="SemiBold" />
+            <TextBlock Text="{Binding PageSubtitle}" Foreground="#63777A" MaxWidth="820" HorizontalAlignment="Left" />
+          </StackPanel>
+
+          <StackPanel IsVisible="{Binding HomePage}" Spacing="24">
+            <Border CornerRadius="22" Padding="30,30" ClipToBounds="True">
+              <Border.Background><LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,100%"><GradientStop Color="#173E42" Offset="0" /><GradientStop Color="#28584C" Offset="1" /></LinearGradientBrush></Border.Background>
+              <Grid x:Name="HeroGrid" ColumnDefinitions="*,220">
+                <StackPanel Spacing="15" MaxWidth="570" HorizontalAlignment="Left">
+                  <TextBlock Text="INGLÉS PARA TU DÍA A DÍA" FontSize="11" LetterSpacing="2" Foreground="#C6DBB6" FontWeight="SemiBold" />
+                  <TextBlock Text="Tu inglés,&#10;a tu ritmo." FontSize="42" LineHeight="48" FontWeight="SemiBold" Foreground="#FAFCF3" />
+                  <TextBlock Text="Tres unidades para empezar a expresarte. Aprende lo esencial y recibe ayuda al escribir, con IA en tu propio equipo." FontSize="15" Foreground="#D5E1D5" MaxWidth="490" />
+                  <Button Content="Continuar mi práctica  →" Background="#D9EBB7" Foreground="#153D32" Command="{Binding ContinueCommand}" HorizontalAlignment="Left" Margin="0,8,0,0" AutomationProperties.AutomationId="ContinueCourse" />
+                </StackPanel>
+                <Grid Grid.Column="1" IsVisible="{Binding HeroArtVisible}" Margin="18,5,-4,0" VerticalAlignment="Center" Height="215">
+                  <Ellipse Width="190" Height="190" Fill="#497561" Opacity="0.5" />
+                  <Border Width="160" Height="184" CornerRadius="13" Background="#EFF1DE" RenderTransformOrigin="50%,50%" BoxShadow="0 12 18 0 #25222D26">
+                    <Border.RenderTransform><RotateTransform Angle="8" /></Border.RenderTransform>
+                    <StackPanel Margin="20,25" Spacing="15">
+                      <TextBlock Text="Hello, world." FontSize="19" FontWeight="SemiBold" Foreground="#285649" />
+                      <Border Height="3" Background="#C8D6BA" CornerRadius="2" /><Border Height="3" Background="#C8D6BA" CornerRadius="2" Width="90" HorizontalAlignment="Left" />
+                      <Border Height="3" Background="#C8D6BA" CornerRadius="2" /><TextBlock Text="✓  Nice work!" FontSize="13" Foreground="#30735C" />
+                    </StackPanel>
+                  </Border>
+                  <Border Background="#DFC2A1" Width="50" Height="50" CornerRadius="25" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,2"><TextBlock Text="✦" Foreground="#394F3C" FontSize="28" HorizontalAlignment="Center" VerticalAlignment="Center" /></Border>
+                </Grid>
+              </Grid>
+            </Border>
+            <Grid x:Name="SummaryMetrics" RowDefinitions="Auto,Auto,Auto">
+              <Border x:Name="PracticeSummary" Classes="card" Padding="16" CornerRadius="14" Margin="0,0,0,10">
+                <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto">
+                  <TextBlock x:Name="PracticeValue" Grid.RowSpan="2" Text="{Binding CourseProgress}" FontSize="26" FontWeight="SemiBold" TextWrapping="NoWrap" MinWidth="88" Margin="0,0,14,0" VerticalAlignment="Center" />
+                  <TextBlock x:Name="PracticeLabel" Grid.Column="1" Text="Actividades practicadas" Classes="muted" />
+                  <ProgressBar x:Name="CourseProgressBar" Grid.Column="1" Grid.Row="1" Value="{Binding CourseProgressValue}" Margin="0,10,0,0" />
+                </Grid>
+              </Border>
+              <Border x:Name="AccuracySummary" Grid.Row="1" Classes="card" Padding="16" CornerRadius="14" Margin="0,0,0,10">
+                <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto">
+                  <TextBlock x:Name="AccuracyValue" Grid.RowSpan="2" Text="{Binding ClosedAccuracy}" FontSize="26" FontWeight="SemiBold" TextWrapping="NoWrap" MinWidth="88" Margin="0,0,14,0" VerticalAlignment="Center" />
+                  <TextBlock x:Name="AccuracyLabel" Grid.Column="1" Text="Aciertos en práctica cerrada" Classes="muted" />
+                  <TextBlock x:Name="AccuracyDetail" Grid.Column="1" Grid.Row="1" Text="{Binding ClosedAccuracyDetail}" FontSize="12" Foreground="#667A7F" Margin="0,6,0,0" />
+                </Grid>
+              </Border>
+              <Border x:Name="WritingSummary" Grid.Row="2" Classes="card" Padding="16" CornerRadius="14">
+                <Grid ColumnDefinitions="Auto,*">
+                  <TextBlock x:Name="WritingValue" Text="{Binding WritingCount}" FontSize="26" FontWeight="SemiBold" TextWrapping="NoWrap" MinWidth="88" Margin="0,0,14,0" VerticalAlignment="Center" />
+                  <TextBlock x:Name="WritingLabel" Grid.Column="1" Text="Writing con retroalimentación" Classes="muted" VerticalAlignment="Center" />
+                </Grid>
+              </Border>
+            </Grid>
+            <Grid ColumnDefinitions="*,Auto"><TextBlock Text="Tu recorrido" Classes="section" /><TextBlock Grid.Column="1" Text="3 UNIDADES · A TU RITMO" Classes="eyebrow" VerticalAlignment="Center" /></Grid>
+            <ItemsControl ItemsSource="{Binding Units}">
+              <ItemsControl.ItemsPanel><ItemsPanelTemplate><WrapPanel Orientation="Horizontal" /></ItemsPanelTemplate></ItemsControl.ItemsPanel>
+              <ItemsControl.ItemTemplate>
+                <DataTemplate x:DataType="ui:UnitCard">
+                  <Border Classes="card" Padding="0" Width="{Binding Width}" Margin="0,0,16,16" ClipToBounds="True">
+                    <StackPanel>
+                      <Border Background="{Binding Accent}" Padding="22,20" MinHeight="90">
+                        <Grid ColumnDefinitions="*,Auto"><StackPanel Spacing="7"><TextBlock Text="{Binding Label}" Classes="eyebrow" /><TextBlock Text="{Binding Subtitle}" FontSize="18" FontWeight="SemiBold" /></StackPanel><TextBlock Grid.Column="1" Text="{Binding Number}" FontSize="36" Foreground="#84998A" FontWeight="Light" Margin="12,-4,0,0" /></Grid>
+                      </Border>
+                      <StackPanel Margin="22,20" Spacing="12">
+                        <TextBlock Text="{Binding Title}" FontSize="19" FontWeight="SemiBold" />
+                        <TextBlock Text="{Binding Summary}" FontSize="14" Foreground="#6A7B7C" MinHeight="62" />
+                        <TextBlock Text="{Binding Duration}" Classes="muted" />
+                        <ProgressBar Value="{Binding ProgressValue}" Margin="0,4,0,0" /><TextBlock Text="{Binding ProgressLabel}" Classes="muted" />
+                        <Button Content="{Binding ActionLabel}" Command="{Binding OpenCommand}" Classes="secondary" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Margin="0,4,0,0" />
+                      </StackPanel>
+                    </StackPanel>
+                  </Border>
+                </DataTemplate>
+              </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            <Border Background="#EBEFE7" CornerRadius="14" Padding="20,16"><TextBlock Text="Una actividad cuenta como practicada al comprobar tu respuesta o recibir retroalimentación de Writing. Puedes volver a intentarlo y explorar cualquier unidad." FontSize="13" Foreground="#587260" /></Border>
+          </StackPanel>
+
+          <StackPanel IsVisible="{Binding UnitPage}" Spacing="18">
+            <WrapPanel Orientation="Horizontal">
+              <Button Content="01  Aprender" Command="{Binding LessonCommand}" Classes="secondary" Margin="0,0,10,8" />
+              <Button Content="02  Practicar" Command="{Binding PracticeCommand}" Classes="primary" Margin="0,0,16,8" />
+              <TextBlock Text="{Binding UnitProgress}" Classes="muted" VerticalAlignment="Center" Margin="0,0,0,8" />
+            </WrapPanel>
+            <Border Classes="card" IsVisible="{Binding ShowLesson}">
+              <StackPanel Spacing="18" MaxWidth="900" HorizontalAlignment="Left">
+                <TextBlock Text="{Binding UnitSubtitle}" Classes="eyebrow" />
+                <ItemsControl ItemsSource="{Binding Lessons}">
+                  <ItemsControl.ItemTemplate>
+                    <DataTemplate x:DataType="ui:LessonItem">
+                      <StackPanel Margin="0,0,0,13">
+                        <TextBlock Text="{Binding Text}" FontSize="20" FontWeight="SemiBold" Margin="0,14,0,4" IsVisible="{Binding Heading}" />
+                        <TextBlock Text="{Binding Text}" LineHeight="25" IsVisible="{Binding Paragraph}" />
+                        <Grid ColumnDefinitions="20,*" IsVisible="{Binding Bullet}"><TextBlock Text="•" Foreground="#4B8062" /><TextBlock Grid.Column="1" Text="{Binding Text}" LineHeight="25" /></Grid>
+                        <Border Background="#EDF3E9" CornerRadius="10" Padding="18" IsVisible="{Binding Example}"><TextBlock Text="{Binding Text}" FontSize="17" FontStyle="Italic" LineHeight="27" /></Border>
+                        <ItemsControl ItemsSource="{Binding Rows}" IsVisible="{Binding Table}">
+                          <ItemsControl.ItemTemplate><DataTemplate x:DataType="x:String"><Border Background="#F5F7F4" BorderBrush="#DFE7DE" BorderThickness="0,0,0,1" Padding="14,10"><TextBlock Text="{Binding}" FontSize="14" LineHeight="23" /></Border></DataTemplate></ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                      </StackPanel>
+                    </DataTemplate>
+                  </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                <Button Content="Ponerlo en práctica  →" Classes="primary" Command="{Binding PracticeCommand}" HorizontalAlignment="Left" />
+              </StackPanel>
+            </Border>
+            <Expander Header="Ir a una actividad" IsExpanded="False" IsVisible="{Binding ShowActivity}">
+              <ItemsControl ItemsSource="{Binding ActivityItems}"><ItemsControl.ItemsPanel><ItemsPanelTemplate><WrapPanel /></ItemsPanelTemplate></ItemsControl.ItemsPanel><ItemsControl.ItemTemplate><DataTemplate x:DataType="ui:ActivityItem"><Button Content="{Binding Label}" Command="{Binding OpenCommand}" Classes="secondary" Margin="0,4,8,4" /></DataTemplate></ItemsControl.ItemTemplate></ItemsControl>
+            </Expander>
+            <Border Classes="card" IsVisible="{Binding ShowClosed}" MaxWidth="920" HorizontalAlignment="Stretch">
+              <StackPanel Spacing="20">
+                <TextBlock Text="{Binding ActivityNumber}" Classes="eyebrow" /><TextBlock Text="{Binding ActivityType}" FontSize="22" FontWeight="SemiBold" />
+                <TextBlock Text="{Binding Prompt}" FontSize="20" LineHeight="29" />
+                <ListBox x:Name="AnswerChoices" ItemsSource="{Binding Options}" SelectedItem="{Binding SelectedChoice}" Background="Transparent" BorderThickness="0" IsVisible="{Binding ShowOptions}" IsEnabled="{Binding CanEdit}" AutomationProperties.AutomationId="AnswerChoices">
+                  <ListBox.ItemTemplate><DataTemplate x:DataType="core:ChoiceOption"><Grid ColumnDefinitions="30,*"><TextBlock Text="{Binding Id}" FontWeight="SemiBold" Foreground="#5D8672" /><TextBlock Grid.Column="1" Text="{Binding Text}" FontSize="17" /></Grid></DataTemplate></ListBox.ItemTemplate>
+                </ListBox>
+                <TextBox Text="{Binding WordAnswer}" PlaceholderText="Escribe una palabra…" IsVisible="{Binding ShowWord}" IsEnabled="{Binding CanEdit}" MaxLength="80" AutomationProperties.AutomationId="WordAnswer" />
+                <Button Content="Comprobar respuesta" Classes="primary" Command="{Binding CheckCommand}" HorizontalAlignment="Left" AutomationProperties.AutomationId="CheckAnswer" />
+                <Border Background="#EFF3E8" CornerRadius="12" Padding="20" IsVisible="{Binding HasClosedFeedback}"><StackPanel Spacing="10"><TextBlock Text="{Binding ClosedHeading}" FontSize="20" FontWeight="SemiBold" /><TextBlock Text="{Binding ClosedText}" LineHeight="25" /><Button Content="Siguiente actividad  →" Command="{Binding NextCommand}" Classes="quiet" HorizontalAlignment="Left" /></StackPanel></Border>
+              </StackPanel>
+            </Border>
+          </StackPanel>
+
+          <StackPanel IsVisible="{Binding LabPage}" Spacing="16">
+            <Border Classes="card"><StackPanel Spacing="12"><TextBlock Text="Consigna libre" FontSize="19" FontWeight="SemiBold" /><ComboBox ItemsSource="{Binding Levels}" SelectedItem="{Binding LabLevel}" Width="120" HorizontalAlignment="Left" IsEnabled="{Binding CanEdit}" /><TextBox Text="{Binding LabTask}" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="90" MaxLength="1000" IsEnabled="{Binding CanEdit}" /><WrapPanel><Button Content="Usar ejemplo correcto" Command="{Binding CorrectExampleCommand}" Classes="secondary" Margin="0,0,8,8" IsEnabled="{Binding CanEdit}" /><Button Content="Usar ejemplo incorrecto" Command="{Binding IncorrectExampleCommand}" Classes="secondary" Margin="0,0,8,8" IsEnabled="{Binding CanEdit}" /><Button Content="Simular JSON inválido" Command="{Binding SimulateCommand}" Classes="quiet" Margin="0,0,0,8" /></WrapPanel><TextBlock Text="Los ejemplos corresponden a una presentación personal. La simulación no ejecuta la IA ni se guarda como una evaluación real." Classes="muted" /></StackPanel></Border>
+          </StackPanel>
+
+          <Grid x:Name="WritingGrid" ColumnDefinitions="*,*" RowDefinitions="Auto,Auto" IsVisible="{Binding ShowWriting}">
+            <Border x:Name="WritingEditor" Classes="card" Margin="0,0,16,0">
+              <StackPanel Spacing="16">
+                <TextBlock Text="TU TURNO DE ESCRIBIR" Classes="eyebrow" /><TextBlock Text="{Binding Prompt}" FontSize="20" LineHeight="29" />
+                <TextBlock Text="Escribe entre dos y cuatro frases. Puedes revisar la lección y volver a intentarlo cuando quieras." Classes="muted" />
+                <TextBox x:Name="WritingAnswer" Text="{Binding StudentText}" PlaceholderText="Start writing here…" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="190" MaxHeight="380" MaxLength="4000" IsEnabled="{Binding CanEdit}" AutomationProperties.AutomationId="WritingAnswer" />
+                <TextBlock Text="{Binding CharacterCount}" Classes="muted" />
+                <Border Background="#F0F3EA" CornerRadius="12" Padding="16" IsVisible="{Binding NeedsModel}">
+                  <StackPanel Spacing="10"><TextBlock Text="Prepara tu ayuda de Writing" FontWeight="SemiBold" /><TextBlock Text="{Binding SelectedModelName}" FontSize="13" /><TextBlock Text="Se verifica o descarga el modelo y se compara CPU con Vulkan. Solo se hace al prepararlo; la primera vez puede tardar varios minutos." Classes="muted" /><Button Content="{Binding PrepareLabel}" Command="{Binding PrepareCommand}" Classes="primary" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" AutomationProperties.AutomationId="PrepareWritingModel" /><Button Content="Ver modelos y opciones" Command="{Binding NavigateCommand}" CommandParameter="models" Classes="quiet" HorizontalAlignment="Left" /></StackPanel>
+                </Border>
+                <StackPanel Spacing="10" IsVisible="{Binding ModelReady}"><TextBlock Text="{Binding SelectedModelName}" Classes="muted" /><Button Content="Evaluar mi Writing  →" Classes="primary" Command="{Binding EvaluateCommand}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" AutomationProperties.AutomationId="EvaluateWriting" /><TextBlock Text="La evaluación se realiza en tu equipo. El modelo puede equivocarse; usa su respuesta como ayuda para revisar." Classes="muted" /></StackPanel>
+                <StackPanel IsVisible="{Binding IsBusy}" Spacing="8"><ProgressBar Value="{Binding Transfer}" IsIndeterminate="{Binding TransferIndeterminate}" /><TextBlock Text="{Binding ModelMessage}" Classes="muted" /></StackPanel>
+              </StackPanel>
+            </Border>
+            <Border x:Name="WritingResult" Grid.Column="1" Classes="card">
+              <StackPanel Spacing="17">
+                <TextBlock Text="RETROALIMENTACIÓN" Classes="eyebrow" />
+                <StackPanel IsVisible="{Binding EmptyResult}" Spacing="17" Margin="0,22,0,16"><TextBlock Text="✦" FontSize="42" Foreground="#81A591" /><TextBlock Text="Otra mirada&#10;a tus palabras." FontSize="28" FontWeight="SemiBold" /><TextBlock Text="Cuando evalúes tu respuesta, aquí aparecerán el texto revisado y las sugerencias del modelo." Foreground="#71847D" LineHeight="25" /></StackPanel>
+                <StackPanel IsVisible="{Binding HasResult}" Spacing="16">
+                  <TextBlock Text="{Binding Verdict}" Foreground="{Binding VerdictColor}" FontSize="24" FontWeight="SemiBold" />
+                  <Border Background="#ECF3E7" Padding="10,6" CornerRadius="7" HorizontalAlignment="Left"><TextBlock Text="{Binding ParseStatus}" FontSize="12" Foreground="#4B6F52" /></Border>
+                  <StackPanel Spacing="8" IsVisible="{Binding UsableResult}"><TextBlock Text="Texto revisado" FontWeight="SemiBold" /><SelectableTextBlock Text="{Binding CorrectedText}" TextWrapping="Wrap" FontSize="17" LineHeight="27" /></StackPanel>
+                  <TextBlock Text="{Binding Feedback}" LineHeight="25" />
+                  <Border IsVisible="{Binding HasEdits}" Background="#F7F3EB" CornerRadius="10" Padding="15"><StackPanel Spacing="9"><TextBlock Text="Cambios sugeridos" FontWeight="SemiBold" /><TextBlock Text="{Binding Edits}" LineHeight="25" /></StackPanel></Border>
+                  <TextBlock Text="{Binding ResultMetrics}" Classes="muted" />
+                  <Expander Header="Ver JSON y detalles" IsExpanded="False"><StackPanel Spacing="12"><SelectableTextBlock Text="{Binding Raw}" FontFamily="Cascadia Code, Consolas, monospace" FontSize="12" TextWrapping="Wrap" /><Button Content="Exportar evaluación JSON" Command="{Binding FileCommand}" CommandParameter="SessionJson" IsEnabled="{Binding HasSession}" Classes="secondary" HorizontalAlignment="Left" /></StackPanel></Expander>
+                  <Button Content="Continuar con el curso  →" Command="{Binding NextCommand}" Classes="secondary" IsVisible="{Binding UnitPage}" HorizontalAlignment="Left" />
+                </StackPanel>
+              </StackPanel>
+            </Border>
+          </Grid>
+
+          <StackPanel IsVisible="{Binding HistoryPage}" Spacing="20">
+            <WrapPanel><Button Content="Exportar JSON" Command="{Binding FileCommand}" CommandParameter="HistoryJson" Classes="secondary" Margin="0,0,8,8" /><Button Content="Exportar CSV" Command="{Binding FileCommand}" CommandParameter="HistoryCsv" Classes="quiet" Margin="0,0,0,8" /></WrapPanel>
+            <Border Classes="card" IsVisible="{Binding EmptyHistory}" Padding="35"><StackPanel Spacing="12"><TextBlock Text="Cada intento cuenta." FontSize="26" FontWeight="SemiBold" /><TextBlock Text="Cuando compruebes un ejercicio o evalúes tu Writing, lo encontrarás aquí. Tu historial se guarda solo en este dispositivo." Foreground="#6C8178" /></StackPanel></Border>
+            <ItemsControl ItemsSource="{Binding History}"><ItemsControl.ItemTemplate><DataTemplate x:DataType="ui:HistoryItem"><Button Command="{Binding OpenCommand}" Classes="secondary" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" Margin="0,0,0,9" Padding="20,17"><Grid ColumnDefinitions="*,Auto"><StackPanel Spacing="5"><TextBlock Text="{Binding Title}" FontWeight="SemiBold" /><TextBlock Text="{Binding Status}" FontSize="13" Foreground="#698070" /></StackPanel><StackPanel Grid.Column="1" Spacing="5" Margin="12,0,0,0"><TextBlock Text="{Binding Date}" FontSize="12" HorizontalAlignment="Right" /><TextBlock Text="{Binding Kind}" Classes="eyebrow" HorizontalAlignment="Right" /></StackPanel></Grid></Button></DataTemplate></ItemsControl.ItemTemplate></ItemsControl>
+            <Border Classes="card" IsVisible="{Binding HasHistoryDetail}"><SelectableTextBlock Text="{Binding HistoryDetail}" TextWrapping="Wrap" LineHeight="25" /></Border>
+          </StackPanel>
+
+          <StackPanel IsVisible="{Binding ModelsPage}" Spacing="20">
+            <Border Background="#E9EFDF" CornerRadius="16" Padding="23"><StackPanel Spacing="10"><TextBlock Text="Lo sencillo, primero." FontSize="23" FontWeight="SemiBold" /><TextBlock Text="{Binding Recommendation}" LineHeight="24" /><CheckBox Content="Elegir el modelo automáticamente" IsChecked="{Binding AutomaticModel}" IsEnabled="{Binding CanEdit}" /><Button Content="Actualizar recomendación" Command="{Binding RecommendCommand}" Classes="quiet" HorizontalAlignment="Left" /></StackPanel></Border>
+            <Border Classes="card"><StackPanel Spacing="16">
+              <TextBlock Text="Modelo para practicar" Classes="section" />
+              <TextBlock Text="Elige otra opción cuando quieras. Cambiar de modelo no elimina los archivos que ya preparaste." Classes="muted" />
+              <ComboBox ItemsSource="{Binding RecommendedModels}" SelectedItem="{Binding SelectedModel}" IsEnabled="{Binding CanEdit}" AutomationProperties.AutomationId="RecommendedModelPicker"><ComboBox.ItemTemplate><DataTemplate x:DataType="shared:ModelEntry"><TextBlock Text="{Binding Label}" /></DataTemplate></ComboBox.ItemTemplate></ComboBox>
+              <TextBlock Text="{Binding ModelInfo}" Classes="muted" /><TextBlock Text="{Binding Availability}" Foreground="#3E735B" FontSize="13" />
+              <WrapPanel><Button Content="{Binding PrepareLabel}" Command="{Binding PrepareCommand}" Classes="primary" Margin="0,0,10,8" /><Button Content="Solo descargar / verificar" Command="{Binding DownloadCommand}" Classes="secondary" Margin="0,0,10,8" /><Button Content="Importar GGUF…" Command="{Binding FileCommand}" CommandParameter="ImportModel" Classes="secondary" Margin="0,0,10,8" /><Button Content="Liberar memoria" Command="{Binding UnloadCommand}" Classes="quiet" Margin="0,0,0,8" /></WrapPanel>
+              <ProgressBar Value="{Binding Transfer}" IsIndeterminate="{Binding TransferIndeterminate}" IsVisible="{Binding IsBusy}" /><TextBlock Text="{Binding ModelMessage}" LineHeight="24" /><TextBlock Text="{Binding RuntimeInfo}" Classes="muted" />
+              <Expander Header="Opciones avanzadas · catálogo completo y motor" IsExpanded="{Binding Advanced}">
+                <StackPanel Spacing="16" Margin="0,12,0,0">
+                  <TextBlock Text="Catálogo completo · 18 configuraciones" FontWeight="SemiBold" /><TextBlock Text="Incluye cuantizaciones grandes, variantes experimentales y Qwen 3.5 2B de Unsloth. La elección manual se respeta; revisa sus requisitos de memoria y licencia." Classes="muted" />
+                  <ComboBox x:Name="FullModelPicker" ItemsSource="{Binding Models}" SelectedItem="{Binding SelectedModel}" IsEnabled="{Binding CanEdit}" AutomationProperties.AutomationId="FullModelPicker"><ComboBox.ItemTemplate><DataTemplate x:DataType="shared:ModelEntry"><TextBlock Text="{Binding Label}" /></DataTemplate></ComboBox.ItemTemplate></ComboBox>
+                  <TextBlock Text="Motor de inferencia" FontWeight="SemiBold" /><ComboBox ItemsSource="{Binding BackendChoices}" SelectedItem="{Binding SelectedBackend}" IsEnabled="{Binding CanEdit}" />
+                  <Grid ColumnDefinitions="*,*"><StackPanel Margin="0,0,14,0" Spacing="7"><TextBlock Text="Contexto (tokens)" Classes="muted" /><ComboBox ItemsSource="{Binding ContextChoices}" SelectedItem="{Binding Context}" IsEnabled="{Binding CanEdit}" /></StackPanel><StackPanel Grid.Column="1" Spacing="7"><TextBlock Text="Intentos de formato" Classes="muted" /><ComboBox ItemsSource="{Binding AttemptChoices}" SelectedItem="{Binding MaximumAttempts}" IsEnabled="{Binding CanEdit}" /></StackPanel></Grid>
+                  <TextBlock Text="Los reintentos solo buscan una salida interpretable. No eligen una respuesta por su calidad. Thinking permanece desactivado cuando el modelo permite controlarlo." Classes="muted" />
+                  <Button Content="Consultar adaptadores y capas" Command="{Binding InspectCommand}" Classes="secondary" HorizontalAlignment="Left" />
+                  <ComboBox ItemsSource="{Binding Adapters}" SelectedItem="{Binding SelectedAdapter}" PlaceholderText="Adaptador automático" IsEnabled="{Binding CanEdit}" />
+                  <TextBox Text="{Binding ManualLayers}" PlaceholderText="Capas GPU: vacío = estimación automática" IsEnabled="{Binding CanEdit}" />
+                  <TextBlock Text="Para fijar adaptador y capas, elige Vulkan. Con capas manuales no hay sustitución por CPU. Automático compara CPU con GPU y admite reparto parcial cuando demuestra beneficio." Classes="muted" />
+                  <Button Content="Recalibrar este modelo" Command="{Binding RecalibrateCommand}" Classes="secondary" HorizontalAlignment="Left" />
+                  <Expander Header="Procedencia y diagnóstico"><StackPanel Spacing="12"><SelectableTextBlock Text="{Binding ModelSource}" TextWrapping="Wrap" FontSize="12" /><TextBlock Text="{Binding DeviceInfo}" FontSize="13" /></StackPanel></Expander>
+                  <Button Content="Abrir laboratorio de Writing  →" Command="{Binding NavigateCommand}" CommandParameter="lab" Classes="secondary" HorizontalAlignment="Left" />
+                </StackPanel>
+              </Expander>
+            </StackPanel></Border>
+            <Border Classes="card"><StackPanel Spacing="14"><TextBlock Text="Tu progreso, a salvo" Classes="section" /><TextBlock Text="Guarda un respaldo para recuperar tus borradores y tu historial. Los pesos de los modelos se conservan por separado y no se incluyen en el respaldo." Classes="muted" /><WrapPanel><Button Content="Crear respaldo…" Command="{Binding FileCommand}" CommandParameter="Backup" Classes="secondary" Margin="0,0,10,8" /><Button Content="Restaurar respaldo…" Command="{Binding FileCommand}" CommandParameter="Restore" Classes="quiet" Margin="0,0,0,8" /></WrapPanel></StackPanel></Border>
+          </StackPanel>
+        </StackPanel>
+      </ScrollViewer>
+      <Border x:Name="StatusBar" Grid.Row="2" Background="#EEF1EA" BorderBrush="#E0E7DC" BorderThickness="0,1,0,0" Padding="20,11">
+        <Grid ColumnDefinitions="*,Auto"><TextBlock Text="{Binding Status}" FontSize="12" Foreground="#5A7163" VerticalAlignment="Center" MaxHeight="55" /><Button Grid.Column="1" Content="Cancelar" Command="{Binding CancelCommand}" IsVisible="{Binding IsBusy}" Classes="secondary" Margin="12,0,0,0" MinHeight="36" Padding="12,6" /></Grid>
+      </Border>
+    </Grid>
+    <Border x:Name="BottomNavigation" Grid.Row="1" Grid.ColumnSpan="2" IsVisible="False" Background="White" BorderBrush="#DBE4DA" BorderThickness="0,1,0,0" Padding="8,5">
+      <UniformGrid Columns="3"><Button Content="▤  Curso" Command="{Binding NavigateCommand}" CommandParameter="course" Classes="quiet" HorizontalContentAlignment="Center" /><Button Content="◷  Historial" Command="{Binding NavigateCommand}" CommandParameter="history" Classes="quiet" HorizontalContentAlignment="Center" /><Button Content="◇  Modelos" Command="{Binding NavigateCommand}" CommandParameter="models" Classes="quiet" HorizontalContentAlignment="Center" /></UniformGrid>
+    </Border>
+  </Grid>
+</UserControl>

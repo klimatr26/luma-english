@@ -1,0 +1,213 @@
+{
+  "reviewer": "Codex AI integration, independent gpt-6-luna/max A1 and A2 reviews; no human execution approval",
+  "source_sha256": {
+    "A1_cases.json": "e2b7075b3db86d75a44f8a1accaa771359a7d44dd5ab4e570b470d7ccf56f50c",
+    "A2_cases.json": "ed40ec9181e340fb86e55f331cca98f2acb5b03f3bf4bda99b0b37340e811279"
+  },
+  "independent_review_complete": true,
+  "independent_review_artifacts_sha256": {
+    "A1_independent_review_current.md": "8a37e5d1b0cddd0fcaf78f7466e3fb78f5c874099c21f8afa219d29add0801c2",
+    "A2_independent_review_current.md": "b8f98cebac516b2788a2c2be9cf6edfec32f5f29fed2cf62e2d5bde019964869"
+  },
+  "unresolved_blockers": [],
+  "unresolved_reviews": [],
+  "similarity_pairs_reviewed": [],
+  "execution_approved": false,
+  "human_execution_approval": null,
+  "resolution_notes": [
+    "A1-E001 collective BrE reading replaced by art teacher singular agreement.",
+    "A1-E005/E006/E019/E026/E033 and A2-E004/E020/E025/E034/E037 licensed alternatives/explanations expanded before outputs.",
+    "A1-E040 resemblance to old A1-E12 noticed below lexical threshold; new museum rule preserves error count/taxonomy and avoids source-like narrative.",
+    "A1-E012 diversified from A1-E026 game-at-home scenario into club supplies/sign scenario; remaining request construction is shared communicative skill, not equivalent content.",
+    "All 120 entries independently audited; controls and standard variants preserved. A2-E029 punctuation only is not isolated A2 grammar evidence.",
+    "Final lexical candidate list is empty; finite lexical/AI review does not establish absence of every semantic paraphrase."
+  ],
+  "top_pairs_reviewed": [
+    {
+      "case_id": "A1-E017",
+      "other_case_id": "A1-E032",
+      "source": "within_120",
+      "exact": false,
+      "sequence_ratio": 0.5854,
+      "trigram_jaccard": 0.0652,
+      "trigram_containment": 0.1304
+    },
+    {
+      "case_id": "A1-E019",
+      "other_case_id": "A1-E13",
+      "source": "against_40",
+      "exact": false,
+      "sequence_ratio": 0.5538,
+      "trigram_jaccard": 0.0213,
+      "trigram_containment": 0.0455
+    },
+    {
+      "case_id": "A1-C006",
+      "other_case_id": "A1-E017",
+      "source": "within_120",
+      "exact": false,
+      "sequence_ratio": 0.548,
+      "trigram_jaccard": 0.0741,
+      "trigram_containment": 0.1538
+    },
+    {
+      "case_id": "A1-E032",
+      "other_case_id": "A1-E037",
+      "source": "within_120",
+      "exact": false,
+      "sequence_ratio": 0.5,
+      "trigram_jaccard": 0.0,
+      "trigram_containment": 0.0
+    },
+    {
+      "case_id": "A1-C005",
+      "other_case_id": "A1-E018",
+      "source": "within_120",
+      "exact": false,
+      "sequence_ratio": 0.4862,
+      "trigram_jaccard": 0.0,
+      "trigram_containment": 0.0
+    },
+    {
+      "case_id": "A1-E003",
+      "other_case_id": "A1-C03",
+      "source": "against_40",
+      "exact": false,
+      "sequence_ratio": 0.4836,
+      "trigram_jaccard": 0.0,
+      "trigram_containment": 0.0
+    },
+    {
+      "case_id": "A1-C007",
+      "other_case_id": "A2-E14",
+      "source": "against_40",
+      "exact": false,
+      "sequence_ratio": 0.4798,
+      "trigram_jaccard": 0.0167,
+      "trigram_containment": 0.0385
+    },
+    {
+      "case_id": "A1-E001",
+      "other_case_id": "A2-E04",
+      "source": "against_40",
+      "exact": false,
+      "sequence_ratio": 0.4789,
+      "trigram_jaccard": 0.0,
+      "trigram_containment": 0.0
+    },
+    {
+      "case_id": "A1-E010",
+      "other_case_id": "A1-E13",
+      "source": "against_40",
+      "exact": false,
+      "sequence_ratio": 0.4788,
+      "trigram_jaccard": 0.0,
+      "trigram_containment": 0.0
+    },
+    {
+      "case_id": "A1-C002",
+      "other_case_id": "A2-E14",
+      "source": "against_40",
+      "exact": false,
+      "sequence_ratio": 0.4717,
+      "trigram_jaccard": 0.0,
+      "trigram_containment": 0.0
+    },
+    {
+      "case_id": "A1-E044",
+      "other_case_id": "A2-E04",
+      "source": "against_40",
+      "exact": false,
+      "sequence_ratio": 0.4689,
+      "trigram_jaccard": 0.0435,
+      "trigram_containment": 0.0833
+    },
+    {
+      "case_id": "A1-E021",
+      "other_case_id": "A1-E044",
+      "source": "within_120",
+      "exact": false,
+      "sequence_ratio": 0.4681,
+      "trigram_jaccard": 0.0,
+      "trigram_containment": 0.0
+    },
+    {
+      "case_id": "A1-E013",
+      "other_case_id": "A1-E023",
+      "source": "within_120",
+      "exact": false,
+      "sequence_ratio": 0.4677,
+      "trigram_jaccard": 0.0,
+      "trigram_containment": 0.0
+    },
+    {
+      "case_id": "A1-E026",
+      "other_case_id": "A1-E041",
+      "source": "within_120",
+      "exact": false,
+      "sequence_ratio": 0.464,
+      "trigram_jaccard": 0.0,
+      "trigram_containment": 0.0
+    },
+    {
+      "case_id": "A1-E008",
+      "other_case_id": "A1-E11",
+      "source": "against_40",
+      "exact": false,
+      "sequence_ratio": 0.4636,
+      "trigram_jaccard": 0.0541,
+      "trigram_containment": 0.1111
+    },
+    {
+      "case_id": "A1-E035",
+      "other_case_id": "A1-E14",
+      "source": "against_40",
+      "exact": false,
+      "sequence_ratio": 0.4622,
+      "trigram_jaccard": 0.0,
+      "trigram_containment": 0.0
+    },
+    {
+      "case_id": "A1-E038",
+      "other_case_id": "A1-E13",
+      "source": "against_40",
+      "exact": false,
+      "sequence_ratio": 0.4622,
+      "trigram_jaccard": 0.0,
+      "trigram_containment": 0.0
+    },
+    {
+      "case_id": "A1-C006",
+      "other_case_id": "A1-E005",
+      "source": "within_120",
+      "exact": false,
+      "sequence_ratio": 0.4573,
+      "trigram_jaccard": 0.0,
+      "trigram_containment": 0.0
+    },
+    {
+      "case_id": "A1-E031",
+      "other_case_id": "A2-E032",
+      "source": "within_120",
+      "exact": false,
+      "sequence_ratio": 0.457,
+      "trigram_jaccard": 0.025,
+      "trigram_containment": 0.0625
+    },
+    {
+      "case_id": "A1-E039",
+      "other_case_id": "A1-E04",
+      "source": "against_40",
+      "exact": false,
+      "sequence_ratio": 0.4569,
+      "trigram_jaccard": 0.0222,
+      "trigram_containment": 0.0476
+    }
+  ],
+  "audit_formatting_cleanup": {
+    "file": "A1_independent_review_current.md",
+    "prior_sha256": "6f423675b6c7ef3d7f2bbfd7e02502d41243a6c7588e251fc012dd56e5c69a95",
+    "current_sha256": "8a37e5d1b0cddd0fcaf78f7466e3fb78f5c874099c21f8afa219d29add0801c2",
+    "change": "Trailing Markdown spaces removed by parent; audit conclusions/source unchanged."
+  }
+}

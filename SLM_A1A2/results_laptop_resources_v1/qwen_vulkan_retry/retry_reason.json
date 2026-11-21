@@ -1,0 +1,6 @@
+{
+  "primary_manifest_sha256": "0a96a45c54cd2fe6e8e8812bc1d3849d1c22340ceca51f302cedf1bccfe48161",
+  "initial_failure": "vk::Queue::submit: ErrorDeviceLost during Qwen/Vulkan load",
+  "cases_sent_before_retry": 0,
+  "rationale": "One technical readiness retry after confirming the same GPU responded idle again. Identical model, runtime, sampling, sample and admission thresholds."
+}

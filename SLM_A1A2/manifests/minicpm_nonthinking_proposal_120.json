@@ -1,0 +1,51 @@
+{
+  "status": "APPLIED_AND_RUNTIME_VALIDATED_16_OF_16",
+  "reason": "Actual readiness returned content empty, reasoning_content populated, finish_reason length at512; native MiniCPM template explicitly supports enable_thinking=false.",
+  "change_purpose": "Fulfil existing non-thinking requirement; do not tune sampling/max_tokens or score output quality.",
+  "rows": [
+    {
+      "config_id": "04-minicpm5-2b-f16",
+      "native_template_sha256": "cc945752db555d60949b16989df4ccfeb52a313d6b4b5c5229dd786e2e9fcf1c",
+      "current_chat_template_kwargs": null,
+      "proposed_chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "synthetic_render_with_thinking": "<s><|im_start|>user\nHe go to school every day.<|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "synthetic_render_without_thinking": "<s><|im_start|>user\nHe go to school every day.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "no_generation_performed": true
+    },
+    {
+      "config_id": "05-minicpm5-2b-q8-0",
+      "native_template_sha256": "cc945752db555d60949b16989df4ccfeb52a313d6b4b5c5229dd786e2e9fcf1c",
+      "current_chat_template_kwargs": null,
+      "proposed_chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "synthetic_render_with_thinking": "<s><|im_start|>user\nHe go to school every day.<|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "synthetic_render_without_thinking": "<s><|im_start|>user\nHe go to school every day.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "no_generation_performed": true
+    },
+    {
+      "config_id": "06-minicpm5-2b-q4-k-m",
+      "native_template_sha256": "cc945752db555d60949b16989df4ccfeb52a313d6b4b5c5229dd786e2e9fcf1c",
+      "current_chat_template_kwargs": null,
+      "proposed_chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "synthetic_render_with_thinking": "<s><|im_start|>user\nHe go to school every day.<|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "synthetic_render_without_thinking": "<s><|im_start|>user\nHe go to school every day.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "no_generation_performed": true
+    }
+  ],
+  "execution_authorized": false,
+  "new_readiness_generation_requires_explicit_exception": false,
+  "manifest_change_invalidates_current_global_sha_binding": true,
+  "main_benchmark_execution_authorized": false,
+  "previous_manifest_sha256": "1aed97be94b3fe559f4ac6b5f6cb4ec1eb3d902ef50ba72c3ae6b98df50dba71",
+  "applied_manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "configuration_change_authorized_by_user": "Thinking debe desactivarse para todos los modelos para los que puede ser desactivado.",
+  "technical_repeat_exception_authorized": true,
+  "technical_repeat_authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+  "completed_readiness_report_sha256": "921ed2df2512edf6ccfb1634657eb07d1ac559bfe11b7732bb9c958a9c76e26a",
+  "execution_authorized_scope_note": "Main benchmark remains unauthorized. Synthetic exception consumed once for each of the four listed configs; no further readiness generation permitted."
+}

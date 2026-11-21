@@ -1,0 +1,83 @@
+{
+  "kind": "AVALONIA_HEADLESS_REAL_CONTROLS_WITH_SYNTHETIC_ENGINE",
+  "dateUtc": "2026-11-20T16:03:01.8481274+00:00",
+  "passed": 15,
+  "total": 15,
+  "checks": [
+    {
+      "id": "UI01-course-works-without-model",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "UI02-closed-selection-check-and-history",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "UI03-writing-draft-navigation-and-model-change",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "UI04-catalog-bindings-include-all-qwen2-variants",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "UI05-real-parser-results-clear-on-edit",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "UI06-json-warning-and-simulation-no-progress",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "UI07-reconfiguration-disables-old-loaded-model",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "UI08-responsive-portrait-landscape-and-wide",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "UI12-android-view-recreation-preserves-live-state",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "UI13-platform-back-retains-writing-draft",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "UI14-software-keyboard-keeps-editor-visible-without-double-insets",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "UI15-manual-model-persists-after-startup-and-backup-restore",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "UI09-larger-writing-text-and-keyboard-focus",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "UI10-render-home-and-writing-evidence",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "UI11-inconsistent-output-displays-warning-without-verdict",
+      "passed": true,
+      "error": null
+    }
+  ]
+}

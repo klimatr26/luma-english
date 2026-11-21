@@ -1,0 +1,319 @@
+{
+  "purpose": "PHONE_INTEGRATION_NOT_BENCHMARK",
+  "firmware": "POCO/alioth_global/alioth:13/TKQ1.221114.001/V816.0.5.0.TKHMIXM:user/release-keys",
+  "api": 33,
+  "device_at_inventory": {
+    "Platform": "Android",
+    "Architecture": "arm64-v8a",
+    "TotalMemoryBytes": 7886557184,
+    "AvailableMemoryBytes": 2117615616,
+    "FreeStorageBytes": 14434062336,
+    "IsEmulator": false,
+    "GpuDescription": null
+  },
+  "ui_checks_passed": 63,
+  "ui_checks_total": 63,
+  "ui_success": true,
+  "keyboard_opened": true,
+  "models": [
+    {
+      "model_id": "13-gemma4-e2b-ud-q4-k-xl",
+      "model_sha256": "e531007218dfab990486a5de7676a6932d6ea8dea233d1f698d7c21cf8a16889",
+      "success": null,
+      "engine": {
+        "Requested": "AutoVulkanCpu",
+        "Backend": "CPU",
+        "Device": "CPU / libggml-cpu-android_armv8.2_2.so",
+        "OffloadedLayers": 0,
+        "FallbackReason": "CPU seleccionada: Vulkan no demostró tres respuestas utilizables con una mejora mínima del 15 %.",
+        "ContextTokens": 2048,
+        "ResponseFormat": "writing_json_grammar_v1",
+        "TotalLayers": 36,
+        "AdapterId": ""
+      },
+      "reason": "CPU seleccionada: Vulkan no demostró tres respuestas utilizables con una mejora mínima del 15 %.",
+      "profile_key": "f6ccd9735ef55ec521d99685715d7711e144e04550b2ea954abe52ebbc38a331",
+      "profile_date_utc": "2026-11-21T00:16:54.6627774+00:00",
+      "trials": [
+        {
+          "placement": {
+            "DeviceIndex": -1,
+            "DeviceId": null,
+            "GpuLayers": 0,
+            "Key": "CPU"
+          },
+          "failure": null,
+          "samples": [
+            {
+              "Backend": "CPU",
+              "Seconds": 22.123049054,
+              "Tokens": 237,
+              "FinishReason": "stop",
+              "ParserStatus": "STRICT",
+              "Failure": null
+            },
+            {
+              "Backend": "CPU",
+              "Seconds": 22.486600773,
+              "Tokens": 237,
+              "FinishReason": "stop",
+              "ParserStatus": "STRICT",
+              "Failure": null
+            },
+            {
+              "Backend": "CPU",
+              "Seconds": 23.732321658,
+              "Tokens": 237,
+              "FinishReason": "stop",
+              "ParserStatus": "STRICT",
+              "Failure": null
+            }
+          ],
+          "complete": true,
+          "three_usable_outputs": true,
+          "median_seconds": 22.486600773
+        },
+        {
+          "placement": {
+            "DeviceIndex": 0,
+            "DeviceId": "Turnip Adreno (TM) 650",
+            "GpuLayers": 18,
+            "Key": "Vulkan/Turnip Adreno (TM) 650/18"
+          },
+          "failure": "El motor superó 180 s. Registro: /data/user/0/org.kevinlima.writinglab/files/driver-cache/logs/worker-3e1a91710afd4dbfb6a5158cbd41a680.log",
+          "samples": [],
+          "complete": false,
+          "three_usable_outputs": false,
+          "median_seconds": null
+        },
+        {
+          "placement": {
+            "DeviceIndex": 0,
+            "DeviceId": "Turnip Adreno (TM) 650",
+            "GpuLayers": 17,
+            "Key": "Vulkan/Turnip Adreno (TM) 650/17"
+          },
+          "failure": "El motor superó 180 s. Registro: /data/user/0/org.kevinlima.writinglab/files/driver-cache/logs/worker-dcb0b0fe9a604f74aeb714d17978c3a6.log",
+          "samples": [],
+          "complete": false,
+          "three_usable_outputs": false,
+          "median_seconds": null
+        }
+      ],
+      "prepare_including_calibration_seconds": 501.082889,
+      "cached_prepare_seconds": null,
+      "same_profile_reused": null,
+      "course_examples": [
+        {
+          "example_expected_is_correct": true,
+          "usable": true,
+          "parser": "STRICT",
+          "model_is_correct": true,
+          "verdict_matches_example": true,
+          "seconds": 18.598984316,
+          "finish_reason": "stop",
+          "metrics": {
+            "PromptTokens": 770,
+            "OutputTokens": 124,
+            "DecodedTokens": 124,
+            "PromptSeconds": 6.456739000000001,
+            "DecodeSeconds": 12.064461000000001,
+            "ClosedThinkingPrefill": false,
+            "DecodeTokensPerSecond": 10.278121832380243
+          }
+        },
+        {
+          "example_expected_is_correct": false,
+          "usable": true,
+          "parser": "STRICT",
+          "model_is_correct": false,
+          "verdict_matches_example": true,
+          "seconds": 19.882052232,
+          "finish_reason": "stop",
+          "metrics": {
+            "PromptTokens": 770,
+            "OutputTokens": 164,
+            "DecodedTokens": 164,
+            "PromptSeconds": 5.135891000000001,
+            "DecodeSeconds": 14.6554,
+            "ClosedThinkingPrefill": false,
+            "DecodeTokensPerSecond": 11.190414454740232
+          }
+        }
+      ],
+      "sampled_memory": {
+        "CPU": {
+          "samples_with_worker": 38,
+          "peak_pss_mib": 3120.1591796875,
+          "peak_rss_mib": 3131.5,
+          "peak_swap_pss_mib": 146.6240234375
+        },
+        "Vulkan": {
+          "samples_with_worker": 110,
+          "peak_pss_mib": 2899.1884765625,
+          "peak_rss_mib": 2908.6015625,
+          "peak_swap_pss_mib": 1971.8193359375
+        }
+      },
+      "completed_phase_report": false,
+      "source_artifact": "gemma\\gemma-checkpoint.json",
+      "harness_interruption": {
+        "kind": "HARNESS_POST_MODEL_CACHE_WAIT_INTERRUPTED",
+        "source": "gemma/gemma-checkpoint.json",
+        "reason": "Diagnostic helper waited for UnloadCommand.CanExecute after unload; unload intentionally disables that command.",
+        "native_calibration_and_two_course_examples_retained": true,
+        "production_app_failure": false,
+        "no_model_outputs_discarded": true,
+        "cache_reuse_not_claimed_by_this_attempt": true
+      }
+    },
+    {
+      "model_id": "06-minicpm5-2b-q4-k-m",
+      "model_sha256": "ec2d5801640099e97d8d7e8003ad4d81f336e757811f03a26173dddf386602fd",
+      "success": true,
+      "engine": {
+        "Requested": "AutoVulkanCpu",
+        "Backend": "CPU",
+        "Device": "CPU / libggml-cpu-android_armv8.2_2.so",
+        "OffloadedLayers": 0,
+        "FallbackReason": "CPU seleccionada: Vulkan no demostró tres respuestas utilizables con una mejora mínima del 15 %.",
+        "ContextTokens": 2048,
+        "ResponseFormat": "writing_json_grammar_v1",
+        "TotalLayers": 43,
+        "AdapterId": ""
+      },
+      "reason": "CPU seleccionada: Vulkan no demostró tres respuestas utilizables con una mejora mínima del 15 %.",
+      "profile_key": "f3eb346bdb0003c46212ca42ff89adc47a55fbb0995c68d3cd87fa896d081159",
+      "profile_date_utc": "2026-11-21T00:32:07.9477631+00:00",
+      "trials": [
+        {
+          "placement": {
+            "DeviceIndex": -1,
+            "DeviceId": null,
+            "GpuLayers": 0,
+            "Key": "CPU"
+          },
+          "failure": null,
+          "samples": [
+            {
+              "Backend": "CPU",
+              "Seconds": 19.126991503,
+              "Tokens": 69,
+              "FinishReason": "stop",
+              "ParserStatus": "STRICT",
+              "Failure": null
+            },
+            {
+              "Backend": "CPU",
+              "Seconds": 19.987773066,
+              "Tokens": 69,
+              "FinishReason": "stop",
+              "ParserStatus": "STRICT",
+              "Failure": null
+            },
+            {
+              "Backend": "CPU",
+              "Seconds": 22.27625671,
+              "Tokens": 69,
+              "FinishReason": "stop",
+              "ParserStatus": "STRICT",
+              "Failure": null
+            }
+          ],
+          "complete": true,
+          "three_usable_outputs": true,
+          "median_seconds": 19.987773066
+        },
+        {
+          "placement": {
+            "DeviceIndex": 0,
+            "DeviceId": "Turnip Adreno (TM) 650",
+            "GpuLayers": 43,
+            "Key": "Vulkan/Turnip Adreno (TM) 650/43"
+          },
+          "failure": "vk::Device::waitForFences: ErrorDeviceLost Registro: /data/user/0/org.kevinlima.writinglab/files/driver-cache/logs/worker-05c39b3a02434c22990b0890854073ac.log",
+          "samples": [],
+          "complete": false,
+          "three_usable_outputs": false,
+          "median_seconds": null
+        },
+        {
+          "placement": {
+            "DeviceIndex": 0,
+            "DeviceId": "Turnip Adreno (TM) 650",
+            "GpuLayers": 42,
+            "Key": "Vulkan/Turnip Adreno (TM) 650/42"
+          },
+          "failure": "El motor superó 180 s. Registro: /data/user/0/org.kevinlima.writinglab/files/driver-cache/logs/worker-6b7c8126eec74dac9c4c7d962f7e01d3.log",
+          "samples": [],
+          "complete": false,
+          "three_usable_outputs": false,
+          "median_seconds": null
+        }
+      ],
+      "prepare_including_calibration_seconds": 286.2694603,
+      "cached_prepare_seconds": 12.6053303,
+      "same_profile_reused": true,
+      "course_examples": [
+        {
+          "example_expected_is_correct": true,
+          "usable": true,
+          "parser": "STRICT",
+          "model_is_correct": true,
+          "verdict_matches_example": true,
+          "seconds": 41.866645973,
+          "finish_reason": "stop",
+          "metrics": {
+            "PromptTokens": 742,
+            "OutputTokens": 63,
+            "DecodedTokens": 63,
+            "PromptSeconds": 30.539826,
+            "DecodeSeconds": 11.298736000000002,
+            "ClosedThinkingPrefill": false,
+            "DecodeTokensPerSecond": 5.575844944071619
+          }
+        },
+        {
+          "example_expected_is_correct": false,
+          "usable": true,
+          "parser": "STRICT",
+          "model_is_correct": false,
+          "verdict_matches_example": true,
+          "seconds": 57.551176697,
+          "finish_reason": "stop",
+          "metrics": {
+            "PromptTokens": 742,
+            "OutputTokens": 154,
+            "DecodedTokens": 154,
+            "PromptSeconds": 29.497857,
+            "DecodeSeconds": 28.005868999999997,
+            "ClosedThinkingPrefill": false,
+            "DecodeTokensPerSecond": 5.498847402306995
+          }
+        }
+      ],
+      "sampled_memory": {
+        "CPU": {
+          "samples_with_worker": 52,
+          "peak_pss_mib": 2918.3330078125,
+          "peak_rss_mib": 2920.28515625,
+          "peak_swap_pss_mib": 116.142578125
+        },
+        "Vulkan": {
+          "samples_with_worker": 53,
+          "peak_pss_mib": 1061.9462890625,
+          "peak_rss_mib": 1118.0,
+          "peak_swap_pss_mib": 0.2392578125
+        }
+      },
+      "completed_phase_report": true,
+      "source_artifact": "minicpm-foreground\\minicpm.json",
+      "harness_interruption": null
+    }
+  ],
+  "memory_notes": [
+    "Sampled simultaneous PSS/RSS sums of app and native worker; not total unified CPU+GPU memory.",
+    "Samples in the first two seconds after a backend change are excluded; short-lived peaks can be missed.",
+    "No reliable attributable GPU allocation peak is claimed."
+  ]
+}

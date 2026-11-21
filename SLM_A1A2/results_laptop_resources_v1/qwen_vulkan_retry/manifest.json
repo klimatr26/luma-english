@@ -1,0 +1,185 @@
+{
+  "context": 2048,
+  "seed": 42,
+  "thinking": false,
+  "guided_json": true,
+  "retries": 0,
+  "llama_cpp_commit": "b1b770d90d94cad9e9ea5b993bdbc383a522fb28",
+  "scope": "laptop_resources_v1",
+  "prepared_utc": "2026-11-18T23:18:09.024054+00:00",
+  "case_count": 15,
+  "source": "benchmark_development_120_v1.json",
+  "source_sha256": "07308427c02adcc056a8964d3e4da41615db4b7fc0101870e277097de46d59f9",
+  "frozen_manifest_sha256": "9ec595218c105e6a2b48d515dcffd01bbfd762b94646b2958f5f972b987e9878",
+  "subset": "cases.json",
+  "subset_sha256": "bcb795c97a56287400c65fe9a54f41e930f2eb445e93e14ab56e2175dffe9f77",
+  "selection": [
+    {
+      "id": "A1-E017",
+      "level": "A1",
+      "condition": "incorrect",
+      "length_words": 28
+    },
+    {
+      "id": "A2-E023",
+      "level": "A2",
+      "condition": "incorrect",
+      "length_words": 47
+    },
+    {
+      "id": "A2-C010",
+      "level": "A2",
+      "condition": "correct",
+      "length_words": 53
+    },
+    {
+      "id": "A2-C001",
+      "level": "A2",
+      "condition": "correct",
+      "length_words": 57
+    },
+    {
+      "id": "A1-E010",
+      "level": "A1",
+      "condition": "incorrect",
+      "length_words": 26
+    },
+    {
+      "id": "A2-E004",
+      "level": "A2",
+      "condition": "incorrect",
+      "length_words": 40
+    },
+    {
+      "id": "A1-E011",
+      "level": "A1",
+      "condition": "incorrect",
+      "length_words": 27
+    },
+    {
+      "id": "A1-E005",
+      "level": "A1",
+      "condition": "incorrect",
+      "length_words": 35
+    },
+    {
+      "id": "A2-E030",
+      "level": "A2",
+      "condition": "incorrect",
+      "length_words": 50
+    },
+    {
+      "id": "A1-C012",
+      "level": "A1",
+      "condition": "correct",
+      "length_words": 33
+    },
+    {
+      "id": "A2-E009",
+      "level": "A2",
+      "condition": "incorrect",
+      "length_words": 46
+    },
+    {
+      "id": "A1-E009",
+      "level": "A1",
+      "condition": "incorrect",
+      "length_words": 24
+    },
+    {
+      "id": "A1-C002",
+      "level": "A1",
+      "condition": "correct",
+      "length_words": 36
+    },
+    {
+      "id": "A2-E007",
+      "level": "A2",
+      "condition": "incorrect",
+      "length_words": 42
+    },
+    {
+      "id": "A2-E005",
+      "level": "A2",
+      "condition": "incorrect",
+      "length_words": 37
+    }
+  ],
+  "native_directory": "cross_demo/native/artifacts/b12359/win-x64",
+  "native_abi": 2,
+  "native_timeout_seconds": 600,
+  "runner_sha256": "c0b1a6edcc9d77263b8cb6ed5648b01b9ab2479cd1e11631092790ad8c168f12",
+  "protocol_sha256": "0a6c6e1a5fce71e02c725c8c7ab9020b98387118a676cd555fe30677bcfd3850",
+  "source_bindings": [
+    {
+      "path": "cross_demo/native/artifacts/b12359/win-x64/ggml-base.dll",
+      "sha256": "4ba96a2de8f9bf5dba77df9194c279dfd8270762e33cc720bc4d061c2bb5e53a"
+    },
+    {
+      "path": "cross_demo/native/artifacts/b12359/win-x64/ggml-cpu.dll",
+      "sha256": "db7a99599aa038221e268c1a42a94ace748e5b337097325fef43e988ec597b4e"
+    },
+    {
+      "path": "cross_demo/native/artifacts/b12359/win-x64/ggml-vulkan.dll",
+      "sha256": "9cc0d9416bf032caa58af66fc7fe700e35a476b74cab94fcb45e08f4eca8213c"
+    },
+    {
+      "path": "cross_demo/native/artifacts/b12359/win-x64/ggml.dll",
+      "sha256": "eedc0f8d0bf7e2014383f1bb40cef326d40494ed08362ff24203abcb6e2a2e32"
+    },
+    {
+      "path": "cross_demo/native/artifacts/b12359/win-x64/llama-common.dll",
+      "sha256": "24e19bb0b30fd8f45a24a2c00322f466587fa62abd659fea5d34f690f5710f74"
+    },
+    {
+      "path": "cross_demo/native/artifacts/b12359/win-x64/llama.dll",
+      "sha256": "cffdf8f5399c30c1a24a2c192ed2675945ada6032c4463027e457052d647bffe"
+    },
+    {
+      "path": "cross_demo/native/artifacts/b12359/win-x64/writing_llama_bridge.dll",
+      "sha256": "336c2a749bc40416fc2aec364a22d89a67ee0a46753639e930cb815c06c47b63"
+    },
+    {
+      "path": "run_finalists_200.py",
+      "sha256": "70c76d4984c5b13cd94883588ad513a94610ad9b128ac7fefe92ac870125aeac"
+    },
+    {
+      "path": "cross_demo/native/include/writing_json_grammar.h",
+      "sha256": "9ef1cf5527de24bf9006fa2f9b33877babbf7d7a9aaf20a73c3809dd423f9e6f"
+    },
+    {
+      "path": "cross_demo/WritingApp.Shared/Assets/prompts.json",
+      "sha256": "47aa3495e208ea714dc34eb08240cef7ac7806c87be794ef55422023d1ba0cd9"
+    },
+    {
+      "path": "cross_demo/WritingApp.Shared/Assets/catalog.json",
+      "sha256": "4e8b97833f3247b289db1673e6c7c4b055d8003b4ff2066c3725a9e5d554e1e1"
+    }
+  ],
+  "configurations": [
+    {
+      "id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+      "model_id": "portable-unsloth-qwen35-4b-q4-k-m",
+      "family": "qwen",
+      "backend": "Vulkan",
+      "quantization": "Q4_K_M",
+      "model_path": "models/Qwen3.5-4B-Q4_K_M.gguf",
+      "model_sha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4",
+      "model_bytes": 2740937888,
+      "source_url": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/tree/e87f176479d0855a907a41277aca2f8ee7a09523",
+      "sampling": {
+        "Temperature": 0.7,
+        "TopP": 0.8,
+        "TopK": 20,
+        "MinP": 0.0,
+        "RepeatPenalty": 1.0,
+        "PresencePenalty": 1.5,
+        "FrequencyPenalty": 0.0,
+        "MaxTokens": 512
+      },
+      "system_prompt": "You are an assistant that provides corrective feedback for short English writing exercises at CEFR A1 and A2.\n\nCorrect only real grammatical, spelling, punctuation, or basic lexical errors.\n\nMake the minimum change necessary.\n\nDo not rewrite correct sentences simply to improve style.\n\nPreserve the student's intended meaning.\n\nIf the text is already correct, do not change it and do not invent errors.\n\nFor every real error:\n- identify the original fragment;\n- provide the correction;\n- identify the error type;\n- give a short and correct explanation.\n\nReturn only one valid JSON object. The field \"is_correct\" must be a JSON boolean: true if the original student text contains no errors, otherwise false.\n\nUse exactly this structure:\n\n{\n  \"is_correct\": false,\n  \"corrected_text\": \"...\",\n  \"errors\": [\n    {\n      \"original\": \"...\",\n      \"correction\": \"...\",\n      \"type\": \"...\",\n      \"explanation\": \"...\"\n    }\n  ],\n  \"feedback\": \"...\"\n}\n\nIf the original text is correct, return \"is_correct\": true, keep \"corrected_text\" identical to the student text, and return an empty \"errors\" array.\n\nAdditional rules for this interactive writing-feedback version:\nSeparate actual errors from optional writing advice. A less usual but grammatically valid expression, a standard regional variant, or a difference of style is not by itself an error. Do not require an imagined physical context to justify a change.\nUse is_correct only for whether the ORIGINAL text contains actual errors. If it is valid, keep corrected_text identical and errors empty. You may still offer one useful, linguistically valid writing suggestion in feedback, explicitly labelled \"Optional writing suggestion (not an error):\". Such advice must not change is_correct, corrected_text, or errors. Advice is optional, never a requirement to find something to change. If there is nothing useful to add, feedback may be empty or a brief natural acknowledgement.\nFor an actual error, preserve the intended facts, references, and meaning. Make every declared correction appear in corrected_text and explain that correction accurately. Do not declare a change that you did not make, repeat an edit, or include empty placeholder error objects. Every original fragment must occur verbatim in the input; use only enough surrounding context to identify the intended occurrence.\nAddress the learner directly using simple, respectful English. Do not speak to a grader, repeat the CEFR level label, invent a rule, or claim that other sentences are correct without checking what you actually changed. Explain the relevant rule briefly and specifically; avoid generic praise or commentary that contradicts the listed edits.\nReturn exactly the four required JSON fields. Do not add fields for advice: optional advice belongs only in feedback. Do not use Markdown fences, headings, or text outside the JSON object.\n\nBefore returning, check that each explanation supports the exact correction you chose, rather than a different edit. Do not turn a stylistic preference into a lexical or grammar rule. For an already valid text, an empty feedback field is acceptable; if you offer advice, clearly mark it optional and do not classify the original as incorrect.",
+      "system_prompt_sha256": "a56bbaf4dbfd39e83f343b3f5b7a7ad49fabbe1b5da97d742746d1a0e92e39b0",
+      "minimum_free_vram_mib": 3500
+    }
+  ]
+}

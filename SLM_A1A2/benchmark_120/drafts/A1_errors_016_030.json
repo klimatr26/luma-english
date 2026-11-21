@@ -1,0 +1,325 @@
+[
+  {
+    "id": "A1-E016",
+    "level": "A1",
+    "task": "Describe a bird you can see near your home.",
+    "student_text": "There is a owl in the tree behind our house. It comes here in the evening, and my sister takes a photo from the kitchen window.",
+    "length_words": 26,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "a owl",
+          "correction": "an owl",
+          "type": "ARTICLE",
+          "explanation": "Use an before a word that begins with a vowel sound, such as owl.",
+          "type_label": "article",
+          "acceptable_corrections": ["an owl"]
+        }
+      ],
+      "corrected_text": "There is an owl in the tree behind our house. It comes here in the evening, and my sister takes a photo from the kitchen window."
+    }
+  },
+  {
+    "id": "A1-E017",
+    "level": "A1",
+    "task": "Say where you keep a small object at home.",
+    "student_text": "My keys are at the table drawer near the front door. I put them there after work, so I can find them before I leave in the morning.",
+    "length_words": 28,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "at the table drawer",
+          "correction": "in the table drawer",
+          "type": "PREPOSITION_PLACE",
+          "explanation": "Use in when the keys are inside the drawer.",
+          "type_label": "preposition of place",
+          "acceptable_corrections": ["in the table drawer"]
+        }
+      ],
+      "corrected_text": "My keys are in the table drawer near the front door. I put them there after work, so I can find them before I leave in the morning."
+    }
+  },
+  {
+    "id": "A1-E018",
+    "level": "A1",
+    "task": "Write a short note about a place you like.",
+    "student_text": "The small bookshop near my school is my favorite place. I go there becaus it has funny comics, and the owner lets me read one before I choose a book.",
+    "length_words": 30,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "becaus",
+          "correction": "because",
+          "type": "SPELLING",
+          "explanation": "The correct spelling is because.",
+          "type_label": "spelling",
+          "acceptable_corrections": ["because"]
+        }
+      ],
+      "corrected_text": "The small bookshop near my school is my favorite place. I go there because it has funny comics, and the owner lets me read one before I choose a book."
+    }
+  },
+  {
+    "id": "A1-E019",
+    "level": "A1",
+    "task": "Describe some fruit in a bowl.",
+    "student_text": "There are much grapes in the blue bowl, but there is only one pear. My brother eats the grapes after lunch, and I save the pear for later.",
+    "length_words": 28,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "much grapes",
+          "correction": "many grapes",
+          "type": "MUCH_MANY",
+          "explanation": "Use many with plural countable nouns such as grapes.",
+          "type_label": "much/many",
+          "acceptable_corrections": ["many grapes"]
+        }
+      ],
+      "corrected_text": "There are many grapes in the blue bowl, but there is only one pear. My brother eats the grapes after lunch, and I save the pear for later."
+    }
+  },
+  {
+    "id": "A1-E020",
+    "level": "A1",
+    "task": "Compare three games that you play with friends.",
+    "student_text": "We have three games in the cupboard. The treasure game is the most easiest, but the picture game is more fun for my little cousin.",
+    "length_words": 25,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "the most easiest",
+          "correction": "the easiest",
+          "type": "SUPERLATIVE",
+          "explanation": "Use easiest by itself; do not add most to an adjective ending in -est.",
+          "type_label": "superlative adjective / double comparison",
+          "acceptable_corrections": ["the easiest"]
+        }
+      ],
+      "corrected_text": "We have three games in the cupboard. The treasure game is the easiest, but the picture game is more fun for my little cousin."
+    }
+  },
+  {
+    "id": "A1-E021",
+    "level": "A1",
+    "task": "Tell a friend about a visit to a farm yesterday.",
+    "student_text": "Yesterday, my class go to a farm outside town. We see two horses and fed the ducks. Our teacher took a picture, and we ate sandwiches under a big tree.",
+    "length_words": 30,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "go",
+          "correction": "went",
+          "type": "PAST_SIMPLE",
+          "explanation": "Use went, the past form of go, for an action yesterday.",
+          "type_label": "past simple / irregular verb",
+          "acceptable_corrections": ["went"]
+        },
+        {
+          "original": "see",
+          "correction": "saw",
+          "type": "PAST_SIMPLE",
+          "explanation": "Use saw, the past form of see, for an action yesterday.",
+          "type_label": "past simple / irregular verb",
+          "acceptable_corrections": ["saw"]
+        }
+      ],
+      "corrected_text": "Yesterday, my class went to a farm outside town. We saw two horses and fed the ducks. Our teacher took a picture, and we ate sandwiches under a big tree."
+    }
+  },
+  {
+    "id": "A1-E022",
+    "level": "A1",
+    "task": "Write about a bus ride to a sports lesson.",
+    "student_text": "On Wednesdays, I wait the number six bus with my neighbor. We ride it to the sports center, where our coach teaches us how to swim safely.",
+    "length_words": 27,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "wait the number six bus",
+          "correction": "wait for the number six bus",
+          "type": "VERB_PREPOSITION",
+          "explanation": "Use for after wait when you say what you are waiting for.",
+          "type_label": "preposition after verb",
+          "acceptable_corrections": ["wait for the number six bus"]
+        }
+      ],
+      "corrected_text": "On Wednesdays, I wait for the number six bus with my neighbor. We ride it to the sports center, where our coach teaches us how to swim safely."
+    }
+  },
+  {
+    "id": "A1-E023",
+    "level": "A1",
+    "task": "Describe an animal and something that belongs to it.",
+    "student_text": "The puppy is playing with it's ball in the garden. My brother throws the ball gently, and the puppy runs after it each time.",
+    "length_words": 24,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "it's ball",
+          "correction": "its ball",
+          "type": "POSSESSIVE_DETERMINER",
+          "explanation": "Use its to show that the ball belongs to the puppy; it's means it is.",
+          "type_label": "possessive determiner / contraction",
+          "acceptable_corrections": ["its ball"]
+        }
+      ],
+      "corrected_text": "The puppy is playing with its ball in the garden. My brother throws the ball gently, and the puppy runs after it each time."
+    }
+  },
+  {
+    "id": "A1-E024",
+    "level": "A1",
+    "task": "Compare the size of two bags you own.",
+    "student_text": "My school bag is more smaller than my travel bag. It has fewer pockets, but it is light and easy to carry on the bus.",
+    "length_words": 25,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "more smaller",
+          "correction": "smaller",
+          "type": "COMPARATIVE",
+          "explanation": "Use smaller by itself; do not add more to this -er comparative.",
+          "type_label": "comparative adjective",
+          "acceptable_corrections": ["smaller"]
+        }
+      ],
+      "corrected_text": "My school bag is smaller than my travel bag. It has fewer pockets, but it is light and easy to carry on the bus."
+    }
+  },
+  {
+    "id": "A1-E025",
+    "level": "A1",
+    "task": "Describe the snacks you brought for a day out.",
+    "student_text": "I packed four sandwichs and two apples for our trip. My friend brought a bottle of water, and we ate everything on a bench by the lake.",
+    "length_words": 27,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "four sandwichs",
+          "correction": "four sandwiches",
+          "type": "NUMBER_AGREEMENT",
+          "explanation": "Use the plural spelling sandwiches after four; nouns ending in -ch add -es.",
+          "type_label": "singular/plural",
+          "acceptable_corrections": ["four sandwiches"]
+        }
+      ],
+      "corrected_text": "I packed four sandwiches and two apples for our trip. My friend brought a bottle of water, and we ate everything on a bench by the lake."
+    }
+  },
+  {
+    "id": "A1-E026",
+    "level": "A1",
+    "task": "Ask a classmate to bring something to your home.",
+    "student_text": "Hi Mia, can you bring your new puzzle to my house after school. My brother wants to play it with us, and I have some lemonade.",
+    "length_words": 26,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "after school.",
+          "correction": "after school?",
+          "type": "PUNCTUATION",
+          "explanation": "Use a question mark because this sentence asks Mia to do something.",
+          "type_label": "punctuation",
+          "acceptable_corrections": ["after school?"]
+        }
+      ],
+      "corrected_text": "Hi Mia, can you bring your new puzzle to my house after school? My brother wants to play it with us, and I have some lemonade."
+    }
+  },
+  {
+    "id": "A1-E027",
+    "level": "A1",
+    "task": "Ask someone about the start of a music lesson.",
+    "student_text": "What time the music lesson starts on Friday? I want to arrive early because the teacher has a new song for our group to learn.",
+    "length_words": 25,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "What time the music lesson starts",
+          "correction": "What time does the music lesson start",
+          "type": "QUESTION_FORMATION",
+          "explanation": "For a present simple question with a singular subject, use does before the subject and the base verb start.",
+          "type_label": "present simple question word order",
+          "acceptable_corrections": ["What time does the music lesson start"]
+        }
+      ],
+      "corrected_text": "What time does the music lesson start on Friday? I want to arrive early because the teacher has a new song for our group to learn."
+    }
+  },
+  {
+    "id": "A1-E028",
+    "level": "A1",
+    "task": "Write about what a family member does not eat.",
+    "student_text": "My uncle doesn't eats eggs in the morning, but he likes toast with honey. He drinks tea before work and takes an apple with him for lunch.",
+    "length_words": 27,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "doesn't eats",
+          "correction": "doesn't eat",
+          "type": "VERB_FORM_AFTER_DO",
+          "explanation": "After doesn't, use the base form of the verb: eat.",
+          "type_label": "present simple / verb form after do",
+          "acceptable_corrections": ["doesn't eat"]
+        }
+      ],
+      "corrected_text": "My uncle doesn't eat eggs in the morning, but he likes toast with honey. He drinks tea before work and takes an apple with him for lunch."
+    }
+  },
+  {
+    "id": "A1-E029",
+    "level": "A1",
+    "task": "Explain how you travel to your evening class.",
+    "student_text": "I by bicycle go to my evening class with my neighbor. We leave home at six and pass the fruit shop before we reach the school.",
+    "length_words": 26,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "I by bicycle go",
+          "correction": "I go by bicycle",
+          "type": "WORD_ORDER",
+          "explanation": "In a basic statement, put the verb after the subject and the way of travelling after the verb.",
+          "type_label": "word order",
+          "acceptable_corrections": ["I go by bicycle"]
+        }
+      ],
+      "corrected_text": "I go by bicycle to my evening class with my neighbor. We leave home at six and pass the fruit shop before we reach the school."
+    }
+  },
+  {
+    "id": "A1-E030",
+    "level": "A1",
+    "task": "Ask a friend to give you a pen for a short time.",
+    "student_text": "Please borrow me your green pen for the art lesson. I left mine at home, and I can give it back to you before we go outside.",
+    "length_words": 27,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "borrow me your green pen",
+          "correction": "lend me your green pen",
+          "type": "LEXICAL_CHOICE",
+          "explanation": "Use lend when you give something to another person for a short time; borrow means receive it.",
+          "type_label": "basic lexical choice",
+          "acceptable_corrections": ["lend me your green pen"]
+        }
+      ],
+      "corrected_text": "Please lend me your green pen for the art lesson. I left mine at home, and I can give it back to you before we go outside."
+    }
+  }
+]

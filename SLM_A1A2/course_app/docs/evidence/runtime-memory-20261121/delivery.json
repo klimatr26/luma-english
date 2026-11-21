@@ -1,0 +1,56 @@
+{
+  "dateUtc": "2026-11-21T08:20:11.802009+00:00",
+  "version": "1.1.2",
+  "windows_manifest_files_verified": 254,
+  "windows_retained_native": [
+    {
+      "path": "ggml-base.dll",
+      "sha256": "4ba96a2de8f9bf5dba77df9194c279dfd8270762e33cc720bc4d061c2bb5e53a"
+    },
+    {
+      "path": "ggml-cpu.dll",
+      "sha256": "db7a99599aa038221e268c1a42a94ace748e5b337097325fef43e988ec597b4e"
+    },
+    {
+      "path": "ggml-vulkan.dll",
+      "sha256": "9cc0d9416bf032caa58af66fc7fe700e35a476b74cab94fcb45e08f4eca8213c"
+    },
+    {
+      "path": "ggml.dll",
+      "sha256": "eedc0f8d0bf7e2014383f1bb40cef326d40494ed08362ff24203abcb6e2a2e32"
+    },
+    {
+      "path": "llama-common.dll",
+      "sha256": "24e19bb0b30fd8f45a24a2c00322f466587fa62abd659fea5d34f690f5710f74"
+    },
+    {
+      "path": "llama.dll",
+      "sha256": "cffdf8f5399c30c1a24a2c192ed2675945ada6032c4463027e457052d647bffe"
+    },
+    {
+      "path": "writing_llama_bridge.dll",
+      "sha256": "f006ccde902bb0a98573dcd17b5694bf6d9bd8e427c51f0e8908389248e3ba19"
+    },
+    {
+      "path": "writing_worker.exe",
+      "sha256": "edb4703a0e7aac03d470dfccadd966690f717f50343ff3ccb77b98c97aff1589"
+    }
+  ],
+  "packages": [
+    {
+      "name": "LumaEnglish-Windows-x64-1.1.2.zip",
+      "bytes": 97146447,
+      "sha256": "c937c64e48a55f7ae363f5c6c5d086e6f4dc9c9c3b53e7189da1180ca41100ef"
+    },
+    {
+      "name": "LumaEnglish-Android-android-arm64-1.1.2.apk",
+      "bytes": 105002746,
+      "sha256": "87bfd8321243ade59e65583e4e2a7a2775a11c15e26bbf4e089b581078c7fb11"
+    },
+    {
+      "name": "LumaEnglish-Android-android-x64-1.1.2.apk",
+      "bytes": 84491427,
+      "sha256": "335fb34f81d2dd8c699a3450796ed5d9188f212924cbf8766180661f4660889f"
+    }
+  ]
+}

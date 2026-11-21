@@ -1,0 +1,181 @@
+{
+  "audit_version": 1,
+  "audit_script_sha256": "5c493e2fb35701f21c4d63841ef13b27b057ce1a87643c750582a199d157d7af",
+  "audited_utc": "2026-11-19T03:24:53.470476+00:00",
+  "status": "passed_with_documented_limits",
+  "new_inferences": 0,
+  "imported_files_verified": 161,
+  "frozen_source_bindings_verified": 27,
+  "subsets_reconstructed": 5,
+  "unique_development_cases": 15,
+  "successful_resource_responses": 165,
+  "blocks": [
+    {
+      "scope": "results_laptop_resources_v1",
+      "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+      "successful": 15,
+      "native_seconds_median": 37.1996376,
+      "rss_peak_gib": 2.6847305297851562,
+      "vram_peak_mib": 0
+    },
+    {
+      "scope": "results_laptop_resources_v1",
+      "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+      "successful": 15,
+      "native_seconds_median": 84.1309146,
+      "rss_peak_gib": 4.147850036621094,
+      "vram_peak_mib": 0
+    },
+    {
+      "scope": "results_laptop_resources_v1",
+      "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+      "successful": 15,
+      "native_seconds_median": 8.8828353,
+      "rss_peak_gib": 1.8113327026367188,
+      "vram_peak_mib": 1831
+    },
+    {
+      "scope": "results_laptop_resources_v1",
+      "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+      "successful": 0,
+      "native_seconds_median": null,
+      "rss_peak_gib": null,
+      "vram_peak_mib": null
+    },
+    {
+      "scope": "results_laptop_resources_v1/qwen_vulkan_retry",
+      "config_id": "portable-unsloth-qwen35-4b-q4-k-m--vulkan",
+      "successful": 0,
+      "native_seconds_median": null,
+      "rss_peak_gib": 1.1510391235351562,
+      "vram_peak_mib": 2606
+    },
+    {
+      "scope": "results_laptop_hybrid_gpu_v1",
+      "config_id": "qwen--quadro-p1000--32",
+      "successful": 15,
+      "native_seconds_median": 23.2202389,
+      "rss_peak_gib": 3.3270034790039062,
+      "vram_peak_mib": 3165
+    },
+    {
+      "scope": "results_laptop_hybrid_gpu_v1",
+      "config_id": "qwen--intel-uhd630--all",
+      "successful": 0,
+      "native_seconds_median": null,
+      "rss_peak_gib": 3.82513427734375,
+      "vram_peak_mib": null
+    },
+    {
+      "scope": "results_laptop_hybrid_gpu_v1",
+      "config_id": "gemma--intel-uhd630--all",
+      "successful": 15,
+      "native_seconds_median": 45.4844672,
+      "rss_peak_gib": 3.6651229858398438,
+      "vram_peak_mib": null
+    },
+    {
+      "scope": "results_laptop_battery_v1",
+      "config_id": "qwen--quadro-p1000--32",
+      "successful": 15,
+      "native_seconds_median": 25.3733265,
+      "rss_peak_gib": 3.3005332946777344,
+      "vram_peak_mib": 3165
+    },
+    {
+      "scope": "results_laptop_battery_v1",
+      "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+      "successful": 15,
+      "native_seconds_median": 9.6333357,
+      "rss_peak_gib": 1.6701087951660156,
+      "vram_peak_mib": 1831
+    },
+    {
+      "scope": "results_laptop_battery_v1",
+      "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+      "successful": 15,
+      "native_seconds_median": 33.5897142,
+      "rss_peak_gib": 2.6874008178710938,
+      "vram_peak_mib": 0
+    },
+    {
+      "scope": "results_laptop_battery_v1",
+      "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+      "successful": 15,
+      "native_seconds_median": 74.8706679,
+      "rss_peak_gib": 4.151187896728516,
+      "vram_peak_mib": 1
+    },
+    {
+      "scope": "results_laptop_vram2g_v1",
+      "config_id": "qwen--quadro--14",
+      "successful": 15,
+      "native_seconds_median": 46.1196883,
+      "rss_peak_gib": 3.3188705444335938,
+      "vram_peak_mib": 1920
+    },
+    {
+      "scope": "results_laptop_vram2g_v1",
+      "config_id": "gemma--quadro--18",
+      "successful": 15,
+      "native_seconds_median": 17.9011207,
+      "rss_peak_gib": 1.7902183532714844,
+      "vram_peak_mib": 1347
+    }
+  ],
+  "paired_speedups": [
+    {
+      "comparison": "gemma",
+      "cpu_over_gpu_median": 4.727571059760273,
+      "gpu_faster_cases": 15,
+      "cases": 15
+    },
+    {
+      "comparison": "qwen",
+      "cpu_over_gpu_median": 3.590930026143454,
+      "gpu_faster_cases": 15,
+      "cases": 15
+    },
+    {
+      "comparison": "gemma_partial",
+      "cpu_over_gpu_median": 2.064625135821449,
+      "gpu_faster_cases": 15,
+      "cases": 15
+    },
+    {
+      "comparison": "qwen_partial",
+      "cpu_over_gpu_median": 1.8246176706063568,
+      "gpu_faster_cases": 15,
+      "cases": 15
+    }
+  ],
+  "battery_inside_run_wh": 37.226,
+  "battery_block_energy_whole_system": [
+    {
+      "config_id": "13-gemma4-e2b-ud-q4-k-xl--cpu",
+      "wmi_samples": 39,
+      "observed_wh": 7.842
+    },
+    {
+      "config_id": "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+      "wmi_samples": 11,
+      "observed_wh": 3.003
+    },
+    {
+      "config_id": "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+      "wmi_samples": 84,
+      "observed_wh": 18.873
+    },
+    {
+      "config_id": "qwen--quadro-p1000--32",
+      "wmi_samples": 28,
+      "observed_wh": 6.711
+    }
+  ],
+  "limits": [
+    "Diagnostic executable hashes are recorded, but those executables were absent from the supplied copy.",
+    "The original failed Qwen full-load attempt lacks peak telemetry; its technical retry is preserved.",
+    "No Windows residency/page-fault trace proves that the Intel timings were caused by memory spillover.",
+    "These are resource measurements on 15 reused development cases, not new accuracy measurements."
+  ]
+}

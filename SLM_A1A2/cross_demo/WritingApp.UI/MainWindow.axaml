@@ -1,0 +1,8 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="WritingApp.UI.MainWindow"
+        Title="Writing local · A1/A2"
+        Width="1260" Height="920" MinWidth="360" MinHeight="600"
+        WindowStartupLocation="CenterScreen">
+  <ContentControl x:Name="RootContent" />
+</Window>

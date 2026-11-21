@@ -1,0 +1,1022 @@
+{
+  "created_utc": "2026-11-19T03:26:18.072468+00:00",
+  "purpose": "Local evidence and read-only audit; no weights or new inference",
+  "archive": "SLM_A1A2/results_laptop_integration_v1/laptop_20261118_evidence.zip",
+  "bytes": 34913339,
+  "sha256": "d616dca51b7e1ad0f8cb7ab0ae3da99df243d5cc2d97557df9a69275bbfe8525",
+  "entries": 200,
+  "models_included": false,
+  "native_dlls_included": 15,
+  "files": [
+    {
+      "path": "SLM_A1A2/benchmark_development_120_v1.json",
+      "bytes": 169207,
+      "sha256": "07308427c02adcc056a8964d3e4da41615db4b7fc0101870e277097de46d59f9"
+    },
+    {
+      "path": "SLM_A1A2/benchmark_finalists_200_v1.json",
+      "bytes": 251966,
+      "sha256": "ecfe10cf6942788bfa059379e0461ab9e6291a00b5ef330bc806d94cb21dc125"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/artifacts/b12359/win-x64/ggml-base.dll",
+      "bytes": 728576,
+      "sha256": "4ba96a2de8f9bf5dba77df9194c279dfd8270762e33cc720bc4d061c2bb5e53a"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/artifacts/b12359/win-x64/ggml-cpu.dll",
+      "bytes": 1159680,
+      "sha256": "db7a99599aa038221e268c1a42a94ace748e5b337097325fef43e988ec597b4e"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/artifacts/b12359/win-x64/ggml-vulkan.dll",
+      "bytes": 42138624,
+      "sha256": "9cc0d9416bf032caa58af66fc7fe700e35a476b74cab94fcb45e08f4eca8213c"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/artifacts/b12359/win-x64/ggml.dll",
+      "bytes": 62464,
+      "sha256": "eedc0f8d0bf7e2014383f1bb40cef326d40494ed08362ff24203abcb6e2a2e32"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/artifacts/b12359/win-x64/llama-common.dll",
+      "bytes": 9175552,
+      "sha256": "24e19bb0b30fd8f45a24a2c00322f466587fa62abd659fea5d34f690f5710f74"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/artifacts/b12359/win-x64/llama.dll",
+      "bytes": 3211776,
+      "sha256": "cffdf8f5399c30c1a24a2c192ed2675945ada6032c4463027e457052d647bffe"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/artifacts/b12359/win-x64/writing_llama_bridge.dll",
+      "bytes": 69120,
+      "sha256": "336c2a749bc40416fc2aec364a22d89a67ee0a46753639e930cb815c06c47b63"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/include/vulkan_version_policy.h",
+      "bytes": 340,
+      "sha256": "4ba25e70de12fdfd2beae54d4f61c2dd950a73ea4aec0154da86ac892593677b"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/include/writing_json_grammar.h",
+      "bytes": 690,
+      "sha256": "9ef1cf5527de24bf9006fa2f9b33877babbf7d7a9aaf20a73c3809dd423f9e6f"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/include/writing_llama_bridge.h",
+      "bytes": 2907,
+      "sha256": "d5bfebb6e6cbb01a05ffd1f1e5a123226bfc6f51ca0427941122d6eae7b08ecf"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/include/writing_prompt_policy.h",
+      "bytes": 624,
+      "sha256": "f9cbeded47eb0e36ec8c5dfa107d7fcd8fc0b2d34e9b64fbb79d8c07e3198361"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/src/writing_llama_bridge.cpp",
+      "bytes": 26699,
+      "sha256": "1ca23cd6dde3552b82731cc63ba3bfa2f38040982faa2fe07e044db3b56e3110"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Shared/Assets/catalog.json",
+      "bytes": 13033,
+      "sha256": "4e8b97833f3247b289db1673e6c7c4b055d8003b4ff2066c3725a9e5d554e1e1"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Shared/Assets/prompts.json",
+      "bytes": 11209,
+      "sha256": "47aa3495e208ea714dc34eb08240cef7ac7806c87be794ef55422023d1ba0cd9"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.Core/Contracts.cs",
+      "bytes": 2850,
+      "sha256": "c557ad164b45990d364f2d741385ad34ba0f5604056ae95e59a6c45b7282fc06"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.Core/FeedbackParser.cs",
+      "bytes": 11646,
+      "sha256": "aab637a75c37805e405246d62676ace242a730fc78e528336ad90d4819417634"
+    },
+    {
+      "path": "SLM_A1A2/documentation/finalists_200_protocol_20261117.md",
+      "bytes": 8891,
+      "sha256": "691684a0512a85b4a26fd3d979b62d9e779db5c446c1ccce2a6ec629de711a7b"
+    },
+    {
+      "path": "SLM_A1A2/documentation/finalists_200_results_20261117.md",
+      "bytes": 11642,
+      "sha256": "985082ca014d9beaa1b4ba3a6340075101a67a257cb0f3d28f1dca0d900d429d"
+    },
+    {
+      "path": "SLM_A1A2/documentation/laptop_performance_handoff_20261117.md",
+      "bytes": 10630,
+      "sha256": "8440943f43b85ba8ee9580d19466e796c09dc5fbc375173c2d21aa7fd4443b2d"
+    },
+    {
+      "path": "SLM_A1A2/documentation/laptop_resources_protocol_v1.md",
+      "bytes": 3662,
+      "sha256": "0a6c6e1a5fce71e02c725c8c7ab9020b98387118a676cd555fe30677bcfd3850"
+    },
+    {
+      "path": "SLM_A1A2/documentation/laptop_results_integration_20261118.md",
+      "bytes": 14870,
+      "sha256": "fd180e5292ca140854d1842ef121ec1043cfd59312433f55aad92578ae473f85"
+    },
+    {
+      "path": "SLM_A1A2/documentation/vulkan_hybrid_detection_20261118.md",
+      "bytes": 3637,
+      "sha256": "e2c5ac94bf89bd012ce2e7bc3fea581f31cebf540775721d5c839fbea0e3053a"
+    },
+    {
+      "path": "SLM_A1A2/logs/finalists_200_20261117/parser/FinalistsParser.dll",
+      "bytes": 36864,
+      "sha256": "e38aff90ea929aa84a7bddbbff73f32ab919ff3de24f5e4d824fe65168eccf59"
+    },
+    {
+      "path": "SLM_A1A2/manifests/finalists_200_20261117.json",
+      "bytes": 28374,
+      "sha256": "9ec595218c105e6a2b48d515dcffd01bbfd762b94646b2958f5f972b987e9878"
+    },
+    {
+      "path": "SLM_A1A2/manifests/laptop_integration_audit_20261118.json",
+      "bytes": 5450,
+      "sha256": "f60ca43e1b0c54160f05e83212fae326c2b9872cc642ab5aef2b81e8be0f714d"
+    },
+    {
+      "path": "SLM_A1A2/manifests/laptop_integration_import_20261118.json",
+      "bytes": 154467,
+      "sha256": "604c6c0db136f729353244936e787b7e8f04b2c70231411d3d3bfa09e60ee9f7"
+    },
+    {
+      "path": "SLM_A1A2/manifests/laptop_models_reverified_20261118.json",
+      "bytes": 608,
+      "sha256": "c7bc5b91c6439b8649ae44f16fec4409b0a5872816274e7bfbd43b15783279db"
+    },
+    {
+      "path": "SLM_A1A2/requirements-evaluation-v2.txt",
+      "bytes": 5065,
+      "sha256": "52a0e8ae920d1470a37320831c54aa3659e4b8bfae8a1ab0ad5d0c73531e80c6"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/attempts/13-gemma4-e2b-ud-q4-k-xl--cpu.jsonl",
+      "bytes": 6906,
+      "sha256": "5bbe761bd68e9c6de737b220bc9b70aade49bb58e02abdc09abdd78ec7853985"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/attempts/13-gemma4-e2b-ud-q4-k-xl--vulkan.jsonl",
+      "bytes": 6951,
+      "sha256": "a871b0c8ab679a4d0b6344c4e81e872a5fd6db4582d3441068aba965747cbd61"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/attempts/portable-unsloth-qwen35-4b-q4-k-m--cpu.jsonl",
+      "bytes": 7041,
+      "sha256": "6a9e2cc224908e0acdd46f2ba8431158e19b70885290c74ce7b71e223c58f0fa"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/attempts/qwen--quadro-p1000--32.jsonl",
+      "bytes": 6801,
+      "sha256": "797f4130b3be832b6e7c5f6fc524f27429da07c4b5eeb1d0d9fd39f03adb4608"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/battery_wmi.jsonl",
+      "bytes": 31948,
+      "sha256": "b38601c99af4e38ed66fce48534e318c9983dff707cb1687fb868a226367dbdd"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/cases.csv",
+      "bytes": 29144,
+      "sha256": "6780bc494506053512f3b7f72c66bafe441d68e8eedd6c303faef964057acff8"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/cases.json",
+      "bytes": 5092,
+      "sha256": "bcb795c97a56287400c65fe9a54f41e930f2eb445e93e14ab56e2175dffe9f77"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/completion.json",
+      "bytes": 8333,
+      "sha256": "debec0fcdc5226853e027a90271a3fdf19f8b0470394820411ef73796c3d3bee"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/host.json",
+      "bytes": 14324,
+      "sha256": "49992682aa126365ab408cf78c3685e323aa3ee0aa5f3c5c5156eb6d6f14c3f9"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/manifest.json",
+      "bytes": 21596,
+      "sha256": "e8a900e97ca217d470adde1e2a495ccc8d92d16ed0aef4cc25756e942b5d0d38"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/power_bounds.json",
+      "bytes": 353,
+      "sha256": "b88952331e2701190b19d7c390065aad7afba182706860c6261d4fbde3dfb5a8"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/protocol.md",
+      "bytes": 2291,
+      "sha256": "d4e5c5d08c560b2e48253c7562a4bbe71ad8db9b11eb4592fa6d8df19bcc3d56"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/raw/13-gemma4-e2b-ud-q4-k-xl--cpu.jsonl",
+      "bytes": 27552,
+      "sha256": "48615cc59140eda75aaeb3d6e338eb4cf3f4b23cdf9cf572d00269b3abbbd11c"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/raw/13-gemma4-e2b-ud-q4-k-xl--vulkan.jsonl",
+      "bytes": 25720,
+      "sha256": "9c3716f321eb997388e57a6c1cdfb483f36ffe822f43dd320ab54076310374f3"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/raw/portable-unsloth-qwen35-4b-q4-k-m--cpu.jsonl",
+      "bytes": 24473,
+      "sha256": "34f3e25472e03f6759d428996f322cd3335f5892504465c1494e8dbdf6528f9d"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/raw/qwen--quadro-p1000--32.jsonl",
+      "bytes": 24756,
+      "sha256": "ba8216beef275b7a9e801c9eed163fd946a3ca47dda2400e78df3133cddc6607"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/readiness/13-gemma4-e2b-ud-q4-k-xl--cpu.json",
+      "bytes": 16595,
+      "sha256": "b057451e73dfc32149da737c825e13277b8f8f9a88968775de9ce1614d194eca"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/readiness/13-gemma4-e2b-ud-q4-k-xl--vulkan.json",
+      "bytes": 9978,
+      "sha256": "dccfee339e04f438a551d746fb0f2d0919edca7498ef4da34eb90367717119bc"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/readiness/portable-unsloth-qwen35-4b-q4-k-m--cpu.json",
+      "bytes": 25466,
+      "sha256": "6e962f74b4b27eeeab980d2631d31b58cdf05c8f4531c9ced2304436b3e59e4c"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/readiness/qwen--quadro-p1000--32.json",
+      "bytes": 15762,
+      "sha256": "34f8cc9d82010951d2346bc5464648ec1d2f7ba5447cf0952501fb810c16cd85"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/report.md",
+      "bytes": 6477,
+      "sha256": "d3aeef78d71faafe34e57cc6c40750aa308f61a126fe9acfff15601987927f02"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/run.started",
+      "bytes": 34,
+      "sha256": "0eeaac240aa5fd045e712a2fec5520abecd0e975417e8ca27c7e129af38c9cf4"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/summary.csv",
+      "bytes": 2995,
+      "sha256": "f9070ea7e59f8daaf53b45b7ccc65316d99c38ac4a7df474a0fc801944f58b60"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/telemetry/13-gemma4-e2b-ud-q4-k-xl--cpu.jsonl",
+      "bytes": 131066,
+      "sha256": "c2526b1740063bf3fb72bd69fa098f4e1bd77eda308856ee8944cfb8031009b5"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/telemetry/13-gemma4-e2b-ud-q4-k-xl--vulkan.jsonl",
+      "bytes": 66074,
+      "sha256": "c08a71cc13d64fe885a8d7cf21794a27dfd6740fa208b254958b1d008ed2f17c"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/telemetry/portable-unsloth-qwen35-4b-q4-k-m--cpu.jsonl",
+      "bytes": 263752,
+      "sha256": "e01e7f3cbd968752110750d4120c34a0b9a074feae235a8d63490023f6d79350"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/telemetry/qwen--quadro-p1000--32.jsonl",
+      "bytes": 137686,
+      "sha256": "7c3797488f233d5edb265d5284df95f30b03f7160ec87c6f76f385f23147c379"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/worker_hybrid/logs/qwen--quadro-p1000--32.log",
+      "bytes": 185078,
+      "sha256": "04dc4f25c3237ed2d35c62c725ec28fa19e50260bf9bdc3ce5cc252f49638d99"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/worker_hybrid/manifest.json",
+      "bytes": 21658,
+      "sha256": "27bd024f018edba29f9afef4776230c6c2e57b535d4aa9f43dc1eab2ddc2053e"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/worker_original/logs/13-gemma4-e2b-ud-q4-k-xl--cpu.log",
+      "bytes": 231550,
+      "sha256": "e5b59c58786b1798d41597c7df70a485faa89847390bccb6c7fd3bec2914aa8d"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/worker_original/logs/13-gemma4-e2b-ud-q4-k-xl--vulkan.log",
+      "bytes": 205357,
+      "sha256": "21812df24609703dc90194f50690115edc1d85bc3db1ac35074ab49b6cf79ff7"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/worker_original/logs/portable-unsloth-qwen35-4b-q4-k-m--cpu.log",
+      "bytes": 193157,
+      "sha256": "fdfb329d48c70b16345874e3f95c9eb7b815f1e82097579ff8582c69da4d0eb0"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_battery_v1/worker_original/manifest.json",
+      "bytes": 21664,
+      "sha256": "fabf12947feac75ed7ad50d20bb619ef47b0e5cc86fb97c72be762af7972ab83"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/adapter_luids.txt",
+      "bytes": 423,
+      "sha256": "e771e2aa8dae13858a609c85b76f2408945fd7a8b3939991ab2f9868c94d7efd"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/attempts/gemma--intel-uhd630--all.jsonl",
+      "bytes": 6036,
+      "sha256": "cbd13f75038852b97583e44d40fe999e7b03a464d5428145a47c869961a3abde"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/attempts/qwen--quadro-p1000--32.jsonl",
+      "bytes": 6006,
+      "sha256": "1d5d750fe597560b2b3a142c1031ba28851b8f15fde409fb1c6e8953085d1b39"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/bridge_build.json",
+      "bytes": 1263,
+      "sha256": "5e6763676596efb9fe0af2ee67c593746217c1aeedd97ed29dc4a6fc29344e3a"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/build_bridge.ps1",
+      "bytes": 4259,
+      "sha256": "33caabe788bf7e775625ec8081c9db5fee9ad81d583e33871f2a3faafb64c362"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/cases.csv",
+      "bytes": 13996,
+      "sha256": "92434f6a35d49d3601e5f657c9d219fc8438462883c287b5239361d759cea4fa"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/cases.json",
+      "bytes": 5092,
+      "sha256": "bcb795c97a56287400c65fe9a54f41e930f2eb445e93e14ab56e2175dffe9f77"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/completion.json",
+      "bytes": 6196,
+      "sha256": "17da7453ad1d1819cc25eaff8ca7a86a407bee5d9288f97bba6034af50e51410"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/failures.jsonl",
+      "bytes": 172,
+      "sha256": "0cd287658e231e7bfffe7a1475b4ae0790c81965bb99f0ad21b56f414095b2da"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/host.json",
+      "bytes": 8153,
+      "sha256": "45cabd5f8918d56456e0651c36e43eee3b2d9ef8b19f3c13d88f9d19d5c8334f"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/intel_preflight.json",
+      "bytes": 166,
+      "sha256": "1168f3eacf99aa736e5d89e2977979c9ba360c523d18a0f8b70f24a23597a4cf"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/intel_preflight.log",
+      "bytes": 474,
+      "sha256": "cc74989432b3da8ddd5bd1e8c361467806f62cfa4226c4d16afc910c86fcedbc"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/intel_preflight.py",
+      "bytes": 1921,
+      "sha256": "b6f4a8ab0ffa8407daab97e21e878d40b7e373f2a6f4b9a924859e8c36d22802"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/intel_preflight_direct_path.log",
+      "bytes": 421,
+      "sha256": "e1acd9596c2bea89451b6922913bc35726fc9cde1916346316fc875496dd3eed"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/intel_wddm.jsonl",
+      "bytes": 14152,
+      "sha256": "855e325466b8884b5607f58c31969f93a0b6facd9979bed14f7074ffafb0bacd"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/logs/gemma--intel-uhd630--all.log",
+      "bytes": 205658,
+      "sha256": "9cf291037a3e15dc769d021350ef2b9b7dd4c2517931034d66c710080e8db2a2"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/logs/qwen--intel-uhd630--all.log",
+      "bytes": 181398,
+      "sha256": "3664bc477723d9b7645cb12006759b9711e3d9f4160e8389102da83993141cb8"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/logs/qwen--quadro-p1000--32.log",
+      "bytes": 185078,
+      "sha256": "40e2821be672f6905bdb85a3e54a17c5017285de33a86fdfda159b9b30de0acb"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/manifest.json",
+      "bytes": 24898,
+      "sha256": "20d2ccf3debd5918ed59ce5b249c773015c9fe59d2c7fb1539557663f5a3c5a4"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/native/ggml-base.dll",
+      "bytes": 728576,
+      "sha256": "4ba96a2de8f9bf5dba77df9194c279dfd8270762e33cc720bc4d061c2bb5e53a"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/native/ggml-cpu.dll",
+      "bytes": 1159680,
+      "sha256": "db7a99599aa038221e268c1a42a94ace748e5b337097325fef43e988ec597b4e"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/native/ggml-vulkan.dll",
+      "bytes": 42138624,
+      "sha256": "9cc0d9416bf032caa58af66fc7fe700e35a476b74cab94fcb45e08f4eca8213c"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/native/ggml.dll",
+      "bytes": 62464,
+      "sha256": "eedc0f8d0bf7e2014383f1bb40cef326d40494ed08362ff24203abcb6e2a2e32"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/native/llama-common.dll",
+      "bytes": 9175552,
+      "sha256": "24e19bb0b30fd8f45a24a2c00322f466587fa62abd659fea5d34f690f5710f74"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/native/llama.dll",
+      "bytes": 3211776,
+      "sha256": "cffdf8f5399c30c1a24a2c192ed2675945ada6032c4463027e457052d647bffe"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/native/writing_llama_bridge.dll",
+      "bytes": 69632,
+      "sha256": "2ab50457512f2fdb6e271e376799e9288c8dc4fbe7de936ef25a239b408c1a0a"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/protocol.md",
+      "bytes": 2504,
+      "sha256": "15d7838c84189aae28f6a52f1597d41a5c0206ced886a1a577271ca3623d1492"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/raw/gemma--intel-uhd630--all.jsonl",
+      "bytes": 25875,
+      "sha256": "9c8946d87ce76408a9745e9f3cebd6b062c18d368cf53957e4a5cd9de837128f"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/raw/qwen--quadro-p1000--32.jsonl",
+      "bytes": 23220,
+      "sha256": "fd7e412031ec6d777b9b83a93b376aa337781d0f90b289451ae3ece4c9936e08"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/readiness/gemma--intel-uhd630--all.json",
+      "bytes": 12271,
+      "sha256": "0e552b97e4cba9157a1524ff1fd1c6eecbc68131f97b384c14574a02e8cb8184"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/readiness/qwen--intel-uhd630--all.json",
+      "bytes": 2252,
+      "sha256": "298fe846a019e5257cceac4b481064a6c19642ff9b6ae16a0d7a0d5ffee4a97b"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/readiness/qwen--quadro-p1000--32.json",
+      "bytes": 15378,
+      "sha256": "bdfc32f3d23dc05915c75bec45b16f2c15440ac811a14b7212be92d30ab294d7"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/report.md",
+      "bytes": 6248,
+      "sha256": "b01a1fe007d4800d8fab7f7f64c6faf71c476499448287945befe2279a218ad3"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/run.started",
+      "bytes": 34,
+      "sha256": "19845041291a1fedfd0a149b61a6160fe62e17754b63c876ff2668916fb4a247"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/summary.csv",
+      "bytes": 2252,
+      "sha256": "ca9f466e82951d80d26ab4acb59baecae207e10cf1f412a3973ac25ee85995cf"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/telemetry/gemma--intel-uhd630--all.jsonl",
+      "bytes": 72742,
+      "sha256": "d79b2568b54270938d4d30df62b21d8161a7857d00f82c232deaaca47e365312"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_hybrid_gpu_v1/telemetry/qwen--quadro-p1000--32.jsonl",
+      "bytes": 110499,
+      "sha256": "fe29b6d15fe8f73d5baf98cbac486f6e3c73f739efb8d5f2b89b9f2f917e2a83"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_integration_v1/comparison.csv",
+      "bytes": 7690,
+      "sha256": "60da6f369b48dd30c9f2c0e16280d8a0375d42a46bea876c78639e5189b7fa27"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_integration_v1/README.md",
+      "bytes": 1694,
+      "sha256": "5ab3178d94dffa9f86f5f4791ab02b51fac4534b90f08c66c72d669396329885"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/16-layers-mmap/attempt.json",
+      "bytes": 1362,
+      "sha256": "44f868bbea325ba3826bbcf7e427b940550f4c5db4930622b2634572c9fbceb5"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/16-layers-mmap/native.log",
+      "bytes": 183598,
+      "sha256": "666f175d23d618fce8db032f5fb28297464368fb643271517357d1a6d1a61452"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/16-layers-mmap/progress.log",
+      "bytes": 1988,
+      "sha256": "4ce9d3d147acae58a6185c83e8043cef415648a80bf8e5558dc6489dd87e8c65"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/16-layers-mmap/result.json",
+      "bytes": 5110,
+      "sha256": "6490e7fd2959d0f26f265b963af00e1aff090e95ef73b35711d3628ef15fb4e9"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/32-layers-mmap/attempt.json",
+      "bytes": 1362,
+      "sha256": "7e364eafddc83b930a280843bb6122a279104e11fa6cdf4cd0d5463b1880e2f5"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/32-layers-mmap/native.log",
+      "bytes": 183665,
+      "sha256": "cf38bd03f971601226cec3bfbb16cfd186a42e0e9aebdd00e4138ceb74b137dc"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/32-layers-mmap/progress.log",
+      "bytes": 1988,
+      "sha256": "1d2525b26ab5dfe19defbce78880cbd903034696ce266f0995f1a66b7dc53a74"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/32-layers-mmap/result.json",
+      "bytes": 3843,
+      "sha256": "416ac20732bccd338f7724f6c3785b5b34f1129a2e40ca28571cc5c412be48e2"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/full-buffered/attempt.json",
+      "bytes": 1362,
+      "sha256": "fd3b7f6e4a301b7a41da98f2e655f4e5a8e0594c82c810c69e29a01614635b81"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/full-buffered/native.log",
+      "bytes": 72291,
+      "sha256": "39d3075ae48bcf0ddd68b366be606c90f37dea468e77979c259f8cf91141b318"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/full-buffered/progress.log",
+      "bytes": 177,
+      "sha256": "ab3142883588fd7a7d867b866bd69510f3df8dff0d52392cfe2b918fc580dc14"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/full-buffered/result.json",
+      "bytes": 4857,
+      "sha256": "bbf851b017dc9831ba34e941d62e97b7ed34e899c7247e36b36977ca6b0b6f4d"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/full-mmap-block1-cpu/attempt.json",
+      "bytes": 1402,
+      "sha256": "e7becd912db7b37ef34f98237258205dd11f0c81d7b7de1adcf0776c193c5a4c"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/full-mmap-block1-cpu/native.log",
+      "bytes": 184929,
+      "sha256": "f5c54fca6a0bb5692a819fbf3ebfca8d0b93da438f7e66da6887a376c993cecc"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/full-mmap-block1-cpu/progress.log",
+      "bytes": 2019,
+      "sha256": "8423bb11814394dea2f94027b77f975c439fd2b4b39babe1e927a19f557cbbf4"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/full-mmap-block1-cpu/result.json",
+      "bytes": 5402,
+      "sha256": "c7ac570db8eb4a63b0e59f926fe2e83a4c521cacb59b36cd6d58cf7ba17a7449"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/full-mmap-smaller-blocks/attempt.json",
+      "bytes": 1415,
+      "sha256": "e5728d0b06a16e2e1e844bf651765de3147cd12859189d6998a91a2fc66de46d"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/full-mmap-smaller-blocks/native.log",
+      "bytes": 72343,
+      "sha256": "bfecf923b7ca5880c322e52d0a03572fc24f1f6561f5ff878bd47f19f5e953e4"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/full-mmap-smaller-blocks/progress.log",
+      "bytes": 199,
+      "sha256": "62889268910194663af5b02ee01204a1d751a88c34f70caa1a275f6fb2764a7e"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/full-mmap-smaller-blocks/result.json",
+      "bytes": 5164,
+      "sha256": "4065e119e691f310b4d6cdb99f2e4b3c85ff2e7e110f2e704af3180326de9611"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/probe.cpp",
+      "bytes": 6293,
+      "sha256": "d10e991dfb36e0a296ee043fe46555aa69b0bc55ea85a88df3da9a4aa385df54"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/probe_initial.cpp",
+      "bytes": 5747,
+      "sha256": "a4558fe70e3346d57a42a9ca35828a46fe303f3c895b8fff747fb79033c8112e"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/report.md",
+      "bytes": 5492,
+      "sha256": "171952c50dffaa066777919f50a3ae0e4252cf09f71ea1b664d503ee32acdbc8"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/run_probe.py",
+      "bytes": 4484,
+      "sha256": "474e756ad49afd65f0c00c8ee1ead4b792c49bd1d0410e3fb25b95786bd10252"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_qwen_vulkan_diagnostic_v1/windows_events.json",
+      "bytes": 2451,
+      "sha256": "fc337bdfbbef4e42ec8713f4d021a4f02f170efe5b28280a84cd35214fa1a644"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/asset_acquisition.json",
+      "bytes": 715,
+      "sha256": "3abe603ebeb6c3652ea0a2a3376d3e6d8dd05c6073e2e9abacba71b429c2f54b"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/attempts/13-gemma4-e2b-ud-q4-k-xl--cpu.jsonl",
+      "bytes": 6111,
+      "sha256": "c2c3e7020c181532cef61b6933e299c04c0d8c2b3e072d004a1ca886b07b23d8"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/attempts/13-gemma4-e2b-ud-q4-k-xl--vulkan.jsonl",
+      "bytes": 6156,
+      "sha256": "338510e6b4ba76978bea53bf465e42f606aa83aeab20e2e473707212262a5253"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/attempts/portable-unsloth-qwen35-4b-q4-k-m--cpu.jsonl",
+      "bytes": 6246,
+      "sha256": "28d5411981e6c86aeb3afb18643fdd3c016a0ddd8240fb85c483d6837f04465f"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/cases.csv",
+      "bytes": 21192,
+      "sha256": "10555e1d7dc4404ece9d99f7b4247f3046fcce7dbeea7b3753ae0dce44171aef"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/cases.json",
+      "bytes": 5092,
+      "sha256": "bcb795c97a56287400c65fe9a54f41e930f2eb445e93e14ab56e2175dffe9f77"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/completion.json",
+      "bytes": 8165,
+      "sha256": "b651d6d0b70f3339c2947ce9ecc10b3554fe8960ba6d7cfebb7edb3ff4baf023"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/cpu_thermal_acpi.jsonl",
+      "bytes": 15606,
+      "sha256": "a167cde2bc4f05ef146ff2a027741fd3ee9319fa32a73416068d06dea96f534c"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/failures.jsonl",
+      "bytes": 206,
+      "sha256": "9d6fa702757764aded08a42292d352d75cf76b23675830601ba6ffdc81629648"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/host.json",
+      "bytes": 7942,
+      "sha256": "80d596cb09a8bdeec9eaccb3d8bd87e09c1d9c2f15b77bc09dddaf129fa87ec5"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/logs/13-gemma4-e2b-ud-q4-k-xl--cpu.log",
+      "bytes": 231550,
+      "sha256": "03f5e0f68579d84ef2564d5e9df16abda3a46eb8b3b57a593736b803db25dd16"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/logs/13-gemma4-e2b-ud-q4-k-xl--vulkan.log",
+      "bytes": 205357,
+      "sha256": "551dc0924c40de4ea79dccf663a6b00190bb4755c4be8c6546bbf337b9c26229"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/logs/portable-unsloth-qwen35-4b-q4-k-m--cpu.log",
+      "bytes": 193157,
+      "sha256": "653bd1c08abd5d23478b08513153fff0e2aff9aef8b13c2d98844178fd9bd915"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/logs/portable-unsloth-qwen35-4b-q4-k-m--vulkan.log",
+      "bytes": 71882,
+      "sha256": "78412c939e43bb65c74f8d8669bc57a2767e36192c38ca48ca0a98f51ec64b39"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/manifest.json",
+      "bytes": 21343,
+      "sha256": "0a96a45c54cd2fe6e8e8812bc1d3849d1c22340ceca51f302cedf1bccfe48161"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/qwen_vulkan_retry/cases.json",
+      "bytes": 5092,
+      "sha256": "bcb795c97a56287400c65fe9a54f41e930f2eb445e93e14ab56e2175dffe9f77"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/qwen_vulkan_retry/completion.json",
+      "bytes": 2079,
+      "sha256": "7d3aea98a5801cc74934f0fc22ad4c01b82d1333b1d308784bf12dc4e301e135"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/qwen_vulkan_retry/failures.jsonl",
+      "bytes": 222,
+      "sha256": "d120a4a8562ba9e3132daf940f3f1a252c15b9c3b26fc484bef9f9c358b498c7"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/qwen_vulkan_retry/host.json",
+      "bytes": 7943,
+      "sha256": "8a02da5c200f4c35f7a2175ddb5f78522ccbdf7370fa939edbdc44732cd31b10"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/qwen_vulkan_retry/logs/portable-unsloth-qwen35-4b-q4-k-m--vulkan.log",
+      "bytes": 71066,
+      "sha256": "872c6b10eef2fe60d311dfb0895a157d1a0cb0b95f77cd69d04ed358f091eae3"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/qwen_vulkan_retry/manifest.json",
+      "bytes": 8692,
+      "sha256": "eb628d0951849dbbec3bb0d3321227ef71edb445142ddf54d7732f522303232b"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/qwen_vulkan_retry/readiness/portable-unsloth-qwen35-4b-q4-k-m--vulkan.json",
+      "bytes": 6324,
+      "sha256": "f0ad978d43586a4dc8be12dade9cdc7778d861d31791cfac7ca257b65f1f4138"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/qwen_vulkan_retry/retry_reason.json",
+      "bytes": 390,
+      "sha256": "be11721d8ce7d4269f17a0ea8541e4cc6a2568f53fb3e04ba70fa4f566707d10"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/qwen_vulkan_retry/run.started",
+      "bytes": 34,
+      "sha256": "8ad781207a8b65a5769b5a01fe3c549cea1f37f3a9f659974cec9dfd89118a3b"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/qwen_vulkan_retry/summary.csv",
+      "bytes": 1239,
+      "sha256": "2aca41259921b98d70e92bb79dd9d0e4a0ce603bbb83d3afbf1f5ecacc1f6d23"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/qwen_vulkan_retry/verified_assets.json",
+      "bytes": 1891,
+      "sha256": "f9e0798d86f57f2ef5fb4dfa8f210b06ae144a5a72ca4aee12ee64175e8cd325"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/raw/13-gemma4-e2b-ud-q4-k-xl--cpu.jsonl",
+      "bytes": 26000,
+      "sha256": "c140157b59852482ea04d828f40e1f9f11d364d955af6bc7821000e4328fa22e"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/raw/13-gemma4-e2b-ud-q4-k-xl--vulkan.jsonl",
+      "bytes": 24162,
+      "sha256": "a2872b5452c439df8eb0ab731dd28832accbde2097ed471ed69ce5cd2daadba9"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/raw/portable-unsloth-qwen35-4b-q4-k-m--cpu.jsonl",
+      "bytes": 22916,
+      "sha256": "4dddef9cdc30255808ab535d6cab5462d8cf94fb54a923980c4fe13f3534125b"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/readiness/13-gemma4-e2b-ud-q4-k-xl--cpu.json",
+      "bytes": 12998,
+      "sha256": "a2151f961066062c052f0543d19b3cefe915768246f931385dd8d38facac121c"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/readiness/13-gemma4-e2b-ud-q4-k-xl--vulkan.json",
+      "bytes": 13222,
+      "sha256": "86d5e5c49fe31f3ad147f92de0fe3b2c632c8a6d3982fc726a9a60d8252c497c"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/readiness/portable-unsloth-qwen35-4b-q4-k-m--cpu.json",
+      "bytes": 22051,
+      "sha256": "88ed1239a53cbfdd9abd67b86f142a713f48d5798809586313553278a1cdbce8"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/readiness/portable-unsloth-qwen35-4b-q4-k-m--vulkan.json",
+      "bytes": 705,
+      "sha256": "f84ed32bd5a8c7138c934f7596f4c97915e626663108bf7572bb5dec5b496ac6"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/report.md",
+      "bytes": 9442,
+      "sha256": "1671f3eeec3b3d2cb5cfd0390998b89bfcc9516eb6c0f04411dd1b09f54a8625"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/run.started",
+      "bytes": 34,
+      "sha256": "7f29633ec56352f4a3d95a66b5d998afb330855d9e003b39eb8da4a0c357490b"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/runner_used.py",
+      "bytes": 23018,
+      "sha256": "bbe43d5234ee851ce4f88c558fcf917678a678f75d4b48b2f9e4c7ee9abac974"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/summary.csv",
+      "bytes": 2671,
+      "sha256": "308c34a24338fd0416e3e21a4928179e72b0b7bc18cc3c10545ba0aa2f12d988"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/telemetry/13-gemma4-e2b-ud-q4-k-xl--cpu.jsonl",
+      "bytes": 117452,
+      "sha256": "e3bc6256973aed8930a019b2a6efe512139e7ef30799b80e1bf27df228663068"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/telemetry/13-gemma4-e2b-ud-q4-k-xl--vulkan.jsonl",
+      "bytes": 55630,
+      "sha256": "af7c1237020232ba6d229fd6af7b3c22dd5b4794b5d7d4b694ddc0f358be4f17"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/telemetry/portable-unsloth-qwen35-4b-q4-k-m--cpu.jsonl",
+      "bytes": 227198,
+      "sha256": "20a567e6398e2e0149c0d18a850bcecbe97990d6fabb7a7a761ed345cf800d35"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_resources_v1/verified_assets.json",
+      "bytes": 2063,
+      "sha256": "6684d135b66634b8725a70ea719c8cb8b950a9bbdc530872b6655da963ae2c24"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/attempts/gemma--quadro--18.jsonl",
+      "bytes": 5931,
+      "sha256": "c0bba12c1144dd5046e5ce771e61c6de54e2504abc64ba0e9e2f706be255d4cf"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/attempts/qwen--quadro--14.jsonl",
+      "bytes": 5916,
+      "sha256": "52cc8f35a37a1de3586b6abf30894432caa05ae11ce657e354be2ccf69de348d"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/cases.csv",
+      "bytes": 13975,
+      "sha256": "81a68714cd2c436b352985a27a31d5c61a5848a48ae9c610fdf01ca4422c4acc"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/cases.json",
+      "bytes": 5092,
+      "sha256": "bcb795c97a56287400c65fe9a54f41e930f2eb445e93e14ab56e2175dffe9f77"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/completion.json",
+      "bytes": 4290,
+      "sha256": "2c1f71a879c71770b2ea69a5ec63bb207ec146846f5df351353ec93341199b72"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/host.json",
+      "bytes": 7942,
+      "sha256": "86d1c648de175182e96c9c02b8a2baf2b14d38eb977bed834ebaff94b63f5475"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/logs/gemma--quadro--18.log",
+      "bytes": 209711,
+      "sha256": "48af700915210b552ed4ac34d0c5e49c0ba40b14afbdb79d8958d824051f636d"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/logs/qwen--quadro--14.log",
+      "bytes": 184921,
+      "sha256": "64fd3cbc03d4a4e39c9b61facf5a74a9e24365c48294faea1077734b6121f536"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/manifest.json",
+      "bytes": 20513,
+      "sha256": "278028f91fd3a6977ea79fe2d4be1790551458ade8ebbb19660dc94c7340f267"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/protocol.md",
+      "bytes": 1806,
+      "sha256": "f84fac028e3507d99ca41a931573e78d78f562eb8aa3b5cf53808a6e0e2166c6"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/raw/gemma--quadro--18.jsonl",
+      "bytes": 25601,
+      "sha256": "9ff2ee604a07feb7498a93a4935ccc8945178ddfd14231d6d73cf19fe7786a6f"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/raw/qwen--quadro--14.jsonl",
+      "bytes": 22382,
+      "sha256": "6a58f412bc35084379183f7509b9b7b4970eaabd59b3e6553a8faf0b4e44cc62"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/readiness/gemma--quadro--18.json",
+      "bytes": 11408,
+      "sha256": "d7919b176759e2922c310ce19094d8487bba3cced5b742cac56f7b05172cdec5"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/readiness/qwen--quadro--14.json",
+      "bytes": 17931,
+      "sha256": "355d8422b8267c08b0bdb97f413cbcb5d967c3c21b27a0c781242e7d4998e82d"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/report.md",
+      "bytes": 4759,
+      "sha256": "6726d4b22dc3514f12d74c6401d0d5e0f2e985ff06ee31056ee690db75a3553e"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/run.started",
+      "bytes": 34,
+      "sha256": "3275ceb69300be83b85b1953a6a1d08f6c4d9e2d27c57f47805fbfa07b6ef574"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/summary.csv",
+      "bytes": 2036,
+      "sha256": "c909ee75ad9ae155dd4a2fc3b0f89ca93a595851c6b1cd8b68f2b659d35a20ee"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/telemetry/gemma--quadro--18.jsonl",
+      "bytes": 93476,
+      "sha256": "65e50aee0378b2a135e1604bd0da3d040a647c48a1a26dd089697b97945c48e4"
+    },
+    {
+      "path": "SLM_A1A2/results_laptop_vram2g_v1/telemetry/qwen--quadro--14.jsonl",
+      "bytes": 180162,
+      "sha256": "6b8f46c483ed7970b523811d16f30d91d1c8a15bf950387b634c7a2f96b31c1e"
+    },
+    {
+      "path": "SLM_A1A2/run_finalists_200.py",
+      "bytes": 23374,
+      "sha256": "70c76d4984c5b13cd94883588ad513a94610ad9b128ac7fefe92ac870125aeac"
+    },
+    {
+      "path": "SLM_A1A2/run_laptop_battery.py",
+      "bytes": 14521,
+      "sha256": "130d588568d61687813828aa8f5afd68413a2a38a2170503b6972b1aef700ec1"
+    },
+    {
+      "path": "SLM_A1A2/run_laptop_hybrid_gpu.py",
+      "bytes": 12854,
+      "sha256": "9d77012e61de66b1a99278e2e44a3abc07b442486c2cd502e195629576f5ab3a"
+    },
+    {
+      "path": "SLM_A1A2/run_laptop_resources.py",
+      "bytes": 24055,
+      "sha256": "c0b1a6edcc9d77263b8cb6ed5648b01b9ab2479cd1e11631092790ad8c168f12"
+    },
+    {
+      "path": "SLM_A1A2/run_laptop_vram2g.py",
+      "bytes": 10469,
+      "sha256": "fb692150c22e7726866e3bd80a288cb16b8abf77e101ebeaf16f80d961d4edb3"
+    },
+    {
+      "path": "SLM_A1A2/scripts/analyze_finalists_200.py",
+      "bytes": 16565,
+      "sha256": "a90f87caa6b0123d4deed0ab88d2b082ca8ec18060e230010e4f48cf232e42ae"
+    },
+    {
+      "path": "SLM_A1A2/scripts/audit_laptop_results.py",
+      "bytes": 16540,
+      "sha256": "5c493e2fb35701f21c4d63841ef13b27b057ce1a87643c750582a199d157d7af"
+    },
+    {
+      "path": "SLM_A1A2/scripts/evaluate_benchmark_120.py",
+      "bytes": 66588,
+      "sha256": "08d1531a60755148dae06436133dbc1b66454c3626942ab07db25c8a0b961ef4"
+    },
+    {
+      "path": "SLM_A1A2/scripts/evaluate_responses_v2.py",
+      "bytes": 19089,
+      "sha256": "48f72332eedbdc6ea95b43c755962f7ab5a346f74ffbb9626184967797d9eb5a"
+    },
+    {
+      "path": "SLM_A1A2/scripts/finalists_parser/FinalistsParser.csproj",
+      "bytes": 505,
+      "sha256": "e75ddd39df0bb3b0845b689544a2148380715cb6e1453af7248ea023fb687c83"
+    },
+    {
+      "path": "SLM_A1A2/scripts/finalists_parser/Program.cs",
+      "bytes": 1715,
+      "sha256": "2d30b4eb25d5e7254dca8c63d00ba1eb7cd7170613caab0e8e9efb02b9bf853e"
+    },
+    {
+      "path": "SLM_A1A2/scripts/gec_alignment_v2.py",
+      "bytes": 11570,
+      "sha256": "2e488e0369959211b4a361f51e63175d0590bb0f70898c86bdf071019f802cc6"
+    },
+    {
+      "path": "SLM_A1A2/scripts/prepare_finalists_200.py",
+      "bytes": 11982,
+      "sha256": "b17c27b87d62a3782f9a6eb40328a4228f2b838437eaf9acb3e11736307e82ba"
+    }
+  ],
+  "finalized_utc": "2026-11-19T03:26:58.272710+00:00",
+  "portable_audit": {
+    "verified_utc": "2026-11-19T03:28:05.172686+00:00",
+    "method": "Extracted verified ZIP into a separate temporary directory; ran only the read-only auditor with Python standard library.",
+    "status": "passed",
+    "imported_files_verified": 161,
+    "successful_resource_responses": 165,
+    "archive_crc_and_entry_sha256_verified": true,
+    "new_inferences": 0
+  }
+}

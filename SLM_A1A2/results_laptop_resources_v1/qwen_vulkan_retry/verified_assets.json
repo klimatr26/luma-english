@@ -1,0 +1,51 @@
+[
+  {
+    "path": "cross_demo/native/artifacts/b12359/win-x64/ggml-base.dll",
+    "sha256": "4ba96a2de8f9bf5dba77df9194c279dfd8270762e33cc720bc4d061c2bb5e53a"
+  },
+  {
+    "path": "cross_demo/native/artifacts/b12359/win-x64/ggml-cpu.dll",
+    "sha256": "db7a99599aa038221e268c1a42a94ace748e5b337097325fef43e988ec597b4e"
+  },
+  {
+    "path": "cross_demo/native/artifacts/b12359/win-x64/ggml-vulkan.dll",
+    "sha256": "9cc0d9416bf032caa58af66fc7fe700e35a476b74cab94fcb45e08f4eca8213c"
+  },
+  {
+    "path": "cross_demo/native/artifacts/b12359/win-x64/ggml.dll",
+    "sha256": "eedc0f8d0bf7e2014383f1bb40cef326d40494ed08362ff24203abcb6e2a2e32"
+  },
+  {
+    "path": "cross_demo/native/artifacts/b12359/win-x64/llama-common.dll",
+    "sha256": "24e19bb0b30fd8f45a24a2c00322f466587fa62abd659fea5d34f690f5710f74"
+  },
+  {
+    "path": "cross_demo/native/artifacts/b12359/win-x64/llama.dll",
+    "sha256": "cffdf8f5399c30c1a24a2c192ed2675945ada6032c4463027e457052d647bffe"
+  },
+  {
+    "path": "cross_demo/native/artifacts/b12359/win-x64/writing_llama_bridge.dll",
+    "sha256": "336c2a749bc40416fc2aec364a22d89a67ee0a46753639e930cb815c06c47b63"
+  },
+  {
+    "path": "run_finalists_200.py",
+    "sha256": "70c76d4984c5b13cd94883588ad513a94610ad9b128ac7fefe92ac870125aeac"
+  },
+  {
+    "path": "cross_demo/native/include/writing_json_grammar.h",
+    "sha256": "9ef1cf5527de24bf9006fa2f9b33877babbf7d7a9aaf20a73c3809dd423f9e6f"
+  },
+  {
+    "path": "cross_demo/WritingApp.Shared/Assets/prompts.json",
+    "sha256": "47aa3495e208ea714dc34eb08240cef7ac7806c87be794ef55422023d1ba0cd9"
+  },
+  {
+    "path": "cross_demo/WritingApp.Shared/Assets/catalog.json",
+    "sha256": "4e8b97833f3247b289db1673e6c7c4b055d8003b4ff2066c3725a9e5d554e1e1"
+  },
+  {
+    "path": "models/Qwen3.5-4B-Q4_K_M.gguf",
+    "sha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4",
+    "bytes": 2740937888
+  }
+]

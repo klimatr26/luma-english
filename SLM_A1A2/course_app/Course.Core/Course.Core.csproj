@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><IsAotCompatible>true</IsAotCompatible></PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="11.0.0" />
+    <ProjectReference Include="../../cross_demo/WritingApp.Shared/WritingApp.Shared.csproj" />
+    <EmbeddedResource Include="Assets/course-a1.json" />
+    <EmbeddedResource Include="Assets/extra-models.json" />
+  </ItemGroup>
+</Project>

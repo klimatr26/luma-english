@@ -1,0 +1,71 @@
+{
+  "config_id": "16-lfm25-26b-q4-k-m",
+  "family": "lfm26",
+  "quant": "Q4_K_M",
+  "summary": {
+    "cases": 120,
+    "incorrect_cases_expected": 90,
+    "incorrect_text_observable": 85,
+    "incorrect_text_unobservable": 5,
+    "expected_primary_errant_edits": 163,
+    "unobservable_primary_errant_edits": 5,
+    "gec_conditional_on_observable_text": {
+      "primary": {
+        "tp": 125,
+        "fp": 27,
+        "fn": 33,
+        "precision": 0.8223684210526315,
+        "recall": 0.7911392405063291,
+        "f0_5": 0.8159268929503916
+      },
+      "best_full_reference": {
+        "tp": 127,
+        "fp": 25,
+        "fn": 33,
+        "precision": 0.8355263157894737,
+        "recall": 0.79375,
+        "f0_5": 0.8268229166666667
+      }
+    },
+    "recall_all_primary_gold_unobservable_as_missed": 0.7668711656441718,
+    "controls_expected": 30,
+    "ctmr_modified_observed": 0,
+    "ctmr_unobservable": 1,
+    "cfar_false_alarm_observed": 25,
+    "cfar_unobservable": 1,
+    "fully_preserved_observed": 4,
+    "fully_preserved_unobservable": 1,
+    "parse_status": {
+      "recoverable": 117,
+      "invalid": 3
+    },
+    "schema_valid": 114,
+    "strict_json_compliant": 0,
+    "declarations": {
+      "verified_differs_output": 42,
+      "unverified_overlapping_fragments": 5,
+      "verified_matches_output": 63,
+      "unverified_shape": 6,
+      "unverified_ambiguous_or_absent_fragment": 4
+    },
+    "declarations_coherent_non_noop": 30,
+    "incorrect_text_equal_primary": 57,
+    "incorrect_text_equal_licensed_complete_reference": 58,
+    "flag_correct_observed": 89,
+    "flag_unobservable": 6,
+    "incorrect_flag_correct_observed": 85,
+    "incorrect_flag_unobservable": 5,
+    "human_confirmed": 0,
+    "latency_median_seconds_descriptive": 1.7595012500023586,
+    "schema_version": "evaluation-v2.0"
+  },
+  "selection": {
+    "rows_in": 120,
+    "rows_selected": 120,
+    "duplicate_cases_resolved": [],
+    "selection_policy": "highest verified final attempt number"
+  },
+  "primary_frozen_tp": 27,
+  "primary_frozen_fp": 165,
+  "primary_frozen_fn": 123
+}

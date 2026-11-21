@@ -1,0 +1,119 @@
+{
+  "version": "termux-mesa26.2.7-loader1.4.368-v1",
+  "mesa": "26.2.7",
+  "loader": "1.4.368",
+  "upstream": "https://github.com/termux/termux-packages",
+  "verified_packages": "SLM_A1A2/logs/cross_demo/v014/turnip-packages/packages-verified.json",
+  "files": [
+    {
+      "name": "libandroid-shmem.so",
+      "bytes": 14432,
+      "sha256": "84475798e07c8174dbbfaec70a827fdb02f19ffa69a589380c13e7507fd0e731"
+    },
+    {
+      "name": "libandroid-support.so",
+      "bytes": 20736,
+      "sha256": "739cf829511d71dafd6c67fdbb70f3f0c6048642ea2e1967790ee961fde14430"
+    },
+    {
+      "name": "libc++_shared.so",
+      "bytes": 1423696,
+      "sha256": "05bef9d3901910c3ff8ab450b03bc8b28383d363a2290f2f7b9aed7331ea6ff7"
+    },
+    {
+      "name": "libdrm.so",
+      "bytes": 76016,
+      "sha256": "0e4e8f0bbc6809589206a757759a6506e0aa7c88e0b55de2fe8d54f7ef6a3323"
+    },
+    {
+      "name": "libffi.so",
+      "bytes": 87128,
+      "sha256": "e118d741361c64015c074c5e1f24e42e44292d0d694ca3ba1e109205c10421f9"
+    },
+    {
+      "name": "libvulkan_freedreno.so",
+      "bytes": 13894920,
+      "sha256": "2437ba2e10231b47e6712cc4f035b8dbaf19ecc679be5981e2e885e325be7272"
+    },
+    {
+      "name": "libvulkan.so",
+      "bytes": 601520,
+      "sha256": "13d6b4eb5ea3ae6870425d8fe27f99ca88c21e2272cb7b23c94ea5caeca8cf4e"
+    },
+    {
+      "name": "libwayland-client.so",
+      "bytes": 64848,
+      "sha256": "fa49c2f119b84a0cf54669de1706a6bc427bb8a7f147c977328575ccbb920126"
+    },
+    {
+      "name": "libX11-xcb.so",
+      "bytes": 4160,
+      "sha256": "c8b5bea4369067b8ad5241752ae21c51d67b97b638bfab193dad4345aba10588"
+    },
+    {
+      "name": "libX11.so",
+      "bytes": 1188968,
+      "sha256": "3f221435e9a7b27d0457a480bfe6b37adf5da4c2b226f4f5caa48bb11893e199"
+    },
+    {
+      "name": "libXau.so",
+      "bytes": 9904,
+      "sha256": "e820c412bac544d28d4288f50f7b6dee046e2f32cc7cfc82e203c642fbaa42bf"
+    },
+    {
+      "name": "libxcb-dri3.so",
+      "bytes": 14680,
+      "sha256": "46a0bcdb74795fafcf62181439bb62d69568f0c6c0c652655002923dd02178a8"
+    },
+    {
+      "name": "libxcb-present.so",
+      "bytes": 9976,
+      "sha256": "3914002f479e29cb9796045de542b091cd592e2347ec84272da3bbce57326c07"
+    },
+    {
+      "name": "libxcb-randr.so",
+      "bytes": 53896,
+      "sha256": "0c2bfe3c4c8150a913bc7a24bdbeca6d379a388de9f50228bd746d0bf14c6c0e"
+    },
+    {
+      "name": "libxcb-shm.so",
+      "bytes": 9368,
+      "sha256": "dbd474ea05afb27c33269aa1cf26a62edc08e7fb79a2f8459aebc4cb370cf1bb"
+    },
+    {
+      "name": "libxcb-sync.so",
+      "bytes": 22224,
+      "sha256": "3940e8236e0ead4696e2f09c4d297fa629cca0859243b73d33fcf11535e335ba"
+    },
+    {
+      "name": "libxcb-xfixes.so",
+      "bytes": 26664,
+      "sha256": "41af7ab9535ff73913889255cb7a8c87d8f19c1e6749b88f4d4a98df66caa1b2"
+    },
+    {
+      "name": "libxcb.so",
+      "bytes": 136584,
+      "sha256": "13d59f33b51765e4d1444cad3f7f949ccf60a9bd34e53bdbe10cfcd787fda14c"
+    },
+    {
+      "name": "libXdmcp.so",
+      "bytes": 18920,
+      "sha256": "fca2b4d37620a90b9e97ff5ef24b4b7f438fcce6a837db152705348c95379ef8"
+    },
+    {
+      "name": "libxshmfence.so",
+      "bytes": 7352,
+      "sha256": "0ffb6814ca405e76d34e56630cb5e8cc115fa6e09936f9f9472c7d2cd34f3d8f"
+    },
+    {
+      "name": "libz.so.1",
+      "bytes": 74056,
+      "sha256": "df5e95e3ea1ffb8f2e0dcebfc43a6c0824b6aebec11752ad8f8764123e24f8a6"
+    },
+    {
+      "name": "libzstd.so.1",
+      "bytes": 820840,
+      "sha256": "1677d5e828c1839f111f0261697c08f99a5e4e80434659ab88e5ff859a1374f7"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "original_bridge_source_sha256": "1ca23cd6dde3552b82731cc63ba3bfa2f38040982faa2fe07e044db3b56e3110",
+  "experimental_bridge_source_sha256": "60dabf9bdad0b8114c207306b0e6dcc13ef2f0750d43124014d8a7c32e7e5468",
+  "selector_replacement": "    model_params.n_gpu_layers = use_gpu ? -1 : 0;\n    if (use_gpu) {\n        const char * layers = std::getenv(\"WG_HYBRID_GPU_LAYERS\");\n        if (layers != nullptr) {\n            model_params.n_gpu_layers = std::stoi(layers);\n        }\n    }",
+  "staged_dll_sha256": {
+    "ggml-base.dll": "4ba96a2de8f9bf5dba77df9194c279dfd8270762e33cc720bc4d061c2bb5e53a",
+    "ggml-cpu.dll": "db7a99599aa038221e268c1a42a94ace748e5b337097325fef43e988ec597b4e",
+    "ggml-vulkan.dll": "9cc0d9416bf032caa58af66fc7fe700e35a476b74cab94fcb45e08f4eca8213c",
+    "ggml.dll": "eedc0f8d0bf7e2014383f1bb40cef326d40494ed08362ff24203abcb6e2a2e32",
+    "llama-common.dll": "24e19bb0b30fd8f45a24a2c00322f466587fa62abd659fea5d34f690f5710f74",
+    "llama.dll": "cffdf8f5399c30c1a24a2c192ed2675945ada6032c4463027e457052d647bffe",
+    "writing_llama_bridge.dll": "2ab50457512f2fdb6e271e376799e9288c8dc4fbe7de936ef25a239b408c1a0a"
+  },
+  "frozen_manifest_sha256": "9ec595218c105e6a2b48d515dcffd01bbfd762b94646b2958f5f972b987e9878"
+}

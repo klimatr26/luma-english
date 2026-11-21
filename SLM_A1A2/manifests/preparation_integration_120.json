@@ -1,0 +1,37 @@
+{
+  "scope": "Read-only preparation integration; no execution authorization or inference",
+  "benchmark_sha256": "07308427c02adcc056a8964d3e4da41615db4b7fc0101870e277097de46d59f9",
+  "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "readiness": {
+    "passed": 16,
+    "required": 16
+  },
+  "validation": {
+    "status": "VALIDATED_PENDING_USER_APPROVAL",
+    "blocker_count": 0,
+    "review_count": 0,
+    "benchmark_sha256": "07308427c02adcc056a8964d3e4da41615db4b7fc0101870e277097de46d59f9"
+  },
+  "planned_main_rows": 1920,
+  "execution_authorized": false,
+  "canonical_prompts_byte_equal_in_strings": true,
+  "extension_readiness": {
+    "passed": 16,
+    "required": 16,
+    "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255"
+  },
+  "extension_validation": {
+    "status": "VALIDATED_PENDING_USER_APPROVAL",
+    "case_count": 40,
+    "scope_id": "lfm26_phase1_40",
+    "config_ids": [
+      "15-lfm25-26b-q8-0",
+      "16-lfm25-26b-q4-k-m"
+    ],
+    "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+    "phase1_baseline_record_sha256": "f2d2d4b081d7afac723178aabc805f618b48ed1289b9f131ce7f5bc08b93989f"
+  },
+  "planned_extension_rows": 80,
+  "main_gate_without_authorization": "blocked_as_required",
+  "real_main_and_extension_output_files": 0
+}

@@ -1,0 +1,9 @@
+{
+  "phase1_byte_identical": 24,
+  "initial_git_blobs_byte_identical": 23,
+  "outside_git": [
+    "benchmark_results_v2_rerun.zip"
+  ],
+  "finalist_source_bindings_identical": 27,
+  "passed": true
+}

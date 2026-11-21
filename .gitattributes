@@ -1,0 +1,2 @@
+# Preserve original bytes, especially immutable Phase 1 JSON/JSONL artifacts.
+* -text

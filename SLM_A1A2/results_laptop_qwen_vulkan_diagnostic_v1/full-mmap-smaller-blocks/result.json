@@ -1,0 +1,151 @@
+{
+  "started_utc": "2026-11-19T00:04:00.045324+00:00",
+  "context": 2048,
+  "gpu_layers": -1,
+  "load_mode": "mmap",
+  "environment": {
+    "GGML_VK_VISIBLE_DEVICES": "1",
+    "GGML_VK_SUBALLOCATION_BLOCK_SIZE": "536870912"
+  },
+  "baseline_gpu": {
+    "used_mib": 0,
+    "total_mib": 4096,
+    "temperature_c": 51,
+    "utilization_percent": 1,
+    "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+    "timestamp_utc": "2026-11-19T00:04:00.040031+00:00"
+  },
+  "timeout_seconds": 85,
+  "gguf_sha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4",
+  "dll_sha256": {
+    "ggml-base.dll": "4ba96a2de8f9bf5dba77df9194c279dfd8270762e33cc720bc4d061c2bb5e53a",
+    "ggml-cpu.dll": "db7a99599aa038221e268c1a42a94ace748e5b337097325fef43e988ec597b4e",
+    "ggml-vulkan.dll": "9cc0d9416bf032caa58af66fc7fe700e35a476b74cab94fcb45e08f4eca8213c",
+    "ggml.dll": "eedc0f8d0bf7e2014383f1bb40cef326d40494ed08362ff24203abcb6e2a2e32",
+    "llama-common.dll": "24e19bb0b30fd8f45a24a2c00322f466587fa62abd659fea5d34f690f5710f74",
+    "llama.dll": "cffdf8f5399c30c1a24a2c192ed2675945ada6032c4463027e457052d647bffe",
+    "writing_llama_bridge.dll": "336c2a749bc40416fc2aec364a22d89a67ee0a46753639e930cb815c06c47b63"
+  },
+  "probe_source_sha256": "a4558fe70e3346d57a42a9ca35828a46fe303f3c895b8fff747fb79033c8112e",
+  "probe_executable_sha256": "8515de6a0c80e4ac74f29d24ffea917d3b73ab3143a0e88cc0ced86a7d20dc76",
+  "ended_utc": "2026-11-19T00:04:13.755571+00:00",
+  "elapsed_seconds": 13.698080300004221,
+  "exit_code": 5,
+  "timed_out": false,
+  "measurements": {
+    "worker_rss_peak_bytes": 1219194880,
+    "worker_private_peak_bytes": 3435560960,
+    "system_available_min_bytes": 13840363520,
+    "device_vram_peak_mib": 2606,
+    "gpu_temperature_max_c": 53,
+    "gpu_utilization_max_percent": 1,
+    "ram_samples": 196,
+    "vram_samples": 13,
+    "gpu_samples": [
+      {
+        "used_mib": 0,
+        "total_mib": 4096,
+        "temperature_c": 51,
+        "utilization_percent": 0,
+        "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+        "timestamp_utc": "2026-11-19T00:04:00.549806+00:00"
+      },
+      {
+        "used_mib": 1,
+        "total_mib": 4096,
+        "temperature_c": 51,
+        "utilization_percent": 1,
+        "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+        "timestamp_utc": "2026-11-19T00:04:01.737377+00:00"
+      },
+      {
+        "used_mib": 2606,
+        "total_mib": 4096,
+        "temperature_c": 52,
+        "utilization_percent": 0,
+        "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+        "timestamp_utc": "2026-11-19T00:04:02.840427+00:00"
+      },
+      {
+        "used_mib": 2606,
+        "total_mib": 4096,
+        "temperature_c": 53,
+        "utilization_percent": 0,
+        "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+        "timestamp_utc": "2026-11-19T00:04:03.946096+00:00"
+      },
+      {
+        "used_mib": 2606,
+        "total_mib": 4096,
+        "temperature_c": 53,
+        "utilization_percent": 0,
+        "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+        "timestamp_utc": "2026-11-19T00:04:05.042297+00:00"
+      },
+      {
+        "used_mib": 2606,
+        "total_mib": 4096,
+        "temperature_c": 52,
+        "utilization_percent": 0,
+        "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+        "timestamp_utc": "2026-11-19T00:04:06.141863+00:00"
+      },
+      {
+        "used_mib": 2606,
+        "total_mib": 4096,
+        "temperature_c": 52,
+        "utilization_percent": 0,
+        "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+        "timestamp_utc": "2026-11-19T00:04:07.251622+00:00"
+      },
+      {
+        "used_mib": 2606,
+        "total_mib": 4096,
+        "temperature_c": 52,
+        "utilization_percent": 0,
+        "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+        "timestamp_utc": "2026-11-19T00:04:08.358372+00:00"
+      },
+      {
+        "used_mib": 2606,
+        "total_mib": 4096,
+        "temperature_c": 51,
+        "utilization_percent": 0,
+        "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+        "timestamp_utc": "2026-11-19T00:04:09.466285+00:00"
+      },
+      {
+        "used_mib": 2606,
+        "total_mib": 4096,
+        "temperature_c": 51,
+        "utilization_percent": 0,
+        "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+        "timestamp_utc": "2026-11-19T00:04:10.569903+00:00"
+      },
+      {
+        "used_mib": 2606,
+        "total_mib": 4096,
+        "temperature_c": 51,
+        "utilization_percent": 0,
+        "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+        "timestamp_utc": "2026-11-19T00:04:11.684296+00:00"
+      },
+      {
+        "used_mib": 2286,
+        "total_mib": 4096,
+        "temperature_c": 52,
+        "utilization_percent": 0,
+        "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+        "timestamp_utc": "2026-11-19T00:04:12.901366+00:00"
+      },
+      {
+        "used_mib": 0,
+        "total_mib": 4096,
+        "temperature_c": 52,
+        "utilization_percent": 0,
+        "uuid": "GPU-5cdc728c-e00e-b190-607b-b7947dc93773",
+        "timestamp_utc": "2026-11-19T00:04:13.755257+00:00"
+      }
+    ]
+  }
+}

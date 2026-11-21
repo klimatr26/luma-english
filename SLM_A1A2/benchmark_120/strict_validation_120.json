@@ -1,0 +1,276 @@
+{
+  "case_count": 120,
+  "level_counts": {
+    "A1": 60,
+    "A2": 60
+  },
+  "condition_counts": {
+    "correct": 30,
+    "incorrect": 90
+  },
+  "error_instance_count": 150,
+  "error_types": {
+    "ARTICLE": 7,
+    "BASIC_CONNECTOR": 6,
+    "BASIC_FUTURE": 10,
+    "BASIC_LEXICAL_CHOICE": 4,
+    "BASIC_MODAL": 3,
+    "BE_FORM": 6,
+    "CAPITALIZATION": 7,
+    "COMPARATIVE": 4,
+    "CONTRACTION": 1,
+    "COUNTABLE_UNCOUNTABLE": 4,
+    "MUCH_MANY": 4,
+    "NEGATION": 3,
+    "OBJECT_PRONOUN": 5,
+    "PAST_SIMPLE": 10,
+    "POSSESSIVE": 4,
+    "PREPOSITION_PLACE": 4,
+    "PREPOSITION_TIME": 3,
+    "PRESENT_CONTINUOUS": 4,
+    "PRESENT_PERFECT": 2,
+    "PRESENT_SIMPLE": 2,
+    "PUNCTUATION": 5,
+    "QUESTION_FORM": 8,
+    "SINGULAR_PLURAL": 7,
+    "SOME_ANY": 4,
+    "SPELLING": 3,
+    "SUBJECT_PRONOUN": 2,
+    "SUBJECT_VERB_AGREEMENT": 8,
+    "SUPERLATIVE": 3,
+    "VERB_PATTERN": 5,
+    "VERB_PREPOSITION": 6,
+    "WORD_ORDER": 6
+  },
+  "incorrect_texts_by_error_count": {
+    "1": 50,
+    "2": 24,
+    "3": 12,
+    "4": 4
+  },
+  "errors_by_level": {
+    "A1": {
+      "2": 12,
+      "3": 6,
+      "1": 25,
+      "4": 2
+    },
+    "A2": {
+      "2": 12,
+      "1": 25,
+      "3": 6,
+      "4": 2
+    }
+  },
+  "word_counts": {
+    "A1": {
+      "mean": 29.73,
+      "median": 27.5,
+      "min": 23,
+      "max": 45
+    },
+    "A2": {
+      "mean": 46.63,
+      "median": 46.5,
+      "min": 35,
+      "max": 59
+    }
+  },
+  "issues": [],
+  "blocker_count": 0,
+  "review_count": 0,
+  "similarity": {
+    "comparison_count": 11940,
+    "candidate_pairs": [],
+    "top_pairs": [
+      {
+        "case_id": "A1-E017",
+        "other_case_id": "A1-E032",
+        "source": "within_120",
+        "exact": false,
+        "sequence_ratio": 0.5854,
+        "trigram_jaccard": 0.0652,
+        "trigram_containment": 0.1304
+      },
+      {
+        "case_id": "A1-E019",
+        "other_case_id": "A1-E13",
+        "source": "against_40",
+        "exact": false,
+        "sequence_ratio": 0.5538,
+        "trigram_jaccard": 0.0213,
+        "trigram_containment": 0.0455
+      },
+      {
+        "case_id": "A1-C006",
+        "other_case_id": "A1-E017",
+        "source": "within_120",
+        "exact": false,
+        "sequence_ratio": 0.548,
+        "trigram_jaccard": 0.0741,
+        "trigram_containment": 0.1538
+      },
+      {
+        "case_id": "A1-E032",
+        "other_case_id": "A1-E037",
+        "source": "within_120",
+        "exact": false,
+        "sequence_ratio": 0.5,
+        "trigram_jaccard": 0.0,
+        "trigram_containment": 0.0
+      },
+      {
+        "case_id": "A1-C005",
+        "other_case_id": "A1-E018",
+        "source": "within_120",
+        "exact": false,
+        "sequence_ratio": 0.4862,
+        "trigram_jaccard": 0.0,
+        "trigram_containment": 0.0
+      },
+      {
+        "case_id": "A1-E003",
+        "other_case_id": "A1-C03",
+        "source": "against_40",
+        "exact": false,
+        "sequence_ratio": 0.4836,
+        "trigram_jaccard": 0.0,
+        "trigram_containment": 0.0
+      },
+      {
+        "case_id": "A1-C007",
+        "other_case_id": "A2-E14",
+        "source": "against_40",
+        "exact": false,
+        "sequence_ratio": 0.4798,
+        "trigram_jaccard": 0.0167,
+        "trigram_containment": 0.0385
+      },
+      {
+        "case_id": "A1-E001",
+        "other_case_id": "A2-E04",
+        "source": "against_40",
+        "exact": false,
+        "sequence_ratio": 0.4789,
+        "trigram_jaccard": 0.0,
+        "trigram_containment": 0.0
+      },
+      {
+        "case_id": "A1-E010",
+        "other_case_id": "A1-E13",
+        "source": "against_40",
+        "exact": false,
+        "sequence_ratio": 0.4788,
+        "trigram_jaccard": 0.0,
+        "trigram_containment": 0.0
+      },
+      {
+        "case_id": "A1-C002",
+        "other_case_id": "A2-E14",
+        "source": "against_40",
+        "exact": false,
+        "sequence_ratio": 0.4717,
+        "trigram_jaccard": 0.0,
+        "trigram_containment": 0.0
+      },
+      {
+        "case_id": "A1-E044",
+        "other_case_id": "A2-E04",
+        "source": "against_40",
+        "exact": false,
+        "sequence_ratio": 0.4689,
+        "trigram_jaccard": 0.0435,
+        "trigram_containment": 0.0833
+      },
+      {
+        "case_id": "A1-E021",
+        "other_case_id": "A1-E044",
+        "source": "within_120",
+        "exact": false,
+        "sequence_ratio": 0.4681,
+        "trigram_jaccard": 0.0,
+        "trigram_containment": 0.0
+      },
+      {
+        "case_id": "A1-E013",
+        "other_case_id": "A1-E023",
+        "source": "within_120",
+        "exact": false,
+        "sequence_ratio": 0.4677,
+        "trigram_jaccard": 0.0,
+        "trigram_containment": 0.0
+      },
+      {
+        "case_id": "A1-E026",
+        "other_case_id": "A1-E041",
+        "source": "within_120",
+        "exact": false,
+        "sequence_ratio": 0.464,
+        "trigram_jaccard": 0.0,
+        "trigram_containment": 0.0
+      },
+      {
+        "case_id": "A1-E008",
+        "other_case_id": "A1-E11",
+        "source": "against_40",
+        "exact": false,
+        "sequence_ratio": 0.4636,
+        "trigram_jaccard": 0.0541,
+        "trigram_containment": 0.1111
+      },
+      {
+        "case_id": "A1-E035",
+        "other_case_id": "A1-E14",
+        "source": "against_40",
+        "exact": false,
+        "sequence_ratio": 0.4622,
+        "trigram_jaccard": 0.0,
+        "trigram_containment": 0.0
+      },
+      {
+        "case_id": "A1-E038",
+        "other_case_id": "A1-E13",
+        "source": "against_40",
+        "exact": false,
+        "sequence_ratio": 0.4622,
+        "trigram_jaccard": 0.0,
+        "trigram_containment": 0.0
+      },
+      {
+        "case_id": "A1-C006",
+        "other_case_id": "A1-E005",
+        "source": "within_120",
+        "exact": false,
+        "sequence_ratio": 0.4573,
+        "trigram_jaccard": 0.0,
+        "trigram_containment": 0.0
+      },
+      {
+        "case_id": "A1-E031",
+        "other_case_id": "A2-E032",
+        "source": "within_120",
+        "exact": false,
+        "sequence_ratio": 0.457,
+        "trigram_jaccard": 0.025,
+        "trigram_containment": 0.0625
+      },
+      {
+        "case_id": "A1-E039",
+        "other_case_id": "A1-E04",
+        "source": "against_40",
+        "exact": false,
+        "sequence_ratio": 0.4569,
+        "trigram_jaccard": 0.0222,
+        "trigram_containment": 0.0476
+      }
+    ],
+    "limitations": "Lexical screens cannot prove absence of semantic paraphrases; independent editorial audit and recorded resolutions required."
+  },
+  "source_sha256": {
+    "A1_cases.json": "e2b7075b3db86d75a44f8a1accaa771359a7d44dd5ab4e570b470d7ccf56f50c",
+    "A2_cases.json": "ed40ec9181e340fb86e55f331cca98f2acb5b03f3bf4bda99b0b37340e811279"
+  },
+  "phase1_benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+  "status": "VALIDATED_PENDING_USER_APPROVAL",
+  "benchmark_sha256": "07308427c02adcc056a8964d3e4da41615db4b7fc0101870e277097de46d59f9"
+}

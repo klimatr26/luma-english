@@ -1,0 +1,396 @@
+[
+  {
+    "id": "A1-E001",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a weekly activity and a friend who joins you.",
+    "student_text": "On Tuesdays, our art club meet in the library. We draw small pictures and share them with the teacher. My friend Lina bring colored paper from home.",
+    "length_words": 27,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "art club meet",
+          "correction": "art club meets",
+          "type": "SUBJECT_VERB_AGREEMENT",
+          "explanation": "Use the third-person singular form meets with the singular subject art club.",
+          "type_label": "subject-verb agreement / present simple",
+          "acceptable_corrections": ["art club meets"]
+        },
+        {
+          "original": "Lina bring",
+          "correction": "Lina brings",
+          "type": "SUBJECT_VERB_AGREEMENT",
+          "explanation": "Add -s to the present simple verb with the singular subject Lina.",
+          "type_label": "subject-verb agreement / present simple",
+          "acceptable_corrections": ["Lina brings"]
+        }
+      ],
+      "corrected_text": "On Tuesdays, our art club meets in the library. We draw small pictures and share them with the teacher. My friend Lina brings colored paper from home."
+    }
+  },
+  {
+    "id": "A1-E002",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe some things you keep in a box at home.",
+    "student_text": "I have five postcard from my cousins in a blue box. There are also two small shell from the beach, and one green stone.",
+    "length_words": 24,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "five postcard",
+          "correction": "five postcards",
+          "type": "NUMBER_AGREEMENT",
+          "explanation": "Use the plural form of a countable noun after five.",
+          "type_label": "singular/plural",
+          "acceptable_corrections": ["five postcards"]
+        },
+        {
+          "original": "two small shell",
+          "correction": "two small shells",
+          "type": "NUMBER_AGREEMENT",
+          "explanation": "Use the plural form of a countable noun after two.",
+          "type_label": "singular/plural",
+          "acceptable_corrections": ["two small shells"]
+        }
+      ],
+      "corrected_text": "I have five postcards from my cousins in a blue box. There are also two small shells from the beach, and one green stone."
+    }
+  },
+  {
+    "id": "A1-E003",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about an object and an animal you can see from your window.",
+    "student_text": "There is a old clock above the window in my room. In the garden, I can see an small bird on a fence. It sings every morning.",
+    "length_words": 27,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "a old clock",
+          "correction": "an old clock",
+          "type": "ARTICLE",
+          "explanation": "Use an before a word that begins with a vowel sound, such as old.",
+          "type_label": "article",
+          "acceptable_corrections": ["an old clock"]
+        },
+        {
+          "original": "an small bird",
+          "correction": "a small bird",
+          "type": "ARTICLE",
+          "explanation": "Use a before a word that begins with a consonant sound, such as small.",
+          "type_label": "article",
+          "acceptable_corrections": ["a small bird"]
+        }
+      ],
+      "corrected_text": "There is an old clock above the window in my room. In the garden, I can see a small bird on a fence. It sings every morning."
+    }
+  },
+  {
+    "id": "A1-E004",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a cousin and a helpful person at your sports class.",
+    "student_text": "My cousin and me visit the sports hall on Fridays. The coach gives we a ball, and we practise throwing it into a basket.",
+    "length_words": 24,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "My cousin and me",
+          "correction": "My cousin and I",
+          "type": "SUBJECT_PRONOUN",
+          "explanation": "Use I as part of the subject of the sentence, not me.",
+          "type_label": "subject pronoun",
+          "acceptable_corrections": ["My cousin and I"]
+        },
+        {
+          "original": "gives we",
+          "correction": "gives us",
+          "type": "OBJECT_PRONOUN",
+          "explanation": "Use us as the object of gives.",
+          "type_label": "object pronoun",
+          "acceptable_corrections": ["gives us"]
+        }
+      ],
+      "corrected_text": "My cousin and I visit the sports hall on Fridays. The coach gives us a ball, and we practise throwing it into a basket."
+    }
+  },
+  {
+    "id": "A1-E005",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe a place in your home and who uses it.",
+    "student_text": "This is my cousins room beside the stairs. My aunt keeps her sewing things there, and my uncle reads a newspaper in the chair by the door.",
+    "length_words": 27,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "my cousins room",
+          "correction": "my cousin's room",
+          "type": "POSSESSIVE_APOSTROPHE",
+          "explanation": "Add apostrophe + s to show that the room belongs to one cousin.",
+          "type_label": "possessive apostrophe",
+          "acceptable_corrections": ["my cousin's room"]
+        }
+      ],
+      "corrected_text": "This is my cousin's room beside the stairs. My aunt keeps her sewing things there, and my uncle reads a newspaper in the chair by the door."
+    }
+  },
+  {
+    "id": "A1-E006",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about when you visit a small shop and what you buy.",
+    "student_text": "I visit the flower shop at Saturday mornings with my grandmother. We look at the plants and choose fresh flowers for the kitchen table.",
+    "length_words": 24,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "at Saturday mornings",
+          "correction": "on Saturday mornings",
+          "type": "PREPOSITION_TIME",
+          "explanation": "Use on with days and day expressions such as Saturday mornings.",
+          "type_label": "preposition of time",
+          "acceptable_corrections": ["on Saturday mornings"]
+        }
+      ],
+      "corrected_text": "I visit the flower shop on Saturday mornings with my grandmother. We look at the plants and choose fresh flowers for the kitchen table."
+    }
+  },
+  {
+    "id": "A1-E007",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe what you do after lunch at school.",
+    "student_text": "After lunch, we in the playground often play a word game. Our teacher sometimes with us sits and asks funny questions about animals.",
+    "length_words": 23,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "we in the playground often play a word game",
+          "correction": "we often play a word game in the playground",
+          "type": "WORD_ORDER",
+          "explanation": "Place the frequency adverb before the main verb and the place phrase after it.",
+          "type_label": "word order",
+          "acceptable_corrections": ["we often play in the playground"]
+        },
+        {
+          "original": "with us sits",
+          "correction": "sits with us",
+          "type": "WORD_ORDER",
+          "explanation": "In a basic statement, put the verb before the accompanying phrase with us.",
+          "type_label": "word order",
+          "acceptable_corrections": ["sits with us"]
+        }
+      ],
+      "corrected_text": "After lunch, we often play a word game in the playground. Our teacher sometimes sits with us and asks funny questions about animals."
+    }
+  },
+  {
+    "id": "A1-E008",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Ask a new neighbor about their work and their journey home.",
+    "student_text": "What time your father finishes work? Where your family goes after dinner? I want to know about the nice places near your home.",
+    "length_words": 23,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "What time your father finishes",
+          "correction": "What time does your father finish",
+          "type": "QUESTION_FORMATION",
+          "explanation": "For a present simple question with your father, use does before the subject and the base verb finish.",
+          "type_label": "present simple question word order",
+          "acceptable_corrections": ["What time does your father finish"]
+        },
+        {
+          "original": "Where your family goes",
+          "correction": "Where does your family go",
+          "type": "QUESTION_FORMATION",
+          "explanation": "Use does before the singular subject in a present simple question, then use the base verb go.",
+          "type_label": "present simple question word order",
+          "acceptable_corrections": ["Where does your family go"]
+        }
+      ],
+      "corrected_text": "What time does your father finish work? Where does your family go after dinner? I want to know about the nice places near your home."
+    }
+  },
+  {
+    "id": "A1-E009",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a school subject you find difficult and a family member's help.",
+    "student_text": "I no understand some maths questions, so my sister helps me at home. She explains the numbers slowly, and I try each question again.",
+    "length_words": 24,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "I no understand",
+          "correction": "I don't understand",
+          "type": "NEGATION",
+          "explanation": "Use don't before the base verb to make a present simple negative with I.",
+          "type_label": "present simple negation",
+          "acceptable_corrections": ["I don't understand"]
+        }
+      ],
+      "corrected_text": "I don't understand some maths questions, so my sister helps me at home. She explains the numbers slowly, and I try each question again."
+    }
+  },
+  {
+    "id": "A1-E010",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about supplies for a picnic.",
+    "student_text": "We don't have some paper plates for the picnic, but there are clean cups in the cupboard. My brother can bring napkins from his house.",
+    "length_words": 25,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "don't have some paper plates",
+          "correction": "don't have any paper plates",
+          "type": "SOME_ANY",
+          "explanation": "Use any in a negative sentence about an unspecified quantity.",
+          "type_label": "some/any",
+          "acceptable_corrections": ["don't have any paper plates"]
+        }
+      ],
+      "corrected_text": "We don't have any paper plates for the picnic, but there are clean cups in the cupboard. My brother can bring napkins from his house."
+    }
+  },
+  {
+    "id": "A1-E011",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe what you do before leaving for school.",
+    "student_text": "Before school, I put on my coat and carry my bag. I wear my breakfast quickly, then I lock the front door and walk to the corner.",
+    "length_words": 27,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "wear my breakfast",
+          "correction": "eat my breakfast",
+          "type": "LEXICAL_CHOICE",
+          "explanation": "We eat breakfast; wear is used for clothes, not food.",
+          "type_label": "basic lexical choice",
+          "acceptable_corrections": ["eat my breakfast"]
+        }
+      ],
+      "corrected_text": "Before school, I put on my coat and carry my bag. I eat my breakfast quickly, then I lock the front door and walk to the corner."
+    }
+  },
+  {
+    "id": "A1-E012",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write a short note asking someone to bring a game.",
+    "student_text": "Hi Ben, can you bring your card game to my house after class. We can play it with my sister and have some juice",
+    "length_words": 24,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "after class.",
+          "correction": "after class?",
+          "type": "PUNCTUATION",
+          "explanation": "Use a question mark because the sentence asks Ben to do something.",
+          "type_label": "punctuation",
+          "acceptable_corrections": ["after class?"]
+        },
+        {
+          "original": "some juice",
+          "correction": "some juice.",
+          "type": "PUNCTUATION",
+          "explanation": "Put a full stop at the end of the final statement.",
+          "type_label": "punctuation",
+          "acceptable_corrections": ["some juice."]
+        }
+      ],
+      "corrected_text": "Hi Ben, can you bring your card game to my house after class? We can play it with my sister and have some juice."
+    }
+  },
+  {
+    "id": "A1-E013",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Describe what people are doing at a bus stop now.",
+    "student_text": "Three children is waiting for the bus in the rain. Their father are holding a large umbrella, and a woman is looking at her phone.",
+    "length_words": 25,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "children is waiting",
+          "correction": "children are waiting",
+          "type": "BE_AGREEMENT",
+          "explanation": "Use are with the plural subject children in the present continuous.",
+          "type_label": "present continuous / form of be",
+          "acceptable_corrections": ["children are waiting"]
+        },
+        {
+          "original": "Their father are holding",
+          "correction": "Their father is holding",
+          "type": "BE_AGREEMENT",
+          "explanation": "Use is with the singular subject their father in the present continuous.",
+          "type_label": "present continuous / form of be",
+          "acceptable_corrections": ["Their father is holding"]
+        }
+      ],
+      "corrected_text": "Three children are waiting for the bus in the rain. Their father is holding a large umbrella, and a woman is looking at her phone."
+    }
+  },
+  {
+    "id": "A1-E014",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about a pet that is resting at this moment.",
+    "student_text": "It is a quiet afternoon at home. Our rabbit sleep under the table now, and my little brother is drawing a picture of it beside the window.",
+    "length_words": 27,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "rabbit sleep",
+          "correction": "rabbit is sleeping",
+          "type": "PRESENT_CONTINUOUS",
+          "explanation": "For an action happening now, use is plus the -ing form with the singular subject rabbit.",
+          "type_label": "present continuous",
+          "acceptable_corrections": ["rabbit is sleeping"]
+        }
+      ],
+      "corrected_text": "It is a quiet afternoon at home. Our rabbit is sleeping under the table now, and my little brother is drawing a picture of it beside the window."
+    }
+  },
+  {
+    "id": "A1-E015",
+    "level": "A1",
+    "condition": "incorrect",
+    "task": "Write about an activity you do with your neighbors in the evening.",
+    "student_text": "In the evening, our neighbors invites us to play a board game in their living room. We choose a different game each week and bring fruit to share.",
+    "length_words": 28,
+    "gold": {
+      "is_correct": false,
+      "errors": [
+        {
+          "original": "neighbors invites",
+          "correction": "neighbors invite",
+          "type": "SUBJECT_VERB_AGREEMENT",
+          "explanation": "Use the base present simple verb with the plural subject neighbors.",
+          "type_label": "subject-verb agreement / present simple",
+          "acceptable_corrections": ["neighbors invite"]
+        }
+      ],
+      "corrected_text": "In the evening, our neighbors invite us to play a board game in their living room. We choose a different game each week and bring fruit to share."
+    }
+  }
+]

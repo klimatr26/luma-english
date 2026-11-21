@@ -1,0 +1,167 @@
+[
+  {
+    "id": "A1-C001",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe how you help a relative at work.",
+    "student_text": "On Saturdays, I help my aunt at her flower shop. I put the small pots near the door and water the plants. Customers often ask for roses, but my aunt likes sunflowers best.",
+    "corrected_text": "On Saturdays, I help my aunt at her flower shop. I put the small pots near the door and water the plants. Customers often ask for roses, but my aunt likes sunflowers best.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 33
+  },
+  {
+    "id": "A1-C002",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Write about a neighbour in your building.",
+    "student_text": "Mr Green lives on the second floor. He has a small dog called Pip, and they go outside every morning. The dog is quiet in the lift and waits beside Mr Green at the front door.",
+    "corrected_text": "Mr Green lives on the second floor. He has a small dog called Pip, and they go outside every morning. The dog is quiet in the lift and waits beside Mr Green at the front door.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 36
+  },
+  {
+    "id": "A1-C003",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe what you do before a music lesson.",
+    "student_text": "My piano lesson starts at four on Wednesdays. I leave home at half past three and take my music book with me. Before the lesson, I wait in a room with two other students.",
+    "corrected_text": "My piano lesson starts at four on Wednesdays. I leave home at half past three and take my music book with me. Before the lesson, I wait in a room with two other students.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 34
+  },
+  {
+    "id": "A1-C004",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Tell a friend about a meal you can make.",
+    "student_text": "I can make a cheese sandwich for lunch. First, I put some lettuce on the bread. Then I add cheese and a slice of tomato. My little brother likes one too, but he wants no lettuce.",
+    "corrected_text": "I can make a cheese sandwich for lunch. First, I put some lettuce on the bread. Then I add cheese and a slice of tomato. My little brother likes one too, but he wants no lettuce.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 36
+  },
+  {
+    "id": "A1-C005",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Write about a place you visit after lunch.",
+    "student_text": "There is a small bookshop beside the post office. I sometimes go there with my dad after lunch. He reads the newspapers, and I look at books about space. We usually walk home together.",
+    "corrected_text": "There is a small bookshop beside the post office. I sometimes go there with my dad after lunch. He reads the newspapers, and I look at books about space. We usually walk home together.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 34
+  },
+  {
+    "id": "A1-C006",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe the clothes you wear on a cold day.",
+    "student_text": "When it is cold, I wear my green coat and warm gloves. My boots are under the chair near the door. I put them on before I leave for the bus in the morning.",
+    "corrected_text": "When it is cold, I wear my green coat and warm gloves. My boots are under the chair near the door. I put them on before I leave for the bus in the morning.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 34
+  },
+  {
+    "id": "A1-C007",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Write about a short visit to a farm.",
+    "student_text": "Our teacher takes us to a farm in May. There are sheep in one field and ducks near the pond. I like the little lambs because they run after their mothers when it is time to eat.",
+    "corrected_text": "Our teacher takes us to a farm in May. There are sheep in one field and ducks near the pond. I like the little lambs because they run after their mothers when it is time to eat.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 37
+  },
+  {
+    "id": "A1-C008",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Explain where you keep something important.",
+    "student_text": "I keep my house key in a pocket inside my school bag. It is next to my pencil case, so I can find it quickly. I check the pocket before I go home each day.",
+    "corrected_text": "I keep my house key in a pocket inside my school bag. It is next to my pencil case, so I can find it quickly. I check the pocket before I go home each day.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 35
+  },
+  {
+    "id": "A1-C009",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe a game you play outside.",
+    "student_text": "My cousins and I play hide-and-seek in the garden. One person counts to ten while the others find a place to hide. The garden has a tall hedge, but nobody hides behind the shed.",
+    "corrected_text": "My cousins and I play hide-and-seek in the garden. One person counts to ten while the others find a place to hide. The garden has a tall hedge, but nobody hides behind the shed.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 34
+  },
+  {
+    "id": "A1-C010",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Write about a simple job you do at home.",
+    "student_text": "After dinner, I dry the plates while my mother washes them. My brother puts the cups away in the cupboard. We finish quickly, and then I have time to read before bed.",
+    "corrected_text": "After dinner, I dry the plates while my mother washes them. My brother puts the cups away in the cupboard. We finish quickly, and then I have time to read before bed.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 32
+  },
+  {
+    "id": "A1-C011",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Tell someone about a bus journey.",
+    "student_text": "The number six bus stops outside our library. I take it to the swimming pool on Friday afternoons. The journey is short, and I get off near a yellow café with big windows.",
+    "corrected_text": "The number six bus stops outside our library. I take it to the swimming pool on Friday afternoons. The journey is short, and I get off near a yellow café with big windows.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 33
+  },
+  {
+    "id": "A1-C012",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe what you do when the weather is sunny.",
+    "student_text": "On sunny afternoons, my friend and I sit on the steps outside her house. We drink cold juice and talk about our plans. Her cat sometimes comes over and sleeps in the shade.",
+    "corrected_text": "On sunny afternoons, my friend and I sit on the steps outside her house. We drink cold juice and talk about our plans. Her cat sometimes comes over and sleeps in the shade.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 33
+  },
+  {
+    "id": "A1-C013",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Write about a person who works in your area.",
+    "student_text": "The baker opens his shop very early each morning. I can smell fresh bread when I walk past on my way to school. At the weekend, my family buys rolls there for breakfast.",
+    "corrected_text": "The baker opens his shop very early each morning. I can smell fresh bread when I walk past on my way to school. At the weekend, my family buys rolls there for breakfast.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 33
+  },
+  {
+    "id": "A1-C014",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Describe a birthday present you gave someone.",
+    "student_text": "For my uncle's birthday, I made him a card with a picture of a boat. He put it on the shelf in his office. I was happy because he showed it to his friends.",
+    "corrected_text": "For my uncle's birthday, I made him a card with a picture of a boat. He put it on the shelf in his office. I was happy because he showed it to his friends.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 34
+  },
+  {
+    "id": "A1-C015",
+    "level": "A1",
+    "condition": "correct",
+    "task": "Write about what you do at a local swimming pool.",
+    "student_text": "The pool is warm inside, even when it rains. I go there with my class once a week. Our instructor gives us a blue board, and we practise kicking from one side to the other.",
+    "corrected_text": "The pool is warm inside, even when it rains. I go there with my class once a week. Our instructor gives us a blue board, and we practise kicking from one side to the other.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 35
+  }
+]

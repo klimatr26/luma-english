@@ -1,0 +1,125 @@
+{
+  "purpose": "Read-only Phase 1 integrity baseline; not new inference results",
+  "files": [
+    {
+      "path": "benchmark_smoke_test_v1.json",
+      "size_bytes": 34618,
+      "sha256": "b9fb7891c748b0d7eea6246fb8081b8bc8aa294bd5b220a7b9eb6ae371290a97"
+    },
+    {
+      "path": "benchmark_smoke_test_v2.json",
+      "size_bytes": 50735,
+      "sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9"
+    },
+    {
+      "path": "run_benchmark_v2.py",
+      "size_bytes": 16309,
+      "sha256": "e1d0e8222a4162f91a9a935603d9ef579d2a276c61c59445103c27658866a8bc"
+    },
+    {
+      "path": "build_benchmark_v2_report.py",
+      "size_bytes": 13113,
+      "sha256": "7e3d3305b13320311c27d5344cad34b62b8800c33adbe2eeb3e1f753cad3acdb"
+    },
+    {
+      "path": "benchmark_results_v2/raw_outputs.jsonl",
+      "size_bytes": 616830,
+      "sha256": "3d73ad9cb9e4e2d76f2bd991f0dbc5c9c2be38dcd0c281e73e01f107023c56e0"
+    },
+    {
+      "path": "benchmark_results_v2/run_metadata.json",
+      "size_bytes": 8922,
+      "sha256": "95b17176bee03d78a3afe3ff7c2b125ff01db565172521c24399fd93efc7574d"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/audit_notes_v2.md",
+      "size_bytes": 3442,
+      "sha256": "243f5815820c829a10f6a10fdec610d8e8109d2dd7edef8a945876d1b69fdf8f"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/benchmark_results_v2_rerun.zip",
+      "size_bytes": 156599,
+      "sha256": "af75bfedc5c8051f6aee6858f4691fd73b299db91159351389f367fedd3997b4"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/case_results_v2.csv",
+      "size_bytes": 75078,
+      "sha256": "4351477c83a4f6aaf087a69e4d96627f1298bc5931207143c45e02fa222d47b1"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/comparison_v2.csv",
+      "size_bytes": 871,
+      "sha256": "7248c7b8a2d850003bc89d1a574baf3089c161a918cacd14810e23b69bea9548"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/comparison_v2.json",
+      "size_bytes": 4786,
+      "sha256": "d14789c167b44f7a4c498041a3fbeceaf2fad8a7d456445ffc0a9306160218cc"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/comparison_v2.md",
+      "size_bytes": 1255,
+      "sha256": "55927411c6637dda581e34d0d173d55b6186514d0eb5b84f741ab20dab3a8aa6"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_gemma-4-e2b-qat-mobile.json",
+      "size_bytes": 32037,
+      "sha256": "340531a6c7f31d176db2714572cab9c0e2d44da1c47d914c892020bbf1bf2bbf"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_lfm2-5-1-2b-thinking.json",
+      "size_bytes": 34029,
+      "sha256": "afbb047a6b0867f6521bf1e28fbd64f11ac18f6c12a192d241c314d7dbb821b0"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_lfm2_5_1_2b_instruct.json",
+      "size_bytes": 29363,
+      "sha256": "11bc0048045cd8467aec6a337d2ff545caabe4f0d1e86a48ec588c28342ab8d7"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_lfm2_5_350m.json",
+      "size_bytes": 29066,
+      "sha256": "399b7f308048c6b110435fe22ba52ddec86f8c65d616810e498068dc3600b947"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_minicpm5-1b.json",
+      "size_bytes": 26956,
+      "sha256": "bc318d006bc2a9aaaa11e2b8c19ed26f6766491bae358cc79330174558773eda"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_minicpm5-2b.json",
+      "size_bytes": 32798,
+      "sha256": "0f4b8949476d424ac33086511595b9796b26b9eda76448aea6682729c3eeeefa"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_qwen3-5-0-8b.json",
+      "size_bytes": 33521,
+      "sha256": "c9e6eee6edee1fe4a5567d8fa1d847d2f11e2c7584c31d88280db9493783559c"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_qwen3.5-2b.json",
+      "size_bytes": 25247,
+      "sha256": "1effcd80a1ab4ec300e04cdb90511883aaab0958c1a3923e3c2184c90a5754d4"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/model_summaries_v2.json",
+      "size_bytes": 13684,
+      "sha256": "4c9f4ff91fb34df3d30afa2c83ce39fa2f4cee1f40a3dc172e78e93d2b4effa1"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/needs_human_review_v2.json",
+      "size_bytes": 1319,
+      "sha256": "2ac45b597633d59072bd03c4f64cf4ec762bde9f97440ef0bf5ab0deb393bd52"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/raw_outputs.jsonl",
+      "size_bytes": 908618,
+      "sha256": "589c62551271a3ffd3cf9e96c1daafec6db18589754708ba6505b3ee92ee0a23"
+    },
+    {
+      "path": "benchmark_results_v2_rerun/run_metadata.json",
+      "size_bytes": 11839,
+      "sha256": "321360b8b9feb07f73897fe649cc761c2618f400045bc160aa27ffc2dea99a5c"
+    }
+  ]
+}

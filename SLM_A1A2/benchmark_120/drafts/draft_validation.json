@@ -1,0 +1,143 @@
+{
+  "draft_case_count": 120,
+  "level_counts": {
+    "A1": 60,
+    "A2": 60
+  },
+  "condition_counts": {
+    "incorrect": 90,
+    "correct": 30
+  },
+  "error_instance_count": 115,
+  "error_types": {
+    "SUBJECT_VERB_AGREEMENT": 18,
+    "ARTICLE": 6,
+    "SUBJECT_PRONOUN": 1,
+    "OBJECT_PRONOUN": 5,
+    "POSSESSIVE": 2,
+    "PREPOSITION_TIME": 2,
+    "WORD_ORDER": 6,
+    "PRESENT_SIMPLE": 7,
+    "NEGATION": 2,
+    "SOME_ANY": 4,
+    "BASIC_LEXICAL_CHOICE": 3,
+    "PUNCTUATION": 6,
+    "PRESENT_CONTINUOUS": 3,
+    "PREPOSITION_PLACE": 4,
+    "SPELLING": 3,
+    "MUCH_MANY": 5,
+    "SUPERLATIVE": 3,
+    "PAST_SIMPLE": 12,
+    "VERB_PREPOSITION": 6,
+    "CONTRACTION": 3,
+    "COMPARATIVE": 4,
+    "BASIC_MODAL": 3,
+    "PRESENT_PERFECT": 2,
+    "VERB_PATTERN": 5
+  },
+  "error_types_by_level": {
+    "A1": {
+      "SUBJECT_VERB_AGREEMENT": 10,
+      "ARTICLE": 4,
+      "SUBJECT_PRONOUN": 1,
+      "OBJECT_PRONOUN": 2,
+      "POSSESSIVE": 2,
+      "PREPOSITION_TIME": 1,
+      "WORD_ORDER": 4,
+      "PRESENT_SIMPLE": 5,
+      "NEGATION": 2,
+      "SOME_ANY": 1,
+      "BASIC_LEXICAL_CHOICE": 3,
+      "PUNCTUATION": 4,
+      "PRESENT_CONTINUOUS": 2,
+      "PREPOSITION_PLACE": 2,
+      "SPELLING": 2,
+      "MUCH_MANY": 1,
+      "SUPERLATIVE": 1,
+      "PAST_SIMPLE": 3,
+      "VERB_PREPOSITION": 2,
+      "CONTRACTION": 1,
+      "COMPARATIVE": 1
+    },
+    "A2": {
+      "PAST_SIMPLE": 9,
+      "COMPARATIVE": 3,
+      "MUCH_MANY": 4,
+      "WORD_ORDER": 2,
+      "PRESENT_SIMPLE": 2,
+      "SUBJECT_VERB_AGREEMENT": 8,
+      "VERB_PREPOSITION": 4,
+      "OBJECT_PRONOUN": 3,
+      "CONTRACTION": 2,
+      "BASIC_MODAL": 3,
+      "SUPERLATIVE": 2,
+      "PRESENT_PERFECT": 2,
+      "SOME_ANY": 3,
+      "VERB_PATTERN": 5,
+      "PUNCTUATION": 2,
+      "PRESENT_CONTINUOUS": 1,
+      "PREPOSITION_PLACE": 2,
+      "ARTICLE": 2,
+      "PREPOSITION_TIME": 1,
+      "SPELLING": 1
+    }
+  },
+  "incorrect_texts_by_error_count": {
+    "2": 22,
+    "1": 67,
+    "4": 1
+  },
+  "word_counts": {
+    "A1": {
+      "mean": 28,
+      "median": 27.0,
+      "min": 23,
+      "max": 37
+    },
+    "A2": {
+      "mean": 45.88,
+      "median": 45.5,
+      "min": 35,
+      "max": 59
+    }
+  },
+  "issues": [
+    {
+      "severity": "BLOCKER",
+      "case_id": "A1-C009",
+      "issue": "length_words mismatch",
+      "declared": 34,
+      "actual": 36
+    },
+    {
+      "severity": "BLOCKER",
+      "case_id": "A2-E032",
+      "issue": "length_words mismatch",
+      "declared": 40,
+      "actual": 41
+    },
+    {
+      "severity": "BLOCKER",
+      "case_id": "A2-E042",
+      "issue": "length_words mismatch",
+      "declared": 44,
+      "actual": 45
+    },
+    {
+      "severity": "BLOCKER",
+      "case_id": "A2-C008",
+      "issue": "length_words mismatch",
+      "declared": 57,
+      "actual": 58
+    },
+    {
+      "severity": "BLOCKER",
+      "case_id": "A2-C009",
+      "issue": "length_words mismatch",
+      "declared": 51,
+      "actual": 52
+    }
+  ],
+  "blocker_count": 5,
+  "review_count": 0
+}

@@ -1,0 +1,130 @@
+{
+  "scope": "Read-only inventory; no re-evaluation or modification of historical results",
+  "datasets": [
+    {
+      "directory": "benchmark_results_v2",
+      "raw_sha256": "3d73ad9cb9e4e2d76f2bd991f0dbc5c9c2be38dcd0c281e73e01f107023c56e0",
+      "metadata_sha256": "95b17176bee03d78a3afe3ff7c2b125ff01db565172521c24399fd93efc7574d",
+      "rows": 269,
+      "unique_model_case_pairs": 269,
+      "model_case_counts": {
+        "LFM2.5-350M": 40,
+        "LFM2.5-1.2B-Instruct": 40,
+        "LFM2.5-1.2B-Thinking": 40,
+        "Qwen3.5-0.8B": 40,
+        "Qwen3.5-2B": 40,
+        "MiniCPM5-1B": 40,
+        "MiniCPM5-2B": 29
+      },
+      "generation": {
+        "do_sample": false,
+        "max_new_tokens": 512,
+        "max_context_tokens": 4096,
+        "constrained_json": false,
+        "seed": null
+      },
+      "runtime": {
+        "transformers": "5.18.0",
+        "torch": "2.14.1+cu130",
+        "cuda_runtime": "13.0",
+        "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]"
+      },
+      "checkpoint_revisions": {
+        "LFM2.5-350M": {
+          "checkpoint": "LiquidAI/LFM2.5-350M",
+          "revision": "9e6c6ccf47cd318696e137d381a7ded8fe4df09f"
+        },
+        "LFM2.5-1.2B-Instruct": {
+          "checkpoint": "LiquidAI/LFM2.5-1.2B-Instruct",
+          "revision": "0f604ada3f766f9f257460c4c9f0b5d6f69d431b"
+        },
+        "LFM2.5-1.2B-Thinking": {
+          "checkpoint": "LiquidAI/LFM2.5-1.2B-Thinking",
+          "revision": "f313478934a7612d22991f752959d7a1a8756fec"
+        },
+        "Qwen3.5-0.8B": {
+          "checkpoint": "Qwen/Qwen3.5-0.8B",
+          "revision": "2fc06364715b967f1860aea9cf38778875588b17"
+        },
+        "Qwen3.5-2B": {
+          "checkpoint": "Qwen/Qwen3.5-2B",
+          "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc"
+        },
+        "MiniCPM5-1B": {
+          "checkpoint": "openbmb/MiniCPM5-1B",
+          "revision": "87179e5c1f455ef22e6223592d2d61351b525bfc"
+        },
+        "MiniCPM5-2B": {
+          "checkpoint": "openbmb/MiniCPM5-2B",
+          "revision": "f97400052a43d642bbc6e9975e2397e3ae6a6b52"
+        }
+      }
+    },
+    {
+      "directory": "benchmark_results_v2_rerun",
+      "raw_sha256": "589c62551271a3ffd3cf9e96c1daafec6db18589754708ba6505b3ee92ee0a23",
+      "metadata_sha256": "321360b8b9feb07f73897fe649cc761c2618f400045bc160aa27ffc2dea99a5c",
+      "rows": 320,
+      "unique_model_case_pairs": 320,
+      "model_case_counts": {
+        "LFM2.5-350M": 40,
+        "LFM2.5-1.2B-Instruct": 40,
+        "LFM2.5-1.2B-Thinking": 40,
+        "Qwen3.5-0.8B": 40,
+        "Qwen3.5-2B": 40,
+        "MiniCPM5-1B": 40,
+        "MiniCPM5-2B": 40,
+        "Gemma 4 E2B QAT Mobile": 40
+      },
+      "generation": {
+        "do_sample": false,
+        "max_new_tokens": 2048,
+        "max_context_tokens": 4096,
+        "constrained_json": false,
+        "seed": null
+      },
+      "runtime": {
+        "transformers": "5.18.0",
+        "torch": "2.14.1+cu130",
+        "cuda_runtime": "13.0",
+        "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]"
+      },
+      "checkpoint_revisions": {
+        "LFM2.5-350M": {
+          "checkpoint": "LiquidAI/LFM2.5-350M",
+          "revision": "9e6c6ccf47cd318696e137d381a7ded8fe4df09f"
+        },
+        "LFM2.5-1.2B-Instruct": {
+          "checkpoint": "LiquidAI/LFM2.5-1.2B-Instruct",
+          "revision": "0f604ada3f766f9f257460c4c9f0b5d6f69d431b"
+        },
+        "LFM2.5-1.2B-Thinking": {
+          "checkpoint": "LiquidAI/LFM2.5-1.2B-Thinking",
+          "revision": "f313478934a7612d22991f752959d7a1a8756fec"
+        },
+        "Qwen3.5-0.8B": {
+          "checkpoint": "Qwen/Qwen3.5-0.8B",
+          "revision": "2fc06364715b967f1860aea9cf38778875588b17"
+        },
+        "Qwen3.5-2B": {
+          "checkpoint": "Qwen/Qwen3.5-2B",
+          "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc"
+        },
+        "MiniCPM5-1B": {
+          "checkpoint": "openbmb/MiniCPM5-1B",
+          "revision": "87179e5c1f455ef22e6223592d2d61351b525bfc"
+        },
+        "MiniCPM5-2B": {
+          "checkpoint": "openbmb/MiniCPM5-2B",
+          "revision": "f97400052a43d642bbc6e9975e2397e3ae6a6b52"
+        },
+        "Gemma 4 E2B QAT Mobile": {
+          "checkpoint": "google/gemma-4-E2B-it-qat-mobile-transformers",
+          "revision": "dd693ff40353f057ca5f07e945ad867f4afbf2ec"
+        }
+      }
+    }
+  ],
+  "baseline_integrity": "24 protected artifacts verified byte-identical",
+  "new_inferences_executed": 0
+}

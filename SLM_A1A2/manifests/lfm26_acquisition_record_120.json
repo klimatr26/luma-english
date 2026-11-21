@@ -1,0 +1,19 @@
+{
+  "repo": "LiquidAI/LFM2.5-2.6B-GGUF",
+  "revision": "e7caca5d835a3901a8e0d63e94009429bafafdfc",
+  "license": "lfm1.0",
+  "license_source": "pinned model card license_name",
+  "outputs": [
+    {
+      "file": "LFM2.5-2.6B-Q4_K_M.gguf",
+      "bytes": 1674455040,
+      "sha256": "02a8b7e17487d326e46d68ce0ba24211e1b80a14c4cd0597fa73c1cd697f52ed"
+    },
+    {
+      "file": "LFM2.5-2.6B-Q8_0.gguf",
+      "bytes": 2874779648,
+      "sha256": "1e22128dfa128bdfb684da167e74e072d0a056baa7d06d9f280291e2839b0fc9"
+    }
+  ],
+  "execution_approved": false
+}

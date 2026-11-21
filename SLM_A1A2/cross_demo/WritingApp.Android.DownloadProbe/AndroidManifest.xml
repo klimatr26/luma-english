@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-permission android:name="android.permission.INTERNET" />
+  <!-- Separate, temporary validation package; never the production application. -->
+  <application android:label="Writing download validation" android:allowBackup="false"
+      android:debuggable="true" android:extractNativeLibs="true" android:usesCleartextTraffic="false" />
+</manifest>

@@ -1,0 +1,1061 @@
+{
+  "model_name": "LFM2.5-1.2B-Thinking",
+  "benchmark_id": "writing_a1_a2_smoke_v2",
+  "benchmark_version": "2.0",
+  "evaluation_scope": "Solo gold v2 congelado y outputs de este modelo; sin usar resultados de otros modelos.",
+  "summary": {
+    "cases": 40,
+    "labels": {
+      "CORRECT": 6,
+      "PARTIAL": 10,
+      "INCORRECT": 24
+    },
+    "case_accuracy": {
+      "correct": 6,
+      "partial": 10,
+      "incorrect": 24,
+      "correct_rate": 0.15
+    },
+    "real_errors": 59,
+    "detected_errors": 20,
+    "missed_errors": 39,
+    "false_positive_errors": 4,
+    "error_detection_recall": 0.3389830508474576,
+    "error_precision": 0.8333333333333334,
+    "corrections_valid_cases": 13,
+    "corrections_valid_rate": 0.325,
+    "explanation_valid_cases": 11,
+    "explanation_valid_rate": 0.275,
+    "meaning_preserved_cases": 18,
+    "meaning_preserved_rate": 0.45,
+    "json_valid_cases": 21,
+    "json_valid_rate": 0.525,
+    "truncated_cases": 18,
+    "repetition_or_loop_cases": 0,
+    "text_outside_json_cases": 33,
+    "execution_completed_cases": 22,
+    "needs_human_review_cases": 0,
+    "latency_seconds": {
+      "mean": 51.97884399250324,
+      "median": 57.733199949987466,
+      "min": 22.173553699976765,
+      "max": 61.99099950003438
+    },
+    "tokens_generated": {
+      "total": 70523,
+      "mean": 1763.075,
+      "median": 1998.0
+    },
+    "peak_RAM_bytes": {
+      "mean": 2320396288,
+      "max": 2320396288
+    },
+    "peak_RAM_GiB": {
+      "mean": 2.1610374450683594,
+      "max": 2.1610374450683594
+    },
+    "peak_VRAM_bytes": {
+      "mean": 2425303859.2,
+      "max": 2426404864
+    },
+    "peak_VRAM_GiB": {
+      "mean": 2.258740234375,
+      "max": 2.259765625
+    }
+  },
+  "cases": [
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E01",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "subject-verb agreement / present simple: live",
+        "subject-verb agreement / present simple: get up",
+        "subject-verb agreement / present simple: go"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "subject-verb agreement / present simple: live",
+        "subject-verb agreement / present simple: get up",
+        "subject-verb agreement / present simple: go"
+      ],
+      "false_positive_errors": [
+        "misidentifies live; invalid replacement and deletes clause"
+      ],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Final JSON follows external reasoning but drops first clause, introduces wrong replacement, and misses all three errors."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E02",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "form of be / subject-verb agreement: My sister are",
+        "form of be / subject-verb agreement: We is"
+      ],
+      "detected_errors": [
+        "form of be / subject-verb agreement: My sister are"
+      ],
+      "missed_errors": [
+        "form of be / subject-verb agreement: We is"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Corrected both fragments in corrected_text but detected only the sister error; missed We is."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E03",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "present simple / verb form after do: don't likes",
+        "subject-verb agreement / present simple: father like",
+        "subject-verb agreement / present simple: mother make"
+      ],
+      "detected_errors": [
+        "present simple / verb form after do: don't likes",
+        "subject-verb agreement / present simple: father like",
+        "subject-verb agreement / present simple: mother make"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "All three changes reflected; final JSON malformed and explanation of after do is imprecise."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E04",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "present continuous / form of be: Two boys is playing",
+        "present continuous / form of be: a woman are sitting",
+        "present continuous: Her dog run"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "present continuous / form of be: Two boys is playing",
+        "present continuous / form of be: a woman are sitting",
+        "present continuous: Her dog run"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated before complete JSON; no usable answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E05",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "article: an dog",
+        "article: a orange"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "article: an dog",
+        "article: a orange"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated at start of JSON object; no usable answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E06",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "singular/plural: three book",
+        "singular/plural: two pencil",
+        "form of be / subject-verb agreement: The books is",
+        "subject-verb agreement / present simple: one pencil have"
+      ],
+      "detected_errors": [
+        "singular/plural: three book",
+        "form of be / subject-verb agreement: The books is",
+        "subject-verb agreement / present simple: one pencil have"
+      ],
+      "missed_errors": [
+        "singular/plural: two pencil"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Corrects three of four errors but leaves two pencil unchanged."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E07",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "subject pronoun: My friend and me",
+        "subject-verb agreement / present simple: goes",
+        "object pronoun: helps I",
+        "subject-verb agreement / present simple: we plays"
+      ],
+      "detected_errors": [
+        "subject-verb agreement / present simple: goes",
+        "object pronoun: helps I",
+        "subject-verb agreement / present simple: we plays"
+      ],
+      "missed_errors": [
+        "subject pronoun: My friend and me"
+      ],
+      "false_positive_errors": [
+        "mislabels agreement with subject friend"
+      ],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Corrects go, helps me and we play, but leaves subject pronoun me instead of I; extra faulty agreement claim."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E08",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "possessive apostrophe: sisters bag",
+        "subject-verb agreement / present simple: She take"
+      ],
+      "detected_errors": [
+        "possessive apostrophe: sisters bag",
+        "subject-verb agreement / present simple: She take"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E09",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "preposition of time: at Monday",
+        "preposition of time: in 10 o'clock"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "preposition of time: at Monday",
+        "preposition of time: in 10 o'clock"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated before complete JSON answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E10",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "word order / time expression: I every day walk to school with my cousin",
+        "word order: We at the bus stop meet our friends"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "word order / time expression: I every day walk to school with my cousin",
+        "word order: We at the bus stop meet our friends"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated before complete JSON answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E11",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "present simple question word order: Where you live",
+        "question word order / form of be: How old your brother is"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "present simple question word order: Where you live",
+        "question word order / form of be: How old your brother is"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Claims correct and leaves both malformed questions unchanged."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E12",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "present simple negation: I no like"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "present simple negation: I no like"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated before complete JSON answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E13",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "some/any: aren't some apples"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "some/any: aren't some apples"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated before complete JSON answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E14",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "basic lexical choice / coordination: eat a glass of water and a sandwich"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "basic lexical choice / coordination: eat a glass of water and a sandwich"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Claims correct and leaves eat a glass of water unchanged."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-E15",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "spelling: freind",
+        "punctuation: Saturday"
+      ],
+      "detected_errors": [
+        "punctuation: Saturday"
+      ],
+      "missed_errors": [
+        "spelling: freind"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Adds missing final full stop but misses misspelling freind."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-C01",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-C02",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-C03",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated before complete JSON answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-C04",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A1-C05",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated before complete JSON answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E01",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "past simple / irregular verb: goed",
+        "past simple: come home"
+      ],
+      "detected_errors": [
+        "past simple / irregular verb: goed"
+      ],
+      "missed_errors": [
+        "past simple: come home"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Both wrong verbs fixed in corrected text, but only goed listed; missed come home."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E02",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "comparative adjective: more cheaper"
+      ],
+      "detected_errors": [
+        "comparative adjective: more cheaper"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [
+        "replaces cheaper with expensive, reversing comparison"
+      ],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Correction reverses meaning and drops most student text."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E03",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "much/many: much suitcases",
+        "much/many / quantifier choice: many time"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "much/many: much suitcases",
+        "much/many / quantifier choice: many time"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated during reasoning without completed answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E04",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "article: to restaurant",
+        "article: and meal"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "article: to restaurant",
+        "article: and meal"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated before complete JSON answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E05",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "present continuous / subject-verb agreement: My friends makes"
+      ],
+      "detected_errors": [
+        "present continuous / subject-verb agreement: My friends makes"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Uses make instead of required right-now are making."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E06",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "object pronoun: showed I",
+        "object pronoun: sent they"
+      ],
+      "detected_errors": [
+        "object pronoun: showed I",
+        "object pronoun: sent they"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Both pronouns corrected; explanation for they/them gives wrong rationale."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E07",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "possessive apostrophe: parents room",
+        "possessive determiner / contraction: they're books"
+      ],
+      "detected_errors": [
+        "possessive apostrophe: parents room"
+      ],
+      "missed_errors": [
+        "possessive determiner / contraction: they're books"
+      ],
+      "false_positive_errors": [
+        "claims their is already correct despite original they’re"
+      ],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Possessive apostrophe fixed; they’re issue not accurately detected, and corrected text changes their books to the books."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E08",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "preposition of place: in the bus stop",
+        "preposition after arrive: arrives to school"
+      ],
+      "detected_errors": [
+        "preposition after arrive: arrives to school"
+      ],
+      "missed_errors": [
+        "preposition of place: in the bus stop"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Only fixes arrives to; drops first sentences, misses in the bus stop, loses meaning."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E09",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "past simple question word order: Where you went",
+        "past simple question / verb form after did: Did you stayed"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "past simple question word order: Where you went",
+        "past simple question / verb form after did: Did you stayed"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated before completed JSON answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E10",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "form of be / singular-plural: There was two",
+        "form of be / subject-verb agreement: windows was"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "form of be / singular-plural: There was two",
+        "form of be / subject-verb agreement: windows was"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated before completed JSON answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E11",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "preposition after verb: listen music"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "preposition after verb: listen music"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated before completed JSON answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E12",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "spelling / past simple: studyed",
+        "past simple negation: didn't went"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "spelling / past simple: studyed",
+        "past simple negation: didn't went"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated during reasoning; no final answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E13",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "some/any: doesn't have some",
+        "some/any: buy any milk"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "some/any: doesn't have some",
+        "some/any: buy any milk"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated during reasoning; no final answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E14",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "superlative adjective / double comparison: the most noisier"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "superlative adjective / double comparison: the most noisier"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": false,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated during reasoning; no final answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-E15",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "past simple: eat"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "past simple: eat"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Valid past-tense text but says is_correct true and detects no original eat error."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-C01",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-C02",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Incomplete response; corrected_text empty, fails unchanged control."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-C03",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": true,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-C04",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated before complete answer."
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "case_id": "A2-C05",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": true,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": false,
+      "needs_human_review": false,
+      "review_note": "Truncated before complete answer."
+    }
+  ]
+}

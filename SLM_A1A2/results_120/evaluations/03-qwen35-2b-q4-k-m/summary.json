@@ -1,0 +1,335 @@
+{
+  "metadata": {
+    "benchmark_id": "writing_a1_a2_development_120_v1",
+    "model_name": "qwen35_2b_q4_k_m",
+    "cases_total": 120,
+    "cases_scored": 120,
+    "cases_invalid_excluded": 0,
+    "provisional_note": "All verdicts/scores without a traced human evaluation are PROVISIONAL. Meaning and explanation quality require explicit human judgment.",
+    "human_confirmed_cases": 0
+  },
+  "verdicts_final": {
+    "CORRECT": 33,
+    "PARTIAL": 15,
+    "INCORRECT": 72,
+    "INVALID_CASE": 0
+  },
+  "verdicts_provisional": {
+    "CORRECT": 33,
+    "PARTIAL": 15,
+    "INCORRECT": 72,
+    "INVALID_CASE": 0
+  },
+  "format": {
+    "parse_status_counts": {
+      "direct": 119,
+      "recoverable": 1
+    },
+    "schema_valid": 114,
+    "strict_json_compliant": 114,
+    "with_fences": 0,
+    "with_text_outside_json": 1
+  },
+  "error_detection_incorrect_only": {
+    "tp": 26,
+    "fp": 106,
+    "fn": 124,
+    "precision": 0.19696969696969696,
+    "recall": 0.17333333333333334,
+    "f0_5": 0.19174041297935104
+  },
+  "error_detection_status": "PROVISIONAL_STRICT_MATCH_PROXY; traced verdict overrides do not automatically adjudicate TP/FP/FN counts",
+  "detection_metric_policy": "Provisional strict licensed-realized matches with exact original spans; not semantic detection ground truth. Broader valid spans and unlisted valid corrections require traced human adjudication.",
+  "controls": {
+    "n_controls": 30,
+    "ctmr_modified": 1,
+    "ctmr_rate": 0.03333333333333333,
+    "cfar_false_alarm": 5,
+    "cfar_rate": 0.16666666666666666,
+    "fully_preserved": 25,
+    "fully_preserved_rate": 0.8333333333333334,
+    "ctmr_unobservable": 0,
+    "cfar_schema_unobservable": 0,
+    "denominator_policy": "All non-invalid controls, including missing/unparseable outputs; unknown outcomes are explicitly reported, not certified as correct negatives.",
+    "ctmr_rate_upper_bound": 0.03333333333333333
+  },
+  "needs_human_review": 75,
+  "by_level": {
+    "A1": {
+      "cases": 60,
+      "verdicts": {
+        "CORRECT": 17,
+        "INCORRECT": 37,
+        "PARTIAL": 6
+      },
+      "error_detection": {
+        "tp": 11,
+        "fp": 60,
+        "fn": 64,
+        "precision": 0.15492957746478872,
+        "recall": 0.14666666666666667,
+        "f0_5": 0.1532033426183844
+      }
+    },
+    "A2": {
+      "cases": 60,
+      "verdicts": {
+        "CORRECT": 16,
+        "INCORRECT": 35,
+        "PARTIAL": 9
+      },
+      "error_detection": {
+        "tp": 15,
+        "fp": 46,
+        "fn": 60,
+        "precision": 0.2459016393442623,
+        "recall": 0.2,
+        "f0_5": 0.23510971786833856
+      }
+    }
+  },
+  "by_taxonomy_recall": {
+    "ARTICLE": {
+      "tp": 1,
+      "fn": 6,
+      "recall": 0.14285714285714285
+    },
+    "BASIC_CONNECTOR": {
+      "tp": 0,
+      "fn": 6,
+      "recall": 0.0
+    },
+    "BASIC_FUTURE": {
+      "tp": 0,
+      "fn": 10,
+      "recall": 0.0
+    },
+    "BASIC_LEXICAL_CHOICE": {
+      "tp": 0,
+      "fn": 4,
+      "recall": 0.0
+    },
+    "BASIC_MODAL": {
+      "tp": 0,
+      "fn": 3,
+      "recall": 0.0
+    },
+    "BE_FORM": {
+      "tp": 0,
+      "fn": 6,
+      "recall": 0.0
+    },
+    "CAPITALIZATION": {
+      "tp": 1,
+      "fn": 6,
+      "recall": 0.14285714285714285
+    },
+    "COMPARATIVE": {
+      "tp": 0,
+      "fn": 4,
+      "recall": 0.0
+    },
+    "CONTRACTION": {
+      "tp": 0,
+      "fn": 1,
+      "recall": 0.0
+    },
+    "COUNTABLE_UNCOUNTABLE": {
+      "tp": 0,
+      "fn": 4,
+      "recall": 0.0
+    },
+    "MUCH_MANY": {
+      "tp": 0,
+      "fn": 4,
+      "recall": 0.0
+    },
+    "NEGATION": {
+      "tp": 1,
+      "fn": 2,
+      "recall": 0.3333333333333333
+    },
+    "OBJECT_PRONOUN": {
+      "tp": 2,
+      "fn": 3,
+      "recall": 0.4
+    },
+    "PAST_SIMPLE": {
+      "tp": 4,
+      "fn": 6,
+      "recall": 0.4
+    },
+    "POSSESSIVE": {
+      "tp": 0,
+      "fn": 4,
+      "recall": 0.0
+    },
+    "PREPOSITION_PLACE": {
+      "tp": 0,
+      "fn": 4,
+      "recall": 0.0
+    },
+    "PREPOSITION_TIME": {
+      "tp": 0,
+      "fn": 3,
+      "recall": 0.0
+    },
+    "PRESENT_CONTINUOUS": {
+      "tp": 2,
+      "fn": 2,
+      "recall": 0.5
+    },
+    "PRESENT_PERFECT": {
+      "tp": 0,
+      "fn": 2,
+      "recall": 0.0
+    },
+    "PRESENT_SIMPLE": {
+      "tp": 1,
+      "fn": 1,
+      "recall": 0.5
+    },
+    "PUNCTUATION": {
+      "tp": 0,
+      "fn": 5,
+      "recall": 0.0
+    },
+    "QUESTION_FORM": {
+      "tp": 3,
+      "fn": 5,
+      "recall": 0.375
+    },
+    "SINGULAR_PLURAL": {
+      "tp": 3,
+      "fn": 4,
+      "recall": 0.42857142857142855
+    },
+    "SOME_ANY": {
+      "tp": 0,
+      "fn": 4,
+      "recall": 0.0
+    },
+    "SPELLING": {
+      "tp": 2,
+      "fn": 1,
+      "recall": 0.6666666666666666
+    },
+    "SUBJECT_PRONOUN": {
+      "tp": 0,
+      "fn": 2,
+      "recall": 0.0
+    },
+    "SUBJECT_VERB_AGREEMENT": {
+      "tp": 1,
+      "fn": 7,
+      "recall": 0.125
+    },
+    "SUPERLATIVE": {
+      "tp": 1,
+      "fn": 2,
+      "recall": 0.3333333333333333
+    },
+    "VERB_PATTERN": {
+      "tp": 3,
+      "fn": 2,
+      "recall": 0.6
+    },
+    "VERB_PREPOSITION": {
+      "tp": 1,
+      "fn": 5,
+      "recall": 0.16666666666666666
+    },
+    "WORD_ORDER": {
+      "tp": 0,
+      "fn": 6,
+      "recall": 0.0
+    }
+  },
+  "by_error_count": {
+    "2_errors": {
+      "cases": 24,
+      "tp": 7,
+      "fp": 35,
+      "fn": 41,
+      "verdicts": {
+        "INCORRECT": 19,
+        "PARTIAL": 3,
+        "CORRECT": 2
+      },
+      "precision": 0.16666666666666666,
+      "recall": 0.14583333333333334,
+      "f0_5": 0.16203703703703703
+    },
+    "3_errors": {
+      "cases": 12,
+      "tp": 4,
+      "fp": 20,
+      "fn": 32,
+      "verdicts": {
+        "INCORRECT": 8,
+        "PARTIAL": 4
+      },
+      "precision": 0.16666666666666666,
+      "recall": 0.1111111111111111,
+      "f0_5": 0.1515151515151515
+    },
+    "1_error": {
+      "cases": 50,
+      "tp": 13,
+      "fp": 42,
+      "fn": 37,
+      "verdicts": {
+        "CORRECT": 6,
+        "INCORRECT": 37,
+        "PARTIAL": 7
+      },
+      "precision": 0.23636363636363636,
+      "recall": 0.26,
+      "f0_5": 0.24074074074074076
+    },
+    "4+_errors": {
+      "cases": 4,
+      "tp": 2,
+      "fp": 9,
+      "fn": 14,
+      "verdicts": {
+        "INCORRECT": 3,
+        "PARTIAL": 1
+      },
+      "precision": 0.18181818181818182,
+      "recall": 0.125,
+      "f0_5": 0.16666666666666666
+    }
+  },
+  "by_length_words": {
+    "medium_31-60": {
+      "cases": 84,
+      "verdicts": {
+        "CORRECT": 28,
+        "INCORRECT": 45,
+        "PARTIAL": 11
+      }
+    },
+    "short_<=30": {
+      "cases": 36,
+      "verdicts": {
+        "INCORRECT": 27,
+        "PARTIAL": 4,
+        "CORRECT": 5
+      }
+    }
+  },
+  "telemetry": {
+    "rows": 120,
+    "note": "Telemetry is passthrough only; it never affects verdicts."
+  },
+  "benchmark_sha256": "07308427c02adcc056a8964d3e4da41615db4b7fc0101870e277097de46d59f9",
+  "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "response_selection": {
+    "rows_in": 120,
+    "rows_selected": 120,
+    "duplicate_cases_resolved": [],
+    "selection_policy": "highest verified final attempt number"
+  },
+  "shared_invalidation_registry_sha256": null
+}

@@ -1,0 +1,10 @@
+{
+  "initial_manifest_sha256": "6dc9d3b6955017a3ff4fe259a407eb8f34610b1d5725ead0c9818f0b5fe10579",
+  "final_manifest_sha256": "1aed97be94b3fe559f4ac6b5f6cb4ec1eb3d902ef50ba72c3ae6b98df50dba71",
+  "initial_load_config": "01-qwen35-2b-f16",
+  "synthetic_generations_sent": 0,
+  "reason": "Library GGML_LOG_LEVEL_INFO is mapped to LOG_LEVEL_TRACE=4 by pinned common/log.cpp; default verbosity3 suppressed CUDA/offload evidence.",
+  "resolution": "Freeze -lv4 across matrix; new exclusive technical attempt directory; retain first report/log/manifest.",
+  "sampling_model_and_template_kwargs_unchanged": true,
+  "initial_evidence": "logs/readiness_initial_attempt"
+}

@@ -1,0 +1,224 @@
+{
+  "scope_id": "phase1_40_current_16",
+  "benchmark_id": "writing_a1_a2_smoke_v2",
+  "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+  "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "phase1_baseline_sha256": "f2d2d4b081d7afac723178aabc805f618b48ed1289b9f131ce7f5bc08b93989f",
+  "expansion_authorization_sha256": "fbf12e175fc14208f4514af126e5755bb58b514490e271b8dcb080137c4e7bbc",
+  "extension_validation": {
+    "status": "VALIDATED_PENDING_USER_APPROVAL",
+    "scope_id": "phase1_40_current_16",
+    "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+    "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+    "phase1_baseline_sha256": "f2d2d4b081d7afac723178aabc805f618b48ed1289b9f131ce7f5bc08b93989f",
+    "case_count": 40,
+    "planned_rows": 640,
+    "config_ids": [
+      "01-qwen35-2b-f16",
+      "02-qwen35-2b-q8-0",
+      "03-qwen35-2b-q4-k-m",
+      "04-minicpm5-2b-f16",
+      "05-minicpm5-2b-q8-0",
+      "06-minicpm5-2b-q4-k-m",
+      "07-lfm25-12b-bf16",
+      "08-lfm25-12b-q8-0",
+      "09-lfm25-12b-q4-k-m",
+      "10-qwen35-4b-q8-0",
+      "11-qwen35-4b-q4-k-m",
+      "12-gemma4-e2b-qat-q4-0",
+      "13-gemma4-e2b-ud-q4-k-xl",
+      "14-gemma4-e2b-ud-q2-k-xl",
+      "15-lfm25-26b-q8-0",
+      "16-lfm25-26b-q4-k-m"
+    ],
+    "expansion_authorization_sha256": "fbf12e175fc14208f4514af126e5755bb58b514490e271b8dcb080137c4e7bbc"
+  },
+  "started_utc": "2026-10-11T18:25:00.742074+00:00",
+  "completed_utc": "2026-10-11T18:50:03.005875+00:00",
+  "planned_rows": 640,
+  "rate_limited_stop": false,
+  "rate_limited_config": null,
+  "rate_limit_detail": null,
+  "retry_failed_flag": false,
+  "per_config": [
+    {
+      "config_id": "01-qwen35-2b-f16",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "02-qwen35-2b-q8-0",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "03-qwen35-2b-q4-k-m",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "04-minicpm5-2b-f16",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "05-minicpm5-2b-q8-0",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "06-minicpm5-2b-q4-k-m",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "07-lfm25-12b-bf16",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "08-lfm25-12b-q8-0",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "09-lfm25-12b-q4-k-m",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "10-qwen35-4b-q8-0",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "11-qwen35-4b-q4-k-m",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "12-gemma4-e2b-qat-q4-0",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "14-gemma4-e2b-ud-q2-k-xl",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "15-lfm25-26b-q8-0",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    },
+    {
+      "config_id": "16-lfm25-26b-q4-k-m",
+      "completed": 40,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 40
+      }
+    }
+  ],
+  "successful_rows": 640,
+  "recorded_rows_in_returned_stats": 640,
+  "note": "All current 16 manifest configurations are evaluated over the frozen Phase 1 40-case benchmark. Sampling settings are read unchanged from the pinned family-specific manifest entries. The new scope writes only to results_40_current_16; historical Phase 1 artifacts and the 120-case development tree are read-only. HTTP 429 stops the entire invocation immediately, with no retry or fallback."
+}

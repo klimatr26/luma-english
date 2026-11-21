@@ -1,0 +1,81 @@
+{
+  "scope": "Documentation and reporting review, no model inference",
+  "historical_report": {
+    "author": "gpt-6-luna/max AI",
+    "file": "documentation/historical_phase1_results.md",
+    "old_artifacts_modified": false,
+    "audit_pending_count": 6,
+    "structured_pending_count": 5,
+    "initial_minicpm_rows": 29,
+    "initial_minicpm_rows_at512": 23
+  },
+  "methodology": {
+    "author": "gpt-6-luna/max AI",
+    "files": [
+      "documentation/methodology_phase2.md",
+      "documentation/experiment_chronology.md"
+    ],
+    "parent_corrections": [
+      "Runner loads benchmark gold for contract validation but never transmits it.",
+      "Document exact-original matching already implemented in evaluator before freeze."
+    ]
+  },
+  "reporting_review": {
+    "independent_reviewer": "gpt-6-luna/max AI",
+    "full_reports_blockers": 0,
+    "partial_report_hardening_requested": [
+      "RAW-only retry validation",
+      "raw-only config summary inclusion",
+      "expected config set equality"
+    ],
+    "partial_report_hardening_resolved": [
+      "RAW-only candidates explicitly unverified and unscored",
+      "all expected configs summarized including raw-only",
+      "exact expected config ID set required",
+      "mocked evaluator argument forwarding test"
+    ],
+    "reporter_test_count": 13,
+    "post_review_cosmetic_change": "Replace Markdown hard-break trailing spaces with blank lines; scoring behavior unchanged."
+  },
+  "parent_real_completed_config_reporting_integration": {
+    "configuration": "01-qwen35-2b-f16",
+    "selected_parsed_cases": 120,
+    "raw_final_cases": 120,
+    "human_confirmed_cases": 0,
+    "complete": true
+  },
+  "human_quality_approval_fabricated": false,
+  "written_utc": "2026-10-11T17:28:53.466702+00:00",
+  "full_offline_suite": 138,
+  "reporting_code_sha256": {
+    "scripts/report_execution_results.py": "6f3371582e88c8bd15a85f5c2cd6aa87e028838c2ecbd2bceb1ff1020712a17e",
+    "scripts/test_report_execution_results.py": "2b73e9b4c80a0b0b01e0e2fb6332dfe99024e7d4d98ae0b0cf4e6b26360b7c8c",
+    "scripts/analyze_annotation_granularity.py": "e485d617521538b449c97a670bf1e21180a840daa33017c251bda5e6c53b9c98",
+    "scripts/test_annotation_granularity.py": "e63c0f02298335ff1a7386c97bb289eb5a0be955857fb42cf8f81d28aabd40a2",
+    "scripts/audit_completed_execution.py": "31e79bc6ab284a6fa824b60487169917cdb6173e676439f6c2d40eb96fcee9ee"
+  },
+  "current16_expansion": {
+    "runner": "run_benchmark_40_current.py",
+    "runner_sha256": "08bab222fa0787801bedc0dcac4425dc72792cb62e1afd68f4eeb25efa316805",
+    "tests": 8,
+    "synthetic_cases": 640,
+    "parent_preflight_dry_run": "passed40x16 gates no server",
+    "parent_source_review": "Authorization,manifest,readiness,benchmark,baseline pins; ownnewresulttree; sharedRAW/retry logic",
+    "test_fixture_repairs": [
+      "Regex expected512gate wording",
+      "FakeServer initializer returnsNone"
+    ]
+  },
+  "posthoc_diagnostic": {
+    "author": "Parent Codex AI mechanical analysis; not a human review",
+    "rationale": "A1-E001 Qwen4Q8 declared meet->meets andbring->brings rather than goldcontext fragments, reconstructing identicalprimary text but strictTP0/FP2/FN2. Quantify descriptiveprimarytext/edit-effect gaps without regrading.",
+    "primary_evaluator_modified": false,
+    "primary_scores_modified": false,
+    "gold_modified": false,
+    "inference_parameters_modified": false,
+    "test_count": 4,
+    "full_diagnostics_rows": 2560,
+    "label": "POST_HOC_DESCRIPTIVE_DIAGNOSTIC_NOT_A_NEW_PRIMARY_SCORE"
+  },
+  "format_counter_display_fix": "Absent Counter categories in a completed evaluation are observedzero, while missing/uncollected evaluation fields remainnull. Primary case scores unchanged."
+}

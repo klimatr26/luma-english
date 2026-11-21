@@ -1,0 +1,15 @@
+{
+  "status": "VALIDATED_PENDING_USER_APPROVAL",
+  "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+  "case_count": 40,
+  "scope_id": "lfm26_phase1_40",
+  "config_ids": [
+    "15-lfm25-26b-q8-0",
+    "16-lfm25-26b-q4-k-m"
+  ],
+  "blocker_count": 0,
+  "review_count": 0,
+  "execution_approved": false,
+  "validation_scope": "Existing Phase1 input bytes unchanged; no new gold editorial approval claimed. Separate extension only for two new configs. Runtime requires manifest/readiness 16/16.",
+  "phase1_baseline_record_sha256": "f2d2d4b081d7afac723178aabc805f618b48ed1289b9f131ce7f5bc08b93989f"
+}

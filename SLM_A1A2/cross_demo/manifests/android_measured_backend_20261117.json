@@ -1,0 +1,359 @@
+{
+  "date_local": "2026-11-17",
+  "device": "POCO F8 Pro / 2510DPC44G",
+  "android": 16,
+  "firmware": "OS3.0.302.0.WPKMIXM",
+  "runtime": "b12359",
+  "calibration_version": "paired-writing-v1",
+  "minimum_speedup": 1.15,
+  "configurations": [
+    {
+      "model_id": "09-lfm25-12b-q4-k-m",
+      "source_file": "09-lfm25-12b-q4-k-m-measure-20261117T163821.json",
+      "source_sha256": "eec7bfdb5a30f9d6480d63077302cf648a2c5fabdee964446289f223c18863fd",
+      "selected": "CPU",
+      "reason": "CPU seleccionada. Vulkan no completó las tres evaluaciones con JSON utilizable.",
+      "cpu": [
+        {
+          "Backend": "CPU",
+          "Seconds": 3.71426104,
+          "Tokens": 48,
+          "FinishReason": "stop",
+          "ParserStatus": "INCONSISTENT",
+          "Failure": null
+        },
+        {
+          "Backend": "CPU",
+          "Seconds": 3.759401248,
+          "Tokens": 48,
+          "FinishReason": "stop",
+          "ParserStatus": "INCONSISTENT",
+          "Failure": null
+        },
+        {
+          "Backend": "CPU",
+          "Seconds": 3.718266144,
+          "Tokens": 48,
+          "FinishReason": "stop",
+          "ParserStatus": "INCONSISTENT",
+          "Failure": null
+        }
+      ],
+      "vulkan": [
+        {
+          "Backend": "Vulkan",
+          "Seconds": 2.415373228,
+          "Tokens": 48,
+          "FinishReason": "stop",
+          "ParserStatus": "INCONSISTENT",
+          "Failure": null
+        },
+        {
+          "Backend": "Vulkan",
+          "Seconds": 2.426553593,
+          "Tokens": 48,
+          "FinishReason": "stop",
+          "ParserStatus": "INCONSISTENT",
+          "Failure": null
+        },
+        {
+          "Backend": "Vulkan",
+          "Seconds": 2.408845468,
+          "Tokens": 48,
+          "FinishReason": "stop",
+          "ParserStatus": "INCONSISTENT",
+          "Failure": null
+        }
+      ],
+      "driver": "Adreno (TM) 830 / Mesa 26.2.7 / api=4211042",
+      "profile_key": "7fbbddee094a07a5323e8339ea4f5189422da2e28e07ec43ce1b1254411fe4e3",
+      "verified_evaluation": {
+        "seconds": 3.222879998,
+        "finish": "stop",
+        "parser": "INCONSISTENT"
+      }
+    },
+    {
+      "model_id": "06-minicpm5-2b-q4-k-m",
+      "source_file": "06-minicpm5-2b-q4-k-m-measure-20261117T162729.json",
+      "source_sha256": "6f75a6db36247261a085992f87f2ca7ce25e606539e9d5d88602ba5b93875668",
+      "selected": "Vulkan",
+      "reason": "Vulkan medido. Mediana 6.8 s frente a 48.5 s en CPU.",
+      "cpu": [
+        {
+          "Backend": "CPU",
+          "Seconds": 58.491522008,
+          "Tokens": 90,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "CPU",
+          "Seconds": 48.480789148,
+          "Tokens": 90,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "CPU",
+          "Seconds": 26.99199926,
+          "Tokens": 90,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        }
+      ],
+      "vulkan": [
+        {
+          "Backend": "Vulkan",
+          "Seconds": 6.800635414,
+          "Tokens": 48,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "Vulkan",
+          "Seconds": 6.815280362,
+          "Tokens": 48,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "Vulkan",
+          "Seconds": 6.776381196,
+          "Tokens": 48,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        }
+      ],
+      "driver": "Adreno (TM) 830 / Mesa 26.2.7 / api=4211042",
+      "profile_key": "7e75333241fcfc0ee9cf0f9649334a80577cd970101684cb14332ff9e1cdb066",
+      "verified_evaluation": {
+        "seconds": 6.817330205,
+        "finish": "stop",
+        "parser": "STRICT"
+      }
+    },
+    {
+      "model_id": "13-gemma4-e2b-ud-q4-k-xl",
+      "source_file": "13-gemma4-e2b-ud-q4-k-xl-measure-20261117T163144.json",
+      "source_sha256": "a3cd4b40621e11dc7edaadb28153d94d95b9c6874f4a932e58f1d81717f53787",
+      "selected": "Vulkan",
+      "reason": "Vulkan medido. Mediana 12.6 s frente a 15.5 s en CPU.",
+      "cpu": [
+        {
+          "Backend": "CPU",
+          "Seconds": 13.518673536,
+          "Tokens": 237,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "CPU",
+          "Seconds": 15.452880724,
+          "Tokens": 237,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "CPU",
+          "Seconds": 15.618085567,
+          "Tokens": 237,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        }
+      ],
+      "vulkan": [
+        {
+          "Backend": "Vulkan",
+          "Seconds": 11.455082496,
+          "Tokens": 230,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "Vulkan",
+          "Seconds": 12.640823276,
+          "Tokens": 230,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "Vulkan",
+          "Seconds": 13.063560411,
+          "Tokens": 230,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        }
+      ],
+      "driver": "Adreno (TM) 830 / Mesa 26.2.7 / api=4211042",
+      "profile_key": "c04c7da88146f5a85b4d04afaea2dd7cca0cd2c99a9e8e671343e8b247568e69",
+      "verified_evaluation": {
+        "seconds": 13.149844787,
+        "finish": "stop",
+        "parser": "STRICT"
+      }
+    },
+    {
+      "model_id": "16-lfm25-26b-q4-k-m",
+      "source_file": "16-lfm25-26b-q4-k-m-measure-20261117T163526.json",
+      "source_sha256": "3d009cee3307404fe3160a2eff6eed67bedbe915e4bb16ca14435128632c7881",
+      "selected": "Vulkan",
+      "reason": "Vulkan medido. Mediana 13.0 s frente a 15.4 s en CPU.",
+      "cpu": [
+        {
+          "Backend": "CPU",
+          "Seconds": 15.543927129,
+          "Tokens": 190,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "CPU",
+          "Seconds": 14.974176557,
+          "Tokens": 190,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "CPU",
+          "Seconds": 15.420034682,
+          "Tokens": 190,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        }
+      ],
+      "vulkan": [
+        {
+          "Backend": "Vulkan",
+          "Seconds": 12.995167807,
+          "Tokens": 204,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "Vulkan",
+          "Seconds": 13.038130932,
+          "Tokens": 204,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "Vulkan",
+          "Seconds": 13.062763224,
+          "Tokens": 204,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        }
+      ],
+      "driver": "Adreno (TM) 830 / Mesa 26.2.7 / api=4211042",
+      "profile_key": "a8ebcf65c092b2afa9b74413e3a853a8e9db5a27d7017973c88cf2f3f75107dd",
+      "verified_evaluation": {
+        "seconds": 12.962673588,
+        "finish": "stop",
+        "parser": "STRICT"
+      }
+    },
+    {
+      "model_id": "portable-unsloth-qwen35-4b-q4-k-m",
+      "source_file": "portable-unsloth-qwen35-4b-q4-k-m-measure-20261117T162154.json",
+      "source_sha256": "788b6c1b7f282b49d143580b1bf57921ca5e3b968502cf1d06895e1602d6c55a",
+      "selected": "Vulkan",
+      "reason": "Vulkan medido. Mediana 22.5 s frente a 37.2 s en CPU.",
+      "cpu": [
+        {
+          "Backend": "CPU",
+          "Seconds": 36.862471548,
+          "Tokens": 167,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "CPU",
+          "Seconds": 37.21669061,
+          "Tokens": 167,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "CPU",
+          "Seconds": 47.391084201,
+          "Tokens": 167,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        }
+      ],
+      "vulkan": [
+        {
+          "Backend": "Vulkan",
+          "Seconds": 22.598194731,
+          "Tokens": 155,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "Vulkan",
+          "Seconds": 22.533291345,
+          "Tokens": 155,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "Vulkan",
+          "Seconds": 22.441376971,
+          "Tokens": 155,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        }
+      ],
+      "driver": "Adreno (TM) 830 / Mesa 26.2.7 / api=4211042",
+      "profile_key": "9df3f7c8ee346ff0b1fa9769e48393d94de0a2bd2e1844e00a4ce1867498e901",
+      "verified_evaluation": {
+        "seconds": 22.445954418,
+        "finish": "stop",
+        "parser": "STRICT"
+      }
+    }
+  ],
+  "tests": {
+    "cached_selection_reused": true,
+    "cached_evaluation_seconds": 25.901613949,
+    "deadline_killed_worker_and_reloaded": true,
+    "cancellation_killed_worker_and_reloaded": true,
+    "shared_checks_passed": 27,
+    "ui_checks_passed": 4
+  },
+  "delivery": {
+    "apk_sha256": "845c9b68762d9e3b5be9dde256f4dafd33d8b2147e976a40d9c681d007ffe458",
+    "apk_bytes": 196061102,
+    "version": "0.1.5",
+    "version_code": 6,
+    "diagnostic_activity_included": false,
+    "installed_sha_verified": true,
+    "original_screen_setting_restored": true,
+    "verified_external_staging_copies_removed": 3
+  }
+}

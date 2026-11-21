@@ -1,0 +1,14 @@
+**/bin/
+**/obj/
+artifacts/
+logs/
+*.db
+*.db-shm
+*.db-wal
+*.pdb
+*.so
+*.apk
+*.keystore
+*.jks
+*.partial
+.vs/

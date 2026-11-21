@@ -1,0 +1,2 @@
+2620370976:files/models/gemma4_e2b/unsloth_dynamic/gemma-4-E2B-it-qat-UD-Q4_K_XL.gguf
+1561318368:files/models/minicpm5_2b/MiniCPM5-2B-Q4_K_M.gguf

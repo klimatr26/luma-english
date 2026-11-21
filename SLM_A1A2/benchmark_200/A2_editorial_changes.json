@@ -1,0 +1,322 @@
+{
+  "before_sha256": "6d246981750fdd93675518c7b4260c8319ec8ef0887cc1ecc7e16cc5bd06842c",
+  "after_sha256": "99ba73fb462db72e94c6a29db32ea9a95840c170c154a63b42accc10286f7f0d",
+  "before_any_test_inference": true,
+  "reviewer": "Root AI following independent Luna review; not human",
+  "changes": [
+    {
+      "case_id": "T200-A2-E014",
+      "before": {
+        "id": "T200-A2-E014",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Compare two winter coats you own.",
+        "student_text": "The red coat is more warm than the blue one, but it has a lighter lining. I wear it on cold mornings and keep the other coat in my bag when the weather may change. Both are useful in winter.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "The red coat is warmer than the blue one, but it has a lighter lining. I wear it on cold mornings and keep the other coat in my bag when the weather may change. Both are useful in winter.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "more warm than",
+              "correction": "warmer than",
+              "type": "COMPARATIVE",
+              "subtype": "short_adjective_comparative",
+              "explanation": "Use warmer as the comparative form of warm.",
+              "acceptable_corrections": [
+                "warmer than"
+              ]
+            }
+          ]
+        }
+      },
+      "after": {
+        "id": "T200-A2-E014",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Compare two winter coats you own.",
+        "student_text": "The red coat is more warmer than the blue one, but it has a lighter lining. I wear it on cold mornings and keep the other coat in my bag when the weather may change. Both are useful in winter.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "The red coat is warmer than the blue one, but it has a lighter lining. I wear it on cold mornings and keep the other coat in my bag when the weather may change. Both are useful in winter.",
+          "acceptable_alternatives": [
+            "The red coat is more warm than the blue one, but it has a lighter lining. I wear it on cold mornings and keep the other coat in my bag when the weather may change. Both are useful in winter."
+          ],
+          "errors": [
+            {
+              "original": "more warmer than",
+              "correction": "warmer than",
+              "type": "COMPARATIVE",
+              "subtype": "double_comparative",
+              "explanation": "Use warmer without more; do not combine more with the -er comparative.",
+              "acceptable_corrections": [
+                "warmer than",
+                "more warm than"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "T200-A2-E025",
+      "before": {
+        "id": "T200-A2-E025",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Write about buying things for a new room.",
+        "student_text": "We moved into a larger flat last month and needed some furniture. The shop sells several useful furnitures, including tables, chairs, and lamps. We chose a small desk for my room and a sofa for the living room.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "We moved into a larger flat last month and needed some furniture. The shop sells several useful pieces of furniture, including tables, chairs, and lamps. We chose a small desk for my room and a sofa for the living room.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "several useful furnitures",
+              "correction": "several useful pieces of furniture",
+              "type": "COUNTABLE_UNCOUNTABLE",
+              "subtype": "furniture_uncountable",
+              "explanation": "Furniture is uncountable in English; use pieces of furniture when counting individual items.",
+              "acceptable_corrections": [
+                "several useful pieces of furniture"
+              ]
+            }
+          ]
+        }
+      },
+      "after": {
+        "id": "T200-A2-E025",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Write about buying things for a new room.",
+        "student_text": "We moved into a larger flat last month and needed some furniture. The shop sells several useful furnitures, including tables, chairs, and lamps. We chose a small desk for my room and a sofa for the living room.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "We moved into a larger flat last month and needed some furniture. The shop sells several useful pieces of furniture, including tables, chairs, and lamps. We chose a small desk for my room and a sofa for the living room.",
+          "acceptable_alternatives": [
+            "We moved into a larger flat last month and needed some furniture. The shop sells several useful items of furniture, including tables, chairs, and lamps. We chose a small desk for my room and a sofa for the living room."
+          ],
+          "errors": [
+            {
+              "original": "several useful furnitures",
+              "correction": "several useful pieces of furniture",
+              "type": "COUNTABLE_UNCOUNTABLE",
+              "subtype": "furniture_uncountable",
+              "explanation": "Furniture is uncountable in English; use pieces of furniture when counting individual items.",
+              "acceptable_corrections": [
+                "several useful pieces of furniture",
+                "several useful items of furniture"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "T200-A2-E040",
+      "before": {
+        "id": "T200-A2-E040",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Tell a friend how a neighbor helped you.",
+        "student_text": "Last night, the heating stopped working and the room became cold. I asked my neighbor if she could borrow me a blanket, and she brought one from upstairs. I thanked her and returned it this morning before she left for work.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "Last night, the heating stopped working and the room became cold. I asked my neighbor if she could lend me a blanket, and she brought one from upstairs. I thanked her and returned it this morning before she left for work.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "borrow me a blanket",
+              "correction": "lend me a blanket",
+              "type": "BASIC_LEXICAL_CHOICE",
+              "subtype": "borrow_vs_lend_receiver",
+              "explanation": "Ask the other person to lend you something; borrow describes the person who receives it.",
+              "acceptable_corrections": [
+                "lend me a blanket"
+              ]
+            }
+          ]
+        }
+      },
+      "after": {
+        "id": "T200-A2-E040",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Tell a friend how a neighbor helped you.",
+        "student_text": "Last night, the heating stopped working and the room became cold. I asked my neighbor if she could lends me a blanket, and she brought one from upstairs. I thanked her and returned it this morning before she left for work.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "Last night, the heating stopped working and the room became cold. I asked my neighbor if she could lend me a blanket, and she brought one from upstairs. I thanked her and returned it this morning before she left for work.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "could lends",
+              "correction": "could lend",
+              "type": "BASIC_MODAL",
+              "subtype": "base_form_after_could",
+              "explanation": "Use the base form lend after the modal verb could.",
+              "acceptable_corrections": [
+                "could lend"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "T200-A2-E067",
+      "before": {
+        "id": "T200-A2-E067",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Write about something you have learned this year.",
+        "student_text": "I have learn to make simple meals this year. First, my mother show me how to cook rice, and then I make soup by myself. I also learned to set the table for guests when they visit.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "I have learned to make simple meals this year. First, my mother showed me how to cook rice, and then I made soup by myself. I also learned to set the table for guests when they visit.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "have learn",
+              "correction": "have learned",
+              "type": "PRESENT_PERFECT",
+              "subtype": "past_participle_regular_learn",
+              "explanation": "Use the past participle learned after have.",
+              "acceptable_corrections": [
+                "have learned"
+              ]
+            },
+            {
+              "original": "mother show",
+              "correction": "mother showed",
+              "type": "PAST_SIMPLE",
+              "subtype": "regular_past_show",
+              "explanation": "Use showed for the completed demonstration.",
+              "acceptable_corrections": [
+                "mother showed"
+              ]
+            },
+            {
+              "original": "I make soup",
+              "correction": "I made soup",
+              "type": "PAST_SIMPLE",
+              "subtype": "irregular_past_make",
+              "explanation": "Use made for the completed cooking action.",
+              "acceptable_corrections": [
+                "I made soup"
+              ]
+            }
+          ]
+        }
+      },
+      "after": {
+        "id": "T200-A2-E067",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Write about something you have learned this year.",
+        "student_text": "I have learn to make simple meals this year. Last month, my mother teached me how to cook rice. Yesterday, I maked soup by myself, and I also learned to set the table for guests.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "I have learned to make simple meals this year. Last month, my mother taught me how to cook rice. Yesterday, I made soup by myself, and I also learned to set the table for guests.",
+          "acceptable_alternatives": [
+            "I have learnt to make simple meals this year. Last month, my mother taught me how to cook rice. Yesterday, I made soup by myself, and I also learned to set the table for guests."
+          ],
+          "errors": [
+            {
+              "original": "have learn",
+              "correction": "have learned",
+              "type": "PRESENT_PERFECT",
+              "subtype": "past_participle_learn",
+              "explanation": "Use the past participle learned or learnt after have.",
+              "acceptable_corrections": [
+                "have learned",
+                "have learnt"
+              ]
+            },
+            {
+              "original": "mother teached",
+              "correction": "mother taught",
+              "type": "PAST_SIMPLE",
+              "subtype": "irregular_past_teach",
+              "explanation": "The past tense of teach is taught.",
+              "acceptable_corrections": [
+                "mother taught"
+              ]
+            },
+            {
+              "original": "I maked soup",
+              "correction": "I made soup",
+              "type": "PAST_SIMPLE",
+              "subtype": "irregular_past_make",
+              "explanation": "The past tense of make is made.",
+              "acceptable_corrections": [
+                "I made soup"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "T200-A2-E041",
+      "before": {
+        "id": "T200-A2-E041",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Tell someone about a trip you have made.",
+        "student_text": "I have never ate breakfast at the station cafe, but my sister goes there every Monday. She says the toast is good and the staff are kind. Next week, I will join her before we catch the early train.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "I have never eaten breakfast at the station cafe, but my sister goes there every Monday. She says the toast is good and the staff are kind. Next week, I will join her before we catch the early train.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "have never ate",
+              "correction": "have never eaten",
+              "type": "PRESENT_PERFECT",
+              "subtype": "past_participle_after_have",
+              "explanation": "The present perfect uses the past participle eaten after have.",
+              "acceptable_corrections": [
+                "have never eaten"
+              ]
+            }
+          ]
+        }
+      },
+      "after": {
+        "id": "T200-A2-E041",
+        "level": "A2",
+        "condition": "incorrect",
+        "task": "Explain why you plan to try a station cafe with your sister.",
+        "student_text": "I have never ate breakfast at the station cafe, but my sister goes there every Monday. She says the toast is good and the staff are kind. Next week, I will join her before we catch the early train.",
+        "english_variant": "British and American standard variants accepted",
+        "gold": {
+          "is_correct": false,
+          "corrected_text": "I have never eaten breakfast at the station cafe, but my sister goes there every Monday. She says the toast is good and the staff are kind. Next week, I will join her before we catch the early train.",
+          "acceptable_alternatives": [],
+          "errors": [
+            {
+              "original": "have never ate",
+              "correction": "have never eaten",
+              "type": "PRESENT_PERFECT",
+              "subtype": "past_participle_after_have",
+              "explanation": "The present perfect uses the past participle eaten after have.",
+              "acceptable_corrections": [
+                "have never eaten"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

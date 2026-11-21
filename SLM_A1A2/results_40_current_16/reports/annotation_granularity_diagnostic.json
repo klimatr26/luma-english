@@ -1,0 +1,2704 @@
+{
+  "scope": "results_40_current_16",
+  "analysis_kind": "POST_HOC_DESCRIPTIVE_DIAGNOSTIC_NOT_A_NEW_PRIMARY_SCORE",
+  "generated_utc": "2026-10-11T18:50:37.498948+00:00",
+  "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+  "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "diagnostic_code_sha256": "e485d617521538b449c97a670bf1e21180a840daa33017c251bda5e6c53b9c98",
+  "primary_evaluator_code_sha256": "08d1531a60755148dae06436133dbc1b66454c3626942ab07db25c8a0b961ef4",
+  "source_inputs": [
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/01-qwen35-2b-f16/responses.jsonl",
+      "sha256": "83aa164ad42693e9a51671342f2f4b734dcf70835cc35f7e618df16d903bb381"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/01-qwen35-2b-f16/attempts.jsonl",
+      "sha256": "4eeb4c3ea91c83ebcf5aa3a448ac8b6563f5e99a24aa9653224da55f757dc486"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/01-qwen35-2b-f16/case_evaluations.jsonl",
+      "sha256": "276a0dd7bf637034875ad413290771b1fbf82f22c2735cf1dce6dffcde516c45"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/02-qwen35-2b-q8-0/responses.jsonl",
+      "sha256": "4a5456e6eba98fdcd67ae0db47af5c6f388f175cda08f0ac213314200deade3e"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/02-qwen35-2b-q8-0/attempts.jsonl",
+      "sha256": "6cf1eca5df3d68d8357a0ce5682fcf9b6cedc62059a307b5ae742f05beadf53f"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/02-qwen35-2b-q8-0/case_evaluations.jsonl",
+      "sha256": "df5a9358cfaf79be715af0f0d196010c518a94d87270acec6f1c8fd6bfbe2c39"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/03-qwen35-2b-q4-k-m/responses.jsonl",
+      "sha256": "c8a4d9ca6540126539e36763a56a9b2451e3f3eb0d288408914a4cc37c902ec8"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/03-qwen35-2b-q4-k-m/attempts.jsonl",
+      "sha256": "64ea4bedaf8cffd3ffc6c4f152036694c2926c82703407a557676df4fef06d7a"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/03-qwen35-2b-q4-k-m/case_evaluations.jsonl",
+      "sha256": "55e38b7de7cc49b33567d1069d42ee292f119a62756c5dcf9965f0cd8cc5f263"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/04-minicpm5-2b-f16/responses.jsonl",
+      "sha256": "d5027a54d9faa80ba765da3a3a6eaff1430f4c3b2b329cb359cd8433e163efbf"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/04-minicpm5-2b-f16/attempts.jsonl",
+      "sha256": "5ad1f35ec1fcdc84602267a2d8722b54cd167e1157eb6f9c87396cd7876dd9c0"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/04-minicpm5-2b-f16/case_evaluations.jsonl",
+      "sha256": "308435b69f58bfbdf9d7bb1efa03e5debd92a990e2945fab82eeaae38ff1a5af"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/05-minicpm5-2b-q8-0/responses.jsonl",
+      "sha256": "8da2b5f261b4b3fc84b54f7c9406aa5a57f0adadaeeebf3b93f6ad6135ceb8e6"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/05-minicpm5-2b-q8-0/attempts.jsonl",
+      "sha256": "2310496e216574c47ab1aee63309aac6dd226f94b196555da2e7331a4cdd1d3d"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/05-minicpm5-2b-q8-0/case_evaluations.jsonl",
+      "sha256": "d6cc412913a2a191701db8e274eac5e6348bff0bf712b0962e5630ee062556a4"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/06-minicpm5-2b-q4-k-m/responses.jsonl",
+      "sha256": "3a09b706db646edcb7782d1675a7df5a3ee0fc48cf3927bcc79cdfc6be8f77cd"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/06-minicpm5-2b-q4-k-m/attempts.jsonl",
+      "sha256": "2b9731da43de1730127097145b787b70afbe8bda3360ffdee46fe45ca98e9f1a"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/06-minicpm5-2b-q4-k-m/case_evaluations.jsonl",
+      "sha256": "cf8f8b6dc18e470f7e3e1ec927aaff53cb780f4f105444cfa3d887e780a59a19"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/07-lfm25-12b-bf16/responses.jsonl",
+      "sha256": "8a1900bfdda6b76eeacf57b12ee91e67cb4439e584422d384ddd719c367d94f1"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/07-lfm25-12b-bf16/attempts.jsonl",
+      "sha256": "2c37800c44d8c0fb9bdb172bb0500fe40e343df25b2197bcf73e2f538ada2d0b"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/07-lfm25-12b-bf16/case_evaluations.jsonl",
+      "sha256": "eeb7df37b076604d7a3cb63b3b36836f7f7b52adef58bd5b4403e3f6f79dfc75"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/08-lfm25-12b-q8-0/responses.jsonl",
+      "sha256": "2df78e1c23ac9dbae2d3edffd0521d5b5701fc725fef2de4b5a4e48905b122fc"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/08-lfm25-12b-q8-0/attempts.jsonl",
+      "sha256": "0b0f868b082a4f1ee7217303575e2280b3162166d75ff399ae279a613fbd0ba8"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/08-lfm25-12b-q8-0/case_evaluations.jsonl",
+      "sha256": "73595f0f32e63edda8859be843ed61f921c94f7e7d59179779fc20bd417af186"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/09-lfm25-12b-q4-k-m/responses.jsonl",
+      "sha256": "8af108a1e8b08d6128272c95235ea20a3fff2ebd2e24e1eb3004f2b400d55aaa"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/09-lfm25-12b-q4-k-m/attempts.jsonl",
+      "sha256": "5adf767c26c4346c244240958e962523f8af7be81bdee0973cfa16ecee26ce8a"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/09-lfm25-12b-q4-k-m/case_evaluations.jsonl",
+      "sha256": "7970ee14c255fd2a1efe2a4fe7a5b6ba9ab176edb72aeef34855d2e962f64f09"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/10-qwen35-4b-q8-0/responses.jsonl",
+      "sha256": "9002d54fd00b9cafe62399bb54dced0e3ae81b51055810e97e194c6ac85c377f"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/10-qwen35-4b-q8-0/attempts.jsonl",
+      "sha256": "dbf5de4cd1f940984d93c34019932ae70316663dda26dcd58148a54c00174a6b"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/10-qwen35-4b-q8-0/case_evaluations.jsonl",
+      "sha256": "f155be87ea053ad9ba2c58aa21623421568b24e3e00b7e384ca4b8e70a187a0f"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/11-qwen35-4b-q4-k-m/responses.jsonl",
+      "sha256": "24e878bbb3f829612d1c9c60bdab6764cfeaf9c3941358bb42fd40a4a050d799"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/11-qwen35-4b-q4-k-m/attempts.jsonl",
+      "sha256": "157947439c3340dbb5ce29e7103f6e883457bb788a475147c5f7617f6ea80934"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/11-qwen35-4b-q4-k-m/case_evaluations.jsonl",
+      "sha256": "2431148deaf7818bf6ba0ac4d0d900cd2b0798ff892e07d04a4077e1abc787ab"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/12-gemma4-e2b-qat-q4-0/responses.jsonl",
+      "sha256": "54c69dd64c57b673ffb32e7591647da159ea624e2f6a76d2aa57554e52c6f5c7"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/12-gemma4-e2b-qat-q4-0/attempts.jsonl",
+      "sha256": "b56d668ab862174775498adf31d3b8a3cfec555cd26124cfcfaf32b702f3b876"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/12-gemma4-e2b-qat-q4-0/case_evaluations.jsonl",
+      "sha256": "d0ce7821b65c2f882bb2897f029269159a05813b47a0ecba18a27c9a0443c382"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/13-gemma4-e2b-ud-q4-k-xl/responses.jsonl",
+      "sha256": "766c8a35f017d3a5fb01f5ec21e6b29f2854e1eafcd7874073a4e9baf7a1ba15"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/13-gemma4-e2b-ud-q4-k-xl/attempts.jsonl",
+      "sha256": "0cce1055b33f9d222189bd7b19ee573f6d9a00e0e1bc95f4e59acd9e4900c71e"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/13-gemma4-e2b-ud-q4-k-xl/case_evaluations.jsonl",
+      "sha256": "de4f53f26feb5800701d717fcef7dfa1848fca15479030bbf01b23865bf7c9d7"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/14-gemma4-e2b-ud-q2-k-xl/responses.jsonl",
+      "sha256": "83758fdde3a7c13a79c0b77b64391c6dd2f4f52f8ba2688fd22877b7f7c30416"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/14-gemma4-e2b-ud-q2-k-xl/attempts.jsonl",
+      "sha256": "103b3043afe614548cf1f55329eedd2b17f712b10712dea325161baa69a6e5a7"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/14-gemma4-e2b-ud-q2-k-xl/case_evaluations.jsonl",
+      "sha256": "b6124fd807f63ffb90664898a575e290742d43f71697952f4c1f2bc7d4176eb0"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/15-lfm25-26b-q8-0/responses.jsonl",
+      "sha256": "466e2967967865459e42003a70d08d1187fb9526a8c7d44c9356149557c180bc"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/15-lfm25-26b-q8-0/attempts.jsonl",
+      "sha256": "15bf85ca6554530084b1358583e1ff45beb3fe84433836f269a243b16755ba3b"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/15-lfm25-26b-q8-0/case_evaluations.jsonl",
+      "sha256": "fef6dbc32cc20b1e1d9249daed12b26d0e678a0677604995ea14db57a32a8a37"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/parsed/16-lfm25-26b-q4-k-m/responses.jsonl",
+      "sha256": "0febe4cfea0af2885a1e20533a05976c2f8fb1c1aded0085af5236c8a41dbf62"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/raw/16-lfm25-26b-q4-k-m/attempts.jsonl",
+      "sha256": "c72f0c36882cad6b5a257a8def32bf1b5f16b5272b3aec196f4e1f7f724edf9c"
+    },
+    {
+      "path": "SLM_A1A2/results_40_current_16/evaluations/16-lfm25-26b-q4-k-m/case_evaluations.jsonl",
+      "sha256": "715e76cf926eedaef3dc41d3f2b97ebdc1378727639907ddce6efa9aac7e757c"
+    }
+  ],
+  "primary_scores_modified": false,
+  "human_semantic_confirmation": false,
+  "limits": "Literal fragment granularity can penalize valid declarations. Exact gold text or equivalent unique edit effects do not confirm explanations, flag correctness, dialect variants or generalization. Ambiguous/overlapping fragments are unverified, never guessed.",
+  "configuration_summaries": [
+    {
+      "config_id": "01-qwen35-2b-f16",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 20,
+      "exact_primary_incorrect_cases": 13,
+      "licensed_fulltext_alternative_incorrect_cases": 0,
+      "primary_text_match_but_not_strict_correct": 12,
+      "unique_edit_effect_matches_primary_incorrect_cases": 8,
+      "edit_reconstruction_unverified_incorrect_cases": 1,
+      "mechanical_examples": [
+        {
+          "config_id": "01-qwen35-2b-f16",
+          "case_id": "A1-E02",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:234d79103853d0cc3cb5b2e2d031d2132319f6dfc96067325955d4a2a433e8e0:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:01-qwen35-2b-f16:A1-E02",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "234d79103853d0cc3cb5b2e2d031d2132319f6dfc96067325955d4a2a433e8e0",
+            "config_id": "01-qwen35-2b-f16",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 2
+          },
+          "gold_pairs": [
+            [
+              "My sister are",
+              "My sister is"
+            ],
+            [
+              "We is",
+              "We are"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My sister are nine",
+              "My sister is nine"
+            ],
+            [
+              "We is from Chile",
+              "We are from Chile"
+            ]
+          ]
+        },
+        {
+          "config_id": "01-qwen35-2b-f16",
+          "case_id": "A1-E03",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:234d79103853d0cc3cb5b2e2d031d2132319f6dfc96067325955d4a2a433e8e0:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:01-qwen35-2b-f16:A1-E03",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "234d79103853d0cc3cb5b2e2d031d2132319f6dfc96067325955d4a2a433e8e0",
+            "config_id": "01-qwen35-2b-f16",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 3
+          },
+          "gold_pairs": [
+            [
+              "don't likes",
+              "don't like"
+            ],
+            [
+              "father like",
+              "father likes"
+            ],
+            [
+              "mother make",
+              "mother makes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "I don't likes",
+              "I don't like"
+            ],
+            [
+              "my father like",
+              "my father likes"
+            ],
+            [
+              "my mother make",
+              "my mother makes"
+            ]
+          ]
+        },
+        {
+          "config_id": "01-qwen35-2b-f16",
+          "case_id": "A1-E07",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:234d79103853d0cc3cb5b2e2d031d2132319f6dfc96067325955d4a2a433e8e0:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:01-qwen35-2b-f16:A1-E07",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "234d79103853d0cc3cb5b2e2d031d2132319f6dfc96067325955d4a2a433e8e0",
+            "config_id": "01-qwen35-2b-f16",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 7
+          },
+          "gold_pairs": [
+            [
+              "My friend and me",
+              "My friend and I"
+            ],
+            [
+              "goes",
+              "go"
+            ],
+            [
+              "helps I",
+              "helps me"
+            ],
+            [
+              "we plays",
+              "we play"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My friend and me goes home together after school.",
+              "My friend and I go home together after school."
+            ],
+            [
+              "She helps I with my homework,",
+              "She helps me with my homework,"
+            ],
+            [
+              "and then we plays a computer game.",
+              "and then we play a computer game."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "02-qwen35-2b-q8-0",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 16,
+      "exact_primary_incorrect_cases": 9,
+      "licensed_fulltext_alternative_incorrect_cases": 0,
+      "primary_text_match_but_not_strict_correct": 8,
+      "unique_edit_effect_matches_primary_incorrect_cases": 6,
+      "edit_reconstruction_unverified_incorrect_cases": 6,
+      "mechanical_examples": [
+        {
+          "config_id": "02-qwen35-2b-q8-0",
+          "case_id": "A1-E02",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:8e427498466b5c62a4b2e92f766870b0fb4139aad11a4e95c11f640ac73a6a3c:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:02-qwen35-2b-q8-0:A1-E02",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "8e427498466b5c62a4b2e92f766870b0fb4139aad11a4e95c11f640ac73a6a3c",
+            "config_id": "02-qwen35-2b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 2
+          },
+          "gold_pairs": [
+            [
+              "My sister are",
+              "My sister is"
+            ],
+            [
+              "We is",
+              "We are"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My sister are nine",
+              "My sister is nine"
+            ],
+            [
+              "We is from Chile",
+              "We are from Chile"
+            ]
+          ]
+        },
+        {
+          "config_id": "02-qwen35-2b-q8-0",
+          "case_id": "A1-E03",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:8e427498466b5c62a4b2e92f766870b0fb4139aad11a4e95c11f640ac73a6a3c:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:02-qwen35-2b-q8-0:A1-E03",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "8e427498466b5c62a4b2e92f766870b0fb4139aad11a4e95c11f640ac73a6a3c",
+            "config_id": "02-qwen35-2b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 3
+          },
+          "gold_pairs": [
+            [
+              "don't likes",
+              "don't like"
+            ],
+            [
+              "father like",
+              "father likes"
+            ],
+            [
+              "mother make",
+              "mother makes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "I don't likes",
+              "I don't like"
+            ],
+            [
+              "but my father like it very much.",
+              "but my father likes it very much."
+            ],
+            [
+              "and my mother make a salad",
+              "and my mother makes a salad"
+            ]
+          ]
+        },
+        {
+          "config_id": "02-qwen35-2b-q8-0",
+          "case_id": "A1-E07",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:8e427498466b5c62a4b2e92f766870b0fb4139aad11a4e95c11f640ac73a6a3c:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:02-qwen35-2b-q8-0:A1-E07",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "8e427498466b5c62a4b2e92f766870b0fb4139aad11a4e95c11f640ac73a6a3c",
+            "config_id": "02-qwen35-2b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 7
+          },
+          "gold_pairs": [
+            [
+              "My friend and me",
+              "My friend and I"
+            ],
+            [
+              "goes",
+              "go"
+            ],
+            [
+              "helps I",
+              "helps me"
+            ],
+            [
+              "we plays",
+              "we play"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My friend and me goes home together after school.",
+              "My friend and I go home together after school."
+            ],
+            [
+              "She helps I with my homework",
+              "She helps me with my homework"
+            ],
+            [
+              "we plays a computer game.",
+              "we play a computer game."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "03-qwen35-2b-q4-k-m",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 19,
+      "exact_primary_incorrect_cases": 10,
+      "licensed_fulltext_alternative_incorrect_cases": 0,
+      "primary_text_match_but_not_strict_correct": 10,
+      "unique_edit_effect_matches_primary_incorrect_cases": 9,
+      "edit_reconstruction_unverified_incorrect_cases": 3,
+      "mechanical_examples": [
+        {
+          "config_id": "03-qwen35-2b-q4-k-m",
+          "case_id": "A1-E02",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:d35f2ca8bac2a3d9a553ff60da887983d1e4f5ed0d998e223bb3b01fa2020f0e:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:03-qwen35-2b-q4-k-m:A1-E02",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "d35f2ca8bac2a3d9a553ff60da887983d1e4f5ed0d998e223bb3b01fa2020f0e",
+            "config_id": "03-qwen35-2b-q4-k-m",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 2
+          },
+          "gold_pairs": [
+            [
+              "My sister are",
+              "My sister is"
+            ],
+            [
+              "We is",
+              "We are"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My sister are nine",
+              "My sister is nine"
+            ],
+            [
+              "We is from Chile",
+              "We are from Chile"
+            ]
+          ]
+        },
+        {
+          "config_id": "03-qwen35-2b-q4-k-m",
+          "case_id": "A1-E07",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:d35f2ca8bac2a3d9a553ff60da887983d1e4f5ed0d998e223bb3b01fa2020f0e:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:03-qwen35-2b-q4-k-m:A1-E07",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "d35f2ca8bac2a3d9a553ff60da887983d1e4f5ed0d998e223bb3b01fa2020f0e",
+            "config_id": "03-qwen35-2b-q4-k-m",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 7
+          },
+          "gold_pairs": [
+            [
+              "My friend and me",
+              "My friend and I"
+            ],
+            [
+              "goes",
+              "go"
+            ],
+            [
+              "helps I",
+              "helps me"
+            ],
+            [
+              "we plays",
+              "we play"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My friend and me goes home together after school.",
+              "My friend and I go home together after school."
+            ],
+            [
+              "She helps I with my homework",
+              "She helps me with my homework"
+            ],
+            [
+              "and then we plays a computer game",
+              "and then we play a computer game"
+            ]
+          ]
+        },
+        {
+          "config_id": "03-qwen35-2b-q4-k-m",
+          "case_id": "A1-E08",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "PARTIAL",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:d35f2ca8bac2a3d9a553ff60da887983d1e4f5ed0d998e223bb3b01fa2020f0e:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:03-qwen35-2b-q4-k-m:A1-E08",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "d35f2ca8bac2a3d9a553ff60da887983d1e4f5ed0d998e223bb3b01fa2020f0e",
+            "config_id": "03-qwen35-2b-q4-k-m",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 8
+          },
+          "gold_pairs": [
+            [
+              "sisters bag",
+              "sister's bag"
+            ],
+            [
+              "She take",
+              "She takes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "sisters",
+              "sister's"
+            ],
+            [
+              "She take",
+              "She takes"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "04-minicpm5-2b-f16",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 24,
+      "exact_primary_incorrect_cases": 15,
+      "licensed_fulltext_alternative_incorrect_cases": 1,
+      "primary_text_match_but_not_strict_correct": 13,
+      "unique_edit_effect_matches_primary_incorrect_cases": 10,
+      "edit_reconstruction_unverified_incorrect_cases": 8,
+      "mechanical_examples": [
+        {
+          "config_id": "04-minicpm5-2b-f16",
+          "case_id": "A1-E01",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:0ffba3682a853295566b98bc38c0ab755d6b2d91b994bc031ed727a08cfcdf25:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:04-minicpm5-2b-f16:A1-E01",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "0ffba3682a853295566b98bc38c0ab755d6b2d91b994bc031ed727a08cfcdf25",
+            "config_id": "04-minicpm5-2b-f16",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 1
+          },
+          "gold_pairs": [
+            [
+              "live",
+              "lives"
+            ],
+            [
+              "get up",
+              "gets up"
+            ],
+            [
+              "go",
+              "goes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My brother live",
+              "My brother lives"
+            ],
+            [
+              "He get up",
+              "He gets up"
+            ],
+            [
+              "go to school",
+              "goes to school"
+            ]
+          ]
+        },
+        {
+          "config_id": "04-minicpm5-2b-f16",
+          "case_id": "A1-E02",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:0ffba3682a853295566b98bc38c0ab755d6b2d91b994bc031ed727a08cfcdf25:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:04-minicpm5-2b-f16:A1-E02",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "0ffba3682a853295566b98bc38c0ab755d6b2d91b994bc031ed727a08cfcdf25",
+            "config_id": "04-minicpm5-2b-f16",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 2
+          },
+          "gold_pairs": [
+            [
+              "My sister are",
+              "My sister is"
+            ],
+            [
+              "We is",
+              "We are"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My sister are nine.",
+              "My sister is nine."
+            ],
+            [
+              "We is from Chile, but our parents are from Peru.",
+              "We are from Chile, but our parents are from Peru."
+            ]
+          ]
+        },
+        {
+          "config_id": "04-minicpm5-2b-f16",
+          "case_id": "A1-E08",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:0ffba3682a853295566b98bc38c0ab755d6b2d91b994bc031ed727a08cfcdf25:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:04-minicpm5-2b-f16:A1-E08",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "0ffba3682a853295566b98bc38c0ab755d6b2d91b994bc031ed727a08cfcdf25",
+            "config_id": "04-minicpm5-2b-f16",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 8
+          },
+          "gold_pairs": [
+            [
+              "sisters bag",
+              "sister's bag"
+            ],
+            [
+              "She take",
+              "She takes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "my sisters",
+              "my sister's"
+            ],
+            [
+              "She take",
+              "She takes"
+            ],
+            [
+              "because her books and lunch are inside it.",
+              "because her books and lunch are inside it."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "05-minicpm5-2b-q8-0",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 26,
+      "exact_primary_incorrect_cases": 16,
+      "licensed_fulltext_alternative_incorrect_cases": 1,
+      "primary_text_match_but_not_strict_correct": 13,
+      "unique_edit_effect_matches_primary_incorrect_cases": 11,
+      "edit_reconstruction_unverified_incorrect_cases": 6,
+      "mechanical_examples": [
+        {
+          "config_id": "05-minicpm5-2b-q8-0",
+          "case_id": "A1-E01",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:c5415f8989bf88a8288f1b55a3cc371af53c07b0faa220a63bd7a990cfaba078:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:05-minicpm5-2b-q8-0:A1-E01",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "c5415f8989bf88a8288f1b55a3cc371af53c07b0faa220a63bd7a990cfaba078",
+            "config_id": "05-minicpm5-2b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 1
+          },
+          "gold_pairs": [
+            [
+              "live",
+              "lives"
+            ],
+            [
+              "get up",
+              "gets up"
+            ],
+            [
+              "go",
+              "goes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My brother live",
+              "My brother lives"
+            ],
+            [
+              "He get up",
+              "He gets up"
+            ],
+            [
+              "go to school",
+              "goes to school"
+            ]
+          ]
+        },
+        {
+          "config_id": "05-minicpm5-2b-q8-0",
+          "case_id": "A1-E02",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:c5415f8989bf88a8288f1b55a3cc371af53c07b0faa220a63bd7a990cfaba078:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:05-minicpm5-2b-q8-0:A1-E02",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "c5415f8989bf88a8288f1b55a3cc371af53c07b0faa220a63bd7a990cfaba078",
+            "config_id": "05-minicpm5-2b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 2
+          },
+          "gold_pairs": [
+            [
+              "My sister are",
+              "My sister is"
+            ],
+            [
+              "We is",
+              "We are"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My sister are nine.",
+              "My sister is nine."
+            ],
+            [
+              "We is from Chile, but our parents are from Peru.",
+              "We are from Chile, but our parents are from Peru."
+            ]
+          ]
+        },
+        {
+          "config_id": "05-minicpm5-2b-q8-0",
+          "case_id": "A1-E08",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:c5415f8989bf88a8288f1b55a3cc371af53c07b0faa220a63bd7a990cfaba078:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:05-minicpm5-2b-q8-0:A1-E08",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "c5415f8989bf88a8288f1b55a3cc371af53c07b0faa220a63bd7a990cfaba078",
+            "config_id": "05-minicpm5-2b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 8
+          },
+          "gold_pairs": [
+            [
+              "sisters bag",
+              "sister's bag"
+            ],
+            [
+              "She take",
+              "She takes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "my sisters",
+              "my sister's"
+            ],
+            [
+              "She take",
+              "She takes"
+            ],
+            [
+              "because her books and lunch are inside it.",
+              "because her books and lunch are inside it."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "06-minicpm5-2b-q4-k-m",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 29,
+      "exact_primary_incorrect_cases": 19,
+      "licensed_fulltext_alternative_incorrect_cases": 0,
+      "primary_text_match_but_not_strict_correct": 17,
+      "unique_edit_effect_matches_primary_incorrect_cases": 12,
+      "edit_reconstruction_unverified_incorrect_cases": 1,
+      "mechanical_examples": [
+        {
+          "config_id": "06-minicpm5-2b-q4-k-m",
+          "case_id": "A1-E01",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:ec2d5801640099e97d8d7e8003ad4d81f336e757811f03a26173dddf386602fd:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:06-minicpm5-2b-q4-k-m:A1-E01",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "ec2d5801640099e97d8d7e8003ad4d81f336e757811f03a26173dddf386602fd",
+            "config_id": "06-minicpm5-2b-q4-k-m",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 1
+          },
+          "gold_pairs": [
+            [
+              "live",
+              "lives"
+            ],
+            [
+              "get up",
+              "gets up"
+            ],
+            [
+              "go",
+              "goes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My brother live with us.",
+              "My brother lives with us."
+            ],
+            [
+              "He get up at seven and go to school by bus.",
+              "He gets up at seven and goes to school by bus."
+            ]
+          ]
+        },
+        {
+          "config_id": "06-minicpm5-2b-q4-k-m",
+          "case_id": "A1-E02",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:ec2d5801640099e97d8d7e8003ad4d81f336e757811f03a26173dddf386602fd:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:06-minicpm5-2b-q4-k-m:A1-E02",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "ec2d5801640099e97d8d7e8003ad4d81f336e757811f03a26173dddf386602fd",
+            "config_id": "06-minicpm5-2b-q4-k-m",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 2
+          },
+          "gold_pairs": [
+            [
+              "My sister are",
+              "My sister is"
+            ],
+            [
+              "We is",
+              "We are"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My sister are nine.",
+              "My sister is nine."
+            ],
+            [
+              "We is from Chile, but our parents are from Peru.",
+              "We are from Chile, but our parents are from Peru."
+            ]
+          ]
+        },
+        {
+          "config_id": "06-minicpm5-2b-q4-k-m",
+          "case_id": "A1-E06",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "PARTIAL",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:ec2d5801640099e97d8d7e8003ad4d81f336e757811f03a26173dddf386602fd:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:06-minicpm5-2b-q4-k-m:A1-E06",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "ec2d5801640099e97d8d7e8003ad4d81f336e757811f03a26173dddf386602fd",
+            "config_id": "06-minicpm5-2b-q4-k-m",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 6
+          },
+          "gold_pairs": [
+            [
+              "three book",
+              "three books"
+            ],
+            [
+              "two pencil",
+              "two pencils"
+            ],
+            [
+              "The books is",
+              "The books are"
+            ],
+            [
+              "one pencil have",
+              "one pencil has"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "three book",
+              "three books"
+            ],
+            [
+              "two pencil",
+              "two pencils"
+            ],
+            [
+              "The books is new",
+              "The books are new"
+            ],
+            [
+              "one pencil have a red color",
+              "one pencil has a red color"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "07-lfm25-12b-bf16",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 24,
+      "exact_primary_incorrect_cases": 16,
+      "licensed_fulltext_alternative_incorrect_cases": 0,
+      "primary_text_match_but_not_strict_correct": 16,
+      "unique_edit_effect_matches_primary_incorrect_cases": 3,
+      "edit_reconstruction_unverified_incorrect_cases": 2,
+      "mechanical_examples": [
+        {
+          "config_id": "07-lfm25-12b-bf16",
+          "case_id": "A1-E11",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:3d80914b903cd6f3cc041208cf20ec46a3224f840c732e5fd7698832b4743d1b:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:07-lfm25-12b-bf16:A1-E11",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "3d80914b903cd6f3cc041208cf20ec46a3224f840c732e5fd7698832b4743d1b",
+            "config_id": "07-lfm25-12b-bf16",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 11
+          },
+          "gold_pairs": [
+            [
+              "Where you live",
+              "Where do you live"
+            ],
+            [
+              "How old your brother is",
+              "How old is your brother"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "Where you live now?",
+              "Where do you live now?"
+            ],
+            [
+              "How old your brother is?",
+              "How old is your brother?"
+            ],
+            [
+              "I want to know because my family lives near the school.",
+              "I want to know because my family lives near the school."
+            ]
+          ]
+        },
+        {
+          "config_id": "07-lfm25-12b-bf16",
+          "case_id": "A2-E06",
+          "level": "A2",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:3d80914b903cd6f3cc041208cf20ec46a3224f840c732e5fd7698832b4743d1b:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:07-lfm25-12b-bf16:A2-E06",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "3d80914b903cd6f3cc041208cf20ec46a3224f840c732e5fd7698832b4743d1b",
+            "config_id": "07-lfm25-12b-bf16",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 26
+          },
+          "gold_pairs": [
+            [
+              "showed I",
+              "showed me"
+            ],
+            [
+              "sent they",
+              "sent them"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "I visited York with my cousin last month.",
+              "I visited York with my cousin last month."
+            ],
+            [
+              "She showed I the old castle",
+              "She showed me the old castle"
+            ],
+            [
+              "we took lots of photos.",
+              "we took lots of photos."
+            ],
+            [
+              "I sent they to my parents",
+              "I sent them to my parents"
+            ]
+          ]
+        },
+        {
+          "config_id": "07-lfm25-12b-bf16",
+          "case_id": "A2-E10",
+          "level": "A2",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:3d80914b903cd6f3cc041208cf20ec46a3224f840c732e5fd7698832b4743d1b:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:07-lfm25-12b-bf16:A2-E10",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "3d80914b903cd6f3cc041208cf20ec46a3224f840c732e5fd7698832b4743d1b",
+            "config_id": "07-lfm25-12b-bf16",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 30
+          },
+          "gold_pairs": [
+            [
+              "There was two",
+              "There were two"
+            ],
+            [
+              "windows was",
+              "windows were"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "There was two small rooms upstairs",
+              "There were two small rooms upstairs"
+            ],
+            [
+              "the windows was open",
+              "the windows were open"
+            ],
+            [
+              "My uncle and aunt were in the garden",
+              "My uncle and aunt were in the garden"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "08-lfm25-12b-q8-0",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 24,
+      "exact_primary_incorrect_cases": 16,
+      "licensed_fulltext_alternative_incorrect_cases": 0,
+      "primary_text_match_but_not_strict_correct": 16,
+      "unique_edit_effect_matches_primary_incorrect_cases": 3,
+      "edit_reconstruction_unverified_incorrect_cases": 3,
+      "mechanical_examples": [
+        {
+          "config_id": "08-lfm25-12b-q8-0",
+          "case_id": "A1-E06",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:f6b981dcb86917fa463f78a362320bd5e2dc45445df147287eedb85e5a30d26a:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:08-lfm25-12b-q8-0:A1-E06",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "f6b981dcb86917fa463f78a362320bd5e2dc45445df147287eedb85e5a30d26a",
+            "config_id": "08-lfm25-12b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 6
+          },
+          "gold_pairs": [
+            [
+              "three book",
+              "three books"
+            ],
+            [
+              "two pencil",
+              "two pencils"
+            ],
+            [
+              "The books is",
+              "The books are"
+            ],
+            [
+              "one pencil have",
+              "one pencil has"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "There are three book on my desk",
+              "There are three books on my desk"
+            ],
+            [
+              "two pencil in my bag",
+              "two pencils in my bag"
+            ],
+            [
+              "The books is new",
+              "The books are new"
+            ],
+            [
+              "one pencil have a red color",
+              "one pencil has a red color"
+            ]
+          ]
+        },
+        {
+          "config_id": "08-lfm25-12b-q8-0",
+          "case_id": "A1-E11",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:f6b981dcb86917fa463f78a362320bd5e2dc45445df147287eedb85e5a30d26a:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:08-lfm25-12b-q8-0:A1-E11",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "f6b981dcb86917fa463f78a362320bd5e2dc45445df147287eedb85e5a30d26a",
+            "config_id": "08-lfm25-12b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 11
+          },
+          "gold_pairs": [
+            [
+              "Where you live",
+              "Where do you live"
+            ],
+            [
+              "How old your brother is",
+              "How old is your brother"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "Where you live now?",
+              "Where do you live now?"
+            ],
+            [
+              "How old your brother is?",
+              "How old is your brother?"
+            ]
+          ]
+        },
+        {
+          "config_id": "08-lfm25-12b-q8-0",
+          "case_id": "A2-E10",
+          "level": "A2",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:f6b981dcb86917fa463f78a362320bd5e2dc45445df147287eedb85e5a30d26a:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:08-lfm25-12b-q8-0:A2-E10",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "f6b981dcb86917fa463f78a362320bd5e2dc45445df147287eedb85e5a30d26a",
+            "config_id": "08-lfm25-12b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 30
+          },
+          "gold_pairs": [
+            [
+              "There was two",
+              "There were two"
+            ],
+            [
+              "windows was",
+              "windows were"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "There was two small rooms upstairs",
+              "There were two small rooms upstairs"
+            ],
+            [
+              "the windows was open",
+              "the windows were open"
+            ],
+            [
+              "My uncle and aunt were in the garden",
+              "My uncle and aunt were in the garden"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "09-lfm25-12b-q4-k-m",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 25,
+      "exact_primary_incorrect_cases": 16,
+      "licensed_fulltext_alternative_incorrect_cases": 0,
+      "primary_text_match_but_not_strict_correct": 16,
+      "unique_edit_effect_matches_primary_incorrect_cases": 1,
+      "edit_reconstruction_unverified_incorrect_cases": 0,
+      "mechanical_examples": [
+        {
+          "config_id": "09-lfm25-12b-q4-k-m",
+          "case_id": "A2-E10",
+          "level": "A2",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:b1b3de114215d9507409a662a501a631095a479a419584e8a2ded6304b19b4f5:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:09-lfm25-12b-q4-k-m:A2-E10",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "b1b3de114215d9507409a662a501a631095a479a419584e8a2ded6304b19b4f5",
+            "config_id": "09-lfm25-12b-q4-k-m",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 30
+          },
+          "gold_pairs": [
+            [
+              "There was two",
+              "There were two"
+            ],
+            [
+              "windows was",
+              "windows were"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "There was two small rooms upstairs",
+              "There were two small rooms upstairs"
+            ],
+            [
+              "the windows was open",
+              "the windows were open"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "10-qwen35-4b-q8-0",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 32,
+      "exact_primary_incorrect_cases": 22,
+      "licensed_fulltext_alternative_incorrect_cases": 0,
+      "primary_text_match_but_not_strict_correct": 14,
+      "unique_edit_effect_matches_primary_incorrect_cases": 17,
+      "edit_reconstruction_unverified_incorrect_cases": 4,
+      "mechanical_examples": [
+        {
+          "config_id": "10-qwen35-4b-q8-0",
+          "case_id": "A1-E01",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "PARTIAL",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:9ae518774a41dd82bc7a37322746ecc5bb2bff381db26eaa07941240f292e3cb:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:10-qwen35-4b-q8-0:A1-E01",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "9ae518774a41dd82bc7a37322746ecc5bb2bff381db26eaa07941240f292e3cb",
+            "config_id": "10-qwen35-4b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 1
+          },
+          "gold_pairs": [
+            [
+              "live",
+              "lives"
+            ],
+            [
+              "get up",
+              "gets up"
+            ],
+            [
+              "go",
+              "goes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "live",
+              "lives"
+            ],
+            [
+              "get",
+              "gets"
+            ],
+            [
+              "go",
+              "goes"
+            ]
+          ]
+        },
+        {
+          "config_id": "10-qwen35-4b-q8-0",
+          "case_id": "A1-E02",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:9ae518774a41dd82bc7a37322746ecc5bb2bff381db26eaa07941240f292e3cb:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:10-qwen35-4b-q8-0:A1-E02",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "9ae518774a41dd82bc7a37322746ecc5bb2bff381db26eaa07941240f292e3cb",
+            "config_id": "10-qwen35-4b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 2
+          },
+          "gold_pairs": [
+            [
+              "My sister are",
+              "My sister is"
+            ],
+            [
+              "We is",
+              "We are"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My sister are nine",
+              "My sister is nine"
+            ],
+            [
+              "We is from Chile",
+              "We are from Chile"
+            ]
+          ]
+        },
+        {
+          "config_id": "10-qwen35-4b-q8-0",
+          "case_id": "A1-E08",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "PARTIAL",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:9ae518774a41dd82bc7a37322746ecc5bb2bff381db26eaa07941240f292e3cb:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:10-qwen35-4b-q8-0:A1-E08",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "9ae518774a41dd82bc7a37322746ecc5bb2bff381db26eaa07941240f292e3cb",
+            "config_id": "10-qwen35-4b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 8
+          },
+          "gold_pairs": [
+            [
+              "sisters bag",
+              "sister's bag"
+            ],
+            [
+              "She take",
+              "She takes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "sisters",
+              "sister's"
+            ],
+            [
+              "She take",
+              "She takes"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "11-qwen35-4b-q4-k-m",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 31,
+      "exact_primary_incorrect_cases": 21,
+      "licensed_fulltext_alternative_incorrect_cases": 0,
+      "primary_text_match_but_not_strict_correct": 13,
+      "unique_edit_effect_matches_primary_incorrect_cases": 19,
+      "edit_reconstruction_unverified_incorrect_cases": 4,
+      "mechanical_examples": [
+        {
+          "config_id": "11-qwen35-4b-q4-k-m",
+          "case_id": "A1-E01",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "PARTIAL",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:2438d070b090e52606c5f35b538aea92653bd3439046452ddfb736748b63e313:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:11-qwen35-4b-q4-k-m:A1-E01",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "2438d070b090e52606c5f35b538aea92653bd3439046452ddfb736748b63e313",
+            "config_id": "11-qwen35-4b-q4-k-m",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 1
+          },
+          "gold_pairs": [
+            [
+              "live",
+              "lives"
+            ],
+            [
+              "get up",
+              "gets up"
+            ],
+            [
+              "go",
+              "goes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "live",
+              "lives"
+            ],
+            [
+              "get",
+              "gets"
+            ],
+            [
+              "go",
+              "goes"
+            ]
+          ]
+        },
+        {
+          "config_id": "11-qwen35-4b-q4-k-m",
+          "case_id": "A1-E02",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:2438d070b090e52606c5f35b538aea92653bd3439046452ddfb736748b63e313:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:11-qwen35-4b-q4-k-m:A1-E02",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "2438d070b090e52606c5f35b538aea92653bd3439046452ddfb736748b63e313",
+            "config_id": "11-qwen35-4b-q4-k-m",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 2
+          },
+          "gold_pairs": [
+            [
+              "My sister are",
+              "My sister is"
+            ],
+            [
+              "We is",
+              "We are"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My sister are nine",
+              "My sister is nine"
+            ],
+            [
+              "We is from Chile",
+              "We are from Chile"
+            ]
+          ]
+        },
+        {
+          "config_id": "11-qwen35-4b-q4-k-m",
+          "case_id": "A1-E04",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "PARTIAL",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:2438d070b090e52606c5f35b538aea92653bd3439046452ddfb736748b63e313:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:11-qwen35-4b-q4-k-m:A1-E04",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "2438d070b090e52606c5f35b538aea92653bd3439046452ddfb736748b63e313",
+            "config_id": "11-qwen35-4b-q4-k-m",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 4
+          },
+          "gold_pairs": [
+            [
+              "Two boys is playing",
+              "Two boys are playing"
+            ],
+            [
+              "a woman are sitting",
+              "a woman is sitting"
+            ],
+            [
+              "Her dog run",
+              "Her dog is running"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "Two boys is playing",
+              "Two boys are playing"
+            ],
+            [
+              "a woman are sitting",
+              "a woman is sitting"
+            ],
+            [
+              "Her dog run after a ball.",
+              "Her dog is running after a ball."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "12-gemma4-e2b-qat-q4-0",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 31,
+      "exact_primary_incorrect_cases": 21,
+      "licensed_fulltext_alternative_incorrect_cases": 0,
+      "primary_text_match_but_not_strict_correct": 18,
+      "unique_edit_effect_matches_primary_incorrect_cases": 19,
+      "edit_reconstruction_unverified_incorrect_cases": 3,
+      "mechanical_examples": [
+        {
+          "config_id": "12-gemma4-e2b-qat-q4-0",
+          "case_id": "A1-E02",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:12-gemma4-e2b-qat-q4-0:A1-E02",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634",
+            "config_id": "12-gemma4-e2b-qat-q4-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 2
+          },
+          "gold_pairs": [
+            [
+              "My sister are",
+              "My sister is"
+            ],
+            [
+              "We is",
+              "We are"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My sister are nine.",
+              "My sister is nine."
+            ],
+            [
+              "We is from Chile",
+              "We are from Chile"
+            ]
+          ]
+        },
+        {
+          "config_id": "12-gemma4-e2b-qat-q4-0",
+          "case_id": "A1-E03",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:12-gemma4-e2b-qat-q4-0:A1-E03",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634",
+            "config_id": "12-gemma4-e2b-qat-q4-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 3
+          },
+          "gold_pairs": [
+            [
+              "don't likes",
+              "don't like"
+            ],
+            [
+              "father like",
+              "father likes"
+            ],
+            [
+              "mother make",
+              "mother makes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "I don't likes fish",
+              "I don't like fish"
+            ],
+            [
+              "my father like it",
+              "my father likes it"
+            ],
+            [
+              "my mother make a salad",
+              "my mother makes a salad"
+            ]
+          ]
+        },
+        {
+          "config_id": "12-gemma4-e2b-qat-q4-0",
+          "case_id": "A1-E04",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "PARTIAL",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:12-gemma4-e2b-qat-q4-0:A1-E04",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634",
+            "config_id": "12-gemma4-e2b-qat-q4-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 4
+          },
+          "gold_pairs": [
+            [
+              "Two boys is playing",
+              "Two boys are playing"
+            ],
+            [
+              "a woman are sitting",
+              "a woman is sitting"
+            ],
+            [
+              "Her dog run",
+              "Her dog is running"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "Two boys is playing football",
+              "Two boys are playing football"
+            ],
+            [
+              "a woman are sitting",
+              "a woman is sitting"
+            ],
+            [
+              "Her dog run after a ball",
+              "Her dog is running after a ball"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 36,
+      "exact_primary_incorrect_cases": 26,
+      "licensed_fulltext_alternative_incorrect_cases": 1,
+      "primary_text_match_but_not_strict_correct": 20,
+      "unique_edit_effect_matches_primary_incorrect_cases": 24,
+      "edit_reconstruction_unverified_incorrect_cases": 0,
+      "mechanical_examples": [
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+          "case_id": "A1-E02",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:e531007218dfab990486a5de7676a6932d6ea8dea233d1f698d7c21cf8a16889:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:13-gemma4-e2b-ud-q4-k-xl:A1-E02",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "e531007218dfab990486a5de7676a6932d6ea8dea233d1f698d7c21cf8a16889",
+            "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 2
+          },
+          "gold_pairs": [
+            [
+              "My sister are",
+              "My sister is"
+            ],
+            [
+              "We is",
+              "We are"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My sister are nine.",
+              "My sister is nine."
+            ],
+            [
+              "We is from Chile",
+              "We are from Chile"
+            ]
+          ]
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+          "case_id": "A1-E03",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:e531007218dfab990486a5de7676a6932d6ea8dea233d1f698d7c21cf8a16889:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:13-gemma4-e2b-ud-q4-k-xl:A1-E03",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "e531007218dfab990486a5de7676a6932d6ea8dea233d1f698d7c21cf8a16889",
+            "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 3
+          },
+          "gold_pairs": [
+            [
+              "don't likes",
+              "don't like"
+            ],
+            [
+              "father like",
+              "father likes"
+            ],
+            [
+              "mother make",
+              "mother makes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "I don't likes fish",
+              "I don't like fish"
+            ],
+            [
+              "my father like it",
+              "my father likes it"
+            ],
+            [
+              "my mother make a salad",
+              "my mother makes a salad"
+            ]
+          ]
+        },
+        {
+          "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+          "case_id": "A1-E04",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "PARTIAL",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:e531007218dfab990486a5de7676a6932d6ea8dea233d1f698d7c21cf8a16889:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:13-gemma4-e2b-ud-q4-k-xl:A1-E04",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "e531007218dfab990486a5de7676a6932d6ea8dea233d1f698d7c21cf8a16889",
+            "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 4
+          },
+          "gold_pairs": [
+            [
+              "Two boys is playing",
+              "Two boys are playing"
+            ],
+            [
+              "a woman are sitting",
+              "a woman is sitting"
+            ],
+            [
+              "Her dog run",
+              "Her dog is running"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "Two boys is playing football",
+              "Two boys are playing football"
+            ],
+            [
+              "a woman are sitting",
+              "a woman is sitting"
+            ],
+            [
+              "Her dog run after a ball",
+              "Her dog is running after a ball"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "14-gemma4-e2b-ud-q2-k-xl",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 4,
+      "exact_primary_incorrect_cases": 3,
+      "licensed_fulltext_alternative_incorrect_cases": 0,
+      "primary_text_match_but_not_strict_correct": 3,
+      "unique_edit_effect_matches_primary_incorrect_cases": 1,
+      "edit_reconstruction_unverified_incorrect_cases": 28,
+      "mechanical_examples": [
+        {
+          "config_id": "14-gemma4-e2b-ud-q2-k-xl",
+          "case_id": "A2-E11",
+          "level": "A2",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:0a5bbc20f91f92da96ab4870fa71b356c45b8500a7b8b9c3e0eb48359b72da28:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:14-gemma4-e2b-ud-q2-k-xl:A2-E11",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "0a5bbc20f91f92da96ab4870fa71b356c45b8500a7b8b9c3e0eb48359b72da28",
+            "config_id": "14-gemma4-e2b-ud-q2-k-xl",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 31
+          },
+          "gold_pairs": [
+            [
+              "listen music",
+              "listen to music"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "In my free time",
+              "In my free time"
+            ],
+            [
+              "I listen music and read short stories",
+              "I listen to music and read short stories"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "15-lfm25-26b-q8-0",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 27,
+      "exact_primary_incorrect_cases": 17,
+      "licensed_fulltext_alternative_incorrect_cases": 0,
+      "primary_text_match_but_not_strict_correct": 16,
+      "unique_edit_effect_matches_primary_incorrect_cases": 14,
+      "edit_reconstruction_unverified_incorrect_cases": 2,
+      "mechanical_examples": [
+        {
+          "config_id": "15-lfm25-26b-q8-0",
+          "case_id": "A1-E01",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:1e22128dfa128bdfb684da167e74e072d0a056baa7d06d9f280291e2839b0fc9:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:15-lfm25-26b-q8-0:A1-E01",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "1e22128dfa128bdfb684da167e74e072d0a056baa7d06d9f280291e2839b0fc9",
+            "config_id": "15-lfm25-26b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 1
+          },
+          "gold_pairs": [
+            [
+              "live",
+              "lives"
+            ],
+            [
+              "get up",
+              "gets up"
+            ],
+            [
+              "go",
+              "goes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My brother live",
+              "My brother lives"
+            ],
+            [
+              "He get up",
+              "He gets up"
+            ],
+            [
+              "go to school by bus",
+              "goes to school by bus"
+            ],
+            [
+              "In the evening, he watches TV with me and helps my mother in the kitchen.",
+              "In the evening, he watches TV with me and helps my mother in the kitchen."
+            ]
+          ]
+        },
+        {
+          "config_id": "15-lfm25-26b-q8-0",
+          "case_id": "A1-E02",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:1e22128dfa128bdfb684da167e74e072d0a056baa7d06d9f280291e2839b0fc9:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:15-lfm25-26b-q8-0:A1-E02",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "1e22128dfa128bdfb684da167e74e072d0a056baa7d06d9f280291e2839b0fc9",
+            "config_id": "15-lfm25-26b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 2
+          },
+          "gold_pairs": [
+            [
+              "My sister are",
+              "My sister is"
+            ],
+            [
+              "We is",
+              "We are"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My sister are nine.",
+              "My sister is nine."
+            ],
+            [
+              "We is from Chile",
+              "We are from Chile"
+            ]
+          ]
+        },
+        {
+          "config_id": "15-lfm25-26b-q8-0",
+          "case_id": "A1-E03",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:1e22128dfa128bdfb684da167e74e072d0a056baa7d06d9f280291e2839b0fc9:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:15-lfm25-26b-q8-0:A1-E03",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "1e22128dfa128bdfb684da167e74e072d0a056baa7d06d9f280291e2839b0fc9",
+            "config_id": "15-lfm25-26b-q8-0",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 3
+          },
+          "gold_pairs": [
+            [
+              "don't likes",
+              "don't like"
+            ],
+            [
+              "father like",
+              "father likes"
+            ],
+            [
+              "mother make",
+              "mother makes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "I don't likes",
+              "I don't like"
+            ],
+            [
+              "my father like it very much",
+              "my father likes it very much"
+            ],
+            [
+              "my mother make a salad",
+              "my mother makes a salad"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "config_id": "16-lfm25-26b-q4-k-m",
+      "cases": 40,
+      "incorrect_cases": 30,
+      "exact_primary_all_cases": 27,
+      "exact_primary_incorrect_cases": 17,
+      "licensed_fulltext_alternative_incorrect_cases": 0,
+      "primary_text_match_but_not_strict_correct": 17,
+      "unique_edit_effect_matches_primary_incorrect_cases": 14,
+      "edit_reconstruction_unverified_incorrect_cases": 3,
+      "mechanical_examples": [
+        {
+          "config_id": "16-lfm25-26b-q4-k-m",
+          "case_id": "A1-E01",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:02a8b7e17487d326e46d68ce0ba24211e1b80a14c4cd0597fa73c1cd697f52ed:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:16-lfm25-26b-q4-k-m:A1-E01",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "02a8b7e17487d326e46d68ce0ba24211e1b80a14c4cd0597fa73c1cd697f52ed",
+            "config_id": "16-lfm25-26b-q4-k-m",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 1
+          },
+          "gold_pairs": [
+            [
+              "live",
+              "lives"
+            ],
+            [
+              "get up",
+              "gets up"
+            ],
+            [
+              "go",
+              "goes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My brother live with us.",
+              "My brother lives with us."
+            ],
+            [
+              "He get up at seven and go to school by bus.",
+              "He gets up at seven and goes to school by bus."
+            ],
+            [
+              "In the evening, he watches TV with me and helps my mother in the kitchen.",
+              "In the evening, he watches TV with me and helps my mother in the kitchen."
+            ]
+          ]
+        },
+        {
+          "config_id": "16-lfm25-26b-q4-k-m",
+          "case_id": "A1-E02",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:02a8b7e17487d326e46d68ce0ba24211e1b80a14c4cd0597fa73c1cd697f52ed:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:16-lfm25-26b-q4-k-m:A1-E02",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "02a8b7e17487d326e46d68ce0ba24211e1b80a14c4cd0597fa73c1cd697f52ed",
+            "config_id": "16-lfm25-26b-q4-k-m",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 2
+          },
+          "gold_pairs": [
+            [
+              "My sister are",
+              "My sister is"
+            ],
+            [
+              "We is",
+              "We are"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "My sister are nine.",
+              "My sister is nine."
+            ],
+            [
+              "We is from Chile, but our parents are from Peru.",
+              "We are from Chile, but our parents are from Peru."
+            ]
+          ]
+        },
+        {
+          "config_id": "16-lfm25-26b-q4-k-m",
+          "case_id": "A1-E03",
+          "level": "A1",
+          "condition": "incorrect",
+          "primary_verdict_unchanged": "INCORRECT",
+          "corrected_text_match": "exact_primary",
+          "primary_text_match_but_not_strict_correct": true,
+          "edit_reconstruction_state": "unique_nonoverlapping_literal_edits",
+          "declared_edit_effect_matches_gold_primary": true,
+          "declared_edit_effect_matches_predicted_text": true,
+          "response_provenance": {
+            "resume_key": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9:02a8b7e17487d326e46d68ce0ba24211e1b80a14c4cd0597fa73c1cd697f52ed:8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255:16-lfm25-26b-q4-k-m:A1-E03",
+            "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+            "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+            "model_sha256": "02a8b7e17487d326e46d68ce0ba24211e1b80a14c4cd0597fa73c1cd697f52ed",
+            "config_id": "16-lfm25-26b-q4-k-m",
+            "attempt_trace": [
+              1
+            ],
+            "selected_attempt": 1,
+            "retry_mode": "initial",
+            "retry_of_attempt": null,
+            "retry_of_outcome": null,
+            "derived_seq": 3
+          },
+          "gold_pairs": [
+            [
+              "don't likes",
+              "don't like"
+            ],
+            [
+              "father like",
+              "father likes"
+            ],
+            [
+              "mother make",
+              "mother makes"
+            ]
+          ],
+          "predicted_pairs": [
+            [
+              "I don't likes",
+              "I don't like"
+            ],
+            [
+              "my father like",
+              "my father likes"
+            ],
+            [
+              "my mother make",
+              "my mother makes"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+[
+  {
+    "id": "A2-E031",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about preparing a display for a club event.",
+    "student_text": "Last Tuesday, our art club prepare a display for parents. I bringed my photos from the coast, and Nina put them on the wall. We was proud of the result, so our teacher take a picture before everyone went home.",
+    "length_words": 40,
+    "gold": {
+      "errors": [
+        {
+          "original": "prepare",
+          "correction": "prepared",
+          "type": "PAST_SIMPLE",
+          "type_label": "past simple",
+          "explanation": "The time marker Last Tuesday places this finished event in the past, so use prepared.",
+          "acceptable_corrections": [
+            "prepared"
+          ]
+        },
+        {
+          "original": "bringed",
+          "correction": "brought",
+          "type": "PAST_SIMPLE",
+          "type_label": "past simple / irregular verb",
+          "explanation": "The past simple of bring is brought.",
+          "acceptable_corrections": [
+            "brought"
+          ]
+        },
+        {
+          "original": "We was",
+          "correction": "We were",
+          "type": "BE_AGREEMENT",
+          "type_label": "form of be / subject-verb agreement",
+          "explanation": "Use were with the subject we.",
+          "acceptable_corrections": [
+            "We were"
+          ]
+        },
+        {
+          "original": "teacher take",
+          "correction": "teacher took",
+          "type": "PAST_SIMPLE",
+          "type_label": "past simple / irregular verb",
+          "explanation": "This completed action happened before everyone went home; the past of take is took.",
+          "acceptable_corrections": [
+            "teacher took"
+          ]
+        }
+      ],
+      "corrected_text": "Last Tuesday, our art club prepared a display for parents. I brought my photos from the coast, and Nina put them on the wall. We were proud of the result, so our teacher took a picture before everyone went home.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E032",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe your journey to a bus station.",
+    "student_text": "The bus station is five minutes from my flat, but I usually go there by foot. Yesterday, I missed the 7:30 bus because I arrived in the station just as it left. The next one was more crowded than usual.",
+    "length_words": 40,
+    "gold": {
+      "errors": [
+        {
+          "original": "by foot",
+          "correction": "on foot",
+          "type": "PREPOSITION_PLACE",
+          "type_label": "preposition of manner / transport",
+          "explanation": "The standard expression for walking somewhere is on foot.",
+          "acceptable_corrections": [
+            "on foot"
+          ]
+        },
+        {
+          "original": "arrived in the station",
+          "correction": "arrived at the station",
+          "type": "VERB_PREPOSITION",
+          "type_label": "preposition after arrive",
+          "explanation": "Use arrive at for a specific point such as a station.",
+          "acceptable_corrections": [
+            "arrived at the station"
+          ]
+        }
+      ],
+      "corrected_text": "The bus station is five minutes from my flat, but I usually go there on foot. Yesterday, I missed the 7:30 bus because I arrived at the station just as it left. The next one was more crowded than usual.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E033",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Explain what you need to make a soup.",
+    "student_text": "For the soup, you need a little carrots and two onion. My uncle cuts the vegetables while I heat some oil in a pan. We added water and cooked everything for twenty minutes, and the soup tasted delicious.",
+    "length_words": 38,
+    "gold": {
+      "errors": [
+        {
+          "original": "a little carrots",
+          "correction": "a few carrots",
+          "type": "MUCH_MANY",
+          "type_label": "quantifier with countable nouns",
+          "explanation": "Carrots are countable plural nouns, so use a few rather than a little.",
+          "acceptable_corrections": [
+            "a few carrots"
+          ]
+        },
+        {
+          "original": "two onion",
+          "correction": "two onions",
+          "type": "NUMBER_AGREEMENT",
+          "type_label": "singular/plural",
+          "explanation": "Use the plural form onions after the number two.",
+          "acceptable_corrections": [
+            "two onions"
+          ]
+        }
+      ],
+      "corrected_text": "For the soup, you need a few carrots and two onions. My uncle cuts the vegetables while I heat some oil in a pan. We added water and cooked everything for twenty minutes, and the soup tasted delicious.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E034",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Ask for directions to a post office.",
+    "student_text": "Could you tell me where is the post office? I need to send a birthday card to my cousin in another town. The shop assistant said it was behind the bank, so I will walk there after lunch.",
+    "length_words": 38,
+    "gold": {
+      "errors": [
+        {
+          "original": "where is the post office",
+          "correction": "where the post office is",
+          "type": "QUESTION_FORMATION",
+          "type_label": "indirect question word order",
+          "explanation": "In an indirect question after Could you tell me, use statement word order: subject before verb.",
+          "acceptable_corrections": [
+            "where the post office is"
+          ]
+        }
+      ],
+      "corrected_text": "Could you tell me where the post office is? I need to send a birthday card to my cousin in another town. The shop assistant said it was behind the bank, so I will walk there after lunch.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E035",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe sharing chores with your flatmates.",
+    "student_text": "My flatmates shares the kitchen, but each person has a different shelf. I don't mind washing the dishes, although I never put the clean plates in cupboard. On Fridays, we usually order food instead of cooking.",
+    "length_words": 36,
+    "gold": {
+      "errors": [
+        {
+          "original": "flatmates shares",
+          "correction": "flatmates share",
+          "type": "SUBJECT_VERB_AGREEMENT",
+          "type_label": "subject-verb agreement / present simple",
+          "explanation": "Use the base verb share with the plural subject flatmates.",
+          "acceptable_corrections": [
+            "flatmates share"
+          ]
+        },
+        {
+          "original": "in cupboard",
+          "correction": "in the cupboard",
+          "type": "ARTICLE",
+          "type_label": "article",
+          "explanation": "Use the before cupboard when referring to the specific cupboard in the kitchen.",
+          "acceptable_corrections": [
+            "in the cupboard"
+          ]
+        }
+      ],
+      "corrected_text": "My flatmates share the kitchen, but each person has a different shelf. I don't mind washing the dishes, although I never put the clean plates in the cupboard. On Fridays, we usually order food instead of cooking.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E036",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about losing something at a sports centre.",
+    "student_text": "I was waiting outside the sports centre when I noticed my wallet was not in my bag. I asked the receptionist if somebody had found it, but nobody have seen it. Luckily, my bus card was in my phone case.",
+    "length_words": 40,
+    "gold": {
+      "errors": [
+        {
+          "original": "nobody have",
+          "correction": "nobody has",
+          "type": "SUBJECT_VERB_AGREEMENT",
+          "type_label": "subject-verb agreement / present perfect",
+          "explanation": "Nobody is grammatically singular, so use has in the present perfect.",
+          "acceptable_corrections": [
+            "nobody has"
+          ]
+        }
+      ],
+      "corrected_text": "I was waiting outside the sports centre when I noticed my wallet was not in my bag. I asked the receptionist if somebody had found it, but nobody has seen it. Luckily, my bus card was in my phone case.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E037",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Explain why you need to change a medical appointment.",
+    "student_text": "My dentist gave me an appointment for Thursday morning, but I can't go at this day because I have a school meeting. I called the clinic and asked if they had another time available. The receptionist offered Friday afternoon instead.",
+    "length_words": 40,
+    "gold": {
+      "errors": [
+        {
+          "original": "at this day",
+          "correction": "on this day",
+          "type": "PREPOSITION_TIME",
+          "type_label": "preposition of time",
+          "explanation": "Use on with a day or date, not at.",
+          "acceptable_corrections": [
+            "on this day",
+            "that day"
+          ]
+        }
+      ],
+      "corrected_text": "My dentist gave me an appointment for Thursday morning, but I can't go on this day because I have a school meeting. I called the clinic and asked if they had another time available. The receptionist offered Friday afternoon instead.",
+      "acceptable_alternatives": [
+        "My dentist gave me an appointment for Thursday morning, but I can't go that day because I have a school meeting. I called the clinic and asked if they had another time available. The receptionist offered Friday afternoon instead."
+      ],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E038",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about shopping at a weekend market.",
+    "student_text": "On Sunday, my neighbor and I visited a farmers' market near the river. We buyed fresh bread, tomatoes, and some vegetabels for dinner. A musician was playing the guitar, and many families sat at tables beside the food stalls.",
+    "length_words": 39,
+    "gold": {
+      "errors": [
+        {
+          "original": "buyed",
+          "correction": "bought",
+          "type": "PAST_SIMPLE",
+          "type_label": "past simple / irregular verb",
+          "explanation": "The past simple of buy is bought.",
+          "acceptable_corrections": [
+            "bought"
+          ]
+        },
+        {
+          "original": "vegetabels",
+          "correction": "vegetables",
+          "type": "SPELLING",
+          "type_label": "spelling",
+          "explanation": "The correct spelling is vegetables.",
+          "acceptable_corrections": [
+            "vegetables"
+          ]
+        }
+      ],
+      "corrected_text": "On Sunday, my neighbor and I visited a farmers' market near the river. We bought fresh bread, tomatoes, and some vegetables for dinner. A musician was playing the guitar, and many families sat at tables beside the food stalls.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E039",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe a problem giving medicine to a pet.",
+    "student_text": "The vet told us to give the dog his medicine after meals. My younger brother forgets yesterday evening, so I gave it to him before bed. The dog ate everything and slept beside the sofa.",
+    "length_words": 35,
+    "gold": {
+      "errors": [
+        {
+          "original": "forgets",
+          "correction": "forgot",
+          "type": "PAST_SIMPLE",
+          "type_label": "past simple",
+          "explanation": "Yesterday evening refers to a finished past time, so use the past form forgot.",
+          "acceptable_corrections": [
+            "forgot"
+          ]
+        }
+      ],
+      "corrected_text": "The vet told us to give the dog his medicine after meals. My younger brother forgot yesterday evening, so I gave it to him before bed. The dog ate everything and slept beside the sofa.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E040",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about a relaxing holiday accommodation.",
+    "student_text": "We booked an small room near the lake for our holiday. It was cheaper than the hotel, and it had a balcony with a beautiful view. We enjoyed to sit outside each evening and watch the boats come back.",
+    "length_words": 39,
+    "gold": {
+      "errors": [
+        {
+          "original": "an small",
+          "correction": "a small",
+          "type": "ARTICLE",
+          "type_label": "article",
+          "explanation": "Use a before a consonant sound, as in small.",
+          "acceptable_corrections": [
+            "a small"
+          ]
+        },
+        {
+          "original": "enjoyed to sit outside each evening and watch",
+          "correction": "enjoyed sitting outside each evening and watching",
+          "type": "VERB_FORM_AFTER_DO",
+          "type_label": "verb pattern / gerund",
+          "explanation": "Enjoy is followed by gerunds; use sitting and watching to keep the coordinated actions parallel.",
+          "acceptable_corrections": [
+            "enjoyed sitting outside each evening and watching"
+          ]
+        }
+      ],
+      "corrected_text": "We booked a small room near the lake for our holiday. It was cheaper than the hotel, and it had a balcony with a beautiful view. We enjoyed sitting outside each evening and watching the boats come back.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E041",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe arriving early for basketball practice.",
+    "student_text": "Our basketball coach asked us to arrive early on Saturday. I reached to the gym at eight, but the doors were still closed. Two other players was waiting with me, so we practised passing in the car park.",
+    "length_words": 38,
+    "gold": {
+      "errors": [
+        {
+          "original": "reached to the gym",
+          "correction": "reached the gym",
+          "type": "VERB_PREPOSITION",
+          "type_label": "preposition after verb",
+          "explanation": "Reach takes a direct object and is not followed by to.",
+          "acceptable_corrections": [
+            "reached the gym"
+          ]
+        },
+        {
+          "original": "players was",
+          "correction": "players were",
+          "type": "BE_AGREEMENT",
+          "type_label": "form of be / subject-verb agreement",
+          "explanation": "Use were with the plural subject players.",
+          "acceptable_corrections": [
+            "players were"
+          ]
+        }
+      ],
+      "corrected_text": "Our basketball coach asked us to arrive early on Saturday. I reached the gym at eight, but the doors were still closed. Two other players were waiting with me, so we practised passing in the car park.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E042",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about balancing a part-time job and a hobby.",
+    "student_text": "I have a part-time job at a bakery near my college. My manager let me to finish early on Wednesdays, so I can attend my photography class. Last week, I learned how to use a new camera and took some pictures of the river.",
+    "length_words": 44,
+    "gold": {
+      "errors": [
+        {
+          "original": "let me to finish",
+          "correction": "let me finish",
+          "type": "VERB_FORM_AFTER_DO",
+          "type_label": "verb pattern / bare infinitive",
+          "explanation": "After let + person, use the base verb without to.",
+          "acceptable_corrections": [
+            "let me finish"
+          ]
+        }
+      ],
+      "corrected_text": "I have a part-time job at a bakery near my college. My manager let me finish early on Wednesdays, so I can attend my photography class. Last week, I learned how to use a new camera and took some pictures of the river.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E043",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe a birthday celebration for a relative.",
+    "student_text": "For my grandmother's birthday, we made a cake and decorated the living room with paper flowers. My aunt brought a present for she, and my cousins sang a song. Grandma laughed and said it was the nicest surprise she ever had.",
+    "length_words": 41,
+    "gold": {
+      "errors": [
+        {
+          "original": "for she",
+          "correction": "for her",
+          "type": "OBJECT_PRONOUN",
+          "type_label": "object pronoun",
+          "explanation": "Use the object pronoun her after the preposition for.",
+          "acceptable_corrections": [
+            "for her"
+          ]
+        }
+      ],
+      "corrected_text": "For my grandmother's birthday, we made a cake and decorated the living room with paper flowers. My aunt brought a present for her, and my cousins sang a song. Grandma laughed and said it was the nicest surprise she ever had.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E044",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about a change in the weather during a walk.",
+    "student_text": "We planned a walk in the hills, but the weather became much more colder after lunch. Dark clouds covered the path, and we decided to return to the village. My father said we should check the forecast before our next trip.",
+    "length_words": 41,
+    "gold": {
+      "errors": [
+        {
+          "original": "much more colder",
+          "correction": "much colder",
+          "type": "COMPARATIVE",
+          "type_label": "comparative adjective",
+          "explanation": "Cold forms its comparative as colder; much can intensify this comparative.",
+          "acceptable_corrections": [
+            "much colder"
+          ]
+        }
+      ],
+      "corrected_text": "We planned a walk in the hills, but the weather became much colder after lunch. Dark clouds covered the path, and we decided to return to the village. My father said we should check the forecast before our next trip.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E045",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about helping at a community donation centre.",
+    "student_text": "At our community centre, volunteers collect old clothes for families who need them. Last month, I helped to sort the donations and wrote labels for each box. There was many coats, but only a few pairs of shoes, so we made a list of things to find.",
+    "length_words": 47,
+    "gold": {
+      "errors": [
+        {
+          "original": "There was many coats",
+          "correction": "There were many coats",
+          "type": "BE_AGREEMENT",
+          "type_label": "form of be / singular-plural",
+          "explanation": "Use were because the noun phrase many coats is plural.",
+          "acceptable_corrections": [
+            "There were many coats"
+          ]
+        }
+      ],
+      "corrected_text": "At our community centre, volunteers collect old clothes for families who need them. Last month, I helped to sort the donations and wrote labels for each box. There were many coats, but only a few pairs of shoes, so we made a list of things to find.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  }
+]

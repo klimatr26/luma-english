@@ -1,0 +1,334 @@
+{
+  "scope": "One synthetic non-thinking runtime probe per configuration under approved current manifest; no benchmark outputs scored",
+  "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "readiness_report_sha256": "921ed2df2512edf6ccfb1634657eb07d1ac559bfe11b7732bb9c958a9c76e26a",
+  "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+  "technical_requests_this_run": 16,
+  "historical_requests_retained": 4,
+  "total_technical_requests": 20,
+  "main_inferences_executed": 0,
+  "phase1_extension_inferences_executed": 0,
+  "configs": [
+    {
+      "config_id": "01-qwen35-2b-f16",
+      "id": "qwen35_2b_f16",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 517,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "b00848853edabe7ff950fcd786c9c62b0b5720eb90496377ea499e6cb43e43d3",
+      "request_sha256": "45be68f9d00ea000b2dd1ba80857f3b2a8a0d301c596383db2d4073cafe4b18e",
+      "response_sha256": "81a8e6e532febb54c5bb93f06549ed60de765f3a2cac23c374487bde842f642f",
+      "generation_claim": {
+        "id": "qwen35_2b_f16",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\qwen35_2b_f16.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": true
+      }
+    },
+    {
+      "config_id": "02-qwen35-2b-q8-0",
+      "id": "qwen35_2b_q8_0",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 815,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "b00848853edabe7ff950fcd786c9c62b0b5720eb90496377ea499e6cb43e43d3",
+      "request_sha256": "45be68f9d00ea000b2dd1ba80857f3b2a8a0d301c596383db2d4073cafe4b18e",
+      "response_sha256": "aecde0925688b5449e0d03cddca71153de1a8a5be9679a47ad35926d133f1723",
+      "generation_claim": {
+        "id": "qwen35_2b_q8_0",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\qwen35_2b_q8_0.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": true
+      }
+    },
+    {
+      "config_id": "03-qwen35-2b-q4-k-m",
+      "id": "qwen35_2b_q4_k_m",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 454,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "b00848853edabe7ff950fcd786c9c62b0b5720eb90496377ea499e6cb43e43d3",
+      "request_sha256": "45be68f9d00ea000b2dd1ba80857f3b2a8a0d301c596383db2d4073cafe4b18e",
+      "response_sha256": "5a7fd455acc65b589b5e873f658d5a9c16079a25ed42f202742963971be53f2c",
+      "generation_claim": {
+        "id": "qwen35_2b_q4_k_m",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\qwen35_2b_q4_k_m.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": true
+      }
+    },
+    {
+      "config_id": "04-minicpm5-2b-f16",
+      "id": "minicpm5_2b_f16",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 201,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "062fdc3126c3e50da4df614844691d660cc6b45a549f55e02d64e38c3c26f94b",
+      "request_sha256": "67f0dd8ee2493f6b8a14529997dc5b7735c423aa0b4e65dffd819e7afa140f66",
+      "response_sha256": "52e8df310d0e6794bfd7e0dd8a6c8c653d462fab28169e5c9585812765281b0c",
+      "generation_claim": {
+        "id": "minicpm5_2b_f16",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\minicpm5_2b_f16.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": true
+      }
+    },
+    {
+      "config_id": "05-minicpm5-2b-q8-0",
+      "id": "minicpm5_2b_q8_0",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 201,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "062fdc3126c3e50da4df614844691d660cc6b45a549f55e02d64e38c3c26f94b",
+      "request_sha256": "67f0dd8ee2493f6b8a14529997dc5b7735c423aa0b4e65dffd819e7afa140f66",
+      "response_sha256": "503957c05292aaaaa9508235f12038882164ce18db5e0c80ed222179363394c1",
+      "generation_claim": {
+        "id": "minicpm5_2b_q8_0",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\minicpm5_2b_q8_0.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": false
+      }
+    },
+    {
+      "config_id": "06-minicpm5-2b-q4-k-m",
+      "id": "minicpm5_2b_q4_k_m",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 259,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "062fdc3126c3e50da4df614844691d660cc6b45a549f55e02d64e38c3c26f94b",
+      "request_sha256": "67f0dd8ee2493f6b8a14529997dc5b7735c423aa0b4e65dffd819e7afa140f66",
+      "response_sha256": "edde0168da64aa1b272e278b6302f7c31205261369b381f6c99645477e8ed42f",
+      "generation_claim": {
+        "id": "minicpm5_2b_q4_k_m",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\minicpm5_2b_q4_k_m.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": false
+      }
+    },
+    {
+      "config_id": "07-lfm25-12b-bf16",
+      "id": "lfm25_12b_bf16",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 251,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "1b0854cd8f22c68027acd6e8b4b7ad92f25649acfdf041e3a53e7a6600465781",
+      "request_sha256": "78ca52e5bbe12bec325279e51c9403ac358cd0eb9b78da14a52ffc21321d9e6c",
+      "response_sha256": "0b24e6e8d86a92b8b691f7ece15103b54cabfdd998c3ffaae912e44f42582b76",
+      "generation_claim": {
+        "id": "lfm25_12b_bf16",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\lfm25_12b_bf16.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": false
+      }
+    },
+    {
+      "config_id": "08-lfm25-12b-q8-0",
+      "id": "lfm25_12b_q8_0",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 220,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "1b0854cd8f22c68027acd6e8b4b7ad92f25649acfdf041e3a53e7a6600465781",
+      "request_sha256": "78ca52e5bbe12bec325279e51c9403ac358cd0eb9b78da14a52ffc21321d9e6c",
+      "response_sha256": "63b01d69172acfa7f21ade48820f30f8e5a3aa81843856b315d006ecd8a25c45",
+      "generation_claim": {
+        "id": "lfm25_12b_q8_0",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\lfm25_12b_q8_0.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": false
+      }
+    },
+    {
+      "config_id": "09-lfm25-12b-q4-k-m",
+      "id": "lfm25_12b_q4_k_m",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 541,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "1b0854cd8f22c68027acd6e8b4b7ad92f25649acfdf041e3a53e7a6600465781",
+      "request_sha256": "78ca52e5bbe12bec325279e51c9403ac358cd0eb9b78da14a52ffc21321d9e6c",
+      "response_sha256": "54361c4d350240d2307597db4cfdd7fb3ebbc104d58cf4c4d35eb0df50556559",
+      "generation_claim": {
+        "id": "lfm25_12b_q4_k_m",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\lfm25_12b_q4_k_m.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": false
+      }
+    },
+    {
+      "config_id": "10-qwen35-4b-q8-0",
+      "id": "qwen35_4b_q8_0",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 327,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "b00848853edabe7ff950fcd786c9c62b0b5720eb90496377ea499e6cb43e43d3",
+      "request_sha256": "45be68f9d00ea000b2dd1ba80857f3b2a8a0d301c596383db2d4073cafe4b18e",
+      "response_sha256": "84dab8ef013e327c8613ae8ab6350bab56e863f6d656e1e34a3dc90ed4025f7b",
+      "generation_claim": {
+        "id": "qwen35_4b_q8_0",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\qwen35_4b_q8_0.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": false
+      }
+    },
+    {
+      "config_id": "11-qwen35-4b-q4-k-m",
+      "id": "qwen35_4b_q4_k_m",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 297,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "b00848853edabe7ff950fcd786c9c62b0b5720eb90496377ea499e6cb43e43d3",
+      "request_sha256": "45be68f9d00ea000b2dd1ba80857f3b2a8a0d301c596383db2d4073cafe4b18e",
+      "response_sha256": "a002c2697fe3d71853bab5ee6e4455eb5918016c66a632777b9cd8aef0ec360f",
+      "generation_claim": {
+        "id": "qwen35_4b_q4_k_m",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\qwen35_4b_q4_k_m.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": false
+      }
+    },
+    {
+      "config_id": "12-gemma4-e2b-qat-q4-0",
+      "id": "gemma4_e2b_qat_q4_0",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 520,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "1131c1ca5c787b766a44cd884fb8a53124b2a47af8d751b9f7614d8f89e486b8",
+      "request_sha256": "3cf9f4676b2c91d7d69cacba9db2dbe3eae827a101f6dcdc59f70685da4b2241",
+      "response_sha256": "02a095e3a3a41c7b4c49a1ba2ec2c3d6f3db15c43906e9f9875ec5d81a59cd26",
+      "generation_claim": {
+        "id": "gemma4_e2b_qat_q4_0",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\gemma4_e2b_qat_q4_0.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": false
+      }
+    },
+    {
+      "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+      "id": "gemma4_e2b_ud_q4_k_xl",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 709,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "1131c1ca5c787b766a44cd884fb8a53124b2a47af8d751b9f7614d8f89e486b8",
+      "request_sha256": "3cf9f4676b2c91d7d69cacba9db2dbe3eae827a101f6dcdc59f70685da4b2241",
+      "response_sha256": "0b7ff7629342b797011d80ec66e96d25ee2dcf8bcd88262409f95e26a87b801f",
+      "generation_claim": {
+        "id": "gemma4_e2b_ud_q4_k_xl",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\gemma4_e2b_ud_q4_k_xl.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": false
+      }
+    },
+    {
+      "config_id": "14-gemma4-e2b-ud-q2-k-xl",
+      "id": "gemma4_e2b_ud_q2_k_xl",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 618,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "1131c1ca5c787b766a44cd884fb8a53124b2a47af8d751b9f7614d8f89e486b8",
+      "request_sha256": "3cf9f4676b2c91d7d69cacba9db2dbe3eae827a101f6dcdc59f70685da4b2241",
+      "response_sha256": "337e1708708913176c4c2702a97a091a747a26299c2e443225d0704fadf434d6",
+      "generation_claim": {
+        "id": "gemma4_e2b_ud_q2_k_xl",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\gemma4_e2b_ud_q2_k_xl.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": false
+      }
+    },
+    {
+      "config_id": "15-lfm25-26b-q8-0",
+      "id": "lfm25_26b_q8_0",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 306,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "d37f2f78affbc806e1ec7fa04916a68d54bee95e34b536828eea06a079ff2429",
+      "request_sha256": "abef490e2957e4abed22615a3ccc94abfe8e73d92717398f7356284fd258fce0",
+      "response_sha256": "f8a745b6412d2b204d23957d1dcd4f0429004a82f1a576fccab236ccba99aff3",
+      "generation_claim": {
+        "id": "lfm25_26b_q8_0",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\lfm25_26b_q8_0.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": false
+      }
+    },
+    {
+      "config_id": "16-lfm25-26b-q4-k-m",
+      "id": "lfm25_26b_q4_k_m",
+      "status": "ready",
+      "reasoning_content_chars": 0,
+      "completion_chars": 346,
+      "finish_reason": "stop",
+      "rendered_prompt_sha256": "d37f2f78affbc806e1ec7fa04916a68d54bee95e34b536828eea06a079ff2429",
+      "request_sha256": "abef490e2957e4abed22615a3ccc94abfe8e73d92717398f7356284fd258fce0",
+      "response_sha256": "a5eeaf4c600d109907e7487d92f40e09103d9cfcd3c8545ceb770d71a7cf8647",
+      "generation_claim": {
+        "id": "lfm25_26b_q4_k_m",
+        "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+        "authorization_sha256": "871f04d5d6fb8e4888001a18776431685d8f93eadec8cb8b3f28087dd871f66b",
+        "authorization_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\manifests\\readiness_repeat_authorization_20261011.json",
+        "request_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\logs\\readiness_nonthinking_authorized_20261011\\lfm25_26b_q4_k_m.request.json",
+        "purpose": "one synthetic technical generation; no automatic retry",
+        "repeat": false
+      }
+    }
+  ],
+  "limits": "Empty reasoning_content and bounded tagged reasoning verify this technical request contract; do not prove absence of internal computation or all future response behavior. Device VRAM is shared device-wide."
+}

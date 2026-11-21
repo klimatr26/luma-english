@@ -1,0 +1,153 @@
+{
+  "kind": "SYNTHETIC_TESTS_NO_MODEL_INFERENCE",
+  "dateUtc": "2026-11-20T16:02:54.7637985+00:00",
+  "passed": 29,
+  "total": 29,
+  "checks": [
+    {
+      "id": "C01-course-complete",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "C02-all-thirty-answer-keys",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "C03-wrong-answers-and-word-normalization",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "C04-empty-and-unknown-options-rejected",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "C05-editorial-ambiguities-removed",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "M01-full-catalog-and-qwen2-pins",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "D01-draft-queue-order-and-restart",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "D02-practice-on-wrong-answer-counted-once",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "D03-settings-persist-and-validate",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "D04-unknown-schema-not-overwritten",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "D05-running-attempt-recovered-as-interrupted",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "D06-backup-restores-and-preserves-previous-state",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "D07-corrupt-backup-does-not-replace-progress",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "W01-usable-feedback-completes-writing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "W02-incorrect-writing-still-counts-as-practice",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "W03-laboratory-never-completes-course",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "W04-unusable-json-pending-with-raw",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "W05-format-retry-retains-raw-and-seeds",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "W06-technical-failure-no-retry-keeps-prior-raw",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "W07-cancellation-never-retries",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "W08-empty-feedback-and-recovered-json-usable",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "W09-contradictory-verdict-cannot-complete-course",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "M02-balanced-gpu-and-cpu-selection",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "M03-memory-fallback-and-manual-qwen2",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "M04-measured-choice-invalidates-on-hardware-context-or-expiry",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "M05-partial-gpu-qualification-and-latency-limit",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "M06-exact-manual-placement-preserved",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "M07-selected-adapter-with-estimated-layers-preserved",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "M08-memory-recovery-upgrades-a-resource-fallback",
+      "passed": true,
+      "error": null
+    }
+  ]
+}

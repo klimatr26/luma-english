@@ -1,0 +1,24 @@
+{
+  "reviewer": "Parent Codex AI integration; independent runtime report retained as reviewed snapshot",
+  "current_script_sha256": {
+    "scripts\\prepare_experiment_120.py": "a9c97a84e5805fbf42ca00357dfc27f73b7e3b47b59dc9318fdeaeae8c0fd03c",
+    "scripts\\write_model_inventory.py": "e2dc8cef86dc290c398eee7a03db765b6810fc8f29cef3d52cf255364a2241f5",
+    "scripts\\compare_native_templates_120.py": "094cbf1e966b1a4af020205cbe90683e2ae3b759aeffa08d5f832a0b27215297",
+    "scripts/check_readiness_120.py": "dc3008eb264c76cda053c9b56ceb070fbeff28460b09747ab86702d3fd311035",
+    "scripts/readiness_generation_guard.py": "d1c7727094fe32ae28536fd083f57bd66f06349046cfdfe1bf7da71ee376c97d",
+    "scripts/test_readiness_generation_guard.py": "49190d73277d3f5ee0d79045305f04fc4e3c1cf658f5a6008dbd5aced0fb9f62"
+  },
+  "resolved": [
+    "Single-config diagnostics now load/render only, do not generate and use separate reports; complete_matrix requires 16 ready statuses.",
+    "Inventory strict now rejects missing verification evidence or unverified conversions; existing20 entries all verify.",
+    "User non-thinking instruction applied with native toggles, reasoning off, zero thinking budget and request/launch guards.",
+    "Explicit human authorization pinned by exact record SHA for one repetition each of four previously probed configs; exclusive persistent claims prevent additional generations. Independent Luna6 max review found no blockers; six guard tests passed independently.",
+    "Current pinned manifest passed sequential synthetic readiness16/16, all reasoning_content empty and finish stop, including native Gemma comparison renders and LFM2.6 zero-budget closure. Main outputs remain empty."
+  ],
+  "documented_limits": [
+    "Qwen historical quantizer binary hash absent from conversion record; no retrospective identity proof fabricated.",
+    "Finite synthetic render comparisons do not prove dynamic template equivalence."
+  ],
+  "unresolved_runtime_obstacle": null,
+  "post_run_documentation_note": "Only docstring and CLI help wording clarified after the completed run; executed behavior unchanged."
+}

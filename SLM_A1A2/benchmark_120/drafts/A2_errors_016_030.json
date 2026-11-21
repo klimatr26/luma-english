@@ -1,0 +1,377 @@
+[
+  {
+    "id": "A2-E016",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about helping at a community garden last weekend.",
+    "student_text": "Last weekend, our class helped at a community garden near the river. We digged small holes for the new plants and carried water in buckets. I planted three sunflowers with my friend, then we cleaned our tools before the garden manager gave us cold drinks.",
+    "length_words": 45,
+    "gold": {
+      "errors": [
+        {
+          "original": "digged",
+          "correction": "dug",
+          "type": "PAST_SIMPLE",
+          "type_label": "past simple / irregular verb",
+          "explanation": "The past simple of dig is dug.",
+          "acceptable_corrections": [
+            "dug"
+          ]
+        }
+      ],
+      "corrected_text": "Last weekend, our class helped at a community garden near the river. We dug small holes for the new plants and carried water in buckets. I planted three sunflowers with my friend, then we cleaned our tools before the garden manager gave us cold drinks.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E017",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Compare two ways to spend a rainy afternoon.",
+    "student_text": "When it rains, I sometimes visit the swimming pool or stay at home and paint. The pool is more farther from my flat, but it is warmer than the sports hall. At home, I can listen to the radio while my little brother builds a model plane.",
+    "length_words": 47,
+    "gold": {
+      "errors": [
+        {
+          "original": "more farther",
+          "correction": "farther",
+          "type": "COMPARATIVE",
+          "type_label": "comparative adjective / double comparison",
+          "explanation": "Use farther without more; farther already has the comparative form.",
+          "acceptable_corrections": [
+            "farther"
+          ]
+        }
+      ],
+      "corrected_text": "When it rains, I sometimes visit the swimming pool or stay at home and paint. The pool is farther from my flat, but it is warmer than the sports hall. At home, I can listen to the radio while my little brother builds a model plane.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E018",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe a visit to a small museum.",
+    "student_text": "On our class visit, we explored an old railway museum beside the station. A guide showed us much old photographs and explained how people travelled. I liked the model train best because it moved around a tiny village, and the guide answered all our questions.",
+    "length_words": 45,
+    "gold": {
+      "errors": [
+        {
+          "original": "much old photographs",
+          "correction": "many old photographs",
+          "type": "MUCH_MANY",
+          "type_label": "much/many",
+          "explanation": "Use many with plural countable nouns such as photographs.",
+          "acceptable_corrections": [
+            "many old photographs"
+          ]
+        }
+      ],
+      "corrected_text": "On our class visit, we explored an old railway museum beside the station. A guide showed us many old photographs and explained how people travelled. I liked the model train best because it moved around a tiny village, and the guide answered all our questions.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E019",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe what people are doing at a bus station now.",
+    "student_text": "At the bus station, several people are waiting for the coach to the coast. A boy is carrying a large blue bag, and his parents talks to the driver. Two older women are checking the time on a phone while a little dog sleeps under a bench.",
+    "length_words": 47,
+    "gold": {
+      "errors": [
+        {
+          "original": "his parents talks",
+          "correction": "his parents are talking",
+          "type": "PRESENT_CONTINUOUS",
+          "type_label": "present continuous / subject-verb agreement",
+          "explanation": "For an action happening now, use are plus the -ing form with the plural subject parents.",
+          "acceptable_corrections": [
+            "his parents are talking"
+          ]
+        }
+      ],
+      "corrected_text": "At the bus station, several people are waiting for the coach to the coast. A boy is carrying a large blue bag, and his parents are talking to the driver. Two older women are checking the time on a phone while a little dog sleeps under a bench.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E020",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Give a friend simple advice about caring for a bicycle.",
+    "student_text": "My friend has a new bicycle and wants to keep it in good condition. You should checking the tyres every week and clean the chain after a muddy ride. It is also a good idea to leave the bike inside the garage when the weather is very wet.",
+    "length_words": 48,
+    "gold": {
+      "errors": [
+        {
+          "original": "should checking",
+          "correction": "should check",
+          "type": "MODAL_VERB_FORM",
+          "type_label": "verb form after modal",
+          "explanation": "After should, use the base form of the verb without -ing.",
+          "acceptable_corrections": [
+            "should check"
+          ]
+        }
+      ],
+      "corrected_text": "My friend has a new bicycle and wants to keep it in good condition. You should check the tyres every week and clean the chain after a muddy ride. It is also a good idea to leave the bike inside the garage when the weather is very wet.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E021",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Ask a neighbor about a local music class.",
+    "student_text": "I saw a notice for free music lessons at the community centre and thought you might be interested. What time the classes start on Wednesday? Do we need to bring our own instruments, or can beginners borrow one from the teacher during the lesson?",
+    "length_words": 44,
+    "gold": {
+      "errors": [
+        {
+          "original": "What time the classes start",
+          "correction": "What time do the classes start",
+          "type": "QUESTION_FORMATION",
+          "type_label": "present simple question word order",
+          "explanation": "In a present simple question, put do before the plural subject the classes.",
+          "acceptable_corrections": [
+            "What time do the classes start"
+          ]
+        }
+      ],
+      "corrected_text": "I saw a notice for free music lessons at the community centre and thought you might be interested. What time do the classes start on Wednesday? Do we need to bring our own instruments, or can beginners borrow one from the teacher during the lesson?",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E022",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about supplies needed for a school art activity.",
+    "student_text": "Our art teacher asked us to bring coloured paper for a class display. I have some glue and scissors in my bag, but I don't have some yellow paper at home. My sister says the corner shop has plenty, so I will buy a few sheets after school.",
+    "length_words": 48,
+    "gold": {
+      "errors": [
+        {
+          "original": "don't have some yellow paper",
+          "correction": "don't have any yellow paper",
+          "type": "SOME_ANY",
+          "type_label": "some/any",
+          "explanation": "Use any in a negative sentence about an unspecified amount.",
+          "acceptable_corrections": [
+            "don't have any yellow paper"
+          ]
+        }
+      ],
+      "corrected_text": "Our art teacher asked us to bring coloured paper for a class display. I have some glue and scissors in my bag, but I don't have any yellow paper at home. My sister says the corner shop has plenty, so I will buy a few sheets after school.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E023",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe a new activity you enjoy doing at the weekend.",
+    "student_text": "My uncle taught me how to make simple wooden toys in his workshop. I enjoy to use the small tools because they help me create smooth shapes. Last week, I made a bird for my niece, and she put it beside her books on the bedroom shelf.",
+    "length_words": 47,
+    "gold": {
+      "errors": [
+        {
+          "original": "enjoy to use",
+          "correction": "enjoy using",
+          "type": "VERB_PATTERN",
+          "type_label": "verb pattern / gerund",
+          "explanation": "After enjoy, use the -ing form of the next verb.",
+          "acceptable_corrections": [
+            "enjoy using"
+          ]
+        }
+      ],
+      "corrected_text": "My uncle taught me how to make simple wooden toys in his workshop. I enjoy using the small tools because they help me create smooth shapes. Last week, I made a bird for my niece, and she put it beside her books on the bedroom shelf.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E024",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Explain where you usually meet a friend before going to the cinema.",
+    "student_text": "My friend and I often go to the cinema after our lessons finish. We usually wait on the entrance because it is easy to see each other there. If the weather is cold, we sit inside the cafe across the street and choose a film on my phone.",
+    "length_words": 48,
+    "gold": {
+      "errors": [
+        {
+          "original": "on the entrance",
+          "correction": "at the entrance",
+          "type": "PREPOSITION_PLACE",
+          "type_label": "preposition of place",
+          "explanation": "Use at for a meeting point such as an entrance.",
+          "acceptable_corrections": [
+            "at the entrance"
+          ]
+        }
+      ],
+      "corrected_text": "My friend and I often go to the cinema after our lessons finish. We usually wait at the entrance because it is easy to see each other there. If the weather is cold, we sit inside the cafe across the street and choose a film on my phone.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E025",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe the most interesting part of a school science fair.",
+    "student_text": "Our school science fair had projects about plants, robots, and the weather. The most simplest project used a glass jar to show how rain forms. I also enjoyed a small machine that sorted coloured blocks, although the student who made it said it sometimes stopped working.",
+    "length_words": 46,
+    "gold": {
+      "errors": [
+        {
+          "original": "The most simplest",
+          "correction": "The simplest",
+          "type": "SUPERLATIVE",
+          "type_label": "superlative adjective / double comparison",
+          "explanation": "Use simplest by itself; do not add most to an -est superlative.",
+          "acceptable_corrections": [
+            "The simplest"
+          ]
+        }
+      ],
+      "corrected_text": "Our school science fair had projects about plants, robots, and the weather. The simplest project used a glass jar to show how rain forms. I also enjoyed a small machine that sorted coloured blocks, although the student who made it said it sometimes stopped working.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E026",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about a place you have visited more than once.",
+    "student_text": "My grandparents live near a lake, and I have visited them several times this year. On my first visit, we walked through the forest and saw a deer. I have went there again this year, when my cousin joined us for a picnic by the water.",
+    "length_words": 46,
+    "gold": {
+      "errors": [
+        {
+          "original": "have went",
+          "correction": "have gone",
+          "type": "PRESENT_PERFECT",
+          "type_label": "present perfect / past participle",
+          "explanation": "Use the past participle gone after have in the present perfect.",
+          "acceptable_corrections": [
+            "have gone"
+          ]
+        }
+      ],
+      "corrected_text": "My grandparents live near a lake, and I have visited them several times this year. On my first visit, we walked through the forest and saw a deer. I have gone there again this year, when my cousin joined us for a picnic by the water.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E027",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe what two family members bring to a picnic.",
+    "student_text": "My aunt and uncle are meeting us at the botanical gardens on Sunday. She is bringing a basket of sandwiches, and he will bring his camera. They hope to take pictures of they're favourite flowers before we sit down together for lunch near the pond.",
+    "length_words": 45,
+    "gold": {
+      "errors": [
+        {
+          "original": "they're favourite flowers",
+          "correction": "their favourite flowers",
+          "type": "POSSESSIVE_DETERMINER",
+          "type_label": "possessive determiner / contraction",
+          "explanation": "Their shows ownership; they're means they are.",
+          "acceptable_corrections": [
+            "their favourite flowers"
+          ]
+        }
+      ],
+      "corrected_text": "My aunt and uncle are meeting us at the botanical gardens on Sunday. She is bringing a basket of sandwiches, and he will bring his camera. They hope to take pictures of their favourite flowers before we sit down together for lunch near the pond.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E028",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write about the food and drinks you need for a long train journey.",
+    "student_text": "For our train journey, my mother packed two bottles of water and a box of biscuits. We don't have much sandwiches, so I will buy a cheese roll at the station. There should be plenty of seats on the train, and we can eat our snacks after it leaves.",
+    "length_words": 49,
+    "gold": {
+      "errors": [
+        {
+          "original": "much sandwiches",
+          "correction": "many sandwiches",
+          "type": "MUCH_MANY",
+          "type_label": "much/many",
+          "explanation": "Use many with plural countable nouns such as sandwiches.",
+          "acceptable_corrections": [
+            "many sandwiches"
+          ]
+        }
+      ],
+      "corrected_text": "For our train journey, my mother packed two bottles of water and a box of biscuits. We don't have many sandwiches, so I will buy a cheese roll at the station. There should be plenty of seats on the train, and we can eat our snacks after it leaves.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E029",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Write a short message about plans for a school concert.",
+    "student_text": "Hi Sam, our class concert is next Thursday and I am helping with the tickets. The music teacher asked me to arrive early, so I will meet you near the hall doors at five. Please bring your programme, and we can find seats together when your parents arrive",
+    "length_words": 48,
+    "gold": {
+      "errors": [
+        {
+          "original": "your parents arrive",
+          "correction": "your parents arrive.",
+          "type": "PUNCTUATION",
+          "type_label": "punctuation / sentence boundary",
+          "explanation": "Add a full stop at the end of the message's final statement.",
+          "acceptable_corrections": [
+            "your parents arrive."
+          ]
+        }
+      ],
+      "corrected_text": "Hi Sam, our class concert is next Thursday and I am helping with the tickets. The music teacher asked me to arrive early, so I will meet you near the hall doors at five. Please bring your programme, and we can find seats together when your parents arrive.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  },
+  {
+    "id": "A2-E030",
+    "level": "A2",
+    "condition": "incorrect",
+    "task": "Describe a trip to a farm and one activity you did there.",
+    "student_text": "During the autumn holiday, my neighbors invited me visit their farm outside the village. We saw sheep in a field and helped the farmer collect apples from the trees. I was surprised by how quickly the afternoon passed, and my neighbor gave me a jar of honey to take home.",
+    "length_words": 50,
+    "gold": {
+      "errors": [
+        {
+          "original": "invited me visit",
+          "correction": "invited me to visit",
+          "type": "VERB_PATTERN",
+          "type_label": "verb pattern / infinitive",
+          "explanation": "After invite someone, use to plus the base verb to describe the activity offered.",
+          "acceptable_corrections": [
+            "invited me to visit"
+          ]
+        }
+      ],
+      "corrected_text": "During the autumn holiday, my neighbors invited me to visit their farm outside the village. We saw sheep in a field and helped the farmer collect apples from the trees. I was surprised by how quickly the afternoon passed, and my neighbor gave me a jar of honey to take home.",
+      "acceptable_alternatives": [],
+      "is_correct": false
+    }
+  }
+]

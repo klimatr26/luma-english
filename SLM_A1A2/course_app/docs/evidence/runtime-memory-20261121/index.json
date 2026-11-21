@@ -1,0 +1,195 @@
+{
+  "purpose": "COURSE_RUNTIME_MEMORY_TUNING_NOT_BENCHMARK",
+  "appVersion": "1.1.2",
+  "baseCommit": "2bb77b9",
+  "utc": "2026-11-21T08:20:51.445285+00:00",
+  "adaptivePolicy": "paired-placement-v2",
+  "modelPolicy": "balanced-course-v3",
+  "checks": {
+    "shared-tests.json": {
+      "passed": 48,
+      "total": 48
+    },
+    "core-tests.json": {
+      "passed": 38,
+      "total": 38
+    },
+    "ui-tests.json": {
+      "passed": 20,
+      "total": 20
+    },
+    "phone/selection": {
+      "passed": 3,
+      "total": 3
+    },
+    "phone/background-guard": {
+      "passed": 5,
+      "total": 5
+    },
+    "phone/gemma": {
+      "passed": 7,
+      "total": 7
+    },
+    "phone/automatic": {
+      "passed": 7,
+      "total": 7
+    }
+  },
+  "files": [
+    {
+      "path": "android-packages.json",
+      "bytes": 4980,
+      "sha256": "1f7507af1d96b75492ebd10a2b4ebcd6f957344d14ed8173d9c518f0926f666a"
+    },
+    {
+      "path": "core-tests.json",
+      "bytes": 4711,
+      "sha256": "6b59bf6f78aa3bf001d911d877e521ad13c676b06abf57c1a2aada3db3a607ce"
+    },
+    {
+      "path": "delivery.json",
+      "bytes": 1789,
+      "sha256": "e36e27568a1710f01663330382f94c4af4cb2b532e5218e02bc46c2ed0397fce"
+    },
+    {
+      "path": "phone/automatic/automatic-memory.jsonl",
+      "bytes": 9997,
+      "sha256": "f5bd9aabeda25d7126b43642ebc8af2e9165468e2a32030127341abfab6c1bb5"
+    },
+    {
+      "path": "phone/automatic/automatic.json",
+      "bytes": 13170,
+      "sha256": "ae8644012ea5ae52831000da37ea7e667d86ec89f52f53d4142022b1a331e395"
+    },
+    {
+      "path": "phone/automatic/automatic.png",
+      "bytes": 249494,
+      "sha256": "8c4dcfaf511e71b6599686469bb232fcce7fef437d011d930c15bf2e3bc43787"
+    },
+    {
+      "path": "phone/automatic/environment-before.json",
+      "bytes": 123,
+      "sha256": "9bf69ca2897e92abb911f9df62275dffb14559c1e747de027578fe52970de18a"
+    },
+    {
+      "path": "phone/automatic/environment.jsonl",
+      "bytes": 648,
+      "sha256": "b9c9dc82d873c108328ca2e3b74b83ba0383f8d724673b31864f43a8408b9a98"
+    },
+    {
+      "path": "phone/background/background-guard-memory.jsonl",
+      "bytes": 5088,
+      "sha256": "b96bfd5d22c579ae223ffaba0db46f9db2272514aa9235f8bf0a76557645f3d1"
+    },
+    {
+      "path": "phone/background/background-guard.json",
+      "bytes": 1998,
+      "sha256": "15a6f232f843ea671040eebfd4f3e14fde9aaeeeab35be0cae340f5a7bee8dbb"
+    },
+    {
+      "path": "phone/files-before-restore.txt",
+      "bytes": 148,
+      "sha256": "b074610cc4a071f08936776b36bddfb0c9cec9789eb3ebb06f112145387831b5"
+    },
+    {
+      "path": "phone/gemma/preflight-locked.json",
+      "bytes": 124,
+      "sha256": "729be7a6984ef2d3ca223e0825f671035b3ef3afebd2c03536e9d161eb8eb9f1"
+    },
+    {
+      "path": "phone/gemma-foreground/environment-before.json",
+      "bytes": 123,
+      "sha256": "d2831dad559e49cf65c8410ef5d90ce4f25aede2606d9c791b3e615e7f426efc"
+    },
+    {
+      "path": "phone/gemma-foreground/environment.jsonl",
+      "bytes": 2592,
+      "sha256": "422ebb517948f52a776e9ad0d88d208d80fd776759266a882482c981f35afb04"
+    },
+    {
+      "path": "phone/gemma-foreground/gemma-memory.jsonl",
+      "bytes": 37889,
+      "sha256": "37a22a351a3bb4883212e68dca6c9a2dc1de49d3de5bfee3466fe1e8ee32fa1b"
+    },
+    {
+      "path": "phone/gemma-foreground/gemma.json",
+      "bytes": 13198,
+      "sha256": "7d1f42888de3c26657397f80fa46b62d33a642e1d1759931323498fcd301b3d9"
+    },
+    {
+      "path": "phone/gemma-foreground/gemma.png",
+      "bytes": 251010,
+      "sha256": "9e1f93c19005d02782f31aacc21eff8e663f624396296fe699ce0770028f542f"
+    },
+    {
+      "path": "phone/normal-focus.json",
+      "bytes": 162,
+      "sha256": "8ab73684984aa560a0f38e15216d0d726bebdf6a14bc5f73b9ab61bde78e8d6d"
+    },
+    {
+      "path": "phone/normal-home.png",
+      "bytes": 254105,
+      "sha256": "d955116e6b23636b90ac88e1298ea1c0440a3b29583f6d258b1c75740ad87a41"
+    },
+    {
+      "path": "phone/normal-install.json",
+      "bytes": 303,
+      "sha256": "f4d47b8c707ac052703bc4d3da4e14fb554bb4f144480059315f4ad27352ed8a"
+    },
+    {
+      "path": "phone/normal-launch.txt",
+      "bytes": 189,
+      "sha256": "eab06f1fea00c9a2f840829f9c0b4ee807c76a38385ba721d57ea3b914b1069b"
+    },
+    {
+      "path": "phone/normal-package.json",
+      "bytes": 411,
+      "sha256": "130e1c88df0f74232de06a8841e3c138737b9eac36cbcc90302ed1f3a9162c54"
+    },
+    {
+      "path": "phone/selection/selection-memory.jsonl",
+      "bytes": 863,
+      "sha256": "b70b1e03abae28352c3a8f7a32365480648e015258aae91d8092d2a89ed490e6"
+    },
+    {
+      "path": "phone/selection/selection.json",
+      "bytes": 1421,
+      "sha256": "1fe5b2e1a43ec3ca65b9290623a063b41e9d1306cdf96a611595016b62852647"
+    },
+    {
+      "path": "shared-tests.json",
+      "bytes": 6008,
+      "sha256": "c6e577fc4db4696b244c38379d83780e2bcd8edf1ccc0b6efa39f66f112d8ef3"
+    },
+    {
+      "path": "ui-tests.json",
+      "bytes": 2618,
+      "sha256": "8c845973f0cd1315d406f1961e6d264b7c0e50c020c9cb4af0f3767f4a822a84"
+    },
+    {
+      "path": "windows-native/adaptive-profile.json",
+      "bytes": 2963,
+      "sha256": "db8d7c2e4f2b85491e1c671f3bbd7c8b14650dddf0e0f9696a6dc84b690a1513"
+    },
+    {
+      "path": "windows-native/cache-check.json",
+      "bytes": 78,
+      "sha256": "4b8a94ebb2f977e22decddb4d9e2fff4ef572c606a22f181469bcd3f7b09cda5"
+    },
+    {
+      "path": "windows-native/report.json",
+      "bytes": 3716,
+      "sha256": "1275886f0713deb374e06c4213954e05fb65282699172dfffa1506c4bbde8ebe"
+    },
+    {
+      "path": "windows-native/session-01.json",
+      "bytes": 4781,
+      "sha256": "aeb420412fb7c2a6c97885b62a9e5ebdeefdff336aa9eceea8906534d0af8ea0"
+    },
+    {
+      "path": "windows-native/session-02.json",
+      "bytes": 5763,
+      "sha256": "54882a5fbda1bb7618e343009f22e660bbefaa000483b98c28c8f23be76ab426"
+    }
+  ]
+}

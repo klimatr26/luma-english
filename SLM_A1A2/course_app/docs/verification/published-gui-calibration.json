@@ -1,0 +1,102 @@
+{
+  "Key": "a6dc37c5e2bbfb5ef7427aa7a3764b8485c81abd6c610967b53c77271cdd0a6b",
+  "ModelId": "portable-unsloth-qwen35-4b-q4-k-m",
+  "Runtime": "b12359/adaptive-v1/b287bb02a4f86b2034ad1f459b9e2c72778b833ab9ffb1dcc9a2b9b0242baa05",
+  "Driver": "[{\"device\":\"NVIDIA GeForce RTX 3070\",\"vendor\":4318,\"device_id\":9348,\"api\":4211039,\"driver_version\":2588573696,\"driver_id\":4,\"driver\":\"617.42\"}]",
+  "Context": 2048,
+  "Selected": {
+    "DeviceIndex": 0,
+    "DeviceId": "0000:0b:00.0",
+    "GpuLayers": 33,
+    "Key": "Vulkan/0000:0b:00.0/33"
+  },
+  "Reason": "Vulkan medido: 33 capas en GPU; mediana 1,9 s. CPU: 25,5 s.",
+  "Trials": [
+    {
+      "Placement": {
+        "DeviceIndex": -1,
+        "DeviceId": null,
+        "GpuLayers": 0,
+        "Key": "CPU"
+      },
+      "Samples": [
+        {
+          "Backend": "CPU",
+          "Seconds": 25.3062505,
+          "Tokens": 174,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "CPU",
+          "Seconds": 25.4631559,
+          "Tokens": 174,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "CPU",
+          "Seconds": 25.6333779,
+          "Tokens": 174,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        }
+      ],
+      "Failure": null
+    },
+    {
+      "Placement": {
+        "DeviceIndex": 0,
+        "DeviceId": "0000:0b:00.0",
+        "GpuLayers": 33,
+        "Key": "Vulkan/0000:0b:00.0/33"
+      },
+      "Samples": [
+        {
+          "Backend": "Vulkan/0000:0b:00.0/33",
+          "Seconds": 1.8836137,
+          "Tokens": 155,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "Vulkan/0000:0b:00.0/33",
+          "Seconds": 1.9369386,
+          "Tokens": 155,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        },
+        {
+          "Backend": "Vulkan/0000:0b:00.0/33",
+          "Seconds": 1.9244912,
+          "Tokens": 155,
+          "FinishReason": "stop",
+          "ParserStatus": "STRICT",
+          "Failure": null
+        }
+      ],
+      "Failure": null
+    }
+  ],
+  "DateUtc": "2026-11-20T00:41:40.4553941+00:00",
+  "Estimates": [
+    {
+      "Index": 0,
+      "Id": "0000:0b:00.0",
+      "Name": "NVIDIA GeForce RTX 3070",
+      "FreeBytes": 7601127424,
+      "TotalBytes": 8406433792,
+      "EstimatedLayers": 33,
+      "FullLayers": 33,
+      "EstimatedBytes": 3381420048,
+      "MarginBytes": 700536149,
+      "EstimateError": null,
+      "IsIntegrated": false
+    }
+  ]
+}

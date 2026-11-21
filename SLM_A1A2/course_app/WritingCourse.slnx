@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Shared runtime/">
+    <Project Path="../cross_demo/WritingApp.Shared/WritingApp.Shared.csproj" />
+    <Project Path="../cross_demo/WritingApp.Native/WritingApp.Native.csproj" />
+  </Folder>
+  <Project Path="Course.Core/Course.Core.csproj" />
+  <Project Path="Course.UI/Course.UI.csproj" />
+  <Project Path="Course.Desktop/Course.Desktop.csproj" />
+  <Project Path="Course.Tests/Course.Tests.csproj" />
+  <Project Path="Course.UiTests/Course.UiTests.csproj" />
+  <Project Path="Course.Smoke/Course.Smoke.csproj" />
+</Solution>

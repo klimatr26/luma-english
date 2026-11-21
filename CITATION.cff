@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Para citar esta entrega, use la etiqueta v1.1.2-thesis o el SHA completo del commit consultado."
+title: "Luma English: curso de inglés y evaluación de Writing con modelos locales"
+type: software
+authors:
+  - family-names: Lima
+    given-names: Kevin
+version: "1.1.2"
+date-released: 2026-11-21
+repository-code: "https://github.com/klimatr26/luma-english"
+url: "https://github.com/klimatr26/luma-english/tree/v1.1.2-thesis"

@@ -1,0 +1,387 @@
+{
+  "schema_version": "writing_local_demo.verification/1.0",
+  "date_local": "2026-10-16",
+  "verified_at_utc": "2026-10-16T15:06:50.888576+00:00",
+  "implementation": "C# Windows Forms net10.0-windows",
+  "sdk": "10.0.402",
+  "release_publish": {
+    "passed": true,
+    "warnings": 0,
+    "errors": 0,
+    "self_contained": false,
+    "exe": "SLM_A1A2/demo/publish/WritingDemo.WinForms.exe",
+    "exe_sha256": "6d7b7ff05a7d978148a8fb8ff298766f748d200472e4f2ac3d7deb24c3b2e3d1",
+    "app_dll_sha256": "295e7d248f266eaa8ee0e5c43cccd68911115c0bd82e5a6cbf597d139e3cf8a9",
+    "core_dll_sha256": "ae99c39b99ff055f989c4d136d9440512e7ca255fb1dacd0c00e16a89b916b87"
+  },
+  "tests": {
+    "feedback_and_exercises": "PASS; strict types, duplicates, recovery, contradictions, 9-string deterministic round-trip matrix",
+    "asset_tests": "PASS; 4 groups including missing model directory, file verification and mocked streaming transfers",
+    "runtime_tests": {
+      "passed": 7,
+      "failed": 0,
+      "real_model_inference": false
+    },
+    "qwen_helper_unittest": {
+      "passed": 8,
+      "failed": 0,
+      "real_weight_download_or_conversion": false
+    }
+  },
+  "catalog": {
+    "families": 5,
+    "variants": 13,
+    "all_present_with_expected_sizes": true,
+    "models_loaded_with_sha256_verification": [
+      "11-qwen35-4b-q4-k-m",
+      "06-minicpm5-2b-q4-k-m",
+      "13-gemma4-e2b-ud-q4-k-xl",
+      "09-lfm25-12b-q4-k-m",
+      "16-lfm25-26b-q4-k-m"
+    ],
+    "other_variants_newly_generated": false
+  },
+  "demonstration_inferences": {
+    "total": 13,
+    "headless_smoke": 10,
+    "gui": 3,
+    "benchmark_inferences": 0,
+    "thinking": "disabled; no nonempty reasoning returned",
+    "smoke_summary": [
+      {
+        "model": "11-qwen35-4b-q4-k-m",
+        "input_kind": "demo_example_correct",
+        "parser_status": "STRICT",
+        "model_is_correct": true,
+        "seconds": 0.6068771,
+        "finish_reason": "stop"
+      },
+      {
+        "model": "11-qwen35-4b-q4-k-m",
+        "input_kind": "demo_example_incorrect",
+        "parser_status": "STRICT",
+        "model_is_correct": false,
+        "seconds": 1.6176157,
+        "finish_reason": "stop"
+      },
+      {
+        "model": "06-minicpm5-2b-q4-k-m",
+        "input_kind": "demo_example_correct",
+        "parser_status": "STRICT",
+        "model_is_correct": true,
+        "seconds": 0.3757934,
+        "finish_reason": "stop"
+      },
+      {
+        "model": "06-minicpm5-2b-q4-k-m",
+        "input_kind": "demo_example_incorrect",
+        "parser_status": "STRICT",
+        "model_is_correct": false,
+        "seconds": 0.6200049,
+        "finish_reason": "stop"
+      },
+      {
+        "model": "13-gemma4-e2b-ud-q4-k-xl",
+        "input_kind": "demo_example_correct",
+        "parser_status": "RECOVERED",
+        "model_is_correct": true,
+        "seconds": 0.5058053,
+        "finish_reason": "stop"
+      },
+      {
+        "model": "13-gemma4-e2b-ud-q4-k-xl",
+        "input_kind": "demo_example_incorrect",
+        "parser_status": "RECOVERED",
+        "model_is_correct": false,
+        "seconds": 0.8931015,
+        "finish_reason": "stop"
+      },
+      {
+        "model": "09-lfm25-12b-q4-k-m",
+        "input_kind": "demo_example_correct",
+        "parser_status": "INCONSISTENT",
+        "model_is_correct": true,
+        "seconds": 0.2186245,
+        "finish_reason": "stop"
+      },
+      {
+        "model": "09-lfm25-12b-q4-k-m",
+        "input_kind": "demo_example_incorrect",
+        "parser_status": "INCONSISTENT",
+        "model_is_correct": true,
+        "seconds": 0.1853537,
+        "finish_reason": "stop"
+      },
+      {
+        "model": "16-lfm25-26b-q4-k-m",
+        "input_kind": "demo_example_correct",
+        "parser_status": "RECOVERED",
+        "model_is_correct": false,
+        "seconds": 1.3640711,
+        "finish_reason": "stop"
+      },
+      {
+        "model": "16-lfm25-26b-q4-k-m",
+        "input_kind": "demo_example_incorrect",
+        "parser_status": "RECOVERED",
+        "model_is_correct": false,
+        "seconds": 1.6789603,
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "ui_verification": {
+    "performed_with": "computer-use skill @oai/sky",
+    "real_generation_correct_tick": true,
+    "real_generation_incorrect_cross_feedback_edits": true,
+    "changing_example_clears_results": true,
+    "raw_json_tab": true,
+    "close_during_model_verification": true,
+    "own_server_cleanup_observed": true,
+    "save_session_dialog": "NOT_MANUALLY_EXERCISED; automatic session files parsed successfully",
+    "last_visual_change": "Windows line-ending adaptation only; Release build passed after final visual capture",
+    "screenshots": [
+      {
+        "path": "SLM_A1A2/demo/preview_20261016.jpg",
+        "sha256": "c3f759f679a518a5356f36c167335cf4e44fd8d559de802c8d846b33dac74055"
+      },
+      {
+        "path": "SLM_A1A2/demo/json_preview_20261016.jpg",
+        "sha256": "23aa477a3fdf96daf98b296f90fc4a6e9bc3971f071fc0cae898fa59cdbab9c4"
+      }
+    ]
+  },
+  "preservation": {
+    "phase1_artifacts_unchanged": 24,
+    "original_git_files_byte_identical": 93,
+    "bound_v2_source_hashes_unchanged": 164,
+    "bound_v2_derived_hashes_unchanged": 76,
+    "human_review_records_created": 0,
+    "final_test_access": false,
+    "remote_configured": false
+  },
+  "source_hashes": [
+    {
+      "path": "SLM_A1A2/demo/Compilar_y_abrir.ps1",
+      "sha256": "5281340dea6ed8f4cc4f53ac6f7322a6e820863e8f84027b388ad0ff91dfad44"
+    },
+    {
+      "path": "SLM_A1A2/demo/global.json",
+      "sha256": "62f6485faa18a65822615e81a01e2ba5c19281cd78b59da642d416603f6b3b52"
+    },
+    {
+      "path": "SLM_A1A2/demo/model_sources.json",
+      "sha256": "1edf6b60976beb920711a8fb11424b5f2828683450da372202d16c439d9606b0"
+    },
+    {
+      "path": "SLM_A1A2/demo/README.md",
+      "sha256": "f7b71ca4c3c6a710adfc10549246286213eb22145baa3658240b516bcdd28c57"
+    },
+    {
+      "path": "SLM_A1A2/demo/scripts/prepare_qwen_demo.py",
+      "sha256": "0ecb5d98c0a3b8833028f76e0e7b585bd1646bf2c4664dc4137c7fe90c754f64"
+    },
+    {
+      "path": "SLM_A1A2/demo/scripts/test_prepare_qwen_demo.py",
+      "sha256": "c79457d58d5ebd2645dacbfc63332674d386875dde6d14e23b1f1e876261403c"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.AssetTests/Program.cs",
+      "sha256": "dec9abefb6184dbce6fffd4c840b4483aaf2ce98b879d26c919d94c1f515a5b1"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.AssetTests/WritingDemo.AssetTests.csproj",
+      "sha256": "ceae9ec7f863d19b1d9a85b028aa4900fa33fc3400757249253ff7fd81e9f575"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.Core/Contracts.cs",
+      "sha256": "d13e77aaba857427e6b28e02ebeca4205f38e463d11fe58bad772194bd1e9dbf"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.Core/ExerciseCatalog.cs",
+      "sha256": "513f39b6830d37a99ce264e5927981d140bede2c5cae7a2e70ffac7c390c6564"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.Core/FeedbackParser.cs",
+      "sha256": "aab637a75c37805e405246d62676ace242a730fc78e528336ad90d4819417634"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.Core/LlamaRuntime.cs",
+      "sha256": "cbc9eceaee6e8ac177572a0070f49c3b49d6b932df5b05070485ca3407e40b76"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.Core/ModelAssets.cs",
+      "sha256": "9a13d777016f6e2306d093e027fd7f89e3f014b37ebe538ca33b042dc6edc5c4"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.Core/WritingDemo.Core.csproj",
+      "sha256": "32d8bca01eca74ff14fc01efd84cd620d38f1ff6e27e262159fce7c698bf54a7"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.FeedbackTests/Program.cs",
+      "sha256": "daefa21f6a5bfa721d7acaf8d595f052f2f06a0e74e32c5a834b1bdf69fca02d"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.FeedbackTests/WritingDemo.FeedbackTests.csproj",
+      "sha256": "3ca6e807f1085b4fe10138bb61bc17252e4584b702f28801941f07d0747457b8"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.RuntimeTests/Program.cs",
+      "sha256": "4f784d9155b8ca8cf2c57b0c9e2badfbe8dc37be0d4b81268b4984ac1ac5e635"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.RuntimeTests/WritingDemo.RuntimeTests.csproj",
+      "sha256": "3ca6e807f1085b4fe10138bb61bc17252e4584b702f28801941f07d0747457b8"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.Smoke/Program.cs",
+      "sha256": "7a87f78989f3c070c5a5e90471e09517182aba0d3b906405bb9bea18d3893ac7"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.Smoke/WritingDemo.Smoke.csproj",
+      "sha256": "b39b21150f445409f73e3aa39a2ac981a747fdf41c178fb10d82e7459fd425a6"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.WinForms/MainForm.cs",
+      "sha256": "cc82719c4393370a62129be151ad076a2c1669ccfb6abac4787ae5031b3dc194"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.WinForms/Program.cs",
+      "sha256": "8a34b2e1ef888c1ac10d8caba3091466ace36d4f1dd413d19ab64842717abe16"
+    },
+    {
+      "path": "SLM_A1A2/demo/WritingDemo.WinForms/WritingDemo.WinForms.csproj",
+      "sha256": "77625932e002ca7dfbfcf6c441f68cf6132e2ae3627e4e3b307bca84b4fc028d"
+    }
+  ],
+  "local_evidence_hashes": [
+    {
+      "path": "SLM_A1A2/logs/writing_demo/smoke_current.json",
+      "sha256": "b1ed1d6118ad6ad3792b8eded3bfedb1d9811ad7b96d8b18262c2ea78fc6449d"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/session_20261016_150100_588_5c195e1a132a43409a0f727255cc632c.json",
+      "sha256": "1a694c5c484fa441c1a4f494906c8b1cf96c1aaff8d6249f2f954ad8f1534931"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/session_20261016_150142_927_a5579d6098b7470b9cf6caf29595d95f.json",
+      "sha256": "a3ea24a641a48a8cbb89d373479291a9338d2e6ecb8180fe89ae865fb4947ece"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/session_20261016_150458_729_2e104891047d492fa9278446b7a5abdf.json",
+      "sha256": "194ee95ad13b73a1ee6f1b9e1636cf02d6887c88be56c5064949977837d673c4"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145249530Z-0001.request.json",
+      "sha256": "a167602dc55efe812582310f075357323999b777f846da33250b4563d4ce50c8"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145251191Z-0002.request.json",
+      "sha256": "21e257bfa81313812cd8fe7476c0976c9c0a06690951062874cf54c35376eecf"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145303874Z-0003.request.json",
+      "sha256": "71e6e4602e087f0c40fc3458e1a99e908349587814ad5a05b369899eb1c728cb"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145304496Z-0004.request.json",
+      "sha256": "7cd46f6d85a3da69d500223009a32ff50f0ba1d1ffa70f37a03275c1ceedbd11"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145404562Z-0005.request.json",
+      "sha256": "97241a7562a24c1a4622124a59441f9d3476115a5319f41ad44a9c0c5944d941"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145405464Z-0006.request.json",
+      "sha256": "9e8b9c78b972d8bf4bbbea9231f3ddc39aaa54afd865928729b4321b481c5910"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145417863Z-0007.request.json",
+      "sha256": "2718cf5302c81eced8d8fd825095da8ab97954e50f9d6c4acc63ed229f8a3705"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145418055Z-0008.request.json",
+      "sha256": "bb8513e546dd4367cd79588c8ed9d9050e2136f7fbbe14da4fb929618a1e1bfc"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145456646Z-0009.request.json",
+      "sha256": "0c40279caceac5303eb951ed087adeed68cd7543e28b3d492779c3a2ea1bcff1"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145458333Z-0010.request.json",
+      "sha256": "01ce831cd116d2e4ec051ea6efd4669ef72d44380ab6dd8b4c592a8777a38a65"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T150100577Z-0001.request.json",
+      "sha256": "a167602dc55efe812582310f075357323999b777f846da33250b4563d4ce50c8"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T150142906Z-0002.request.json",
+      "sha256": "21e257bfa81313812cd8fe7476c0976c9c0a06690951062874cf54c35376eecf"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T150458714Z-0001.request.json",
+      "sha256": "21e257bfa81313812cd8fe7476c0976c9c0a06690951062874cf54c35376eecf"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145249530Z-0001.response.json",
+      "sha256": "db81e608aad2dfa7cff26d495733755dc34d715a39326414b5d899cd3f2ab045"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145251191Z-0002.response.json",
+      "sha256": "fc09a8b6fd1df9334b770be8614fd46e208a60c24c317a28f99a255a2e5ea659"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145303874Z-0003.response.json",
+      "sha256": "837a09a6b07ce7237f3e4858e87233a1439f7b6d0a4e4c54c7711dc005d97975"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145304496Z-0004.response.json",
+      "sha256": "a29a6ac0b5fba01e8808e3913a9488c345f05cb4a90754231960b5e792169a06"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145404562Z-0005.response.json",
+      "sha256": "07bf11797f506f306c84afd77163bc21e98e44a21f4ce5156fdfa538bd3914b0"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145405464Z-0006.response.json",
+      "sha256": "e06fce51ef95506fb44b36cb95401e4df47bf8c61b0ca71b94ade48b3c9671ec"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145417863Z-0007.response.json",
+      "sha256": "abdfb7e4146da964c949903c1ffd84b595dddea19472e2f9b37aacc298fff331"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145418055Z-0008.response.json",
+      "sha256": "456cef63414b82c7c6bbec9e15443d91c062154c23278bca70c014e26f076f69"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145456646Z-0009.response.json",
+      "sha256": "4145c9eebfa31b8db8e0ed4afc99d511fb94ad520c39a28c4f439254a08a5a02"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T145458333Z-0010.response.json",
+      "sha256": "419c4cd4c282559c15554b5a2ae2acf9ba0b169d8a67bac673f76c6d61f04dbe"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T150100577Z-0001.response.json",
+      "sha256": "60592dcfc38bffe0b3c50702576a8ae965aadaf233c70293008b2951d6a8609b"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T150142906Z-0002.response.json",
+      "sha256": "1bd8054e953aaa356f83e94f1355143de30e3d9aff0ba2dab1524d8b10c96e75"
+    },
+    {
+      "path": "SLM_A1A2/logs/writing_demo/generation-20261016T150458714Z-0001.response.json",
+      "sha256": "65b44e6122fa26f266c770929ff5238f9083683a2406c59be04da80f8d372d7d"
+    }
+  ],
+  "limits": [
+    "Demonstration examples do not estimate linguistic accuracy or replace development/final evaluation.",
+    "LFM2.6 falsely rejected the correct example; valid schema does not imply valid linguistic judgment.",
+    "Full remote multi-GB restoration and Qwen reconversion were tested with synthetic fixtures, not executed on existing weights.",
+    "UI SaveFileDialog export not manually exercised; automatic session logging verified.",
+    "Remaining quantizations are offered from the verified manifest; this delivery generated only Q4 examples.",
+    "The researcher has not yet performed the pending manual review."
+  ]
+}

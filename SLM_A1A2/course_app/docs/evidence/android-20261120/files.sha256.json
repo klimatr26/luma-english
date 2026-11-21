@@ -1,0 +1,87 @@
+[
+  {
+    "path": "core-tests.json",
+    "bytes": 3498,
+    "sha256": "857111cab46bb6ac0e30b5c42c736fd7add0df8cb069800d0279553066b5e9d3"
+  },
+  {
+    "path": "delivery.json",
+    "bytes": 1746,
+    "sha256": "51992b176c6991e7d6f9007b47c8ddecc2ef9c63eb22895e150c0b0dfbe0d76e"
+  },
+  {
+    "path": "exports-summary.json",
+    "bytes": 323,
+    "sha256": "7600b10e96fb3ae243afcf43efc7127b12d5ca773abb068a3730b06179c0f26d"
+  },
+  {
+    "path": "full-before-keyboard-fix.json",
+    "bytes": 7450,
+    "sha256": "a0e686660b115f42be4cc4991bcec4e3d64246d3ab8dbf9d32fc285ac0076cf8"
+  },
+  {
+    "path": "full.json",
+    "bytes": 7451,
+    "sha256": "b858f1808a1d306522256f424da5353af932fadd35c9497840eaf0d195bdc846"
+  },
+  {
+    "path": "home-portrait.png",
+    "bytes": 250622,
+    "sha256": "e20aca7063844d37664e973fde0c353575d48bd4004486b674e8389e0e94884d"
+  },
+  {
+    "path": "keyboard-closed.png",
+    "bytes": 162143,
+    "sha256": "360f388d2d726a8f6fbda1c882c5808da18f0d41707f9c771defd2eb38590d89"
+  },
+  {
+    "path": "keyboard-open.png",
+    "bytes": 196537,
+    "sha256": "c63032cc89142b3eae4e6ff55e939e251123fd0297ea0b39a4c93871b34a213b"
+  },
+  {
+    "path": "packages.json",
+    "bytes": 4980,
+    "sha256": "16f220e81957713ca2422f2031e46572046f570dc42642e54877f7c682082942"
+  },
+  {
+    "path": "protected-assets.json",
+    "bytes": 208,
+    "sha256": "145c13db946f65ebbdad66c8a69f48a08b68e9e127de6065562de595a97d158f"
+  },
+  {
+    "path": "release-final.png",
+    "bytes": 250456,
+    "sha256": "13f37287f47dd2932dff5b9e24c7c89a70b209c0b03edc530e018c1eff47013f"
+  },
+  {
+    "path": "release-models.png",
+    "bytes": 232770,
+    "sha256": "9a1c61183da6f7972addb6a0cbe23674cbecbcba9a76abb4af76e10944112beb"
+  },
+  {
+    "path": "resume-after-release.json",
+    "bytes": 1263,
+    "sha256": "acef6fbb0b4739c50c2c345351bec4261e570d3660396b814caa6b92b03a6d97"
+  },
+  {
+    "path": "shared-tests.json",
+    "bytes": 2940,
+    "sha256": "d4f1f2b5604ef8b20c1272cedcf867c5a231bea34514ab41c5272aa1fe8263d2"
+  },
+  {
+    "path": "ui-tests.json",
+    "bytes": 2000,
+    "sha256": "566f499543eee45e52c5a26d1e6801c7a2bab6195d0537af3bf399efd1c482c3"
+  },
+  {
+    "path": "writing-landscape.png",
+    "bytes": 148290,
+    "sha256": "eb6ac09fc13f908248bc23366324ce9b70c5af6af0e41bc4a46378015f22b2f0"
+  },
+  {
+    "path": "writing-result-restored.png",
+    "bytes": 217761,
+    "sha256": "6bcf9cdeb907fe428ca687189829932c961fd1e430cd39c1a6eb6bb8bac66a27"
+  }
+]

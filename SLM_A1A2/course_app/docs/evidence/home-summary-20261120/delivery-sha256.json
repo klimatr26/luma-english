@@ -1,0 +1,17 @@
+[
+  {
+    "file": "LumaEnglish-Windows-x64-1.1.1.zip",
+    "bytes": 97132627,
+    "sha256": "7945ee431008f58e661948971d9b035f0ad4a3a52b67039bbb060b6f378a0d32"
+  },
+  {
+    "file": "LumaEnglish-Android-android-arm64-1.1.1.apk",
+    "bytes": 104994554,
+    "sha256": "61cdf85d00a72f0eebbc140f05bdfeb29afb856b092c8034c3e171022c48e8ae"
+  },
+  {
+    "file": "LumaEnglish-Android-android-x64-1.1.1.apk",
+    "bytes": 84483235,
+    "sha256": "ef523f86ed6063e0379e922a75f7032f5adade30d44b6f60c77c0ec0de72a856"
+  }
+]

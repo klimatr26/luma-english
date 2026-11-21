@@ -1,0 +1,191 @@
+{
+  "benchmark_id": "writing_a1_a2_development_120_v1",
+  "benchmark_sha256": "07308427c02adcc056a8964d3e4da41615db4b7fc0101870e277097de46d59f9",
+  "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "started_utc": "2026-10-11T17:16:40.974573+00:00",
+  "completed_utc": "2026-10-11T18:24:11.615788+00:00",
+  "planned_rows": 1920,
+  "full_matrix_rows": 1920,
+  "rate_limited_stop": false,
+  "retry_failed_flag": false,
+  "per_config": [
+    {
+      "config_id": "01-qwen35-2b-f16",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "02-qwen35-2b-q8-0",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "03-qwen35-2b-q4-k-m",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "04-minicpm5-2b-f16",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "05-minicpm5-2b-q8-0",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "06-minicpm5-2b-q4-k-m",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "07-lfm25-12b-bf16",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "08-lfm25-12b-q8-0",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "09-lfm25-12b-q4-k-m",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "10-qwen35-4b-q8-0",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "11-qwen35-4b-q4-k-m",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "12-gemma4-e2b-qat-q4-0",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "14-gemma4-e2b-ud-q2-k-xl",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "15-lfm25-26b-q8-0",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    },
+    {
+      "config_id": "16-lfm25-26b-q4-k-m",
+      "completed": 120,
+      "skipped": 0,
+      "failed": 0,
+      "retried": 0,
+      "rate_limited": false,
+      "outcomes": {
+        "ok": 120
+      }
+    }
+  ],
+  "completed_rows": 1920,
+  "note": "Transport records only: exact bodies, HTTP/error, usage, finish_reason, latency, server peak RSS + device GPU. No gold, no student text, no scores in this summary. Manual retries append exact RAW attempts and traceable parsed rows. Evaluators select by highest final attempt only after validating the retry chain against RAW."
+}

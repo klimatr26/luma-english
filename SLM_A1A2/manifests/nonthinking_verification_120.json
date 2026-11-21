@@ -1,0 +1,137 @@
+{
+  "scope": "Offline synthetic template renders and pinned source review; no inference",
+  "configs": [
+    {
+      "config_id": "01-qwen35-2b-f16",
+      "native_template_sha256": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+      "native_toggle_supported": true,
+      "thinking_off_render": "<|im_start|>user\nSynthetic technical input.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "thinking_on_render_sha256": "e95eedf6314cb7ccff3a2a8cb7f0d8729c8fc670c74dfbe10cfd084004a9ab01",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "02-qwen35-2b-q8-0",
+      "native_template_sha256": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+      "native_toggle_supported": true,
+      "thinking_off_render": "<|im_start|>user\nSynthetic technical input.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "thinking_on_render_sha256": "e95eedf6314cb7ccff3a2a8cb7f0d8729c8fc670c74dfbe10cfd084004a9ab01",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "03-qwen35-2b-q4-k-m",
+      "native_template_sha256": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+      "native_toggle_supported": true,
+      "thinking_off_render": "<|im_start|>user\nSynthetic technical input.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "thinking_on_render_sha256": "e95eedf6314cb7ccff3a2a8cb7f0d8729c8fc670c74dfbe10cfd084004a9ab01",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "04-minicpm5-2b-f16",
+      "native_template_sha256": "cc945752db555d60949b16989df4ccfeb52a313d6b4b5c5229dd786e2e9fcf1c",
+      "native_toggle_supported": true,
+      "thinking_off_render": "<bos><|im_start|>user\nSynthetic technical input.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "thinking_on_render_sha256": "519b39b0e44463ad74071719a42e8ce8c4a2076ccf58031c7145485ae7de9a46",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "05-minicpm5-2b-q8-0",
+      "native_template_sha256": "cc945752db555d60949b16989df4ccfeb52a313d6b4b5c5229dd786e2e9fcf1c",
+      "native_toggle_supported": true,
+      "thinking_off_render": "<bos><|im_start|>user\nSynthetic technical input.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "thinking_on_render_sha256": "519b39b0e44463ad74071719a42e8ce8c4a2076ccf58031c7145485ae7de9a46",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "06-minicpm5-2b-q4-k-m",
+      "native_template_sha256": "cc945752db555d60949b16989df4ccfeb52a313d6b4b5c5229dd786e2e9fcf1c",
+      "native_toggle_supported": true,
+      "thinking_off_render": "<bos><|im_start|>user\nSynthetic technical input.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "thinking_on_render_sha256": "519b39b0e44463ad74071719a42e8ce8c4a2076ccf58031c7145485ae7de9a46",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "07-lfm25-12b-bf16",
+      "native_template_sha256": "f05bf4b967dc993bdc7a2fe6e43759ee218eb0eb340d68b063e1c4f8ad148176",
+      "native_toggle_supported": false,
+      "control": "plain_instruct_prefix_no_native_toggle; zero_budget_if_parser_exposes_thinking_tags",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "08-lfm25-12b-q8-0",
+      "native_template_sha256": "f05bf4b967dc993bdc7a2fe6e43759ee218eb0eb340d68b063e1c4f8ad148176",
+      "native_toggle_supported": false,
+      "control": "plain_instruct_prefix_no_native_toggle; zero_budget_if_parser_exposes_thinking_tags",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "09-lfm25-12b-q4-k-m",
+      "native_template_sha256": "f05bf4b967dc993bdc7a2fe6e43759ee218eb0eb340d68b063e1c4f8ad148176",
+      "native_toggle_supported": false,
+      "control": "plain_instruct_prefix_no_native_toggle; zero_budget_if_parser_exposes_thinking_tags",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "10-qwen35-4b-q8-0",
+      "native_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "native_toggle_supported": true,
+      "thinking_off_render": "<|im_start|>user\nSynthetic technical input.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "thinking_on_render_sha256": "e95eedf6314cb7ccff3a2a8cb7f0d8729c8fc670c74dfbe10cfd084004a9ab01",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "11-qwen35-4b-q4-k-m",
+      "native_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "native_toggle_supported": true,
+      "thinking_off_render": "<|im_start|>user\nSynthetic technical input.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "thinking_on_render_sha256": "e95eedf6314cb7ccff3a2a8cb7f0d8729c8fc670c74dfbe10cfd084004a9ab01",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "12-gemma4-e2b-qat-q4-0",
+      "native_template_sha256": "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5",
+      "native_toggle_supported": true,
+      "thinking_off_render": "<bos><|turn>user\nSynthetic technical input.<turn|>\n<|turn>model\n",
+      "thinking_on_render_sha256": "dc5ad13c49eee345f7b724a9a9d45aee7d13163b77aa090ba3dc59f5b617ee10",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+      "native_template_sha256": "241c50d86bdfe5e43307da87f559cd2416aacd67a8de46c15acc0105ef2200b7",
+      "native_toggle_supported": true,
+      "thinking_off_render": "<bos><|turn>user\nSynthetic technical input.<turn|>\n<|turn>model\n",
+      "thinking_on_render_sha256": "dc5ad13c49eee345f7b724a9a9d45aee7d13163b77aa090ba3dc59f5b617ee10",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "14-gemma4-e2b-ud-q2-k-xl",
+      "native_template_sha256": "241c50d86bdfe5e43307da87f559cd2416aacd67a8de46c15acc0105ef2200b7",
+      "native_toggle_supported": true,
+      "thinking_off_render": "<bos><|turn>user\nSynthetic technical input.<turn|>\n<|turn>model\n",
+      "thinking_on_render_sha256": "dc5ad13c49eee345f7b724a9a9d45aee7d13163b77aa090ba3dc59f5b617ee10",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "15-lfm25-26b-q8-0",
+      "native_template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "native_toggle_supported": false,
+      "control": "unconditional_native_think_prefix; zero_budget_forces_immediate_end_tag",
+      "runtime_generation_not_tested": true
+    },
+    {
+      "config_id": "16-lfm25-26b-q4-k-m",
+      "native_template_sha256": "ea663864491de7ade391839479860ca95541f892f72665c73251fbd4643b1bef",
+      "native_toggle_supported": false,
+      "control": "unconditional_native_think_prefix; zero_budget_forces_immediate_end_tag",
+      "runtime_generation_not_tested": true
+    }
+  ],
+  "toggle_configs_tested": 11,
+  "zero_budget_cli": "--reasoning-budget 0",
+  "runtime_revalidation_pending": true,
+  "lfm26_note": "Native prefix opens think unconditionally; b11457 budget sampler consumes that prefix and forces the closing tag immediately when budget=0. Source evidence, not an observed generation.",
+  "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "snapshot_status": "HISTORICAL_OFFLINE_REVIEW_BEFORE_RUNTIME",
+  "current_runtime_followup": "manifests/nonthinking_runtime_verification_120.json",
+  "current_runtime_status": "READY_16_OF_16_CURRENT_MANIFEST",
+  "historical_pending_fields_note": "runtime_generation_not_tested and runtime_revalidation_pending describe the offline snapshot, before the separately recorded authorized runtime run."
+}

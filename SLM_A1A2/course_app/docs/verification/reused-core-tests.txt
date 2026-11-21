@@ -1,0 +1,40 @@
+PASS portable catalog preserves separate local and downloadable identities
+PASS measured backend requires usable output and a material speedup
+PASS memory recommendation is conservative and permits an explicit override
+PASS model cache rejects traversal and absolute Windows paths
+PASS download verifies SHA and reuses the cache without a second request
+PASS hash mismatch removes only the partial and never publishes it
+PASS existing wrong file is preserved and never replaced
+PASS valid external copy is usable despite corrupt private cache
+PASS verified explicit import archives corrupt cache without deleting it
+PASS cancelled import removes its own partial
+PASS HTTP 429 does not retry
+PASS first usable JSON stops without quality-driven retries
+PASS unusable format retries with traced seeds and preserved attempts
+PASS all unusable attempts finish visibly at the fixed limit
+PASS technical generation failure never retries
+PASS source-generated session serialization works with reflection disabled
+PASS HTTP transfer and stream reads leave the calling synchronization context
+PASS interrupted HTTP download resumes exact bytes with a validated 206 range
+PASS server ignoring Range restarts safely without appending a full response
+PASS mismatched Content-Range is rejected without destroying the resumable prefix
+PASS UI monitor cancellation leaves the system job and reattaches without a duplicate
+PASS explicit cancel removes only the recorded system job
+PASS system completion still requires full pinned SHA verification
+PASS a failed system job is not retried in the monitoring loop
+PASS verified private cache cleans a system ticket left by death after publication
+PASS completed system job is made durable without a local ticket or a new download
+PASS interrupted publication keeps the completed system job available
+PASS partial GPU candidate remains eligible below 4 GiB
+PASS CPU wins when integrated GPU is slower; usable partial GPU can win
+PASS device-lost load recovers in a fresh worker with fewer layers
+PASS cached placement avoids generating calibration answers again
+PASS lower memory invalidates an oversized cached placement
+PASS more memory recalibrates a substantially restricted placement
+PASS bounded recovery still considers a second GPU
+PASS corrupt local profile is replaced by a traced new calibration
+PASS changing power mode during calibration does not persist a mixed profile
+PASS technical CPU fallback expires instead of permanently excluding GPU
+PASS cancellation frees a candidate and saves no completed profile
+PASS Vulkan generation failure invalidates profile without retrying the answer
+39/39 checks passed.

@@ -1,0 +1,56 @@
+{
+  "llama_build": "b11457",
+  "llama_commit": "5ad1c5da0ad7f6176256b823925aad19134f0263",
+  "converter": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\tools\\llama.cpp\\llama.cpp-5ad1c5da0ad7f6176256b823925aad19134f0263\\convert_hf_to_gguf.py",
+  "converter_sha256": "e9a1da876330bbce9687541ab31736542a01b4ac43c6686126514a50f122fb7f",
+  "recipe": "convert_hf_to_gguf.py --outtype f16 --no-nextn (text-only default); llama-quantize.exe F16 Q8_0/Q4_K_M; retain 4B F16 as untested intermediate",
+  "sources": {
+    "2B": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "4B": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
+  },
+  "date_utc": "2026-10-07T04:36:52.3498259Z",
+  "outputs": [
+    {
+      "model": "Qwen3.5-2B",
+      "quant": "Q8_0",
+      "file": "D:\\SLM_A1A2_models\\qwen_converted\\Qwen3.5-2B-Q8_0.gguf",
+      "bytes": 2012012512,
+      "sha256": "8e427498466b5c62a4b2e92f766870b0fb4139aad11a4e95c11f640ac73a6a3c"
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "quant": "Q4_K_M",
+      "file": "D:\\SLM_A1A2_models\\qwen_converted\\Qwen3.5-2B-Q4_K_M.gguf",
+      "bytes": 1274396640,
+      "sha256": "d35f2ca8bac2a3d9a553ff60da887983d1e4f5ed0d998e223bb3b01fa2020f0e"
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "quant": "F16",
+      "file": "D:\\SLM_A1A2_models\\qwen_converted\\Qwen3.5-2B-F16.gguf",
+      "bytes": 3775709152,
+      "sha256": "234d79103853d0cc3cb5b2e2d031d2132319f6dfc96067325955d4a2a433e8e0"
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "quant": "Q8_0",
+      "file": "D:\\SLM_A1A2_models\\qwen_converted\\Qwen3.5-4B-Q8_0.gguf",
+      "bytes": 4482403200,
+      "sha256": "9ae518774a41dd82bc7a37322746ecc5bb2bff381db26eaa07941240f292e3cb"
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "quant": "Q4_K_M",
+      "file": "D:\\SLM_A1A2_models\\qwen_converted\\Qwen3.5-4B-Q4_K_M.gguf",
+      "bytes": 2708804480,
+      "sha256": "2438d070b090e52606c5f35b538aea92653bd3439046452ddfb736748b63e313"
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "quant": "F16",
+      "file": "D:\\SLM_A1A2_models\\qwen_converted\\Qwen3.5-4B-F16.gguf",
+      "bytes": 8424393600,
+      "sha256": "882b84f11c014070632e4001fa80b2fc1f7e7695e0573e9194fa5ebfbf9e31ed"
+    }
+  ]
+}

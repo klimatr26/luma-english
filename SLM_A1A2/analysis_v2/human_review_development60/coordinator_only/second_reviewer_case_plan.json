@@ -1,0 +1,26 @@
+{
+  "case_ids": [
+    "A1-C001",
+    "A1-C003",
+    "A1-C004",
+    "A1-C005",
+    "A1-C015",
+    "A1-E033",
+    "A1-E038",
+    "A2-C004",
+    "A2-C006",
+    "A2-C013",
+    "A2-E012",
+    "A2-E017",
+    "A2-E029",
+    "A2-E034",
+    "A2-E044"
+  ],
+  "seed": 20261012,
+  "config_ids": [
+    "06-minicpm5-2b-q4-k-m",
+    "11-qwen35-4b-q4-k-m",
+    "13-gemma4-e2b-ud-q4-k-xl"
+  ],
+  "notes": "Optional second reviewer; no identity or human judgment assigned."
+}

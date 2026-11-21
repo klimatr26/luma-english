@@ -1,0 +1,15 @@
+{
+  "scope": "phase1_40_current_16",
+  "started_utc": "2026-10-11T18:25:00.219416+00:00",
+  "planned_rows": 640,
+  "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+  "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "expansion_authorization_sha256": "fbf12e175fc14208f4514af126e5755bb58b514490e271b8dcb080137c4e7bbc",
+  "runner_sha256": "08bab222fa0787801bedc0dcac4425dc72792cb62e1afd68f4eeb25efa316805",
+  "shared_runner_sha256": "a0d3804f1f3e08f81b1518d4806a0e20295e417576fda8cb324e95eb4834a347",
+  "completed_development_rows": 1920,
+  "superseded_lfm_only80_not_executed": true,
+  "old40_artifacts_modified": false,
+  "sampling_changed": false,
+  "final_test_access": false
+}

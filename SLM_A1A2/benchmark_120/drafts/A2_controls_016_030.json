@@ -1,0 +1,167 @@
+[
+  {
+    "id": "A2-C016",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Write about a practical skill you are learning.",
+    "student_text": "I am learning to repair bicycles at a club near my flat. The instructor shows us how each tool works before we use it. I can already fix a loose chain, but I still need help with the brakes. Next month, I hope to repair my neighbour's old bike by myself.",
+    "corrected_text": "I am learning to repair bicycles at a club near my flat. The instructor shows us how each tool works before we use it. I can already fix a loose chain, but I still need help with the brakes. Next month, I hope to repair my neighbour's old bike by myself.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 51
+  },
+  {
+    "id": "A2-C017",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Describe how someone in your family spends a quiet evening.",
+    "student_text": "My grandfather rarely watches television in the evening. He usually sits by the window and does a crossword puzzle instead. Sometimes I join him after dinner, although I do not know many of the answers. He never gets annoyed when I ask for a clue, and we often laugh at the difficult questions.",
+    "corrected_text": "My grandfather rarely watches television in the evening. He usually sits by the window and does a crossword puzzle instead. Sometimes I join him after dinner, although I do not know many of the answers. He never gets annoyed when I ask for a clue, and we often laugh at the difficult questions.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 53
+  },
+  {
+    "id": "A2-C018",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Write about a game you enjoy playing with other people.",
+    "student_text": "On Thursday evenings, my neighbours and I play a board game in the community room. The rules are simple, but every round is different. I do not always win; in fact, I usually finish near the bottom. That does not matter because everyone stays cheerful, and we sometimes play a second game before going home.",
+    "corrected_text": "On Thursday evenings, my neighbours and I play a board game in the community room. The rules are simple, but every round is different. I do not always win; in fact, I usually finish near the bottom. That does not matter because everyone stays cheerful, and we sometimes play a second game before going home.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 55
+  },
+  {
+    "id": "A2-C019",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Explain how you keep your belongings organised.",
+    "student_text": "I keep my important papers in a blue folder on the top shelf. I put new letters there as soon as I read them, so I can find them later. My younger brother sometimes borrows the folder, but he always returns it to the same place. It saves us both time on busy mornings.",
+    "corrected_text": "I keep my important papers in a blue folder on the top shelf. I put new letters there as soon as I read them, so I can find them later. My younger brother sometimes borrows the folder, but he always returns it to the same place. It saves us both time on busy mornings.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 54
+  },
+  {
+    "id": "A2-C020",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Write about a place where you exercise indoors.",
+    "student_text": "The sports hall in our town is open to everyone after six o'clock. I go there twice a week to practise badminton with my cousin. We are not very good yet, but we have improved since January. The staff are friendly, and there is usually space for us to play without waiting.",
+    "corrected_text": "The sports hall in our town is open to everyone after six o'clock. I go there twice a week to practise badminton with my cousin. We are not very good yet, but we have improved since January. The staff are friendly, and there is usually space for us to play without waiting.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 52
+  },
+  {
+    "id": "A2-C021",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Describe a simple way you help at home.",
+    "student_text": "I help my dad prepare lunch on Sundays. While he cuts the vegetables, I set the table and fill the water glasses. We do not make anything complicated, but we try a new dish once a month. Afterwards, I wash the plates while he puts the food away, so the kitchen is tidy quite quickly.",
+    "corrected_text": "I help my dad prepare lunch on Sundays. While he cuts the vegetables, I set the table and fill the water glasses. We do not make anything complicated, but we try a new dish once a month. Afterwards, I wash the plates while he puts the food away, so the kitchen is tidy quite quickly.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 55
+  },
+  {
+    "id": "A2-C022",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Write about a small job or responsibility you have.",
+    "student_text": "I deliver a local newspaper to six houses before breakfast on Saturdays. The route takes about twenty minutes, unless someone has a large parcel for me to carry as well. I have not missed a morning this year. I save the money for art supplies, and my parents say I am becoming more responsible.",
+    "corrected_text": "I deliver a local newspaper to six houses before breakfast on Saturdays. The route takes about twenty minutes, unless someone has a large parcel for me to carry as well. I have not missed a morning this year. I save the money for art supplies, and my parents say I am becoming more responsible.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 54
+  },
+  {
+    "id": "A2-C023",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Tell a short story about something you misplaced.",
+    "student_text": "Yesterday, I was looking for my house keys when my phone rang. I had checked the kitchen table twice, but the keys were inside my coat pocket. My sister found them while she was putting our coats away. I thanked her, and now I keep the keys in a small bowl beside the door.",
+    "corrected_text": "Yesterday, I was looking for my house keys when my phone rang. I had checked the kitchen table twice, but the keys were inside my coat pocket. My sister found them while she was putting our coats away. I thanked her, and now I keep the keys in a small bowl beside the door.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 54
+  },
+  {
+    "id": "A2-C024",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Describe a change you made to your bedroom.",
+    "student_text": "Last week, I moved my desk closer to the window because the light is better there. I can now see the trees while I do my homework. The room feels larger, even though I have not bought any new furniture. My mother helped me lift the desk, and we finished the job before lunchtime.",
+    "corrected_text": "Last week, I moved my desk closer to the window because the light is better there. I can now see the trees while I do my homework. The room feels larger, even though I have not bought any new furniture. My mother helped me lift the desk, and we finished the job before lunchtime.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 54
+  },
+  {
+    "id": "A2-C025",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Write about an activity you do when you have spare time.",
+    "student_text": "When I have an hour free, I sometimes draw buildings from pictures in a magazine. I usually start with a pencil and add colour after I am happy with the shape. I have made several small drawings for my friends, but I have never sold one. Perhaps I will take an art class next year.",
+    "corrected_text": "When I have an hour free, I sometimes draw buildings from pictures in a magazine. I usually start with a pencil and add colour after I am happy with the shape. I have made several small drawings for my friends, but I have never sold one. Perhaps I will take an art class next year.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 55
+  },
+  {
+    "id": "A2-C026",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Explain what you do to prepare for a busy day.",
+    "student_text": "I pack my lunch the night before a long day at college. I put a sandwich, an apple and a bottle of water in my bag. If I leave everything until morning, I often forget something. My sister checks her timetable before bed too, so we both know what time to leave.",
+    "corrected_text": "I pack my lunch the night before a long day at college. I put a sandwich, an apple and a bottle of water in my bag. If I leave everything until morning, I often forget something. My sister checks her timetable before bed too, so we both know what time to leave.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 52
+  },
+  {
+    "id": "A2-C027",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Write about a useful thing you learned recently.",
+    "student_text": "Our teacher showed us how to make a clear chart on a computer. First, we entered the numbers, and then the programme turned them into a picture. I had never used that tool before, but I understood it quickly. Now I can use the chart to explain my science project to the class.",
+    "corrected_text": "Our teacher showed us how to make a clear chart on a computer. First, we entered the numbers, and then the programme turned them into a picture. I had never used that tool before, but I understood it quickly. Now I can use the chart to explain my science project to the class.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 53
+  },
+  {
+    "id": "A2-C028",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Describe how you spend time with a younger relative.",
+    "student_text": "My niece is six, so I choose activities that are easy for her to enjoy. We often build a tall tower with wooden blocks, and she carefully adds the pieces at the top. If it falls down, she laughs instead of getting upset. She can now build one almost as tall as the table.",
+    "corrected_text": "My niece is six, so I choose activities that are easy for her to enjoy. We often build a tall tower with wooden blocks, and she carefully adds the pieces at the top. If it falls down, she laughs instead of getting upset. She can now build one almost as tall as the table.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 54
+  },
+  {
+    "id": "A2-C029",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Write about a time you had to change your plans.",
+    "student_text": "We planned to have a picnic beside the lake, but the park was closed for a race. We did not want to waste the sandwiches, so we ate them in our garden instead. It was quieter than we expected, and the children played cards after lunch. We may try the lake again next weekend.",
+    "corrected_text": "We planned to have a picnic beside the lake, but the park was closed for a race. We did not want to waste the sandwiches, so we ate them in our garden instead. It was quieter than we expected, and the children played cards after lunch. We may try the lake again next weekend.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 54
+  },
+  {
+    "id": "A2-C030",
+    "level": "A2",
+    "condition": "correct",
+    "task": "Describe a helpful person in your neighbourhood.",
+    "student_text": "The woman who lives upstairs is a nurse, and she is very kind to the people in our building. She once helped me carry a heavy box when my parents were out. We do not see each other every day, but she always says hello in the hallway. I am glad she is our neighbour.",
+    "corrected_text": "The woman who lives upstairs is a nurse, and she is very kind to the people in our building. She once helped me carry a heavy box when my parents were out. We do not see each other every day, but she always says hello in the hallway. I am glad she is our neighbour.",
+    "errors": [],
+    "is_correct": true,
+    "length_words": 55
+  }
+]

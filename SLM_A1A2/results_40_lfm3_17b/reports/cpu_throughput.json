@@ -1,0 +1,88 @@
+{
+  "purpose": "Synthetic CPU throughput, no Writing cases",
+  "build": "b12359",
+  "processor": "AMD Ryzen 5 5600X",
+  "command_arguments": [
+    "-dev",
+    "none",
+    "-ngl",
+    "0",
+    "-t",
+    "4",
+    "-p",
+    "256",
+    "-n",
+    "64",
+    "-r",
+    "3",
+    "-o",
+    "json"
+  ],
+  "llama_bench_executable_sha256": "0330f44af741f79f6abd1be26b899e55ed129241927a8bacdd2a2f293a000eee",
+  "configurations": [
+    {
+      "config_id": "09-lfm25-12b-q4-k-m",
+      "raw_sha256": "06f4f46a716a99fec1b16b3ab38b5d9255d1e1fc576cf3fb01b76ac109f7efab",
+      "prompt_256_avg_tokens_per_second": 306.185926,
+      "prompt_256_stddev": 2.882301,
+      "decode_64_avg_tokens_per_second": 53.793192,
+      "decode_64_stddev": 0.18604
+    },
+    {
+      "config_id": "18-lfm3-17b-q4-k-m",
+      "raw_sha256": "495eb06abd9e79422e63818b77bb6799d271ffc842fcbc455c8d6e93faaddaf5",
+      "prompt_256_avg_tokens_per_second": 212.057739,
+      "prompt_256_stddev": 1.540878,
+      "decode_64_avg_tokens_per_second": 36.12347,
+      "decode_64_stddev": 0.146773
+    },
+    {
+      "config_id": "06-minicpm5-2b-q4-k-m",
+      "raw_sha256": "438cca7f9d23acce2f9e0b07ac5fae31dbb12e943d6a3dd04c3b7d84487a0b88",
+      "prompt_256_avg_tokens_per_second": 146.936356,
+      "prompt_256_stddev": 3.973029,
+      "decode_64_avg_tokens_per_second": 26.809163,
+      "decode_64_stddev": 0.631563
+    },
+    {
+      "config_id": "16-lfm25-26b-q4-k-m",
+      "raw_sha256": "e71d30f8a49f06c2cde3714a9155aeee1fea5fe1534701592d7b7d5eb1c61e4b",
+      "prompt_256_avg_tokens_per_second": 129.009562,
+      "prompt_256_stddev": 1.709326,
+      "decode_64_avg_tokens_per_second": 24.072722,
+      "decode_64_stddev": 0.038307
+    },
+    {
+      "config_id": "08-lfm25-12b-q8-0",
+      "raw_sha256": "fbaa312c30cd623e1193e647d0428c8db9db5e15da00d63d54b36ad30f48e3f4",
+      "prompt_256_avg_tokens_per_second": 169.068749,
+      "prompt_256_stddev": 1.844924,
+      "decode_64_avg_tokens_per_second": 33.604029,
+      "decode_64_stddev": 0.0908
+    },
+    {
+      "config_id": "17-lfm3-17b-q8-0",
+      "raw_sha256": "9a339e9a0282b001edacbe31eab29878d5d6a2e69312e40753d11860a41694be",
+      "prompt_256_avg_tokens_per_second": 114.622784,
+      "prompt_256_stddev": 1.460342,
+      "decode_64_avg_tokens_per_second": 22.544684,
+      "decode_64_stddev": 0.007878
+    },
+    {
+      "config_id": "05-minicpm5-2b-q8-0",
+      "raw_sha256": "0f48f9f9de17807f7454f8d56a53a57f84ae5fe42eb59b198eec6c71d47edad4",
+      "prompt_256_avg_tokens_per_second": 84.692656,
+      "prompt_256_stddev": 0.904675,
+      "decode_64_avg_tokens_per_second": 17.324316,
+      "decode_64_stddev": 0.165858
+    },
+    {
+      "config_id": "15-lfm25-26b-q8-0",
+      "raw_sha256": "32750409faacf8fb72177f8c53e8e235171e015827663203ebd9b0c5118e3831",
+      "prompt_256_avg_tokens_per_second": 71.324854,
+      "prompt_256_stddev": 0.323886,
+      "decode_64_avg_tokens_per_second": 14.706402,
+      "decode_64_stddev": 0.108776
+    }
+  ]
+}

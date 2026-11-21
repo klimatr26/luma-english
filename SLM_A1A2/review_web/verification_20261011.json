@@ -1,0 +1,79 @@
+{
+  "schema_version": "human_review_web.verification/1.0",
+  "verified_at_utc": "2026-10-11T22:33:58.104763+00:00",
+  "local_date": "2026-10-11",
+  "status": "PREPARED_AND_TESTED_NO_HUMAN_REVIEWS",
+  "build": {
+    "schema_version": "human_review_web.build/1.0",
+    "packet_sha256": "abee26b77d9afe0b7d44cb25729b72aa1b0c5bab54f97635e7a6908b58d5a486",
+    "item_count": 180,
+    "second_review_count": 45,
+    "sources_sha256": {
+      "page.html": "2a7bc2e60fdcb723f6958a5d0fdf37a8be79308dd2add738551490469ffd3904",
+      "style.css": "1df2a797f55fc030ab356dadb039582bdf0b4359838acb55c8e6fc33f3d3c8b4",
+      "review_core.js": "b1545858ce676b4e81d1c1d4bc4ef857ae65190f71e241e1ed2eb78417120e17",
+      "app.js": "02c38aef729e1e50668901c47a364cce67818d482e5f7deaabeecc55244b5cd5"
+    },
+    "output_sha256": "fbb5b57752c16157619162039d5066794a94530b02debd121093cd37ed9355e1",
+    "output_bytes": 381326
+  },
+  "python_unittest": {
+    "tests": 196,
+    "passed": true,
+    "command": ".\\SLM_A1A2\\.venv\\Scripts\\python.exe -m unittest discover -s SLM_A1A2/scripts -p \"test_*.py\" -v"
+  },
+  "node_core_tests": {
+    "passed": true,
+    "command": "node SLM_A1A2/review_web/test_review_core.cjs"
+  },
+  "frontend_backend_parity": {
+    "synthetic_variants": 236,
+    "passed": true
+  },
+  "browser_qa": {
+    "transport": "HTTP_LOOPBACK_PUBLIC_WEB_FOLDER_AND_SEPARATE_SYNTHETIC_FOLDER",
+    "direct_file_open": "NOT_TESTED_BROWSER_TOOL_DISALLOWS_FILE_PROTOCOL",
+    "synthetic_outputs": 2,
+    "checks_passed": [
+      "blank_real_packet_180_and_no_model_identity",
+      "untrusted_script_displayed_as_literal_text",
+      "incomplete_review_rejected",
+      "explicit_NA_applicability",
+      "complete_and_advance",
+      "reload_restores_progress",
+      "editing_completed_returns_to_draft",
+      "backup_download_and_confirmed_restore",
+      "strict_parser_backup_restore",
+      "second_assignment_filters_scope",
+      "separate_JSONL_and_metadata_downloads",
+      "downloaded_UTF8_bytes_SHA_size_and_record_count",
+      "downloaded_error_and_control_rows_validate_against_python_contract",
+      "zero_console_warnings_or_errors"
+    ],
+    "production_completed_reviews": 0,
+    "initial_multiple_download_issue": "FIXED_WITH_TWO_EXPLICIT_DOWNLOAD_LINKS",
+    "synthetic_evidence_local_ignored": "SLM_A1A2/logs/review_web_qa/downloads",
+    "screenshot": {
+      "path": "SLM_A1A2/review_web/preview_20261011.jpg",
+      "sha256": "4abed1b011f93bfd8a5de48c65f59cea5a9da095df704496047f3cf0b8186af8"
+    }
+  },
+  "preservation": {
+    "phase1_artifacts": 24,
+    "phase1_integrity_passed": true,
+    "original_git_inputs_byte_identical": 93,
+    "baseline_git_commit": "feb818d",
+    "bound_source_files_unchanged": 164,
+    "bound_derived_files_unchanged": 76,
+    "new_slm_inferences": 0,
+    "final_test_access": false,
+    "remote_configured": false,
+    "human_layers_created": 0
+  },
+  "limits": [
+    "Actual reviewer still must be coordinated; no human quality judgments have been fabricated.",
+    "Browser storage is local and can be cleared; backups are necessary.",
+    "Direct desktop file opening is a manual check; no network dependency is present in the HTML.",
+    "Human identity, qualifications and adjudication remain coordinator responsibilities."
+  ]
+}

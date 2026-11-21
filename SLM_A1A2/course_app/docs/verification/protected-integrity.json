@@ -1,0 +1,356 @@
+{
+  "date_utc": "2026-11-20T00:56:49.860785+00:00",
+  "phase1": [
+    {
+      "path": "benchmark_smoke_test_v1.json",
+      "sha256": "b9fb7891c748b0d7eea6246fb8081b8bc8aa294bd5b220a7b9eb6ae371290a97",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_smoke_test_v2.json",
+      "sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+      "unchanged": true
+    },
+    {
+      "path": "run_benchmark_v2.py",
+      "sha256": "e1d0e8222a4162f91a9a935603d9ef579d2a276c61c59445103c27658866a8bc",
+      "unchanged": true
+    },
+    {
+      "path": "build_benchmark_v2_report.py",
+      "sha256": "7e3d3305b13320311c27d5344cad34b62b8800c33adbe2eeb3e1f753cad3acdb",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2/raw_outputs.jsonl",
+      "sha256": "3d73ad9cb9e4e2d76f2bd991f0dbc5c9c2be38dcd0c281e73e01f107023c56e0",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2/run_metadata.json",
+      "sha256": "95b17176bee03d78a3afe3ff7c2b125ff01db565172521c24399fd93efc7574d",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/audit_notes_v2.md",
+      "sha256": "243f5815820c829a10f6a10fdec610d8e8109d2dd7edef8a945876d1b69fdf8f",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/benchmark_results_v2_rerun.zip",
+      "sha256": "af75bfedc5c8051f6aee6858f4691fd73b299db91159351389f367fedd3997b4",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/case_results_v2.csv",
+      "sha256": "4351477c83a4f6aaf087a69e4d96627f1298bc5931207143c45e02fa222d47b1",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/comparison_v2.csv",
+      "sha256": "7248c7b8a2d850003bc89d1a574baf3089c161a918cacd14810e23b69bea9548",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/comparison_v2.json",
+      "sha256": "d14789c167b44f7a4c498041a3fbeceaf2fad8a7d456445ffc0a9306160218cc",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/comparison_v2.md",
+      "sha256": "55927411c6637dda581e34d0d173d55b6186514d0eb5b84f741ab20dab3a8aa6",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_gemma-4-e2b-qat-mobile.json",
+      "sha256": "340531a6c7f31d176db2714572cab9c0e2d44da1c47d914c892020bbf1bf2bbf",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_lfm2-5-1-2b-thinking.json",
+      "sha256": "afbb047a6b0867f6521bf1e28fbd64f11ac18f6c12a192d241c314d7dbb821b0",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_lfm2_5_1_2b_instruct.json",
+      "sha256": "11bc0048045cd8467aec6a337d2ff545caabe4f0d1e86a48ec588c28342ab8d7",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_lfm2_5_350m.json",
+      "sha256": "399b7f308048c6b110435fe22ba52ddec86f8c65d616810e498068dc3600b947",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_minicpm5-1b.json",
+      "sha256": "bc318d006bc2a9aaaa11e2b8c19ed26f6766491bae358cc79330174558773eda",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_minicpm5-2b.json",
+      "sha256": "0f4b8949476d424ac33086511595b9796b26b9eda76448aea6682729c3eeeefa",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_qwen3-5-0-8b.json",
+      "sha256": "c9e6eee6edee1fe4a5567d8fa1d847d2f11e2c7584c31d88280db9493783559c",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_qwen3.5-2b.json",
+      "sha256": "1effcd80a1ab4ec300e04cdb90511883aaab0958c1a3923e3c2184c90a5754d4",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/model_summaries_v2.json",
+      "sha256": "4c9f4ff91fb34df3d30afa2c83ce39fa2f4cee1f40a3dc172e78e93d2b4effa1",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/needs_human_review_v2.json",
+      "sha256": "2ac45b597633d59072bd03c4f64cf4ec762bde9f97440ef0bf5ab0deb393bd52",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/raw_outputs.jsonl",
+      "sha256": "589c62551271a3ffd3cf9e96c1daafec6db18589754708ba6505b3ee92ee0a23",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/run_metadata.json",
+      "sha256": "321360b8b9feb07f73897fe649cc761c2618f400045bc160aa27ffc2dea99a5c",
+      "unchanged": true
+    }
+  ],
+  "initial_git_blobs": [
+    {
+      "path": "benchmark_smoke_test_v1.json",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_smoke_test_v2.json",
+      "unchanged": true
+    },
+    {
+      "path": "run_benchmark_v2.py",
+      "unchanged": true
+    },
+    {
+      "path": "build_benchmark_v2_report.py",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2/raw_outputs.jsonl",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2/run_metadata.json",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/audit_notes_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/case_results_v2.csv",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/comparison_v2.csv",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/comparison_v2.json",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/comparison_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_gemma-4-e2b-qat-mobile.json",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_lfm2-5-1-2b-thinking.json",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_lfm2_5_1_2b_instruct.json",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_lfm2_5_350m.json",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_minicpm5-1b.json",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_minicpm5-2b.json",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_qwen3-5-0-8b.json",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/judgments_qwen3.5-2b.json",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/model_summaries_v2.json",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/needs_human_review_v2.json",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/raw_outputs.jsonl",
+      "unchanged": true
+    },
+    {
+      "path": "benchmark_results_v2_rerun/run_metadata.json",
+      "unchanged": true
+    }
+  ],
+  "frozen_200_bindings": [
+    {
+      "path": "cross_demo/native/artifacts/b12359/win-x64/ggml-base.dll",
+      "sha256": "4ba96a2de8f9bf5dba77df9194c279dfd8270762e33cc720bc4d061c2bb5e53a",
+      "unchanged": true
+    },
+    {
+      "path": "cross_demo/native/artifacts/b12359/win-x64/ggml-cpu.dll",
+      "sha256": "db7a99599aa038221e268c1a42a94ace748e5b337097325fef43e988ec597b4e",
+      "unchanged": true
+    },
+    {
+      "path": "cross_demo/native/artifacts/b12359/win-x64/ggml-vulkan.dll",
+      "sha256": "9cc0d9416bf032caa58af66fc7fe700e35a476b74cab94fcb45e08f4eca8213c",
+      "unchanged": true
+    },
+    {
+      "path": "cross_demo/native/artifacts/b12359/win-x64/ggml.dll",
+      "sha256": "eedc0f8d0bf7e2014383f1bb40cef326d40494ed08362ff24203abcb6e2a2e32",
+      "unchanged": true
+    },
+    {
+      "path": "cross_demo/native/artifacts/b12359/win-x64/llama-common.dll",
+      "sha256": "24e19bb0b30fd8f45a24a2c00322f466587fa62abd659fea5d34f690f5710f74",
+      "unchanged": true
+    },
+    {
+      "path": "cross_demo/native/artifacts/b12359/win-x64/llama.dll",
+      "sha256": "cffdf8f5399c30c1a24a2c192ed2675945ada6032c4463027e457052d647bffe",
+      "unchanged": true
+    },
+    {
+      "path": "cross_demo/native/artifacts/b12359/win-x64/writing_llama_bridge.dll",
+      "sha256": "336c2a749bc40416fc2aec364a22d89a67ee0a46753639e930cb815c06c47b63",
+      "unchanged": true
+    },
+    {
+      "path": "run_finalists_200.py",
+      "sha256": "70c76d4984c5b13cd94883588ad513a94610ad9b128ac7fefe92ac870125aeac",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/prepare_finalists_200.py",
+      "sha256": "b17c27b87d62a3782f9a6eb40328a4228f2b838437eaf9acb3e11736307e82ba",
+      "unchanged": true
+    },
+    {
+      "path": "documentation/finalists_200_protocol_20261117.md",
+      "sha256": "691684a0512a85b4a26fd3d979b62d9e779db5c446c1ccce2a6ec629de711a7b",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/analyze_finalists_200.py",
+      "sha256": "a90f87caa6b0123d4deed0ab88d2b082ca8ec18060e230010e4f48cf232e42ae",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/evaluate_responses_v2.py",
+      "sha256": "48f72332eedbdc6ea95b43c755962f7ab5a346f74ffbb9626184967797d9eb5a",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/gec_alignment_v2.py",
+      "sha256": "2e488e0369959211b4a361f51e63175d0590bb0f70898c86bdf071019f802cc6",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/evaluate_benchmark_120.py",
+      "sha256": "08d1531a60755148dae06436133dbc1b66454c3626942ab07db25c8a0b961ef4",
+      "unchanged": true
+    },
+    {
+      "path": "demo/WritingDemo.Core/FeedbackParser.cs",
+      "sha256": "aab637a75c37805e405246d62676ace242a730fc78e528336ad90d4819417634",
+      "unchanged": true
+    },
+    {
+      "path": "demo/WritingDemo.Core/Contracts.cs",
+      "sha256": "c557ad164b45990d364f2d741385ad34ba0f5604056ae95e59a6c45b7282fc06",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/finalists_parser/Program.cs",
+      "sha256": "2d30b4eb25d5e7254dca8c63d00ba1eb7cd7170613caab0e8e9efb02b9bf853e",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/finalists_parser/FinalistsParser.csproj",
+      "sha256": "e75ddd39df0bb3b0845b689544a2148380715cb6e1453af7248ea023fb687c83",
+      "unchanged": true
+    },
+    {
+      "path": "logs/finalists_200_20261117/parser/FinalistsParser.dll",
+      "sha256": "e38aff90ea929aa84a7bddbbff73f32ab919ff3de24f5e4d824fe65168eccf59",
+      "unchanged": true
+    },
+    {
+      "path": "requirements-evaluation-v2.txt",
+      "sha256": "52a0e8ae920d1470a37320831c54aa3659e4b8bfae8a1ab0ad5d0c73531e80c6",
+      "unchanged": true
+    },
+    {
+      "path": "cross_demo/native/src/writing_llama_bridge.cpp",
+      "sha256": "1ca23cd6dde3552b82731cc63ba3bfa2f38040982faa2fe07e044db3b56e3110",
+      "unchanged": true
+    },
+    {
+      "path": "cross_demo/native/include/writing_llama_bridge.h",
+      "sha256": "d5bfebb6e6cbb01a05ffd1f1e5a123226bfc6f51ca0427941122d6eae7b08ecf",
+      "unchanged": true
+    },
+    {
+      "path": "cross_demo/native/include/writing_json_grammar.h",
+      "sha256": "9ef1cf5527de24bf9006fa2f9b33877babbf7d7a9aaf20a73c3809dd423f9e6f",
+      "unchanged": true
+    },
+    {
+      "path": "cross_demo/native/include/writing_prompt_policy.h",
+      "sha256": "f9cbeded47eb0e36ec8c5dfa107d7fcd8fc0b2d34e9b64fbb79d8c07e3198361",
+      "unchanged": true
+    },
+    {
+      "path": "cross_demo/native/include/vulkan_version_policy.h",
+      "sha256": "4ba25e70de12fdfd2beae54d4f61c2dd950a73ea4aec0154da86ac892593677b",
+      "unchanged": true
+    },
+    {
+      "path": "cross_demo/WritingApp.Shared/Assets/prompts.json",
+      "sha256": "47aa3495e208ea714dc34eb08240cef7ac7806c87be794ef55422023d1ba0cd9",
+      "unchanged": true
+    },
+    {
+      "path": "cross_demo/WritingApp.Shared/Assets/catalog.json",
+      "sha256": "4e8b97833f3247b289db1673e6c7c4b055d8003b4ff2066c3725a9e5d554e1e1",
+      "unchanged": true
+    }
+  ]
+}

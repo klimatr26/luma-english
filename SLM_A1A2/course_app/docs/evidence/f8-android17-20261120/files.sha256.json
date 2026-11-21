@@ -1,0 +1,132 @@
+[
+  {
+    "path": "background-resume.json",
+    "bytes": 632,
+    "sha256": "ec49896841fa651d420d2e626e2ce43c46408b6b3877d5877c0a94b2afd2e5c0"
+  },
+  {
+    "path": "background-start.json",
+    "bytes": 489,
+    "sha256": "bd3978133b2612bdc648cddcd0f08721defdee2972acb3408017ef37198ea969"
+  },
+  {
+    "path": "cache-reuse.json",
+    "bytes": 12678,
+    "sha256": "47e23b7715b5f2e8eb1faa77dd9b805faefb1c1c83850490251ace807114fd06"
+  },
+  {
+    "path": "core-tests.json",
+    "bytes": 3498,
+    "sha256": "5cfb20fee5c8319f5ca60c7d573ce86ae0a019824118c7cd5fd173285b238e82"
+  },
+  {
+    "path": "download-resume.json",
+    "bytes": 619,
+    "sha256": "940610fcf6ba7e1bda0f596c88f9238a54e92eadded667c8afc6399899dfe04f"
+  },
+  {
+    "path": "download-start.json",
+    "bytes": 487,
+    "sha256": "cf5360164e8b2a32d82b8865ad52b4b1cccf38798d6e6425ffc0ee1cff7a33da"
+  },
+  {
+    "path": "gemma-diagnostic.png",
+    "bytes": 251130,
+    "sha256": "61c3346d18a54299f88e10ad81ff9d2926747e4d4a51e90843519aaa2052b7fb"
+  },
+  {
+    "path": "gemma-foreground.json",
+    "bytes": 12709,
+    "sha256": "ce5a33341e1bd753ef7ea4d406bc3262fc1a452ea207d0542dc857d4e0c08dd2"
+  },
+  {
+    "path": "gemma-initial-locked.json",
+    "bytes": 12688,
+    "sha256": "fd63f900ccc993424ab592616aea79d03af6ed71a6f41b0df4691e795e787c43"
+  },
+  {
+    "path": "gemma-memory-initial-cache-assertion.json",
+    "bytes": 11358,
+    "sha256": "52360d66c119d209aed8ec413d4ae69832b6a1c7aa47a7779690fd341e01be2c"
+  },
+  {
+    "path": "inventory.json",
+    "bytes": 1595,
+    "sha256": "d25b8e5ab0e0201b249c725528dcf40880b991f3dfe1efdeb43dcd0a1ab92d44"
+  },
+  {
+    "path": "memory-gemma-memory.json",
+    "bytes": 30041,
+    "sha256": "6a5f7f08718fecf8624e973014a6418857d745b1cde9f92646acb0f0f0d6ac6e"
+  },
+  {
+    "path": "memory-qwen.json",
+    "bytes": 51043,
+    "sha256": "ec795916a4ecffccbf9dd325c60e2e6542730b0328300fa798a13e5b3905ef2d"
+  },
+  {
+    "path": "profile-provenance.json",
+    "bytes": 9247,
+    "sha256": "4477d90c3886614c21513c664674cb4e53d04d207656a26851e3fecf5b2947fb"
+  },
+  {
+    "path": "qwen-diagnostic.png",
+    "bytes": 251221,
+    "sha256": "cb27fae3ce8929f4813803728636a2cf4034f817969eaf1dacffa2d04ecaa79a"
+  },
+  {
+    "path": "qwen-foreground.json",
+    "bytes": 12017,
+    "sha256": "7f49042434710890d827ce8c2001e143d1ac1a3f219a42211941df0469716281"
+  },
+  {
+    "path": "release-final.png",
+    "bytes": 220288,
+    "sha256": "5dc169e3673c1001370d3ac12bb0a4434b60ef46e7556ab88bee8b0876369334"
+  },
+  {
+    "path": "retention-and-delivery.json",
+    "bytes": 1156,
+    "sha256": "b762497a795edee250f63b9bee59adc136c73078d0a6bfbe3b39ccae4de8453e"
+  },
+  {
+    "path": "shared-tests.json",
+    "bytes": 2891,
+    "sha256": "e18e19b5378c724790b7809273fbed3c245b8613da78b767090c6c801cb11567"
+  },
+  {
+    "path": "status-gemma-memory.jsonl",
+    "bytes": 18526,
+    "sha256": "c42b69bf23ed890107f8df1f723c0e8cfd27a56c524d1c25fc02f1bfe6601321"
+  },
+  {
+    "path": "status-qwen.jsonl",
+    "bytes": 13787,
+    "sha256": "39c12c32cb3324615017b832ea9c89baad6220b500c1329146c730df9015652a"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 6434,
+    "sha256": "1b94691044e2306b75e25a33c7d156e7ac1cfe9c9b7dd5f6486d0a1f4886556f"
+  },
+  {
+    "path": "ui-diagnostic.png",
+    "bytes": 309948,
+    "sha256": "29f86d800a6696d37961357ea208a1087ab171b4e4aa55aee5f51b077739afd2"
+  },
+  {
+    "path": "ui-foreground.json",
+    "bytes": 2991,
+    "sha256": "a563be351c074e8794a9a83ab6c35aba945228efe24be6389d7086f61dd0f868"
+  },
+  {
+    "path": "ui-initial-locked.json",
+    "bytes": 2906,
+    "sha256": "f76ad07ce30d6477e3b5bb1a6ff907ca26740d5c27e3b6f7db05de4a0dd61a4a"
+  },
+  {
+    "path": "ui-tests.json",
+    "bytes": 2000,
+    "sha256": "47728b518c97f0cff81a2d428db864fea23a07207b7d83382a17ff0330846263"
+  }
+]

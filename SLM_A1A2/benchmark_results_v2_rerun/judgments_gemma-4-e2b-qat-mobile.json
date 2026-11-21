@@ -1,0 +1,1053 @@
+{
+  "model_name": "Gemma 4 E2B QAT Mobile",
+  "benchmark_id": "writing_a1_a2_smoke_v2",
+  "benchmark_version": "2.0",
+  "evaluation_scope": "Solo gold v2 y salidas de este modelo; sin usar resultados de otros modelos.",
+  "summary": {
+    "cases": 40,
+    "labels": {
+      "CORRECT": 32,
+      "PARTIAL": 5,
+      "INCORRECT": 3
+    },
+    "case_accuracy": {
+      "correct": 32,
+      "partial": 5,
+      "incorrect": 3,
+      "correct_rate": 0.8
+    },
+    "real_errors": 59,
+    "detected_errors": 54,
+    "missed_errors": 5,
+    "false_positive_errors": 3,
+    "error_detection_recall": 0.9152542372881356,
+    "error_precision": 0.9473684210526315,
+    "corrections_valid_cases": 35,
+    "corrections_valid_rate": 0.875,
+    "explanation_valid_cases": 32,
+    "explanation_valid_rate": 0.8,
+    "meaning_preserved_cases": 39,
+    "meaning_preserved_rate": 0.975,
+    "json_valid_cases": 0,
+    "json_valid_rate": 0.0,
+    "truncated_cases": 0,
+    "repetition_or_loop_cases": 0,
+    "text_outside_json_cases": 40,
+    "execution_completed_cases": 40,
+    "needs_human_review_cases": 1,
+    "latency_seconds": {
+      "mean": 79.70473853750154,
+      "median": 86.13142645003973,
+      "min": 28.923725400003605,
+      "max": 135.89850000001024
+    },
+    "tokens_generated": {
+      "total": 7985,
+      "mean": 199.625,
+      "median": 225.5
+    },
+    "peak_RAM_bytes": {
+      "mean": 3259592704,
+      "max": 3259592704
+    },
+    "peak_RAM_GiB": {
+      "mean": 3.0357322692871094,
+      "max": 3.0357322692871094
+    },
+    "peak_VRAM_bytes": {
+      "mean": 8319873843.2,
+      "max": 8321499136
+    },
+    "peak_VRAM_GiB": {
+      "mean": 7.748486328125,
+      "max": 7.75
+    }
+  },
+  "cases": [
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E01",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "subject-verb agreement / present simple: live",
+        "subject-verb agreement / present simple: get up",
+        "subject-verb agreement / present simple: go"
+      ],
+      "detected_errors": [
+        "1: subject-verb agreement / present simple",
+        "2: subject-verb agreement / present simple",
+        "3: subject-verb agreement / present simple"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E02",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "form of be / subject-verb agreement: My sister are",
+        "form of be / subject-verb agreement: We is"
+      ],
+      "detected_errors": [
+        "1: form of be / subject-verb agreement",
+        "2: form of be / subject-verb agreement"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E03",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "present simple / verb form after do: don't likes",
+        "subject-verb agreement / present simple: father like",
+        "subject-verb agreement / present simple: mother make"
+      ],
+      "detected_errors": [
+        "1: present simple / verb form after do",
+        "2: subject-verb agreement / present simple",
+        "3: subject-verb agreement / present simple"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E04",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "present continuous / form of be: Two boys is playing",
+        "present continuous / form of be: a woman are sitting",
+        "present continuous: Her dog run"
+      ],
+      "detected_errors": [
+        "1: present continuous / form of be",
+        "2: present continuous / form of be",
+        "3: present continuous"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Dog runs no satisface el contexto de acción que ocurre ahora; además solo conviene corregir a is running."
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E05",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "article: an dog",
+        "article: a orange"
+      ],
+      "detected_errors": [
+        "1: article",
+        "2: article"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E06",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "singular/plural: three book",
+        "singular/plural: two pencil",
+        "form of be / subject-verb agreement: The books is",
+        "subject-verb agreement / present simple: one pencil have"
+      ],
+      "detected_errors": [
+        "1: singular/plural",
+        "2: singular/plural",
+        "3: form of be / subject-verb agreement",
+        "4: subject-verb agreement / present simple"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E07",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "subject pronoun: My friend and me",
+        "subject-verb agreement / present simple: goes",
+        "object pronoun: helps I",
+        "subject-verb agreement / present simple: we plays"
+      ],
+      "detected_errors": [
+        "1: subject pronoun",
+        "2: subject-verb agreement / present simple",
+        "3: object pronoun",
+        "4: subject-verb agreement / present simple"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E08",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "possessive apostrophe: sisters bag",
+        "subject-verb agreement / present simple: She take"
+      ],
+      "detected_errors": [
+        "1: possessive apostrophe",
+        "2: subject-verb agreement / present simple"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E09",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "preposition of time: at Monday",
+        "preposition of time: in 10 o'clock"
+      ],
+      "detected_errors": [
+        "1: preposition of time",
+        "2: preposition of time"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E10",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "word order / time expression: I every day walk to school with my cousin",
+        "word order: We at the bus stop meet our friends"
+      ],
+      "detected_errors": [
+        "1: word order / time expression",
+        "2: word order"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E11",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "present simple question word order: Where you live",
+        "question word order / form of be: How old your brother is"
+      ],
+      "detected_errors": [
+        "1: present simple question word order",
+        "2: question word order / form of be"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E12",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "present simple negation: I no like"
+      ],
+      "detected_errors": [
+        "1: present simple negation"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E13",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [
+        "some/any: aren't some apples"
+      ],
+      "detected_errors": [
+        "1: some/any"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "La reescritura sin some es una alternativa válida para expresar ausencia."
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E14",
+      "level": "A1",
+      "label": "INCORRECT",
+      "real_errors": [
+        "basic lexical choice / coordination: eat a glass of water and a sandwich"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "1: basic lexical choice / coordination"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Afirma que la oración errónea eat a glass of water está correcta y no corrige el error léxico."
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-E15",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [
+        "spelling: freind",
+        "punctuation: Saturday"
+      ],
+      "detected_errors": [
+        "1: spelling"
+      ],
+      "missed_errors": [
+        "2: punctuation"
+      ],
+      "false_positive_errors": [
+        "False-positive 1"
+      ],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Corrige friend y el punto; inventa una coma obligatoria entre dos cláusulas coordinadas donde no se exige."
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-C01",
+      "level": "A1",
+      "label": "PARTIAL",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [
+        "False-positive 1"
+      ],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Marca como error una frase correcta y propone una alternativa estilística sin necesidad."
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-C02",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-C03",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-C04",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A1-C05",
+      "level": "A1",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E01",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "past simple / irregular verb: goed",
+        "past simple: come home"
+      ],
+      "detected_errors": [
+        "1: past simple / irregular verb",
+        "2: past simple"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E02",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "comparative adjective: more cheaper"
+      ],
+      "detected_errors": [
+        "1: comparative adjective"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E03",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "much/many: much suitcases",
+        "much/many / quantifier choice: many time"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "1: much/many",
+        "2: much/many / quantifier choice"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": false,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Raw contiene un bloque ```json válido para lectura semántica; fence externo cuenta como incumplimiento de formato pero no impide evaluar detección/corrección."
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E04",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "article: to restaurant",
+        "article: and meal"
+      ],
+      "detected_errors": [
+        "1: article",
+        "2: article"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E05",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "present continuous / subject-verb agreement: My friends makes"
+      ],
+      "detected_errors": [
+        "1: present continuous / subject-verb agreement"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E06",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "object pronoun: showed I",
+        "object pronoun: sent they"
+      ],
+      "detected_errors": [
+        "1: object pronoun",
+        "2: object pronoun"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E07",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "possessive apostrophe: parents room",
+        "possessive determiner / contraction: they're books"
+      ],
+      "detected_errors": [
+        "1: possessive apostrophe",
+        "2: possessive determiner / contraction"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E08",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "preposition of place: in the bus stop",
+        "preposition after arrive: arrives to school"
+      ],
+      "detected_errors": [
+        "1: preposition of place",
+        "2: preposition after arrive"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E09",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "past simple question word order: Where you went",
+        "past simple question / verb form after did: Did you stayed"
+      ],
+      "detected_errors": [
+        "1: past simple question word order",
+        "2: past simple question / verb form after did"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E10",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "form of be / singular-plural: There was two",
+        "form of be / subject-verb agreement: windows was"
+      ],
+      "detected_errors": [
+        "1: form of be / singular-plural",
+        "2: form of be / subject-verb agreement"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E11",
+      "level": "A2",
+      "label": "INCORRECT",
+      "real_errors": [
+        "preposition after verb: listen music"
+      ],
+      "detected_errors": [],
+      "missed_errors": [
+        "1: preposition after verb"
+      ],
+      "false_positive_errors": [],
+      "corrections_valid": false,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Marca el texto como correcto y omite el error real listen music."
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E12",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "spelling / past simple: studyed",
+        "past simple negation: didn't went"
+      ],
+      "detected_errors": [
+        "1: spelling / past simple",
+        "2: past simple negation"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E13",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "some/any: doesn't have some",
+        "some/any: buy any milk"
+      ],
+      "detected_errors": [
+        "1: some/any",
+        "2: some/any"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Ambas correcciones son aceptables, incluida la omisión de some; explicación incorrecta al decir que oranges no es contable."
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E14",
+      "level": "A2",
+      "label": "PARTIAL",
+      "real_errors": [
+        "superlative adjective / double comparison: the most noisier"
+      ],
+      "detected_errors": [
+        "1: superlative adjective / double comparison"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [
+        "False-positive 1"
+      ],
+      "corrections_valid": true,
+      "explanation_valid": false,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": "Corrige el error de noisier; “most quiet” es aceptable según la política v2 y no debe contarse como error."
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-E15",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [
+        "past simple: eat"
+      ],
+      "detected_errors": [
+        "1: past simple"
+      ],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-C01",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-C02",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-C03",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-C04",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    },
+    {
+      "model_name": "Gemma 4 E2B QAT Mobile",
+      "case_id": "A2-C05",
+      "level": "A2",
+      "label": "CORRECT",
+      "real_errors": [],
+      "detected_errors": [],
+      "missed_errors": [],
+      "false_positive_errors": [],
+      "corrections_valid": true,
+      "explanation_valid": true,
+      "meaning_preserved": true,
+      "json_valid": false,
+      "truncated": false,
+      "repetition_or_loop": false,
+      "text_outside_json": true,
+      "execution_completed": true,
+      "needs_human_review": false,
+      "review_note": ""
+    }
+  ]
+}

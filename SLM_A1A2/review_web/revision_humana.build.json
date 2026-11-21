@@ -1,0 +1,14 @@
+{
+  "schema_version": "human_review_web.build/1.0",
+  "packet_sha256": "abee26b77d9afe0b7d44cb25729b72aa1b0c5bab54f97635e7a6908b58d5a486",
+  "item_count": 180,
+  "second_review_count": 45,
+  "sources_sha256": {
+    "page.html": "2a7bc2e60fdcb723f6958a5d0fdf37a8be79308dd2add738551490469ffd3904",
+    "style.css": "1df2a797f55fc030ab356dadb039582bdf0b4359838acb55c8e6fc33f3d3c8b4",
+    "review_core.js": "b1545858ce676b4e81d1c1d4bc4ef857ae65190f71e241e1ed2eb78417120e17",
+    "app.js": "02c38aef729e1e50668901c47a364cce67818d482e5f7deaabeecc55244b5cd5"
+  },
+  "output_sha256": "fbb5b57752c16157619162039d5066794a94530b02debd121093cd37ed9355e1",
+  "output_bytes": 381326
+}

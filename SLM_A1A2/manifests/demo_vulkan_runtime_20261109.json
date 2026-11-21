@@ -1,0 +1,883 @@
+{
+  "schema_version": "writing_demo.runtime_package/1.0",
+  "backend": "vulkan",
+  "build": "b11457",
+  "commit": "5ad1c5da0ad7f6176256b823925aad19134f0263",
+  "server_path": "tools/llama.cpp/b11457-vulkan/llama-server.exe",
+  "source": {
+    "repository": "https://github.com/ggml-org/llama.cpp",
+    "release_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11457",
+    "release_api_url": "https://api.github.com/repos/ggml-org/llama.cpp/releases/tags/b11457",
+    "release_id": 405152712,
+    "asset_id": 616700838,
+    "tag": "b11457",
+    "commit": "5ad1c5da0ad7f6176256b823925aad19134f0263"
+  },
+  "archive": {
+    "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11457/llama-b11457-bin-win-vulkan-x64.zip",
+    "path": "tools/llama.cpp/b11457-vulkan/llama-b11457-bin-win-vulkan-x64.zip",
+    "size_bytes": 33377746,
+    "sha256": "d01301582c711a69b9747b5984710d6ca99e57d95f680d3d33753cec570b4cb6",
+    "upstream_digest": "sha256:d01301582c711a69b9747b5984710d6ca99e57d95f680d3d33753cec570b4cb6",
+    "upstream_digest_verified": true
+  },
+  "files": [
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-base.dll",
+      "size_bytes": 801792,
+      "sha256": "80bba81096a13fd8a67ed8c03a8daa660c5d8ed68a20969ae1ab47ab7faed137",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-alderlake.dll",
+      "size_bytes": 1435136,
+      "sha256": "78ebb16fde99118aaa6c41283886cbb086aaa38b578576153d871d47a9b4b074",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-cannonlake.dll",
+      "size_bytes": 1614848,
+      "sha256": "d2c7cc29f6320666160cd38ee5b5472f9aa8a2c60c6a3298f54176cff9842a76",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-cascadelake.dll",
+      "size_bytes": 1599488,
+      "sha256": "ef0755bc2704e04b99f062c417b64daa6296a4ca56442cf9722f5f9770d828e1",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-cooperlake.dll",
+      "size_bytes": 1609216,
+      "sha256": "97071ee051bf9ac08cf3e38f2534b77390200d23d61836df584de4c61a7d3e95",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-haswell.dll",
+      "size_bytes": 1439744,
+      "sha256": "d686c1a8014fcfa8c6b2738d7451a831769e45d6a8fcc852d4651c3d917eb379",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-icelake.dll",
+      "size_bytes": 1606656,
+      "sha256": "9b73a2faaaa385911d63d59070348c199c95721514c2eb86a0a37a9d2bd2d68e",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-ivybridge.dll",
+      "size_bytes": 1315328,
+      "sha256": "b5df29b7db063c39df4544e22e1bec17a9b206db263328b21cbca7854429f138",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-piledriver.dll",
+      "size_bytes": 1308160,
+      "sha256": "62db0ef30397e78bb5e0e0724d07c47039a8bdddbf0806207702471cdef9d837",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-sandybridge.dll",
+      "size_bytes": 1290240,
+      "sha256": "04045ac77ac476a22fa577ccc4557d47cbb7cc49189aab91934af1721b9e6258",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-sapphirerapids.dll",
+      "size_bytes": 1886208,
+      "sha256": "a746e666e73e1cd96d51c3f165828698820b675d7ab37288944486c88fcf710d",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-skylakex.dll",
+      "size_bytes": 1608704,
+      "sha256": "09e8b138c0c7751dedf567c837fd3d98fd0482c7e7d9f9775fe3ed98110bd689",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-sse42.dll",
+      "size_bytes": 915968,
+      "sha256": "6c926733c9981b33981f4e485760f731342c1a94ab1b3207bc9a32fd47f7b89a",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-x64.dll",
+      "size_bytes": 908800,
+      "sha256": "8990105cf8af3a9f8362a7adb66d5ce587d865888259af146077bd8ca5ed86ae",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-zen4.dll",
+      "size_bytes": 1615872,
+      "sha256": "a1684d0f3f49de254ccb1a40557bf6c5b8e5bc9eaff47d42c04c707ff56d82c8",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-rpc-server.exe",
+      "size_bytes": 117248,
+      "sha256": "d4b11e2d5abb562ebf5be5e3c2dabc7b6c589f5974731e1c5d519bab31217220",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-rpc.dll",
+      "size_bytes": 204800,
+      "sha256": "6ef53976bd007e9b4df265f97aec72b8c878785b54937438ae78c7c55c544dcd",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml-vulkan.dll",
+      "size_bytes": 45305856,
+      "sha256": "29e894b75489d149269b8e5a1b0a102b82e58f846322b6ea441d2af293aeee74",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/ggml.dll",
+      "size_bytes": 79872,
+      "sha256": "8666d1b98bb111b2a8524f707383c42ae7e352bdc94bfd9ff216b3d1ca7350d3",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/libomp.dll",
+      "size_bytes": 768000,
+      "sha256": "a12116ba72d1d6820407cf30be23da04ce79d6bb8a71a5ee71759c5a1faa6f1c",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/LICENSE-LLVM-OpenMP",
+      "size_bytes": 19741,
+      "sha256": "fdad1758a9e1f9d5a81e18879b3406772115edc92c24bfa36b70c654f325e8e4",
+      "kind": "license"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-batched-bench-impl.dll",
+      "size_bytes": 61952,
+      "sha256": "4e7de3b875e27892fcdddb726293f36b962b7951b5dfe1a32a4e00e6d5f63c8a",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-batched-bench.exe",
+      "size_bytes": 9216,
+      "sha256": "6e36027aa9a97b1969a54610f737181fa980b547a4a1cabaaa3086263443e820",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-bench-impl.dll",
+      "size_bytes": 403968,
+      "sha256": "7491e2f51922a68a564efefffcbbe6211968fe2db147d68ef9d7735c8f0a4688",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-bench.exe",
+      "size_bytes": 9216,
+      "sha256": "d1fcd78312219fc76cdb8d87d930d8cec9e8a9354c7bfbe9a50fb264ceb88523",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-cli-impl.dll",
+      "size_bytes": 3315712,
+      "sha256": "d4c145d7ad06d092eb6bdbae9ed9b9e0c234682a6e56fa290a87f56ad1aade8f",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-cli.exe",
+      "size_bytes": 9216,
+      "sha256": "9aec4dbe09edd3ce8b67e5f773d5d447e88fe8a23533732821884d82b1188f45",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-common.dll",
+      "size_bytes": 7969280,
+      "sha256": "e1156b6c318da8936fcb6e7e419f7d188a58fdd97c07e5dc2bd0cd6029eecd23",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-completion-impl.dll",
+      "size_bytes": 136192,
+      "sha256": "a4a08cf6e3cc888aa8fdef7c911aec403142baa54c19f97a9517e4d5588599ef",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-completion.exe",
+      "size_bytes": 9216,
+      "sha256": "89cf8b6e8a028ea19ea296cce7c2e35c75ebf94bfdfa7433cf0b0be85524a595",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-fit-params-impl.dll",
+      "size_bytes": 43008,
+      "sha256": "3be6a559313600c2d88e1c1ded3cdda1646b3c5f08ebdd7bf2c271c131eff0fc",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-fit-params.exe",
+      "size_bytes": 9216,
+      "sha256": "949ac708b931bcd981ee25b819fcec1521ef097845083874c4ed4ed9eb84deec",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-gemma3-cli.exe",
+      "size_bytes": 27136,
+      "sha256": "ac81c0adda369820f25eaac7f4e1cc0d407a5ac9d0bfb13d32405f6b8b896c68",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-gguf-split.exe",
+      "size_bytes": 60416,
+      "sha256": "47fe80be920241d35847f1c97318d3e46a8bdcbb6f0684fa5c5bbda84de115c6",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-imatrix.exe",
+      "size_bytes": 252416,
+      "sha256": "e1b136b86423152a288149f1fc8afef231b2941d774d5f127063b2dcdab83b61",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-llava-cli.exe",
+      "size_bytes": 27136,
+      "sha256": "ac81c0adda369820f25eaac7f4e1cc0d407a5ac9d0bfb13d32405f6b8b896c68",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-minicpmv-cli.exe",
+      "size_bytes": 27136,
+      "sha256": "ac81c0adda369820f25eaac7f4e1cc0d407a5ac9d0bfb13d32405f6b8b896c68",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-mtmd-cli.exe",
+      "size_bytes": 92672,
+      "sha256": "28f2a05a5435754b273e1b9c72f21fea40caad3be07a19a77fcde6d0dbf444ca",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-mtmd-debug.exe",
+      "size_bytes": 55808,
+      "sha256": "c3f8e0fdc7af00820a2b4a1654838e03fc068d6833488c18586652ff835dbb65",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-perplexity-impl.dll",
+      "size_bytes": 197632,
+      "sha256": "67aedabb1ec6719095489770e7f3ab716cb1419ed410fc56b8f279ed17937f1f",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-perplexity.exe",
+      "size_bytes": 9216,
+      "sha256": "6eb62532825984d56b777f53d753c85b531db7f6ae0b496b17736a41e415f4df",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-quantize-impl.dll",
+      "size_bytes": 137216,
+      "sha256": "29006c20fa543a539c76c1a9954c4f3cfd5fc88e565ca8d271a0daa123eeeae2",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-quantize.exe",
+      "size_bytes": 9216,
+      "sha256": "418db616e24da971da88bab6012bdc10cec92602d592feac821fed50d3344939",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-qwen2vl-cli.exe",
+      "size_bytes": 27136,
+      "sha256": "ac81c0adda369820f25eaac7f4e1cc0d407a5ac9d0bfb13d32405f6b8b896c68",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-results.exe",
+      "size_bytes": 46592,
+      "sha256": "c3fb59cb6ea76ff74d2c4a5fbe3adcb25f94a3fb1f311d30a036c45171d96a91",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-server-impl.dll",
+      "size_bytes": 9170944,
+      "sha256": "ef4c2aca0b72eee5216a10d06d208f9063104740357fdf3a69b7b54caa1a102c",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-server.exe",
+      "size_bytes": 9216,
+      "sha256": "c10548343e140c28ce63191a79f888e9d49640e3d19e7e4222344f29ea1ddae1",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-tokenize.exe",
+      "size_bytes": 58880,
+      "sha256": "4bb88db2a496d861775aba946fd062ec98cb5fb68a6b3868a3bfe19da5bddecb",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama-tts.exe",
+      "size_bytes": 41984,
+      "sha256": "2c2696779ecb7b201da301855d5e419735e765837d395c65037345d87749620f",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama.dll",
+      "size_bytes": 3337728,
+      "sha256": "b9c16857f1d6bab299b4d1547d1d0682fd7f638afba74e6b487c88074d614446",
+      "kind": "dynamic_library"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/llama.exe",
+      "size_bytes": 104448,
+      "sha256": "7f5f8e47f680efd78a3d02adcce1fc96407c5e5523dab2d6b5b5af2ae46f7cb5",
+      "kind": "executable"
+    },
+    {
+      "path": "tools/llama.cpp/b11457-vulkan/mtmd.dll",
+      "size_bytes": 1796096,
+      "sha256": "e663207be88dfc656279d8b47b02b83422d8cd7354c26d2a9ee53fc901f25298",
+      "kind": "dynamic_library"
+    }
+  ],
+  "observations": {
+    "captured_at_utc": "2026-11-09T16:38:36.039453+00:00",
+    "runtime_package_size_bytes": 128294639,
+    "extracted_files_size_bytes": 94916893,
+    "extracted_file_count": 52,
+    "executables": [
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-rpc-server.exe",
+        "size_bytes": 117248,
+        "sha256": "d4b11e2d5abb562ebf5be5e3c2dabc7b6c589f5974731e1c5d519bab31217220",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-batched-bench.exe",
+        "size_bytes": 9216,
+        "sha256": "6e36027aa9a97b1969a54610f737181fa980b547a4a1cabaaa3086263443e820",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-bench.exe",
+        "size_bytes": 9216,
+        "sha256": "d1fcd78312219fc76cdb8d87d930d8cec9e8a9354c7bfbe9a50fb264ceb88523",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-cli.exe",
+        "size_bytes": 9216,
+        "sha256": "9aec4dbe09edd3ce8b67e5f773d5d447e88fe8a23533732821884d82b1188f45",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-completion.exe",
+        "size_bytes": 9216,
+        "sha256": "89cf8b6e8a028ea19ea296cce7c2e35c75ebf94bfdfa7433cf0b0be85524a595",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-fit-params.exe",
+        "size_bytes": 9216,
+        "sha256": "949ac708b931bcd981ee25b819fcec1521ef097845083874c4ed4ed9eb84deec",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-gemma3-cli.exe",
+        "size_bytes": 27136,
+        "sha256": "ac81c0adda369820f25eaac7f4e1cc0d407a5ac9d0bfb13d32405f6b8b896c68",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-gguf-split.exe",
+        "size_bytes": 60416,
+        "sha256": "47fe80be920241d35847f1c97318d3e46a8bdcbb6f0684fa5c5bbda84de115c6",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-imatrix.exe",
+        "size_bytes": 252416,
+        "sha256": "e1b136b86423152a288149f1fc8afef231b2941d774d5f127063b2dcdab83b61",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-llava-cli.exe",
+        "size_bytes": 27136,
+        "sha256": "ac81c0adda369820f25eaac7f4e1cc0d407a5ac9d0bfb13d32405f6b8b896c68",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-minicpmv-cli.exe",
+        "size_bytes": 27136,
+        "sha256": "ac81c0adda369820f25eaac7f4e1cc0d407a5ac9d0bfb13d32405f6b8b896c68",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-mtmd-cli.exe",
+        "size_bytes": 92672,
+        "sha256": "28f2a05a5435754b273e1b9c72f21fea40caad3be07a19a77fcde6d0dbf444ca",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-mtmd-debug.exe",
+        "size_bytes": 55808,
+        "sha256": "c3f8e0fdc7af00820a2b4a1654838e03fc068d6833488c18586652ff835dbb65",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-perplexity.exe",
+        "size_bytes": 9216,
+        "sha256": "6eb62532825984d56b777f53d753c85b531db7f6ae0b496b17736a41e415f4df",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-quantize.exe",
+        "size_bytes": 9216,
+        "sha256": "418db616e24da971da88bab6012bdc10cec92602d592feac821fed50d3344939",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-qwen2vl-cli.exe",
+        "size_bytes": 27136,
+        "sha256": "ac81c0adda369820f25eaac7f4e1cc0d407a5ac9d0bfb13d32405f6b8b896c68",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-results.exe",
+        "size_bytes": 46592,
+        "sha256": "c3fb59cb6ea76ff74d2c4a5fbe3adcb25f94a3fb1f311d30a036c45171d96a91",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-server.exe",
+        "size_bytes": 9216,
+        "sha256": "c10548343e140c28ce63191a79f888e9d49640e3d19e7e4222344f29ea1ddae1",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-tokenize.exe",
+        "size_bytes": 58880,
+        "sha256": "4bb88db2a496d861775aba946fd062ec98cb5fb68a6b3868a3bfe19da5bddecb",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-tts.exe",
+        "size_bytes": 41984,
+        "sha256": "2c2696779ecb7b201da301855d5e419735e765837d395c65037345d87749620f",
+        "kind": "executable"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama.exe",
+        "size_bytes": 104448,
+        "sha256": "7f5f8e47f680efd78a3d02adcce1fc96407c5e5523dab2d6b5b5af2ae46f7cb5",
+        "kind": "executable"
+      }
+    ],
+    "dynamic_libraries": [
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-base.dll",
+        "size_bytes": 801792,
+        "sha256": "80bba81096a13fd8a67ed8c03a8daa660c5d8ed68a20969ae1ab47ab7faed137",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-alderlake.dll",
+        "size_bytes": 1435136,
+        "sha256": "78ebb16fde99118aaa6c41283886cbb086aaa38b578576153d871d47a9b4b074",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-cannonlake.dll",
+        "size_bytes": 1614848,
+        "sha256": "d2c7cc29f6320666160cd38ee5b5472f9aa8a2c60c6a3298f54176cff9842a76",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-cascadelake.dll",
+        "size_bytes": 1599488,
+        "sha256": "ef0755bc2704e04b99f062c417b64daa6296a4ca56442cf9722f5f9770d828e1",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-cooperlake.dll",
+        "size_bytes": 1609216,
+        "sha256": "97071ee051bf9ac08cf3e38f2534b77390200d23d61836df584de4c61a7d3e95",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-haswell.dll",
+        "size_bytes": 1439744,
+        "sha256": "d686c1a8014fcfa8c6b2738d7451a831769e45d6a8fcc852d4651c3d917eb379",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-icelake.dll",
+        "size_bytes": 1606656,
+        "sha256": "9b73a2faaaa385911d63d59070348c199c95721514c2eb86a0a37a9d2bd2d68e",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-ivybridge.dll",
+        "size_bytes": 1315328,
+        "sha256": "b5df29b7db063c39df4544e22e1bec17a9b206db263328b21cbca7854429f138",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-piledriver.dll",
+        "size_bytes": 1308160,
+        "sha256": "62db0ef30397e78bb5e0e0724d07c47039a8bdddbf0806207702471cdef9d837",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-sandybridge.dll",
+        "size_bytes": 1290240,
+        "sha256": "04045ac77ac476a22fa577ccc4557d47cbb7cc49189aab91934af1721b9e6258",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-sapphirerapids.dll",
+        "size_bytes": 1886208,
+        "sha256": "a746e666e73e1cd96d51c3f165828698820b675d7ab37288944486c88fcf710d",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-skylakex.dll",
+        "size_bytes": 1608704,
+        "sha256": "09e8b138c0c7751dedf567c837fd3d98fd0482c7e7d9f9775fe3ed98110bd689",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-sse42.dll",
+        "size_bytes": 915968,
+        "sha256": "6c926733c9981b33981f4e485760f731342c1a94ab1b3207bc9a32fd47f7b89a",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-x64.dll",
+        "size_bytes": 908800,
+        "sha256": "8990105cf8af3a9f8362a7adb66d5ce587d865888259af146077bd8ca5ed86ae",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-zen4.dll",
+        "size_bytes": 1615872,
+        "sha256": "a1684d0f3f49de254ccb1a40557bf6c5b8e5bc9eaff47d42c04c707ff56d82c8",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-rpc.dll",
+        "size_bytes": 204800,
+        "sha256": "6ef53976bd007e9b4df265f97aec72b8c878785b54937438ae78c7c55c544dcd",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml-vulkan.dll",
+        "size_bytes": 45305856,
+        "sha256": "29e894b75489d149269b8e5a1b0a102b82e58f846322b6ea441d2af293aeee74",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/ggml.dll",
+        "size_bytes": 79872,
+        "sha256": "8666d1b98bb111b2a8524f707383c42ae7e352bdc94bfd9ff216b3d1ca7350d3",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/libomp.dll",
+        "size_bytes": 768000,
+        "sha256": "a12116ba72d1d6820407cf30be23da04ce79d6bb8a71a5ee71759c5a1faa6f1c",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-batched-bench-impl.dll",
+        "size_bytes": 61952,
+        "sha256": "4e7de3b875e27892fcdddb726293f36b962b7951b5dfe1a32a4e00e6d5f63c8a",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-bench-impl.dll",
+        "size_bytes": 403968,
+        "sha256": "7491e2f51922a68a564efefffcbbe6211968fe2db147d68ef9d7735c8f0a4688",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-cli-impl.dll",
+        "size_bytes": 3315712,
+        "sha256": "d4c145d7ad06d092eb6bdbae9ed9b9e0c234682a6e56fa290a87f56ad1aade8f",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-common.dll",
+        "size_bytes": 7969280,
+        "sha256": "e1156b6c318da8936fcb6e7e419f7d188a58fdd97c07e5dc2bd0cd6029eecd23",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-completion-impl.dll",
+        "size_bytes": 136192,
+        "sha256": "a4a08cf6e3cc888aa8fdef7c911aec403142baa54c19f97a9517e4d5588599ef",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-fit-params-impl.dll",
+        "size_bytes": 43008,
+        "sha256": "3be6a559313600c2d88e1c1ded3cdda1646b3c5f08ebdd7bf2c271c131eff0fc",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-perplexity-impl.dll",
+        "size_bytes": 197632,
+        "sha256": "67aedabb1ec6719095489770e7f3ab716cb1419ed410fc56b8f279ed17937f1f",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-quantize-impl.dll",
+        "size_bytes": 137216,
+        "sha256": "29006c20fa543a539c76c1a9954c4f3cfd5fc88e565ca8d271a0daa123eeeae2",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama-server-impl.dll",
+        "size_bytes": 9170944,
+        "sha256": "ef4c2aca0b72eee5216a10d06d208f9063104740357fdf3a69b7b54caa1a102c",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/llama.dll",
+        "size_bytes": 3337728,
+        "sha256": "b9c16857f1d6bab299b4d1547d1d0682fd7f638afba74e6b487c88074d614446",
+        "kind": "dynamic_library"
+      },
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/mtmd.dll",
+        "size_bytes": 1796096,
+        "sha256": "e663207be88dfc656279d8b47b02b83422d8cd7354c26d2a9ee53fc901f25298",
+        "kind": "dynamic_library"
+      }
+    ],
+    "licenses": [
+      {
+        "path": "tools/llama.cpp/b11457-vulkan/LICENSE-LLVM-OpenMP",
+        "size_bytes": 19741,
+        "sha256": "fdad1758a9e1f9d5a81e18879b3406772115edc92c24bfa36b70c654f325e8e4",
+        "kind": "license"
+      }
+    ],
+    "version_check": {
+      "command": [
+        "llama-server.exe",
+        "--version"
+      ],
+      "return_code": 0,
+      "stdout": "",
+      "stderr": "version: 0.6.0-dev (build 11457, commit 5ad1c5da0)\nbuilt with Clang 20.1.8 for Windows x86_64\n"
+    },
+    "list_devices_check": {
+      "command": [
+        "llama-server.exe",
+        "--list-devices"
+      ],
+      "return_code": 0,
+      "stdout": "Available devices:\n  Vulkan0: NVIDIA GeForce RTX 3070 (8017 MiB, 7249 MiB free)\n",
+      "stderr": ""
+    },
+    "model_loaded": false,
+    "inference_performed": false,
+    "cpu_fallback": {
+      "cpu_backend_dll_count": 14,
+      "cpu_backend_dlls": [
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-alderlake.dll",
+          "size_bytes": 1435136,
+          "sha256": "78ebb16fde99118aaa6c41283886cbb086aaa38b578576153d871d47a9b4b074",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-cannonlake.dll",
+          "size_bytes": 1614848,
+          "sha256": "d2c7cc29f6320666160cd38ee5b5472f9aa8a2c60c6a3298f54176cff9842a76",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-cascadelake.dll",
+          "size_bytes": 1599488,
+          "sha256": "ef0755bc2704e04b99f062c417b64daa6296a4ca56442cf9722f5f9770d828e1",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-cooperlake.dll",
+          "size_bytes": 1609216,
+          "sha256": "97071ee051bf9ac08cf3e38f2534b77390200d23d61836df584de4c61a7d3e95",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-haswell.dll",
+          "size_bytes": 1439744,
+          "sha256": "d686c1a8014fcfa8c6b2738d7451a831769e45d6a8fcc852d4651c3d917eb379",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-icelake.dll",
+          "size_bytes": 1606656,
+          "sha256": "9b73a2faaaa385911d63d59070348c199c95721514c2eb86a0a37a9d2bd2d68e",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-ivybridge.dll",
+          "size_bytes": 1315328,
+          "sha256": "b5df29b7db063c39df4544e22e1bec17a9b206db263328b21cbca7854429f138",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-piledriver.dll",
+          "size_bytes": 1308160,
+          "sha256": "62db0ef30397e78bb5e0e0724d07c47039a8bdddbf0806207702471cdef9d837",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-sandybridge.dll",
+          "size_bytes": 1290240,
+          "sha256": "04045ac77ac476a22fa577ccc4557d47cbb7cc49189aab91934af1721b9e6258",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-sapphirerapids.dll",
+          "size_bytes": 1886208,
+          "sha256": "a746e666e73e1cd96d51c3f165828698820b675d7ab37288944486c88fcf710d",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-skylakex.dll",
+          "size_bytes": 1608704,
+          "sha256": "09e8b138c0c7751dedf567c837fd3d98fd0482c7e7d9f9775fe3ed98110bd689",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-sse42.dll",
+          "size_bytes": 915968,
+          "sha256": "6c926733c9981b33981f4e485760f731342c1a94ab1b3207bc9a32fd47f7b89a",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-x64.dll",
+          "size_bytes": 908800,
+          "sha256": "8990105cf8af3a9f8362a7adb66d5ce587d865888259af146077bd8ca5ed86ae",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-zen4.dll",
+          "size_bytes": 1615872,
+          "sha256": "a1684d0f3f49de254ccb1a40557bf6c5b8e5bc9eaff47d42c04c707ff56d82c8",
+          "kind": "dynamic_library"
+        }
+      ],
+      "no_offload_option": "--device none",
+      "option_help_excerpt": "-dev,  --device <dev1,dev2,..>          comma-separated list of devices to use for offloading (none = don't\n                                        offload)\n                                        use --list-devices to see a list of available devices",
+      "option_check": {
+        "command": [
+          "llama-server.exe",
+          "--device",
+          "none",
+          "--version"
+        ],
+        "return_code": 0,
+        "stdout": "",
+        "stderr": "version: 0.6.0-dev (build 11457, commit 5ad1c5da0)\nbuilt with Clang 20.1.8 for Windows x86_64\n"
+      },
+      "inference_tested": false
+    },
+    "backend_inventory": {
+      "vulkan_dlls": [
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-vulkan.dll",
+          "size_bytes": 45305856,
+          "sha256": "29e894b75489d149269b8e5a1b0a102b82e58f846322b6ea441d2af293aeee74",
+          "kind": "dynamic_library"
+        }
+      ],
+      "cpu_backend_dll_count": 14,
+      "cpu_backend_dlls": [
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-alderlake.dll",
+          "size_bytes": 1435136,
+          "sha256": "78ebb16fde99118aaa6c41283886cbb086aaa38b578576153d871d47a9b4b074",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-cannonlake.dll",
+          "size_bytes": 1614848,
+          "sha256": "d2c7cc29f6320666160cd38ee5b5472f9aa8a2c60c6a3298f54176cff9842a76",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-cascadelake.dll",
+          "size_bytes": 1599488,
+          "sha256": "ef0755bc2704e04b99f062c417b64daa6296a4ca56442cf9722f5f9770d828e1",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-cooperlake.dll",
+          "size_bytes": 1609216,
+          "sha256": "97071ee051bf9ac08cf3e38f2534b77390200d23d61836df584de4c61a7d3e95",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-haswell.dll",
+          "size_bytes": 1439744,
+          "sha256": "d686c1a8014fcfa8c6b2738d7451a831769e45d6a8fcc852d4651c3d917eb379",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-icelake.dll",
+          "size_bytes": 1606656,
+          "sha256": "9b73a2faaaa385911d63d59070348c199c95721514c2eb86a0a37a9d2bd2d68e",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-ivybridge.dll",
+          "size_bytes": 1315328,
+          "sha256": "b5df29b7db063c39df4544e22e1bec17a9b206db263328b21cbca7854429f138",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-piledriver.dll",
+          "size_bytes": 1308160,
+          "sha256": "62db0ef30397e78bb5e0e0724d07c47039a8bdddbf0806207702471cdef9d837",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-sandybridge.dll",
+          "size_bytes": 1290240,
+          "sha256": "04045ac77ac476a22fa577ccc4557d47cbb7cc49189aab91934af1721b9e6258",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-sapphirerapids.dll",
+          "size_bytes": 1886208,
+          "sha256": "a746e666e73e1cd96d51c3f165828698820b675d7ab37288944486c88fcf710d",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-skylakex.dll",
+          "size_bytes": 1608704,
+          "sha256": "09e8b138c0c7751dedf567c837fd3d98fd0482c7e7d9f9775fe3ed98110bd689",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-sse42.dll",
+          "size_bytes": 915968,
+          "sha256": "6c926733c9981b33981f4e485760f731342c1a94ab1b3207bc9a32fd47f7b89a",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-x64.dll",
+          "size_bytes": 908800,
+          "sha256": "8990105cf8af3a9f8362a7adb66d5ce587d865888259af146077bd8ca5ed86ae",
+          "kind": "dynamic_library"
+        },
+        {
+          "path": "tools/llama.cpp/b11457-vulkan/ggml-cpu-zen4.dll",
+          "size_bytes": 1615872,
+          "sha256": "a1684d0f3f49de254ccb1a40557bf6c5b8e5bc9eaff47d42c04c707ff56d82c8",
+          "kind": "dynamic_library"
+        }
+      ],
+      "cuda_runtime_files": []
+    }
+  }
+}

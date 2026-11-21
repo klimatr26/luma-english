@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0-android37.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ApplicationTitle>Writing Lab</ApplicationTitle>
+    <ApplicationId>org.kevinlima.writinglab</ApplicationId>
+    <ApplicationVersion>7</ApplicationVersion>
+    <ApplicationDisplayVersion>0.1.6</ApplicationDisplayVersion>
+    <SupportedOSPlatformVersion>26.0</SupportedOSPlatformVersion>
+    <AndroidTargetSdkVersion>37</AndroidTargetSdkVersion>
+    <RuntimeIdentifiers>android-arm64;android-x64</RuntimeIdentifiers>
+    <AndroidPackageFormats>apk</AndroidPackageFormats>
+    <AndroidCreatePackagePerAbi>false</AndroidCreatePackagePerAbi>
+    <PublishTrimmed>false</PublishTrimmed>
+    <!-- Prevent XALNS7015 when the CoreCLR Android linker patches R2R Java bindings. -->
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(WritingDiagnostics)' == 'true'">
+    <DefineConstants>$(DefineConstants);WRITING_DIAGNOSTICS</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia.Android" Version="12.1.5" />
+    <ProjectReference Include="..\WritingApp.UI\WritingApp.UI.csproj" />
+    <ProjectReference Include="..\WritingApp.Shared\WritingApp.Shared.csproj" />
+    <ProjectReference Include="..\WritingApp.Native\WritingApp.Native.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidNativeLibrary Include="$(WritingNativeRoot)/android-arm64-v8a/*.so" Abi="arm64-v8a" />
+    <AndroidNativeLibrary Include="$(WritingNativeRoot)/android-x86_64/*.so" Abi="x86_64" />
+    <AndroidAsset Include="$(WritingNativeRoot)/turnip-runtime.zip" Link="turnip-runtime.zip" />
+    <AndroidAsset Include="$(WritingNativeRoot)/turnip-notices/*" Link="third-party/%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

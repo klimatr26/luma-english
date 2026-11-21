@@ -1,0 +1,189 @@
+{
+  "schema_version": "writing_lab.android_environment/1.0",
+  "observed_at": "2026-11-09T23:02:02Z",
+  "dotnet": {
+    "sdk": "11.0.100-rc.3.26522.148",
+    "isolated_dotnet_root": "cross_demo/.tools/dotnet11",
+    "isolated_cli_home": "cross_demo/.tools/dotnet-home",
+    "android_workload": "android",
+    "android_workload_manifest_sdk": "11.0.100-preview.6",
+    "android_workload_manifest_package": "microsoft.net.sdk.android",
+    "android_workload_manifest_version": "37.0.0-preview.6.59",
+    "android_manifest_for_rc3": false,
+    "manifest_source_path": "C:\\Program Files\\dotnet\\sdk-manifests\\11.0.100-preview.6\\microsoft.net.sdk.android\\37.0.0-preview.6.59",
+    "manifest_isolated_path": "cross_demo/.tools/dotnet11/sdk-manifests/11.0.100-preview.6/microsoft.net.sdk.android/37.0.0-preview.6.59",
+    "manifest_files_sha256": {
+      "WorkloadDependencies.json": "F9F497E239AB5A5D521A2E0AEF5C7810B8A09CE67E0ED378BF36EA5DE955A3C7",
+      "WorkloadManifest.json": "6A9823ED25D02F01C4D178DE22E6669D57F0408E188F3BABF59BE6138A3749FA",
+      "WorkloadManifest.targets": "860761BFD6FF309CB3AE92E86CFD02D7713CE45F19FE6843AE43E5E1674592DB"
+    },
+    "android_workload_installed_packs": [
+      "Microsoft.Android.Sdk.Windows/37.0.0-preview.6.59",
+      "Microsoft.Android.Ref.37/37.0.0-preview.6.59",
+      "Microsoft.Android.Runtime.37.android/37.0.0-preview.6.59",
+      "Microsoft.Android.Runtime.CoreCLR.37.android-arm64/37.0.0-preview.6.59",
+      "Microsoft.Android.Runtime.CoreCLR.37.android-x64/37.0.0-preview.6.59"
+    ],
+    "apk_runtime": "CoreCLR/JIT",
+    "apk_runtime_libraries": ["libcoreclr.so", "libclrjit.so", "libmonodroid.so"],
+    "apk_contains_libmonosgen": false,
+    "publish_ready_to_run": false,
+    "native_aot_used": false,
+    "toolchain_note": "Experimental combination: .NET 11 RC3 SDK/runtime packs with the installed VS Preview 6 Android API 37 manifest; not an all-RC3 official Android workload."
+  },
+  "android_studio": {
+    "version": "2025.2.3",
+    "build": "AI-252.28238.7.2523.14688667",
+    "updated_for_task": false
+  },
+  "android_sdk": {
+    "path": "C:\\Users\\Kevin\\AppData\\Local\\Android\\Sdk",
+    "platforms": ["android-36", "android-37.0"],
+    "build_tools": ["36.1.0", "37.0.0"],
+    "platform_tools": "36.0.2-14143358",
+    "emulator_package": "36.3.10",
+    "ndk": ["29.0.14206865"],
+    "sdkmanager_available_at": "C:\\Program Files (x86)\\Android\\android-sdk\\cmdline-tools\\latest\\bin\\sdkmanager.bat",
+    "platform_37_and_build_tools_37_installed_without_new_license_acceptance": true,
+    "global_dotnet_workload_updated": false
+  },
+  "java": {
+    "android_studio_jdk": "C:\\Program Files\\Android\\Android Studio\\jbr",
+    "android_studio_jdk_version": "21.0.8",
+    "path_jdk_version": "25.0.5",
+    "java_home_set_before_task": false
+  },
+  "avd": {
+    "name": "Medium_Phone_API_36.1",
+    "image": "google_apis_playstore",
+    "abi": "x86_64",
+    "original_configured_memory_mib": 2048,
+    "original_data_partition_gib": 6,
+    "runtime_options": ["-memory 4096", "-read-only", "-no-snapshot-save", "-no-window", "-no-audio", "-no-boot-anim"],
+    "original_avd_configuration_changed": false,
+    "state_after_task": "stopped; read-only temporary overlay discarded",
+    "test_app_data_persisted_after_shutdown": false,
+    "exported_session_screenshots_and_logs_pulled_before_shutdown": true
+  },
+  "scripts": {
+    "default_android_build_output": "cross_demo/artifacts/android-final",
+    "default_emulator_apk": "cross_demo/artifacts/android-final/org.kevinlima.writinglab-Signed.apk",
+    "emulator_script_selects_latest_apk": false
+  },
+  "build_target": {
+    "framework": "net11.0-android37.0",
+    "application_id": "org.kevinlima.writinglab",
+    "minimum_android_api": 26,
+    "target_android_api": 37,
+    "runtime_identifiers": ["android-arm64", "android-x64"],
+    "package_format": "APK",
+    "extract_native_libs": true
+  },
+  "host_builds": {
+    "preliminary_ui_only_apk": {
+      "path": "cross_demo/artifacts/android/org.kevinlima.writinglab-Signed.apk",
+      "size_bytes": 108289156,
+      "contains_native_inference_libraries": false,
+      "emulator_failure": "AppCompat theme missing; fixed before subsequent builds."
+    },
+    "cpu_candidate_apk": {
+      "path": "cross_demo/artifacts/android-cpu/org.kevinlima.writinglab-Signed.apk",
+      "size_bytes": 167341379,
+      "contains_cpu_engine_for_both_abis": true,
+      "used_for_one_android_inference": true
+    },
+    "final_apk": {
+      "path": "cross_demo/artifacts/android-final/org.kevinlima.writinglab-Signed.apk",
+      "size_bytes": 176296160,
+      "sha256": "0761B54B7A4FEBBBE738BC814894AD81D193B778F1919C044498D119E2311983",
+      "build_succeeded": true,
+      "package_verified": "org.kevinlima.writinglab",
+      "signature_schemes_verified": ["v2", "v3"],
+      "zipalign_verified": true,
+      "signing_key": "Local Android debug/development key; this APK is not signed for production distribution. No private key material is recorded.",
+      "runtime_libraries_per_abi": ["libcoreclr.so", "libclrjit.so", "libmonodroid.so"],
+      "native_engine_libraries_per_abi": ["libwriting_llama_bridge.so", "libllama.so", "libllama-common.so", "libggml.so", "libggml-base.so", "libggml-cpu.so", "libc++_shared.so"],
+      "vulkan_plugin": {
+        "library": "libggml-vulkan.so",
+        "included_abi": "arm64-v8a",
+        "size_bytes": 31334096,
+        "sha256": "0EF0C45EB1F23DFC91C48F477814BAE2ABAC9EF46876E740E87339F722078F9D",
+        "linked_against_android_api": 28,
+        "x86_64_included": false,
+        "tested_on_android": false,
+        "physical_gpu_tested": false,
+        "note": "The core and CPU backend target API 26. The Vulkan plugin is packaged only for ARM64 and was not run on the x86_64 emulator or a physical device."
+      }
+    }
+  },
+  "android_emulator_verification": {
+    "device": "emulator-5554",
+    "final_apk_installed_with_reinstall": true,
+    "final_app_started_and_stayed_running": true,
+    "app_process_after_final_update": "11310 at observation",
+    "app_private_model_cache_survived_update": true,
+    "model_found_after_removing_public_test_copy": true,
+    "final_apk_cpu_load_after_update": "success; UI reported CPU effective and 0 GPU layers",
+    "final_apk_inference_replayed": false,
+    "final_apk_vulkan_exercised": false,
+    "emulator_stopped_after_evidence_capture": true,
+    "mem_available_after_final_cpu_load_bytes": 2187833344,
+    "temporary_storage_cleanup": {
+      "deleted_exact_path": "/sdcard/Download/LFM2.5-1.2B-Instruct-Q4_K_M.gguf",
+      "size_bytes": 730895168,
+      "sha256": "b1b3de114215d9507409a662a501a631095a479a419584e8a2ded6304b19b4f5",
+      "data_partition_free_before_bytes_approx": 416284672,
+      "data_partition_free_after_bytes_approx": 1073741824,
+      "other_downloads_and_app_private_model_cache_preserved": true
+    }
+  },
+  "cpu_inference_evidence": {
+    "apk_under_test": "cross_demo/artifacts/android-cpu/org.kevinlima.writinglab-Signed.apk",
+    "model": "LFM2.5-1.2B-Instruct-Q4_K_M.gguf",
+    "model_size_bytes": 730895168,
+    "model_sha256": "b1b3de114215d9507409a662a501a631095a479a419584e8a2ded6304b19b4f5",
+    "source": "Existing local GGUF; copied through ADB for import; no network download.",
+    "exercise_id": "demo-a1-my-day",
+    "level": "A1",
+    "backend_requested_and_effective": "CPU",
+    "device": "x86_64 emulator",
+    "context_tokens": 2048,
+    "maximum_attempts": 1,
+    "seed": 42,
+    "generation_seconds": 18.6524295,
+    "prompt_sha256": "6ee3fb6aa8428e11413ee372a80acc71f3e05ba93cd08bb8a5120d26faf9885f",
+    "offloaded_gpu_layers": 0,
+    "parse_status": "INCONSISTENT",
+    "result_summary": "The model marked the response correct but changed 'I wakes up...' to 'I wake up...', so the UI showed the inconsistency warning and retained raw output.",
+    "actual_model_generations": 1,
+    "pre_generation_empty_input_validation": "One earlier Evaluate tap failed validation before inference; it produced no model generation or session attempt.",
+    "not_a_benchmark": true
+  },
+  "session_export": {
+    "candidate_save_picker_worked": true,
+    "candidate_export_filename": "writing-session-20261109-224817.json.json",
+    "candidate_export_filename_bug_fixed_in_final_source": true,
+    "final_apk_export_retested": false,
+    "reason_final_export_not_retested": "The app does not restore the previous session into the UI after package restart; no new inference was authorized. The exported session JSON is preserved in the evidence folder.",
+    "exported_session_evidence": "logs/cross_demo/android/android_cpu_lfm12_session.json"
+  },
+  "evidence": {
+    "directory": "logs/cross_demo/android/",
+    "notes": "logs/cross_demo/android/android_cpu_lfm12_notes.md",
+    "final_screen_asset": "cross_demo/docs/assets/android_demo_20261109.png",
+    "final_startup_screenshot": "logs/cross_demo/android/android_final_cache_continuity.png",
+    "final_cpu_load_screenshot": "logs/cross_demo/android/android_final_cache_loaded.png",
+    "cpu_result_screenshot": "logs/cross_demo/android/android_cpu_lfm12_result.png",
+    "cpu_model_load_logcat": "logs/cross_demo/android/android_cpu_lfm12_load_20261109.log",
+    "cpu_inference_logcat": "logs/cross_demo/android/android_cpu_lfm12_eval_20261109.log",
+    "final_startup_logcat": "logs/cross_demo/android/android_final_startup_20261109.log",
+    "final_cache_load_logcat": "logs/cross_demo/android/android_final_cache_load_20261109.log"
+  },
+  "notes": [
+    "Android SDK and JDK are selected process-locally by scripts/android_build.ps1; no machine-wide environment variables were changed.",
+    "Android Studio was not updated. The isolated setup copies a SHA-pinned VS Preview 6 API 37 Android workload manifest into the local RC3 SDK before installing the workload; if that source manifest is missing or hashes differ, setup stops instead of updating global workloads.",
+    "API 37 platform/build-tools and NDK 29.0.14206865 were installed in the user Android SDK without a new license acceptance. No Android Studio or global .NET workload update occurred.",
+    "Avalonia 12.1.5 Android activity lifetime/MainViewFactory and AppCompat theme fixes are in the final APK.",
+    "The emulator used a temporary 4 GiB read-only overlay. It was stopped after captures; the original AVD configuration and userdata were not wiped or changed."
+  ]
+}

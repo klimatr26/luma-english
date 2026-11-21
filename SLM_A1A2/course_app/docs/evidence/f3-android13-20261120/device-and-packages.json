@@ -1,0 +1,67 @@
+{
+  "purpose": "PHONE_INTEGRATION_NOT_BENCHMARK",
+  "firmware": "POCO/alioth_global/alioth:13/TKQ1.221114.001/V816.0.5.0.TKHMIXM:user/release-keys",
+  "api": 33,
+  "device": {
+    "Platform": "Android",
+    "Architecture": "arm64-v8a",
+    "TotalMemoryBytes": 7886557184,
+    "AvailableMemoryBytes": 2117615616,
+    "FreeStorageBytes": 14434062336,
+    "IsEmulator": false,
+    "GpuDescription": null
+  },
+  "hardware": {
+    "has_vulkan": true,
+    "description": "Vulkan detectado. La calibraci\u00f3n compara CPU, GPU y carga parcial antes de elegir.",
+    "fingerprint": "bf85b27dfd6dcabd927e3ea60804c32c9437198df1b4736e2dfebfaf4857992a"
+  },
+  "models": [
+    {
+      "path": "models/gemma4_e2b/unsloth_dynamic/gemma-4-E2B-it-qat-UD-Q4_K_XL.gguf",
+      "bytes": 2620370976,
+      "mtime_utc": "2026-11-20T23:06:56.9706460Z"
+    }
+  ],
+  "old_sessions": 0,
+  "observed_initial_package": {
+    "version": "0.1.2",
+    "code": 3,
+    "certificate_sha256": "53be4be7642bf02d09439c1bd990f4dd4fc3bacba6804e06d8d9195085851f00"
+  },
+  "normal_delivery": {
+    "version": "1.1.1",
+    "code": 100101,
+    "apk_sha256": "61cdf85d00a72f0eebbc140f05bdfeb29afb856b092c8034c3e171022c48e8ae"
+  },
+  "ui_diagnostics_apk_sha256": "fe40bad14aa240a3a859655b455c264eed24bf0e98285245136439ea0e41c546",
+  "device_properties": {
+    "model": "M2012K11AG",
+    "soc_model_property": "SM8250",
+    "display_physical_px": "1080x2400",
+    "density_dpi": 440,
+    "system_power_save": false,
+    "usb_powered": true,
+    "initial_battery_percent": 70,
+    "initial_battery_temperature_c": 29.7
+  },
+  "gemma_diagnostics_apk_sha256": "77960f8f49b9bbdd8ce9e3f192ee37eec8d074c895fc070bc01ea12e554c712d",
+  "minicpm_diagnostics_apk_sha256": "9a7d7a9b2a49dd601f5e4612d7e0eae3e9ca99bf41a830ea611b9b7f8e1835bb",
+  "legacy_data_tar_byte_identical": true,
+  "models_after_update": [
+    {
+      "path": "files/models/gemma4_e2b/unsloth_dynamic/gemma-4-E2B-it-qat-UD-Q4_K_XL.gguf",
+      "bytes": 2620370976,
+      "mtime_epoch": 1795216016
+    },
+    {
+      "path": "files/models/minicpm5_2b/MiniCPM5-2B-Q4_K_M.gguf",
+      "bytes": 1561318368,
+      "mtime_epoch": 1795219659
+    }
+  ],
+  "normal_debuggable": false,
+  "normal_run_as_rejected": true,
+  "user_confirmed_course_visible": true,
+  "normal_foreground_capture": "normal-course.png"
+}

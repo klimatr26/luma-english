@@ -1,0 +1,7 @@
+{
+  "status": "interrupted_not_a_valid_model",
+  "reason": "Harness shell timeout at 120 seconds; process terminated before conversion completed",
+  "archived_partial": "D:\\SLM_A1A2_models\\qwen_converted\\Qwen3.5-2B-F16.gguf.interrupted-20261006.partial",
+  "size_bytes": 1355967072,
+  "next_action": "Rerun reviewed recipe with timeout disabled; never use partial artifact for quantization/readiness"
+}

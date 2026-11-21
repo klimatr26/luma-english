@@ -1,0 +1,37 @@
+{
+  "repo": "LiquidAI/LFM2.5-2.6B-GGUF",
+  "revision": "e7caca5d835a3901a8e0d63e94009429bafafdfc",
+  "files": {
+    "LFM2.5-2.6B-Q4_K_M.gguf": {
+      "rfilename": "LFM2.5-2.6B-Q4_K_M.gguf",
+      "blobId": "80142ef3a1217a3a018104d59cdae7241e60f48a",
+      "size": 1674455040,
+      "lfs": {
+        "sha256": "02a8b7e17487d326e46d68ce0ba24211e1b80a14c4cd0597fa73c1cd697f52ed",
+        "size": 1674455040,
+        "pointerSize": 135
+      }
+    },
+    "LFM2.5-2.6B-Q8_0.gguf": {
+      "rfilename": "LFM2.5-2.6B-Q8_0.gguf",
+      "blobId": "024ac277f386ae966a524c1e0a24472ff7a10a27",
+      "size": 2874779648,
+      "lfs": {
+        "sha256": "1e22128dfa128bdfb684da167e74e072d0a056baa7d06d9f280291e2839b0fc9",
+        "size": 2874779648,
+        "pointerSize": 135
+      }
+    }
+  },
+  "license": "other",
+  "retrieved_date": "2026-10-11",
+  "readme_sha256": "d08b79260b3998e96792777085e4175b730667568f3a953ad4ac9099cfa27056",
+  "readme_url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF/raw/e7caca5d835a3901a8e0d63e94009429bafafdfc/README.md",
+  "license_name": "lfm1.0",
+  "license_link": "LICENSE",
+  "vendor_llama_cpp_generation": {
+    "temperature": 0.1,
+    "top_k": 50,
+    "repeat_penalty": 1.1
+  }
+}

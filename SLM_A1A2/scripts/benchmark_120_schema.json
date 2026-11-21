@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "benchmark_id",
+    "version",
+    "system_prompt",
+    "user_prompt_template",
+    "cases",
+    "metadata"
+  ],
+  "properties": {
+    "benchmark_id": {
+      "const": "writing_a1_a2_development_120_v1"
+    },
+    "version": {
+      "const": 1
+    },
+    "system_prompt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "user_prompt_template": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cases": {
+      "type": "array",
+      "minItems": 120,
+      "maxItems": 120,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "level",
+          "condition",
+          "task",
+          "student_text",
+          "gold",
+          "length_words",
+          "english_variant"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^A[12]-[EC][0-9]{3}$"
+          },
+          "level": {
+            "enum": [
+              "A1",
+              "A2"
+            ]
+          },
+          "condition": {
+            "enum": [
+              "correct",
+              "incorrect"
+            ]
+          },
+          "task": {
+            "type": "string",
+            "minLength": 1
+          },
+          "student_text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "english_variant": {
+            "type": "string",
+            "minLength": 1
+          },
+          "length_words": {
+            "type": "integer",
+            "minimum": 15,
+            "maximum": 100
+          },
+          "gold": {
+            "type": "object",
+            "required": [
+              "is_correct",
+              "corrected_text",
+              "errors",
+              "acceptable_alternatives"
+            ],
+            "properties": {
+              "is_correct": {
+                "type": "boolean"
+              },
+              "corrected_text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "errors": {
+                "type": "array",
+                "maxItems": 4,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "original",
+                    "correction",
+                    "acceptable_corrections",
+                    "type",
+                    "subtype",
+                    "explanation"
+                  ],
+                  "properties": {
+                    "original": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "correction": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "subtype": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "explanation": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "type": {
+                      "enum": [
+                        "ARTICLE",
+                        "BASIC_CONNECTOR",
+                        "BASIC_FUTURE",
+                        "BASIC_LEXICAL_CHOICE",
+                        "BASIC_MODAL",
+                        "BE_FORM",
+                        "CAPITALIZATION",
+                        "COMPARATIVE",
+                        "CONTRACTION",
+                        "COUNTABLE_UNCOUNTABLE",
+                        "MUCH_MANY",
+                        "NEGATION",
+                        "OBJECT_PRONOUN",
+                        "PAST_SIMPLE",
+                        "POSSESSIVE",
+                        "PREPOSITION_PLACE",
+                        "PREPOSITION_TIME",
+                        "PRESENT_CONTINUOUS",
+                        "PRESENT_PERFECT",
+                        "PRESENT_SIMPLE",
+                        "PUNCTUATION",
+                        "QUESTION_FORM",
+                        "SINGULAR_PLURAL",
+                        "SOME_ANY",
+                        "SPELLING",
+                        "SUBJECT_PRONOUN",
+                        "SUBJECT_VERB_AGREEMENT",
+                        "SUPERLATIVE",
+                        "VERB_PATTERN",
+                        "VERB_PREPOSITION",
+                        "WORD_ORDER"
+                      ]
+                    },
+                    "acceptable_corrections": {
+                      "type": "array",
+                      "minItems": 1,
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "acceptable_alternatives": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

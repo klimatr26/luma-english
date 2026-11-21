@@ -1,0 +1,228 @@
+{
+  "schema_version": "human_review_clarifications/1.0",
+  "status": "USER_CONFIRMED",
+  "source_backup_sha256": "91a638c9725894144a0b1307af9441c9eca2e40b6423263ab71a454e2b4dd24e",
+  "reviewer_id": "kevin-01",
+  "clarification_date": "2026-11-09",
+  "confirmation": {
+    "first_four": "Aclaraciones explícitas del investigador en el chat: originales correctos, 2/true aceptable, observaciones de tono/feedback como preferencias.",
+    "last_four_proposal": "Gemma A2-C013: CORRECT, manejo=2, explicación=2/true, objeto errors vacío como formato aparte. Qwen A2-C013: INCORRECT, manejo=0 y demás notas intactas. Qwen A2-C008/C010: PARTIAL, manejo=0 y demás notas intactas. En los cuatro, detección/corrección NA por ser controles.",
+    "user_reply_verbatim": "Sí, esas notas reflejan mi juicio"
+  },
+  "review_dates_in_backup_preserved": true,
+  "original_rationales_preserved": true,
+  "case_invalidations_applied": false,
+  "changes": [
+    {
+      "blind_output_id": "br-a7ebb5a7d231d1f96b2c4acf",
+      "label": "MiniCPM / A1-C006",
+      "patches": [
+        {
+          "field": "original_has_errors",
+          "before": true,
+          "after": false
+        },
+        {
+          "field": "review.detection",
+          "before": 2,
+          "after": "NA"
+        },
+        {
+          "field": "review.correction",
+          "before": 2,
+          "after": "NA"
+        },
+        {
+          "field": "review.clean_text_handling",
+          "before": "NA",
+          "after": 2
+        }
+      ],
+      "clarification": "Es correcto; la observación sobre hablar al evaluador es una preferencia de destinatario, no un error del original."
+    },
+    {
+      "blind_output_id": "br-37fe38ffb4a2d3a592c3072c",
+      "label": "Gemma / A2-C001",
+      "patches": [
+        {
+          "field": "original_has_errors",
+          "before": true,
+          "after": false
+        },
+        {
+          "field": "review.detection",
+          "before": 2,
+          "after": "NA"
+        },
+        {
+          "field": "review.correction",
+          "before": 2,
+          "after": "NA"
+        },
+        {
+          "field": "review.clean_text_handling",
+          "before": "NA",
+          "after": 2
+        }
+      ],
+      "clarification": "Es correcto. Evitar mencionar el nivel innecesariamente es una preferencia; el investigador admite 2/true."
+    },
+    {
+      "blind_output_id": "br-67ebb6cf58f204c9d1b2b81b",
+      "label": "Gemma / A2-C003",
+      "patches": [
+        {
+          "field": "original_has_errors",
+          "before": true,
+          "after": false
+        },
+        {
+          "field": "review.detection",
+          "before": 2,
+          "after": "NA"
+        },
+        {
+          "field": "review.correction",
+          "before": 2,
+          "after": "NA"
+        },
+        {
+          "field": "review.clean_text_handling",
+          "before": "NA",
+          "after": 2
+        }
+      ],
+      "clarification": "Similar a A2-C001: el comentario de nivel no obliga a penalizar la corrección."
+    },
+    {
+      "blind_output_id": "br-3ea9d9bb642cc426c073a910",
+      "label": "Qwen / A2-C014",
+      "patches": [
+        {
+          "field": "original_has_errors",
+          "before": true,
+          "after": false
+        },
+        {
+          "field": "review.detection",
+          "before": 2,
+          "after": "NA"
+        },
+        {
+          "field": "review.correction",
+          "before": 2,
+          "after": "NA"
+        },
+        {
+          "field": "review.clean_text_handling",
+          "before": "NA",
+          "after": 2
+        }
+      ],
+      "clarification": "El feedback vacío en un texto correcto es aceptable; el investigador mantiene la convención 2/true."
+    },
+    {
+      "blind_output_id": "br-930f5c918cb6fb7df4cc9585",
+      "label": "Gemma / A2-C013",
+      "patches": [
+        {
+          "field": "original_has_errors",
+          "before": true,
+          "after": false
+        },
+        {
+          "field": "review.detection",
+          "before": 0,
+          "after": "NA"
+        },
+        {
+          "field": "review.correction",
+          "before": 0,
+          "after": "NA"
+        },
+        {
+          "field": "review.clean_text_handling",
+          "before": "NA",
+          "after": 2
+        },
+        {
+          "field": "review.grammatical_explanation",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "review.explanations_ok",
+          "before": false,
+          "after": true
+        },
+        {
+          "field": "review.verdict",
+          "before": "INVALID_CASE",
+          "after": "CORRECT"
+        }
+      ],
+      "clarification": "Juicio lingüístico CORRECT confirmado. El objeto vacío de errors se registra como problema de formato/coherencia aparte."
+    },
+    {
+      "blind_output_id": "br-f1a74afb9b236138b2f3284c",
+      "label": "Qwen / A2-C013",
+      "patches": [
+        {
+          "field": "original_has_errors",
+          "before": true,
+          "after": false
+        },
+        {
+          "field": "review.detection",
+          "before": 1,
+          "after": "NA"
+        },
+        {
+          "field": "review.correction",
+          "before": 1,
+          "after": "NA"
+        },
+        {
+          "field": "review.clean_text_handling",
+          "before": "NA",
+          "after": 0
+        }
+      ],
+      "clarification": "Se mantiene INCORRECT y las demás notas: propone come back one way como corrección y no la aplica en corrected_text."
+    },
+    {
+      "blind_output_id": "br-275d5b7e5d4e674060fc17ca",
+      "label": "Qwen / A2-C008",
+      "patches": [
+        {
+          "field": "review.clean_text_handling",
+          "before": 2,
+          "after": 0
+        },
+        {
+          "field": "review.verdict",
+          "before": "INVALID_CASE",
+          "after": "PARTIAL"
+        }
+      ],
+      "clarification": "Consejo potencialmente útil, pero is_correct=false lo presenta como error. Se conserva el caso."
+    },
+    {
+      "blind_output_id": "br-6c387cee83684e65184d3746",
+      "label": "Qwen / A2-C010",
+      "patches": [
+        {
+          "field": "review.clean_text_handling",
+          "before": 2,
+          "after": 0
+        },
+        {
+          "field": "review.verdict",
+          "before": "INVALID_CASE",
+          "after": "PARTIAL"
+        }
+      ],
+      "clarification": "Consejo potencialmente útil, pero is_correct=false lo presenta como error. Se conserva el caso."
+    }
+  ]
+}

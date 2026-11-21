@@ -1,0 +1,13 @@
+{
+  "events": [
+    {
+      "kind": "prelaunch_gate_failure",
+      "phase": "development_120",
+      "reason": "Initial command executed from repository root; relative tools path unresolved. Runner refused before model spawn or inference.",
+      "requests_sent": 0,
+      "resolution": "Use workdir C:/Users/Kevin/Desktop/code/U/IA/SLM_A1A2. No manifest, weights, templates or generation change.",
+      "parameters_changed": false
+    }
+  ],
+  "written_utc": "2026-10-11T17:18:35.336060+00:00"
+}

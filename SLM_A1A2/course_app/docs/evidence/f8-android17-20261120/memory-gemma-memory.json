@@ -1,0 +1,1094 @@
+{
+  "original_sha256": "d08f1a4cf8f53fb04ace4a1ab7b62a6557a9db832d5d8d67c3249820144ed929",
+  "original_birth_utc": "2026-11-20T23:14:42.149384+00:00",
+  "samples": [
+    {
+      "elapsed_s": 0.3390398999908939,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "274180 kB",
+          "VmRSS": "274180 kB",
+          "Pss": "183392 kB",
+          "SwapPss": "401 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:14:42.488424+00:00"
+    },
+    {
+      "elapsed_s": 3.788355299999239,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "439272 kB",
+          "Pss": "318721 kB",
+          "SwapPss": "314 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:14:45.937740+00:00"
+    },
+    {
+      "elapsed_s": 7.266877000001841,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "426684 kB",
+          "Pss": "306255 kB",
+          "SwapPss": "314 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:14:49.416261+00:00"
+    },
+    {
+      "elapsed_s": 10.78742369999236,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "380644 kB",
+          "Pss": "260917 kB",
+          "SwapPss": "29955 kB"
+        },
+        {
+          "pid": 16379,
+          "Name": "libwriting_work",
+          "VmHWM": "3125552 kB",
+          "VmRSS": "3125552 kB",
+          "Pss": "3130402 kB",
+          "SwapPss": "0 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:14:52.936808+00:00"
+    },
+    {
+      "elapsed_s": 14.370219599994016,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "293628 kB",
+          "Pss": "176063 kB",
+          "SwapPss": "115523 kB"
+        },
+        {
+          "pid": 16379,
+          "Name": "libwriting_work",
+          "VmHWM": "3998656 kB",
+          "VmRSS": "3998656 kB",
+          "Pss": "3995879 kB",
+          "SwapPss": "0 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:14:56.519604+00:00"
+    },
+    {
+      "elapsed_s": 17.87876329998835,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "293684 kB",
+          "Pss": "176113 kB",
+          "SwapPss": "115519 kB"
+        },
+        {
+          "pid": 16379,
+          "Name": "libwriting_work",
+          "VmHWM": "4001476 kB",
+          "VmRSS": "4001476 kB",
+          "Pss": "3998700 kB",
+          "SwapPss": "0 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:00.028147+00:00"
+    },
+    {
+      "elapsed_s": 21.438654300000053,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "290388 kB",
+          "Pss": "172799 kB",
+          "SwapPss": "115315 kB"
+        },
+        {
+          "pid": 16379,
+          "Name": "libwriting_work",
+          "VmHWM": "4001480 kB",
+          "VmRSS": "4001480 kB",
+          "Pss": "3998699 kB",
+          "SwapPss": "0 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:03.588038+00:00"
+    },
+    {
+      "elapsed_s": 24.864468999992823,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "328500 kB",
+          "Pss": "239000 kB",
+          "SwapPss": "113651 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:07.013853+00:00"
+    },
+    {
+      "elapsed_s": 28.368963399989298,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "324448 kB",
+          "Pss": "207124 kB",
+          "SwapPss": "113623 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:10.518348+00:00"
+    },
+    {
+      "elapsed_s": 31.903646399994614,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "324348 kB",
+          "Pss": "206743 kB",
+          "SwapPss": "113243 kB"
+        },
+        {
+          "pid": 17168,
+          "Name": "libwriting_work",
+          "VmHWM": "174428 kB",
+          "VmRSS": "107132 kB",
+          "Pss": "104334 kB",
+          "SwapPss": "0 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:14.053031+00:00"
+    },
+    {
+      "elapsed_s": 35.53786689999106,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "289652 kB",
+          "Pss": "173415 kB",
+          "SwapPss": "122168 kB"
+        },
+        {
+          "pid": 17200,
+          "Name": "libwriting_work",
+          "VmHWM": "807556 kB",
+          "VmRSS": "807556 kB",
+          "Pss": "816586 kB",
+          "SwapPss": "0 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:17.687251+00:00"
+    },
+    {
+      "elapsed_s": 38.90961519999837,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "217128 kB",
+          "Pss": "102311 kB",
+          "SwapPss": "174449 kB"
+        },
+        {
+          "pid": 17200,
+          "Name": "libwriting_work",
+          "VmHWM": "1648156 kB",
+          "VmRSS": "1641220 kB",
+          "Pss": "1638538 kB",
+          "SwapPss": "58020 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:21.059000+00:00"
+    },
+    {
+      "elapsed_s": 42.57388949999586,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "217676 kB",
+          "Pss": "102800 kB",
+          "SwapPss": "173989 kB"
+        },
+        {
+          "pid": 17200,
+          "Name": "libwriting_work",
+          "VmHWM": "1648156 kB",
+          "VmRSS": "1647044 kB",
+          "Pss": "1644364 kB",
+          "SwapPss": "56460 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:24.723274+00:00"
+    },
+    {
+      "elapsed_s": 45.89529999998922,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "217908 kB",
+          "Pss": "103035 kB",
+          "SwapPss": "172845 kB"
+        },
+        {
+          "pid": 17200,
+          "Name": "libwriting_work",
+          "VmHWM": "1648156 kB",
+          "VmRSS": "1647164 kB",
+          "Pss": "1644483 kB",
+          "SwapPss": "56360 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:28.044684+00:00"
+    },
+    {
+      "elapsed_s": 49.599136199991335,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "216628 kB",
+          "Pss": "101747 kB",
+          "SwapPss": "172405 kB"
+        },
+        {
+          "pid": 17200,
+          "Name": "libwriting_work",
+          "VmHWM": "1648156 kB",
+          "VmRSS": "1647324 kB",
+          "Pss": "1644647 kB",
+          "SwapPss": "56224 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:31.748520+00:00"
+    },
+    {
+      "elapsed_s": 53.13959330000216,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "252572 kB",
+          "Pss": "136683 kB",
+          "SwapPss": "141612 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:35.288978+00:00"
+    },
+    {
+      "elapsed_s": 56.61808210000163,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "242864 kB",
+          "Pss": "127034 kB",
+          "SwapPss": "141380 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:38.767466+00:00"
+    },
+    {
+      "elapsed_s": 60.15822630000184,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "267996 kB",
+          "Pss": "152799 kB",
+          "SwapPss": "140264 kB"
+        },
+        {
+          "pid": 17799,
+          "Name": "libwriting_work",
+          "VmHWM": "167604 kB",
+          "VmRSS": "100084 kB",
+          "Pss": "97470 kB",
+          "SwapPss": "0 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:42.307611+00:00"
+    },
+    {
+      "elapsed_s": 63.767347299988614,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "261904 kB",
+          "Pss": "147080 kB",
+          "SwapPss": "145029 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4019636 kB",
+          "VmRSS": "4019636 kB",
+          "Pss": "4016833 kB",
+          "SwapPss": "0 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:45.916732+00:00"
+    },
+    {
+      "elapsed_s": 67.32257360000222,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "258696 kB",
+          "Pss": "143870 kB",
+          "SwapPss": "145029 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023500 kB",
+          "VmRSS": "4023500 kB",
+          "Pss": "4020697 kB",
+          "SwapPss": "0 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:49.471958+00:00"
+    },
+    {
+      "elapsed_s": 70.9269110999885,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "258096 kB",
+          "Pss": "143270 kB",
+          "SwapPss": "145029 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023508 kB",
+          "VmRSS": "4023508 kB",
+          "Pss": "4020705 kB",
+          "SwapPss": "0 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:53.076295+00:00"
+    },
+    {
+      "elapsed_s": 74.48387749999529,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "257776 kB",
+          "Pss": "142950 kB",
+          "SwapPss": "145029 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023512 kB",
+          "VmRSS": "4023512 kB",
+          "Pss": "4020710 kB",
+          "SwapPss": "0 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:15:56.633262+00:00"
+    },
+    {
+      "elapsed_s": 78.09595829999307,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "257848 kB",
+          "Pss": "143021 kB",
+          "SwapPss": "145029 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023520 kB",
+          "VmRSS": "4023520 kB",
+          "Pss": "4020716 kB",
+          "SwapPss": "0 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:00.245342+00:00"
+    },
+    {
+      "elapsed_s": 82.02734169999894,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "274396 kB",
+          "Pss": "149488 kB",
+          "SwapPss": "139129 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023364 kB",
+          "VmRSS": "3983688 kB",
+          "Pss": "3977578 kB",
+          "SwapPss": "4804 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:04.176726+00:00"
+    },
+    {
+      "elapsed_s": 85.63548759999685,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "281720 kB",
+          "Pss": "156880 kB",
+          "SwapPss": "138213 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023364 kB",
+          "VmRSS": "3933860 kB",
+          "Pss": "3931055 kB",
+          "SwapPss": "23508 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:07.784872+00:00"
+    },
+    {
+      "elapsed_s": 89.28072169999359,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "281368 kB",
+          "Pss": "156516 kB",
+          "SwapPss": "138153 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023364 kB",
+          "VmRSS": "3933860 kB",
+          "Pss": "3931054 kB",
+          "SwapPss": "23508 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:11.430106+00:00"
+    },
+    {
+      "elapsed_s": 92.89434089999122,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "271784 kB",
+          "Pss": "146932 kB",
+          "SwapPss": "138101 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023364 kB",
+          "VmRSS": "3933860 kB",
+          "Pss": "3931055 kB",
+          "SwapPss": "23508 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:15.043725+00:00"
+    },
+    {
+      "elapsed_s": 96.48712739998882,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "272248 kB",
+          "Pss": "147394 kB",
+          "SwapPss": "138081 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023364 kB",
+          "VmRSS": "3930784 kB",
+          "Pss": "3927979 kB",
+          "SwapPss": "23508 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:18.636512+00:00"
+    },
+    {
+      "elapsed_s": 100.10846339999989,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "272484 kB",
+          "Pss": "147623 kB",
+          "SwapPss": "138069 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023364 kB",
+          "VmRSS": "3933860 kB",
+          "Pss": "3931054 kB",
+          "SwapPss": "23508 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:22.257848+00:00"
+    },
+    {
+      "elapsed_s": 103.67990570000256,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "272364 kB",
+          "Pss": "147565 kB",
+          "SwapPss": "138069 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023364 kB",
+          "VmRSS": "3919284 kB",
+          "Pss": "3916480 kB",
+          "SwapPss": "23508 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:25.829290+00:00"
+    },
+    {
+      "elapsed_s": 107.31645879999269,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "272112 kB",
+          "Pss": "147312 kB",
+          "SwapPss": "138069 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023364 kB",
+          "VmRSS": "3919284 kB",
+          "Pss": "3916478 kB",
+          "SwapPss": "23508 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:29.465843+00:00"
+    },
+    {
+      "elapsed_s": 110.97625649999827,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "273512 kB",
+          "Pss": "148712 kB",
+          "SwapPss": "132725 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023364 kB",
+          "VmRSS": "3916212 kB",
+          "Pss": "3913406 kB",
+          "SwapPss": "23508 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:33.125641+00:00"
+    },
+    {
+      "elapsed_s": 114.5642996999959,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "273568 kB",
+          "Pss": "148768 kB",
+          "SwapPss": "132725 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023364 kB",
+          "VmRSS": "3919288 kB",
+          "Pss": "3916483 kB",
+          "SwapPss": "23508 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:36.713684+00:00"
+    },
+    {
+      "elapsed_s": 118.17388489999576,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "273344 kB",
+          "Pss": "148573 kB",
+          "SwapPss": "132721 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023364 kB",
+          "VmRSS": "3907180 kB",
+          "Pss": "3904374 kB",
+          "SwapPss": "28204 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:40.323269+00:00"
+    },
+    {
+      "elapsed_s": 121.74873589999333,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "273432 kB",
+          "Pss": "148657 kB",
+          "SwapPss": "132721 kB"
+        },
+        {
+          "pid": 17829,
+          "Name": "libwriting_work",
+          "VmHWM": "4023364 kB",
+          "VmRSS": "3907180 kB",
+          "Pss": "3904375 kB",
+          "SwapPss": "28204 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:43.898120+00:00"
+    },
+    {
+      "elapsed_s": 125.3233659999969,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "275392 kB",
+          "Pss": "150635 kB",
+          "SwapPss": "132573 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "134988 kB",
+          "VmRSS": "134988 kB",
+          "Pss": "132356 kB",
+          "SwapPss": "0 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:47.472750+00:00"
+    },
+    {
+      "elapsed_s": 128.87919429999602,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "208180 kB",
+          "Pss": "94690 kB",
+          "SwapPss": "164463 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1665680 kB",
+          "VmRSS": "1660772 kB",
+          "Pss": "1658798 kB",
+          "SwapPss": "6712 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:51.028579+00:00"
+    },
+    {
+      "elapsed_s": 132.59343389999412,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "212576 kB",
+          "Pss": "98132 kB",
+          "SwapPss": "160415 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1691280 kB",
+          "VmRSS": "1682256 kB",
+          "Pss": "1679695 kB",
+          "SwapPss": "20216 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:54.742818+00:00"
+    },
+    {
+      "elapsed_s": 136.32881289999932,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "213212 kB",
+          "Pss": "98769 kB",
+          "SwapPss": "159651 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1691280 kB",
+          "VmRSS": "1682320 kB",
+          "Pss": "1679758 kB",
+          "SwapPss": "20216 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:16:58.478197+00:00"
+    },
+    {
+      "elapsed_s": 140.03953579999506,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "220368 kB",
+          "Pss": "105909 kB",
+          "SwapPss": "154675 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1691280 kB",
+          "VmRSS": "1682348 kB",
+          "Pss": "1679785 kB",
+          "SwapPss": "20216 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:17:02.188920+00:00"
+    },
+    {
+      "elapsed_s": 143.3188436999917,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "224972 kB",
+          "Pss": "110498 kB",
+          "SwapPss": "153727 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1691280 kB",
+          "VmRSS": "1689920 kB",
+          "Pss": "1687024 kB",
+          "SwapPss": "20216 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:17:05.468228+00:00"
+    },
+    {
+      "elapsed_s": 146.95927890000166,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "224780 kB",
+          "Pss": "110375 kB",
+          "SwapPss": "153683 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1692140 kB",
+          "VmRSS": "1685116 kB",
+          "Pss": "1682554 kB",
+          "SwapPss": "27768 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:17:09.108663+00:00"
+    },
+    {
+      "elapsed_s": 150.25283909999416,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "222440 kB",
+          "Pss": "108037 kB",
+          "SwapPss": "153683 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1692140 kB",
+          "VmRSS": "1685140 kB",
+          "Pss": "1682579 kB",
+          "SwapPss": "27768 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:17:12.402223+00:00"
+    },
+    {
+      "elapsed_s": 153.97149630000058,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "222664 kB",
+          "Pss": "108260 kB",
+          "SwapPss": "153591 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1692140 kB",
+          "VmRSS": "1685168 kB",
+          "Pss": "1682611 kB",
+          "SwapPss": "27768 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:17:16.120881+00:00"
+    },
+    {
+      "elapsed_s": 157.31154419999802,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "226212 kB",
+          "Pss": "111808 kB",
+          "SwapPss": "151739 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1692140 kB",
+          "VmRSS": "1685260 kB",
+          "Pss": "1682698 kB",
+          "SwapPss": "27768 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:17:19.460928+00:00"
+    },
+    {
+      "elapsed_s": 161.01067289999628,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "226104 kB",
+          "Pss": "111699 kB",
+          "SwapPss": "151707 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1692140 kB",
+          "VmRSS": "1685268 kB",
+          "Pss": "1682705 kB",
+          "SwapPss": "27768 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:17:23.160057+00:00"
+    },
+    {
+      "elapsed_s": 164.32002939999802,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "225852 kB",
+          "Pss": "111447 kB",
+          "SwapPss": "151635 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1692140 kB",
+          "VmRSS": "1685292 kB",
+          "Pss": "1682729 kB",
+          "SwapPss": "27768 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:17:26.469414+00:00"
+    },
+    {
+      "elapsed_s": 167.99554720000015,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "225720 kB",
+          "Pss": "111449 kB",
+          "SwapPss": "151659 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1692140 kB",
+          "VmRSS": "1677148 kB",
+          "Pss": "1674669 kB",
+          "SwapPss": "32872 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:17:30.144932+00:00"
+    },
+    {
+      "elapsed_s": 171.32886179999332,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "231880 kB",
+          "Pss": "117600 kB",
+          "SwapPss": "150531 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1692140 kB",
+          "VmRSS": "1680312 kB",
+          "Pss": "1677753 kB",
+          "SwapPss": "32872 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:17:33.478246+00:00"
+    },
+    {
+      "elapsed_s": 174.9930394999974,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "228564 kB",
+          "Pss": "114284 kB",
+          "SwapPss": "150531 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1692140 kB",
+          "VmRSS": "1680324 kB",
+          "Pss": "1677774 kB",
+          "SwapPss": "32872 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:17:37.142424+00:00"
+    },
+    {
+      "elapsed_s": 178.32528039999306,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "228636 kB",
+          "Pss": "114357 kB",
+          "SwapPss": "150531 kB"
+        },
+        {
+          "pid": 21984,
+          "Name": "libwriting_work",
+          "VmHWM": "1692140 kB",
+          "VmRSS": "1680348 kB",
+          "Pss": "1677792 kB",
+          "SwapPss": "32872 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:17:40.474665+00:00"
+    },
+    {
+      "elapsed_s": 181.61121529999946,
+      "processes": [
+        {
+          "pid": 16142,
+          "Name": "lima.writinglab",
+          "VmHWM": "609216 kB",
+          "VmRSS": "231400 kB",
+          "Pss": "117592 kB",
+          "SwapPss": "149475 kB"
+        },
+        {
+          "pid": 22642,
+          "Name": "libwriting_work",
+          "VmHWM": "41928 kB",
+          "VmRSS": "41928 kB",
+          "Pss": "39513 kB",
+          "SwapPss": "0 kB"
+        }
+      ],
+      "utc_estimated_from_original_birth_time": "2026-11-20T23:17:43.760600+00:00"
+    }
+  ]
+}

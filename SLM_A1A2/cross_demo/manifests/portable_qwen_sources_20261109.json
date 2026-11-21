@@ -1,0 +1,30 @@
+{
+  "captured_utc": "2026-11-09T18:28:45.774660+00:00",
+  "primary_api_url": "https://huggingface.co/api/models/unsloth/Qwen3.5-4B-GGUF/revision/e87f176479d0855a907a41277aca2f8ee7a09523?blobs=true",
+  "repository": "unsloth/Qwen3.5-4B-GGUF",
+  "revision": "e87f176479d0855a907a41277aca2f8ee7a09523",
+  "selected_files": [
+    {
+      "rfilename": "Qwen3.5-4B-Q4_K_M.gguf",
+      "blobId": "4ca59aa028e499c9351f394e844f5e27056e5846",
+      "size": 2740937888,
+      "lfs": {
+        "sha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4",
+        "size": 2740937888,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "Qwen3.5-4B-Q8_0.gguf",
+      "blobId": "871df22fc125cd971cc5c8aaee7d16b1e9ef9c68",
+      "size": 4482403488,
+      "lfs": {
+        "sha256": "10cc391b403021dd11c614679d2fd92f611c3681d29e29651b717316965d61e1",
+        "size": 4482403488,
+        "pointerSize": 135
+      }
+    }
+  ],
+  "local_weights_downloaded": false,
+  "benchmark_equivalence_claimed": false
+}

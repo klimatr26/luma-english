@@ -1,0 +1,8 @@
+{
+  "schema": "writing_course_history/1",
+  "purpose": "COURSE_PRACTICE_NOT_BENCHMARK",
+  "history_rows": 92,
+  "raw_attempts": 2,
+  "export_json_sha256": "f03ba3076edcf6fe26574feae50855d264e76843c729d6693cfaced610dbc733",
+  "export_csv_sha256": "aaafe65f62356b4591376493396dfafabd51b19e9e7130ddefa8421814d0abfe"
+}

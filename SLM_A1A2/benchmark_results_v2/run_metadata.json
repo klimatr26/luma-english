@@ -1,0 +1,224 @@
+{
+  "benchmark_id": "writing_a1_a2_smoke_v2",
+  "benchmark_sha256": "a271c2ee84839aff21cd923a9ec7d22450c34b4003cace8233b0a128f8edbfe9",
+  "started_utc": "2026-10-06T01:32:09.487986+00:00",
+  "runtime": {
+    "transformers": "5.18.0",
+    "torch": "2.14.1+cu130",
+    "cuda_runtime": "13.0",
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "device": "NVIDIA GeForce RTX 3070",
+  "gpu_total_bytes": 8589410304,
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 512,
+    "max_context_tokens": 4096,
+    "constrained_json": false,
+    "seed": null
+  },
+  "prompt_policy": "Exact benchmark system_prompt and user_prompt_template; native local chat templates; disable thinking where supported except dedicated LFM2.5-1.2B-Thinking checkpoint.",
+  "models": [
+    {
+      "model_name": "LFM2.5-350M",
+      "exact_model_checkpoint_id": "LiquidAI/LFM2.5-350M",
+      "family_loader": "causal",
+      "local_snapshot": {
+        "revision": "9e6c6ccf47cd318696e137d381a7ded8fe4df09f",
+        "snapshot_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\hf_cache\\models--LiquidAI--LFM2.5-350M\\snapshots\\9e6c6ccf47cd318696e137d381a7ded8fe4df09f",
+        "config_sha256": "720b43d6ddc2ed25be23eed355aefcf342434a176dedad23dbe0a5e3ac24bbb8",
+        "weights": [
+          {
+            "file": "model.safetensors",
+            "bytes": 708984464
+          }
+        ],
+        "refs": {
+          "main": "9e6c6ccf47cd318696e137d381a7ded8fe4df09f"
+        }
+      },
+      "requested_dtype": "bfloat16",
+      "quantization": null,
+      "status": "completed",
+      "loader_class": "Lfm2ForCausalLM",
+      "tokenizer_class": "TokenizersBackend",
+      "processor_class": "TokenizersBackend",
+      "resolved_parameter_dtype": "torch.bfloat16",
+      "load_seconds": 1.0742150000296533,
+      "peak_RAM_bytes": 1748729856,
+      "peak_VRAM_bytes": 754974720
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Instruct",
+      "exact_model_checkpoint_id": "LiquidAI/LFM2.5-1.2B-Instruct",
+      "family_loader": "causal",
+      "local_snapshot": {
+        "revision": "0f604ada3f766f9f257460c4c9f0b5d6f69d431b",
+        "snapshot_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\hf_cache\\models--LiquidAI--LFM2.5-1.2B-Instruct\\snapshots\\0f604ada3f766f9f257460c4c9f0b5d6f69d431b",
+        "config_sha256": "15d6157fb6df3f8272e2fe90e18f57727ccf02a125c94469198b0f3281510185",
+        "weights": [
+          {
+            "file": "model.safetensors",
+            "bytes": 2340697936
+          }
+        ],
+        "refs": {
+          "main": "0f604ada3f766f9f257460c4c9f0b5d6f69d431b"
+        }
+      },
+      "requested_dtype": "bfloat16",
+      "quantization": null,
+      "status": "completed",
+      "loader_class": "Lfm2ForCausalLM",
+      "tokenizer_class": "TokenizersBackend",
+      "processor_class": "TokenizersBackend",
+      "resolved_parameter_dtype": "torch.bfloat16",
+      "load_seconds": 2.466742900025565,
+      "peak_RAM_bytes": 2320248832,
+      "peak_VRAM_bytes": 2394947584
+    },
+    {
+      "model_name": "LFM2.5-1.2B-Thinking",
+      "exact_model_checkpoint_id": "LiquidAI/LFM2.5-1.2B-Thinking",
+      "family_loader": "causal",
+      "local_snapshot": {
+        "revision": "f313478934a7612d22991f752959d7a1a8756fec",
+        "snapshot_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\hf_cache\\models--LiquidAI--LFM2.5-1.2B-Thinking\\snapshots\\f313478934a7612d22991f752959d7a1a8756fec",
+        "config_sha256": "15d6157fb6df3f8272e2fe90e18f57727ccf02a125c94469198b0f3281510185",
+        "weights": [
+          {
+            "file": "model.safetensors",
+            "bytes": 2340697936
+          }
+        ],
+        "refs": {
+          "main": "f313478934a7612d22991f752959d7a1a8756fec"
+        }
+      },
+      "requested_dtype": "bfloat16",
+      "quantization": null,
+      "status": "completed",
+      "loader_class": "Lfm2ForCausalLM",
+      "tokenizer_class": "TokenizersBackend",
+      "processor_class": "TokenizersBackend",
+      "resolved_parameter_dtype": "torch.bfloat16",
+      "load_seconds": 2.1543855000054464,
+      "peak_RAM_bytes": 2320867328,
+      "peak_VRAM_bytes": 2403336192
+    },
+    {
+      "model_name": "Qwen3.5-0.8B",
+      "exact_model_checkpoint_id": "Qwen/Qwen3.5-0.8B",
+      "family_loader": "multimodal",
+      "local_snapshot": {
+        "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+        "snapshot_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\hf_cache\\models--Qwen--Qwen3.5-0.8B\\snapshots\\2fc06364715b967f1860aea9cf38778875588b17",
+        "config_sha256": "b90b86f35c8e6925ef74ee04d0e758f0a845c83a42089ad82bbaa948de9b4204",
+        "weights": [
+          {
+            "file": "model.safetensors-00001-of-00001.safetensors",
+            "bytes": 1746942600
+          }
+        ],
+        "refs": {
+          "main": "2fc06364715b967f1860aea9cf38778875588b17"
+        }
+      },
+      "requested_dtype": "bfloat16",
+      "quantization": null,
+      "status": "completed",
+      "loader_class": "Qwen3_5ForConditionalGeneration",
+      "tokenizer_class": "Qwen3_5Tokenizer",
+      "processor_class": "Qwen3VLProcessor",
+      "resolved_parameter_dtype": "torch.bfloat16",
+      "load_seconds": 2.068474299972877,
+      "peak_RAM_bytes": 2752954368,
+      "peak_VRAM_bytes": 1809842176
+    },
+    {
+      "model_name": "Qwen3.5-2B",
+      "exact_model_checkpoint_id": "Qwen/Qwen3.5-2B",
+      "family_loader": "multimodal",
+      "local_snapshot": {
+        "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+        "snapshot_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\hf_cache\\models--Qwen--Qwen3.5-2B\\snapshots\\15852e8c16360a2fea060d615a32b45270f8a8fc",
+        "config_sha256": "ed1c1723241f23f7f4e23430759cbd7dcfb4103cbdfe052bfe7626b57c2615b4",
+        "weights": [
+          {
+            "file": "model.safetensors-00001-of-00001.safetensors",
+            "bytes": 4548221488
+          }
+        ],
+        "refs": {
+          "main": "15852e8c16360a2fea060d615a32b45270f8a8fc"
+        }
+      },
+      "requested_dtype": "bfloat16",
+      "quantization": null,
+      "status": "completed",
+      "loader_class": "Qwen3_5ForConditionalGeneration",
+      "tokenizer_class": "Qwen3_5Tokenizer",
+      "processor_class": "Qwen3VLProcessor",
+      "resolved_parameter_dtype": "torch.bfloat16",
+      "load_seconds": 4.805216599954292,
+      "peak_RAM_bytes": 3855458304,
+      "peak_VRAM_bytes": 4538236928
+    },
+    {
+      "model_name": "MiniCPM5-1B",
+      "exact_model_checkpoint_id": "openbmb/MiniCPM5-1B",
+      "family_loader": "causal",
+      "local_snapshot": {
+        "revision": "87179e5c1f455ef22e6223592d2d61351b525bfc",
+        "snapshot_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\hf_cache\\models--openbmb--MiniCPM5-1B\\snapshots\\87179e5c1f455ef22e6223592d2d61351b525bfc",
+        "config_sha256": "6a6509b646cb3169616c5ffc3196e7ccaf9d4d6bc17b266581d241a31c217714",
+        "weights": [
+          {
+            "file": "model-00000-of-00001.safetensors",
+            "bytes": 2161290912
+          }
+        ],
+        "refs": {
+          "main": "87179e5c1f455ef22e6223592d2d61351b525bfc"
+        }
+      },
+      "requested_dtype": "bfloat16",
+      "quantization": null,
+      "status": "completed",
+      "loader_class": "LlamaForCausalLM",
+      "tokenizer_class": "TokenizersBackend",
+      "processor_class": "TokenizersBackend",
+      "resolved_parameter_dtype": "torch.bfloat16",
+      "load_seconds": 2.421054699982051,
+      "peak_RAM_bytes": 2404913152,
+      "peak_VRAM_bytes": 2231369728
+    },
+    {
+      "model_name": "MiniCPM5-2B",
+      "exact_model_checkpoint_id": "openbmb/MiniCPM5-2B",
+      "family_loader": "causal",
+      "local_snapshot": {
+        "revision": "f97400052a43d642bbc6e9975e2397e3ae6a6b52",
+        "snapshot_path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\hf_cache\\models--openbmb--MiniCPM5-2B\\snapshots\\f97400052a43d642bbc6e9975e2397e3ae6a6b52",
+        "config_sha256": "59613157e5357d62bcb121e04cb90f2170b43d789b142380c12c3d4277d95180",
+        "weights": [
+          {
+            "file": "model-00000-of-00001.safetensors",
+            "bytes": 5033557096
+          }
+        ],
+        "refs": {
+          "main": "f97400052a43d642bbc6e9975e2397e3ae6a6b52"
+        }
+      },
+      "requested_dtype": "bfloat16",
+      "quantization": null,
+      "status": "running",
+      "loader_class": "LlamaForCausalLM",
+      "tokenizer_class": "TokenizersBackend",
+      "processor_class": "TokenizersBackend",
+      "resolved_parameter_dtype": "torch.bfloat16",
+      "load_seconds": 5.124462199979462
+    }
+  ]
+}

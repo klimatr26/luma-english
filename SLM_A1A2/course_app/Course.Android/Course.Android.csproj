@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0-android37.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ApplicationTitle>Luma English</ApplicationTitle>
+    <!-- Same identity and signing key as Writing Lab: updates preserve downloaded models. -->
+    <ApplicationId>org.kevinlima.writinglab</ApplicationId>
+    <ApplicationVersion>100102</ApplicationVersion>
+    <ApplicationDisplayVersion>1.1.2</ApplicationDisplayVersion>
+    <SupportedOSPlatformVersion>26.0</SupportedOSPlatformVersion>
+    <AndroidTargetSdkVersion>37</AndroidTargetSdkVersion>
+    <RuntimeIdentifiers Condition="'$(RuntimeIdentifier)' == ''">android-arm64;android-x64</RuntimeIdentifiers>
+    <RuntimeIdentifiers Condition="'$(RuntimeIdentifier)' != ''">$(RuntimeIdentifier)</RuntimeIdentifiers>
+    <AndroidPackageFormats>apk</AndroidPackageFormats>
+    <PublishTrimmed>false</PublishTrimmed>
+    <PublishReadyToRun>false</PublishReadyToRun>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(CourseAutomation)' == 'true'">
+    <DefineConstants>$(DefineConstants);COURSE_AUTOMATION</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <AndroidAsset Include="../THIRD_PARTY_NOTICES.md" Link="third-party/course-notices.md" />
+    <PackageReference Include="Avalonia.Android" Version="12.1.5" />
+    <ProjectReference Include="../Course.UI/Course.UI.csproj" />
+    <ProjectReference Include="../../cross_demo/WritingApp.Native/WritingApp.Native.csproj" />
+    <Compile Include="../../cross_demo/WritingApp.Android/AndroidMeasuredEngine.cs" Link="Platform/AndroidMeasuredEngine.cs" />
+    <Compile Include="../../cross_demo/WritingApp.Android/AndroidWorkerEngine.cs" Link="Platform/AndroidWorkerEngine.cs" />
+    <Compile Include="../../cross_demo/WritingApp.Android/AndroidDownloadTransport.cs" Link="Platform/AndroidDownloadTransport.cs" />
+    <Compile Include="../../cross_demo/WritingApp.Android/ModelDownloadFinalizer.cs" Link="Platform/ModelDownloadFinalizer.cs" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(RuntimeIdentifier)' == 'android-arm64'">
+    <AndroidNativeLibrary Include="$(WritingNativeRoot)/android-arm64-v8a/*.so" Abi="arm64-v8a" />
+    <AndroidAsset Include="$(WritingNativeRoot)/turnip-runtime.zip" Link="turnip-runtime.zip" />
+    <AndroidAsset Include="$(WritingNativeRoot)/turnip-notices/*" Link="third-party/%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(RuntimeIdentifier)' == 'android-x64'">
+    <AndroidNativeLibrary Include="$(WritingNativeRoot)/android-x86_64/*.so" Abi="x86_64" />
+  </ItemGroup>
+</Project>

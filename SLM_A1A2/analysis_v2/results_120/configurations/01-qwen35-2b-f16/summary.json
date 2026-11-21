@@ -1,0 +1,71 @@
+{
+  "config_id": "01-qwen35-2b-f16",
+  "family": "qwen",
+  "quant": "F16",
+  "summary": {
+    "cases": 120,
+    "incorrect_cases_expected": 90,
+    "incorrect_text_observable": 87,
+    "incorrect_text_unobservable": 3,
+    "expected_primary_errant_edits": 163,
+    "unobservable_primary_errant_edits": 6,
+    "gec_conditional_on_observable_text": {
+      "primary": {
+        "tp": 108,
+        "fp": 70,
+        "fn": 49,
+        "precision": 0.6067415730337079,
+        "recall": 0.6878980891719745,
+        "f0_5": 0.6214039125431531
+      },
+      "best_full_reference": {
+        "tp": 111,
+        "fp": 67,
+        "fn": 47,
+        "precision": 0.6235955056179775,
+        "recall": 0.7025316455696202,
+        "f0_5": 0.6379310344827586
+      }
+    },
+    "recall_all_primary_gold_unobservable_as_missed": 0.6625766871165644,
+    "controls_expected": 30,
+    "ctmr_modified_observed": 3,
+    "ctmr_unobservable": 0,
+    "cfar_false_alarm_observed": 5,
+    "cfar_unobservable": 0,
+    "fully_preserved_observed": 25,
+    "fully_preserved_unobservable": 0,
+    "parse_status": {
+      "direct": 117,
+      "invalid": 2,
+      "recoverable": 1
+    },
+    "schema_valid": 110,
+    "strict_json_compliant": 110,
+    "declarations": {
+      "verified_matches_output": 63,
+      "verified_differs_output": 53,
+      "unverified_ambiguous_or_absent_fragment": 1,
+      "unverified_shape": 3
+    },
+    "declarations_coherent_non_noop": 59,
+    "incorrect_text_equal_primary": 37,
+    "incorrect_text_equal_licensed_complete_reference": 38,
+    "flag_correct_observed": 105,
+    "flag_unobservable": 3,
+    "incorrect_flag_correct_observed": 80,
+    "incorrect_flag_unobservable": 3,
+    "human_confirmed": 0,
+    "latency_median_seconds_descriptive": 2.215228199998819,
+    "schema_version": "evaluation-v2.0"
+  },
+  "selection": {
+    "rows_in": 120,
+    "rows_selected": 120,
+    "duplicate_cases_resolved": [],
+    "selection_policy": "highest verified final attempt number"
+  },
+  "primary_frozen_tp": 25,
+  "primary_frozen_fp": 107,
+  "primary_frozen_fn": 125
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "NORMAL_APK_UI_CAPTURE_REQUIRES_VISUAL_REVIEW",
+  "dateUtc": "2026-11-20T23:52:57.170138+00:00",
+  "version": "1.1.1",
+  "serial": "emulator-5580",
+  "android": "16",
+  "api": "36",
+  "model_inferences": 0,
+  "rotation_settings_restored": {
+    "accelerometer_rotation": "1",
+    "user_rotation": "0"
+  },
+  "data_cleared": false,
+  "captures": [
+    {
+      "orientation": "portrait",
+      "file": "home-summary-portrait.png",
+      "pid": "4318",
+      "foreground": true
+    },
+    {
+      "orientation": "landscape",
+      "file": "home-summary-landscape.png",
+      "pid": "4318",
+      "foreground": true
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "config_id": "08-lfm25-12b-q8-0",
+  "family": "lfm",
+  "quant": "Q8_0",
+  "summary": {
+    "cases": 120,
+    "incorrect_cases_expected": 90,
+    "incorrect_text_observable": 90,
+    "incorrect_text_unobservable": 0,
+    "expected_primary_errant_edits": 163,
+    "unobservable_primary_errant_edits": 0,
+    "gec_conditional_on_observable_text": {
+      "primary": {
+        "tp": 136,
+        "fp": 44,
+        "fn": 27,
+        "precision": 0.7555555555555555,
+        "recall": 0.8343558282208589,
+        "f0_5": 0.7701019252548132
+      },
+      "best_full_reference": {
+        "tp": 138,
+        "fp": 42,
+        "fn": 27,
+        "precision": 0.7666666666666667,
+        "recall": 0.8363636363636363,
+        "f0_5": 0.7796610169491525
+      }
+    },
+    "recall_all_primary_gold_unobservable_as_missed": 0.8343558282208589,
+    "controls_expected": 30,
+    "ctmr_modified_observed": 7,
+    "ctmr_unobservable": 0,
+    "cfar_false_alarm_observed": 8,
+    "cfar_unobservable": 0,
+    "fully_preserved_observed": 18,
+    "fully_preserved_unobservable": 0,
+    "parse_status": {
+      "direct": 120
+    },
+    "schema_valid": 118,
+    "strict_json_compliant": 118,
+    "declarations": {
+      "verified_differs_output": 81,
+      "verified_matches_output": 32,
+      "unverified_ambiguous_or_absent_fragment": 6,
+      "unverified_overlapping_fragments": 1
+    },
+    "declarations_coherent_non_noop": 23,
+    "incorrect_text_equal_primary": 55,
+    "incorrect_text_equal_licensed_complete_reference": 55,
+    "flag_correct_observed": 32,
+    "flag_unobservable": 0,
+    "incorrect_flag_correct_observed": 2,
+    "incorrect_flag_unobservable": 0,
+    "human_confirmed": 0,
+    "latency_median_seconds_descriptive": 0.4207399999977497,
+    "schema_version": "evaluation-v2.0"
+  },
+  "selection": {
+    "rows_in": 120,
+    "rows_selected": 120,
+    "duplicate_cases_resolved": [],
+    "selection_policy": "highest verified final attempt number"
+  },
+  "primary_frozen_tp": 10,
+  "primary_frozen_fp": 95,
+  "primary_frozen_fn": 140
+}

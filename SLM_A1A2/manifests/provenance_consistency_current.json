@@ -1,0 +1,103 @@
+{
+  "manifest_sha256": "8e62d01164a86a63a3b9b16da0aacbbc365176bdd44fb76e0acfb04da249e255",
+  "inventory_sha256": "b63b19ab371839f1a8e6ec3dde11b24fe1247f59e09c26f5c1b0ad5af7f23098",
+  "rows": [
+    {
+      "config_id": "01-qwen35-2b-f16",
+      "inventory_hf_commit": null,
+      "declared_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "match": true
+    },
+    {
+      "config_id": "02-qwen35-2b-q8-0",
+      "inventory_hf_commit": null,
+      "declared_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "match": true
+    },
+    {
+      "config_id": "03-qwen35-2b-q4-k-m",
+      "inventory_hf_commit": null,
+      "declared_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "match": true
+    },
+    {
+      "config_id": "04-minicpm5-2b-f16",
+      "inventory_hf_commit": "2079a22f3beaa4e306449978533478fe0522f4b3",
+      "declared_revision": "2079a22f3beaa4e306449978533478fe0522f4b3",
+      "match": true
+    },
+    {
+      "config_id": "05-minicpm5-2b-q8-0",
+      "inventory_hf_commit": "2079a22f3beaa4e306449978533478fe0522f4b3",
+      "declared_revision": "2079a22f3beaa4e306449978533478fe0522f4b3",
+      "match": true
+    },
+    {
+      "config_id": "06-minicpm5-2b-q4-k-m",
+      "inventory_hf_commit": "2079a22f3beaa4e306449978533478fe0522f4b3",
+      "declared_revision": "2079a22f3beaa4e306449978533478fe0522f4b3",
+      "match": true
+    },
+    {
+      "config_id": "07-lfm25-12b-bf16",
+      "inventory_hf_commit": "8ed288026e23958ad9dfa92d53ed773a8eee7125",
+      "declared_revision": "8ed288026e23958ad9dfa92d53ed773a8eee7125",
+      "match": true
+    },
+    {
+      "config_id": "08-lfm25-12b-q8-0",
+      "inventory_hf_commit": "8ed288026e23958ad9dfa92d53ed773a8eee7125",
+      "declared_revision": "8ed288026e23958ad9dfa92d53ed773a8eee7125",
+      "match": true
+    },
+    {
+      "config_id": "09-lfm25-12b-q4-k-m",
+      "inventory_hf_commit": "8ed288026e23958ad9dfa92d53ed773a8eee7125",
+      "declared_revision": "8ed288026e23958ad9dfa92d53ed773a8eee7125",
+      "match": true
+    },
+    {
+      "config_id": "10-qwen35-4b-q8-0",
+      "inventory_hf_commit": null,
+      "declared_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "match": true
+    },
+    {
+      "config_id": "11-qwen35-4b-q4-k-m",
+      "inventory_hf_commit": null,
+      "declared_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "match": true
+    },
+    {
+      "config_id": "12-gemma4-e2b-qat-q4-0",
+      "inventory_hf_commit": "675cff42a74c774d6cb76f76d8eacb49b48c9b93",
+      "declared_revision": "675cff42a74c774d6cb76f76d8eacb49b48c9b93",
+      "match": true
+    },
+    {
+      "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+      "inventory_hf_commit": "66a399f68ddd113b06dff02fca9523e55465d11d",
+      "declared_revision": "66a399f68ddd113b06dff02fca9523e55465d11d",
+      "match": true
+    },
+    {
+      "config_id": "14-gemma4-e2b-ud-q2-k-xl",
+      "inventory_hf_commit": "66a399f68ddd113b06dff02fca9523e55465d11d",
+      "declared_revision": "66a399f68ddd113b06dff02fca9523e55465d11d",
+      "match": true
+    },
+    {
+      "config_id": "15-lfm25-26b-q8-0",
+      "inventory_hf_commit": "e7caca5d835a3901a8e0d63e94009429bafafdfc",
+      "declared_revision": "e7caca5d835a3901a8e0d63e94009429bafafdfc",
+      "match": true
+    },
+    {
+      "config_id": "16-lfm25-26b-q4-k-m",
+      "inventory_hf_commit": "e7caca5d835a3901a8e0d63e94009429bafafdfc",
+      "declared_revision": "e7caca5d835a3901a8e0d63e94009429bafafdfc",
+      "match": true
+    }
+  ],
+  "qwen_note": "Converted GGUF has no HF commit; sources/recipe/converter verified against conversion record and actual pinned converter. Record declares quantizer build but lacks historical quantizer executable hash; current quantizer matches runtime record, not retrospective proof of execution identity."
+}

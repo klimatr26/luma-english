@@ -1,0 +1,218 @@
+{
+  "manifest_sha256": "f673d5bc216cc894e586d9efb5701bc6b81f61167a188a6a63608b6718cfa4db",
+  "scope": "phase1_40_lfm3_17b",
+  "configs": [
+    {
+      "config_id": "17-lfm3-17b-q8-0",
+      "id": "lfm3_17b_q8_0",
+      "quant": "Q8_0",
+      "port": 8117,
+      "model_sha256": "8f6b24182258205e9e01e21f1f24a1f208c1e8115578825d202ce39976af20b6",
+      "status": "ready",
+      "measured": {
+        "prelaunch_server_verification": {
+          "sha256": "38c5affb81c9a8f88f5538c7d11bc445e13bc46a2c6eda05694b8b31a8d45995",
+          "bytes": 9728,
+          "stable_during_hash": true
+        },
+        "prelaunch_model_verification": {
+          "sha256": "8f6b24182258205e9e01e21f1f24a1f208c1e8115578825d202ce39976af20b6",
+          "bytes": 1846238496,
+          "stable_during_hash": true
+        },
+        "ram_before": {
+          "total_gb": 17.09,
+          "available_gb": 8.05
+        },
+        "vram_before_mib": {
+          "used_mib": 471,
+          "total_mib": 8192
+        },
+        "server_pid": 28120,
+        "load_wait_s": 2.6,
+        "health": {
+          "code": 200,
+          "body": {
+            "status": "ok"
+          }
+        },
+        "render_http_code": 200,
+        "rendered_prompt_chars": 106,
+        "rendered_prompt_sha256": "c3978b1a288928ffd7897ace691716eec2ad6cd122c0b1303cb6a8c6dce136cc",
+        "rendered_tokens": [
+          124894,
+          124899,
+          5922,
+          207,
+          2758,
+          1137,
+          310,
+          1753,
+          1472,
+          1784,
+          22,
+          124900,
+          207,
+          124899,
+          63514,
+          207,
+          124901,
+          124902
+        ],
+        "rendered_tokenize_error": null,
+        "offload": {
+          "offload_lines": [
+            "0.00.708.525 I load_tensors: offloading output layer to GPU",
+            "0.00.708.530 I load_tensors: offloading 23 repeating layers to GPU",
+            "0.00.708.531 I load_tensors: offloaded 25/25 layers to GPU"
+          ],
+          "cuda_lines": [
+            "0.00.113.654 I ggml_cuda_init: found 1 CUDA devices (Total VRAM: 8191 MiB):",
+            "0.00.113.695 I load_backend: loaded CUDA backend from C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\tools\\llama.cpp\\b12359-cuda-12.4\\ggml-cuda.dll",
+            "0.00.115.540 I load_backend: loaded RPC backend from C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\tools\\llama.cpp\\b12359-cuda-12.4\\ggml-rpc.dll",
+            "0.00.127.459 I load_backend: loaded CPU backend from C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\tools\\llama.cpp\\b12359-cuda-12.4\\ggml-cpu-haswell.dll",
+            "0.00.249.353 I cmn  common_param:   - CUDA0   : NVIDIA GeForce RTX 3070 (8191 MiB, 7113 MiB free)",
+            "0.00.249.441 I cmn  common_param: system_info: n_threads = 6 (n_threads_batch = 6) / 12 | CUDA : ARCHS = 500,610,700,750,800,860,890,900 | USE_GRAPHS = 1 | FA_QUANTS = q4_0-q4_0,q8_0-q8_0,f16-f16,bf16-bf16,f8_e4m3-f8_e4m3 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 ",
+            "0.00.407.346 I common_memory_breakdown_print: |   - CUDA0 (RTX 3070)   |  8191 = 7113 + (1874 =  1752 +      56 +      65) +        -796 |",
+            "0.00.475.501 I llama_prepare_model_devices: using device CUDA0 (NVIDIA GeForce RTX 3070) (0000:0b:00.0) - 7113 MiB free",
+            "0.00.708.535 I load_tensors:        CUDA0 model buffer size =  1752.84 MiB",
+            "0.01.346.696 I llama_context:  CUDA_Host  output buffer size =     0.49 MiB"
+          ],
+          "n_gpu_layers_reported": "25/25"
+        },
+        "infer_elapsed_s": 0.35,
+        "completion_http_code": 200,
+        "completion_chars": 244,
+        "reasoning_content_chars": 0,
+        "prompt_tokens": 18,
+        "completion_tokens": 54,
+        "finish_reason": "stop",
+        "peaks": {
+          "server_rss_peak_mib": 2225.8,
+          "device_vram_peak_mib": 2510,
+          "vram_note": "device-wide across all processes, not per-model"
+        },
+        "ram_after": {
+          "total_gb": 17.09,
+          "available_gb": 5.76
+        },
+        "vram_after_mib": {
+          "used_mib": 2510,
+          "total_mib": 8192
+        },
+        "server": {
+          "pid": 28120,
+          "exit_code": 1,
+          "forced_kill": false,
+          "already_exited": false
+        }
+      }
+    },
+    {
+      "config_id": "18-lfm3-17b-q4-k-m",
+      "id": "lfm3_17b_q4_k_m",
+      "quant": "Q4_K_M",
+      "port": 8118,
+      "model_sha256": "3793e1e6e2266919d6e015287221b41100175a98eddaba92e111aed3b05c93c4",
+      "status": "ready",
+      "measured": {
+        "prelaunch_server_verification": {
+          "sha256": "38c5affb81c9a8f88f5538c7d11bc445e13bc46a2c6eda05694b8b31a8d45995",
+          "bytes": 9728,
+          "stable_during_hash": true
+        },
+        "prelaunch_model_verification": {
+          "sha256": "3793e1e6e2266919d6e015287221b41100175a98eddaba92e111aed3b05c93c4",
+          "bytes": 1099627808,
+          "stable_during_hash": true
+        },
+        "ram_before": {
+          "total_gb": 17.09,
+          "available_gb": 8.11
+        },
+        "vram_before_mib": {
+          "used_mib": 471,
+          "total_mib": 8192
+        },
+        "server_pid": 38644,
+        "load_wait_s": 2.5,
+        "health": {
+          "code": 200,
+          "body": {
+            "status": "ok"
+          }
+        },
+        "render_http_code": 200,
+        "rendered_prompt_chars": 106,
+        "rendered_prompt_sha256": "c3978b1a288928ffd7897ace691716eec2ad6cd122c0b1303cb6a8c6dce136cc",
+        "rendered_tokens": [
+          124894,
+          124899,
+          5922,
+          207,
+          2758,
+          1137,
+          310,
+          1753,
+          1472,
+          1784,
+          22,
+          124900,
+          207,
+          124899,
+          63514,
+          207,
+          124901,
+          124902
+        ],
+        "rendered_tokenize_error": null,
+        "offload": {
+          "offload_lines": [
+            "0.00.622.227 I load_tensors: offloading output layer to GPU",
+            "0.00.622.232 I load_tensors: offloading 23 repeating layers to GPU",
+            "0.00.622.232 I load_tensors: offloaded 25/25 layers to GPU"
+          ],
+          "cuda_lines": [
+            "0.00.103.605 I ggml_cuda_init: found 1 CUDA devices (Total VRAM: 8191 MiB):",
+            "0.00.103.646 I load_backend: loaded CUDA backend from C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\tools\\llama.cpp\\b12359-cuda-12.4\\ggml-cuda.dll",
+            "0.00.105.506 I load_backend: loaded RPC backend from C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\tools\\llama.cpp\\b12359-cuda-12.4\\ggml-rpc.dll",
+            "0.00.117.317 I load_backend: loaded CPU backend from C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\tools\\llama.cpp\\b12359-cuda-12.4\\ggml-cpu-haswell.dll",
+            "0.00.239.403 I cmn  common_param:   - CUDA0   : NVIDIA GeForce RTX 3070 (8191 MiB, 7113 MiB free)",
+            "0.00.239.484 I cmn  common_param: system_info: n_threads = 6 (n_threads_batch = 6) / 12 | CUDA : ARCHS = 500,610,700,750,800,860,890,900 | USE_GRAPHS = 1 | FA_QUANTS = q4_0-q4_0,q8_0-q8_0,f16-f16,bf16-bf16,f8_e4m3-f8_e4m3 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 ",
+            "0.00.391.426 I common_memory_breakdown_print: |   - CUDA0 (RTX 3070)   |  8191 = 7113 + (1162 =  1040 +      56 +      65) +         -84 |",
+            "0.00.456.257 I llama_prepare_model_devices: using device CUDA0 (NVIDIA GeForce RTX 3070) (0000:0b:00.0) - 7113 MiB free",
+            "0.00.622.238 I load_tensors:        CUDA0 model buffer size =  1040.82 MiB",
+            "0.01.000.979 I llama_context:  CUDA_Host  output buffer size =     0.49 MiB"
+          ],
+          "n_gpu_layers_reported": "25/25"
+        },
+        "infer_elapsed_s": 0.37,
+        "completion_http_code": 200,
+        "completion_chars": 379,
+        "reasoning_content_chars": 0,
+        "prompt_tokens": 18,
+        "completion_tokens": 81,
+        "finish_reason": "stop",
+        "peaks": {
+          "server_rss_peak_mib": 1514.4,
+          "device_vram_peak_mib": 1798,
+          "vram_note": "device-wide across all processes, not per-model"
+        },
+        "ram_after": {
+          "total_gb": 17.09,
+          "available_gb": 6.48
+        },
+        "vram_after_mib": {
+          "used_mib": 1798,
+          "total_mib": 8192
+        },
+        "server": {
+          "pid": 38644,
+          "exit_code": 1,
+          "forced_kill": false,
+          "already_exited": false
+        }
+      }
+    }
+  ]
+}

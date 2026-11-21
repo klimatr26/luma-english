@@ -1,0 +1,69 @@
+{
+  "config_id": "13-gemma4-e2b-ud-q4-k-xl",
+  "family": "gemma",
+  "quant": "UD-Q4_K_XL",
+  "summary": {
+    "cases": 40,
+    "incorrect_cases_expected": 30,
+    "incorrect_text_observable": 30,
+    "incorrect_text_unobservable": 0,
+    "expected_primary_errant_edits": 64,
+    "unobservable_primary_errant_edits": 0,
+    "gec_conditional_on_observable_text": {
+      "primary": {
+        "tp": 59,
+        "fp": 4,
+        "fn": 5,
+        "precision": 0.9365079365079365,
+        "recall": 0.921875,
+        "f0_5": 0.9335443037974683
+      },
+      "best_full_reference": {
+        "tp": 61,
+        "fp": 2,
+        "fn": 4,
+        "precision": 0.9682539682539683,
+        "recall": 0.9384615384615385,
+        "f0_5": 0.9621451104100945
+      }
+    },
+    "recall_all_primary_gold_unobservable_as_missed": 0.921875,
+    "controls_expected": 10,
+    "ctmr_modified_observed": 0,
+    "ctmr_unobservable": 0,
+    "cfar_false_alarm_observed": 4,
+    "cfar_unobservable": 0,
+    "fully_preserved_observed": 6,
+    "fully_preserved_unobservable": 0,
+    "parse_status": {
+      "recoverable": 33,
+      "direct": 7
+    },
+    "schema_valid": 37,
+    "strict_json_compliant": 6,
+    "declarations": {
+      "verified_matches_output": 33,
+      "verified_differs_output": 4,
+      "unverified_shape": 3
+    },
+    "declarations_coherent_non_noop": 32,
+    "incorrect_text_equal_primary": 26,
+    "incorrect_text_equal_licensed_complete_reference": 27,
+    "flag_correct_observed": 37,
+    "flag_unobservable": 0,
+    "incorrect_flag_correct_observed": 28,
+    "incorrect_flag_unobservable": 0,
+    "human_confirmed": 0,
+    "latency_median_seconds_descriptive": 1.2575450500007719,
+    "schema_version": "evaluation-v2.0"
+  },
+  "selection": {
+    "rows_in": 40,
+    "rows_selected": 40,
+    "duplicate_cases_resolved": [],
+    "selection_policy": "highest verified final attempt number"
+  },
+  "primary_frozen_tp": 18,
+  "primary_frozen_fp": 39,
+  "primary_frozen_fn": 41
+}

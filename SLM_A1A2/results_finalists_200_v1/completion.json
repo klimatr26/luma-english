@@ -1,0 +1,29 @@
+{
+  "manifest_sha256": "9ec595218c105e6a2b48d515dcffd01bbfd762b94646b2958f5f972b987e9878",
+  "benchmark_sha256": "ecfe10cf6942788bfa059379e0461ab9e6291a00b5ef330bc806d94cb21dc125",
+  "completed_utc": "2026-11-17T22:22:20.892732+00:00",
+  "configurations": [
+    "13-gemma4-e2b-ud-q4-k-xl--vulkan",
+    "portable-unsloth-qwen35-4b-q4-k-m--cpu",
+    "13-gemma4-e2b-ud-q4-k-xl--cpu",
+    "portable-unsloth-qwen35-4b-q4-k-m--vulkan"
+  ],
+  "raw_files": [
+    {
+      "path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\results_finalists_200_v1\\raw\\13-gemma4-e2b-ud-q4-k-xl--vulkan.jsonl",
+      "sha256": "5253961e12a65b6b59f282672066187890f3f1135d17aa45ebcb24e06becd294"
+    },
+    {
+      "path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\results_finalists_200_v1\\raw\\portable-unsloth-qwen35-4b-q4-k-m--cpu.jsonl",
+      "sha256": "32c9a60a86b830392b5e76ad3de05731592e76848b1fa247f8817a85415397fe"
+    },
+    {
+      "path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\results_finalists_200_v1\\raw\\13-gemma4-e2b-ud-q4-k-xl--cpu.jsonl",
+      "sha256": "2a524b230aa8d6289d3cb39a5e1d2c38b1712185e509809959bf61c3be46d170"
+    },
+    {
+      "path": "C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\results_finalists_200_v1\\raw\\portable-unsloth-qwen35-4b-q4-k-m--vulkan.jsonl",
+      "sha256": "a556823fea7944040f3362dcf0493d71152be25427506809cd345e1d3251a829"
+    }
+  ]
+}

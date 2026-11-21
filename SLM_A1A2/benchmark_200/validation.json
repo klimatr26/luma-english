@@ -1,0 +1,17 @@
+{
+  "structural_issues": [],
+  "similarity_candidates": [],
+  "sources": [
+    {
+      "path": "benchmark_200\\drafts\\A1_cases.json",
+      "sha256": "ba23982e51b7d761b2f69882d1380650fc3792688c41d6995a16379e396d6a7a"
+    },
+    {
+      "path": "benchmark_200\\drafts\\A2_cases.json",
+      "sha256": "99ba73fb462db72e94c6a29db32ea9a95840c170c154a63b42accc10286f7f0d"
+    }
+  ],
+  "cases": 200,
+  "intentional_errors": 248,
+  "similarity_caveat": "String checks do not establish absence of paraphrases."
+}

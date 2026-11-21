@@ -1,0 +1,5 @@
+PASS clears a correct result after each editable evaluation input changes
+PASS shows inconsistent and invalid JSON as warnings
+PASS keeps RAW for every attempt in the visible session history
+PASS overwrites an existing seekable export stream without leaving its old tail
+4/4 UI state checks passed.

@@ -1,0 +1,101 @@
+{
+  "computer": {
+    "Manufacturer": "HP",
+    "Model": "HP ZBook Studio x360 G5",
+    "TotalPhysicalMemory": 38450860032
+  },
+  "cpu": {
+    "Name": "Intel(R) Core(TM) i9-8950HK CPU @ 2.90GHz",
+    "NumberOfCores": 6,
+    "NumberOfLogicalProcessors": 12
+  },
+  "os": {
+    "Caption": "Microsoft Windows 11 Pro",
+    "Version": "10.0.26300",
+    "BuildNumber": "26300"
+  },
+  "adapters": [
+    {
+      "Name": "Intel(R) UHD Graphics 630",
+      "DriverVersion": "31.0.101.2141",
+      "PNPDeviceID": "PCI\\VEN_8086&DEV_3E9B&SUBSYS_844F103C&REV_00\\3&11583659&0&10"
+    },
+    {
+      "Name": "NVIDIA Quadro P1000",
+      "DriverVersion": "32.0.15.8253",
+      "PNPDeviceID": "PCI\\VEN_10DE&DEV_1CBB&SUBSYS_844F103C&REV_A1\\4&9CEC234&0&0008"
+    }
+  ],
+  "energy_plan": "GUID de plan de energía: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c  (Alto rendimiento)",
+  "sleep_config": [
+    "GUID de plan de energía: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c  (Alto rendimiento)",
+    "  Alias de GUID: SCHEME_MIN",
+    "  GUID de subgrupo: 238c9fa8-0aad-41ed-83f4-97be242c8f20  (Suspender)",
+    "    Alias de GUID: SUB_SLEEP",
+    "    GUID de configuración de energía: 29f6c1db-86da-48c5-9fdb-f2b67b1f44da  (Suspender tras)",
+    "      Alias de GUID: STANDBYIDLE",
+    "      Mínima configuración posible: 0x00000000",
+    "      Máxima configuración posible: 0xffffffff",
+    "      Incremento de configuración posible: 0x00000001",
+    "      Unidades de configuración posibles: Segundos:",
+    "    Índice de configuración de corriente alterna actual: 0x00000000",
+    "    Índice de configuración de corriente continua actual: 0x00000000",
+    "",
+    "    GUID de configuración de energía: 94ac6d29-73ce-41a6-809f-6363ba21b47e  (Permitir suspensión híbrida)",
+    "      Alias de GUID: HYBRIDSLEEP",
+    "      Índice de configuración posible: 000",
+    "      Nombre descriptivo de configuración posible: Desactivar",
+    "      Índice de configuración posible: 001",
+    "      Nombre descriptivo de configuración posible: Activar",
+    "    Índice de configuración de corriente alterna actual: 0x00000000",
+    "    Índice de configuración de corriente continua actual: 0x00000000",
+    "",
+    "    GUID de configuración de energía: 9d7815a6-7ee4-497e-8888-515a05f02364  (Hibernar tras)",
+    "      Alias de GUID: HIBERNATEIDLE",
+    "      Mínima configuración posible: 0x00000000",
+    "      Máxima configuración posible: 0xffffffff",
+    "      Incremento de configuración posible: 0x00000001",
+    "      Unidades de configuración posibles: Segundos:",
+    "    Índice de configuración de corriente alterna actual: 0x00000000",
+    "    Índice de configuración de corriente continua actual: 0x00000000",
+    "",
+    "    GUID de configuración de energía: bd3b718a-0680-4d9d-8ab2-e1d2b4ac806d  (Permitir temporizadores de reactivación)",
+    "      Alias de GUID: RTCWAKE",
+    "      Índice de configuración posible: 000",
+    "      Nombre descriptivo de configuración posible: Deshabilitar",
+    "      Índice de configuración posible: 001",
+    "      Nombre descriptivo de configuración posible: Habilitar",
+    "      Índice de configuración posible: 002",
+    "      Nombre descriptivo de configuración posible: Solo temporizadores de activación importantes",
+    "    Índice de configuración de corriente alterna actual: 0x00000002",
+    "    Índice de configuración de corriente continua actual: 0x00000000",
+    ""
+  ],
+  "thermal_zones_tenths_kelvin": [],
+  "timestamp_utc": "2026-11-19T01:45:12.920332+00:00",
+  "python": "3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]",
+  "psutil": "7.1.0",
+  "battery": {
+    "percent": 48,
+    "secsleft": -2,
+    "power_plugged": true
+  },
+  "memory": {
+    "total": 38450860032,
+    "available": 17836646400,
+    "percent": 53.6,
+    "used": 20614213632,
+    "free": 17836646400
+  },
+  "cpu_percent_before": 10.8,
+  "nvidia": {
+    "stdout": "Quadro P1000, GPU-5cdc728c-e00e-b190-607b-b7947dc93773, 00000000:01:00.0, 4096, 582.53, WDDM\n",
+    "stderr": "",
+    "exit": 0
+  },
+  "vulkan": {
+    "stdout": "==========\nVULKANINFO\n==========\n\nVulkan Instance Version: 1.4.309\n\n\nInstance Extensions: count = 19\n-------------------------------\nVK_EXT_debug_report                    : extension revision 10\nVK_EXT_debug_utils                     : extension revision 2\nVK_EXT_direct_mode_display             : extension revision 1\nVK_EXT_surface_maintenance1            : extension revision 1\nVK_EXT_swapchain_colorspace            : extension revision 5\nVK_KHR_device_group_creation           : extension revision 1\nVK_KHR_display                         : extension revision 23\nVK_KHR_external_fence_capabilities     : extension revision 1\nVK_KHR_external_memory_capabilities    : extension revision 1\nVK_KHR_external_semaphore_capabilities : extension revision 1\nVK_KHR_get_display_properties2         : extension revision 1\nVK_KHR_get_physical_device_properties2 : extension revision 2\nVK_KHR_get_surface_capabilities2       : extension revision 1\nVK_KHR_portability_enumeration         : extension revision 1\nVK_KHR_surface                         : extension revision 25\nVK_KHR_surface_protected_capabilities  : extension revision 1\nVK_KHR_win32_surface                   : extension revision 6\nVK_LUNARG_direct_driver_loading        : extension revision 1\nVK_NV_external_memory_capabilities     : extension revision 1\n\nInstance Layers: count = 8\n--------------------------\nGalaxyOverlayVkLayer           Galaxy Overlay Vulkan Layer                   1.1.73   version 1\nGalaxyOverlayVkLayer_DEBUG     Galaxy Overlay Vulkan Layer                   1.1.73   version 1\nGalaxyOverlayVkLayer_VERBOSE   Galaxy Overlay Vulkan Layer                   1.1.73   version 1\nVK_LAYER_EOS_Overlay           Vulkan overlay layer for Epic Online Services 1.2.136  version 1\nVK_LAYER_NV_optimus            NVIDIA Optimus layer                          1.4.312  version 1\nVK_LAYER_NV_present            NVIDIA GR2608 layer                           1.4.312  version 1\nVK_LAYER_VALVE_steam_fossilize Steam Pipeline Caching Layer                  1.4.303  version 1\nVK_LAYER_VALVE_steam_overlay   Steam Overlay Layer                           1.3.207  version 1\n\nDevices:\n========\nGPU0:\n\tapiVersion         = 1.3.215\n\tdriverVersion      = 101.2141\n\tvendorID           = 0x8086\n\tdeviceID           = 0x3e9b\n\tdeviceType         = PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU\n\tdeviceName         = Intel(R) UHD Graphics 630\n\tdriverID           = DRIVER_ID_INTEL_PROPRIETARY_WINDOWS\n\tdriverName         = Intel Corporation\n\tdriverInfo         = Intel driver\n\tconformanceVersion = 1.3.1.1\n\tdeviceUUID         = 86809b3e-0000-0000-0000-000000000000\n\tdriverUUID         = 33312e30-2e31-3031-2e32-313431000000\nGPU1:\n\tapiVersion         = 1.4.312\n\tdriverVersion      = 582.53.0.0\n\tvendorID           = 0x10de\n\tdeviceID           = 0x1cbb\n\tdeviceType         = PHYSICAL_DEVICE_TYPE_DISCRETE_GPU\n\tdeviceName         = Quadro P1000\n\tdriverID           = DRIVER_ID_NVIDIA_PROPRIETARY\n\tdriverName         = NVIDIA\n\tdriverInfo         = 582.53\n\tconformanceVersion = 1.4.1.3\n\tdeviceUUID         = 5cdc728c-e00e-b190-607b-b7947dc93773\n\tdriverUUID         = 9b444ebd-f348-5122-943b-13103674ed64\n",
+    "stderr": "WARNING: [Loader Message] Code 0 : Layer name GalaxyOverlayVkLayer does not conform to naming standard (Policy #LLP_LAYER_3)\nWARNING: [Loader Message] Code 0 : Layer name GalaxyOverlayVkLayer_VERBOSE does not conform to naming standard (Policy #LLP_LAYER_3)\nWARNING: [Loader Message] Code 0 : Layer name GalaxyOverlayVkLayer_DEBUG does not conform to naming standard (Policy #LLP_LAYER_3)\nWARNING: [Loader Message] Code 0 : windows_read_data_files_in_registry: Registry lookup failed to get layer manifest files.\n",
+    "exit": 0
+  }
+}

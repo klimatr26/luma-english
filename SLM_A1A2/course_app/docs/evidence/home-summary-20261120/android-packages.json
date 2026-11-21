@@ -1,0 +1,136 @@
+{
+  "packages": [
+    {
+      "file": "LumaEnglish-Android-android-arm64-1.1.1.apk",
+      "bytes": 104994554,
+      "sha256": "61cdf85d00a72f0eebbc140f05bdfeb29afb856b092c8034c3e171022c48e8ae",
+      "abi": "arm64-v8a",
+      "version": "1.1.1",
+      "version_code": 100101,
+      "min_sdk": 26,
+      "target_sdk": 37,
+      "certificate_sha256": "53be4be7642bf02d09439c1bd990f4dd4fc3bacba6804e06d8d9195085851f00",
+      "same_certificate_as_0_1_6": true,
+      "diagnostics_excluded": true,
+      "debuggable": false,
+      "zipalign_16k": true,
+      "elf_16k_libraries": 28,
+      "native_runtime": [
+        {
+          "name": "libc++_shared.so",
+          "sha256": "0c52cfab2df0d957d8b346a2bdc5ae8d71feca2591924d77e1cd724d5bf74352"
+        },
+        {
+          "name": "libggml-base.so",
+          "sha256": "c4ca915b5eaeda41e562203cbdfb6c7362f284e6406dc45da7a53e18a4e02993"
+        },
+        {
+          "name": "libggml-cpu-android_armv8.0_1.so",
+          "sha256": "325a9f988366ebe3f8d903fc314c0e63cc3a2a5c2d30deabc562eeca17f36077"
+        },
+        {
+          "name": "libggml-cpu-android_armv8.2_1.so",
+          "sha256": "423075939d5135e62478b2cb8309b37ef59e942f7c5cebdc48987c0984556bf8"
+        },
+        {
+          "name": "libggml-cpu-android_armv8.2_2.so",
+          "sha256": "ebd55b7df1dc6159f6eee916447fe777972f0458ed02632be728ec2f8fc1091c"
+        },
+        {
+          "name": "libggml-cpu-android_armv8.6_1.so",
+          "sha256": "747ac68b06481b215ef8e46df8a522f3f73672b8c7d50a5810ad84104cec2408"
+        },
+        {
+          "name": "libggml-cpu-android_armv9.0_1.so",
+          "sha256": "4f01a6bbd94d039c58cd6adbe1c4c87c4cab692937b3596f1aa370fa17cf1c3a"
+        },
+        {
+          "name": "libggml-cpu-android_armv9.2_1.so",
+          "sha256": "70c401d38ec6c6341cd798b929af1c8a166cdb47b47fa2acd8c05fa25391e6d4"
+        },
+        {
+          "name": "libggml-cpu-android_armv9.2_2.so",
+          "sha256": "9aa256f4892f0a997e1645cc885ea9ee1af789dbf8fe7d0cc5abe4c2de27d483"
+        },
+        {
+          "name": "libggml-cpu.so",
+          "sha256": "325a9f988366ebe3f8d903fc314c0e63cc3a2a5c2d30deabc562eeca17f36077"
+        },
+        {
+          "name": "libggml-vulkan.so",
+          "sha256": "95880109156f24f826259e5c2504deace910c45dbe5e746245422f0da4091283"
+        },
+        {
+          "name": "libggml.so",
+          "sha256": "0348a0221bbd0bfb142a507767efb4a80aca8ce412bca523ddd3dbdae1321a9e"
+        },
+        {
+          "name": "libllama-common.so",
+          "sha256": "492e7563239d3201071a0736c7fd75ea9754f09e3343aaabe2fa3233c9a2745f"
+        },
+        {
+          "name": "libllama.so",
+          "sha256": "c674086607c6b665f29f0d76c67d2df2f152cc85f3f42f4a1b0c0871997a36d9"
+        },
+        {
+          "name": "libwriting_llama_bridge.so",
+          "sha256": "d7e955d700f9ed04d3d3dff33b5a9322c95c84e7fbb21b8357ca772ab9a1a000"
+        },
+        {
+          "name": "libwriting_worker.so",
+          "sha256": "fc4a667c4de3620b097b24b2addae18fd6c0c3e00ff396b0145d982cbfee86e9"
+        }
+      ]
+    },
+    {
+      "file": "LumaEnglish-Android-android-x64-1.1.1.apk",
+      "bytes": 84483235,
+      "sha256": "ef523f86ed6063e0379e922a75f7032f5adade30d44b6f60c77c0ec0de72a856",
+      "abi": "x86_64",
+      "version": "1.1.1",
+      "version_code": 100101,
+      "min_sdk": 26,
+      "target_sdk": 37,
+      "certificate_sha256": "53be4be7642bf02d09439c1bd990f4dd4fc3bacba6804e06d8d9195085851f00",
+      "same_certificate_as_0_1_6": true,
+      "diagnostics_excluded": true,
+      "debuggable": false,
+      "zipalign_16k": true,
+      "elf_16k_libraries": 20,
+      "native_runtime": [
+        {
+          "name": "libc++_shared.so",
+          "sha256": "e28cb9e0f456caf8498d0e8562b3ac3f73bf78c07555a52b5602396f240abec3"
+        },
+        {
+          "name": "libggml-base.so",
+          "sha256": "2afd4574532ee8cd14e8e5e117065a7da45a29bcb905e1e0ebde838c6db50ee4"
+        },
+        {
+          "name": "libggml-cpu.so",
+          "sha256": "c51d9ecdef13fdcdc082558ccdcba024c34150d0d8417a18435ec20e6cf409af"
+        },
+        {
+          "name": "libggml.so",
+          "sha256": "2ad5d381ac1362eec60c88e22a3075feb2656bd6f96e8448ef925d07ec266fe5"
+        },
+        {
+          "name": "libllama-common.so",
+          "sha256": "e5e219949d627211b635b5274e2344c42768084744c59b2df25000bea7d4ee6c"
+        },
+        {
+          "name": "libllama.so",
+          "sha256": "a3c5b29c51aaf4aa72c0622b79f8d847306ad38f9acc535d279f3c81eead043e"
+        },
+        {
+          "name": "libwriting_llama_bridge.so",
+          "sha256": "a7f6358bbba058568aa52ab581a2ee16d25ec5f94825c78cfefa06444fe11afd"
+        },
+        {
+          "name": "libwriting_worker.so",
+          "sha256": "08f7efd3b08c288816cd3deb649cd0b2941f38f16bb9a4e2dd269f4bb230ffeb"
+        }
+      ]
+    }
+  ]
+}

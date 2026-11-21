@@ -1,0 +1,5 @@
+{
+  "kind": "SCREEN_OFF_BACKGROUND_ATTEMPT_EXCLUDED_FROM_FOREGROUND_LATENCY",
+  "retained": true,
+  "reason": "Power service reported Dozing; native warm-up was not a valid foreground comparison."
+}

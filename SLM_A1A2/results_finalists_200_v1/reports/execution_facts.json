@@ -1,0 +1,27 @@
+{
+  "benchmark_sha256": "ecfe10cf6942788bfa059379e0461ab9e6291a00b5ef330bc806d94cb21dc125",
+  "manifest_sha256": "9ec595218c105e6a2b48d515dcffd01bbfd762b94646b2958f5f972b987e9878",
+  "scored_responses": 800,
+  "primary_technical_failures": 0,
+  "primary_warmups": 4,
+  "interrupted_case_attempts": 32,
+  "interrupted_complete_responses": 31,
+  "interrupted_transport_failures": 1,
+  "interrupted_warmups": 1,
+  "pre_freeze_technical_generations": 8,
+  "local_slm_generation_attempts_total": 845,
+  "human_confirmed_cases": 0,
+  "human_review_sample_cases": 20,
+  "human_review_sample_responses": 80,
+  "phase1_baseline_24_verified": true,
+  "all_memory_case_coverage": 800,
+  "matrix_completed_utc": "2026-11-17T22:22:20.892732+00:00",
+  "technical_probe_files": [
+    "13-gemma4-e2b-ud-q4-k-xl--vulkan-probe.json",
+    "portable-unsloth-qwen35-4b-q4-k-m--cpu-probe.json",
+    "13-gemma4-e2b-ud-q4-k-xl--cpu-probe-v2.json",
+    "13-gemma4-e2b-ud-q4-k-xl--vulkan-probe-v2.json",
+    "portable-unsloth-qwen35-4b-q4-k-m--cpu-probe-v2.json",
+    "portable-unsloth-qwen35-4b-q4-k-m--vulkan-probe-v2.json"
+  ]
+}

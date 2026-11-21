@@ -1,0 +1,1062 @@
+{
+  "schema_version": "writing_cross_demo.delivery/1.0",
+  "created_utc": "2026-11-09T23:06:10.307583+00:00",
+  "baseline_git_commit": "6cc3c01655a1e99a8eaf31d508ca08a14bffc4b7",
+  "purpose": "INTERACTIVE_DEMO_NOT_BENCHMARK",
+  "llama_cpp_commit": "5ad1c5da0ad7f6176256b823925aad19134f0263",
+  "final_apk": {
+    "path": "SLM_A1A2/cross_demo/artifacts/android-final/org.kevinlima.writinglab-Signed.apk",
+    "size_bytes": 176296160,
+    "sha256": "0761b54b7a4febbbe738bc814894ad81d193b778f1919c044498d119e2311983"
+  },
+  "apk_native_libraries": [
+    {
+      "entry": "lib/arm64-v8a/libc++_shared.so",
+      "size_bytes": 9290184,
+      "sha256": "0c52cfab2df0d957d8b346a2bdc5ae8d71feca2591924d77e1cd724d5bf74352",
+      "matches_staged": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libggml-base.so",
+      "size_bytes": 5565816,
+      "sha256": "c594a2f031ed491ccdda2d7a696f287128d61734a0d546eea83cf92a1eb464c4",
+      "matches_staged": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libggml-cpu.so",
+      "size_bytes": 4966072,
+      "sha256": "5da302196578c2a57fb1f762b38095b5753b1396e63ff7970000e9eb543cc836",
+      "matches_staged": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libggml-vulkan.so",
+      "size_bytes": 31334096,
+      "sha256": "0ef0c45eb1f23dfc91c48f477814bae2abac9ef46876e740e87339f722078f9d",
+      "matches_staged": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libggml.so",
+      "size_bytes": 471752,
+      "sha256": "e8e89f2c24445f4b4b9ca4c1edb91c51dbb595a4ab508ef392b440d4faad656f",
+      "matches_staged": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libllama-common.so",
+      "size_bytes": 69347328,
+      "sha256": "17d83233e9e58b751d97c07d7a19adbf30933e45232ef2aa13c153a7475ae1b7",
+      "matches_staged": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libllama.so",
+      "size_bytes": 34888000,
+      "sha256": "23ac530fdd5e8067ae32bc112b3d94b995ace282e300cccfe1e4e56142aaf6f8",
+      "matches_staged": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libwriting_llama_bridge.so",
+      "size_bytes": 540072,
+      "sha256": "00f3dfbd10c5b726c5891c33fa453cf9ec2327e3108c2394de1fa8d799413530",
+      "matches_staged": true
+    },
+    {
+      "entry": "lib/x86_64/libc++_shared.so",
+      "size_bytes": 9015544,
+      "sha256": "e28cb9e0f456caf8498d0e8562b3ac3f73bf78c07555a52b5602396f240abec3",
+      "matches_staged": true
+    },
+    {
+      "entry": "lib/x86_64/libggml-base.so",
+      "size_bytes": 5397832,
+      "sha256": "0840ed6174028037609312c3449c04a1d198ff74177b6a76e773862937be22d6",
+      "matches_staged": true
+    },
+    {
+      "entry": "lib/x86_64/libggml-cpu.so",
+      "size_bytes": 4621224,
+      "sha256": "be90aee98083a45626afb58ff1ed1da2d8034de250ab506f24bc0411016e1450",
+      "matches_staged": true
+    },
+    {
+      "entry": "lib/x86_64/libggml.so",
+      "size_bytes": 468136,
+      "sha256": "115c079983bc7df0a287765f290fd993ecc5fdf9e7903909dbe977395c9d4051",
+      "matches_staged": true
+    },
+    {
+      "entry": "lib/x86_64/libllama-common.so",
+      "size_bytes": 68852600,
+      "sha256": "35bacea482bc54a5066ba4812792136dbc5c2d1285e2569d0a1a2839407acd8c",
+      "matches_staged": true
+    },
+    {
+      "entry": "lib/x86_64/libllama.so",
+      "size_bytes": 34646176,
+      "sha256": "759afc30660e9bb34b4ae4188d4cc8c950194db7a0f0c2f3f7eaebc90b0b50df",
+      "matches_staged": true
+    },
+    {
+      "entry": "lib/x86_64/libwriting_llama_bridge.so",
+      "size_bytes": 536912,
+      "sha256": "83750b576d5ada39b01d57829c74310accc77f29459ffe669fc70ace037a1aca",
+      "matches_staged": true
+    }
+  ],
+  "windows_published_files": [
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/av_libglesv2.dll",
+      "size_bytes": 5394096,
+      "sha256": "53191a77fe783cd757ca7767077c2a64a662e7043777a5b4ab74980d4a0b73e3"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.Base.dll",
+      "size_bytes": 2363904,
+      "sha256": "2398bdbfbdb7eb0a100d8395f625efb78a447ead98a92e3f8a8270acf6a13756"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.Controls.dll",
+      "size_bytes": 1359360,
+      "sha256": "b5c4ce303708e90986e9ee44bb4d94e15e75ed5163d5aba5b5b8488ca8ef1866"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.DesignerSupport.dll",
+      "size_bytes": 214528,
+      "sha256": "b43eeb081ff6b356931126894aa5cf2a5aa176ba59c1851c6a1123406b3a8feb"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.Desktop.dll",
+      "size_bytes": 15360,
+      "sha256": "628565f569d247d0941b563ef9be86ef8eb47b48386e5eaca0bf858ae9af3d9c"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.Dialogs.dll",
+      "size_bytes": 242688,
+      "sha256": "af285399f5e9b55eb968fd0d15cca5fd77a08e1929d0cebf11ae61130322a7a5"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.dll",
+      "size_bytes": 4096,
+      "sha256": "c040a36b518724391db4a4a85bab9c773544101d1fb964b29f75dc260682518d"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.FreeDesktop.AtSpi.dll",
+      "size_bytes": 564224,
+      "sha256": "b64e352806ef8d0b2d10a7266523507f594de777faf9f8b3fb004d76fc8e76cb"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.FreeDesktop.dll",
+      "size_bytes": 257024,
+      "sha256": "ada5c59a24cb21d015c7db6e7bd66413948dc59a3c85e5e283ce059aba9c18ef"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.HarfBuzz.dll",
+      "size_bytes": 22016,
+      "sha256": "1cf2b1161020644a308fe362184c5f45ad704389fff72546463fa1317c551d65"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.Markup.dll",
+      "size_bytes": 45568,
+      "sha256": "697b7e4d650da61c9e65a7bdf75811d610b4f2ebb155a36cac5462a1ccd33f10"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.Markup.Xaml.dll",
+      "size_bytes": 75264,
+      "sha256": "40becf35076750e5d1e6d00dbfa1c57e24f36662fa480943757bb38c41ea1028"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.Metal.dll",
+      "size_bytes": 15360,
+      "sha256": "ab505c9fa091d98649661286372190784f8c530dfc1ebaf47bdc2698164c65a5"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.MicroCom.dll",
+      "size_bytes": 15360,
+      "sha256": "74b02753e32a1791ead1d826fea1daae420c50025750cc18936ba36457c18ac4"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.Native.dll",
+      "size_bytes": 351232,
+      "sha256": "3560e0cf11e8809049e5c88bae0eeb785bb9c4843d1e140de9779ab23d8d45fd"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.OpenGL.dll",
+      "size_bytes": 128512,
+      "sha256": "1e1d65e420a6cc8bdf72b607451f6112cbfe042fc230060203a27d2fcf32649c"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.Remote.Protocol.dll",
+      "size_bytes": 75776,
+      "sha256": "03b834b70359c51c82affe94d9b8c9a589e36c77ff38f7eb2344ac4efbeb99c0"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.Skia.dll",
+      "size_bytes": 125952,
+      "sha256": "889d42eed8f1d0f929d7aa45c928e5a9bf6c0ecc6165718760aa26b568de967e"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.Themes.Fluent.dll",
+      "size_bytes": 733696,
+      "sha256": "3bd3bee7152b3e681137109edfc0cffc1b338764d1002370fada6776b0232f26"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.Vulkan.dll",
+      "size_bytes": 191488,
+      "sha256": "b945f74cd2cf32c4d19514e4e55ca6b76e8625fbb62a2e29a22706731e40be2a"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.Win32.Automation.dll",
+      "size_bytes": 124928,
+      "sha256": "35b4283bf19d651cd1731293ddc19b2539f79773fba176096778dbf896d3d242"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.Win32.dll",
+      "size_bytes": 966144,
+      "sha256": "2c655dca169d26a5e9f9e5c44654c511611a3fe81635ef5b8365b2ac9bdf5bab"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Avalonia.X11.dll",
+      "size_bytes": 410624,
+      "sha256": "2a0dfdfbef862199f7d1d68c0ef7a5d3cd3b13b9e2cc51ebf547aadadc50764b"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/ggml-base.dll",
+      "size_bytes": 690176,
+      "sha256": "fecde27ae315a5bd8c90929d48e2f43026e23f6413b5acfb23764fc3d262248b"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/ggml-cpu.dll",
+      "size_bytes": 1129984,
+      "sha256": "91ced044c8e695764a22090cae48a12741b62ef236c00c860fe947f7490cbd3e"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/ggml-vulkan.dll",
+      "size_bytes": 45305856,
+      "sha256": "29e894b75489d149269b8e5a1b0a102b82e58f846322b6ea441d2af293aeee74"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/ggml.dll",
+      "size_bytes": 62464,
+      "sha256": "9c2b739308d4b2f1615481d350d208708e976b28a1b4a468c037787212631b29"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/HarfBuzzSharp.dll",
+      "size_bytes": 122400,
+      "sha256": "55e72ac23263f8e12484f3435e02ec22fac9eff6e6d169bb0a8c246be6b99d29"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/libHarfBuzzSharp.dll",
+      "size_bytes": 1816088,
+      "sha256": "145ade963eba427027d5e1381db5d51a0ef9e98e9fef9efbfa6074ca20da246f"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/libHarfBuzzSharp.pdb",
+      "size_bytes": 20918272,
+      "sha256": "4300d75d5af09fbb79d565d9a18573243a93214c811d4f24a33f11f0d4242d93"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/libSkiaSharp.dll",
+      "size_bytes": 11628896,
+      "sha256": "7dec3ba900ab353491e6446f0083739924c6f8dd668832e2f09d38ebffdbbe1c"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/libSkiaSharp.pdb",
+      "size_bytes": 84033536,
+      "sha256": "9fa70aeff3122bcceae15cd89d9d2f3c88c8d382122ef70ad694a76d119dcc6e"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/llama-common.dll",
+      "size_bytes": 8439808,
+      "sha256": "09e41b13a37455c60d2c769287df41e2f4a7aae7a064a0651bb33423c1b43e16"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/llama.dll",
+      "size_bytes": 2786304,
+      "sha256": "6ac37cf91f24a5d509be7a0093a63cc43193e2491585de9d6b9a41f77902bf4c"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/MicroCom.Runtime.dll",
+      "size_bytes": 15360,
+      "sha256": "2538ec6f3c24e901a90e33c37788b9a4e4b6ae8158cab7328a00a00bb28eab9e"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/SkiaSharp.dll",
+      "size_bytes": 489824,
+      "sha256": "aaaaa18c68ba1f3a3408b00dff28b11d5705198e17ba9d3aa59222bfd35407c8"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/Tmds.DBus.Protocol.dll",
+      "size_bytes": 232960,
+      "sha256": "60a1c5255731d8ac843cab53108be8ba1ed02759ce3db0da5b49939ebe97bd8a"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/writing_llama_bridge.dll",
+      "size_bytes": 48128,
+      "sha256": "6d22069209648130c77f449a799c0d5208e54e06a9e84c8d73cbe0c5f9c730a4"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/WritingApp.Desktop.deps.json",
+      "size_bytes": 16597,
+      "sha256": "2d6a2f5c53609adb94d608bd7e787dd6d86c0ce5d6a71ad6ba1de88d4fa85c98"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/WritingApp.Desktop.dll",
+      "size_bytes": 9216,
+      "sha256": "1e564aaf6ba45ef1a3d50fecbdd0b94e056ec89129a361e78099cafdcf92fd50"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/WritingApp.Desktop.exe",
+      "size_bytes": 74240,
+      "sha256": "1881c466ea51cb1d177c352b337b6e9bd6f7c699677a8f7a91b8e1b04031b552"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/WritingApp.Desktop.pdb",
+      "size_bytes": 15676,
+      "sha256": "27906aa49dfd53b753226f4c9dda30669bd540dba92f770d2a6f70065b533b7a"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/WritingApp.Desktop.runtimeconfig.json",
+      "size_bytes": 435,
+      "sha256": "7658b376a4b19219fda2097ba65847f4d25baabcb611838db08aac574b70001e"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/WritingApp.Native.dll",
+      "size_bytes": 23040,
+      "sha256": "b1e472876ab91a33913d1373ffa49fb7a53487000f5cc5290f97aeddf19fc1bd"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/WritingApp.Native.pdb",
+      "size_bytes": 16388,
+      "sha256": "a1cbb83e437577a9b3df9a317e02706e4ef676b72ff544df2486cc02b8935901"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/WritingApp.Shared.dll",
+      "size_bytes": 195584,
+      "sha256": "715bbf9c731d5bd48bdc2a36c15a0a810cb7f9bffd6bc5b6296bb8c1eda086f3"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/WritingApp.Shared.pdb",
+      "size_bytes": 75460,
+      "sha256": "cb26f7bb877a73d0e72c748aa5c1bc5e6dab7a4a43872865103564c10a74db91"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/WritingApp.UI.dll",
+      "size_bytes": 110080,
+      "sha256": "504e05541080c4b72e3ad6b53d3cc5d29ee8a986344cb5a4ab18d4abc25bc83d"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/artifacts/windows/WritingApp.UI.pdb",
+      "size_bytes": 26936,
+      "sha256": "2c5b9352458df1f7dfe0d98980dd44b31afb7d36c6ac1cd4aacfe428c4ef95e5"
+    }
+  ],
+  "source_and_documentation_files": [
+    {
+      "path": "SLM_A1A2/cross_demo/.gitignore",
+      "size_bytes": 423,
+      "sha256": "9253f935430af1ce344bdffddf181580b7d817a28f21248216fbce3f33e9f288"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/Directory.Build.props",
+      "size_bytes": 279,
+      "sha256": "165d5ffa8c6e8894e800db40e257a8a3c1ba4f285c7834429c82e5249ef143f0"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/HANDOFF_LUNA_LIMIT_20261109.md",
+      "size_bytes": 15504,
+      "sha256": "61d91b9421f2d9b474be10a1579dcab10696798b1cad170d0294492faa24a4eb"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/README.md",
+      "size_bytes": 11416,
+      "sha256": "a62310f1fa25378ac19a5483f35bff8ad6bd8cd51f70e9eb612be300a81ae6ec"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Android/AndroidApplication.cs",
+      "size_bytes": 2777,
+      "sha256": "b8cc18a79bf35e8c921eed2bd23e67bbb2eac268d75ea95c1e9513dd58d51d40"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Android/AndroidManifest.xml",
+      "size_bytes": 441,
+      "sha256": "e026ffad09fdae6c73412620d56b43e399fa265969087664d1f37b2d12e751f2"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Android/MainActivity.cs",
+      "size_bytes": 400,
+      "sha256": "4950d0a9a5f65f2cca7266974504ac3e249959139873a8c2750a20db1d28d625"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Android/Resources/values/styles.xml",
+      "size_bytes": 335,
+      "sha256": "936b92f046190dcbcd5aaf37b1591bd1cfcc825f35498ad1a8af030fa95c6dc5"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Android/WritingApp.Android.csproj",
+      "size_bytes": 1526,
+      "sha256": "33ab1f875de1380ff2fe7267a18436616077316bf523b1d033ed88de5e16c2cc"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Desktop/PlatformBootstrap.cs",
+      "size_bytes": 4537,
+      "sha256": "5f1feb361d258b341142d3ac492b8ae00ad5f20288698cb8b94df6528c83e18e"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Desktop/Program.cs",
+      "size_bytes": 492,
+      "sha256": "ce977dbdaff6a63abbecccd0f61afc72856e280abd331dda519614e0c3fd34c8"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Desktop/WritingApp.Desktop.csproj",
+      "size_bytes": 917,
+      "sha256": "9e8e16e6e661df16173ccbde48bbc7ae4de2dc78cf6b2941518cebdd4a9b381e"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Native/NativeCancellationFlag.cs",
+      "size_bytes": 819,
+      "sha256": "c62182081e3dc7460bc8c73d8608a5afcc143621878c027f4ef677a25c6a96e0"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Native/NativeInferenceEngine.cs",
+      "size_bytes": 11324,
+      "sha256": "c366b723683f8cebddd7c2eadf4ec7fa7d41cc4fc93859c35d5cce305f3f68cf"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Native/NativeMethods.cs",
+      "size_bytes": 2953,
+      "sha256": "9f8723aa2f55e4fc1568fc108a0a1dae6786a6f42fd2331bc022853ca4e755f3"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Native/README.md",
+      "size_bytes": 10750,
+      "sha256": "b395d0ca8944f3278882d509545cf4a26dc7a836eea3809986350e35f2455c71"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Native/WritingApp.Native.csproj",
+      "size_bytes": 430,
+      "sha256": "27b6a559fe886dfce1f48fa59cb4357494c849c29f39a3162fe9bed1e80d2824"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Shared/AppJsonContext.cs",
+      "size_bytes": 347,
+      "sha256": "cdffe0b27e317704abf48b56b64128a80bde159299f0d736759da0b79a1b6392"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Shared/Assets/catalog.json",
+      "size_bytes": 13033,
+      "sha256": "4e8b97833f3247b289db1673e6c7c4b055d8003b4ff2066c3725a9e5d554e1e1"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Shared/Assets/prompts.json",
+      "size_bytes": 11209,
+      "sha256": "47aa3495e208ea714dc34eb08240cef7ac7806c87be794ef55422023d1ba0cd9"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Shared/Contracts.cs",
+      "size_bytes": 2753,
+      "sha256": "ebf2b620f22f4a26e7d97c3d9d9429eb81c1e7dd35bc6b36befca8bc9fb72ee2"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Shared/EvaluationService.cs",
+      "size_bytes": 2841,
+      "sha256": "163037dd73ad28bc6995b37dd83178c14d5332b49bc594c590a2d51200575f54"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Shared/ModelRecommender.cs",
+      "size_bytes": 2052,
+      "sha256": "204af1aa426134407f3d57715a5eeb5809bc0133f6422bfb39149d6df2406f98"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Shared/ModelStore.cs",
+      "size_bytes": 8521,
+      "sha256": "04937aad9242bb9740b3b1eecf8a849c1684216b058d396f5a81afe576ed8ec5"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Shared/PortableCatalog.cs",
+      "size_bytes": 2245,
+      "sha256": "553e15b2442bd6a3152fd810122b4198fdfe45862492a0edb4ce13b533222f5d"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Shared/WritingApp.Shared.csproj",
+      "size_bytes": 637,
+      "sha256": "b85e2c745f7279eff3868b15116b852cdd24fefb394faa22d6f118b77da62a15"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Smoke/Program.cs",
+      "size_bytes": 2922,
+      "sha256": "fbc530a486ff8abd25fddf76c70305587530bde96deb4e21c5bd7430eb4929b4"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Smoke/WritingApp.Smoke.csproj",
+      "size_bytes": 579,
+      "sha256": "dc7fbdcabf8fe7c3376c347a9c2d4b3d842eafdc5551c0ec62be3112b493de53"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Tests/Program.cs",
+      "size_bytes": 11538,
+      "sha256": "007f467f7d5fa9b92020c2f7a548fd1bff6577781e6aa304c2b5f590b0a665f1"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.Tests/WritingApp.Tests.csproj",
+      "size_bytes": 338,
+      "sha256": "0c00559f0fec6e1c536f4cf79b25a6655d012c060c947c69e55def4fd154d2e5"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.UI/App.axaml",
+      "size_bytes": 1158,
+      "sha256": "12f7a189584b06c7981c7321ac6450a8aecc08de4b36ec72715b7ac70e30c335"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.UI/App.axaml.cs",
+      "size_bytes": 1672,
+      "sha256": "939b1f3c9706ca8a35f41db6b43eb7b98238187f99542849c23a4472fd370227"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.UI/MainView.axaml",
+      "size_bytes": 9445,
+      "sha256": "f82a781e2f9d32a924e76999b3d9fc8acaacbcf1ee9d107b4e0c8603db4767f6"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.UI/MainView.axaml.cs",
+      "size_bytes": 18819,
+      "sha256": "19de1049eeb892541c031d1d1b34b3dca4bfaf2e88a1a49f49f5b668994579ea"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.UI/MainWindow.axaml",
+      "size_bytes": 354,
+      "sha256": "63a4b3d2015a794c89d7c59e2d30d76783e3296ee5e4a6cf3c18a300e63cd8f3"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.UI/MainWindow.axaml.cs",
+      "size_bytes": 522,
+      "sha256": "bf421e259380ce7ce27178bb3aff1efba90e8fa4409ab1a35e17354b5c1d02c9"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.UI/MainWindowViewModel.cs",
+      "size_bytes": 22806,
+      "sha256": "dd756a089375b4b318b042dd63492eb3f96781fdcb9d1e8879e7f4ea963c4daa"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.UI/SessionExportWriter.cs",
+      "size_bytes": 552,
+      "sha256": "ccf18be72a416b37415fe889190e663d0cd17ff6ad6d001e88dbe56f3bf74355"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.UI/WritingApp.UI.csproj",
+      "size_bytes": 534,
+      "sha256": "813281a1b346ab5853d864b5be1d3448a836961babd922b229f7caccb8a49780"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.UiTests/Program.cs",
+      "size_bytes": 9218,
+      "sha256": "91a18101ae54157eedd1e710ebaa39645c2a6fbc584e94bd479c68b5c61bd04b"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/WritingApp.UiTests/WritingApp.UiTests.csproj",
+      "size_bytes": 411,
+      "sha256": "f58a08a291bb4e7700e3380f94544b59abdd298cfe368d4abdea8896a86545cd"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/android_environment.json",
+      "size_bytes": 10412,
+      "sha256": "242b82abecff2335f0fc49b6c0d4b40581b22de87c4dc8ad246e4ebc333711e7"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/docs/assets/android_demo_20261109.png",
+      "size_bytes": 264449,
+      "sha256": "943e638ada1e0c4ed5a7e1694c37050eac9bd65a2bfa6953290f97bf079f1ebd"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/docs/assets/windows_demo_20261109.jpg",
+      "size_bytes": 158291,
+      "sha256": "dea008c5d248cd7ab5597bce33bce2a8e5ee3179eb4423049f27576cbf013419"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/docs/implementation_and_validation_20261109.md",
+      "size_bytes": 17806,
+      "sha256": "3b786f88f13903a119aeb5e6815b25cf97a132b3c9ae7818e676e453588661b3"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/global.json",
+      "size_bytes": 97,
+      "sha256": "5e3f06b5a5d6dcf062d49c1aa4e2ce9dafc35d3e9f74a0722a8da799a63014c3"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/manifests/portable_qwen_sources_20261109.json",
+      "size_bytes": 1050,
+      "sha256": "639449b0c57cf9adaad48018b3fc31fadf2d4ce6ac4803dfc13df7a9cdb32bd9"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/BUILD_MANIFEST.md",
+      "size_bytes": 8865,
+      "sha256": "56836fe13e9d0a9451cdb2955535c727b2e31670669812c878701f81c320b281"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/CMakeLists.txt",
+      "size_bytes": 6608,
+      "sha256": "d63fea87ec2e5f210afed96115da62eee1d28b1417145e7738738eb07a10b5b4"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/README.md",
+      "size_bytes": 825,
+      "sha256": "4d9f3185e1b3c715dc935e32bf53a2718e39446d2d889a860fc7ab9784b0e9fd"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/cmake/android-ndk-spirv/SPIRV-HeadersConfig.cmake",
+      "size_bytes": 1007,
+      "sha256": "e1fd8697e3059e5e85792143c084e9748f66cffe9d948138f51fc93f20b162a7"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/include/writing_llama_bridge.h",
+      "size_bytes": 2618,
+      "sha256": "e0ed203404b1b7da09ec33cfc4ac6b7c46cd86adfc1a35b73ee26d13e16bbb05"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/native/src/writing_llama_bridge.cpp",
+      "size_bytes": 20800,
+      "sha256": "e94c1d426d03c2bba606dba23f524018d9a40db8548190be1bf0b4a1376ad0c3"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/scripts/android_build.ps1",
+      "size_bytes": 3408,
+      "sha256": "5f41c803731230c29f9ca2d3f1ced36021ba6c2ea34665fcaedf748c6f7c5045"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/scripts/android_setup_dotnet.ps1",
+      "size_bytes": 4265,
+      "sha256": "a9f73cd2866caba81989b91c05a7d0b208d258af6a40b070dffd84b7f6486064"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/scripts/android_try_emulator.ps1",
+      "size_bytes": 2399,
+      "sha256": "aab5427d0c48e902f083c9de66ee002d33e15cc9aa6fce1c52b69c972ef99e31"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/scripts/generate_portable_assets.py",
+      "size_bytes": 3898,
+      "sha256": "e5f4d28f7f8048033e3a0ead9dbdabf99055a652f2fe39776e8e5159e8189369"
+    },
+    {
+      "path": "SLM_A1A2/cross_demo/scripts/windows_build.ps1",
+      "size_bytes": 1356,
+      "sha256": "3ec7fe76688e82fa9f2108b004e81169ab33c9be1a24c99f2d2d9f5258f897ae"
+    },
+    {
+      "path": "SLM_A1A2/documentation/README.md",
+      "size_bytes": 6305,
+      "sha256": "808a62bce2a86bcbcc5e0044307c6a049e51f604fb5f4ba7700fef5837a5d640"
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_cpu_after_export.png",
+      "size_bytes": 268706,
+      "sha256": "87976a05e0c724b65a8103263f51a5a914e6e3dc46929794ddbc84b2785ba1fe"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_cpu_lfm12_eval_20261109.log",
+      "size_bytes": 40608,
+      "sha256": "84c2ce7a774e63bbf2ade0b146f8d4c32907b38f447955672dc8e8c1147827b8"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_cpu_lfm12_eval_progress.png",
+      "size_bytes": 201238,
+      "sha256": "db69763ddaab72c4de9b2e76d66e8336eaa243b0239fa433bdac7c55d19e8a8a"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_cpu_lfm12_load_20261109.log",
+      "size_bytes": 821579,
+      "sha256": "a5cc327b42676713cd8766641a9aa49d31e894ac6b37b3346f4ff17a84f11e6f"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_cpu_lfm12_notes.md",
+      "size_bytes": 4211,
+      "sha256": "3e7dadea8452ce0af4e4676b553f10861cf65375126f78dbcf24aa6c7e8f715f"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_cpu_lfm12_result.png",
+      "size_bytes": 264449,
+      "sha256": "943e638ada1e0c4ed5a7e1694c37050eac9bd65a2bfa6953290f97bf079f1ebd"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_cpu_lfm12_session.json",
+      "size_bytes": 3145,
+      "sha256": "e2e4bf88fe8f85b022f09a82b2118012000fb4cf098f4087fa62ae34995519ae"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_cpu_loading.png",
+      "size_bytes": 319480,
+      "sha256": "a9f39c96a7ceb4283ffaff7571fcf0de6164d693c85b94d7276de029a4a3525c"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_cpu_screen_20261109_173748.png",
+      "size_bytes": 304149,
+      "sha256": "f25f63a3eeaa91fba7cec9c10ac466506f27db05d1b79022bd209c032a0a3f69"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_cpu_start_20261109_173655.log",
+      "size_bytes": 220862,
+      "sha256": "0043c55860b575b767619b83f942c0628ccb871313ce2c49c47ed712aa32b4e5"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_final_backend_menu.png",
+      "size_bytes": 307255,
+      "sha256": "461844eacd495e86eb266ccb2e119366e11dd61d21eb82adc65fd08fd1d6ba94"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_final_cache_continuity.png",
+      "size_bytes": 308186,
+      "sha256": "f3270cd98dcc3faf92f35b468ba0929077bc0dd97e3fb4e859250b247243d4b5"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_final_cache_load_20261109.log",
+      "size_bytes": 10094,
+      "sha256": "a7857969f2b633aeffec16ea8924633d15bb34f06e70ea773b21435216dba40c"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_final_cache_loaded.png",
+      "size_bytes": 317522,
+      "sha256": "9c9d472165453d66b3a3fe9669d1b39632d2db4ce221ef3b3b3e699d586cfa68"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_final_cpu_selected.png",
+      "size_bytes": 304151,
+      "sha256": "0e26217d4c5c90b1f86f3d6cbb0228aa968496c48676cb7637ddfe98778999d2"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android/android_final_startup_20261109.log",
+      "size_bytes": 492334,
+      "sha256": "3add42bcf05f89e5327add98cf604d1322f500279469edd39cd7d4ae8d918528"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_after_export.png",
+      "size_bytes": 268706,
+      "sha256": "87976a05e0c724b65a8103263f51a5a914e6e3dc46929794ddbc84b2785ba1fe"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_backend_menu.png",
+      "size_bytes": 293633,
+      "sha256": "644daa19dfae5691b59dbac1f597da22dae8647aaffb8b45de076173592da7b7"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_eval_button.png",
+      "size_bytes": 240025,
+      "sha256": "23de8b15746af24546e8706ddca36edb7ce5a5f4fa2bdacf4ea2fa504d0036ca"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_example_selected.png",
+      "size_bytes": 208946,
+      "sha256": "bd084b751a7988ef6a5f857bceea827d4277b84a757850487fd28075791edd9c"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_exercise_controls.png",
+      "size_bytes": 219458,
+      "sha256": "54c00f5fda8d7dde86b0919788eaedd03a8253acb253630a099c3266472b0317"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_export_dialog.png",
+      "size_bytes": 72438,
+      "sha256": "b1cd866e6d624dca3cf74b07aa918b9059cbbd1a22ea0a614f806340ff2ece75"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_import_progress.png",
+      "size_bytes": 294967,
+      "sha256": "334476600efe32a570113600b83839b3bc4bc61f9b88e5a8ebd2dd114d690902"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_imported.png",
+      "size_bytes": 289243,
+      "sha256": "137ee88671012ea02d6fd765598025358d9c4bc1a243799731dd590475fc965c"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_inputs2.png",
+      "size_bytes": 222203,
+      "sha256": "391a59dd1723204784c3230218f9f656b2953366f2ec7e179ff23e9845c1b51a"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_inputs_after_validation.png",
+      "size_bytes": 222513,
+      "sha256": "88f44bec750d8d5cb867d582a7236255a73ec405256dab650fa1ab37d6a9284c"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_lfm12_eval_20261109.log",
+      "size_bytes": 40608,
+      "sha256": "84c2ce7a774e63bbf2ade0b146f8d4c32907b38f447955672dc8e8c1147827b8"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_lfm12_eval_progress.png",
+      "size_bytes": 201238,
+      "sha256": "db69763ddaab72c4de9b2e76d66e8336eaa243b0239fa433bdac7c55d19e8a8a"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_lfm12_load_20261109.log",
+      "size_bytes": 821579,
+      "sha256": "a5cc327b42676713cd8766641a9aa49d31e894ac6b37b3346f4ff17a84f11e6f"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_lfm12_result.png",
+      "size_bytes": 264449,
+      "sha256": "943e638ada1e0c4ed5a7e1694c37050eac9bd65a2bfa6953290f97bf079f1ebd"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_lfm12_session.json",
+      "size_bytes": 3145,
+      "sha256": "e2e4bf88fe8f85b022f09a82b2118012000fb4cf098f4087fa62ae34995519ae"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_loading.png",
+      "size_bytes": 319480,
+      "sha256": "a9f39c96a7ceb4283ffaff7571fcf0de6164d693c85b94d7276de029a4a3525c"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_picker.png",
+      "size_bytes": 27150,
+      "sha256": "a64625b1b6139727093ba2a8a73c13ee7f7e47b267548ddd68f1117a55ac1fee"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_picker_downloads.png",
+      "size_bytes": 81884,
+      "sha256": "dc2071cea2e5d26d98f1e00708039419356059ace447345a4a826085c44efc47"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_picker_nav.png",
+      "size_bytes": 87973,
+      "sha256": "d906bf6192a3f9e559bc08cfcde2168c0491eed249e4e4836bb7612136e13c98"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_picker_wait.png",
+      "size_bytes": 134998,
+      "sha256": "6a3ae03c6a51ba9c33aa9ba012cbc27296ab35ae53a2e6bf68c6f0a3d7122597"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_response_entered.png",
+      "size_bytes": 252901,
+      "sha256": "5c8893ad87f8095745f1cd89ac467e3a3f26ed2cc61a49797fa59fc0ba0db091"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_response_visible.png",
+      "size_bytes": 233485,
+      "sha256": "d57487ee7641345199fb76a6eac1294671c9c20fb1d2c205a145591d8e370cdb"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_screen_20261109_173748.png",
+      "size_bytes": 304149,
+      "sha256": "f25f63a3eeaa91fba7cec9c10ac466506f27db05d1b79022bd209c032a0a3f69"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_selected.png",
+      "size_bytes": 290144,
+      "sha256": "0fb9f770f67a9e3a111626cecb51f69e627facb894ea8919d74592ae3e790751"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_start_20261109_173655.log",
+      "size_bytes": 220862,
+      "sha256": "0043c55860b575b767619b83f942c0628ccb871313ce2c49c47ed712aa32b4e5"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/android_cpu_start_20261109_173655.png",
+      "size_bytes": 84656,
+      "sha256": "2edd3500421a1dc3b784ed374a43493f3162f144cafb298969313815af350ccc"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/gui_windows_export_20261109.json",
+      "size_bytes": 3386,
+      "sha256": "352c817a7662f4115514e9e3b84f0df6c2f01d83856209d372dc7d5af881bbca"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_cpu_lfm12_20261109.json",
+      "size_bytes": 3154,
+      "sha256": "4f5d77e79980b2806057ea4054153a813b7d16dc2c77e4d5f30db25b5bb8b132"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_cpu_lfm12_20261109.log",
+      "size_bytes": 122756,
+      "sha256": "5788ac14050532ba0400e20cc69a34223a22e055405c640a03e775120ceae235"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_cpu_load_incident_20261109.json",
+      "size_bytes": 778,
+      "sha256": "2c087bd1d4b9773f85a526561174a257a6feaa0f931caaf9b7470fbf09517978"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_no_visible_gpu_load_20261109.json",
+      "size_bytes": 209,
+      "sha256": "e5491cf0d8d3845183189dec78e10e4b9ef81e6d3c1127c5a509d57f210b827a"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_no_visible_gpu_load_20261109.log",
+      "size_bytes": 122511,
+      "sha256": "057f943ca4a5cb20ae99cb0acc23691b2fde9c5f11b4bc751ab40c782ab2d3ad"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_vulkan_06-minicpm5-2b-q4-k-m_20261109.json",
+      "size_bytes": 3038,
+      "sha256": "504792ad6f859cf8605c1f64afba076705dec9efd678e183788ea943d41222b4"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_vulkan_06-minicpm5-2b-q4-k-m_20261109.log",
+      "size_bytes": 334488,
+      "sha256": "5f39c257441a069be4ac9ea0db8715192e1897449ebd04a83a556c9f65adc805"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_vulkan_11-qwen35-4b-q4-k-m_20261109.json",
+      "size_bytes": 4287,
+      "sha256": "b3907e2eed74f58be930f07fa65a83c0b6c6311c6e8f3670f75ad4579817b3d9"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_vulkan_11-qwen35-4b-q4-k-m_20261109.log",
+      "size_bytes": 177282,
+      "sha256": "494bb4fc445c71558dc2a9b92cd0fceebd16e5413a320391e6132d0c44a248bf"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_vulkan_13-gemma4-e2b-ud-q4-k-xl_20261109.json",
+      "size_bytes": 5768,
+      "sha256": "5bf039847f65a134895b40f5a8ae8c4382627d8e38f4375c5dce7e082618e2e7"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_vulkan_13-gemma4-e2b-ud-q4-k-xl_20261109.log",
+      "size_bytes": 224859,
+      "sha256": "d8296349b21b9544a1606d0c6cb3ebebb06a2de92ca1c3f49bfd76e07e372197"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_vulkan_16-lfm25-26b-q4-k-m_20261109.json",
+      "size_bytes": 7352,
+      "sha256": "09dc807eaa482d6820e58a5a5ae8ceb4c9b1bfba1cf471ebd7ac724edad4b226"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_vulkan_16-lfm25-26b-q4-k-m_20261109.log",
+      "size_bytes": 131805,
+      "sha256": "5b2732d071868379e47f1218798feb90059091be053f6aa69bd8f0ea39c8c58c"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_vulkan_lfm12_20261109.json",
+      "size_bytes": 3176,
+      "sha256": "763699fee2efe731651cd054c01d5baecd2dde96f8f388043e2c5f9deddc0178"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/native_vulkan_lfm12_20261109.log",
+      "size_bytes": 118218,
+      "sha256": "27cac2cc5921a9be1a852508b9754c3b38045d7aa4b3859441f964546ca46d88"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/session-20261109T182321255Z-7e0ff49f24ae4ddd8799c4206e53e485.json",
+      "size_bytes": 3154,
+      "sha256": "4f5d77e79980b2806057ea4054153a813b7d16dc2c77e4d5f30db25b5bb8b132"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/session-20261109T182438257Z-ebd3df17b1454a11825a527a96b6a95b.json",
+      "size_bytes": 3176,
+      "sha256": "763699fee2efe731651cd054c01d5baecd2dde96f8f388043e2c5f9deddc0178"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/session-20261109T182715560Z-6002e46729894fbeb7108873f45f9f75.json",
+      "size_bytes": 3038,
+      "sha256": "504792ad6f859cf8605c1f64afba076705dec9efd678e183788ea943d41222b4"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/session-20261109T182818662Z-f9960c5ea4214575b71f7a0446d8e061.json",
+      "size_bytes": 4287,
+      "sha256": "b3907e2eed74f58be930f07fa65a83c0b6c6311c6e8f3670f75ad4579817b3d9"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/session-20261109T182926595Z-2eeaf0d2e9ba44b7952b901b8e411c91.json",
+      "size_bytes": 5768,
+      "sha256": "5bf039847f65a134895b40f5a8ae8c4382627d8e38f4375c5dce7e082618e2e7"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/session-20261109T182951852Z-ec2cfe4d927242c0931eb5c996578add.json",
+      "size_bytes": 7352,
+      "sha256": "09dc807eaa482d6820e58a5a5ae8ceb4c9b1bfba1cf471ebd7ac724edad4b226"
+    },
+    {
+      "path": "SLM_A1A2/logs/cross_demo/windows_final_startup_20261109.txt",
+      "size_bytes": 1305,
+      "sha256": "6b1719e8186f85e1c4d37807b2cd10c5974db1ac912879ec73e328d88241472b"
+    }
+  ],
+  "technical_generation_count": 8,
+  "technical_sessions": [
+    {
+      "session_path": "SLM_A1A2/logs/cross_demo/native_cpu_lfm12_20261109.json",
+      "model_id": "09-lfm25-12b-q4-k-m",
+      "backend": "CPU",
+      "context_tokens": 2048,
+      "attempts": 1
+    },
+    {
+      "session_path": "SLM_A1A2/logs/cross_demo/native_vulkan_lfm12_20261109.json",
+      "model_id": "09-lfm25-12b-q4-k-m",
+      "backend": "Vulkan",
+      "context_tokens": 2048,
+      "attempts": 1
+    },
+    {
+      "session_path": "SLM_A1A2/logs/cross_demo/native_vulkan_06-minicpm5-2b-q4-k-m_20261109.json",
+      "model_id": "06-minicpm5-2b-q4-k-m",
+      "backend": "Vulkan",
+      "context_tokens": 2048,
+      "attempts": 1
+    },
+    {
+      "session_path": "SLM_A1A2/logs/cross_demo/native_vulkan_11-qwen35-4b-q4-k-m_20261109.json",
+      "model_id": "11-qwen35-4b-q4-k-m",
+      "backend": "Vulkan",
+      "context_tokens": 2048,
+      "attempts": 1
+    },
+    {
+      "session_path": "SLM_A1A2/logs/cross_demo/native_vulkan_13-gemma4-e2b-ud-q4-k-xl_20261109.json",
+      "model_id": "13-gemma4-e2b-ud-q4-k-xl",
+      "backend": "Vulkan",
+      "context_tokens": 2048,
+      "attempts": 1
+    },
+    {
+      "session_path": "SLM_A1A2/logs/cross_demo/native_vulkan_16-lfm25-26b-q4-k-m_20261109.json",
+      "model_id": "16-lfm25-26b-q4-k-m",
+      "backend": "Vulkan",
+      "context_tokens": 2048,
+      "attempts": 1
+    },
+    {
+      "session_path": "SLM_A1A2/logs/cross_demo/gui_windows_export_20261109.json",
+      "model_id": "06-minicpm5-2b-q4-k-m",
+      "backend": "Vulkan",
+      "context_tokens": 4096,
+      "attempts": 1
+    },
+    {
+      "session_path": "SLM_A1A2/logs/cross_demo/android/android_cpu_lfm12_session.json",
+      "model_id": "09-lfm25-12b-q4-k-m",
+      "backend": "CPU",
+      "context_tokens": 2048,
+      "attempts": 1
+    }
+  ],
+  "load_only_checks": [
+    "CPU auto fallback with no visible Vulkan device (Windows)",
+    "Final Android package CPU load after update"
+  ],
+  "tests": {
+    "existing_python": 207,
+    "shared": 15,
+    "ui_state_and_export": 4,
+    "inferences_in_fixture_tests": 0
+  },
+  "preservation": {
+    "phase1_unchanged": 24,
+    "evaluation_v2_source_hashes_unchanged": 164,
+    "evaluation_v2_derived_hashes_unchanged": 76,
+    "original_git_files_byte_identical": 93,
+    "benchmarks_executed_this_task": 0,
+    "final_test_accessed": false,
+    "remote_configured": false
+  },
+  "limitations": [
+    "Android ARM64/Vulkan plugin compiled and packaged, not tested on physical phone",
+    "x86_64 emulator CPU path tested; final APK load-only after update, inference tested on prior CPU candidate",
+    "Android final export filename fix tested via shared fixture, not re-exported in final APK",
+    "CoreCLR/JIT Android toolchain combines Preview6 Android manifest/bindings with .NET11 RC3; NativeAOT not published",
+    "Model suggestion is heuristic, not peak-memory measurement or quality ranking",
+    "Binaries and RAW evidence remain local/ignored by Git; the index contains hashes only",
+    "GGML_COMMIT build metadata inherited workspace HEAD; source provenance uses pinned llama.cpp source and documented hashes"
+  ]
+}

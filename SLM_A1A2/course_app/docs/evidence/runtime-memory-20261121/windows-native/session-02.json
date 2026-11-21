@@ -1,0 +1,97 @@
+{
+  "SchemaVersion": "writing_course/1.0",
+  "Purpose": "WRITING_LAB_NOT_BENCHMARK",
+  "DateUtc": "2026-11-21T07:53:28.5347758+00:00",
+  "Model": {
+    "Id": "13-gemma4-e2b-ud-q4-k-xl",
+    "Name": "Gemma 4 \u00B7 E2B",
+    "Family": "gemma",
+    "Quantization": "UD-Q4_K_XL",
+    "RelativePath": "gemma4_e2b/unsloth_dynamic/gemma-4-E2B-it-qat-UD-Q4_K_XL.gguf",
+    "SizeBytes": 2620370976,
+    "Sha256": "e531007218dfab990486a5de7676a6932d6ea8dea233d1f698d7c21cf8a16889",
+    "DownloadUrl": "https://huggingface.co/unsloth/gemma-4-E2B-it-qat-GGUF/resolve/66a399f68ddd113b06dff02fca9523e55465d11d/gemma-4-E2B-it-qat-UD-Q4_K_XL.gguf?download=true",
+    "SourceUrl": "https://huggingface.co/unsloth/gemma-4-E2B-it-qat-GGUF/tree/66a399f68ddd113b06dff02fca9523e55465d11d",
+    "License": "Apache-2.0",
+    "Sampling": {
+      "Temperature": 1,
+      "TopP": 0.95,
+      "TopK": 64,
+      "MinP": 0.05,
+      "RepeatPenalty": 1,
+      "PresencePenalty": 0,
+      "FrequencyPenalty": 0,
+      "MaxTokens": 512
+    },
+    "ThinkingToggle": true,
+    "Label": "Gemma 4 \u00B7 E2B \u00B7 UD-Q4_K_XL \u00B7 2,62 GB"
+  },
+  "Device": {
+    "Platform": "Windows",
+    "Architecture": "X64",
+    "TotalMemoryBytes": 17087791104,
+    "AvailableMemoryBytes": 3840020480,
+    "FreeStorageBytes": 27850723328,
+    "IsEmulator": false,
+    "GpuDescription": null
+  },
+  "Engine": {
+    "Requested": "AutoVulkanCpu",
+    "Backend": "Vulkan",
+    "Device": "NVIDIA GeForce RTX 3070 (Vulkan0)",
+    "OffloadedLayers": 36,
+    "FallbackReason": "Vulkan medido: 36 capas en GPU; mediana 1,3 s. CPU: 13,2 s.",
+    "ContextTokens": 2048,
+    "ResponseFormat": "writing_json_grammar_v1",
+    "TotalLayers": 36,
+    "AdapterId": "0000:0b:00.0"
+  },
+  "ExerciseId": "u01-writing-01",
+  "Level": "A1",
+  "Task": "Write a short introduction (2 to 4 sentences) for a language class forum. Say your name, where you are from, your age, and your job or studies.",
+  "StudentText": "Hello, my name is Sofia and I am from Colombia. I are twenty-two years old. I am a nursing student.",
+  "SystemPromptSha256": "42f1e781fdff0543a4370c7f6581a00795a78c5ffdd18db545d9408fa54259b1",
+  "MaximumAttempts": 1,
+  "Attempts": [
+    {
+      "Number": 1,
+      "Seed": 42,
+      "Output": {
+        "Content": "{\n  \u0022is_correct\u0022: false,\n  \u0022corrected_text\u0022: \u0022Hello, my name is Sofia and I am from Colombia. I am twenty-two years old. I am a nursing student.\u0022,\n  \u0022errors\u0022: [\n    {\n      \u0022original\u0022: \u0022I are twenty-two years old.\u0022,\n      \u0022correction\u0022: \u0022I am twenty-two years old.\u0022,\n      \u0022type\u0022: \u0022Subject-Verb Agreement\u0022,\n      \u0022explanation\u0022: \u0022The pronoun \u0027I\u0027 must be paired with the singular verb \u0027am\u0027 instead of \u0027are\u0027.\u0022\n    }\n  ],\n  \u0022feedback\u0022: \u0022You have a good start! Remember that when you use the pronoun \u0027I\u0027, the correct verb to pair with it is \u0027am\u0027. For example, you should say \u0027I am twenty-two years old\u0027 instead of \u0027I are twenty-two years old\u0027.\u0022\n}",
+        "FinishReason": "stop",
+        "Seconds": 1.1330289,
+        "Diagnostics": "isolated=true; adapter=0000:0b:00.0; gpu_layers=36/36; thinking_requested=false; log=C:\\Users\\Kevin\\Desktop\\code\\U\\IA\\SLM_A1A2\\course_app\\artifacts\\runtime-tuning-20261121\\windows-native\\worker-logs\\worker-8f8dd6d14bfa4a48b2efb12aa21e4f2e.log",
+        "Metrics": {
+          "PromptTokens": 770,
+          "OutputTokens": 185,
+          "DecodedTokens": 185,
+          "PromptSeconds": 0.052652000000000004,
+          "DecodeSeconds": 1.021341,
+          "ClosedThinkingPrefill": false,
+          "DecodeTokensPerSecond": 181.13441054456837
+        }
+      },
+      "Parsed": {
+        "Status": "STRICT",
+        "Value": {
+          "IsCorrect": false,
+          "CorrectedText": "Hello, my name is Sofia and I am from Colombia. I am twenty-two years old. I am a nursing student.",
+          "Errors": [
+            {
+              "Original": "I are twenty-two years old.",
+              "Correction": "I am twenty-two years old.",
+              "Type": "Subject-Verb Agreement",
+              "Explanation": "The pronoun \u0027I\u0027 must be paired with the singular verb \u0027am\u0027 instead of \u0027are\u0027."
+            }
+          ],
+          "Feedback": "You have a good start! Remember that when you use the pronoun \u0027I\u0027, the correct verb to pair with it is \u0027am\u0027. For example, you should say \u0027I am twenty-two years old\u0027 instead of \u0027I are twenty-two years old\u0027."
+        },
+        "Error": null,
+        "RawText": "{\n  \u0022is_correct\u0022: false,\n  \u0022corrected_text\u0022: \u0022Hello, my name is Sofia and I am from Colombia. I am twenty-two years old. I am a nursing student.\u0022,\n  \u0022errors\u0022: [\n    {\n      \u0022original\u0022: \u0022I are twenty-two years old.\u0022,\n      \u0022correction\u0022: \u0022I am twenty-two years old.\u0022,\n      \u0022type\u0022: \u0022Subject-Verb Agreement\u0022,\n      \u0022explanation\u0022: \u0022The pronoun \u0027I\u0027 must be paired with the singular verb \u0027am\u0027 instead of \u0027are\u0027.\u0022\n    }\n  ],\n  \u0022feedback\u0022: \u0022You have a good start! Remember that when you use the pronoun \u0027I\u0027, the correct verb to pair with it is \u0027am\u0027. For example, you should say \u0027I am twenty-two years old\u0027 instead of \u0027I are twenty-two years old\u0027.\u0022\n}",
+        "ExtractedJson": null
+      }
+    }
+  ],
+  "Usable": true,
+  "StopReason": "usable_envelope"
+}

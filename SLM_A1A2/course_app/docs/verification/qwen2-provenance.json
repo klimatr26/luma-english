@@ -1,0 +1,33 @@
+{
+  "date_utc": "2026-11-20T00:56:50.763475+00:00",
+  "primary_api_url": "https://huggingface.co/api/models/unsloth/Qwen3.5-2B-GGUF/revision/f6d5376be1edb4d416d56da11e5397a961aca8ae?blobs=true",
+  "revision": "f6d5376be1edb4d416d56da11e5397a961aca8ae",
+  "license": "apache-2.0",
+  "benchmark_equivalence_claimed": false,
+  "models": [
+    {
+      "id": "portable-unsloth-qwen35-2b-q4-k-m",
+      "filename": "Qwen3.5-2B-Q4_K_M.gguf",
+      "bytes": 1280835840,
+      "sha256": "aaf42c8b7c3cab2bf3d69c355048d4a0ee9973d48f16c731c0520ee914699223",
+      "metadata_verified": true,
+      "local_bytes_verified": true
+    },
+    {
+      "id": "portable-unsloth-qwen35-2b-q8-0",
+      "filename": "Qwen3.5-2B-Q8_0.gguf",
+      "bytes": 2012012800,
+      "sha256": "1b04acba824817554f4ce23639bc8495ff70453b8fcb047900c731521021f2c1",
+      "metadata_verified": true,
+      "local_bytes_verified": false
+    },
+    {
+      "id": "portable-unsloth-qwen35-2b-ud-q4-k-xl",
+      "filename": "Qwen3.5-2B-UD-Q4_K_XL.gguf",
+      "bytes": 1339752704,
+      "sha256": "0af96165ea615bea39a04118d63f0b6d35908aea850ee4a51aa6151d851b8b35",
+      "metadata_verified": true,
+      "local_bytes_verified": false
+    }
+  ]
+}

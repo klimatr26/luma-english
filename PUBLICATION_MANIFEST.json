@@ -1,6 +1,6 @@
 {
   "purpose": "PRIVATE_THESIS_REPOSITORY_SOURCE_EXPORT",
-  "source_commit": "8bc4b93c1cea3cdac757167314c7ea424bb92265",
+  "source_commit": "a9489e032a2c007650447c90b210625349468fe9",
   "history": "Independent publication history; original local Git history was not exported.",
   "excluded": [
     "PROJECT_CONTEXT_TITULACION_SLM_A1A2.md",
@@ -23,18 +23,18 @@
     },
     {
       "path": "ANEXOS.md",
-      "bytes": 2920,
-      "sha256": "1d8e0aac6057dce2b868fad85c696dfbac418597f2ca9969313530eda89ed3a8"
+      "bytes": 2956,
+      "sha256": "a5f0b4604b28466a59c03060def2605cfa0f0889a990c5f7af61263982bc62d2"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 453,
-      "sha256": "2bf2a503f53c41563207fa0fe072ecb1d11b2e7da78740629018e8e91355658f"
+      "bytes": 477,
+      "sha256": "5f25712ec934f9ca899f0c7b9a50c8555cbe2d1031110d9fc76c2764390b8614"
     },
     {
       "path": "README.md",
-      "bytes": 2921,
-      "sha256": "be263ae59686c88a94ae358b801f939d9a1caf9acc26dc1eb341ff59ebc1dbbf"
+      "bytes": 2984,
+      "sha256": "5a918ecdea14e078326d97e42847dc801f1c49761386607ae230db3df7eb4d4a"
     },
     {
       "path": "SLM_A1A2/PHASE2_HANDOFF_20261011.md",

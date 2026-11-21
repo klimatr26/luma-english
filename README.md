@@ -1,6 +1,6 @@
 # Luma English
 
-Aplicación del proyecto de titulación de Kevin Lima: curso básico de inglés con
+Aplicación del proyecto de titulación de Kevin Lima Blanco: curso básico de inglés con
 evaluación de Writing mediante modelos pequeños ejecutados en el dispositivo.
 Comparte núcleo e interfaz **Avalonia 12 / .NET 11** entre Windows y Android;
 guarda el progreso en SQLite y compara CPU/Vulkan antes de elegir aceleración.
@@ -10,7 +10,7 @@ guarda el progreso en SQLite y compara CPU/Vulkan antes de elegir aceleración.
 - [Aplicación final: uso, arquitectura, modelos y compilación](SLM_A1A2/course_app/README.md).
 - [Anexos: mapa de fuentes, pruebas y resultados](ANEXOS.md).
 - [Documentación experimental](SLM_A1A2/documentation/README.md).
-- [Paquetes verificados de Windows y Android](https://github.com/klimatr26/luma-english/releases/tag/v1.1.2-thesis).
+- [Paquetes verificados de Windows y Android](https://github.com/klimatr26/luma-english/releases/tag/v1.1.2-thesis-r1).
 
 La entrega de referencia es **1.1.2**. Los paquetes contienen el runtime; los
 pesos GGUF se descargan o importan desde la aplicación y se verifican por SHA-256.
@@ -36,7 +36,7 @@ general al código propio del proyecto.
 
 ## Referencias en el trabajo escrito
 
-Utiliza la etiqueta **`v1.1.2-thesis`** o el SHA completo de un commit para fijar
+Utiliza la etiqueta **`v1.1.2-thesis-r1`** o el SHA completo de un commit para fijar
 la versión citada. `CITATION.cff` proporciona los datos básicos de cita y
 `ANEXOS.md` muestra enlaces directos a los elementos del proyecto. El repositorio
 es privado: los lectores necesitan acceso concedido por su propietario.

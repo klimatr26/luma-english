@@ -1,7 +1,7 @@
 # Mapa para los anexos del trabajo de titulación
 
 Las rutas son relativas al repositorio. Para citar una versión estable, abrir
-este archivo desde la etiqueta `v1.1.2-thesis`, y conservar esa etiqueta o el SHA
+este archivo desde la etiqueta `v1.1.2-thesis-r1`, y conservar esa etiqueta o el SHA
 completo al copiar enlaces de GitHub. Las fechas de los informes permiten separar
 resultados históricos de correcciones posteriores.
 
